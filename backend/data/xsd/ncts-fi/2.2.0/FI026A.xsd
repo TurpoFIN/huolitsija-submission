@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/transit/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/transit/ext/v1" version="1.0.138" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Registration notification</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI026A">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="chars_1_14">
+        <xs:annotation>
+          <xs:documentation>Case identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="2" name="FunctionalReference" type="FunctionalReference_033">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_720">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Notification" type="Notification_099">
+        <xs:annotation>
+          <xs:documentation>Notification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI026A" type="FI026A">
+    <xs:annotation>
+      <xs:documentation>Registration notification</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

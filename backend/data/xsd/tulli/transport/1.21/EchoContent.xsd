@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: EchoContent.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	targetNamespace="http://tulli.fi/schema/DME/echocontent/v1"
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+	version="v1_21">
+	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsig-core-schema.xsd"/>
+	<xs:element name="EchoContent">
+		<xs:annotation>
+			<xs:documentation>Used for for checking purpose: input and output for echo function</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Text" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>The text for echo function</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="255"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="ds:Signature" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Digital signature. This element is created by the XML Digital Signature operation by the message builder</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

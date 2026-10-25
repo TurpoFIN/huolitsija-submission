@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <!--=======================================================-->
+  <!--=====================  AEOStatus  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="AEOStatusContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-9]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  DateTime  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="DateTimeContentType">
+    <xs:restriction base="xs:dateTime">
+      <xs:pattern value="\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  Indicator  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IndicatorContentType">
+    <xs:restriction base="xs:boolean">
+      <xs:pattern value="[0-1]{1}" />
+      <xs:whiteSpace value="collapse" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  IndicatorString  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IndicatorStringContentType">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--========================  LRN  ========================-->
+  <!--=======================================================-->
+  <xs:simpleType name="LRNContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="22" />
+      <xs:pattern value=".{1,22}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--========================  LRN  ========================-->
+  <!--=======================================================-->
+  <xs:simpleType name="LRNContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  MIME  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MIMEContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--========================  MRN  ========================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MRNContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="18" />
+      <xs:pattern value=".{18}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  ModeOfTransport  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ModeOfTransportContentType">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-9]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===========  SpecificCircumstanceIndicator  ===========-->
+  <!--=======================================================-->
+  <xs:simpleType name="SpecificCircumstanceIndicatorContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  UNLOCODE  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="UNLOCODEContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  UNNumber  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="UNNumberContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--========================  URI  ========================-->
+  <!--=======================================================-->
+  <xs:simpleType name="URIContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2048" />
+      <xs:pattern value=".{1,2048}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==============  VATIdentificationNumber  ==============-->
+  <!--=======================================================-->
+  <xs:simpleType name="VATIdentificationNumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  attributeFormat  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="AttributeFormatContentType">
+    <xs:restriction base="xs:token">
+      <xs:pattern value=".{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  attributeName  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="AttributeNameContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  attributeValue  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="AttributeValueContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
+      <xs:pattern value=".{1,1024}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  businessCase  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="BusinessCaseContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{1,4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  category  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CategoryContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[a-zA-Z]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  category  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CategoryContentType2">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{1,4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  city  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CityContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  code  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CodeContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  code  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CodeContentType2">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  combinationID  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CombinationIDContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=============  combinedNomenclatureCode  =============-->
+  <!--=======================================================-->
+  <xs:simpleType name="CombinedNomenclatureCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value=".{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===========  containerIdentificationNumber  ===========-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerIdentificationNumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  containerIndicator  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerIndicatorContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0,1]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  containerIndicator  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerIndicatorContentType2">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-1]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  containerPackedStatus  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerPackedStatusContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  containerSizeAndType  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerSizeAndTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="10" />
+      <xs:pattern value=".{1,10}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  containerSupplierType  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ContainerSupplierTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  controlDecision  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ControlDecisionContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  controlTrigger  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ControlTriggerContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=============  conveyanceReferenceNumber  =============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ConveyanceReferenceNumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  country  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CountryContentType2">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[A-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  country  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CountryContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  country  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CountryContentType3">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  currency  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CurrencyContentType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3" />
+      <xs:maxLength value="3" />
+      <xs:pattern value="[A-Z]{3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  cusCode  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="CusCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="9" />
+      <xs:pattern value=".{1,9}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  description  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="DescriptionContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="256" />
+      <xs:pattern value=".{1,256}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  description  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="DescriptionContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  descriptionOfGoods  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="DescriptionOfGoodsContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  documentNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="DocumentNumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  enrichmentID  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="EnrichmentIDContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  enrichmentType  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="EnrichmentTypeContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2" />
+      <xs:pattern value=".{2}" />
+      <xs:whiteSpace value="collapse" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  filename  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="FilenameContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="256" />
+      <xs:pattern value=".{1,256}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  flexibleStructure  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="FlexibleStructureContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="10000" />
+      <xs:pattern value=".{1,10000}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  functionalReference  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="FunctionalReferenceContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  goodsItemNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="GoodsItemNumberContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9]{1,5}" />
+      <xs:minInclusive value="0" />
+      <xs:totalDigits value="5" />
+      <xs:fractionDigits value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  grossMass  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="GrossMassContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="16" />
+      <xs:fractionDigits value="6" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==========  harmonizedSystemSubHeadingCode  ==========-->
+  <!--=======================================================-->
+  <xs:simpleType name="HarmonizedSystemSubHeadingCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="6" />
+      <xs:pattern value=".{6}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  highPriority  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="HighPriorityContentType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-1]{1}" />
+      <xs:whiteSpace value="collapse" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  identification  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentificationContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="256" />
+      <xs:pattern value=".{1,256}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  identification  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentificationContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  identificationNumber  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentificationNumberContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  identificationNumber  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentificationNumberContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  identifier  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentifierContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="20" />
+      <xs:pattern value=".{1,20}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  identifier  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="IdentifierContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  location  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="LocationContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  messageElementPath  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MessageElementPathContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  messageFunction  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MessageFunctionContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[0-9]{1,2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  method  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MethodContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  methodOfPayment  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="MethodOfPaymentContentType">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="1" />
+      <xs:pattern value="[a-zA-Z]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  name  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NameContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  nationality  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NationalityContentType">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  netMass  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NetMassContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:totalDigits value="16" />
+      <xs:fractionDigits value="6" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  number  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  numberOfPackages  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NumberOfPackagesContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9]{1,8}" />
+      <xs:minInclusive value="0" />
+      <xs:totalDigits value="8" />
+      <xs:fractionDigits value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  numberOfSeals  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="NumberOfSealsContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9]{1,4}" />
+      <xs:minInclusive value="0" />
+      <xs:totalDigits value="4" />
+      <xs:fractionDigits value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  parameter  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ParameterContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  placeOfControl  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="PlaceOfControlContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  placeOfExamination  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="PlaceOfExaminationContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="256" />
+      <xs:pattern value=".{1,256}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  poBox  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="PoBoxContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  postCode  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="PostCodeContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  previousMRN  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="PreviousMRNContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="18" />
+      <xs:pattern value=".{18}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  reEntryIndicator  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReEntryIndicatorContentType">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[0-1]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  reasonCode  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReasonCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  reasonText  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReasonTextContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==========  receptacleIdentificationNumber  ==========-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReceptacleIdentificationNumberContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  referenceIdentifier  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferenceIdentifierContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  referenceNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferenceNumberContentType2">
+    <xs:restriction base="xs:string">
+      <xs:length value="8" />
+      <xs:pattern value=".{8}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  referenceNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferenceNumberContentType3">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  referenceNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferenceNumberContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  referenceNumberUCR  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferenceNumberUCRContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=============  referralRequestReference  =============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferralRequestReferenceContentType1">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=============  referralRequestReference  =============-->
+  <!--=======================================================-->
+  <xs:simpleType name="ReferralRequestReferenceContentType2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  requestID  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RequestIDContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  requestReference  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RequestReferenceContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  requestType  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RequestTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  result  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ResultContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  resultCode  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ResultCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-9]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  resultText  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ResultTextContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===========  riskAnalysisRequestReference  ===========-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskAnalysisRequestReferenceContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  riskAnalysisType  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskAnalysisTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[a-zA-Z]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  riskAreaCode  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskAreaCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=================  riskAssementType  =================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskAssementTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--================  riskAssessmentType  ================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskAssessmentTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==============  riskCriteriaIdentifier  ==============-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskCriteriaIdentifierContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=====================  riskLevel  =====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RiskLevelContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  role  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="RoleContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  sequenceNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="SequenceNumberContentType2">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9]{1,2}" />
+      <xs:totalDigits value="2" />
+      <xs:fractionDigits value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  sequenceNumber  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="SequenceNumberContentType1">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9]{1,5}" />
+      <xs:totalDigits value="5" />
+      <xs:fractionDigits value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  shippingMarks  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ShippingMarksContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=============  splitConsignmentIndicator  =============-->
+  <!--=======================================================-->
+  <xs:simpleType name="SplitConsignmentIndicatorContentType">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[0-1]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  state  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="StateContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[0-9]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  status  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="StatusContentType">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-9]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--======================  street  ======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="StreetContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  streetAdditionalLine  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="StreetAdditionalLineContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70" />
+      <xs:pattern value=".{1,70}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  subDivision  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="SubDivisionContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35" />
+      <xs:pattern value=".{1,35}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==============  supplementaryFilingType  ==============-->
+  <!--=======================================================-->
+  <xs:simpleType name="SupplementaryFilingTypeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  technicalErrorMessage  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="TechnicalErrorMessageContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
+      <xs:pattern value=".{1,1024}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  text  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TextContentType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512" />
+      <xs:pattern value=".{1,512}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  totalGrossMass  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TotalGrossMassContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="16" />
+      <xs:fractionDigits value="6" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType5">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="17" />
+      <xs:pattern value=".{1,17}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType4">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value="[a-zA-Z]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType1">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType6">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value="[a-zA-Z]{3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType2">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{1,4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  type  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeContentType3">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--====================  typeOfGoods  ====================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeOfGoodsContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="3" />
+      <xs:pattern value=".{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===============  typeOfIdentification  ===============-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeOfIdentificationContentType">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+      <xs:pattern value="[0-9]{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==============  typeOfMeansOfTransport  ==============-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeOfMeansOfTransportContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="4" />
+      <xs:pattern value=".{1,4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  typeOfPackages  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeOfPackagesContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="2" />
+      <xs:pattern value=".{1,2}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--===================  typeOfPerson  ===================-->
+  <!--=======================================================-->
+  <xs:simpleType name="TypeOfPersonContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="1" />
+      <xs:pattern value="[0-9]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--==================  validationCode  ==================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ValidationCodeContentType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="8" />
+      <xs:pattern value=".{1,8}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--=======================================================-->
+  <!--=======================  value  =======================-->
+  <!--=======================================================-->
+  <xs:simpleType name="ValueContentType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="16" />
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

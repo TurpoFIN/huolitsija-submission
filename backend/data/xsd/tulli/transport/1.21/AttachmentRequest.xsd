@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+Name: AttachmentRequest.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+			xmlns:mess="http://tulli.fi/schema/corporateservice/v1"
+			xmlns:atta="http://tulli.fi/schema/corporateservice/attch/v1"
+			targetNamespace="http://tulli.fi/schema/corporateservice/attch/v1" 
+			elementFormDefault="qualified" 
+			attributeFormDefault="unqualified" 
+			version="v1_21">
+	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsig-core-schema.xsd"/>
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<!--===== Root Element =====-->
+	<xs:element name="AttachmentRequest" type="atta:AttachmentRequestType"/>
+	<xs:complexType name="AttachmentRequestType">
+		<xs:annotation>
+			<xs:documentation>Used for transmitting attachments. Must be be XML Digital Signed</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageBuilderBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the party who signed the AttachementHeader and AttachmentContent parts of document.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeclarantBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the party who is declarant.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Application" type="mess:Application">
+				<xs:annotation>
+					<xs:documentation>The short name of the target Customs application which the attachement is related to.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentTitle" type="mess:Title">
+				<xs:annotation>
+					<xs:documentation>The title of the attachment.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentDescription" type="mess:Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The description or additional information of the attachment.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentDocumentType" type="mess:DocumentType">
+				<xs:annotation>
+					<xs:documentation>Customs defined code identifying the type of the related document.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RelatedMessageStorageId" type="mess:MessageStorageId">
+				<xs:annotation>
+					<xs:documentation>The MessageStorageId of the declaration the attachment is related to.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CustomsRequest" type="mess:CustomsRequest">
+				<xs:annotation>
+					<xs:documentation>Is attachment requested by Customs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentRelationIdentifier" type="mess:RelationIdentifier" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Unique identifier of the parent document of the attachment.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LanguageCode" type="mess:LanguageCode">
+				<xs:annotation>
+					<xs:documentation>The language code.</xs:documentation>
+				</xs:annotation>
+			</xs:element>			
+			<xs:element name="RepresentativeBusinessId" type="mess:BusinessId" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The business identity code of customer's representative</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentContent" type="mess:ApplicationContent">
+				<xs:annotation>
+					<xs:documentation>The actual declarant-owned message, e.g. attachment related to customs declaration and its mime type.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="ds:Signature">
+				<xs:annotation>
+					<xs:documentation>Digital signature. This element is created by the XML Digital Signature operation by the message builder</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="3.0.37" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="bool">
+    <xs:restriction base="xs:boolean" />
+  </xs:simpleType>
+  <xs:simpleType name="byte_between_1_9">
+    <xs:restriction base="xs:unsignedByte">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="9" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_1_regex_360">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9]*" />
+      <xs:minLength value="1" />
+      <xs:maxLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_100">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_15_regex_360_eFunctionalReferenceFunction">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9]*" />
+      <xs:minLength value="1" />
+      <xs:maxLength value="15" />
+      <xs:enumeration value="MRN" />
+      <xs:enumeration value="LRN" />
+      <xs:enumeration value="AdditionalLRN" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_2">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_2_regex_188">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]*" />
+      <xs:minLength value="1" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_22">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="22" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_25_eDeclarationTypeFunction">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="25" />
+      <xs:enumeration value="DeclarationType" />
+      <xs:enumeration value="AdditionalDeclarationType" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_35">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="35" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_35_eAdditionalDocumentFunction">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="35" />
+      <xs:enumeration value="SupportingDocument" />
+      <xs:enumeration value="AdditionalReference" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_35_eAdditionalDocumentFunctionHeader">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="35" />
+      <xs:enumeration value="SupportingDocument" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_4_regex_374">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z0-9]*" />
+      <xs:minLength value="1" />
+      <xs:maxLength value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_512">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="512" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_6">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="6" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_70">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="70" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_1_max">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_2">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_2_regex_374">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z0-9]*" />
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_2_regex_502">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z]*" />
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_2_regex_764">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}" />
+      <xs:minLength value="2" />
+      <xs:maxLength value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_3_eClassificationIdentificationType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2" />
+      <xs:maxLength value="3" />
+      <xs:enumeration value="HS" />
+      <xs:enumeration value="CN" />
+      <xs:enumeration value="TAR" />
+      <xs:enumeration value="CUS" />
+      <xs:enumeration value="TAN" />
+      <xs:enumeration value="NAT" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_3_eOriginType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2" />
+      <xs:maxLength value="3" />
+      <xs:enumeration value="OC" />
+      <xs:enumeration value="POC" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_4_regex_816">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z0-9]{2,4}" />
+      <xs:minLength value="2" />
+      <xs:maxLength value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2_9">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2" />
+      <xs:maxLength value="9" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2000">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2000" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_2300">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2300" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_255">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_3_3_regex_188">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]*" />
+      <xs:minLength value="3" />
+      <xs:maxLength value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_3_3_regex_360">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9]*" />
+      <xs:minLength value="3" />
+      <xs:maxLength value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_3_3_regex_374">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z0-9]*" />
+      <xs:minLength value="3" />
+      <xs:maxLength value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_3_3_regex_754">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]*" />
+      <xs:minLength value="3" />
+      <xs:maxLength value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_4_4_regex_374">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z0-9]*" />
+      <xs:minLength value="4" />
+      <xs:maxLength value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_4000">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="4000" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_4096">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="4096" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_5_5">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5" />
+      <xs:maxLength value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_50">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_50_eNoticeImportance">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+      <xs:enumeration value="warning" />
+      <xs:enumeration value="info" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="chars_50_regex_120_eNoticeState">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Za-z]*" />
+      <xs:maxLength value="50" />
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="Expired" />
+      <xs:enumeration value="Removed" />
+      <xs:enumeration value="Published" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="datetime_unlimited">
+    <xs:restriction base="xs:dateTime" />
+  </xs:simpleType>
+  <xs:simpleType name="dec_total_16_between_0_max_fract_2">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9\-\+\.]+" />
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="9999999999999999" />
+      <xs:fractionDigits value="2" />
+      <xs:totalDigits value="16" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dec_total_16_between_0_max_fract_6">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="[0-9\-\+\.]+" />
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="9999999999999999" />
+      <xs:fractionDigits value="6" />
+      <xs:totalDigits value="16" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="guid_b">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="token_1_17">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="17" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="token_1_35">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="35" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="token_1_70">
+    <xs:restriction base="xs:token">
+      <xs:minLength value="1" />
+      <xs:maxLength value="70" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="uint_between_1_99999">
+    <xs:restriction base="xs:unsignedInt">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="99999" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ushort_between_100_999">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:minInclusive value="100" />
+      <xs:maxInclusive value="999" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="AdditionalDocument_405">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Identifier</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="chars_4_4_regex_374">
+        <xs:annotation>
+          <xs:documentation>Type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Line" type="uint_between_1_99999">
+        <xs:annotation>
+          <xs:documentation>Item Number</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="NationalReference" type="AttachmentReference_812">
+        <xs:annotation>
+          <xs:documentation>Attachment Reference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="function" type="chars_1_35_eAdditionalDocumentFunction" use="required">
+      <xs:annotation>
+        <xs:documentation>function</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="AdditionalDocument_843">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Identifier</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="chars_4_4_regex_374">
+        <xs:annotation>
+          <xs:documentation>Type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="NationalReference" type="AttachmentReference_812">
+        <xs:annotation>
+          <xs:documentation>Attachment Reference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="function" type="chars_1_35_eAdditionalDocumentFunctionHeader" use="optional">
+      <xs:annotation>
+        <xs:documentation>function</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="AdditionalIdentifier_243">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_3_3_regex_188">
+        <xs:annotation>
+          <xs:documentation>Trader Office Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AdditionalInformation_895">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Statement" type="chars_5_5">
+        <xs:annotation>
+          <xs:documentation>Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="StatementDescription" type="chars_1_512">
+        <xs:annotation>
+          <xs:documentation>Description</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AdditionalProcedure_083">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Procedure" type="chars_3_3_regex_374">
+        <xs:annotation>
+          <xs:documentation>Additional procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Address_209">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="Line" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Street</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="CityName" type="token_1_35">
+        <xs:annotation>
+          <xs:documentation>City</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Postcode" type="token_1_17">
+        <xs:annotation>
+          <xs:documentation>Postcode</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Country" type="chars_2_2_regex_764">
+        <xs:annotation>
+          <xs:documentation>Country</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Address_815">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Line" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Street</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="CityName" type="token_1_35">
+        <xs:annotation>
+          <xs:documentation>City</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Postcode" type="token_1_17">
+        <xs:annotation>
+          <xs:documentation>Postcode</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Country" type="chars_2_2_regex_764">
+        <xs:annotation>
+          <xs:documentation>Country</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Amendment_372">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="Amendment" type="datetime_unlimited">
+        <xs:annotation>
+          <xs:documentation>Amendment DateTime</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ChangeReason" type="chars_1_6">
+        <xs:annotation>
+          <xs:documentation>Reason for Amendment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="chars_3_3_regex_360">
+        <xs:annotation>
+          <xs:documentation>Amendment Type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestCorrelation" type="guid_b">
+        <xs:annotation>
+          <xs:documentation>Request Correlation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Text" type="chars_4096">
+        <xs:annotation>
+          <xs:documentation>Reason text</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="999" name="ProvidedInfo" type="ProvidedInformation_830">
+        <xs:annotation>
+          <xs:documentation>Provided Information</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Payment" type="PaymentDetails_889">
+        <xs:annotation>
+          <xs:documentation>Payment details</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Applicant_628">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="token_1_17">
+        <xs:annotation>
+          <xs:documentation>Identification number</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="AdditionalIdentifier" type="AdditionalIdentifier_243">
+        <xs:annotation>
+          <xs:documentation>AdditionalIdentifier</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="chars_1_1_regex_360">
+        <xs:annotation>
+          <xs:documentation>Role (Nature)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Address" type="Address_209">
+        <xs:annotation>
+          <xs:documentation>Address</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AttachmentReference_812">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_1_35">
+        <xs:annotation>
+          <xs:documentation>Attachment Reference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ChargeDeduction_917">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="ChargesType" type="chars_2_2_regex_374">
+        <xs:annotation>
+          <xs:documentation>Additions and deduction codes</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="OtherChargeDeduction" type="OtherChargeDeductionAmount_263">
+        <xs:annotation>
+          <xs:documentation>Additions and deductions amount</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Classification_498">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_2_9">
+        <xs:annotation>
+          <xs:documentation>Identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="IdentificationType" type="chars_2_3_eClassificationIdentificationType">
+        <xs:annotation>
+          <xs:documentation>IdentificationType</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Commodity_010">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Description" type="chars_1_512">
+        <xs:annotation>
+          <xs:documentation>Description of goods</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="202" name="Classification" type="Classification_498">
+        <xs:annotation>
+          <xs:documentation>Classification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DutyTaxFee" type="DutyTaxFee_945">
+        <xs:annotation>
+          <xs:documentation>Duty tax fee</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="InvoiceLine" type="InvoiceLine_630">
+        <xs:annotation>
+          <xs:documentation>Invoice Line</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Consignee_932">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="token_1_17">
+        <xs:annotation>
+          <xs:documentation>Identification number</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="token_1_70">
+        <xs:annotation>
+          <xs:documentation>Name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="chars_1_1_regex_360">
+        <xs:annotation>
+          <xs:documentation>Role (Nature)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Address" type="Address_815">
+        <xs:annotation>
+          <xs:documentation>Address</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CustomsValuation_017">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="Method" type="byte_between_1_9">
+        <xs:annotation>
+          <xs:documentation>Valuation method</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="ChargeDeduction" type="ChargeDeduction_917">
+        <xs:annotation>
+          <xs:documentation>Charge Deduction</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DutyTaxFee_945">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="DutyRegime" type="ushort_between_100_999">
+        <xs:annotation>
+          <xs:documentation>Preference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="SpecificTaxBase" type="SpecificTaxBase_126">
+        <xs:annotation>
+          <xs:documentation>SpecificTaxBase</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FunctionalReference_287">
+    <xs:simpleContent>
+      <xs:extension base="chars_1_22">
+        <xs:attribute name="function" type="chars_1_15_regex_360_eFunctionalReferenceFunction" use="required">
+          <xs:annotation>
+            <xs:documentation>function</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="GoodsItem_986">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Sequence" type="uint_between_1_99999">
+        <xs:annotation>
+          <xs:documentation>Goods item number</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Commodity" type="Commodity_010">
+        <xs:annotation>
+          <xs:documentation>Commodity</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="CustomsValuation" type="CustomsValuation_017">
+        <xs:annotation>
+          <xs:documentation>Customs Valuation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="GoodsMeasure" type="GoodsMeasure_646">
+        <xs:annotation>
+          <xs:documentation>Goods Measure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="GovernmentProcedure" type="Procedure_117">
+        <xs:annotation>
+          <xs:documentation>Procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="2" name="Origin" type="Origin_353">
+        <xs:annotation>
+          <xs:documentation>Origin</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="198" name="AdditionalDocument" type="AdditionalDocument_405">
+        <xs:annotation>
+          <xs:documentation>Additional document</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="AdditionalInformation" type="AdditionalInformation_895">
+        <xs:annotation>
+          <xs:documentation>Additional information</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GoodsMeasure_646">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="NetNetMass" type="dec_total_16_between_0_max_fract_6">
+        <xs:annotation>
+          <xs:documentation>Net mass</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Tariff" type="dec_total_16_between_0_max_fract_6">
+        <xs:annotation>
+          <xs:documentation>Supplementary units</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GoodsShipment_087">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="TransactionNature" type="chars_1_2_regex_188">
+        <xs:annotation>
+          <xs:documentation>Nature of transaction</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Importer" type="Consignee_932">
+        <xs:annotation>
+          <xs:documentation>Consignee/Importer</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="99999" name="GovernmentAgencyGoodsItem" type="GoodsItem_986">
+        <xs:annotation>
+          <xs:documentation>Goods item</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InvoiceLine_630">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="ItemCharge" type="ItemChargeAmount_017">
+        <xs:annotation>
+          <xs:documentation>ItemChargeAmount</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ItemChargeAmount_017">
+    <xs:simpleContent>
+      <xs:extension base="dec_total_16_between_0_max_fract_2">
+        <xs:attribute name="CurrencyUnit" type="chars_3_3_regex_754" use="required">
+          <xs:annotation>
+            <xs:documentation>CurrencyUnit</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="LocalizedSummary_252">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="SummaryEN" type="chars_2300">
+        <xs:annotation>
+          <xs:documentation>SummaryEN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="SummaryFI" type="chars_2300">
+        <xs:annotation>
+          <xs:documentation>SummaryFI</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="SummarySV" type="chars_2300">
+        <xs:annotation>
+          <xs:documentation>SummarySV</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocalizedText_832">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="TextEN" type="chars_2000">
+        <xs:annotation>
+          <xs:documentation>TextEN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TextFI" type="chars_2000">
+        <xs:annotation>
+          <xs:documentation>TextFI</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TextSV" type="chars_2000">
+        <xs:annotation>
+          <xs:documentation>TextSV</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayTextEN" type="chars_4000">
+        <xs:annotation>
+          <xs:documentation>DisplayTextEN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayTextFI" type="chars_4000">
+        <xs:annotation>
+          <xs:documentation>DisplayTextFI</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayTextSV" type="chars_4000">
+        <xs:annotation>
+          <xs:documentation>DisplayTextSV</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocalizedTitle_813">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="TitleEN" type="chars_255">
+        <xs:annotation>
+          <xs:documentation>TitleEN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TitleFI" type="chars_255">
+        <xs:annotation>
+          <xs:documentation>TitleFI</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TitleSV" type="chars_255">
+        <xs:annotation>
+          <xs:documentation>TitleSV</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Origin_353">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Country" type="chars_2_4_regex_816">
+        <xs:annotation>
+          <xs:documentation>(Preferential) Origin Country Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="chars_2_3_eOriginType">
+        <xs:annotation>
+          <xs:documentation>Type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OtherChargeDeductionAmount_263">
+    <xs:simpleContent>
+      <xs:extension base="dec_total_16_between_0_max_fract_2">
+        <xs:attribute name="CurrencyUnit" type="chars_3_3_regex_754" use="required">
+          <xs:annotation>
+            <xs:documentation>CurrencyUnit</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="PaymentDetails_889">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Payer" type="token_1_17">
+        <xs:annotation>
+          <xs:documentation>Payer responsible for payment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="dec_total_16_between_0_max_fract_2">
+        <xs:annotation>
+          <xs:documentation>Requested amount</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="SmallAmountRepayment" type="bool">
+        <xs:annotation>
+          <xs:documentation>Small Amount Repayment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Method" type="chars_1_1_regex_360">
+        <xs:annotation>
+          <xs:documentation>Repayment method</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="AccountIdentification" type="chars_1_100">
+        <xs:annotation>
+          <xs:documentation>Bank account</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="BIC" type="chars_1_35">
+        <xs:annotation>
+          <xs:documentation>BIC</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="AccountHolderName" type="chars_1_70">
+        <xs:annotation>
+          <xs:documentation>AccountHolder</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Address" type="Address_815">
+        <xs:annotation>
+          <xs:documentation>Address details of the bank or of the payee</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Procedure_117">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Current" type="chars_2_2">
+        <xs:annotation>
+          <xs:documentation>Requested procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Previous" type="chars_2_2">
+        <xs:annotation>
+          <xs:documentation>Previous procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="AdditionalProcedure" type="AdditionalProcedure_083">
+        <xs:annotation>
+          <xs:documentation>AdditionalProcedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProvidedInformation_830">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="chars_1_max">
+        <xs:annotation>
+          <xs:documentation>Description</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DocumentLink" type="chars_1_22">
+        <xs:annotation>
+          <xs:documentation>DocumentLink</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Quantity_320">
+    <xs:simpleContent>
+      <xs:extension base="dec_total_16_between_0_max_fract_6">
+        <xs:attribute name="QuantityUnit" type="chars_1_4_regex_374" use="required">
+          <xs:annotation>
+            <xs:documentation>Quantity unit</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="SpecificTaxBase_126">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Quantity" type="Quantity_320">
+        <xs:annotation>
+          <xs:documentation>Quantity</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Type_962">
+    <xs:simpleContent>
+      <xs:extension base="chars_1_2">
+        <xs:attribute name="function" type="chars_1_25_eDeclarationTypeFunction" use="required">
+          <xs:annotation>
+            <xs:documentation>function</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

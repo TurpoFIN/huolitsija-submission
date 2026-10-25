@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<FI043A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>d16bb6aeedaf42</Identification>
+  <FunctionalReference function="MRN">25FIP41000025406J4</FunctionalReference>
+  <Type function="DeclarationType">T1</Type>
+  <Language>fi</Language>
+  <ReducedDatasetIndicator>0</ReducedDatasetIndicator>
+  <Security>0</Security>
+  <Notification>
+    <Type>PUR</Type>
+    <Notification>2025-05-12T14:15:23</Notification>
+    <Decision>
+      <Decision>2025-05-12T11:15:23</Decision>
+      <Note>
+        <Note>DP900</Note>
+        <NoteDescription>Purkauslupa.</NoteDescription>
+      </Note>
+      <Note>
+        <Note>D0100</Note>
+        <NoteDescription>Tämä asia on ratkaistu automaattisesti. Saat automaattisesti ratkaistua asiaa koskevia lisätietoja neuvonnasta. Katso yhteystiedot päätöksen alalaidasta.
+
+Automaattisen ratkaisumenettelyn käyttöönotosta annetut päätökset ovat saatavilla Tullin verkkosivuilla (https://tulli.fi/tutustu-tulliin/aineisto/automaattinen-paatoksenteko) sekä pyynnöstä myös sähköpostilla tai postitse Tullin kirjaamosta: p. +358 (0)295 527000, sähköposti kirjaamo@tulli.fi ja postiosoite Tulli, PL 512, 00101 Helsinki.</NoteDescription>
+      </Note>
+    </Decision>
+  </Notification>
+  <DestinationTrader>
+    <Identification>FI7000288-8</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+  </DestinationTrader>
+  <Principal>
+    <Identification>FI7000288-8</Identification>
+    <Name>Tefkije Testifirma Short OY</Name>
+    <Role>R</Role>
+    <Address>
+      <Line>Essintie 83</Line>
+      <CityName>Lappeenranta</CityName>
+      <Postcode>53300</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Principal>
+  <Consignment>
+    <Container>1</Container>
+    <Destination>
+      <Country>FI</Country>
+    </Destination>
+    <InlandTransportMode>3</InlandTransportMode>
+    <TotalGrossMass>30</TotalGrossMass>
+    <Consignee>
+      <Name>Kuljetus Oy</Name>
+      <Address>
+        <Line>Katu 2</Line>
+        <CityName>Helsinki</CityName>
+        <Postcode>00100</Postcode>
+        <Country>FI</Country>
+      </Address>
+    </Consignee>
+    <Consignor>
+      <Name>Norske AS</Name>
+      <Address>
+        <Line>Gatan 3</Line>
+        <CityName>Tromsö</CityName>
+        <Postcode>99990</Postcode>
+        <Country>NO</Country>
+      </Address>
+    </Consignor>
+    <DepartureTransportMeans>
+      <Sequence>1</Sequence>
+      <Identification>CBA-123</Identification>
+      <IdentificationType>30</IdentificationType>
+      <Nationality>FI</Nationality>
+    </DepartureTransportMeans>
+    <TransportEquipment>
+      <Sequence>1</Sequence>
+      <Identification>CBAD123456-12</Identification>
+      <SealsAffixed>1</SealsAffixed>
+      <Seal>
+        <Sequence>1</Sequence>
+        <Identification>FI01234</Identification>
+      </Seal>
+      <GoodsReference>
+        <Sequence>1</Sequence>
+        <GoodsItemNumber>1</GoodsItemNumber>
+      </GoodsReference>
+    </TransportEquipment>
+    <UCR>
+      <TraderAssignedReference>VV5</TraderAssignedReference>
+    </UCR>
+    <HouseConsignment>
+      <Sequence>1</Sequence>
+      <TotalGrossMass>30</TotalGrossMass>
+      <ConsignmentItem>
+        <Sequence>1</Sequence>
+        <GoodsItemNumber>1</GoodsItemNumber>
+        <Commodity>
+          <Description>Hiusharjat</Description>
+          <Classification>
+            <Identification>960329</Identification>
+            <IdentificationType>HS</IdentificationType>
+          </Classification>
+        </Commodity>
+        <GoodsMeasure>
+          <GrossMass>30</GrossMass>
+          <NetNetMass>28</NetNetMass>
+        </GoodsMeasure>
+        <Packaging>
+          <Sequence>1</Sequence>
+          <MarksNumbers>Hair</MarksNumbers>
+          <Quantity>1</Quantity>
+          <Type>CT</Type>
+        </Packaging>
+        <Packaging>
+          <Sequence>2</Sequence>
+          <MarksNumbers>Hair</MarksNumbers>
+          <Quantity>1</Quantity>
+          <Type>CR</Type>
+        </Packaging>
+      </ConsignmentItem>
+    </HouseConsignment>
+  </Consignment>
+  <DestinationOffice>
+    <Identification>FI002006</Identification>
+  </DestinationOffice>
+</FI043A>
+

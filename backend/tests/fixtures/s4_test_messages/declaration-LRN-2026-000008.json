@@ -1,0 +1,3535 @@
+{
+ "id": "c81a737a-4584-43e7-8860-8b5c211ae53b",
+ "lrn": "LRN-2026-000008",
+ "mrn": null,
+ "shipment_id": "33b6f668-f373-4c07-acdf-f9d4f2b49523",
+ "company_id": "e19d517b-7637-49e9-8403-97fe63db7728",
+ "type": "import",
+ "status": "needs_info",
+ "created_at": "2026-10-24T08:48:48Z",
+ "approval_id": null,
+ "submission": null,
+ "office": null,
+ "location_of_goods": null,
+ "demo": false,
+ "test": false,
+ "shipment_ref": "HUO-2026-000042",
+ "company_name": "E2E Testi 084712 Oy",
+ "declaration_type": "IM",
+ "additional_declaration_type": "A",
+ "procedure_code": "4000",
+ "additional_procedure": "999",
+ "representation_type": "direct",
+ "importer": {
+  "name": "E2E Testi 084712 Oy",
+  "business_id": "3994713-8",
+  "eori": "FI3994713-8",
+  "vat_id": "FI39947138",
+  "address": {
+   "street": "Mannerheimintie 12",
+   "postal_code": "00100",
+   "city": "Helsinki",
+   "country": "FI"
+  }
+ },
+ "seller": {
+  "name": "Shenzhen Velotek Components Co., Ltd.",
+  "address": {
+   "street": "No. 18 Huanguan South Road, Guanlan, Longhua District, Shenzhen 518110, Guangdong, China",
+   "city": "Shenzhen",
+   "postal_code": "518110",
+   "country": "CN"
+  },
+  "country": "CN",
+  "eori": null,
+  "vat_id": null
+ },
+ "buyer": {
+  "name": "Nordic Bike Parts Oy",
+  "address": "Teollisuuskatu 21, 00510 Helsinki, Finland",
+  "country": "FI",
+  "eori": "FI3990002-2"
+ },
+ "exporter": {
+  "name": "Shenzhen Velotek Components Co., Ltd.",
+  "address": {
+   "street": "No. 18 Huanguan South Road, Guanlan, Longhua District, Shenzhen 518110, Guangdong, China",
+   "city": "Shenzhen",
+   "postal_code": "518110",
+   "country": "CN"
+  },
+  "country": "CN",
+  "eori": null,
+  "vat_id": null
+ },
+ "declarant": {
+  "name": "E2E Testi 084712 Oy",
+  "business_id": "3994713-8",
+  "eori": "FI3994713-8",
+  "vat_id": "FI39947138",
+  "address": {
+   "street": "Mannerheimintie 12",
+   "postal_code": "00100",
+   "city": "Helsinki",
+   "country": "FI"
+  }
+ },
+ "representative": {
+  "name": "Huolitsija Oy",
+  "business_id": null,
+  "eori": null,
+  "vat_id": null,
+  "address": {
+   "street": "Helsinki, Finland",
+   "country": "FI"
+  }
+ },
+ "representative_status_code": "2",
+ "delivery_terms": {
+  "incoterm": "FOB",
+  "place": "Yantian"
+ },
+ "invoice": {
+  "number": "SZ-CI-2026-10417",
+  "date": "2026-10-20",
+  "currency": "USD",
+  "total": 28330,
+  "document_id": "75128f17-29e0-4542-89f5-ee368e677f1a",
+  "confirmed": false,
+  "extraction_status": "done"
+ },
+ "transport": {
+  "mode": "sea",
+  "mode_at_border": "1",
+  "inland_mode": "1",
+  "containerised": false,
+  "container_numbers": [],
+  "means_on_arrival": null,
+  "transport_document": {
+   "type": null,
+   "number": null,
+   "document_id": null
+  },
+  "port_of_arrival": "FIHEL",
+  "nationality": null,
+  "identification_type": null,
+  "dispatch_country": "CN",
+  "destination_country": "FI"
+ },
+ "valuation": {
+  "method": "1",
+  "method_label": "Transaction value (UCC art. 70)",
+  "incoterm": "FOB",
+  "incoterm_group": "F",
+  "invoice_currency": "USD",
+  "invoice_total": 28330,
+  "invoice_stated_freight": null,
+  "invoice_stated_insurance": null,
+  "freight_to_border_cents": 56593,
+  "insurance_cents": 0,
+  "post_border_cents": 53729,
+  "freight_known": true,
+  "allocation": "weight",
+  "quote": {
+   "id": "34923f8e-1187-4f42-8279-4546abcf2707",
+   "number": "Q-2026-000007",
+   "lines": [
+    {
+     "code": "OCEAN_FREIGHT",
+     "description": "Ocean freight",
+     "amount_cents": 52864,
+     "bucket": "pre_border"
+    },
+    {
+     "code": "ETS",
+     "description": "EU ETS surcharge",
+     "amount_cents": 3021,
+     "bucket": "pre_border"
+    },
+    {
+     "code": "CFS_D",
+     "description": "Destination CFS / devanning",
+     "amount_cents": 34739,
+     "bucket": "post_border"
+    },
+    {
+     "code": "DO",
+     "description": "Delivery order fee",
+     "amount_cents": 6490,
+     "bucket": "post_border"
+    },
+    {
+     "code": "ISPS",
+     "description": "ISPS port security",
+     "amount_cents": 708,
+     "bucket": "pre_border"
+    },
+    {
+     "code": "DOC_FEE",
+     "description": "Documentation and booking management",
+     "amount_cents": 3500,
+     "bucket": "post_border"
+    },
+    {
+     "code": "CUSTOMS",
+     "description": "Import customs clearance (Tulli)",
+     "amount_cents": 6500,
+     "bucket": "post_border"
+    },
+    {
+     "code": "ICS2",
+     "description": "ICS2 entry summary declaration",
+     "amount_cents": 2500,
+     "bucket": "post_border"
+    }
+   ]
+  },
+  "exchange_rate": {
+   "currency": "USD",
+   "rate": 1.1411,
+   "source": "ECB euro reference rate",
+   "rate_date": "2026-09-23",
+   "applies_month": "2026-10",
+   "rule": "IA 2015/2447 art. 146: ECB rate of the penultimate Wednesday of the previous month"
+  },
+  "notes": [
+   "Freight and insurance up to the EU border are added to the invoice price (IA art. 137 / RULE I-5); taken from the accepted quote Q-2026-000007 lines."
+  ]
+ },
+ "items": [
+  {
+   "seq": 1,
+   "description": "Bicycle rear derailleur, 11-speed, aluminium/steel",
+   "quantity": 400,
+   "unit": "pcs",
+   "unit_price": 18.4,
+   "invoice_amount": 7360,
+   "currency": "USD",
+   "hs_hint": null,
+   "hs_code": "871499",
+   "cn_code": "87149950",
+   "taric_code": null,
+   "taric_additional_codes": [],
+   "hs_candidates": [
+    {
+     "code": "871499",
+     "description": "Cycles; parts thereof, n.e.c. in item no. 8714.9",
+     "confidence": 0.95,
+     "rationale": "Bicycle rear derailleur is a gear-changing mechanism for cycles, specifically classified under 87149950 (Derailleur gears for bicycles) per CN 2026 subdivisions.",
+     "rationale_i18n": {
+      "fi": "Polkupyörän takavaihtaja on polkupyörien vaihteenvaihto-mekanismi, joka on nimenomaisesti luokiteltu nimikkeeseen 87149950 (Polkupyörien vaihtajat) CN 2026 -alajaottelun mukaan.",
+      "en": "Bicycle rear derailleur is a gear-changing mechanism for cycles, specifically classified under 87149950 (Derailleur gears for bicycles) per CN 2026 subdivisions."
+     }
+    },
+    {
+     "code": "848340",
+     "description": "Gears and gearing; (not toothed wheels, chain sprockets and other transmission elements presented separately); ball or roller screws; gear boxes and other speed changers, including torque converters",
+     "confidence": 0.02,
+     "rationale": "If considered a transmission component presented separately rather than a cycle part",
+     "rationale_i18n": {
+      "fi": "Jos sitä pidetään erikseen esitettynä voimansiirtokomponenttina polkupyörän osan sijaan",
+      "en": "If considered a transmission component presented separately rather than a cycle part"
+     }
+    },
+    {
+     "code": "871496",
+     "description": "Cycles; parts, pedals and crank-gear, and parts thereof",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "871200",
+     "description": "Bicycles and other cycles; including delivery tricycles, not motorised",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "848350",
+     "description": "Pulleys and flywheels, including pulley blocks",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    }
+   ],
+   "cn_confirmed": false,
+   "origin_country": "CN",
+   "origin_source": "invoice",
+   "marks": null,
+   "packages": 58,
+   "package_type": "carton",
+   "net_kg": 112,
+   "gross_kg": 128,
+   "weight_source": "invoice",
+   "preference": "100",
+   "duty_rate_pct": null,
+   "duty_source": "taric",
+   "flags": [],
+   "edited": [],
+   "source_line": 1,
+   "source": "invoice",
+   "hs_suggestion": {
+    "hs6": "871499",
+    "hs6_description": "Cycles; parts thereof, n.e.c. in item no. 8714.9",
+    "cn8": "87149950",
+    "cn8_note": "Proposed by AI from the CN 2026 subdivisions; confirm the CN/TARIC code against TARIC on the declaration date (RULE H-1)",
+    "cn8_description": "Derailleur gears for bicycles",
+    "cn_options": [
+     {
+      "code": "87149910",
+      "description": "Handlebars for bicycles"
+     },
+     {
+      "code": "87149930",
+      "description": "Luggage carriers for bicycles"
+     },
+     {
+      "code": "87149950",
+      "description": "Derailleur gears for bicycles"
+     },
+     {
+      "code": "87149990",
+      "description": "Parts and accessories for bicycles, and parts thereof, n.e.s."
+     }
+    ],
+    "cn_resolution": "valid",
+    "cn8_proposed": "87149950",
+    "confidence": 0.95,
+    "rationale": "Bicycle rear derailleur is a gear-changing mechanism for cycles, specifically classified under 87149950 (Derailleur gears for bicycles) per CN 2026 subdivisions.",
+    "status": "ok",
+    "reason": null,
+    "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8714995000&Area=CN&LangDescr=en",
+    "source": "ai",
+    "model": "anthropic/claude-sonnet-4-5-20250929",
+    "classified_at": "2026-10-24T08:48:32Z",
+    "hs_hint_check": null,
+    "duty": {
+     "rate_pct": 4.7,
+     "basis": "Third-country (erga omnes) conventional duty",
+     "source": "ai_estimate",
+     "label": "Estimate — not authoritative; confirm in TARIC",
+     "preference_note": null
+    },
+    "rationale_i18n": {
+     "fi": "Polkupyörän takavaihtaja on polkupyörien vaihteenvaihto-mekanismi, joka on nimenomaisesti luokiteltu nimikkeeseen 87149950 (Polkupyörien vaihtajat) CN 2026 -alajaottelun mukaan.",
+     "en": "Bicycle rear derailleur is a gear-changing mechanism for cycles, specifically classified under 87149950 (Derailleur gears for bicycles) per CN 2026 subdivisions."
+    }
+   },
+   "hs_source": "ai",
+   "duty_label": "",
+   "preference_note": "Select a declarable TARIC subheading.",
+   "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714995000&Expand=true&Area=CN",
+   "value_cents": 644992,
+   "freight_cents": 8834,
+   "insurance_cents": 0,
+   "post_border_cents": 13958,
+   "customs_value_cents": 653826,
+   "documents": [],
+   "origin_assessment": {
+    "preference_code": "100",
+    "preference_label": {
+     "fi": "Tavanomainen tullikohtelu (muualle kuulumattomat) · Ei mikään seuraavista",
+     "en": "Tariff arrangement erga omnes · None of the following"
+    },
+    "origin": "CN",
+    "arrangement": null,
+    "preferential_duty": null,
+    "third_country_duty": null,
+    "saving_cents": null,
+    "proof": {
+     "type": null,
+     "ref": null,
+     "valid": null,
+     "document_code": null
+    },
+    "psr": {
+     "rule": null,
+     "rule_text": null,
+     "met": null,
+     "basis": null
+    },
+    "quota": null,
+    "available_preference_code": null,
+    "reasons": [
+     {
+      "code": "code_not_declarable",
+      "fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+      "en": "Select a declarable TARIC subheading.",
+      "subcodes": [
+       "8714995011",
+       "8714995019",
+       "8714995091",
+       "8714995099"
+      ]
+     }
+    ],
+    "date": "2026-10-25",
+    "assessed_at": "2026-10-25T02:31:32Z",
+    "sources": [
+     {
+      "name": "EU TARIC consultation",
+      "url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714995000&Expand=true&Area=CN",
+      "fetched_at": "2026-10-25T02:13:14Z"
+     }
+    ],
+    "goods_code": "8714995000"
+   },
+   "preference_note_i18n": {
+    "fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+    "en": "Select a declarable TARIC subheading.",
+    "detail_fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+    "detail_en": "Select a declarable TARIC subheading."
+   },
+   "taric": {
+    "status": "not_declarable",
+    "rate_pct": null,
+    "measure_rate_pct": null,
+    "duty_cents": null,
+    "measure_duty_cents": null,
+    "measure_type": null,
+    "measure_type_text": null,
+    "duty_expression": null,
+    "order_number": null,
+    "regulation": null,
+    "geo_code": null,
+    "geo_name": null,
+    "trade_defence": [],
+    "additional_duties": [],
+    "basis": null,
+    "reasons": [
+     {
+      "code": "not_declarable",
+      "fi": "8714995000 ei ole ilmoituskelpoinen TARIC-koodi; valitse alanimike: 8714995011, 8714995019, 8714995091, 8714995099.",
+      "en": "8714995000 is not a declarable TARIC code; choose a subcode: 8714995011, 8714995019, 8714995091, 8714995099."
+     }
+    ],
+    "source": "taric",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714995000&Expand=true&Area=CN",
+    "fetched_at": "2026-10-25T02:13:14Z",
+    "taric_date": "2026-10-25",
+    "goods_code": "8714995000",
+    "subcodes": [
+     "8714995011",
+     "8714995019",
+     "8714995091",
+     "8714995099"
+    ],
+    "supplementary_unit": null,
+    "preference": "100",
+    "origin": "CN",
+    "at": "2026-10-25T02:31:33Z"
+   },
+   "duty_cents": null,
+   "vat_rate_pct": 25.5,
+   "vat_category": "standard",
+   "vat_rate_label": "General rate",
+   "vat_base_cents": null,
+   "vat_cents": null,
+   "statistical_value_cents": 653826,
+   "cn_description": "Derailleur gears for bicycles",
+   "licence_requirements": [],
+   "licence_check": {
+    "status": "ok",
+    "flow": "import",
+    "country": "CN",
+    "date": "2026-10-25",
+    "at": "2026-10-25T02:31:33Z"
+   },
+   "controls": {
+    "dual_use": {
+     "controlled": null,
+     "candidates": [],
+     "licence_required": false,
+     "authorisation": null,
+     "authorisation_options": [],
+     "catch_all": [],
+     "legal_point": null,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I.",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification."
+      },
+      {
+       "code": "scope_review",
+       "fi": "Kohdemaa tai aineiston ajantasaisuus on tarkistettava.",
+       "en": "Destination or reference-data validity requires review."
+      }
+     ],
+     "prohibited": false,
+     "requires_review": false,
+     "annex_iv": false,
+     "taric_measures": [],
+     "source": {
+      "celex": "02021R0821-20260921",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "valid_on": "2026-10-24",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "bytes": 3231736,
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "amended_by": [
+       {
+        "m": "M1",
+        "act": "Commission Delegated Regulation (EU) 2022/1"
+       },
+       {
+        "m": "M2",
+        "act": "Commission Delegated Regulation (EU) 2022/699"
+       },
+       {
+        "m": "M3",
+        "act": "Commission Delegated Regulation (EU) 2023/66"
+       },
+       {
+        "m": "M4",
+        "act": "Commission Delegated Regulation (EU) 2023/996"
+       },
+       {
+        "m": "M5",
+        "act": "Commission Delegated Regulation (EU) 2023/2616"
+       },
+       {
+        "m": "M6",
+        "act": "Commission Delegated Regulation (EU) 2024/2547"
+       },
+       {
+        "m": "M7",
+        "act": "Commission Delegated Regulation (EU) 2025/2003"
+       },
+       {
+        "m": "M8",
+        "act": "Commission Delegated Regulation (EU) 2026/1405"
+       }
+      ]
+     },
+     "date": "2026-10-25"
+    },
+    "goods_sanctions": {
+     "blocked": false,
+     "prohibited": false,
+     "requires_review": false,
+     "legal_point": null,
+     "matches": [],
+     "taric_measures": [],
+     "taric_verified": false,
+     "common_high_priority": [],
+     "reasons": [],
+     "country": "CN",
+     "flow": "import",
+     "date": "2026-10-25"
+    }
+   },
+   "origin_proof_document": null
+  },
+  {
+   "seq": 2,
+   "description": "Bicycle chain, 11-speed, nickel-plated steel, 116 links",
+   "quantity": 1200,
+   "unit": "pcs",
+   "unit_price": 6.1,
+   "invoice_amount": 7320,
+   "currency": "USD",
+   "hs_hint": null,
+   "hs_code": "731511",
+   "cn_code": "73151110",
+   "taric_code": null,
+   "taric_additional_codes": [],
+   "hs_candidates": [
+    {
+     "code": "731511",
+     "description": "Chain; articulated link, roller, of iron or steel",
+     "confidence": 0.95,
+     "rationale": "Bicycle chain with 116 links is articulated link roller chain of steel for cycles, classified under CN 73151110 (roller chain for cycles and motorcycles).",
+     "rationale_i18n": {
+      "fi": "Polkupyörän ketju, jossa on 116 lenkkiä, on nivelletty rullaketju terästä polkupyörille, luokiteltu CN-nimikkeeseen 73151110 (polkupyörien ja moottoripyörien rullaketju).",
+      "en": "Bicycle chain with 116 links is articulated link roller chain of steel for cycles, classified under CN 73151110 (roller chain for cycles and motorcycles)."
+     }
+    },
+    {
+     "code": "871499",
+     "description": "Cycles; parts thereof, n.e.c. in item no. 8714.9",
+     "confidence": 0.03,
+     "rationale": "Could potentially be classified as bicycle parts if considered ready-to-fit",
+     "rationale_i18n": {
+      "fi": "Voitaisiin mahdollisesti luokitella polkupyörän osiksi, jos niitä pidetään asennusvalmiina",
+      "en": "Could potentially be classified as bicycle parts if considered ready-to-fit"
+     }
+    },
+    {
+     "code": "731582",
+     "description": "Chain; welded link chain, of iron or steel",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "731581",
+     "description": "Chain; stud-link chain, of iron or steel",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "731512",
+     "description": "Chain; articulated link, (other than roller), of iron or steel",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    }
+   ],
+   "cn_confirmed": false,
+   "origin_country": "CN",
+   "origin_source": "invoice",
+   "marks": null,
+   "packages": 0,
+   "package_type": "carton",
+   "net_kg": 307.2,
+   "gross_kg": 330,
+   "weight_source": "invoice",
+   "preference": "100",
+   "duty_rate_pct": 2.7,
+   "duty_source": "taric",
+   "flags": [],
+   "edited": [],
+   "source_line": 2,
+   "source": "invoice",
+   "hs_suggestion": {
+    "hs6": "731511",
+    "hs6_description": "Chain; articulated link, roller, of iron or steel",
+    "cn8": "73151110",
+    "cn8_note": "Proposed by AI from the CN 2026 subdivisions; confirm the CN/TARIC code against TARIC on the declaration date (RULE H-1)",
+    "cn8_description": "Roller chain of iron or steel, of a kind used for cycles and motorcycles",
+    "cn_options": [
+     {
+      "code": "73151110",
+      "description": "Roller chain of iron or steel, of a kind used for cycles and motorcycles"
+     },
+     {
+      "code": "73151190",
+      "description": "Roller chain of iron or steel (excl. roller chain of a kind used for cycles and motorcycles)"
+     }
+    ],
+    "cn_resolution": "valid",
+    "cn8_proposed": "73151110",
+    "confidence": 0.95,
+    "rationale": "Bicycle chain with 116 links is articulated link roller chain of steel for cycles, classified under CN 73151110 (roller chain for cycles and motorcycles).",
+    "status": "ok",
+    "reason": null,
+    "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=7315111000&Area=CN&LangDescr=en",
+    "source": "ai",
+    "model": "anthropic/claude-sonnet-4-5-20250929",
+    "classified_at": "2026-10-24T08:48:32Z",
+    "hs_hint_check": null,
+    "duty": {
+     "rate_pct": 2.7,
+     "basis": "Third-country (erga omnes) conventional duty",
+     "source": "ai_estimate",
+     "label": "Estimate — not authoritative; confirm in TARIC",
+     "preference_note": null
+    },
+    "rationale_i18n": {
+     "fi": "Polkupyörän ketju, jossa on 116 lenkkiä, on polkupyörille tarkoitettu nivelletty rullaketju terästä, luokiteltu CN-nimikkeeseen 73151110 (polkupyörien ja moottoripyörien rullaketju).",
+     "en": "Bicycle chain with 116 links is articulated link roller chain of steel for cycles, classified under CN 73151110 (roller chain for cycles and motorcycles)."
+    }
+   },
+   "hs_source": "ai",
+   "duty_label": "Third country duty 2.70 %",
+   "preference_note": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules).",
+   "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=7315111000&Expand=true&Area=CN",
+   "value_cents": 641486,
+   "freight_cents": 22775,
+   "insurance_cents": 0,
+   "post_border_cents": 13883,
+   "customs_value_cents": 664261,
+   "documents": [],
+   "origin_assessment": {
+    "preference_code": "100",
+    "preference_label": {
+     "fi": "Tavanomainen tullikohtelu (muualle kuulumattomat) · Ei mikään seuraavista",
+     "en": "Tariff arrangement erga omnes · None of the following"
+    },
+    "origin": "CN",
+    "arrangement": null,
+    "preferential_duty": null,
+    "third_country_duty": {
+     "expression": "2.70 %",
+     "pct": 2.7,
+     "cents": 17935,
+     "measure_type": "Third country duty",
+     "type_code": "103",
+     "geo_code": "1011",
+     "geo_name": "ERGA OMNES",
+     "regulation": "R2261/98",
+     "order_number": null
+    },
+    "saving_cents": null,
+    "proof": {
+     "type": null,
+     "ref": null,
+     "valid": null,
+     "document_code": null
+    },
+    "psr": {
+     "rule": null,
+     "rule_text": null,
+     "met": null,
+     "basis": null
+    },
+    "quota": null,
+    "available_preference_code": null,
+    "reasons": [
+     {
+      "code": "no_arrangement",
+      "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 7315111000; DG TRADE: ei alkuperäsääntöjä).",
+      "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules)."
+     }
+    ],
+    "date": "2026-10-25",
+    "assessed_at": "2026-10-25T02:31:32Z",
+    "sources": [
+     {
+      "name": "EU TARIC consultation",
+      "url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=7315111000&Expand=true&Area=CN",
+      "fetched_at": "2026-10-25T02:12:59Z"
+     }
+    ],
+    "goods_code": "7315111000"
+   },
+   "preference_note_i18n": {
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 7315111000; DG TRADE: ei alkuperäsääntöjä).",
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules).",
+    "detail_fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 7315111000; DG TRADE: ei alkuperäsääntöjä).",
+    "detail_en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules)."
+   },
+   "taric": {
+    "status": "ok",
+    "rate_pct": 2.7,
+    "measure_rate_pct": 2.7,
+    "duty_cents": 17935,
+    "measure_duty_cents": 17935,
+    "measure_type": "103",
+    "measure_type_text": "Third country duty",
+    "duty_expression": "2.70 %",
+    "order_number": null,
+    "regulation": "R2261/98",
+    "geo_code": "1011",
+    "geo_name": "ERGA OMNES",
+    "trade_defence": [],
+    "additional_duties": [],
+    "basis": "2.70 %",
+    "reasons": [],
+    "source": "taric",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=7315111000&Expand=true&Area=CN",
+    "fetched_at": "2026-10-25T02:12:59Z",
+    "taric_date": "2026-10-25",
+    "goods_code": "7315111000",
+    "subcodes": null,
+    "supplementary_unit": null,
+    "preference": "100",
+    "origin": "CN",
+    "at": "2026-10-25T02:31:33Z"
+   },
+   "duty_cents": 17935,
+   "vat_rate_pct": 25.5,
+   "vat_category": "standard",
+   "vat_rate_label": "General rate",
+   "vat_base_cents": 696079,
+   "vat_cents": 177500,
+   "statistical_value_cents": 664261,
+   "cn_description": "Roller chain of iron or steel, of a kind used for cycles and motorcycles",
+   "licence_requirements": [
+    {
+     "certificate_code": "L139",
+     "kind": "licence",
+     "measure_type": null,
+     "measure_type_candidates": [
+      "707",
+      "714",
+      "731",
+      "732",
+      "760",
+      "762",
+      "763",
+      "764"
+     ],
+     "measure_type_text": "Import control",
+     "text_en": "Import authorisation by virtue of article 3g.7 of Council Regulation (EU) 833/2014",
+     "text_fi": "Neuvoston asetuksen (EU) N:o 833/2014 3 g artiklan 7 kohdan mukainen tuontilupa",
+     "regulation": "R0833/14",
+     "alternatives": [
+      {
+       "code": "Y824",
+       "kind": "certificate",
+       "text_en": "Evidence of the country of origin of the iron and steel inputs used for processing of the product in a third country",
+       "text_fi": "Todisteet tuotteen jalostamiseksi kolmannessa maassa käytettävien rauta- ja teräspanosten alkuperämaasta",
+       "action": "Import/export allowed after control",
+       "sequence": 5
+      },
+      {
+       "code": "Y878",
+       "kind": "certificate",
+       "text_en": "The product is imported from a partner country for importation of iron and steel as listed in Annex XXXVI to Regulation (EU) No 833/2014",
+       "text_fi": "Tuote tuodaan kumppanimaasta asetuksen (EU) N:o 833/2014 liitteessä XXXVI luetellusta raudan ja teräksen tuontia varten",
+       "action": "Import/export allowed after control",
+       "sequence": 6
+      },
+      {
+       "code": "Y859",
+       "kind": "certificate",
+       "text_en": "Goods entered the territory of the customs union of the EU and presented to customs authorities prior to the entry into force or to applicability date of the present sanction, whichever is latest (see Article 12e of Regulation (EU) No 833/2014)",
+       "text_fi": "Tavarat on tuotu EU:n tulliliiton alueelle ja esitetty tulliviranomaisille ennen tämän seuraamuksen voimaantuloa tai soveltamispäivää sen mukaan, kumpi ajankohta on myöhäisempi (ks. asetuksen (EU) N:o 833/2014 12 e artikla)",
+       "action": "Import/export allowed after control",
+       "sequence": 7
+      },
+      {
+       "code": "L143",
+       "kind": "licence",
+       "text_en": "Import authorisation by virtue of article 12b.2 of Council Regulation (EU) 833/2014",
+       "text_fi": "Neuvoston asetuksen (EU) N:o 833/2014 12b artiklan 2 kohdan mukainen tuontilupa",
+       "action": "Import/export allowed after control",
+       "sequence": 8
+      }
+     ],
+     "condition_code": "Y",
+     "blocking": true,
+     "measure_sid": "4032345",
+     "geo_code": "1008",
+     "geo_name": "All third countries",
+     "fallback_action": "Import/export not allowed after control",
+     "footnotes": [
+      {
+       "code": "CD864",
+       "text": "It shall be prohibited:<br>(a) to import, directly or indirectly, iron and steel products as listed in Annex XVII into the Union if they:<br>(i) originate in Russia; or<br>(ii) have been exported from Russia;<br>(b) to purchase, directly or indirectly, iron and steel products as listed in Annex XVII which are located or which originated in Russia;<br>(c) to transport iron and steel products as listed in Annex XVII if they originated in Russia or are being exported from Russia to any other country;<br>(d) to import or purchase, as from 30 September 2023, directly or indirectly, iron and steel products as listed in Annex XVII when processed in a third country incorporating iron and steel products originating in Russia as listed in Annex XVII; with regard to products listed in Annex XVII processed in a third country incorporating steel products originating in Russia of CN code 7207 11 or 7207 12 10 or 7224 90 , this prohibition shall apply as of 1 April 2024 for CN code 7207 11 and as of 1 October 2028 for CN codes 7207 12 10 and 7224 90,<br>for the purposes of the application of this point, importers shall provide, at the time of importation, a proof of the country of origin of the iron and steel precursors used for the processing of the product in a third country, unless the product is imported from a partner country listed in Annex XXXVI for imports of iron and steel;<br>(e) to provide, directly or indirectly, technical assistance, brokering services, financing or financial assistance, including financial derivatives, as well as insurance and re-insurance, related to the prohibitions in points (a), (b), (c) and (d),<br><br>By way of derogation from paragraph 1, the competent authorities may authorise the purchase, import or transfer of the goods listed in Annex XVII, under such conditions as they deem appropriate, after having determined that this is necessary for the establishment, operation, maintenance, fuel supply and retreatment and safety of civil nuclear capabilities, and the continuation of design, construction and commissioning required for the completion of civil nuclear facilities such as the Paks II project, the supply of precursor material for the production of medical radioisotopes and similar medical applications, or critical technology for environmental radiation monitoring, as well as for civil nuclear cooperation, in particular in the field of research and development.<br><br>Council Regulation (EU) No 833/2014  - Article 3g<br>"
+      }
+     ],
+     "satisfied_by": null
+    }
+   ],
+   "licence_check": {
+    "status": "ok",
+    "flow": "import",
+    "country": "CN",
+    "date": "2026-10-25",
+    "at": "2026-10-25T02:31:34Z"
+   },
+   "controls": {
+    "dual_use": {
+     "controlled": null,
+     "candidates": [],
+     "licence_required": false,
+     "authorisation": null,
+     "authorisation_options": [],
+     "catch_all": [],
+     "legal_point": null,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I.",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification."
+      },
+      {
+       "code": "scope_review",
+       "fi": "Kohdemaa tai aineiston ajantasaisuus on tarkistettava.",
+       "en": "Destination or reference-data validity requires review."
+      }
+     ],
+     "prohibited": false,
+     "requires_review": false,
+     "annex_iv": false,
+     "taric_measures": [],
+     "source": {
+      "celex": "02021R0821-20260921",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "valid_on": "2026-10-24",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "bytes": 3231736,
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "amended_by": [
+       {
+        "m": "M1",
+        "act": "Commission Delegated Regulation (EU) 2022/1"
+       },
+       {
+        "m": "M2",
+        "act": "Commission Delegated Regulation (EU) 2022/699"
+       },
+       {
+        "m": "M3",
+        "act": "Commission Delegated Regulation (EU) 2023/66"
+       },
+       {
+        "m": "M4",
+        "act": "Commission Delegated Regulation (EU) 2023/996"
+       },
+       {
+        "m": "M5",
+        "act": "Commission Delegated Regulation (EU) 2023/2616"
+       },
+       {
+        "m": "M6",
+        "act": "Commission Delegated Regulation (EU) 2024/2547"
+       },
+       {
+        "m": "M7",
+        "act": "Commission Delegated Regulation (EU) 2025/2003"
+       },
+       {
+        "m": "M8",
+        "act": "Commission Delegated Regulation (EU) 2026/1405"
+       }
+      ]
+     },
+     "date": "2026-10-25"
+    },
+    "goods_sanctions": {
+     "blocked": false,
+     "prohibited": false,
+     "requires_review": false,
+     "legal_point": null,
+     "matches": [],
+     "taric_measures": [],
+     "taric_verified": false,
+     "common_high_priority": [],
+     "reasons": [],
+     "country": "CN",
+     "flow": "import",
+     "date": "2026-10-25"
+    }
+   },
+   "origin_proof_document": null
+  },
+  {
+   "seq": 3,
+   "description": "LED bicycle front light, USB rechargeable, 800 lm",
+   "quantity": 600,
+   "unit": "pcs",
+   "unit_price": 9.75,
+   "invoice_amount": 5850,
+   "currency": "USD",
+   "hs_hint": null,
+   "hs_code": "851210",
+   "cn_code": "85121000",
+   "taric_code": null,
+   "taric_additional_codes": [],
+   "hs_candidates": [
+    {
+     "code": "851210",
+     "description": "Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539",
+     "confidence": 0.99,
+     "rationale": "Täydellinen polkupyörän sähköinen etuvalaisin kuuluu alanimikkeeseen 851210 eikä pelkkiä LED-valonlähteitä koskevaan nimikkeeseen 8539 tai muualle kuulumattomiin valaisimiin nimikkeessä 9405. Luokitus perustuu yleisiin tulkintasääntöihin 1 ja 6; XVII jakson 2 f huomautus sulkee 85 ryhmän sähkölaitteet pois ajoneuvon osista.",
+     "rationale_i18n": {
+      "fi": "Täydellinen polkupyörän sähköinen etuvalaisin kuuluu alanimikkeeseen 851210 eikä pelkkiä LED-valonlähteitä koskevaan nimikkeeseen 8539 tai muualle kuulumattomiin valaisimiin nimikkeessä 9405. Luokitus perustuu yleisiin tulkintasääntöihin 1 ja 6; XVII jakson 2 f huomautus sulkee 85 ryhmän sähkölaitteet pois ajoneuvon osista.",
+      "en": "The complete electric bicycle front light falls under subheading 851210, rather than heading 8539 for LED light sources alone or heading 9405 for lighting fittings not elsewhere specified. Classification follows GRI 1 and 6; Section XVII Note 2(f) excludes Chapter 85 electrical equipment from vehicle parts."
+     }
+    },
+    {
+     "code": "940542",
+     "description": "Luminaires and light fittings; electric, designed for use solely with light-emitting diode (LED) light sources",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanaosuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "940541",
+     "description": "Luminaires and light fittings; electric, photovoltaic, designed for use solely with light-emitting diode (LED) light sources",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanaosuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "940531",
+     "description": "Luminaires and light fittings; electric, lighting strings of a kind used for Christmas trees, for use solely with light-emitting diode (LED) light sources",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanaosuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "853952",
+     "description": "Lamps; light-emitting diode (LED) light sources, light-emitting diode (LED) lamps",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanaosuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    }
+   ],
+   "cn_confirmed": false,
+   "origin_country": "CN",
+   "origin_source": "invoice",
+   "marks": null,
+   "packages": 0,
+   "package_type": "carton",
+   "net_kg": 102,
+   "gross_kg": 126,
+   "weight_source": "invoice",
+   "preference": "100",
+   "duty_rate_pct": 2.7,
+   "duty_source": "taric",
+   "flags": [],
+   "edited": [],
+   "source_line": 3,
+   "source": "invoice",
+   "hs_suggestion": {
+    "hs6": "851210",
+    "hs6_description": "Lighting or visual signalling equipment; electrical, of a kind used on bicycles, excluding articles of heading no. 8539",
+    "cn8": "85121000",
+    "cn8_note": "Proposed by AI from the CN 2026 subdivisions; confirm the CN/TARIC code against TARIC on the declaration date (RULE H-1)",
+    "cn8_description": "Electric lighting or visual signalling equipment of a kind used for bicycles (other than lamps of heading 8539)",
+    "cn_options": [
+     {
+      "code": "85121000",
+      "description": "Electric lighting or visual signalling equipment of a kind used for bicycles (other than lamps of heading 8539)"
+     }
+    ],
+    "cn_resolution": "valid",
+    "cn8_proposed": "85121000",
+    "confidence": 0.99,
+    "rationale": "Täydellinen polkupyörän sähköinen etuvalaisin kuuluu alanimikkeeseen 851210 eikä pelkkiä LED-valonlähteitä koskevaan nimikkeeseen 8539 tai muualle kuulumattomiin valaisimiin nimikkeessä 9405. Luokitus perustuu yleisiin tulkintasääntöihin 1 ja 6; XVII jakson 2 f huomautus sulkee 85 ryhmän sähkölaitteet pois ajoneuvon osista.",
+    "rationale_i18n": {
+     "fi": "Täydellinen polkupyörän sähköinen etuvalaisin kuuluu alanimikkeeseen 851210 eikä pelkkiä LED-valonlähteitä koskevaan nimikkeeseen 8539 tai muualle kuulumattomiin valaisimiin nimikkeessä 9405. Luokitus perustuu yleisiin tulkintasääntöihin 1 ja 6; XVII jakson 2 f huomautus sulkee 85 ryhmän sähkölaitteet pois ajoneuvon osista.",
+     "en": "The complete electric bicycle front light falls under subheading 851210, rather than heading 8539 for LED light sources alone or heading 9405 for lighting fittings not elsewhere specified. Classification follows GRI 1 and 6; Section XVII Note 2(f) excludes Chapter 85 electrical equipment from vehicle parts."
+    },
+    "status": "ok",
+    "reason": null,
+    "reason_i18n": null,
+    "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8512100000&Area=CN&LangDescr=en",
+    "source": "ai",
+    "model": "openai/gpt-6.1-sol",
+    "classified_at": "2026-10-25T02:12:23Z",
+    "hs_hint_check": null,
+    "duty": {
+     "rate_pct": 2.7,
+     "basis": "Third-country (erga omnes) conventional duty",
+     "source": "ai_estimate",
+     "label": "Estimate — not authoritative; confirm in TARIC",
+     "preference_note": null,
+     "preference_note_i18n": null
+    }
+   },
+   "hs_source": "ai",
+   "duty_label": "Third country duty 2.70 %",
+   "preference_note": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules).",
+   "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8512100000&Expand=true&Area=CN",
+   "value_cents": 512663,
+   "freight_cents": 8696,
+   "insurance_cents": 0,
+   "post_border_cents": 11095,
+   "customs_value_cents": 521359,
+   "documents": [],
+   "origin_assessment": {
+    "preference_code": "100",
+    "preference_label": {
+     "fi": "Tavanomainen tullikohtelu (muualle kuulumattomat) · Ei mikään seuraavista",
+     "en": "Tariff arrangement erga omnes · None of the following"
+    },
+    "origin": "CN",
+    "arrangement": null,
+    "preferential_duty": null,
+    "third_country_duty": {
+     "expression": "2.70 %",
+     "pct": 2.7,
+     "cents": 14077,
+     "measure_type": "Third country duty",
+     "type_code": "103",
+     "geo_code": "1011",
+     "geo_name": "ERGA OMNES",
+     "regulation": "R1549/06",
+     "order_number": null
+    },
+    "saving_cents": null,
+    "proof": {
+     "type": null,
+     "ref": null,
+     "valid": null,
+     "document_code": null
+    },
+    "psr": {
+     "rule": null,
+     "rule_text": null,
+     "met": null,
+     "basis": null
+    },
+    "quota": null,
+    "available_preference_code": null,
+    "reasons": [
+     {
+      "code": "no_arrangement",
+      "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8512100000; DG TRADE: ei alkuperäsääntöjä).",
+      "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules)."
+     }
+    ],
+    "date": "2026-10-25",
+    "assessed_at": "2026-10-25T02:31:32Z",
+    "sources": [
+     {
+      "name": "EU TARIC consultation",
+      "url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8512100000&Expand=true&Area=CN",
+      "fetched_at": "2026-10-25T02:12:54Z"
+     }
+    ],
+    "goods_code": "8512100000"
+   },
+   "preference_note_i18n": {
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8512100000; DG TRADE: ei alkuperäsääntöjä).",
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules).",
+    "detail_fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8512100000; DG TRADE: ei alkuperäsääntöjä).",
+    "detail_en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules)."
+   },
+   "taric": {
+    "status": "ok",
+    "rate_pct": 2.7,
+    "measure_rate_pct": 2.7,
+    "duty_cents": 14077,
+    "measure_duty_cents": 14077,
+    "measure_type": "103",
+    "measure_type_text": "Third country duty",
+    "duty_expression": "2.70 %",
+    "order_number": null,
+    "regulation": "R1549/06",
+    "geo_code": "1011",
+    "geo_name": "ERGA OMNES",
+    "trade_defence": [],
+    "additional_duties": [],
+    "basis": "2.70 %",
+    "reasons": [],
+    "source": "taric",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8512100000&Expand=true&Area=CN",
+    "fetched_at": "2026-10-25T02:12:54Z",
+    "taric_date": "2026-10-25",
+    "goods_code": "8512100000",
+    "subcodes": null,
+    "supplementary_unit": null,
+    "preference": "100",
+    "origin": "CN",
+    "at": "2026-10-25T02:31:33Z"
+   },
+   "duty_cents": 14077,
+   "vat_rate_pct": 25.5,
+   "vat_category": "standard",
+   "vat_rate_label": "General rate",
+   "vat_base_cents": 546531,
+   "vat_cents": 139365,
+   "statistical_value_cents": 521359,
+   "cn_description": "Electric lighting or visual signalling equipment of a kind used for bicycles (other than lamps of heading 8539)",
+   "licence_requirements": [],
+   "licence_check": {
+    "status": "ok",
+    "flow": "import",
+    "country": "CN",
+    "date": "2026-10-25",
+    "at": "2026-10-25T02:31:34Z"
+   },
+   "controls": {
+    "dual_use": {
+     "controlled": null,
+     "candidates": [],
+     "licence_required": false,
+     "authorisation": null,
+     "authorisation_options": [],
+     "catch_all": [],
+     "legal_point": null,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I.",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification."
+      },
+      {
+       "code": "scope_review",
+       "fi": "Kohdemaa tai aineiston ajantasaisuus on tarkistettava.",
+       "en": "Destination or reference-data validity requires review."
+      }
+     ],
+     "prohibited": false,
+     "requires_review": false,
+     "annex_iv": false,
+     "taric_measures": [],
+     "source": {
+      "celex": "02021R0821-20260921",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "valid_on": "2026-10-24",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "bytes": 3231736,
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "amended_by": [
+       {
+        "m": "M1",
+        "act": "Commission Delegated Regulation (EU) 2022/1"
+       },
+       {
+        "m": "M2",
+        "act": "Commission Delegated Regulation (EU) 2022/699"
+       },
+       {
+        "m": "M3",
+        "act": "Commission Delegated Regulation (EU) 2023/66"
+       },
+       {
+        "m": "M4",
+        "act": "Commission Delegated Regulation (EU) 2023/996"
+       },
+       {
+        "m": "M5",
+        "act": "Commission Delegated Regulation (EU) 2023/2616"
+       },
+       {
+        "m": "M6",
+        "act": "Commission Delegated Regulation (EU) 2024/2547"
+       },
+       {
+        "m": "M7",
+        "act": "Commission Delegated Regulation (EU) 2025/2003"
+       },
+       {
+        "m": "M8",
+        "act": "Commission Delegated Regulation (EU) 2026/1405"
+       }
+      ]
+     },
+     "date": "2026-10-25"
+    },
+    "goods_sanctions": {
+     "blocked": false,
+     "prohibited": false,
+     "requires_review": false,
+     "legal_point": null,
+     "matches": [],
+     "taric_measures": [],
+     "taric_verified": false,
+     "common_high_priority": [],
+     "reasons": [],
+     "country": "CN",
+     "flow": "import",
+     "date": "2026-10-25"
+    }
+   },
+   "origin_proof_document": null
+  },
+  {
+   "seq": 4,
+   "description": "Hydraulic disc brake set, front+rear",
+   "quantity": 250,
+   "unit": "sets",
+   "unit_price": 31.2,
+   "invoice_amount": 7800,
+   "currency": "USD",
+   "hs_hint": null,
+   "hs_code": "871494",
+   "cn_code": "87149420",
+   "taric_code": null,
+   "taric_additional_codes": [],
+   "hs_candidates": [
+    {
+     "code": "871494",
+     "description": "Cycles; parts thereof, brakes, including coaster braking hubs and hub-brakes, and parts thereof",
+     "confidence": 0.95,
+     "rationale": "Hydraulic disc brake set for bicycles (front and rear) is classified under 871494, CN 87149420 (brakes for cycles excluding motorcycles).",
+     "rationale_i18n": {
+      "fi": "Hydraulinen levyjarrusarja polkupyörille (etu- ja takajarru) on luokiteltu nimikkeeseen 871494, CN 87149420 (polkupyörien jarrut, moottoripyöriä lukuun ottamatta).",
+      "en": "Hydraulic disc brake set for bicycles (front and rear) is classified under 871494, CN 87149420 (brakes for cycles excluding motorcycles)."
+     }
+    },
+    {
+     "code": "870830",
+     "description": "Vehicle parts; brakes, servo-brakes and parts thereof",
+     "confidence": 0.02,
+     "rationale": "If mistakenly considered motor vehicle parts rather than cycle parts",
+     "rationale_i18n": {
+      "fi": "Jos virheellisesti pidetään moottoriajoneuvojen osina polkupyörien osien sijaan",
+      "en": "If mistakenly considered motor vehicle parts rather than cycle parts"
+     }
+    },
+    {
+     "code": "870822",
+     "description": "Vehicles; parts and accessories, front windscreens (windshields), rear windows and other windows specified in subheading note 1 to this chapter",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "381900",
+     "description": "Hydraulic fluids; for brakes and other prepared liquids for hydraulic transmission, not containing or containing less than 70% by weight of petroleum oils or oils obtained from bituminous minerals",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    },
+    {
+     "code": "681320",
+     "description": "Friction material and articles thereof (e.g. sheets, rolls, strips, segments, discs, washers, pads) not mounted; for brakes, clutches or the like, with a basis of asbestos",
+     "confidence": null,
+     "rationale": "Keyword match in the HS 2022 nomenclature",
+     "rationale_i18n": {
+      "fi": "Avainsanan osuma HS 2022 -nimikkeistössä",
+      "en": "Keyword match in the HS 2022 nomenclature"
+     }
+    }
+   ],
+   "cn_confirmed": false,
+   "origin_country": "CN",
+   "origin_source": "invoice",
+   "marks": null,
+   "packages": 0,
+   "package_type": "carton",
+   "net_kg": 210,
+   "gross_kg": 236,
+   "weight_source": "invoice",
+   "preference": "100",
+   "duty_rate_pct": null,
+   "duty_source": "taric",
+   "flags": [],
+   "edited": [],
+   "source_line": 4,
+   "source": "invoice",
+   "hs_suggestion": {
+    "hs6": "871494",
+    "hs6_description": "Cycles; parts thereof, brakes, including coaster braking hubs and hub-brakes, and parts thereof",
+    "cn8": "87149420",
+    "cn8_note": "Proposed by AI from the CN 2026 subdivisions; confirm the CN/TARIC code against TARIC on the declaration date (RULE H-1)",
+    "cn8_description": "Brakes, incl. coaster braking hubs and hub brakes, for cycles (excl. for motorcycles)",
+    "cn_options": [
+     {
+      "code": "87149420",
+      "description": "Brakes, incl. coaster braking hubs and hub brakes, for cycles (excl. for motorcycles)"
+     },
+     {
+      "code": "87149490",
+      "description": "Parts of brakes, incl. coaster braking hubs and hub-brakes, for cycles, n.e.s. (excl. for motorcycles)"
+     }
+    ],
+    "cn_resolution": "valid",
+    "cn8_proposed": "87149420",
+    "confidence": 0.95,
+    "rationale": "Hydraulic disc brake set for bicycles (front and rear) is classified under 871494, CN 87149420 (brakes for cycles excluding motorcycles).",
+    "status": "ok",
+    "reason": null,
+    "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8714942000&Area=CN&LangDescr=en",
+    "source": "ai",
+    "model": "anthropic/claude-sonnet-4-5-20250929",
+    "classified_at": "2026-10-24T08:48:32Z",
+    "hs_hint_check": null,
+    "duty": {
+     "rate_pct": 4.7,
+     "basis": "Third-country (erga omnes) conventional duty",
+     "source": "ai_estimate",
+     "label": "Estimate — not authoritative; confirm in TARIC",
+     "preference_note": null
+    },
+    "rationale_i18n": {
+     "fi": "Hydraulinen levyjarrusarja polkupyörille (etu- ja takajarru) on luokiteltu nimikkeeseen 871494, CN 87149420 (polkupyörien jarrut, moottoripyöriä lukuun ottamatta).",
+     "en": "Hydraulic disc brake set for bicycles (front and rear) is classified under 871494, CN 87149420 (brakes for cycles excluding motorcycles)."
+    }
+   },
+   "hs_source": "ai",
+   "duty_label": "",
+   "preference_note": "Select a declarable TARIC subheading.",
+   "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714942000&Expand=true&Area=CN",
+   "value_cents": 683551,
+   "freight_cents": 16288,
+   "insurance_cents": 0,
+   "post_border_cents": 14793,
+   "customs_value_cents": 699839,
+   "documents": [],
+   "origin_assessment": {
+    "preference_code": "100",
+    "preference_label": {
+     "fi": "Tavanomainen tullikohtelu (muualle kuulumattomat) · Ei mikään seuraavista",
+     "en": "Tariff arrangement erga omnes · None of the following"
+    },
+    "origin": "CN",
+    "arrangement": null,
+    "preferential_duty": null,
+    "third_country_duty": null,
+    "saving_cents": null,
+    "proof": {
+     "type": null,
+     "ref": null,
+     "valid": null,
+     "document_code": null
+    },
+    "psr": {
+     "rule": null,
+     "rule_text": null,
+     "met": null,
+     "basis": null
+    },
+    "quota": null,
+    "available_preference_code": null,
+    "reasons": [
+     {
+      "code": "code_not_declarable",
+      "fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+      "en": "Select a declarable TARIC subheading.",
+      "subcodes": [
+       "8714942005",
+       "8714942091",
+       "8714942099"
+      ]
+     }
+    ],
+    "date": "2026-10-25",
+    "assessed_at": "2026-10-25T02:31:32Z",
+    "sources": [
+     {
+      "name": "EU TARIC consultation",
+      "url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714942000&Expand=true&Area=CN",
+      "fetched_at": "2026-10-25T02:13:03Z"
+     }
+    ],
+    "goods_code": "8714942000"
+   },
+   "preference_note_i18n": {
+    "fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+    "en": "Select a declarable TARIC subheading.",
+    "detail_fi": "Valitse ilmoituskelpoinen TARIC-alanimike.",
+    "detail_en": "Select a declarable TARIC subheading."
+   },
+   "taric": {
+    "status": "not_declarable",
+    "rate_pct": null,
+    "measure_rate_pct": null,
+    "duty_cents": null,
+    "measure_duty_cents": null,
+    "measure_type": null,
+    "measure_type_text": null,
+    "duty_expression": null,
+    "order_number": null,
+    "regulation": null,
+    "geo_code": null,
+    "geo_name": null,
+    "trade_defence": [],
+    "additional_duties": [],
+    "basis": null,
+    "reasons": [
+     {
+      "code": "not_declarable",
+      "fi": "8714942000 ei ole ilmoituskelpoinen TARIC-koodi; valitse alanimike: 8714942005, 8714942091, 8714942099.",
+      "en": "8714942000 is not a declarable TARIC code; choose a subcode: 8714942005, 8714942091, 8714942099."
+     }
+    ],
+    "source": "taric",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261025&Taric=8714942000&Expand=true&Area=CN",
+    "fetched_at": "2026-10-25T02:13:03Z",
+    "taric_date": "2026-10-25",
+    "goods_code": "8714942000",
+    "subcodes": [
+     "8714942005",
+     "8714942091",
+     "8714942099"
+    ],
+    "supplementary_unit": null,
+    "preference": "100",
+    "origin": "CN",
+    "at": "2026-10-25T02:31:33Z"
+   },
+   "duty_cents": null,
+   "vat_rate_pct": 25.5,
+   "vat_category": "standard",
+   "vat_rate_label": "General rate",
+   "vat_base_cents": null,
+   "vat_cents": null,
+   "statistical_value_cents": 699839,
+   "cn_description": "Brakes, incl. coaster braking hubs and hub brakes, for cycles (excl. for motorcycles)",
+   "licence_requirements": [],
+   "licence_check": {
+    "status": "ok",
+    "flow": "import",
+    "country": "CN",
+    "date": "2026-10-25",
+    "at": "2026-10-25T02:31:34Z"
+   },
+   "controls": {
+    "dual_use": {
+     "controlled": null,
+     "candidates": [],
+     "licence_required": false,
+     "authorisation": null,
+     "authorisation_options": [],
+     "catch_all": [],
+     "legal_point": null,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I.",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification."
+      },
+      {
+       "code": "scope_review",
+       "fi": "Kohdemaa tai aineiston ajantasaisuus on tarkistettava.",
+       "en": "Destination or reference-data validity requires review."
+      }
+     ],
+     "prohibited": false,
+     "requires_review": false,
+     "annex_iv": false,
+     "taric_measures": [],
+     "source": {
+      "celex": "02021R0821-20260921",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "valid_on": "2026-10-24",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "bytes": 3231736,
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "amended_by": [
+       {
+        "m": "M1",
+        "act": "Commission Delegated Regulation (EU) 2022/1"
+       },
+       {
+        "m": "M2",
+        "act": "Commission Delegated Regulation (EU) 2022/699"
+       },
+       {
+        "m": "M3",
+        "act": "Commission Delegated Regulation (EU) 2023/66"
+       },
+       {
+        "m": "M4",
+        "act": "Commission Delegated Regulation (EU) 2023/996"
+       },
+       {
+        "m": "M5",
+        "act": "Commission Delegated Regulation (EU) 2023/2616"
+       },
+       {
+        "m": "M6",
+        "act": "Commission Delegated Regulation (EU) 2024/2547"
+       },
+       {
+        "m": "M7",
+        "act": "Commission Delegated Regulation (EU) 2025/2003"
+       },
+       {
+        "m": "M8",
+        "act": "Commission Delegated Regulation (EU) 2026/1405"
+       }
+      ]
+     },
+     "date": "2026-10-25"
+    },
+    "goods_sanctions": {
+     "blocked": false,
+     "prohibited": false,
+     "requires_review": false,
+     "legal_point": null,
+     "matches": [],
+     "taric_measures": [],
+     "taric_verified": false,
+     "common_high_priority": [],
+     "reasons": [],
+     "country": "CN",
+     "flow": "import",
+     "date": "2026-10-25"
+    }
+   },
+   "origin_proof_document": null
+  }
+ ],
+ "documents": [
+  {
+   "document_id": "6948273c-4da8-4c93-86d7-db5bcd1a8e2d",
+   "type": "packing_list",
+   "code": "N271",
+   "number": null,
+   "filename": "TEST-s2-72-portal-upload.pdf"
+  },
+  {
+   "document_id": "75128f17-29e0-4542-89f5-ee368e677f1a",
+   "type": "commercial_invoice",
+   "code": "N380",
+   "number": "SZ-CI-2026-10417",
+   "filename": "commercial_invoice_velotek.pdf"
+  }
+ ],
+ "updated_at": "2026-10-25T02:31:35Z",
+ "vat_route": "paid_to_customs",
+ "vat_route_label": "Import VAT: payable to Customs",
+ "totals": {
+  "invoice_value_cents": 2482692,
+  "customs_value_cents": 2539285,
+  "duty_cents": null,
+  "vat_base_cents": null,
+  "vat_cents": null,
+  "gross_kg": 820,
+  "net_kg": 731.2,
+  "packages": 58,
+  "duty_complete": false,
+  "value_complete": true,
+  "vat_complete": false,
+  "payable_to_customs_cents": null,
+  "estimate": true,
+  "estimate_label": "Duty from the EU TARIC consultation (2026-10-25)"
+ },
+ "validations": [
+  {
+   "rule": "E-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Importer EORI FI3994713-8 is valid in format",
+   "item": null,
+   "field": "importer.eori"
+  },
+  {
+   "rule": "E-1",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "EORI verified manually by Esimerkkikäyttäjä on 2026-10-24: E2E test company; synthetic EORI",
+   "item": null,
+   "field": "importer.eori"
+  },
+  {
+   "rule": "R-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Power of attorney on file: direct representation, valid to 2027-10-24",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "KYC",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Customer KYC approved",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "K-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Customer sanctions screening clear",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "K-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "A current, complete sanctions clearance is required for every party.",
+   "message_i18n": {
+    "fi": "Kaikkien osapuolten ajantasainen pakotetarkistus vaaditaan.",
+    "en": "A current, complete sanctions clearance is required for every party."
+   },
+   "field": "screening"
+  },
+  {
+   "rule": "DU-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No export/transfer licence requirement for this flow.",
+   "message_i18n": {
+    "fi": "Kaksikäyttötuotteiden valvonta ja lupa on tarkistettava.",
+    "en": "No export/transfer licence requirement for this flow."
+   },
+   "item": 1,
+   "legal_point": null
+  },
+  {
+   "rule": "SANC-GOODS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No country goods sanction hold identified.",
+   "message_i18n": {
+    "fi": "Tavaran pakoterajoitukset on tarkistettava.",
+    "en": "No country goods sanction hold identified."
+   },
+   "item": 1,
+   "legal_point": null
+  },
+  {
+   "rule": "DU-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No export/transfer licence requirement for this flow.",
+   "message_i18n": {
+    "fi": "Kaksikäyttötuotteiden valvonta ja lupa on tarkistettava.",
+    "en": "No export/transfer licence requirement for this flow."
+   },
+   "item": 2,
+   "legal_point": null
+  },
+  {
+   "rule": "SANC-GOODS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No country goods sanction hold identified.",
+   "message_i18n": {
+    "fi": "Tavaran pakoterajoitukset on tarkistettava.",
+    "en": "No country goods sanction hold identified."
+   },
+   "item": 2,
+   "legal_point": null
+  },
+  {
+   "rule": "DU-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No export/transfer licence requirement for this flow.",
+   "message_i18n": {
+    "fi": "Kaksikäyttötuotteiden valvonta ja lupa on tarkistettava.",
+    "en": "No export/transfer licence requirement for this flow."
+   },
+   "item": 3,
+   "legal_point": null
+  },
+  {
+   "rule": "SANC-GOODS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No country goods sanction hold identified.",
+   "message_i18n": {
+    "fi": "Tavaran pakoterajoitukset on tarkistettava.",
+    "en": "No country goods sanction hold identified."
+   },
+   "item": 3,
+   "legal_point": null
+  },
+  {
+   "rule": "DU-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No export/transfer licence requirement for this flow.",
+   "message_i18n": {
+    "fi": "Kaksikäyttötuotteiden valvonta ja lupa on tarkistettava.",
+    "en": "No export/transfer licence requirement for this flow."
+   },
+   "item": 4,
+   "legal_point": null
+  },
+  {
+   "rule": "SANC-GOODS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "No country goods sanction hold identified.",
+   "message_i18n": {
+    "fi": "Tavaran pakoterajoitukset on tarkistettava.",
+    "en": "No country goods sanction hold identified."
+   },
+   "item": 4,
+   "legal_point": null
+  },
+  {
+   "rule": "I-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Delivery terms FOB Yantian",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "DOC-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Commercial invoice attached",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "DOC-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Invoice fields read and checked",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "DOC-2",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Transport document number (B/L, AWB or CMR) is missing (DE 2/1)",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "I-5",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Exchange rate USD 1.1411 per EUR (ECB euro reference rate, 2026-09-23)",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "I-5",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Freight to the EU border included",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "C-2",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Set the customs office of presentation (DE 5/26)",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "C-2",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Set the location of goods (DE 5/23)",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "S-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Goods description is specific",
+   "item": 1,
+   "field": "description"
+  },
+  {
+   "rule": "H-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "HS 871499",
+   "item": 1,
+   "field": "hs_code"
+  },
+  {
+   "rule": "H-1",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Confirm the 8-digit CN code against TARIC on the declaration date",
+   "item": 1,
+   "field": "cn_code"
+  },
+  {
+   "rule": "ORIGIN",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Origin CN",
+   "item": 1,
+   "field": "origin_country"
+  },
+  {
+   "rule": "WEIGHT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Weights stated",
+   "item": 1,
+   "field": "gross_kg"
+  },
+  {
+   "rule": "H-2",
+   "ok": false,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty rate not estimated; look it up in TARIC",
+   "item": 1,
+   "field": null
+  },
+  {
+   "rule": "S-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Goods description is specific",
+   "item": 2,
+   "field": "description"
+  },
+  {
+   "rule": "H-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "HS 731511",
+   "item": 2,
+   "field": "hs_code"
+  },
+  {
+   "rule": "H-1",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Confirm the 8-digit CN code against TARIC on the declaration date",
+   "item": 2,
+   "field": "cn_code"
+  },
+  {
+   "rule": "ORIGIN",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Origin CN",
+   "item": 2,
+   "field": "origin_country"
+  },
+  {
+   "rule": "WEIGHT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Weights stated",
+   "item": 2,
+   "field": "gross_kg"
+  },
+  {
+   "rule": "S-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Goods description is specific",
+   "item": 3,
+   "field": "description"
+  },
+  {
+   "rule": "H-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "HS 851210",
+   "item": 3,
+   "field": "hs_code"
+  },
+  {
+   "rule": "H-1",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Confirm the 8-digit CN code against TARIC on the declaration date",
+   "item": 3,
+   "field": "cn_code"
+  },
+  {
+   "rule": "ORIGIN",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Origin CN",
+   "item": 3,
+   "field": "origin_country"
+  },
+  {
+   "rule": "WEIGHT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Weights stated",
+   "item": 3,
+   "field": "gross_kg"
+  },
+  {
+   "rule": "S-2",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Goods description is specific",
+   "item": 4,
+   "field": "description"
+  },
+  {
+   "rule": "H-1",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "HS 871494",
+   "item": 4,
+   "field": "hs_code"
+  },
+  {
+   "rule": "H-1",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Confirm the 8-digit CN code against TARIC on the declaration date",
+   "item": 4,
+   "field": "cn_code"
+  },
+  {
+   "rule": "ORIGIN",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Origin CN",
+   "item": 4,
+   "field": "origin_country"
+  },
+  {
+   "rule": "WEIGHT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "message": "Weights stated",
+   "item": 4,
+   "field": "gross_kg"
+  },
+  {
+   "rule": "H-2",
+   "ok": false,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty rate not estimated; look it up in TARIC",
+   "item": 4,
+   "field": null
+  },
+  {
+   "rule": "DOC-3",
+   "ok": false,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Consignee differs between documents: Nordic Bike Parts Oy",
+   "item": null,
+   "field": null,
+   "message_i18n": {
+    "en": "Consignee differs between documents: Nordic Bike Parts Oy",
+    "fi": "Vastaanottaja eroaa asiakirjojen välillä: Nordic Bike Parts Oy"
+   }
+  },
+  {
+   "rule": "V-3",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "customer",
+   "message": "Import VAT: payable to Customs",
+   "item": null,
+   "field": null
+  },
+  {
+   "rule": "ORIGIN-PREF",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Select a declarable TARIC subheading.",
+   "item": 1,
+   "field": "preference",
+   "message_i18n": {
+    "en": "Select a declarable TARIC subheading.",
+    "fi": "Valitse ilmoituskelpoinen TARIC-alanimike."
+   }
+  },
+  {
+   "rule": "ORIGIN-PREF",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules).",
+   "item": 2,
+   "field": "preference",
+   "message_i18n": {
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 7315111000; DG TRADE: no origin rules).",
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 7315111000; DG TRADE: ei alkuperäsääntöjä)."
+   }
+  },
+  {
+   "rule": "ORIGIN-PREF",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules).",
+   "item": 3,
+   "field": "preference",
+   "message_i18n": {
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8512100000; DG TRADE: no origin rules).",
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8512100000; DG TRADE: ei alkuperäsääntöjä)."
+   }
+  },
+  {
+   "rule": "ORIGIN-PREF",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Select a declarable TARIC subheading.",
+   "item": 4,
+   "field": "preference",
+   "message_i18n": {
+    "en": "Select a declarable TARIC subheading.",
+    "fi": "Valitse ilmoituskelpoinen TARIC-alanimike."
+   }
+  },
+  {
+   "rule": "TARIC-1",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty from the EU TARIC consultation on 2026-10-25:",
+   "item": 1,
+   "field": null,
+   "message_i18n": {
+    "en": "Duty from the EU TARIC consultation on 2026-10-25:",
+    "fi": "Tulli EU:n TARIC-palvelusta 2026-10-25:"
+   }
+  },
+  {
+   "rule": "TARIC-2",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "8714995000 is not a declarable TARIC code; choose a subcode: 8714995011, 8714995019, 8714995091, 8714995099.",
+   "item": 1,
+   "field": null,
+   "message_i18n": {
+    "en": "8714995000 is not a declarable TARIC code; choose a subcode: 8714995011, 8714995019, 8714995091, 8714995099.",
+    "fi": "8714995000 ei ole ilmoituskelpoinen TARIC-koodi; valitse alanimike: 8714995011, 8714995019, 8714995091, 8714995099."
+   }
+  },
+  {
+   "rule": "TARIC-1",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty from the EU TARIC consultation on 2026-10-25: Third country duty 2.70 %",
+   "item": 2,
+   "field": null,
+   "message_i18n": {
+    "en": "Duty from the EU TARIC consultation on 2026-10-25: Third country duty 2.70 %",
+    "fi": "Tulli EU:n TARIC-palvelusta 2026-10-25: 2.70 %"
+   }
+  },
+  {
+   "rule": "TARIC-1",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty from the EU TARIC consultation on 2026-10-25: Third country duty 2.70 %",
+   "item": 3,
+   "field": null,
+   "message_i18n": {
+    "en": "Duty from the EU TARIC consultation on 2026-10-25: Third country duty 2.70 %",
+    "fi": "Tulli EU:n TARIC-palvelusta 2026-10-25: 2.70 %"
+   }
+  },
+  {
+   "rule": "TARIC-1",
+   "ok": true,
+   "severity": "advisory",
+   "owner": "broker",
+   "message": "Duty from the EU TARIC consultation on 2026-10-25:",
+   "item": 4,
+   "field": null,
+   "message_i18n": {
+    "en": "Duty from the EU TARIC consultation on 2026-10-25:",
+    "fi": "Tulli EU:n TARIC-palvelusta 2026-10-25:"
+   }
+  },
+  {
+   "rule": "TARIC-2",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "8714942000 is not a declarable TARIC code; choose a subcode: 8714942005, 8714942091, 8714942099.",
+   "item": 4,
+   "field": null,
+   "message_i18n": {
+    "en": "8714942000 is not a declarable TARIC code; choose a subcode: 8714942005, 8714942091, 8714942099.",
+    "fi": "8714942000 ei ole ilmoituskelpoinen TARIC-koodi; valitse alanimike: 8714942005, 8714942091, 8714942099."
+   }
+  },
+  {
+   "rule": "LIC-1",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "message": "Licence required: Import control (R0833/14, All third countries). L139 Import authorisation by virtue of article 3g.7 of Council Regulation (EU) 833/2014 Accepted document codes (DE 2/3): L139, Y824, Y878, Y859, L143.",
+   "item": 2,
+   "field": null,
+   "message_i18n": {
+    "en": "Licence required: Import control (R0833/14, All third countries). L139 Import authorisation by virtue of article 3g.7 of Council Regulation (EU) 833/2014 Accepted document codes (DE 2/3): L139, Y824, Y878, Y859, L143.",
+    "fi": "Lupa vaaditaan: Import control (R0833/14). L139 Neuvoston asetuksen (EU) N:o 833/2014 3 g artiklan 7 kohdan mukainen tuontilupa Hyväksytyt asiakirjakoodit (DE 2/3): L139, Y824, Y878, Y859, L143."
+   },
+   "licence_requirement": {
+    "certificate_code": "L139",
+    "kind": "licence",
+    "measure_type": null,
+    "regulation": "R0833/14",
+    "condition_code": "Y",
+    "measure_sid": "4032345"
+   }
+  },
+  {
+   "rule": "IMP-SCOPE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "procedure_code",
+   "message": "This automatic import path supports IM/A procedure 4000/999; other procedures require a broker-supported workflow.",
+   "message_i18n": {
+    "fi": "Tämä automaattinen tuontipolku tukee IM/A-menettelyä 4000/999. Muu menettely vaatii välittäjän toteutuksen.",
+    "en": "This automatic import path supports IM/A procedure 4000/999; other procedures require a broker-supported workflow."
+   }
+  },
+  {
+   "rule": "IMP-CONTAINERS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "transport.container_numbers",
+   "message": "Containerised shipment requires the actual container identifiers.",
+   "message_i18n": {
+    "fi": "Kontitetun lähetyksen konttitunnukset puuttuvat.",
+    "en": "Containerised shipment requires the actual container identifiers."
+   }
+  },
+  {
+   "rule": "IMP-SUBMITTER",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "agent",
+   "item": null,
+   "field": "submitter",
+   "message": "Submitter name and email are required by the MIG.",
+   "message_i18n": {
+    "fi": "Ilmoituksen lähettäjän nimi ja sähköposti puuttuvat (MIG Submitter).",
+    "en": "Submitter name and email are required by the MIG."
+   }
+  },
+  {
+   "rule": "IMP-TRANSACTION",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "transaction_nature",
+   "message": "Nature of transaction is missing or not a CL091 code.",
+   "message_i18n": {
+    "fi": "Kauppatapahtuman luonne puuttuu tai ei ole CL091-koodi.",
+    "en": "Nature of transaction is missing or not a CL091 code."
+   }
+  },
+  {
+   "rule": "IMP-BORDER-MODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "transport.mode_at_border",
+   "message": "Border transport mode is missing or not a CL018 code.",
+   "message_i18n": {
+    "fi": "Rajakuljetusmuoto puuttuu tai ei ole CL018-koodi.",
+    "en": "Border transport mode is missing or not a CL018 code."
+   }
+  },
+  {
+   "rule": "IMP-ARRIVAL-MODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "transport.inland_mode",
+   "message": "Arrival transport mode is required (NC0208).",
+   "message_i18n": {
+    "fi": "Saapuvan kuljetusvälineen kuljetusmuoto puuttuu.",
+    "en": "Arrival transport mode is required (NC0208)."
+   }
+  },
+  {
+   "rule": "IMP-TRANSPORT-NATIONALITY",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "transport.nationality",
+   "message": "Border transport nationality is required (NC0031).",
+   "message_i18n": {
+    "fi": "Rajakuljetusvälineen kansallisuus puuttuu (NC0031).",
+    "en": "Border transport nationality is required (NC0031)."
+   }
+  },
+  {
+   "rule": "IMP-VALUATION-METHOD",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "valuation.method",
+   "message": "Valuation method must be a CL604 code.",
+   "message_i18n": {
+    "fi": "Tullausarvon määritysmenetelmä ei ole CL604-koodi.",
+    "en": "Valuation method must be a CL604 code."
+   }
+  },
+  {
+   "rule": "IMP-INVOICE-CURRENCY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "invoice.currency",
+   "message": "Invoice currency is missing or not a CL352 code.",
+   "message_i18n": {
+    "fi": "Kauppalaskun valuutta puuttuu tai ei ole CL352-koodi.",
+    "en": "Invoice currency is missing or not a CL352 code."
+   }
+  },
+  {
+   "rule": "IMP-INVOICE-TOTAL",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "invoice.total",
+   "message": "A positive invoice total is required.",
+   "message_i18n": {
+    "fi": "Kauppalaskun positiivinen kokonaisarvo puuttuu.",
+    "en": "A positive invoice total is required."
+   }
+  },
+  {
+   "rule": "IMP-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "transport.dispatch_country",
+   "message": "Missing or invalid CL008 country: dispatch_country.",
+   "message_i18n": {
+    "fi": "Maa puuttuu tai ei ole CL008-koodi: dispatch_country.",
+    "en": "Missing or invalid CL008 country: dispatch_country."
+   }
+  },
+  {
+   "rule": "IMP-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "transport.destination_country",
+   "message": "Missing or invalid CL008 country: destination_country.",
+   "message_i18n": {
+    "fi": "Maa puuttuu tai ei ole CL008-koodi: destination_country.",
+    "en": "Missing or invalid CL008 country: destination_country."
+   }
+  },
+  {
+   "rule": "IMP-TRANSPORT-CODE",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "transport.transport_document.type",
+   "message": "Transport document type must be a current import CL754 code.",
+   "message_i18n": {
+    "fi": "Kuljetusasiakirjan tyyppi ei ole voimassa oleva CL754-koodi.",
+    "en": "Transport document type must be a current import CL754 code."
+   }
+  },
+  {
+   "rule": "IMP-LOCATION-TYPE",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "goods_location.type",
+   "message": "Supply import inspection location type B, C or D (MIG DE 5/23). A is reserved for customs warehousing.",
+   "message_i18n": {
+    "fi": "Anna tuonnin tarkastuspaikan tyyppi B, C tai D (MIG DE 5/23). A on vain tullivarastointiin.",
+    "en": "Supply import inspection location type B, C or D (MIG DE 5/23). A is reserved for customs warehousing."
+   }
+  },
+  {
+   "rule": "IMP-LOCATION-IDENTITY",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "goods_location",
+   "message": "Supply the actual inspection place: complete FI address or identifier under MIG NC0035/NC0036; B requires EORI+3+2.",
+   "message_i18n": {
+    "fi": "Tarkastuspaikan täydellinen FI-osoite tai MIG NC0035/NC0036:n mukainen tunniste puuttuu; B: EORI+3+2.",
+    "en": "Supply the actual inspection place: complete FI address or identifier under MIG NC0035/NC0036; B requires EORI+3+2."
+   }
+  },
+  {
+   "rule": "IMP-PARTY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "importer",
+   "message": "importer: provide EORI or name and complete structured address.",
+   "message_i18n": {
+    "fi": "Osapuolen importer EORI tai nimi ja täydellinen osoite puuttuu.",
+    "en": "importer: provide EORI or name and complete structured address."
+   }
+  },
+  {
+   "rule": "IMP-PARTY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "declarant",
+   "message": "declarant: provide EORI or name and complete structured address.",
+   "message_i18n": {
+    "fi": "Osapuolen declarant EORI tai nimi ja täydellinen osoite puuttuu.",
+    "en": "declarant: provide EORI or name and complete structured address."
+   }
+  },
+  {
+   "rule": "IMP-PARTY",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "representative",
+   "message": "representative: provide EORI or name and complete structured address.",
+   "message_i18n": {
+    "fi": "Osapuolen representative EORI tai nimi ja täydellinen osoite puuttuu.",
+    "en": "representative: provide EORI or name and complete structured address."
+   }
+  },
+  {
+   "rule": "IMP-PARTY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "exporter",
+   "message": "exporter: provide EORI or name and complete structured address.",
+   "message_i18n": {
+    "fi": "Osapuolen exporter EORI tai nimi ja täydellinen osoite puuttuu.",
+    "en": "exporter: provide EORI or name and complete structured address."
+   }
+  },
+  {
+   "rule": "IMP-SHIPPING-MARKS",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "marks",
+   "message": "Shipping marks and numbers are required (NC0209).",
+   "message_i18n": {
+    "fi": "Pakkausten merkit ja numerot puuttuvat (NC0209).",
+    "en": "Shipping marks and numbers are required (NC0209)."
+   }
+  },
+  {
+   "rule": "IMP-LINE-AMOUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "invoice_amount",
+   "message": "Invoice line amount is required (NC0226).",
+   "message_i18n": {
+    "fi": "Laskurivin arvo puuttuu (NC0226).",
+    "en": "Invoice line amount is required (NC0226)."
+   }
+  },
+  {
+   "rule": "IMP-TARIC-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 1,
+   "field": "taric_code",
+   "message": "A ten-digit TARIC code is required (NC0230).",
+   "message_i18n": {
+    "fi": "TARIC-koodin 10 numeroa vaaditaan (NC0230).",
+    "en": "A ten-digit TARIC code is required (NC0230)."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "package_type",
+   "message": "Package type is missing or not a CL017 code.",
+   "message_i18n": {
+    "fi": "Pakkauslaji puuttuu tai ei ole CL017-koodi.",
+    "en": "Package type is missing or not a CL017 code."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-COUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "packages",
+   "message": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010).",
+   "message_i18n": {
+    "fi": "Kollimäärän tulee olla kokonaisluku; CL181-irtotavaralle määrää ei ilmoiteta (NC0010).",
+    "en": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010)."
+   }
+  },
+  {
+   "rule": "IMP-ORIGIN-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "origin_country",
+   "message": "Origin country must be a current CL008 code.",
+   "message_i18n": {
+    "fi": "Alkuperämaa ei ole voimassa oleva CL008-koodi.",
+    "en": "Origin country must be a current CL008 code."
+   }
+  },
+  {
+   "rule": "IMP-NET-MASS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 1,
+   "field": "net_kg",
+   "message": "Net mass is required.",
+   "message_i18n": {
+    "fi": "Nettopaino puuttuu.",
+    "en": "Net mass is required."
+   }
+  },
+  {
+   "rule": "IMP-PREFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 1,
+   "field": "preference",
+   "message": "Preference must be a current CL603 code.",
+   "message_i18n": {
+    "fi": "Etuuskohtelu ei ole voimassa oleva CL603-koodi.",
+    "en": "Preference must be a current CL603 code."
+   }
+  },
+  {
+   "rule": "IMP-PROCEDURE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 1,
+   "field": "procedure_code",
+   "message": "Procedure/additional procedure combination is not permitted (NCL232).",
+   "message_i18n": {
+    "fi": "Menettelyjen yhdistelmä ei ole sallittu (NCL232).",
+    "en": "Procedure/additional procedure combination is not permitted (NCL232)."
+   }
+  },
+  {
+   "rule": "IMP-SHIPPING-MARKS",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "marks",
+   "message": "Shipping marks and numbers are required (NC0209).",
+   "message_i18n": {
+    "fi": "Pakkausten merkit ja numerot puuttuvat (NC0209).",
+    "en": "Shipping marks and numbers are required (NC0209)."
+   }
+  },
+  {
+   "rule": "IMP-LINE-AMOUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "invoice_amount",
+   "message": "Invoice line amount is required (NC0226).",
+   "message_i18n": {
+    "fi": "Laskurivin arvo puuttuu (NC0226).",
+    "en": "Invoice line amount is required (NC0226)."
+   }
+  },
+  {
+   "rule": "IMP-TARIC-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 2,
+   "field": "taric_code",
+   "message": "A ten-digit TARIC code is required (NC0230).",
+   "message_i18n": {
+    "fi": "TARIC-koodin 10 numeroa vaaditaan (NC0230).",
+    "en": "A ten-digit TARIC code is required (NC0230)."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "package_type",
+   "message": "Package type is missing or not a CL017 code.",
+   "message_i18n": {
+    "fi": "Pakkauslaji puuttuu tai ei ole CL017-koodi.",
+    "en": "Package type is missing or not a CL017 code."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-COUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "packages",
+   "message": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010).",
+   "message_i18n": {
+    "fi": "Kollimäärän tulee olla kokonaisluku; CL181-irtotavaralle määrää ei ilmoiteta (NC0010).",
+    "en": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010)."
+   }
+  },
+  {
+   "rule": "IMP-ORIGIN-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "origin_country",
+   "message": "Origin country must be a current CL008 code.",
+   "message_i18n": {
+    "fi": "Alkuperämaa ei ole voimassa oleva CL008-koodi.",
+    "en": "Origin country must be a current CL008 code."
+   }
+  },
+  {
+   "rule": "IMP-NET-MASS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 2,
+   "field": "net_kg",
+   "message": "Net mass is required.",
+   "message_i18n": {
+    "fi": "Nettopaino puuttuu.",
+    "en": "Net mass is required."
+   }
+  },
+  {
+   "rule": "IMP-PREFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 2,
+   "field": "preference",
+   "message": "Preference must be a current CL603 code.",
+   "message_i18n": {
+    "fi": "Etuuskohtelu ei ole voimassa oleva CL603-koodi.",
+    "en": "Preference must be a current CL603 code."
+   }
+  },
+  {
+   "rule": "IMP-PROCEDURE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 2,
+   "field": "procedure_code",
+   "message": "Procedure/additional procedure combination is not permitted (NCL232).",
+   "message_i18n": {
+    "fi": "Menettelyjen yhdistelmä ei ole sallittu (NCL232).",
+    "en": "Procedure/additional procedure combination is not permitted (NCL232)."
+   }
+  },
+  {
+   "rule": "IMP-SHIPPING-MARKS",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "marks",
+   "message": "Shipping marks and numbers are required (NC0209).",
+   "message_i18n": {
+    "fi": "Pakkausten merkit ja numerot puuttuvat (NC0209).",
+    "en": "Shipping marks and numbers are required (NC0209)."
+   }
+  },
+  {
+   "rule": "IMP-LINE-AMOUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "invoice_amount",
+   "message": "Invoice line amount is required (NC0226).",
+   "message_i18n": {
+    "fi": "Laskurivin arvo puuttuu (NC0226).",
+    "en": "Invoice line amount is required (NC0226)."
+   }
+  },
+  {
+   "rule": "IMP-TARIC-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 3,
+   "field": "taric_code",
+   "message": "A ten-digit TARIC code is required (NC0230).",
+   "message_i18n": {
+    "fi": "TARIC-koodin 10 numeroa vaaditaan (NC0230).",
+    "en": "A ten-digit TARIC code is required (NC0230)."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "package_type",
+   "message": "Package type is missing or not a CL017 code.",
+   "message_i18n": {
+    "fi": "Pakkauslaji puuttuu tai ei ole CL017-koodi.",
+    "en": "Package type is missing or not a CL017 code."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-COUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "packages",
+   "message": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010).",
+   "message_i18n": {
+    "fi": "Kollimäärän tulee olla kokonaisluku; CL181-irtotavaralle määrää ei ilmoiteta (NC0010).",
+    "en": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010)."
+   }
+  },
+  {
+   "rule": "IMP-ORIGIN-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "origin_country",
+   "message": "Origin country must be a current CL008 code.",
+   "message_i18n": {
+    "fi": "Alkuperämaa ei ole voimassa oleva CL008-koodi.",
+    "en": "Origin country must be a current CL008 code."
+   }
+  },
+  {
+   "rule": "IMP-NET-MASS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 3,
+   "field": "net_kg",
+   "message": "Net mass is required.",
+   "message_i18n": {
+    "fi": "Nettopaino puuttuu.",
+    "en": "Net mass is required."
+   }
+  },
+  {
+   "rule": "IMP-PREFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 3,
+   "field": "preference",
+   "message": "Preference must be a current CL603 code.",
+   "message_i18n": {
+    "fi": "Etuuskohtelu ei ole voimassa oleva CL603-koodi.",
+    "en": "Preference must be a current CL603 code."
+   }
+  },
+  {
+   "rule": "IMP-PROCEDURE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 3,
+   "field": "procedure_code",
+   "message": "Procedure/additional procedure combination is not permitted (NCL232).",
+   "message_i18n": {
+    "fi": "Menettelyjen yhdistelmä ei ole sallittu (NCL232).",
+    "en": "Procedure/additional procedure combination is not permitted (NCL232)."
+   }
+  },
+  {
+   "rule": "IMP-SHIPPING-MARKS",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "marks",
+   "message": "Shipping marks and numbers are required (NC0209).",
+   "message_i18n": {
+    "fi": "Pakkausten merkit ja numerot puuttuvat (NC0209).",
+    "en": "Shipping marks and numbers are required (NC0209)."
+   }
+  },
+  {
+   "rule": "IMP-LINE-AMOUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "invoice_amount",
+   "message": "Invoice line amount is required (NC0226).",
+   "message_i18n": {
+    "fi": "Laskurivin arvo puuttuu (NC0226).",
+    "en": "Invoice line amount is required (NC0226)."
+   }
+  },
+  {
+   "rule": "IMP-TARIC-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 4,
+   "field": "taric_code",
+   "message": "A ten-digit TARIC code is required (NC0230).",
+   "message_i18n": {
+    "fi": "TARIC-koodin 10 numeroa vaaditaan (NC0230).",
+    "en": "A ten-digit TARIC code is required (NC0230)."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "package_type",
+   "message": "Package type is missing or not a CL017 code.",
+   "message_i18n": {
+    "fi": "Pakkauslaji puuttuu tai ei ole CL017-koodi.",
+    "en": "Package type is missing or not a CL017 code."
+   }
+  },
+  {
+   "rule": "IMP-PACKAGE-COUNT",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "packages",
+   "message": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010).",
+   "message_i18n": {
+    "fi": "Kollimäärän tulee olla kokonaisluku; CL181-irtotavaralle määrää ei ilmoiteta (NC0010).",
+    "en": "Package count must be an explicit non-negative integer; omit it for CL181 bulk goods (NC0010)."
+   }
+  },
+  {
+   "rule": "IMP-ORIGIN-COUNTRY",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "origin_country",
+   "message": "Origin country must be a current CL008 code.",
+   "message_i18n": {
+    "fi": "Alkuperämaa ei ole voimassa oleva CL008-koodi.",
+    "en": "Origin country must be a current CL008 code."
+   }
+  },
+  {
+   "rule": "IMP-NET-MASS",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": 4,
+   "field": "net_kg",
+   "message": "Net mass is required.",
+   "message_i18n": {
+    "fi": "Nettopaino puuttuu.",
+    "en": "Net mass is required."
+   }
+  },
+  {
+   "rule": "IMP-PREFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 4,
+   "field": "preference",
+   "message": "Preference must be a current CL603 code.",
+   "message_i18n": {
+    "fi": "Etuuskohtelu ei ole voimassa oleva CL603-koodi.",
+    "en": "Preference must be a current CL603 code."
+   }
+  },
+  {
+   "rule": "IMP-PROCEDURE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": 4,
+   "field": "procedure_code",
+   "message": "Procedure/additional procedure combination is not permitted (NCL232).",
+   "message_i18n": {
+    "fi": "Menettelyjen yhdistelmä ei ole sallittu (NCL232).",
+    "en": "Procedure/additional procedure combination is not permitted (NCL232)."
+   }
+  },
+  {
+   "rule": "IMP-INVOICE-REFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "documents",
+   "message": "Commercial invoice reference N380 is required in DE 2/3.",
+   "message_i18n": {
+    "fi": "Kauppalaskun N380-viite puuttuu (DE 2/3).",
+    "en": "Commercial invoice reference N380 is required in DE 2/3."
+   }
+  },
+  {
+   "rule": "IMP-DOCUMENT-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "documents.code",
+   "message": "Invalid import CL213/CL380 document code: N271.",
+   "message_i18n": {
+    "fi": "Liiteasiakirjan koodi ei kelpaa: N271.",
+    "en": "Invalid import CL213/CL380 document code: N271."
+   }
+  },
+  {
+   "rule": "IMP-DOCUMENT-REFERENCE",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "documents.reference",
+   "message": "Supporting document reference is missing.",
+   "message_i18n": {
+    "fi": "Liiteasiakirjan viite puuttuu.",
+    "en": "Supporting document reference is missing."
+   }
+  },
+  {
+   "rule": "IMP-DOCUMENT-CODE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "documents.code",
+   "message": "Invalid import CL213/CL380 document code: N380.",
+   "message_i18n": {
+    "fi": "Liiteasiakirjan koodi ei kelpaa: N380.",
+    "en": "Invalid import CL213/CL380 document code: N380."
+   }
+  },
+  {
+   "rule": "IMP-DOCUMENT-REFERENCE",
+   "ok": true,
+   "severity": "blocking",
+   "owner": "customer",
+   "item": null,
+   "field": "documents.reference",
+   "message": "Supporting document reference is missing.",
+   "message_i18n": {
+    "fi": "Liiteasiakirjan viite puuttuu.",
+    "en": "Supporting document reference is missing."
+   }
+  },
+  {
+   "rule": "IMP-XSD",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "/FI415B/Agent/Address",
+   "message": "FI415B /FI415B/Agent/Address: Unexpected child with tag '{http://tulli.fi/schema/external/import/ext/v3}Country' at position 2. Tag '{http://tulli.fi/schema/external/import/ext/v3}CityName' expected.",
+   "message_i18n": {
+    "fi": "FI415B-tietovaatimus ei täyty: /FI415B/Agent/Address",
+    "en": "FI415B /FI415B/Agent/Address: Unexpected child with tag '{http://tulli.fi/schema/external/import/ext/v3}Country' at position 2. Tag '{http://tulli.fi/schema/external/import/ext/v3}CityName' expected."
+   }
+  },
+  {
+   "rule": "IMP-XSD",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "/FI415B/Agent",
+   "message": "FI415B /FI415B/Agent: Unexpected child with tag '{http://tulli.fi/schema/external/import/ext/v3}Name' at position 2. Tag '{http://tulli.fi/schema/external/import/ext/v3}Identification' expected.",
+   "message_i18n": {
+    "fi": "FI415B-tietovaatimus ei täyty: /FI415B/Agent",
+    "en": "FI415B /FI415B/Agent: Unexpected child with tag '{http://tulli.fi/schema/external/import/ext/v3}Name' at position 2. Tag '{http://tulli.fi/schema/external/import/ext/v3}Identification' expected."
+   }
+  },
+  {
+   "rule": "IMP-XSD",
+   "ok": false,
+   "severity": "blocking",
+   "owner": "broker",
+   "item": null,
+   "field": "/FI415B/Exporter/Address/Line",
+   "message": "FI415B /FI415B/Exporter/Address/Line: value length cannot be greater than 70",
+   "message_i18n": {
+    "fi": "FI415B-tietovaatimus ei täyty: /FI415B/Exporter/Address/Line",
+    "en": "FI415B /FI415B/Exporter/Address/Line: value length cannot be greater than 70"
+   }
+  }
+ ],
+ "screening": {
+  "status": "clear",
+  "parties": [
+   {
+    "query": "E2E Testi 084712 Oy",
+    "kind": "any",
+    "country": null,
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:31:58Z",
+    "threshold": 0.86,
+    "normalized": "e2e testi 084712",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 82,
+    "role": "importer",
+    "name": "E2E Testi 084712 Oy"
+   },
+   {
+    "query": "Shenzhen Velotek Components Co., Ltd.",
+    "kind": "any",
+    "country": "CN",
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:31:58Z",
+    "threshold": 0.86,
+    "normalized": "shenzhen velotek components",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 75,
+    "role": "seller",
+    "name": "Shenzhen Velotek Components Co., Ltd."
+   },
+   {
+    "query": "Nordic Bike Parts Oy",
+    "kind": "any",
+    "country": "FI",
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:31:58Z",
+    "threshold": 0.86,
+    "normalized": "nordic bike parts",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 71,
+    "role": "buyer",
+    "name": "Nordic Bike Parts Oy"
+   },
+   {
+    "query": "Shenzhen Velotek Components Co., Ltd.",
+    "kind": "any",
+    "country": "CN",
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:32:00Z",
+    "threshold": 0.86,
+    "normalized": "shenzhen velotek components",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 196,
+    "role": "exporter",
+    "name": "Shenzhen Velotek Components Co., Ltd."
+   },
+   {
+    "query": "E2E Testi 084712 Oy",
+    "kind": "any",
+    "country": null,
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:32:00Z",
+    "threshold": 0.86,
+    "normalized": "e2e testi 084712",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 100,
+    "role": "declarant",
+    "name": "E2E Testi 084712 Oy"
+   },
+   {
+    "query": "Huolitsija Oy",
+    "kind": "any",
+    "country": null,
+    "lists": [
+     {
+      "list": "eu",
+      "label": "EU consolidated financial sanctions list",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "fetched_at": "2026-10-24T07:37:04Z",
+      "entries": 6269,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "un",
+      "label": "UN Security Council consolidated list",
+      "generated_at": "2026-10-23T23:00:02.379Z",
+      "fetched_at": "2026-10-24T07:37:05Z",
+      "entries": 1010,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "ofac",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "fetched_at": "2026-10-24T07:37:36Z",
+      "entries": 19471,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "uk",
+      "label": "UK Sanctions List",
+      "generated_at": "2026-10-16",
+      "fetched_at": "2026-10-24T23:28:26Z",
+      "entries": 6408,
+      "status": "ok",
+      "loaded": true
+     },
+     {
+      "list": "csl",
+      "label": "US Consolidated Screening List",
+      "generated_at": "2026-10-21T16:35:23+00:00",
+      "fetched_at": "2026-10-24T23:28:39Z",
+      "entries": 5547,
+      "status": "ok",
+      "loaded": true
+     }
+    ],
+    "complete": true,
+    "screened_at": "2026-10-25T02:32:00Z",
+    "threshold": 0.86,
+    "normalized": "huolitsija",
+    "status": "clear",
+    "top_score": 0,
+    "hits": [],
+    "closest": null,
+    "latency_ms": 68,
+    "role": "representative",
+    "name": "Huolitsija Oy"
+   }
+  ],
+  "hits": [],
+  "screened_at": "2026-10-25T02:32:00Z",
+  "name": "Shenzhen Velotek Components Co., Ltd.",
+  "complete": true,
+  "party_fingerprint": "5868ce8e77caecc4e8f5fbaab3e2b8333063b52c32c28624e98882ba96715090",
+  "lists": [
+   {
+    "list": "eu",
+    "version": "5e7db92f-3e17-4279-af89-f4dd43f4734d",
+    "sha256": "636800c3e494b2ef8934f51f5e23c914a6208a383ac850e674b1b35a7d49d34f",
+    "fetched_at": "2026-10-24T07:37:04Z",
+    "status": "ok"
+   },
+   {
+    "list": "un",
+    "version": "6578b904-1724-4b69-b409-1bb89fb60acc",
+    "sha256": "4db1d47ec66de183a435912848f6c8c68b01aeb396f493ac5a529cadedbada51",
+    "fetched_at": "2026-10-24T07:37:05Z",
+    "status": "ok"
+   },
+   {
+    "list": "ofac",
+    "version": "3781ae7f-cbb2-4415-9bac-6a7520da93ac",
+    "sha256": "abc40b04ef1e514f322f302cffce56faef7ac73c9e0e69f6316e584a503a1173",
+    "fetched_at": "2026-10-24T07:37:36Z",
+    "status": "ok"
+   },
+   {
+    "list": "uk",
+    "version": "411bc848-adcb-4c64-be57-9b119a26beae",
+    "sha256": "8e71e2237d0dee3191d433f94ba6cec65ec76b5f0f3e9d2e42b4f3f992682281",
+    "fetched_at": "2026-10-24T23:28:26Z",
+    "status": "ok"
+   },
+   {
+    "list": "csl",
+    "version": "eb960f4e-7382-4f9c-b9a9-d1c4c0bfce2c",
+    "sha256": "6f8200db9ef1fc86c63aeeca4461c31dd5a6d6ba3ede2379f496c1afe9cba7ed",
+    "fetched_at": "2026-10-24T23:28:39Z",
+    "status": "ok"
+   }
+  ],
+  "required_lists": [
+   "eu",
+   "un"
+  ],
+  "missing_lists": [],
+  "note": null,
+  "legal_point": null
+ },
+ "submitter": {
+  "name": "Huolitsija Oy",
+  "email": "ops@huolitsija.fi"
+ },
+ "transaction_nature": null,
+ "goods_location": null,
+ "shipment": {
+  "id": "33b6f668-f373-4c07-acdf-f9d4f2b49523",
+  "reference": "HUO-2026-000042",
+  "mode": "sea",
+  "direction": "import",
+  "incoterm": "FOB",
+  "status": "delivered",
+  "origin": {
+   "unlocode": "CNYTN",
+   "name": "Yantian (Shenzhen)",
+   "country": "CN",
+   "lat": 22.57,
+   "lon": 114.28,
+   "kinds": [
+    "port",
+    "road"
+   ],
+   "city": "Shenzhen",
+   "label": "Yantian (Shenzhen) (CNYTN), CN",
+   "address": {
+    "street": "No. 18 Huanguan South Road, Guanlan, Longhua District",
+    "postal_code": "518110",
+    "city": "Shenzhen",
+    "country": "CN"
+   }
+  },
+  "destination": {
+   "unlocode": "FIHEL",
+   "name": "Helsinki Vuosaari Harbour",
+   "country": "FI",
+   "lat": 60.21502,
+   "lon": 25.19392,
+   "kinds": [
+    "port",
+    "road",
+    "rail"
+   ],
+   "city": "Helsinki",
+   "label": "Helsinki Vuosaari Harbour (FIHEL), FI",
+   "address": {
+    "street": "Mannerheimintie 12",
+    "postal_code": "00100",
+    "city": "Helsinki",
+    "country": "FI"
+   }
+  },
+  "eta": "2026-12-17T00:00:00Z"
+ },
+ "gateway": {
+  "mode": "disabled",
+  "channel": "manual",
+  "template_version": "3.0.37",
+  "ready": true,
+  "description": "Manual filing in Tulli's Customs Clearance Service; MRN and release recorded by the broker"
+ },
+ "can": {
+  "edit": true,
+  "confirm": false,
+  "request_approval": true,
+  "decide_approval": false,
+  "record_response": false,
+  "file": false
+ }
+}

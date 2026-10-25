@@ -1,0 +1,2137 @@
+{
+  " (found from the Business ID; saved to the profile)": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check (the EORI probe result gets summary_fi next to it)",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:354"
+  },
+  "'{…}' is not a VAT number": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:128"
+  },
+  ". A person with KYC approval rights must approve the PEP relationship": {
+    "reason": "KYC pep check summary; services/pep.kyc_check stores summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/pep.py:538"
+  },
+  ". PEP-asiakkuuden hyväksyy henkilö, jolla on KYC-hyväksyntäoikeus": {
+    "reason": "already Finnish: the summary_fi of the KYC pep check (services/pep.kyc_check)",
+    "status": "keep",
+    "where": "backend/services/pep.py:540"
+  },
+  "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ev=\"http://eori.ws.eos.dds.s/\"><soapenv:Header/><soapenv:Body><ev:validateEORI></ev:validateEORI></soapenv:Body></soapenv:Envelope>": {
+    "reason": "EU EOS SOAP request XML in a local variable named body; sent to the registry, never displayed",
+    "status": "keep",
+    "where": "backend/services/kyc.py:173"
+  },
+  "AI assessment failed: {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "AI assessment failed: provider timeout",
+    "status": "pattern",
+    "where": "backend/services/exceptions_agent.py:429"
+  },
+  "AI classification failed ({…}); pick the code from the candidates.": {
+    "reason": "backendText.fi.js",
+    "sample": "AI classification failed (provider timeout); pick the code from the candidates.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:1008"
+  },
+  "API key from the customer portal (Rajapinta / API)": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:312"
+  },
+  "Affiliate of ": {
+    "reason": "prefix of a US CSL list note quoted with the list's own English wording; ops-only compliance evidence",
+    "status": "keep",
+    "where": "backend/services/screening.py:537"
+  },
+  "Approve carrier invoice {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/carrier_invoices.py:878"
+  },
+  "Approve payment run {…}: {…} payments, {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/payables.py:347"
+  },
+  "Arktinen Elektroniikka Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:21"
+  },
+  "Asiakirjat odottavat tarkistusta": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/domain_data_repair.py:44"
+  },
+  "Asiakkaan edustaja": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:83"
+  },
+  "Autopilot: {…} claim, notice in time, {…} document(s); paid {…} EUR = min(claimed {…}, cap {…}) under {…}.": {
+    "reason": "Claim proposal note by the claims agent; it stores proposal.note_i18n {fi, en}, which localizePayload uses for note",
+    "status": "fi_variant",
+    "where": "backend/services/agents/claims_agent.py:63"
+  },
+  "Autopilotti: {…}, reklamaatio ajoissa, {…} liitettä; korvaus {…} = pienempi vaaditusta {…} ja vastuurajasta {…} ({…}).": {
+    "reason": "Already Finnish: proposal.note_i18n.fi of the claims agent",
+    "status": "keep",
+    "where": "backend/services/agents/claims_agent.py:68"
+  },
+  "Avaa tarjous": {
+    "reason": "Finnish email action label.",
+    "status": "keep"
+  },
+  "Bank archive id / reference of the transfer": {
+    "reason": "OpenAPI field description (pydantic Field); not shown in the UI",
+    "status": "keep",
+    "where": "backend/routes/invoices.py:283"
+  },
+  "Bind cargo insurance for {…}": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/insurance.py:515"
+  },
+  "Bind cargo insurance {…} for {…}": {
+    "reason": "approval card title; data.title_fi carries the Finnish title",
+    "status": "fi_variant"
+  },
+  "Book a quote option": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:171"
+  },
+  "Booking confirmed": {
+    "reason": "Tracking event code booked; the timeline renders shipments.ms.booked",
+    "status": "coded",
+    "where": "backend/services/seed_shipments.py:804"
+  },
+  "Bookings open once your company is verified (verification {…}). Complete or check it in Company settings: /portal/company.": {
+    "reason": "Booking blocker code kyc; BookingBlockers renders pq.blocker.kyc",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:236"
+  },
+  "CMA CGM": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/tracking.py:39"
+  },
+  "CMR art. 23: 8.33 SDR/kg": {
+    "reason": "label_fi next to it; quoteFormat liabilityLabel shows label_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:165"
+  },
+  "COL-toimipaikan rooli ja voimassaolo / COL office role and validity: ": {
+    "reason": "customsTextFi removes the duplicate English label, preserving the office code.",
+    "sample": "COL-toimipaikan rooli ja voimassaolo / COL office role and validity: ",
+    "status": "pattern"
+  },
+  "Cargo insurance {…})": {
+    "reason": "description_fi set on the next line (services/pricing.py); quoteFormat lineText shows description_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:1333"
+  },
+  "Carrier asks for SI correction {…}": {
+    "reason": "services/execution/si_vgm.py supplies title_fi to core.agent_runtime.decide, which stores title_fi on the approval for Finnish display.",
+    "status": "fi_variant"
+  },
+  "Carrier invoice needs review: {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/carrier_invoices.py:917"
+  },
+  "Carrier invoice over the booked rate: {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/carrier_invoices.py:939"
+  },
+  "Carrier reports an 18-hour delay": {
+    "reason": "Simulator exception title; the exception stores title_i18n {fi, en}",
+    "status": "fi_variant",
+    "where": "backend/services/simulator.py:76"
+  },
+  "Caspian Sea crossing Aktau–Alat is a rail ferry; gauge changes at Khorgos (1435/1520) and Akhalkalaki (1520/1435).": {
+    "reason": "Rail corridor dataset note (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:89"
+  },
+  "Check document {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/document_agent.py:47"
+  },
+  "Choose the CN subdivision of {…} ({…} options) and confirm it in TARIC (RULE H-1).": {
+    "reason": "backendText.fi.js (cn8_note; ItemsTable runs it through displayText)",
+    "sample": "Choose the CN subdivision of 871499 (4 options) and confirm it in TARIC (RULE H-1).",
+    "status": "pattern",
+    "where": "backend/services/hs.py:141"
+  },
+  "Close call: {…} ({…}) is within {…} of {…} ({…}); a broker must decide.": {
+    "reason": "reason_i18n set in classify result (services/hs.py); localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:907"
+  },
+  "Closing date YYYY-MM-DD (usually the last day of the month)": {
+    "reason": "Pydantic Field description in the OpenAPI schema; finance controls use fin.* locale keys instead.",
+    "status": "keep",
+    "where": "backend/routes/finance.py:71"
+  },
+  "Collected at {…}": {
+    "reason": "Milestone code departed; the timeline renders shipments.ms.departed",
+    "status": "coded",
+    "where": "backend/services/shipments.py:473"
+  },
+  "Company has declared no beneficial owners": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/beneficial_owners.py:170"
+  },
+  "Confidence {…} is below {…}; a broker must pick the code.": {
+    "reason": "reason_i18n set in classify result (services/hs.py); localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:904"
+  },
+  "Confirm booking {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/booking_agent.py:52"
+  },
+  "Confirm carrier booking {…} leg {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/carrier_agent.py:95"
+  },
+  "Confirm your e-mail address": {
+    "reason": "E-mail subject; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/routes/auth.py:103"
+  },
+  "Consignee differs between documents: ": {
+    "reason": "DOC-3 check; message_fi next to it (documents.py cross-check)",
+    "status": "fi_variant",
+    "where": "backend/services/documents.py:424"
+  },
+  "Contract freight {…} ({…})": {
+    "reason": "s7: stored with its Finnish variant `description_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/contract_tariffs.py:310"
+  },
+  "Converted to customer {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:350"
+  },
+  "Converted to customer {…} (new company, KYC not started)": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:350"
+  },
+  "Creates the shipment. Needs a verified company (KYC approved, sanctions clear); otherwise 409 explains what is missing. One booking per quote.": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:172"
+  },
+  "Credit check {…}: score {…}, rating {…}. {…}": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/credit.py:391"
+  },
+  "Credit limit {…} for {…} (rating {…})": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/credit.py:389"
+  },
+  "Customs controls: {…} ({…})": {
+    "reason": "The decision carries title_fi alongside title in customs_aeo.record_controls.",
+    "status": "fi_variant"
+  },
+  "Customs declaration {…} needs a person": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/customs_agent.py:206"
+  },
+  "Customs duty": {
+    "reason": "description_fi next to it; quoteFormat lineText shows description_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:1498"
+  },
+  "Customs duty and import VAT": {
+    "reason": "description_fi next to it; quoteFormat lineText shows description_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:1474"
+  },
+  "Customs hold {…} h": {
+    "reason": "title_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:263"
+  },
+  "Customs rejected {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/customs_agent.py:169"
+  },
+  "DHL Express Worldwide export from Finland, zone {…}": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "DHL Express Worldwide export from Finland, zone 4",
+    "status": "pattern"
+  },
+  "Dangerous goods quote without a DG surcharge line: {…}.": {
+    "reason": "Quote warning code dg.surcharge_missing; renders quotes.warn.dg.surcharge_missing",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:620"
+  },
+  "Dangerous goods review {…}": {
+    "reason": "approval title shown in ops only; the UI labels the card from its kind (approvals.kind.dg_review, compliance.js) and the shipment reference is a code",
+    "status": "keep",
+    "where": "backend/services/dangerous_goods.py:665"
+  },
+  "Declared: no person owns or controls more than 25 %": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:401"
+  },
+  "Declared: no person owns or controls more than 25 %; politically exposed: {…}": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:401"
+  },
+  "Delete a webhook endpoint": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:278"
+  },
+  "Derived from {…} {…} ({…}) scaled by distance {…} km and trade direction": {
+    "reason": "Benchmark source note; services/benchmarks._src stores note_fi (Finnish template at the same call) next to note",
+    "status": "fi_variant",
+    "where": "backend/services/benchmarks.py:426"
+  },
+  "Derived from {…} {…} ({…}) scaled by route length {…} nm, trade direction and lane density": {
+    "reason": "Benchmark source note; services/benchmarks._src stores note_fi (Finnish template at the same call) next to note",
+    "status": "fi_variant",
+    "where": "backend/services/benchmarks.py:368"
+  },
+  "Document text (pypdf layout extraction, {…} page(s){…}):\n<<<\n{…}\n>>>": {
+    "reason": "Text inside the AI extraction prompt; not shown in the UI",
+    "status": "keep",
+    "where": "backend/services/extraction.py:267"
+  },
+  "Drewry HTTP {…}": {
+    "reason": "Diagnostic refresh error, not a customer price or UI display.",
+    "status": "keep"
+  },
+  "Dual-use hint: {…}. Check the item against Annex I of Reg (EU) 2021/821; this is a hint, not a determination.": {
+    "reason": "customsChecks.fi.js",
+    "sample": "Dual-use hint: integrated circuits. Check the item against Annex I of Reg (EU) 2021/821; this is a hint, not a determination.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:584"
+  },
+  "EORI {…} verified by Huolitsija": {
+    "reason": "summary_fi next to it; features/company/common.jsx shows summary_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/routes/companies.py:49"
+  },
+  "EORI {…} verified manually by {…} on {…}: {…}": {
+    "reason": "summary_fi next to it; features/company/common.jsx shows summary_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:502"
+  },
+  "ERP production": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:127"
+  },
+  "ETA moved by {…} days": {
+    "reason": "Tracking event code eta_changed; the timeline renders shipments.ms.eta_changed",
+    "status": "coded",
+    "where": "backend/services/seed_shipments.py:867"
+  },
+  "ETA slipped {…} h": {
+    "reason": "title_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:248"
+  },
+  "EU anti-dumping/countervailing measures exist for {…} {…}; the duty estimate does not include them — check TARIC measures and additional codes. {…}{…} ({…}).": {
+    "reason": "customsChecks.fi.js H-1 pattern with product, country and detail maps",
+    "sample": "EU anti-dumping/countervailing measures exist for bicycles (not motorised) originating in China; the duty estimate does not include them — check TARIC measures and additional codes. Anti-dumping duty up to 48.5 %, also extended to bicycles consigned from Indonesia, Malaysia, Sri Lanka, Tunisia, Cambodia, Pakistan and the Philippines unless made by an exempted producer (Commission Implementing Regulation (EU) 2025/2146).",
+    "status": "pattern",
+    "where": "backend/services/hs.py:533"
+  },
+  "EU sanctions (Council Regulation (EC) No 765/2006); domain spec RULE K-2 default-deny. Landlocked.": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:89"
+  },
+  "EU sanctions (Council Regulation (EU) No 267/2012); domain spec RULE K-2 default-deny": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:95"
+  },
+  "EU sanctions (Council Regulation (EU) No 36/2012; most economic measures lifted May 2025); domain spec RULE K-2 default-deny still applies": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:98"
+  },
+  "EU sanctions (Council Regulation (EU) No 833/2014); domain spec RULE K-2 default-deny": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:86"
+  },
+  "EU:n päästökauppa 2026, 50 % EU:n ulkopuolisesta matkasta": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:242"
+  },
+  "Ei poliittisesti vaikutusvaltaisia henkilöitä tai heidän perheenjäseniään ({…} nimeä)": {
+    "reason": "already Finnish: the summary_fi of the KYC pep check (services/pep.kyc_check)",
+    "status": "keep",
+    "where": "backend/services/pep.py:548"
+  },
+  "Ei tarkistettavia henkilöitä (edunsaajia tai allekirjoittajaa ei ole ilmoitettu)": {
+    "reason": "already Finnish: the summary_fi of the KYC pep check (services/pep.kyc_check)",
+    "status": "keep",
+    "where": "backend/services/pep.py:516"
+  },
+  "Event names or ['*'] for all": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:129"
+  },
+  "Execution date {…}. pain.001 validated against the official XSD.": {
+    "reason": "Finance agent_decide supplies summary_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/payables.py:349"
+  },
+  "File export ": {
+    "reason": "customsTextFi localises the filing approval title while preserving its reference.",
+    "sample": "File export ",
+    "status": "pattern"
+  },
+  "File import declaration {…} ({…})": {
+    "reason": "backendText.fi.js approval title",
+    "sample": "File import declaration LRN-2026-000027 (HUO-2026-000051)",
+    "status": "pattern",
+    "where": "backend/services/customs.py:1049"
+  },
+  "Final demand and credit hold: {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/collections.py:228"
+  },
+  "Find a carrier for {…} leg {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/carrier_agent.py:35"
+  },
+  "Finnish Kouvola–Vainikkala–Russia and other Russia/Belarus links are intentionally absent.": {
+    "reason": "Rail corridor dataset note (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:174"
+  },
+  "Frankfurt am Main": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:65"
+  },
+  "Get a quote with its options and booking blockers": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:166"
+  },
+  "Get a shipment by id, Huolitsija reference or your reference": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:212"
+  },
+  "Get an invoice with lines and payment options": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:258"
+  },
+  "Global quoting": {
+    "reason": "System actor name (services/global_quote.BOT) in audit entries; not shown in the customer UI",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:37"
+  },
+  "Goods description is too vague to classify (RULE S-2)": {
+    "reason": "classification reason; reason_i18n set below it (hs.py classify result)",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:899"
+  },
+  "Goods description is too vague to classify (RULE S-2): {…}": {
+    "reason": "classification reason; reason_i18n set below it (hs.py classify result)",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:899"
+  },
+  "HYVITYSLASKU / CREDIT NOTE": {
+    "reason": "Bilingual invoice PDF heading",
+    "status": "keep",
+    "where": "backend/services/invoice_pdf.py:183"
+  },
+  "Hague-Visby / Finnish Maritime Code: 667 SDR per package or 2 SDR/kg, whichever is higher": {
+    "reason": "label_fi next to it; quoteFormat liabilityLabel shows label_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:163"
+  },
+  "Hand over to collection agency: {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/collections.py:444"
+  },
+  "Handle exception: {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/exception_agent.py:122"
+  },
+  "Helsinki Design House Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:29"
+  },
+  "Henkilö on vahvistanut poistopyynnön. Hyväksy, niin tiedot poistetaan; lain vaatimat tiedot säilytetään rajoitettuina. / The data subject verified the request. Approve to erase; records required by law are kept restricted.": {
+    "reason": "already bilingual (Finnish / English) approval card summary",
+    "status": "keep",
+    "where": "backend/routes/privacy.py:227"
+  },
+  "Ho Chi Minh City (Cat Lai)": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:44"
+  },
+  "Hong Kong": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:41"
+  },
+  "Huolitsija AI": {
+    "reason": "Product name of the AI agent",
+    "status": "keep",
+    "where": "backend/services/comms_agent.py:30"
+  },
+  "Huolitsija API": {
+    "reason": "FastAPI application title (OpenAPI); not shown in the UI",
+    "status": "keep",
+    "where": "backend/server.py:17"
+  },
+  "Huolitsija Shipper API": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:306"
+  },
+  "Huolitsija Toteutus": {
+    "reason": "Already Finnish default execution contact name.",
+    "status": "keep"
+  },
+  "Huolitsija on vahvistanut EORI-numeron {…}": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/routes/companies.py:50"
+  },
+  "Huolitsija webhook test": {
+    "reason": "Webhook ping payload sent to the customer's own receiver (machine-readable), never shown in the UI",
+    "status": "keep",
+    "where": "backend/routes/api_keys.py:95"
+  },
+  "ISO 4217 code with an ECB reference rate, or EUR": {
+    "reason": "Pydantic Field description in the OpenAPI schema; finance controls use fin.* locale keys instead.",
+    "status": "keep",
+    "where": "backend/routes/finance.py:31"
+  },
+  "Import VAT": {
+    "reason": "description_fi next to it; quoteFormat lineText shows description_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:1508"
+  },
+  "Import declaration {…}": {
+    "reason": "PDF metadata title of the declaration summary PDF, not page text",
+    "status": "keep",
+    "where": "backend/services/tulli.py:248"
+  },
+  "Indeksitasoa ei ole tallennettu; reitin pituuteen perustuva malli, taso 2 200 USD/FEU": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:359"
+  },
+  "India full truck (Shriram Delhi–Kolkata–Delhi rental)": {
+    "reason": "Benchmark lane label in data/benchmark_indices.json; services/benchmarks.label_fi() adds lane_fi / note_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/data/benchmarks_build.py:127"
+  },
+  "Indicative benchmark until {…} legs with this carrier are delivered ({…} so far).": {
+    "reason": "note_fi next to it; pages/ops/CarrierDetail.jsx shows note_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/carriers.py:363"
+  },
+  "Insurance needs the cargo value (insured value = 110 % of CIF).": {
+    "reason": "s7: stored with its Finnish variant `message_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/insurance.py:230"
+  },
+  "Issue invoice for {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/invoice_agent.py:62"
+  },
+  "Jokainen mahdollinen osuma vaatii vaatimustenmukaisuuden tarkistuksen.": {
+    "reason": "This is already Finnish notification copy.",
+    "status": "keep"
+  },
+  "KYC review: {…}": {
+    "reason": "localizedData.js",
+    "sample": "KYC review: E2E Testi 131136 Oy",
+    "status": "pattern",
+    "where": "backend/services/kyc.py:447"
+  },
+  "Keskikäytävän malli 0,75 EUR / FEU-km (TITR-tariffia ei ole tallennettu)": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:530"
+  },
+  "Khorgos Gateway": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:75"
+  },
+  "Kuluvarauksen peruutus {…} {…} {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:420"
+  },
+  "Kymen Teräskauppa Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:23"
+  },
+  "Lapin Retkivaruste Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:25"
+  },
+  "Lead created from {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:130"
+  },
+  "Lead updated: ": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:173"
+  },
+  "Leg {…} accepted by {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "Leg 2 accepted by VR Transpoint",
+    "status": "pattern",
+    "where": "backend/routes/partner.py:164"
+  },
+  "Lentorahti-indeksiä ei ole tallennettu; etäisyysmalli": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:421"
+  },
+  "Liidi luotu ({…})": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:130"
+  },
+  "List webhook endpoints": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:264"
+  },
+  "List your invoices": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:249"
+  },
+  "List your quotes": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:158"
+  },
+  "List your shipments": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:190"
+  },
+  "Lähettäjän varmennus puuttuu": {
+    "reason": "Already Finnish AP quarantine text; approval data.summary_en supplies the English summary.",
+    "status": "keep"
+  },
+  "Lähetys {…} on nyt tilassa: {…}.": {
+    "reason": "Already Finnish: the comms agent's Finnish status answer (the English one is a separate literal)",
+    "status": "keep",
+    "where": "backend/services/comms_agent.py:298"
+  },
+  "Maantiemalli, {…}: {…} EUR/km täysi perävaunu": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:450"
+  },
+  "Maksuaineiston lähetys pankkiin epäonnistui: {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:439"
+  },
+  "Maksupäivä {…}. pain.001 tarkistettu virallista XSD:tä vasten.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:350"
+  },
+  "Maksuvaatimuksen eräpäivä on ohitettu ilman maksua.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/collections.py:447"
+  },
+  "Market estimate": {
+    "reason": "Carrier name of a benchmark estimate; price_routing sets carrier_name_fi (Markkina-arvio) next to it",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:511"
+  },
+  "Message from Huolitsija": {
+    "reason": "Quote PDF heading in the English PDF; the Finnish PDF uses 'Viesti Huolitsijalta'",
+    "status": "keep",
+    "where": "backend/services/quote_pdf.py:85"
+  },
+  "Middle Corridor model EUR 0.75/FEU-km (no TITR tariff stored)": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "Middle Corridor model EUR 0.75/FEU-km (no TITR tariff stored)",
+    "status": "pattern"
+  },
+  "Missing documents: {…}": {
+    "reason": "title_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:280"
+  },
+  "Missing permission: {…}": {
+    "reason": "HTTP error detail; the Finnish UI shows a generic Finnish message by status (frontend/src/lib/apiErrors.js)",
+    "status": "keep",
+    "where": "backend/core/deps.py:58"
+  },
+  "Mitätöity lasku {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:222"
+  },
+  "Montreal Convention: 26 SDR/kg": {
+    "reason": "label_fi next to it; quoteFormat liabilityLabel shows label_fi",
+    "status": "fi_variant",
+    "where": "backend/services/pricing.py:166"
+  },
+  "Multipart form: `file`, optional `type` (commercial_invoice, packing_list, …) and `shipment_id`. The document is read by the same extraction as portal uploads.": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:236"
+  },
+  "Must be true: NSAB 2015 (PSYM 2015) and Huolitsija's general terms": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:121"
+  },
+  "Muutettu asiakkaaksi {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:351"
+  },
+  "Muutettu asiakkaaksi {…} (uusi yritys, KYC aloittamatta)": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:351"
+  },
+  "Myyntimahdollisuus luotu vaiheeseen {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:213"
+  },
+  "Myyntimahdollisuutta muokattu: ": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:277"
+  },
+  "Mälardalens Byggstål AB": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_shipments.py:462"
+  },
+  "Negotiated by Sourcing Autopilot, RFQ {…}": {
+    "reason": "rate card notes; load_rate stores notes_i18n.fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/partner_network.py"
+  },
+  "Negotiated by Sourcing Autopilot, RFQ {…}, {…} counteroffer round(s)": {
+    "reason": "rate card notes; load_rate stores notes_i18n.fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/partner_network.py"
+  },
+  "New York / New Jersey": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:80"
+  },
+  "No EORI number given. Apply in Tulli's EORI Number Registration Service before the first customs declaration.": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:170"
+  },
+  "No EORI registered for {…}. Apply in Tulli's EORI Number Registration Service before the first customs declaration.": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:194"
+  },
+  "No air index stored; distance model": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "No air index stored; distance model",
+    "status": "pattern"
+  },
+  "No index level stored; route-length model at USD 2 200 per FEU scale": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "No index level stored; route-length model at USD 2 200 per FEU scale",
+    "status": "pattern"
+  },
+  "No match for {…} name(s) on the EU, UN and OFAC lists": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:386"
+  },
+  "No natural person to check yet (no beneficial owner or signatory declared)": {
+    "reason": "KYC pep check summary; services/pep.kyc_check stores summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/pep.py:515"
+  },
+  "No politically exposed person or family member among {…} name(s)": {
+    "reason": "KYC pep check summary; services/pep.kyc_check stores summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/pep.py:547"
+  },
+  "No position update for {…} h": {
+    "reason": "title_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:302"
+  },
+  "No rail line within 90 km (origin {…} km, destination {…} km)": {
+    "reason": "backendText.fi.js route note",
+    "sample": "No rail line within 90 km (origin 120 km, destination 4 km)",
+    "status": "pattern",
+    "where": "backend/services/geo.py:753"
+  },
+  "No sanctions list could be loaded ({…}). Screening was not performed.": {
+    "reason": "backendText.fi.js",
+    "sample": "No sanctions list could be loaded (EU list HTTP 503). Screening was not performed.",
+    "status": "pattern",
+    "where": "backend/services/screening.py:844"
+  },
+  "No spot rate for this mode: the buy cost is unknown until ops books a carrier.": {
+    "reason": "s7: stored with its Finnish variant `message_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/contract_tariffs.py:406"
+  },
+  "No {…} subdivision found for {…}; choose the CN/TARIC code in TARIC (RULE H-1).": {
+    "reason": "backendText.fi.js (cn8_note; ItemsTable runs it through displayText)",
+    "sample": "No CN 2026 subdivision found for 999999; choose the CN/TARIC code in TARIC (RULE H-1).",
+    "status": "pattern",
+    "where": "backend/services/hs.py:143"
+  },
+  "Nordic Bike Parts Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:17"
+  },
+  "North Korea": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:91"
+  },
+  "Not available for this account": {
+    "reason": "HTTP error detail; the Finnish UI shows a generic Finnish message by status (frontend/src/lib/apiErrors.js)",
+    "status": "keep",
+    "where": "backend/core/deps.py:45"
+  },
+  "Not signed in": {
+    "reason": "HTTP error detail; the Finnish UI shows a generic Finnish message by status (frontend/src/lib/apiErrors.js)",
+    "status": "keep",
+    "where": "backend/core/deps.py:33"
+  },
+  "OPENSANCTIONS_API_KEY not set (commercial use needs a paid OpenSanctions licence)": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/pep.py:433"
+  },
+  "Ocean Network Express": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/tracking.py:42"
+  },
+  "Office furniture": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:69"
+  },
+  "Only one document states the gross weight ({…} kg)": {
+    "reason": "message_fi next to it; DocumentReview localized(c, 'message') and customs DOC-3 message_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/documents.py:392"
+  },
+  "Open the quote": {
+    "reason": "English email action label; the Finnish branch uses Avaa tarjous.",
+    "status": "keep"
+  },
+  "Opportunity created at stage {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:212"
+  },
+  "Opportunity updated: ": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:276"
+  },
+  "Option to book; default = the recommended option": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:110"
+  },
+  "Origin or destination missing on this row.": {
+    "reason": "s7: stored with its Finnish variant `reason_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/tenders.py:691"
+  },
+  "Origin {…}: Russia/Belarus sanctions (Reg 833/2014, 765/2006) — mandatory compliance review; default deny.": {
+    "reason": "customsChecks.fi.js",
+    "sample": "Origin RU: Russia/Belarus sanctions (Reg 833/2014, 765/2006) — mandatory compliance review; default deny.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:594"
+  },
+  "Osuus toimitetuista osuuksistamme, jotka saapuivat vuorokauden sisällä arvioidusta ajasta.": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/carriers.py:361"
+  },
+  "PEP check did not complete for {…}; retry later": {
+    "reason": "KYC pep check summary; services/pep.kyc_check stores summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/pep.py:544"
+  },
+  "PEP relationship approved by {…} on {…}: . Enhanced ongoing monitoring applies": {
+    "reason": "KYC pep check summary; services/pep.kyc_check stores summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/pep.py:532"
+  },
+  "PEP-asiakkuuden hyväksyi {…} {…}: . Tehostettu jatkuva seuranta": {
+    "reason": "already Finnish: the summary_fi of the KYC pep check (services/pep.kyc_check)",
+    "status": "keep",
+    "where": "backend/services/pep.py:534"
+  },
+  "PEP-tarkistus ei valmistunut: {…}; yritä myöhemmin": {
+    "reason": "already Finnish: the summary_fi of the KYC pep check (services/pep.kyc_check)",
+    "status": "keep",
+    "where": "backend/services/pep.py:545"
+  },
+  "POD signed by {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "POD signed by Matti Virtanen",
+    "status": "pattern",
+    "where": "backend/routes/partner.py:244"
+  },
+  "PRH/YTJ open data v3": {
+    "reason": "s7: stored with its Finnish variant `company_form_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/adapters/prh_opendata.py:191"
+  },
+  "Package counts differ: ": {
+    "reason": "DOC-3 check; message_fi next to it (documents.py cross-check)",
+    "status": "fi_variant",
+    "where": "backend/services/documents.py:398"
+  },
+  "Paid by the {…} under {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "Paid by the seller under DAP",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:1371"
+  },
+  "Pankki hylkäsi maksun: {…} ({…} {…})": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:568"
+  },
+  "Parent organisation: ": {
+    "reason": "prefix of a US CSL list note quoted with the list's own English wording; ops-only compliance evidence",
+    "status": "keep",
+    "where": "backend/services/screening.py:541"
+  },
+  "Partner from Sourcing Autopilot ({…}), RFQ {…}": {
+    "reason": "carrier services_note; ensure_carrier stores services_note_i18n.fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/partner_network.py"
+  },
+  "Perintäkulut ja viivästyskorko {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:483"
+  },
+  "Pohjolan Kaluste Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:15"
+  },
+  "Port congestion at {…}; new ETA {…} UTC.": {
+    "reason": "Simulator exception description; the exception stores description_i18n {fi, en}",
+    "status": "fi_variant",
+    "where": "backend/services/simulator.py:77"
+  },
+  "Power of attorney for customs representation": {
+    "reason": "PDF metadata title of the power-of-attorney PDF (document properties), not page text",
+    "status": "keep",
+    "where": "backend/services/poa_pdf.py:113"
+  },
+  "Prices the request with the same engine as the portal. The quote comes back `sent` (bookable) or `pending_approval` (a person or the Autopilot reviews it first; you get `quote.created`).": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:149"
+  },
+  "Pricing failed ({…}); retry or price manually.": {
+    "reason": "s7: stored with its Finnish variant `reason_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/tenders.py:1194"
+  },
+  "Printed code {…} differs from the suggested subheading {…}; a person must decide.": {
+    "reason": "backendText.fi.js",
+    "sample": "Printed code 871499 differs from the suggested subheading 871494; a person must decide.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:696"
+  },
+  "Printed code {…} does not exist in {…}.": {
+    "reason": "backendText.fi.js",
+    "sample": "Printed code 8714.99 does not exist in HS 2022.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:692"
+  },
+  "Proof of delivery missing for {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/delivery_agent.py:40"
+  },
+  "Prospect e-mail to {…}": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/prospecting.py:432"
+  },
+  "Rail Baltica standard gauge: Warsaw–Białystok–Ełk–Trakiszki–Kaunas": {
+    "reason": "Rail corridor dataset name (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:73"
+  },
+  "Rail model {…}: EUR {…} per FEU-km": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "Rail model EU: EUR 0.50 per FEU-km",
+    "status": "pattern"
+  },
+  "Rate expired on {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "Rate expired on 2026-09-30",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:988"
+  },
+  "Rate valid from {…}": {
+    "reason": "backendText.fi.js",
+    "sample": "Rate valid from 2026-11-01",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:988"
+  },
+  "Read the carrier's SI reply {…}": {
+    "reason": "services/execution/si_vgm.py supplies title_fi to core.agent_runtime.decide, which stores title_fi on the approval for Finnish display.",
+    "status": "fi_variant"
+  },
+  "Recent deliveries to an endpoint": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:292"
+  },
+  "Reconciliation {…}: all clear": {
+    "reason": "Daily reconciliation report title; summary_lines() builds the Finnish title for lang fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/reconciliation.py:798"
+  },
+  "Register a webhook endpoint": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:269"
+  },
+  "Release held reply": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/comms_jobs.py:41"
+  },
+  "Released by Tulli, MRN {…}": {
+    "reason": "localizedData.js",
+    "sample": "Released by Tulli, MRN 26FI261024131136R1",
+    "status": "pattern",
+    "where": "backend/services/customs.py:1207"
+  },
+  "Renew {…} rates ending {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/agents/rates_agent.py:57"
+  },
+  "Reply to {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/comms_agent.py:343"
+  },
+  "Reply to {…}: {…}": {
+    "reason": "localizedData.js",
+    "sample": "Reply to E2E Testi 131136 Oy: HUO-2026-000051",
+    "status": "pattern",
+    "where": "backend/services/messaging.py:120"
+  },
+  "Reset your password": {
+    "reason": "E-mail subject; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/routes/auth.py:193"
+  },
+  "Return tender {…}": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/tenders.py:1715"
+  },
+  "Returns the signing `secret` once. Store it; it is never shown again.": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:270"
+  },
+  "Road model {…}: EUR {…}/km per full trailer": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "Road model AFRICA: EUR 2.00/km per full trailer",
+    "status": "pattern"
+  },
+  "Road route includes {…} km by ferry; book it as a separate sea leg": {
+    "reason": "backendText.fi.js route note",
+    "sample": "Road route includes 82 km by ferry; book it as a separate sea leg",
+    "status": "pattern",
+    "where": "backend/services/geo.py:698"
+  },
+  "Road router unavailable ({…}); straight line shown": {
+    "reason": "backendText.fi.js route note",
+    "sample": "Road router unavailable (timeout); straight line shown",
+    "status": "pattern",
+    "where": "backend/services/geo.py:703"
+  },
+  "Rotterdam Maasvlakte–Betuweroute–Emmerich–Duisburg": {
+    "reason": "Rail corridor dataset name (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:58"
+  },
+  "SIM AURORA": {
+    "reason": "Name of the simulator's vessel for sandbox test shipments (a proper noun)",
+    "status": "keep",
+    "where": "backend/services/simulator.py:111"
+  },
+  "Saimaan Kahvipaahtimo Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:19"
+  },
+  "Salasanan vaihto": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/routes/auth.py:193"
+  },
+  "Sanctions screening could not complete: ": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:387"
+  },
+  "Screened without {…} (list not loaded); re-screen when it is available.": {
+    "reason": "backendText.fi.js",
+    "sample": "Screened without OFAC SDN (list not loaded); re-screen when it is available.",
+    "status": "pattern",
+    "where": "backend/services/screening.py:852"
+  },
+  "Search reference, PO number, place, container, vessel": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:193"
+  },
+  "Send a signed `ping` to the endpoint now": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:285"
+  },
+  "Shanghai Pudong Airport": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/carriers.py:39"
+  },
+  "Share of our delivered legs that arrived within one day of ETA.": {
+    "reason": "note_fi next to it; pages/ops/CarrierDetail.jsx shows note_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/carriers.py:360"
+  },
+  "Status answer {…}": {
+    "reason": "decide() stores title_fi on the agent_decisions row and the owner-queue card (approvals.title_fi); the UI shows title_fi in Finnish",
+    "status": "fi_variant",
+    "where": "backend/services/comms_agent.py:315"
+  },
+  "Submit VGM {…}": {
+    "reason": "services/execution/si_vgm.py supplies title_fi to core.agent_runtime.decide, which stores title_fi on the approval for Finnish display.",
+    "status": "fi_variant"
+  },
+  "Submit shipping instructions {…}": {
+    "reason": "services/execution/si_vgm.py supplies title_fi to core.agent_runtime.decide, which stores title_fi on the approval for Finnish display.",
+    "status": "fi_variant"
+  },
+  "Suuntaa-antava vertailuluku, kunnes {…} osuutta tällä kuljettajalla on toimitettu ({…} tähän mennessä).": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/carriers.py:364"
+  },
+  "TITR through tariff {…} USD {…}/40' + rail model to/from Khorgos and {…}": {
+    "reason": "Benchmark source note; services/benchmarks._src stores note_fi (Finnish template at the same call) next to note",
+    "status": "fi_variant",
+    "where": "backend/services/benchmarks.py:523"
+  },
+  "TITR-läpikulkutariffi {…} {…} USD/40' + rautatiemalli Khorgosiin ja Khorgosista sekä {…}": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:525"
+  },
+  "Tail lift needed at delivery": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:70"
+  },
+  "Testi Oy": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:107"
+  },
+  "The AI reader did not return a usable answer ({…}). Retry, or enter the fields by hand.": {
+    "reason": "backendText.fi.js",
+    "sample": "The AI reader did not return a usable answer (invalid JSON). Retry, or enter the fields by hand.",
+    "status": "pattern",
+    "where": "backend/services/extraction.py:524"
+  },
+  "The EU EORI service did not answer ({…}); retry later": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:181"
+  },
+  "The document is attached as {…} page image(s){…}.": {
+    "reason": "Text inside the AI extraction prompt; not shown in the UI",
+    "status": "keep",
+    "where": "backend/services/extraction.py:267"
+  },
+  "The file could not be read ({…}). Upload the original file.": {
+    "reason": "backendText.fi.js",
+    "sample": "The file could not be read (PDF is encrypted). Upload the original file.",
+    "status": "pattern",
+    "where": "backend/services/extraction.py:496"
+  },
+  "The final demand's due date has passed without payment.": {
+    "reason": "Finance agent_decide supplies summary_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/collections.py:446"
+  },
+  "The insurance quote has expired; ask for a new one.": {
+    "reason": "HTTP 409 detail; message_fi sits next to message",
+    "status": "fi_variant"
+  },
+  "The key and company you are authenticated as": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:139"
+  },
+  "The model could not pick a subheading; choose from the candidates.": {
+    "reason": "reason_i18n set in classify result (services/hs.py); localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:902"
+  },
+  "The model proposed {…}, which is not a {…} code; pick from the candidates.": {
+    "reason": "reason_i18n set right after (services/hs.py); localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/hs.py:847"
+  },
+  "The quote is from {…} but the active insurer is {…}; re-quote.": {
+    "reason": "HTTP 409 detail; message_fi sits next to message",
+    "status": "fi_variant"
+  },
+  "This insurance quote is {…} and cannot be bound.": {
+    "reason": "HTTP 409 detail; message_fi sits next to message",
+    "status": "fi_variant"
+  },
+  "This leg is a local move within {…} ({…} to {…}). It is part of the connecting carrier's service, so there are no carriers to compare; rank the main leg instead.": {
+    "reason": "Carrier ranking warning code leg.local; Warnings renders quotes.warn.leg.local",
+    "status": "coded",
+    "where": "backend/routes/carriers.py:268"
+  },
+  "This quote expired on {…}. Request a new price.": {
+    "reason": "Booking blocker code expired; BookingBlockers hides it, the quote status shows instead",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:228"
+  },
+  "This quote {…}.": {
+    "reason": "Booking blocker code status; BookingBlockers hides it, the quote status shows instead",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:226"
+  },
+  "Tietojen poisto / Erasure request: {…}": {
+    "reason": "already bilingual (Finnish / English) approval card title",
+    "status": "keep",
+    "where": "backend/routes/privacy.py:226"
+  },
+  "Toteutunut kurssiero {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:289"
+  },
+  "Tracking events of a shipment": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:218"
+  },
+  "Trans-Caspian International Transport Route (Middle Corridor): Xi'an–Khorgos–Almaty–Aktau ⛴ Alat–Tbilisi–Kars–Istanbul–Sofia–Belgrade–Budapest–Vienna–Nuremberg–Duisburg": {
+    "reason": "Rail corridor dataset name (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:88"
+  },
+  "Turun Venetarvike Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_core.py:27"
+  },
+  "Typical CFS charge": {
+    "reason": "Line source note of a model charge; benchmarks._src(note_fi=...) stores the Finnish text next to it",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:251"
+  },
+  "Typical airport handling and AWB fee": {
+    "reason": "Line source note of a model charge; benchmarks._src(note_fi=...) stores the Finnish text next to it",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:306"
+  },
+  "Typical terminal handling by region": {
+    "reason": "Line source note of a model charge; benchmarks._src(note_fi=...) stores the Finnish text next to it",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:233"
+  },
+  "Typical terminal lift on/off": {
+    "reason": "Line source note of a model charge; benchmarks._src(note_fi=...) stores the Finnish text next to it",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:325"
+  },
+  "Tyypillinen CFS-maksu": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:251"
+  },
+  "Tyypillinen konossementtimaksu": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:256"
+  },
+  "Tyypillinen lentoasemakäsittely ja AWB-maksu": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:306"
+  },
+  "Tyypillinen luovutusmääräysmaksu": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:258"
+  },
+  "Tyypillinen terminaalikäsittely alueittain": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:233"
+  },
+  "Tyypillinen terminaalinosto ja -lasku": {
+    "reason": "Already Finnish (the note_fi / Finnish branch of the same text)",
+    "status": "keep",
+    "where": "backend/services/global_quote.py:325"
+  },
+  "UN/EU sanctions (Council Regulation (EU) 2017/1509); domain spec RULE K-2 default-deny": {
+    "reason": "Build-time note in data/gateway_ports.json (why a country has no gateway port); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/gateway_ports_build.py:92"
+  },
+  "US/Canada full truck (DAT dry van spot incl. fuel)": {
+    "reason": "Benchmark lane label in data/benchmark_indices.json; services/benchmarks.label_fi() adds lane_fi / note_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/data/benchmarks_build.py:121"
+  },
+  "Uudenmaan Rahti Oy": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/seed_shipments.py:43"
+  },
+  "VIES could not check the number right now ({…}); retry later": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:140"
+  },
+  "VIES did not answer ({…}); retry later": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:136"
+  },
+  "Value date of the bank transfer, YYYY-MM-DD": {
+    "reason": "OpenAPI field description (pydantic Field); not shown in the UI",
+    "status": "keep",
+    "where": "backend/routes/invoices.py:282"
+  },
+  "Valuuttaerien arvostuksen peruutus {…}": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:441"
+  },
+  "Valuuttaerien arvostus {…} (EKP {…})": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/ledger.py:439"
+  },
+  "Valuuttakurssi puuttuu: ": {
+    "reason": "Already Finnish: prefix explaining that an accrual exchange rate is missing.",
+    "status": "keep",
+    "where": "backend/services/accruals.py:304"
+  },
+  "Vaurio todettu vastaanotossa; korvaus enintään vastuunrajoituksen mukaan.": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/seed_billing.py:340"
+  },
+  "Verkkosivu tarkistettu: {…} rooliosoitetta": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/prospecting.py:226"
+  },
+  "Verkkosivu tarkistettu: {…} rooliosoitetta, käytetään {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/prospecting.py:226"
+  },
+  "Vero verovelkarekisteri": {
+    "reason": "s7 credit source label: already Finnish (proper name of the Tax Administration's register)",
+    "status": "keep",
+    "where": "backend/adapters/credit_bureau.py:204"
+  },
+  "Viesti Huolitsijalta": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/quote_pdf.py:99"
+  },
+  "Viestin '{…}' lähettäjää ei ole varmistettu. Tarkista lähettäjä ennen vapautusta.": {
+    "reason": "Already Finnish AP quarantine text; approval data.summary_en supplies the English summary.",
+    "status": "keep"
+  },
+  "View and pay": {
+    "reason": "E-mail button; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/services/billing.py:792"
+  },
+  "View credit note": {
+    "reason": "E-mail button; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/services/billing.py:812"
+  },
+  "View invoice": {
+    "reason": "E-mail button; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/services/billing.py:801"
+  },
+  "View receipt": {
+    "reason": "E-mail button; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/services/billing.py:806"
+  },
+  "Website checked: {…} role address(es)": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/prospecting.py:225"
+  },
+  "Website checked: {…} role address(es), using {…}": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/prospecting.py:225"
+  },
+  "World-simulated customer broker release; document ": {
+    "reason": "backendText.fi.js",
+    "sample": "World-simulated customer broker release; document ",
+    "status": "pattern",
+    "where": "backend/services/demo_world/broker.py:98"
+  },
+  "Write off: {…}": {
+    "reason": "Finance agent_decide supplies title_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/collections.py:471"
+  },
+  "YYYY-MM-DD when the goods are ready": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:74"
+  },
+  "Yang Ming": {
+    "reason": "Proper noun (place, company, carrier or product name); the same in Finnish",
+    "status": "keep",
+    "where": "backend/services/tracking.py:46"
+  },
+  "Yhteenveto Summary {…}": {
+    "reason": "bilingual sheet name in the filled tender workbook (Finnish first), not shown in the web UI",
+    "status": "keep"
+  },
+  "You're invited to {…} on Huolitsija": {
+    "reason": "E-mail subject; the Finnish branch next to it is used for Finnish users",
+    "status": "keep",
+    "where": "backend/routes/team.py:42"
+  },
+  "Your account is not linked to a company.": {
+    "reason": "Booking blocker code company; BookingBlockers renders pq.blocker.company",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:230"
+  },
+  "Your contract price ({…}) applies.": {
+    "reason": "s7: stored with its Finnish variant `message_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/contract_tariffs.py:482"
+  },
+  "Your contract price ({…}) applies; spot prices are shown for comparison.": {
+    "reason": "s7: stored with its Finnish variant `message_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/contract_tariffs.py:482"
+  },
+  "`format=dcsa` returns DCSA Track & Trace 2.2 events.": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:219"
+  },
+  "active or a status: booked, picked_up, in_transit, at_hub, customs_hold, out_for_delivery, delivered, exception": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:191"
+  },
+  "credit note {…} nets the dispute within tolerance": {
+    "reason": "backendText.fi.js translates the system credit-note netting reason.",
+    "sample": "credit note CN-2026-001 nets the dispute within tolerance",
+    "status": "pattern",
+    "where": "backend/services/carrier_invoices.py:1045"
+  },
+  "curated waypoints (station/junction coordinates)": {
+    "reason": "Rail corridor dataset metadata (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:160"
+  },
+  "customer declaration": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/beneficial_owners.py:262"
+  },
+  "customs border, transit documents": {
+    "reason": "Quote line note; pricing._finish_option sets note_fi via pricing.note_fi() (s5 entries in _NOTE_FI)",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:169"
+  },
+  "daily send limit {…} reached": {
+    "reason": "CRM send-gate reason shown to ops in English with the number; the UI shows i18n key commercial.sendHeld from status held_limit",
+    "status": "keep"
+  },
+  "intermodal rail {…} km incl. lifts, {…}": {
+    "reason": "Quote line note; pricing._finish_option sets note_fi via pricing.note_fi() (s5 entries in _NOTE_FI)",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:480"
+  },
+  "invoice not found": {
+    "reason": "Internal result of GET /invoices/{id}/payment-status; the UI shows the invoice status, not this reason",
+    "status": "keep",
+    "where": "backend/services/payments.py:132"
+  },
+  "no assessment date on the page": {
+    "reason": "Diagnostic from benchmark ingestion; no price is stored.",
+    "status": "keep"
+  },
+  "no item with this name": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/pep.py:319"
+  },
+  "official website {…}": {
+    "reason": "Wikidata candidate source detail (sources[].detail); the UI shows the source as a link labelled from src.source.* and does not render this detail text",
+    "status": "keep",
+    "where": "backend/services/partner_discovery.py"
+  },
+  "open, overdue, paid, … (comma list)": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:250"
+  },
+  "partner rate {…}": {
+    "reason": "Audit reason only, identifying the source event that repriced the quote.",
+    "status": "keep"
+  },
+  "rata.digitraffic.fi station metadata": {
+    "reason": "Rail corridor dataset metadata (backend/data); not shown in the UI",
+    "status": "keep",
+    "where": "backend/data/rail_corridors_build.py:157"
+  },
+  "road | sea | air | rail; omit to get every mode that fits": {
+    "reason": "Shipper API developer documentation (English OpenAPI summary/description/example at /api/v1/docs), not shown in the Finnish UI",
+    "status": "keep",
+    "where": "backend/routes/api_v1.py:73"
+  },
+  "seed value: fx_rates empty": {
+    "reason": "Provenance of the FX factor inside a benchmark source object; not shown in the UI",
+    "status": "keep",
+    "where": "backend/services/benchmarks.py:229"
+  },
+  "session is not linked to an invoice": {
+    "reason": "Internal result of GET /invoices/{id}/payment-status; the UI shows the invoice status, not this reason",
+    "status": "keep",
+    "where": "backend/services/payments.py:129"
+  },
+  "sweep: rate loaded": {
+    "reason": "Audit reason only for the recovery sweep.",
+    "status": "keep"
+  },
+  "{…} % of customs value {…} EUR (your rate; final at classification)": {
+    "reason": "backendText.fi.js",
+    "sample": "4.7 % of customs value 49,097 EUR (your rate; final at classification)",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:1494"
+  },
+  "{…} % of {…} EUR, payable to Customs": {
+    "reason": "backendText.fi.js",
+    "sample": "25.5 % of 150,510 EUR, payable to Customs",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:1516"
+  },
+  "{…} / {…} Hyväksy = yritä uudelleen, hylkää = maksuajo perutaan.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:440"
+  },
+  "{…} / {…}: {…} {…} / {…}. Hyväksy = maksetaan uudelleen seuraavassa ajossa, hylkää = maksu perutaan.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:569"
+  },
+  "{…} Tarkista maksun tila pankista. Kortin kuittaus ei lähetä tai peru maksua.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/payables.py:440"
+  },
+  "{…} arrives {…}; not on file: {…}.": {
+    "reason": "description_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:281"
+  },
+  "{…} beneficial owner(s) declared": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:401"
+  },
+  "{…} beneficial owner(s) declared; politically exposed: {…}": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:401"
+  },
+  "{…} beneficial owner(s) in the trade register": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/beneficial_owners.py:170"
+  },
+  "{…} ei ole sandbox-EORI-rekisterissä": {
+    "reason": "Already Finnish: summary_fi of the sandbox EORI check",
+    "status": "keep",
+    "where": "backend/core/sandbox.py:72"
+  },
+  "{…} flies passenger aircraft only; this dangerous goods line needs a cargo aircraft": {
+    "reason": "not_quoted reason; apply_to_quote stores reason_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/services/dangerous_goods.py:606"
+  },
+  "{…} has a valid check digit": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:311"
+  },
+  "{…} has an invalid check digit": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:311"
+  },
+  "{…} has been held by customs since {…}.": {
+    "reason": "exception hit; description_i18n next to it",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:264"
+  },
+  "{…} has been held by customs since {…}. Reason: {…}": {
+    "reason": "exception hit; description_i18n next to it",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:264"
+  },
+  "{…} has one CN subdivision ({…}); confirm it in TARIC (RULE H-1).": {
+    "reason": "backendText.fi.js (cn8_note; ItemsTable runs it through displayText)",
+    "sample": "871200 has one CN subdivision (87120030); confirm it in TARIC (RULE H-1).",
+    "status": "pattern",
+    "where": "backend/services/hs.py:138"
+  },
+  "{…} held by Finnish Customs. {…}": {
+    "reason": "description_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/seed_billing.py:295"
+  },
+  "{…} hold released": {
+    "reason": "backendText.fi.js",
+    "sample": "Customs hold released",
+    "status": "pattern",
+    "where": "backend/services/shipments.py:945"
+  },
+  "{…} human(s) named alike checked: ": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/pep.py:365"
+  },
+  "{…} is not a message we accept (we take IFTMIN).": {
+    "reason": "EDI protocol rejection sent to the trading partner in the IFTMCS answer and shown in the ops EDI log; partners exchange in English",
+    "status": "keep",
+    "where": "backend/services/edi/service.py:186"
+  },
+  "{…} is not a valid {…} code. Check the commodity code.": {
+    "reason": "customsChecks.fi.js",
+    "sample": "8714 is not a valid HS 2022 code. Check the commodity code.",
+    "status": "pattern",
+    "where": "backend/services/hs.py:569"
+  },
+  "{…} is not in the EU EORI registry. Check the number, or apply in Tulli's EORI Number Registration Service.": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:194"
+  },
+  "{…} is not in the sandbox EORI register": {
+    "reason": "Sandbox KYC check summary (stored EORI is not the company's own); sandbox_eori() sets summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/core/sandbox.py:71"
+  },
+  "{…} is not the sandbox register's EORI for this company ({…})": {
+    "reason": "customsTextFi localises the explicit test-register mismatch.",
+    "sample": "FI1234567-8 is not the sandbox register's EORI for this company (FI3990002-2)",
+    "status": "pattern"
+  },
+  "{…} is valid in the EU EORI registry": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:191"
+  },
+  "{…} is valid in the EU EORI registry: {…}": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:191"
+  },
+  "{…} is valid in the sandbox EORI register": {
+    "reason": "Sandbox KYC check summary; sandbox_eori() sets summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/core/sandbox.py:65"
+  },
+  "{…} is valid in the sandbox VAT register": {
+    "reason": "Sandbox KYC check summary; sandbox_vies() sets summary_fi next to it",
+    "status": "fi_variant",
+    "where": "backend/core/sandbox.py:58"
+  },
+  "{…} item(s) named alike, none a living human matching the country / birth date": {
+    "reason": "registry / PEP source detail shown to ops as the source's own wording (compliance evidence, sources_checked[].detail)",
+    "status": "keep",
+    "where": "backend/services/pep.py:330"
+  },
+  "{…} kg chargeable (1:5000), express model EUR {…} + {…}/kg": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "12 kg chargeable (1:5000), express model EUR 38 + 4.2/kg",
+    "status": "pattern"
+  },
+  "{…} kielsi viestit ({…}, {…}); ei enää sähköpostia": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:435"
+  },
+  "{…} km, {…}, groupage share of a truck": {
+    "reason": "Quote line note; pricing._finish_option sets note_fi via pricing.note_fi() (s5 entries in _NOTE_FI)",
+    "status": "fi_variant",
+    "where": "backend/services/global_quote.py:160"
+  },
+  "{…} kollia vaurioitui kuljetuksessa: pahvilaatikot litistyneet ja sisältö rikki. Vauriot merkittiin rahtikirjaan vastaanotossa, kuvat liitteenä.": {
+    "reason": "Already Finnish text",
+    "status": "keep",
+    "where": "backend/services/seed_billing.py:328"
+  },
+  "{…} on voimassa sandbox-ALV-rekisterissä": {
+    "reason": "Already Finnish: summary_fi of the sandbox VAT check",
+    "status": "keep",
+    "where": "backend/core/sandbox.py:59"
+  },
+  "{…} on voimassa sandbox-EORI-rekisterissä": {
+    "reason": "Already Finnish: summary_fi of the sandbox EORI check",
+    "status": "keep",
+    "where": "backend/core/sandbox.py:67"
+  },
+  "{…} opted out ({…}, {…}); no further e-mail": {
+    "reason": "s7: stored with its Finnish variant `summary_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/crm.py:434"
+  },
+  "{…} potential match(es): ": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:387"
+  },
+  "{…} representation, valid to {…}": {
+    "reason": "localizedData.js representation pattern",
+    "sample": "direct representation, valid to 2027-10-24",
+    "status": "pattern",
+    "where": "backend/routes/companies.py:327"
+  },
+  "{…} was not found in the YTJ business register": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:317"
+  },
+  "{…} wrote in the thread of {…}": {
+    "reason": "backendText.fi translates the sender mismatch summary.",
+    "sample": "other@example.com wrote in the thread of customer@example.com",
+    "status": "pattern"
+  },
+  "{…} · {…} · claimed {…} EUR · propose rejection": {
+    "reason": "backendText.fi.js (claim decision approval summary; the pay variant has no English word pair, same pattern)",
+    "sample": "Pyöräosa Testi Oy · damage · claimed 900.00 EUR · propose rejection",
+    "status": "pattern",
+    "where": "backend/services/claims.py:400"
+  },
+  "{…} × full trailer (13.6 ldm)": {
+    "reason": "backendText.fi.js",
+    "sample": "2 × full trailer (13.6 ldm)",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:395"
+  },
+  "{…}), insured value {…} EUR (110 %)": {
+    "reason": "backendText.fi.js",
+    "sample": "ICC (A), insured value 165,124 EUR (110 %)",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:1331"
+  },
+  "{…}, index all-in incl. fuel/security": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "100 kg chargeable (1:6000), index all-in incl. fuel/security",
+    "status": "pattern"
+  },
+  "{…}, minimum charge": {
+    "reason": "backendText.fi.js",
+    "sample": "Groupage Tallinn–Helsinki ferry, minimum charge",
+    "status": "pattern",
+    "where": "backend/services/pricing.py:684"
+  },
+  "{…}, small-shipment break × {…}, index all-in incl. fuel/security": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "100 kg chargeable (1:6000), small-shipment break × 1.2, index all-in incl. fuel/security",
+    "status": "pattern"
+  },
+  "{…}, {…} kg chargeable (1:5000), Finnish export tariff of the destination zone": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "DHL, 12 kg chargeable (1:5000), Finnish export tariff of the destination zone",
+    "status": "pattern"
+  },
+  "{…}, {…}, feeder port": {
+    "reason": "globalQuoteTextFi translates the generated price/source note; API projection and PriceBreakdown use displayText.",
+    "sample": "40HC, index all-in: base freight incl. BAF/CAF/PSS, feeder port",
+    "status": "pattern"
+  },
+  "{…}/{…} lanes priced, {…} EUR/year": {
+    "reason": "s7: stored with its Finnish variant `title_fi` in the same record",
+    "status": "fi_variant",
+    "where": "backend/services/tenders.py:1717"
+  },
+  "{…}: ETA now {…} vs planned {…} ({…}).": {
+    "reason": "description_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:249"
+  },
+  "{…}: lasku {…} on {…} päivää myöhässä, avoinna {…}, viivästyskorkoa kertynyt {…}. Edellinen vaihe: {…}.": {
+    "reason": "Already Finnish: the Finnish variant stored next to the English text",
+    "status": "keep",
+    "where": "backend/services/dunning.py:154"
+  },
+  "{…}: lasku {…} on {…} päivää myöhässä, avoinna {…}, viivästyskorkoa kertynyt {…}. Muistutuksia ei ole lähetetty.": {
+    "reason": "Already Finnish: the Finnish variant stored next to the English text",
+    "status": "keep",
+    "where": "backend/services/dunning.py:154"
+  },
+  "{…}: lasku {…} on {…} päivää myöhässä, avoinna {…}, viivästyskorkoa kertynyt {…}. Vakiokorvaus {…} laskutetaan erikseen. Edellinen vaihe: {…}.": {
+    "reason": "Already Finnish: the Finnish variant stored next to the English text",
+    "status": "keep",
+    "where": "backend/services/dunning.py:154"
+  },
+  "{…}: lasku {…} on {…} päivää myöhässä, avoinna {…}, viivästyskorkoa kertynyt {…}. Vakiokorvaus {…} laskutetaan erikseen. Muistutuksia ei ole lähetetty.": {
+    "reason": "Already Finnish: the Finnish variant stored next to the English text",
+    "status": "keep",
+    "where": "backend/services/dunning.py:154"
+  },
+  "{…}: last position {…} (source {…}).": {
+    "reason": "description_i18n next to it; localizePayload uses *_i18n",
+    "status": "fi_variant",
+    "where": "backend/services/exceptions_agent.py:308"
+  },
+  "{…}: positions held (P39), family (P26/P40/P22/P25/P451)": {
+    "reason": "source name of the KYC pep check (Wikidata property codes), shown as provenance",
+    "status": "keep",
+    "where": "backend/services/pep.py:526"
+  },
+  "{…}: premium {…} {…}, insured value {…} {…}": {
+    "reason": "approval card summary is figures (provider, premium, value); the Finnish title_fi and reason_fi carry the text",
+    "status": "keep"
+  },
+  "{…}: status update": {
+    "reason": "hooks.relay chooses the Finnish title tilannepäivitys when thread language is Finnish.",
+    "status": "fi_variant"
+  },
+  "{…}: {…} EUR due {…}.": {
+    "reason": "backendText.fi.js overdue invoice exception",
+    "sample": "Kymen Teräskauppa Oy: 1703.22 EUR due 2026-10-10.",
+    "status": "pattern",
+    "where": "backend/services/exceptions_agent.py:352"
+  },
+  "{…}: {…} items, customs value {…} EUR, duty {…} EUR, VAT {…} EUR ({…}), {…} representation": {
+    "reason": "backendText.fi.js approval summary",
+    "sample": "Nordic Bike Parts Oy: 3 items, customs value 144,705.81 EUR, duty 5,803.91 EUR, VAT 38,379.98 EUR (payable to Customs), direct representation",
+    "status": "pattern",
+    "where": "backend/services/customs.py:1042"
+  },
+  "{…}: {…} maksamatta {…} päivää eräpäivän jälkeen. Lähetä maksuvaatimus (viivästyskorko + perintäkulut) ja aseta asiakas luottokieltoon.": {
+    "reason": "Already Finnish ledger text or approval copy; interpolated source values and bank reason codes are preserved.",
+    "status": "keep",
+    "where": "backend/services/collections.py:231"
+  },
+  "{…}: {…} {…} unpaid {…} days after the due date. Send the final demand (interest + fee) and put the customer on credit hold.": {
+    "reason": "Finance agent_decide supplies summary_fi; agent_runtime persists it and Approvals.jsx selects it for Finnish.",
+    "status": "fi_variant",
+    "where": "backend/services/collections.py:229"
+  },
+  "{…}: {…}, insured value {…} {…}": {
+    "reason": "s7 insurance quote-line note; reprice_option_line stores note_fi next to it",
+    "status": "fi_variant"
+  },
+  "{…}: {…}, registered {…}, Business ID valid": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:334"
+  },
+  "{…}; bookings need a clear result. See /portal/company.": {
+    "reason": "Booking blocker code sanctions; BookingBlockers renders pq.blocker.sanctions",
+    "status": "coded",
+    "where": "backend/routes/quotes.py:244"
+  },
+  "{…}; {…} d past due": {
+    "reason": "backendText.fi.js translates the collections history note and its nested system reason.",
+    "sample": "invoice paid; 35 d past due",
+    "status": "pattern",
+    "where": "backend/services/collections.py:202"
+  },
+  "{…}{…} is a valid VAT number: {…}": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:144"
+  },
+  "{…}{…} is not an active VAT number in VIES": {
+    "reason": "KYC check summary; run_kyc sets summary_fi via fi_summary() for every check",
+    "status": "fi_variant",
+    "where": "backend/services/kyc.py:144"
+  },
+  "Arkas EWRS {…}": {
+    "reason": "Arkas is the carrier proper name; EWRS and the interpolated UN/LOCODE port identifiers are published codes, unchanged in Finnish.",
+    "status": "keep",
+    "where": "backend/services/public_surcharges.py:160"
+  },
+  "Blue Dart CAF": {
+    "reason": "Blue Dart is the carrier proper name; CAF is the published surcharge code, unchanged in Finnish.",
+    "status": "keep",
+    "where": "backend/services/public_surcharges.py:121"
+  },
+  "Provider tariff could not be verified ({…})": {
+    "reason": "backendText.fi.js presents a Finnish unavailable-tariff message; exception type is diagnostic, not customer guidance.",
+    "sample": "Provider tariff could not be verified (ConnectError)",
+    "status": "pattern",
+    "where": "backend/services/public_surcharges.py:198"
+  },
+  "Swissport HEL {…} THC": {
+    "reason": "backendText.fi.js translates import/export handling labels while retaining Swissport, HEL and THC identifiers.",
+    "sample": "Swissport HEL import THC",
+    "status": "pattern",
+    "where": "backend/services/public_surcharges.py:134"
+  },
+  "The contract price is below the margin floor for this shipment (margin {…} EUR, floor {…} EUR): it is not recommended and Autopilot does not send it.": {
+    "status": "fi_variant",
+    "reason": "s7: stored with its Finnish variant `message_fi` in the same warning record",
+    "where": "backend/services/contract_tariffs.py:344"
+  },
+  "One real carrier RFQ": {
+    "reason": "owner-queue approval kind label for the single real RFQ; internal ops card, English label kept until the approvals label catalog is localized",
+    "status": "keep",
+    "where": "backend/core/approvals.py:37"
+  },
+  "Send one RFQ to {…}": {
+    "reason": "internal owner-queue card title for the single real RFQ; ops-only, kept in English",
+    "status": "keep",
+    "where": "backend/routes/partner_network.py:225"
+  },
+  "single real RFQ needs owner approval": {
+    "reason": "internal owner-queue reason for the single real RFQ; ops-only, kept in English",
+    "status": "keep",
+    "where": "backend/routes/partner_network.py:226"
+  },
+  "recipient outside EXECUTION_ALLOWED_RECIPIENT_DOMAINS": {
+    "reason": "internal mail log note naming an env var; never shown to customers",
+    "status": "keep",
+    "where": "backend/services/execution/mail.py:119"
+  },
+  "One non-binding rate enquiry to {…} <{…}> (public source {…}), lane {…}, {…} → {…}, cargo {…}. Sent once through Postmark with sender identity (company in formation), opt-out link, no follow-ups.": {
+    "reason": "internal owner-queue card summary for the single real RFQ; ops-only, kept in English",
+    "status": "keep",
+    "where": "backend/routes/partner_network.py:221"
+  },
+  "Carrier recourse {…}: {…}": {
+    "reason": "owner-queue card title for a carrier recourse claim; services/claims_recourse.create_recourse stores title_fi (Takautumisvaatimus <claim>: <carrier>) next to it and the UI labels the card by kind (approvals.kind.carrier_recourse, recourse.js)",
+    "status": "fi_variant",
+    "where": "backend/services/claims_recourse.py:236"
+  },
+  "First e-mail to a prospect": {
+    "reason": "owner-queue approval kind label; the ops UI shows approvals.kind.* from i18n/ops.js, this English label is the API fallback",
+    "status": "keep",
+    "where": "backend/core/approvals.py:43"
+  },
+  "Carrier recourse claim": {
+    "reason": "owner-queue approval kind label; the ops UI shows approvals.kind.* from i18n/ops.js, this English label is the API fallback",
+    "status": "keep",
+    "where": "backend/core/approvals.py:44"
+  },
+  "TEST partner ({…})": {
+    "reason": "test-tenant partner label; the TEST marker is required on test records",
+    "status": "keep",
+    "where": "backend/routes/partner_network.py:187"
+  },
+  "TEST messages: built, schema-validated and enveloped in memory; never stored or sent to an authority.": {
+    "reason": "test-mode customs diagnostic note on the internal ops view; TEST-labelled",
+    "status": "keep",
+    "where": "backend/services/customs_test_messages.py:368"
+  },
+  "TEST lead: company mailbox {…} kept; website addresses recorded: {…}": {
+    "reason": "English half of a bilingual test-lead CRM note; the Finnish half follows",
+    "status": "keep",
+    "where": "backend/services/prospecting.py:220"
+  },
+  "TESTI-liidi: yrityksen oma osoite {…} säilyy; verkkosivun osoitteita kirjattu: {…}": {
+    "reason": "already Finnish; Finnish half of the bilingual test-lead CRM note",
+    "status": "keep",
+    "where": "backend/services/prospecting.py:222"
+  },
+  "Draft requested by {…}": {
+    "reason": "CRM activity note with the requesting user's name; internal ops timeline, English kept with the other CRM activity notes",
+    "status": "keep",
+    "where": "backend/routes/crm.py:64"
+  },
+  "Digitraffic port call {…}: agent-reported ETA": {
+    "reason": "provenance source label for a port-call ETA; Digitraffic is a proper name, internal timeline note",
+    "status": "keep",
+    "where": "backend/services/shipments.py:1044"
+  },
+  "Rate request {…}": {
+    "reason": "e-mail heading of the rate request to a partner (B2B mail, not an API field); the mail body is Finnish and English",
+    "status": "keep",
+    "where": "backend/services/demo_autoquote/driver.py:416"
+  },
+  "Counteroffer sent": {
+    "reason": "only part of the event title '{title} · awaiting reply'; the full titles 'Counteroffer sent · awaiting reply' and 'Follow-up sent · awaiting reply' are in storedText.fi.json",
+    "status": "keep",
+    "where": "backend/services/demo_autoquote/driver.py:552"
+  },
+  "Accepted our counteroffer: {…}": {
+    "reason": "flow-map event title; the event carries data.title_key partner.counter_accepted and title_vars, which the map renders from demoflow.ev.partner.counter_accepted (EN/FI)",
+    "status": "coded",
+    "where": "backend/services/demo_autoquote/driver.py:608"
+  },
+  "Accepted our counteroffer: {…} · {…}": {
+    "reason": "flow-map event title; the event carries data.title_key partner.counter_accepted and title_vars, which the map renders from demoflow.ev.partner.counter_accepted (EN/FI)",
+    "status": "coded",
+    "where": "backend/services/demo_autoquote/driver.py:608"
+  },
+  "Rate received: {…}": {
+    "reason": "flow-map event title; the event carries data.title_key partner.rate and title_vars, which the map renders from demoflow.ev.partner.rate (EN/FI)",
+    "status": "coded",
+    "where": "backend/services/demo_autoquote/driver.py:608"
+  },
+  "Rate received: {…} · {…}": {
+    "reason": "flow-map event title; the event carries data.title_key partner.rate and title_vars, which the map renders from demoflow.ev.partner.rate (EN/FI)",
+    "status": "coded",
+    "where": "backend/services/demo_autoquote/driver.py:608"
+  },
+  "{…} freight {…} → {…}, door to door": {
+    "reason": "draft freight line of _price; _store_quote replaces the lines with the native option's own lines before anything is shown or sent",
+    "status": "keep",
+    "where": "backend/services/demo_autoquote/driver.py:687"
+  },
+  "(not readable: {…})": {
+    "reason": "proof receipt markdown written to the evidence folder by the proof CLI, not an API field",
+    "status": "keep",
+    "where": "backend/services/demo_autoquote/proof.py:133"
+  },
+  "Customer input did not contain the current run time": {
+    "reason": "audit reason inside the world simulator's own world_actions record (superseded_decisions), not an API field",
+    "status": "keep",
+    "where": "backend/services/demo_world/engine.py:211"
+  },
+  "\n\nAnswer with one JSON object only.": {
+    "reason": "part of the model instructions the world simulator sends to OpenAI, not shown in the UI",
+    "status": "keep",
+    "where": "backend/services/demo_world/llm.py:39"
+  },
+  "World registry": {
+    "reason": "proper name of the world simulator's registry, shown as the source of a simulated registry fact",
+    "status": "keep",
+    "where": "backend/services/demo_world/registry.py:114"
+  },
+  "Booking confirmed · ref ": {
+    "reason": "backendText.fi.js",
+    "sample": "Booking confirmed · ref ",
+    "status": "pattern",
+    "where": "backend/services/demo_world/observer.py:116"
+  },
+  "Huolitsija door-to-door {…} freight": {
+    "reason": "backendText.fi.js",
+    "sample": "Huolitsija door-to-door road freight",
+    "status": "pattern",
+    "where": "backend/services/demo_autoquote/driver.py:789"
+  },
+  "Answer customs query ": {
+    "reason": "backendText.fi.js",
+    "sample": "Answer customs query ",
+    "status": "pattern",
+    "where": "backend/services/agents/customs_correspondence.py:40"
+  },
+  "Review export ": {
+    "reason": "backendText.fi.js",
+    "sample": "Review export ",
+    "status": "pattern",
+    "where": "backend/services/agents/export_agent.py:172"
+  },
+  "{…} of {…} partners quoted; every rate expires before the ready date {…}. Best: {…} {…}, valid until {…}.": {
+    "reason": "backendText.fi.js",
+    "sample": "2 of 6 partners quoted; every rate expires before the ready date 2026-11-04. Best: Seikkala Transport Oy EUR 1,400.00, valid until 2026-11-01.",
+    "status": "pattern",
+    "where": "backend/services/demo_autoquote/driver.py:663"
+  },
+  "{…} replied {…} after Huolitsija had accepted an earlier rate from them; {…} of {…} partners quoted. A person decides which rate to buy.": {
+    "reason": "backendText.fi.js",
+    "sample": "Partner a replied EUR 790.00 after Huolitsija had accepted an earlier rate from them; 3 of 3 partners quoted. A person decides which rate to buy.",
+    "status": "pattern",
+    "where": "backend/services/demo_autoquote/driver.py:753"
+  },
+  "{…} of {…} partners declined; the other {…} have no usable rate for this request. A person decides.": {
+    "reason": "backendText.fi.js",
+    "sample": "2 of 3 partners declined; the other 1 have no usable rate for this request. A person decides.",
+    "status": "pattern",
+    "where": "backend/services/demo_autoquote/driver.py:780"
+  }
+}

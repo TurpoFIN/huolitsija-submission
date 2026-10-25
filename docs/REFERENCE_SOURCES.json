@@ -1,0 +1,535 @@
+{
+  "description": "Non-runtime scraped documentation omitted from this curated export. Source hashes refer to original captures, which remain in the original source repository. Runtime schemas and replay fixtures are retained.",
+  "files": [
+    {
+      "path": "backend/data/ledger/netvisor_vat_codes_fi.html",
+      "sha256": "3d9a359b55d8963938a6198b2b4f39f30bc7ae278fc8dd32f5cbf2fc5b990f1d",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/fi/",
+        "https://support.netvisor.fi/fi/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/fi/collections/1453134-integraation-kehittajalle",
+        "https://support.netvisor.fi/fi/articles/766843-alv-koodit-ja-tunnisteet",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/en/articles/766843-vat-classes-and-vat-codes"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_vat_codes_en.html",
+      "sha256": "6ae4ed30eaaaf5cf555c6bba2b0990c0da38a3f047bcbc5f5b90d262b65f0435",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/en/",
+        "https://support.netvisor.fi/en/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/en/collections/1453134-implementing-a-new-integration",
+        "https://support.netvisor.fi/en/articles/766843-vat-classes-and-vat-codes",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/fi/articles/766843-alv-koodit-ja-tunnisteet"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_accounting_overview_en.html",
+      "sha256": "93a32a860260106adb33ceabd39b96efd71b3fe187ef135033fe1675b7c7b069",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/en/",
+        "https://support.netvisor.fi/en/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/en/collections/1453141-resources-accounting-and-dimensions",
+        "https://support.netvisor.fi/en/articles/766886-accounting-and-dimensions-in-general",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/fi/articles/766886-kirjanpitoaineistot-ja-laskentakohteet-yleisesti"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_api_authentication_en.html",
+      "sha256": "24ebcaab4715f887174b960a721918b8200223e6609b743cbd2f9276f2dfcdd6",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/en/",
+        "https://support.netvisor.fi/en/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/en/collections/1453134-implementing-a-new-integration",
+        "https://support.netvisor.fi/en/articles/766842-api-authentication",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/fi/articles/766842-api-autentikointi"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_resources_general_en.html",
+      "sha256": "499bdebd8d6c095abc0b0c619f887c4deda37bc294fb58a4f1a8f9c011de287d",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/en/",
+        "https://support.netvisor.fi/en/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/en/collections/1453134-implementing-a-new-integration",
+        "https://support.netvisor.fi/en/articles/766841-resources-general",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/fi/articles/766841-miten-netvisorin-rajapinta-toimii"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_vat_status_codes_en.html",
+      "sha256": "35c5d4a753d4385a8168fee09f7327e019817e5f8ddcc39738f81237ab83b22d",
+      "source_links": [
+        "https://help.procountor.fi/en/",
+        "https://help.procountor.fi/en/collections/1313777-vat",
+        "https://help.procountor.fi/en/collections/1313808-vat-processing-and-settings",
+        "https://help.procountor.fi/en/articles/532520-vat-status",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/fi/articles/532520-alv-status",
+        "https://help.procountor.fi/sv/articles/532520-momsstatus"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_dev_m2m_authentication.html",
+      "sha256": "edd6bcff6c87b8183ba5fba5c042d59092174efd1e4a37d41f7f74056be34080",
+      "source_links": [
+        "https://dev.procountor.com/",
+        "https://api.procountor.com/keylogin",
+        "https://api.procountor.com/api/oauth/key",
+        "https://api.procountor.com/api/oauth/token",
+        "https://procountor.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_import_data_en.html",
+      "sha256": "c49e9baf306176966e7c9f8ff7f39cd8ccc84d697b6cb70a4689fc666f665192",
+      "source_links": [
+        "https://help.procountor.fi/en/",
+        "https://help.procountor.fi/en/collections/1313786-import-data",
+        "https://help.procountor.fi/en/collections/1313817-import-data",
+        "https://help.procountor.fi/en/articles/531566-import-data",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/fi/articles/531566-aineiston-sisaanluku",
+        "https://help.procountor.fi/sv/articles/531566-import-av-material"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_help_ledgerreceipts_cash_sales_example_en.html",
+      "sha256": "d8ce761ceb644e37ee8908ade5cba5dc73d4baf61b81c2504d3556835be12756",
+      "source_links": [
+        "https://help.procountor.fi/en/",
+        "https://help.procountor.fi/en/collections/1313783-software-integrations",
+        "https://help.procountor.fi/en/collections/1313845-procountor-api-use-cases",
+        "https://help.procountor.fi/en/articles/532398-ledger-receipts-import-cash-sales-to-finago-procountor-as-voucher",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/fi/articles/532398",
+        "https://help.procountor.fi/en/articles/532399-ledger-receipts-import-cash-sales-with-dimensions-to-finago-procountor-as-voucher"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_dev_api_authentication.html",
+      "sha256": "66ea33a3a5c5d64e218ff17bc18b8761ae8a8ca411a390687a9ee220afca8067",
+      "source_links": [
+        "https://dev.procountor.com/",
+        "https://api.procountor.com/login",
+        "https://api.procountor.com/api/oauth/token",
+        "https://api.procountor.com",
+        "https://api.procountor.com/api/sessioninfo",
+        "https://api.procountor.com/logout",
+        "https://secure.procountor.com/procountor/login",
+        "https://procountor.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_dev_api_requests.html",
+      "sha256": "bcc6b07a7c6a190e0df38ee171d9cce0e4acd90502f1c0549b9a8aeabdbcdb7a",
+      "source_links": [
+        "https://dev.procountor.com/",
+        "https://api.procountor.com/api/sessioninfo",
+        "https://api.procountor.com/api/invoices",
+        "https://api.procountor.com/api/attachments",
+        "https://api.procountor.com/api/products/123",
+        "https://api.procountor.com/api/businesspartners",
+        "https://api.procountor.com/api/webhooks",
+        "https://procountor.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_invoice_data_import_file_en.html",
+      "sha256": "8c47b847bdccdffdb96f8d1709bfaff227ab946fbc5d409f27f679cb62f67667",
+      "source_links": [
+        "https://help.procountor.fi/en/",
+        "https://help.procountor.fi/en/collections/1313786-import-data",
+        "https://help.procountor.fi/en/collections/1313817-import-data",
+        "https://help.procountor.fi/en/articles/532417-invoice-data-import-file",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/fi/articles/532417-laskuaineiston-siirtotiedosto",
+        "https://help.procountor.fi/sv/articles/532417-overforingsfil-for-fakturamaterial"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_dev_general_information.html",
+      "sha256": "b5c8681bd4edaa816693e107ade5c01625a68ad12c81bda35dd107e14bea155c",
+      "source_links": [
+        "https://dev.procountor.com/",
+        "https://procountor.fi/en/",
+        "https://api.procountor.com/api",
+        "https://api.procountor.com/latest/api",
+        "https://api.procountor.com/supported/api",
+        "https://api.procountor.com/vYYMM/api",
+        "https://pts-api.procountor.com/api",
+        "https://pts-api.procountor.com/latest/api"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_accounting_nv_fi.html",
+      "sha256": "e32e06e686e58d917b84941052bd53229492865883c174e0f2d5d3f48ee40707",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/fi/",
+        "https://support.netvisor.fi/fi/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/fi/collections/1453141-resurssit-kirjanpitoaineistot-ja-laskentakohteet",
+        "https://support.netvisor.fi/fi/articles/766888-kirjanpitoaineiston-tuonti-accounting-nv",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/en/articles/766888-import-accounting-data-accounting-nv"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_accounting_information_import_file_en.html",
+      "sha256": "8cf4a080357cde94b621ada18ac2e344bb4f81ebe0bbac46f71e161bd82389e9",
+      "source_links": [
+        "https://help.procountor.fi/en/",
+        "https://help.procountor.fi/en/collections/1313786-import-data",
+        "https://help.procountor.fi/en/collections/1313817-import-data",
+        "https://help.procountor.fi/en/articles/531736-accounting-information-import-file",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/fi/articles/531736-kirjanpitoaineiston-siirtotiedosto",
+        "https://help.procountor.fi/sv/articles/531736-overforingsfil-for-bokforingsmaterial"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_invoice_data_import_file_fi.html",
+      "sha256": "338046379a4a4a094cbb0722d360e9a807e4fc028fe61b18bcaf22d4a8d9276e",
+      "source_links": [
+        "https://help.procountor.fi/fi/",
+        "https://help.procountor.fi/fi/collections/1313786-aineiston-sisaanluku",
+        "https://help.procountor.fi/fi/collections/1313817-aineiston-sisaanluku",
+        "https://help.procountor.fi/fi/articles/532417-laskuaineiston-siirtotiedosto",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/en/articles/532417-invoice-data-import-file",
+        "https://help.procountor.fi/sv/articles/532417-overforingsfil-for-fakturamaterial"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/procountor_accounting_information_import_file_fi.html",
+      "sha256": "0ccee7f6d10dc86d319c3ab1f1fbc867ff4f40c3be77eee1af11721098aaae4c",
+      "source_links": [
+        "https://help.procountor.fi/fi/",
+        "https://help.procountor.fi/fi/collections/1313786-aineiston-sisaanluku",
+        "https://help.procountor.fi/fi/collections/1313817-aineiston-sisaanluku",
+        "https://help.procountor.fi/fi/articles/531736-kirjanpitoaineiston-siirtotiedosto",
+        "https://help.procountor.fi/assets/favicon",
+        "https://help.procountor.fi/manifest.webmanifest",
+        "https://help.procountor.fi/en/articles/531736-accounting-information-import-file",
+        "https://help.procountor.fi/sv/articles/531736-overforingsfil-for-bokforingsmaterial"
+      ]
+    },
+    {
+      "path": "backend/data/ledger/netvisor_accounting_nv_en.html",
+      "sha256": "043c1365bdccd54e8aff550692a547b4c9e0dfe6b0f9aab037f4748e3cfe20f0",
+      "source_links": [
+        "https://support.netvisor.fi/assets/font/43343",
+        "https://support.netvisor.fi/en/",
+        "https://support.netvisor.fi/en/collections/1453045-netvisor-api",
+        "https://support.netvisor.fi/en/collections/1453141-resources-accounting-and-dimensions",
+        "https://support.netvisor.fi/en/articles/766888-import-accounting-data-accounting-nv",
+        "https://support.netvisor.fi/assets/favicon",
+        "https://support.netvisor.fi/manifest.webmanifest",
+        "https://support.netvisor.fi/fi/articles/766888-kirjanpitoaineiston-tuonti-accounting-nv"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_syventava_48679_palvelujen_ulkomaankauppa.html",
+      "sha256": "b1b477c2abe720fe276694ad06da3b332ff298e27f2223d480a3def2b3eef8bc",
+      "source_links": [
+        "https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48679/palvelujen-ulkomaankaupan--arvonlis%C3%A4verotus2/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_yhteenvetoilmoitus_ilmoitusohjeet_fi.html",
+      "sha256": "5fa5fbd16d20fe95511fef8204007ebe654027983ccde42dc787362d3c2c14e2",
+      "source_links": [
+        "https://www.vero.fi/yritykset-ja-yhteisot/verot-ja-maksut/arvonlisaverotus/ulkomaankauppa/yhteisokauppa/yhteenvetoilmoitus-ilmoitusohjeet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_eu_recapitulative_statement_en.html",
+      "sha256": "1abb07701b8d8145323daf3feaba1665d619e3f0357ee528feff48db5a8faa6c",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/intra-community-trade/eu-vat-recapitulative-statement/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/WebServices/SAML2/SingleSignOnService/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_puolesta-asiointi.html",
+      "sha256": "3e96df4718afcc8fe1b4b3ea7e08a844ca121112888ced77daa34a1b20cfbec8",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/puolesta-asiointi/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_ohjelmiston-rekisterointi.html",
+      "sha256": "66f80b346a7e4fb98d22d253cd03b832a6fe8f6b92feeffe950fda66eb2ffacc",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/ohjelmiston-rekister%C3%B6inti/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://apiportal.vero.fi/_/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_yleiset-virhetilanteet-ja-ratkaisut.html",
+      "sha256": "33e28f49c2903eed5146a310f79720cf2523f87b75bfa9adad3245136be53d31",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/yleiset-virhetilanteet-ja-ratkaisut/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://apitest.vero.fi/FIS/General/Notification/Test/Subscribe/v1"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_ilmoitin_apuvalineet.html",
+      "sha256": "805489d62348ca4cb40dce148af891da179b51dc804c5f1bfcc9428ad1376574",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/apuvalineet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_syventava_48667_vientikauppa.html",
+      "sha256": "0f15662e5c7d60b2e13528e3154a916796119bf6139fab2e1b4524874c17c6e0",
+      "source_links": [
+        "https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48667/vientikaupan_arvonlisaverotu2/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_kehittaja_apitamopki.html",
+      "sha256": "6138ebc7898b9c8e4eafcd852da470efc4a330e24577de190119a65014496e34",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/apitamopki/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_ilmoitin_esimerkkiaineistot.html",
+      "sha256": "b1842ae2dea970bd5777006f7f018228ca7671d4d5b3708547f081808508bab0",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/esimerkkiaineistot/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_syventava_335806_arvonlisaverovelvollisen_opas.html",
+      "sha256": "3d4cb5a4b4f3f189c5dd821a835b90ba2f300c2879b12fcc4f011cea92ce7950",
+      "source_links": [
+        "https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/335806/arvonlis%C3%A4verovelvollisen-opas/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_kehittaja_ilmoitin.html",
+      "sha256": "da76f83c1d2cc6a58c5d6dc4df3fad4e5b31f0d560ca6f3e5cac680347799c78",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_ilmoitin_testiymparisto.html",
+      "sha256": "cfdfcada5d9b1e659c1cbdb5541174bf4be8df93f241d7ca3c3d88e82be168ba",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/testiymparisto/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_vat_when_to_file_and_pay_en.html",
+      "sha256": "8c124314b71cf9a6b75eb2d5efd37f80bc69ab404d863ed9d4378ad7ff36366a",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/when-to-file-and-pay/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/WebServices/SAML2/SingleSignOnService/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/tietuekuvaukset_omaaloitteiset_index.html",
+      "sha256": "8798b4b9a6968790c1b4ab36f4ed72b364fc203669f65a8f3b1bc12413d1d671",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/tietuekuvaukse/tietuekuvaukset__omaaloitteisten_veroje/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_rajapintapalvelun-saatavuus.html",
+      "sha256": "794d4b04fa2defa3fc6501abb51ecf34c447c79f25961dffae10c98ab00a318e",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/rajapintapalvelun-saatavuus/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_kehittaja_vero-api.html",
+      "sha256": "d8be3e89b2d1383991e8e1cf88d95ce6a6bf3497888e259905ed732227ea98ca",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://api-developer.vero.fi/api-details",
+        "https://apiportal.vero.fi/",
+        "https://api-developer.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_miten-rajapinnat-otetaan-kayttoon.html",
+      "sha256": "a2c3ec902dea819206647754195d1dd649af9184a3749d79836a475212924498",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/miten-rajapinnat-otetaan-kayttoon/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://apiportal.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_tekniset-ohjeet.html",
+      "sha256": "b53b8e8f31bfba453973df1e71f5dbfad3ca4f78f926c18b73bce3c9fa9803ec",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/tekniset-ohjeet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://api-sandbox.vero.fi/&hellip;"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_mita-rajapinnat-ovat.html",
+      "sha256": "97e90928200637b36339f1cfe661be486aa01de023e6f28a06885c1dcc883433",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/mita-rajapinnat-ovat/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_ilmoitin_tietuekuvaukset.html",
+      "sha256": "dc1f5d1c85edf344dc99559db96190a02ae386d20a72b8371c235e41ecb258fd",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/tietuekuvaukset/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/tietuekuvaukset_index.html",
+      "sha256": "9c31ad8225f54d713a7cb6a66edc7b541a5b7124d8ff2fe5c051de81de5d2dec",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/tietuekuvaukse/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_alv_tayttoohje_fi.html",
+      "sha256": "f378f859efa2f6e6a53870d20bec5069b00ac68683302e20617843ab373c32c6",
+      "source_links": [
+        "https://www.vero.fi/alv/tayttoohje",
+        "https://www.vero.fi/yritykset-ja-yhteisot/verot-ja-maksut/arvonlisaverotus/ilmoitus-ja-maksuohjeet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_rajapintojen-kayttotapauksia.html",
+      "sha256": "09026e4ab88d855cc8d486fd4995cb9c3268c6a024fb46fc59bd117b94dba10b",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/rajapintojen-kayttotapauksia/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_tayttoohje_alv_ja_oma-aloitteiset_yksityiskohtaiset.html",
+      "sha256": "049a9deba95de5fd3041d17cfcf0e8e58320acc24c25d1aea8a65c297425ea04",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/tayttoohjeet/arvonlis%C3%A4veron-ja-muiden-oma-aloitteisten-verojen-ilmoittaminen--yksityiskohtaiset-ohjeet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_ilmoitin_ohjeet.html",
+      "sha256": "1af7f28315a15469fdce14befb071b50671b42c5566f0746ab6139c1435880f1",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/ilmoitin/ohjeet/",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_suomi.fi-valtuuden-kaytto.html",
+      "sha256": "8236f2ad9029369bc9b224ad077ea1791f8ef91c94eb83ac9ccaa817317fe57e",
+      "source_links": [
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/suomi.fi-valtuuden-kaytto/",
+        "https://www.vero.fi/tietoa-verohallinnosta/kehittaja/vero-api/suomi.fi-valtuuden-kaytto",
+        "https://www.vero.fi/contentassets/4d7ef5502131491da21a7915d78be9f1/nophoto_icon_504x504.png",
+        "https://omavero.vero.fi/",
+        "https://apiportal.vero.fi/"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_SAT_op_postGetVATPeriods.json",
+      "sha256": "2d10218e4659cf8d7a8e47815e74b02b251112c1a5c91858ed533bbd79f21850",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/when-to-file-and-pay/\\"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_SAT_op_postFileVATReturnv2.json",
+      "sha256": "b8e52348df6363647ffc9d9239bf70531bb26afe4d57ae9e763950474f16a841",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/when-to-file-and-pay/\\"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_SAT_op_postFileECSalesList.json",
+      "sha256": "f7b8eee7a345554316f202a123b45984a769293ead344107fbe3b7cd86fb38d1",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/intra-community-trade/eu-vat-recapitulative-statement/\\"
+      ]
+    },
+    {
+      "path": "backend/data/vero/vero_api_SAT_op_postGetFiledVATReturnv2.json",
+      "sha256": "8112ae832c1e171b7b3a432a906733bcd60fde75a0ec77d622da447eb58fc5ed",
+      "source_links": [
+        "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/when-to-file-and-pay/Filing"
+      ]
+    }
+  ]
+}

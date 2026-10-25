@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:v0="http://tulli.fi/ws/corporateservice/v1" xmlns:v1="http://tulli.fi/ws/corporateservicetypes/v1">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<v0:CheckResponse>
+			<v1:ResponseHeader>
+				<v1:IntermediaryBusinessId>FI9991026-5</v1:IntermediaryBusinessId>
+				<v1:Timestamp>2018-05-24T10:46:50+03:00</v1:Timestamp>
+				<v1:ResponseCode>000</v1:ResponseCode>
+				<v1:ResponseText>OK</v1:ResponseText>
+				<v1:TransactionId>1-20180524-104650-48581661</v1:TransactionId>
+			</v1:ResponseHeader>
+			<v1:EchoResponse>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHYxOkVjaG9Db250ZW50IHhtbG5zOnYxPSJodHRwOi8vdHVsbGkuZmkvc2NoZW1hL2NvcnBvcmF0ZXNlcnZpY2UvdjEiPjxUZXh0IHhtbG5zOm5zMj0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgeG1sbnM9Imh0dHA6Ly90dWxsaS5maS9zY2hlbWEvY29ycG9yYXRlc2VydmljZS92MSI+SGVsbG8gd29ybGQhPC9UZXh0PjwvdjE6RWNob0NvbnRlbnQ+</v1:EchoResponse>
+		</v0:CheckResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

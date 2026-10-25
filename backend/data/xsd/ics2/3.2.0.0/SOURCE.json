@@ -1,0 +1,13 @@
+{
+ "set": "ICS2 IE3 XML schemas (CTSS EO package 3.2.0.0, namespace versions V2 and V3) + HTI v3.20 code lists",
+ "package_url": "https://circabc.europa.eu/rest/download/5c528a3e-b9b8-4e6f-82ac-272962a92514",
+ "package_name": "ICS2 3.2.0.0 CTSS EO Package.7z",
+ "package_sha256": "483988a96d4da93a3fad97dbcd6df9d5c60e42920830e562569010a399164902",
+ "package_bytes": 2630367,
+ "inner_archive": "ICS2 3.2.0.0 CTSS EO Package/ICS2 3.2.0.0-EO-TSC.7z",
+ "codelists_url": "https://circabc.europa.eu/rest/download/4b6801df-72b8-416a-9b11-14527480d86e",
+ "codelists_file": "7. ICS2-HTI-CL-(2026-06-30)-v3.20.xlsx",
+ "codelists_zip_sha256": "810e5852732706b98edd8434f9820d4c097754d9c88b85fc835fe2443398d1e2",
+ "circabc_group": "https://circabc.europa.eu/ui/group/18fb5859-3970-4ac5-b30b-6604977a15a7/library/16e29912-d290-417e-a45c-b286407e1770",
+ "fetched_at": "2026-10-24T19:31:40+00:00"
+}

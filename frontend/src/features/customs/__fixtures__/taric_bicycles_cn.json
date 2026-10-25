@@ -1,0 +1,1286 @@
+{
+ "cache": {
+  "cached_at": "2026-10-24T21:29:45Z",
+  "hit": false
+ },
+ "country": "CN",
+ "date": "2026-10-24",
+ "declarable": true,
+ "fetched_at": "2026-10-24T21:29:45Z",
+ "flow": "import",
+ "goods_code": "8712003010",
+ "known_code": true,
+ "measures": [
+  {
+   "additional_codes": [],
+   "certificates": {
+    "Y054": "Goods labelled according to the provisions of Article 12 of Regulation (EU) 2024/573",
+    "Y121": "Tonnes of CO₂ equivalent of bulk gases and of gases contained in products or equipment, and parts thereof",
+    "Y123": "Undertaking registered in the F-Gas Portal according to Article 20 of Regulation (EU) 2024/573",
+    "Y152": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573",
+    "Y160": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573",
+    "Y163": "Net mass of fluorinated greenhouse gases charged in products and equipment",
+    "Y169": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573).",
+    "Y986": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y152",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y986",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y160",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y169",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 15,
+     "text": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573)."
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161700&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "CD917",
+     "text": "By virtue of Article 4(6) of Regulation (EU) 2024/573, the placing on the market of fluorinated greenhouse gases shall be prohibited, unless importers provide evidence that any trifluoromethane, produced as a by-product during the production process of the fluorinated greenhouse gases has been destroyed or recovered for subsequent use, using best available techniques.<br><br>By virtue of Article 11.1. of Regulation (EU) 2024/573, the placing on the market of products and equipment, including parts thereof, listed in Annex IV, with an exemption for military equipment, shall be prohibited from the date specified in that Annex.<br><br>By virtue of Article 11.1 sub paragraph 2 (a)(b), (c) of Regulation (I) 2024/573, the placing on the market of parts of products and equipment required for repair and servicing of existing equipment listed in Annex IV shall be allowed. <br><br>By virtue of Article 11.3. of Regulation (EU) 2024/573, the placing on the market of non-refillable containers for fluorinated greenhouse gases listed in Annex I and in Section 1 of Annex II, empty, or fully or partially filled, shall be prohibited.<br><br>By virtue of Article 11.4 of Regulation (EU) 2024/573, undertakings which place on the market refillable containers for fluorinated greenhouse gases shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling, in particular identifying the relevant actors, their obligatory commitments and the relevant logistical arrangements.<br><br>By virtue of Article 12 of Regulation (EU) 2024/573, the following products and equipment that contain fluorinated greenhouse gases or whose functioning relies upon those gases shall only be placed on the market if they are labelled as:<br>(a)\t refrigeration equipment ;<br>(b)\tair-conditioning equipment ; <br>(c)\theat pumps ;<br>(d)\tfire protection equipment ; <br>(e)\telectrical switchgear ;<br>(f)\taerosol dispenser that contain fluorinated greenhouse gases, including metered dose inhalers;<br>(g)\tall fluorinated greenhouse gas containers ;<br>(h)\tfluorinated greenhouse gas-based solvents ; or<br>(i)\torganic Rankine cycles.<br><br>By virtue of Article 16 of Regulation (EU) 2024/573, the placing on the market of hydrofluorocarbons shall be allowed only to the extent that importers have been allocated quota by the Commission as set out in Article 17.<br><br>By virtue of Article 19.1 of Regulation (EU) 2024/573, refrigeration and air-conditioning equipment, heat pumps and metered dose inhalers pre-charged with substances listed in Section 1 of Annex I shall not be placed on the market unless those substances with which the products or equipment have been pre-charged are accounted for within the quota system.<br><br>By virtue of Article 19.2 of Regulation (EU) 2024/573, the placing on the market of goods falling under the provisions of Article 19.1 shall be subject to the presentation of a declaration of conformity.<br><br>By virtue of Article 19.6 of Regulation (EU) 2024/573, undertakings that placed on the market less than 10 tonnes of CO2 equivalent of hydrofluorocarbons, per year, contained in the products or equipment referred to in Article 19.1 shall be exempted from the provisions of Article 19. <br><br>By virtue of Article 20.4 of Regulation (EU) 2024/573, the undertakings shall have a valid registration in the F-gas Portal prior to carrying out any of the activities listed in points (a) to (g).<br><br>By virtue of Article 23.3 (a) of Regulation (EU) 2024/573, the F-gas Portal registration identification number shall be declared.<br>The information listed in Article 23.3(a) to (d) of Regulation (EU) 2024/573 shall be provided to customs authorities, where relevant, in the customs declaration.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+    }
+   ],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8712003010",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0573/24",
+   "regulation_id": "R240573A",
+   "regulation_role": "1",
+   "sid": "4161700",
+   "start": "2025-06-25",
+   "type": "Import control of fluorinated greenhouse gases",
+   "type_code": "724",
+   "type_code_candidates": [
+    "724"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [
+     {
+      "pct": 14.0,
+      "type": "pct"
+     }
+    ],
+    "currency": null,
+    "kind": "ad_valorem",
+    "max": null,
+    "min": null,
+    "pct": 14.0,
+    "raw": "14.00 %",
+    "unit": null
+   },
+   "duty_expression": "14.00 %",
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "third_country",
+   "order_number": null,
+   "regulation": "R0838/06",
+   "regulation_id": "R0608380",
+   "regulation_role": "4",
+   "sid": "2912887",
+   "start": "2006-06-09",
+   "type": "Third country duty",
+   "type_code": "103",
+   "type_code_candidates": [
+    "103"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": 3.0,
+    "components": [
+     {
+      "amount": 3.0,
+      "currency": "EUR",
+      "reference": false,
+      "type": "amount",
+      "unit": null,
+      "unit_raw": null
+     }
+    ],
+    "currency": "EUR",
+    "kind": "specific",
+    "max": null,
+    "min": null,
+    "pct": null,
+    "raw": "3.00 EUR",
+    "unit": null
+   },
+   "duty_expression": "3.00 EUR",
+   "end": "2026-10-31",
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "TM01066",
+     "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+    }
+   ],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "low_value_consignment",
+   "order_number": null,
+   "regulation": "R0382/26",
+   "regulation_id": "R2603820",
+   "regulation_role": "1",
+   "sid": "4268225",
+   "start": "2026-07-01",
+   "type": "Low-value consignment customs duty",
+   "type_code": "107",
+   "type_code_candidates": [
+    "107"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B772",
+     "description": "Zhejiang Baoguilai Vehicle Co. Ltd.",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "certificates": {
+    "D008": "Invoice with a signed declaration"
+   },
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 19.2,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 19.2,
+      "raw": "19.20 %",
+      "unit": null
+     },
+     "duty_expression": "19.20 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210316&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "regulation_id": "R2521460",
+   "regulation_role": "3",
+   "sid": "4210316",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B773",
+     "description": "Oyama Technology (Nantong) Co., Ltd",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "certificates": {
+    "D008": "Invoice with a signed declaration"
+   },
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 0.0,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 0.0,
+      "raw": "0 %",
+      "unit": null
+     },
+     "duty_expression": "0 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210317&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "regulation_id": "R2521460",
+   "regulation_role": "3",
+   "sid": "4210317",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B774",
+     "description": "Ideal (Dongguan) Bike Co., Ltd",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "certificates": {
+    "D008": "Invoice with a signed declaration"
+   },
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 0.0,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 0.0,
+      "raw": "0 %",
+      "unit": null
+     },
+     "duty_expression": "0 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210318&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "regulation_id": "R2521460",
+   "regulation_role": "3",
+   "sid": "4210318",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B999",
+     "description": "Other",
+     "footnotes": [],
+     "residual": true
+    }
+   ],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [
+     {
+      "pct": 48.5,
+      "type": "pct"
+     }
+    ],
+    "currency": null,
+    "kind": "ad_valorem",
+    "max": null,
+    "min": null,
+    "pct": 48.5,
+    "raw": "48.50 %",
+    "unit": null
+   },
+   "duty_expression": "48.50 %",
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "regulation_id": "R2521460",
+   "regulation_role": "3",
+   "sid": "4210319",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "C329",
+     "description": "Giant (China) Co. Ltd.",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [
+    {
+     "code": "TM882",
+     "text": "Judgment of the Court (Fourth Chamber) of 14 December 2017.<br>European Bicycle Manufacturers Association (EBMA) v Giant (China) Co. Ltd.<br>Appeal — Dumping — Regulation (EU) No 502/2013 — Imports of bicycles originating in China — Regulation (EC) No 1225/2009 — Article 18(1) — Cooperation — Definition of ‘necessary information’ — Article 9(5) — Request for individual treatment — Risk of circumvention.<br>Case C-61/16 P.<br>(http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62016CJ0061)"
+    }
+   ],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "regulation_id": "R2521460",
+   "regulation_role": "3",
+   "sid": "4210320",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "C453",
+     "description": "Universal Cycle Corporation (Guang Zhou)",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [
+     {
+      "pct": 48.5,
+      "type": "pct"
+     }
+    ],
+    "currency": null,
+    "kind": "ad_valorem",
+    "max": null,
+    "min": null,
+    "pct": 48.5,
+    "raw": "48.50 %",
+    "unit": null
+   },
+   "duty_expression": "48.50 %",
+   "end": null,
+   "excluded": [],
+   "flow": "import",
+   "footnotes": [],
+   "geo_code": "CN",
+   "geo_group": false,
+   "geo_name": "China",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R0966/20",
+   "regulation_id": "R2009660",
+   "regulation_role": "3",
+   "sid": "3782366",
+   "start": "2019-12-17",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [],
+    "currency": null,
+    "kind": "supplementary_unit",
+    "max": null,
+    "min": null,
+    "pct": null,
+    "raw": "p/st",
+    "unit": "p/st"
+   },
+   "duty_expression": "p/st",
+   "end": null,
+   "excluded": [],
+   "flow": "both",
+   "footnotes": [],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8712003010",
+   "has_conditions": false,
+   "kind": "supplementary_unit",
+   "order_number": null,
+   "regulation": "R2658/87",
+   "regulation_id": "R8726581",
+   "regulation_role": "1",
+   "sid": "2982823",
+   "start": "2008-01-01",
+   "type": "Supplementary unit",
+   "type_code": "109",
+   "type_code_candidates": [
+    "109"
+   ]
+  }
+ ],
+ "other_duties": [
+  {
+   "additional_codes": [],
+   "conditions": [],
+   "duty": {
+    "agri_codes": [],
+    "amount": 3.0,
+    "components": [
+     {
+      "amount": 3.0,
+      "currency": "EUR",
+      "reference": false,
+      "type": "amount",
+      "unit": null,
+      "unit_raw": null
+     }
+    ],
+    "currency": "EUR",
+    "kind": "specific",
+    "max": null,
+    "min": null,
+    "pct": null,
+    "raw": "3.00 EUR",
+    "unit": null
+   },
+   "duty_expression": "3.00 EUR",
+   "end": "2026-10-31",
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "TM01066",
+     "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+    }
+   ],
+   "geo_code": "1011",
+   "geo_name": "ERGA OMNES",
+   "has_conditions": false,
+   "kind": "low_value_consignment",
+   "order_number": null,
+   "regulation": "R0382/26",
+   "sid": "4268225",
+   "start": "2026-07-01",
+   "type": "Low-value consignment customs duty",
+   "type_code": "107",
+   "type_code_candidates": [
+    "107"
+   ]
+  }
+ ],
+ "preferences": [],
+ "restrictions": [
+  {
+   "additional_codes": [],
+   "certificates": {
+    "Y054": "Goods labelled according to the provisions of Article 12 of Regulation (EU) 2024/573",
+    "Y121": "Tonnes of CO₂ equivalent of bulk gases and of gases contained in products or equipment, and parts thereof",
+    "Y123": "Undertaking registered in the F-Gas Portal according to Article 20 of Regulation (EU) 2024/573",
+    "Y152": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573",
+    "Y160": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573",
+    "Y163": "Net mass of fluorinated greenhouse gases charged in products and equipment",
+    "Y169": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573).",
+    "Y986": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y152",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y986",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y160",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y169",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 15,
+     "text": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573)."
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD917",
+     "text": "By virtue of Article 4(6) of Regulation (EU) 2024/573, the placing on the market of fluorinated greenhouse gases shall be prohibited, unless importers provide evidence that any trifluoromethane, produced as a by-product during the production process of the fluorinated greenhouse gases has been destroyed or recovered for subsequent use, using best available techniques.<br><br>By virtue of Article 11.1. of Regulation (EU) 2024/573, the placing on the market of products and equipment, including parts thereof, listed in Annex IV, with an exemption for military equipment, shall be prohibited from the date specified in that Annex.<br><br>By virtue of Article 11.1 sub paragraph 2 (a)(b), (c) of Regulation (I) 2024/573, the placing on the market of parts of products and equipment required for repair and servicing of existing equipment listed in Annex IV shall be allowed. <br><br>By virtue of Article 11.3. of Regulation (EU) 2024/573, the placing on the market of non-refillable containers for fluorinated greenhouse gases listed in Annex I and in Section 1 of Annex II, empty, or fully or partially filled, shall be prohibited.<br><br>By virtue of Article 11.4 of Regulation (EU) 2024/573, undertakings which place on the market refillable containers for fluorinated greenhouse gases shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling, in particular identifying the relevant actors, their obligatory commitments and the relevant logistical arrangements.<br><br>By virtue of Article 12 of Regulation (EU) 2024/573, the following products and equipment that contain fluorinated greenhouse gases or whose functioning relies upon those gases shall only be placed on the market if they are labelled as:<br>(a)\t refrigeration equipment ;<br>(b)\tair-conditioning equipment ; <br>(c)\theat pumps ;<br>(d)\tfire protection equipment ; <br>(e)\telectrical switchgear ;<br>(f)\taerosol dispenser that contain fluorinated greenhouse gases, including metered dose inhalers;<br>(g)\tall fluorinated greenhouse gas containers ;<br>(h)\tfluorinated greenhouse gas-based solvents ; or<br>(i)\torganic Rankine cycles.<br><br>By virtue of Article 16 of Regulation (EU) 2024/573, the placing on the market of hydrofluorocarbons shall be allowed only to the extent that importers have been allocated quota by the Commission as set out in Article 17.<br><br>By virtue of Article 19.1 of Regulation (EU) 2024/573, refrigeration and air-conditioning equipment, heat pumps and metered dose inhalers pre-charged with substances listed in Section 1 of Annex I shall not be placed on the market unless those substances with which the products or equipment have been pre-charged are accounted for within the quota system.<br><br>By virtue of Article 19.2 of Regulation (EU) 2024/573, the placing on the market of goods falling under the provisions of Article 19.1 shall be subject to the presentation of a declaration of conformity.<br><br>By virtue of Article 19.6 of Regulation (EU) 2024/573, undertakings that placed on the market less than 10 tonnes of CO2 equivalent of hydrofluorocarbons, per year, contained in the products or equipment referred to in Article 19.1 shall be exempted from the provisions of Article 19. <br><br>By virtue of Article 20.4 of Regulation (EU) 2024/573, the undertakings shall have a valid registration in the F-gas Portal prior to carrying out any of the activities listed in points (a) to (g).<br><br>By virtue of Article 23.3 (a) of Regulation (EU) 2024/573, the F-gas Portal registration identification number shall be declared.<br>The information listed in Article 23.3(a) to (d) of Regulation (EU) 2024/573 shall be provided to customs authorities, where relevant, in the customs declaration.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+    }
+   ],
+   "geo_code": "1011",
+   "geo_name": "ERGA OMNES",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0573/24",
+   "sid": "4161700",
+   "start": "2025-06-25",
+   "type": "Import control of fluorinated greenhouse gases",
+   "type_code": "724",
+   "type_code_candidates": [
+    "724"
+   ]
+  }
+ ],
+ "source": "EU TARIC consultation",
+ "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN",
+ "subcode_summaries": [],
+ "subcodes": [
+  "8712003010"
+ ],
+ "supplementary_unit": "p/st",
+ "third_country_duty": {
+  "duty": {
+   "agri_codes": [],
+   "amount": null,
+   "components": [
+    {
+     "pct": 14.0,
+     "type": "pct"
+    }
+   ],
+   "currency": null,
+   "kind": "ad_valorem",
+   "max": null,
+   "min": null,
+   "pct": 14.0,
+   "raw": "14.00 %",
+   "unit": null
+  },
+  "duty_expression": "14.00 %",
+  "end": null,
+  "regulation": "R0838/06",
+  "start": "2006-06-09",
+  "type_code": "103"
+ },
+ "trade_defence": [
+  {
+   "additional_codes": [
+    {
+     "code": "B772",
+     "description": "Zhejiang Baoguilai Vehicle Co. Ltd.",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "conditional": true,
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 19.2,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 19.2,
+      "raw": "19.20 %",
+      "unit": null
+     },
+     "duty_expression": "19.20 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "sid": "4210316",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B773",
+     "description": "Oyama Technology (Nantong) Co., Ltd",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "conditional": true,
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 0.0,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 0.0,
+      "raw": "0 %",
+      "unit": null
+     },
+     "duty_expression": "0 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "sid": "4210317",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B774",
+     "description": "Ideal (Dongguan) Bike Co., Ltd",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "conditional": true,
+   "conditions": [
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": "D008",
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 0.0,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 0.0,
+      "raw": "0 %",
+      "unit": null
+     },
+     "duty_expression": "0 %",
+     "requirement": null,
+     "sequence": 1,
+     "text": "Invoice with a signed declaration"
+    },
+    {
+     "action": "Apply the amount of the action (see components)",
+     "action_kind": "apply_amount",
+     "certificate": null,
+     "code": "A",
+     "condition": "Presentation of an anti-dumping/countervailing document",
+     "duty": {
+      "agri_codes": [],
+      "amount": null,
+      "components": [
+       {
+        "pct": 48.5,
+        "type": "pct"
+       }
+      ],
+      "currency": null,
+      "kind": "ad_valorem",
+      "max": null,
+      "min": null,
+      "pct": 48.5,
+      "raw": "48.50 %",
+      "unit": null
+     },
+     "duty_expression": "48.50 %",
+     "requirement": null,
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD659",
+     "text": "The application of the individual duty rate for this company shall be conditional upon presentation to the customs authorities of the Member States of a valid commercial invoice, in which must appear a declaration signed by an officer of the entity issuing the commercial invoice, in the following format:<br>(1) the name and function of the official of the entity issuing the commercial invoice;<br>(2) the following declaration:<br>\"I, the undersigned, certify that the (volume) of bicycles sold for export to the European Union covered by this invoice was manufactured by (company name and registered seat) (TARIC additional code) in (country concerned). I declare that the information provided in this invoice is complete and correct.<br>Date and signature\".<br>If no such invoice is presented, the duty rate applicable to all other companies shall apply."
+    }
+   ],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": true,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "sid": "4210318",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "B999",
+     "description": "Other",
+     "footnotes": [],
+     "residual": true
+    }
+   ],
+   "conditions": [],
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [
+     {
+      "pct": 48.5,
+      "type": "pct"
+     }
+    ],
+    "currency": null,
+    "kind": "ad_valorem",
+    "max": null,
+    "min": null,
+    "pct": 48.5,
+    "raw": "48.50 %",
+    "unit": null
+   },
+   "duty_expression": "48.50 %",
+   "end": null,
+   "excluded": [],
+   "footnotes": [],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "sid": "4210319",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "C329",
+     "description": "Giant (China) Co. Ltd.",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "conditions": [],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "TM882",
+     "text": "Judgment of the Court (Fourth Chamber) of 14 December 2017.<br>European Bicycle Manufacturers Association (EBMA) v Giant (China) Co. Ltd.<br>Appeal — Dumping — Regulation (EU) No 502/2013 — Imports of bicycles originating in China — Regulation (EC) No 1225/2009 — Article 18(1) — Cooperation — Definition of ‘necessary information’ — Article 9(5) — Request for individual treatment — Risk of circumvention.<br>Case C-61/16 P.<br>(http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62016CJ0061)"
+    }
+   ],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R2146/25",
+   "sid": "4210320",
+   "start": "2025-10-24",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  },
+  {
+   "additional_codes": [
+    {
+     "code": "C453",
+     "description": "Universal Cycle Corporation (Guang Zhou)",
+     "footnotes": [],
+     "residual": false
+    }
+   ],
+   "conditions": [],
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [
+     {
+      "pct": 48.5,
+      "type": "pct"
+     }
+    ],
+    "currency": null,
+    "kind": "ad_valorem",
+    "max": null,
+    "min": null,
+    "pct": 48.5,
+    "raw": "48.50 %",
+    "unit": null
+   },
+   "duty_expression": "48.50 %",
+   "end": null,
+   "excluded": [],
+   "footnotes": [],
+   "geo_code": "CN",
+   "geo_name": "China",
+   "has_conditions": false,
+   "kind": "trade_defence",
+   "order_number": null,
+   "regulation": "R0966/20",
+   "sid": "3782366",
+   "start": "2019-12-17",
+   "type": "Definitive anti-dumping duty",
+   "type_code": "552",
+   "type_code_candidates": [
+    "552"
+   ]
+  }
+ ]
+}

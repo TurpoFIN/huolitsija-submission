@@ -1,0 +1,62 @@
+[
+  {
+    "en": "route is outside the accepted quote's coverage",
+    "fi": "reitti ei kuulu hyväksytyn tarjouksen piiriin"
+  },
+  {
+    "en": "; route is outside the accepted quote's coverage",
+    "fi": "; reitti ei kuulu hyväksytyn tarjouksen piiriin"
+  },
+  {
+    "en": "ferry crossing needs a separate booking; operator must be confirmed",
+    "fi": "Lauttamatka tarvitsee erillisen varauksen; operaattori on vahvistettava"
+  },
+  {
+    "en": "Group booking already in transit; ferry leg must be rescheduled with the carrier by a person",
+    "fi": "Ryhmävarauksen kuljetus on jo alkanut; henkilön on sovittava lauttaosuuden muutos kuljetusliikkeen kanssa"
+  },
+  {
+    "en": "This leg is covered by the quoted road carrier; a different carrier needs a person to review coverage.",
+    "fi": "Tämä osuus kuuluu tarjouksen tehneen maantiekuljetusliikkeen varaukseen. Toisen kuljetusliikkeen käyttäminen edellyttää, että henkilö tarkistaa tarjouksen kattavuuden."
+  },
+  {
+    "en": "The road booking group is outside the accepted quote's coverage; a person must arrange the ferry crossing.",
+    "fi": "Maantiekuljetuksen yhteisvaraus ei kuulu hyväksytyn tarjouksen piiriin; henkilön on järjestettävä lauttamatka."
+  },
+  {
+    "en": "Full route and ferry crossing covered by the accepted quote",
+    "fi": "Hyväksytty tarjous kattaa koko reitin ja lauttamatkan"
+  },
+  {
+    "en": "The leg is outside the accepted quote's coverage",
+    "fi": "Osuus ei kuulu hyväksytyn tarjouksen piiriin"
+  },
+  {
+    "en": "Tracking observations cannot change the carrier's purchase terms.",
+    "fi": "Seurantatiedoilla ei voi muuttaa kuljetusliikkeen kanssa sovittuja ostoehtoja."
+  },
+  {
+    "en": "operator to be confirmed",
+    "fi": "operaattori vahvistettava"
+  },
+  {
+    "en": "ferry crossing needs a separate booking with Tallink Grupp",
+    "fi": "Lauttamatka tarvitsee erillisen varauksen: Tallink Grupp"
+  },
+  {
+    "en": "ferry crossing needs a separate booking with Finnlines; route is outside the accepted quote's coverage",
+    "fi": "Lauttamatka tarvitsee erillisen varauksen: Finnlines; reitti ei kuulu hyväksytyn tarjouksen piiriin"
+  },
+  {
+    "en": "ferry crossing needs a separate booking; operator must be confirmed; route is outside the accepted quote's coverage",
+    "fi": "Lauttamatka tarvitsee erillisen varauksen; operaattori on vahvistettava; reitti ei kuulu hyväksytyn tarjouksen piiriin"
+  },
+  {
+    "en": "Ferry FIHEL–SESTO",
+    "fi": "Lautta FIHEL–SESTO"
+  },
+  {
+    "en": "Ferry DETRV–FIHEL",
+    "fi": "Lautta DETRV–FIHEL"
+  }
+]

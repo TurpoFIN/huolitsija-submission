@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="appfeedback"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="netvisorgeneraltypes.xsd" />
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="voucher">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="netvisorkey" type="netvisor_positiveinteger" minOccurs="1" maxOccurs="1" />
+              <xs:element name="calculationmode" minOccurs="0" maxOccurs="1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="net|gross"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="voucherdate" type="netvisor_date" minOccurs="0" maxOccurs="1" />
+              <xs:element name="number" type="netvisor_positiveinteger" minOccurs="0" maxOccurs="1" />
+              <xs:element name="description" type="netvisor_string_max255" minOccurs="0" maxOccurs="1" />
+              <xs:element name="voucherclass" type="netvisor_string_min1_max150" minOccurs="0" maxOccurs="1" />
+              <xs:element name="comment" type="netvisor_string_max255" minOccurs="0" maxOccurs="1" />
+              <xs:element name="voucherline" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="linesum">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="netvisor_decimal_string">
+                            <xs:attribute name="type" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:pattern value="net|gross" />
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="description" type="netvisor_string_max255" />
+                    <xs:element name="accountnumber" type="netvisor_positiveinteger" />
+                    <xs:element name="vatpercent">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="netvisor_vat_percent_string">
+                            <xs:attribute name="vatcode" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:pattern value="NONE|KOOS|EUOS|EUUO|EUPO|100|KOMY|EUMY|EUUM|EUPM312|EUPM309|MUUL|EVTO|EVPO|RAMY|RAOS|EVRO|EVKV|KAVE|KOMY0|MAAL|EVMA" />
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="accountdimension" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="netvisor_string_max500">
+                            <xs:attribute name="type" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:pattern value="netvisorkey|name" />
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="dimension" type="netvisor_dimension" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="voucherattachments" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="voucherattachment" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:all>
+                          <xs:element name="mimetype" type="netvisor_string_min1_max100" />
+                          <xs:element name="attachmentdescription" type="netvisor_string_max100" />
+                          <xs:element name="filename" type="netvisor_string_min1_max255" />
+                          <xs:element name="documentdata">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:minLength value="1"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                        </xs:all>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

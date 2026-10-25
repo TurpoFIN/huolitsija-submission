@@ -1,0 +1,27 @@
+openapi: 3.0.1
+info:
+  title: SelfAssessedTaxes
+  description: "**<p>Self-assessed Taxes contain endpoints for for filing VAT return, filing EC sales list, getting filed VAT return and checking a chosen year&#39;s VAT periods.</p>\n\n<p>Typical usage of VAT endpoints would be first getting the VAT periods with GetVATPeriods, which returns the filing periods and statuses of returns. These filing periods can be used in the FileVATReturn endpoint. When the filed return has been processed the VAT return can be retrieved using GetFiledVATReturn and corrected when needed by using FileVATReturn again. The returns are generally processed the next business day.&nbsp;</p>\n\n<p>General SAT information at Vero.fi:&nbsp;<a href=\"https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/self-assessed-taxes/\">Self-assessed taxes - vero.fi</a></p>\n**\r\n\r\nThe Sandbox API documentation is provided for preview purposes only. Endpoints might not be final and might be proof of concepts or under development and data content can change.\r\nEach sandbox endpoint has a documentation tag indicating endpoint status. Endpoint can be a proof of concept, in development or already in production.\r\n\r\n<b>Test data mentioned in the endpoint documentation refers to data in the Vero API test environment and does not apply to the sandbox.</b>\r\n\r\nCalling sandbox interfaces requires an api key (header Ocp-Apim-Subscription-Key) from the Sandbox. Calling the interfaces in actual testing and production environments requires a valid client certificate from the Tax Administration's certificate service and an application-specific API key (header vero-softwarekey) from the Vero API Portal.\r\n\r\n\r\nLast updated 2026-09-07"
+  termsOfService: https://vero.fi/globalassets/tulorekisteri/verohallinnon-ja-tulorekisterin-rajapintapalveluiden-kayttoehdot.pdf
+  contact:
+    name: Vero API Support Information
+    url: https://vero.fi/developer
+    email: ohjelmistotalot@vero.fi
+  version: '1.0'
+servers:
+  - url: https://api-sandbox.vero.fi/Return/SAT
+paths: { }
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - { }
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

@@ -1,0 +1,70 @@
+{
+  "retrieved_at": "2026-10-24T21:34:07.986674+00:00",
+  "files": [
+    {
+      "file": "FI015A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI015A.xml",
+      "sha256": "4890198cba7aa64b43fc4940db6e0313f3eeb9b691399a4f687185ce76c80743"
+    },
+    {
+      "file": "FI007A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI007A.xml",
+      "sha256": "f7f6222f39f716d1489e2ff0650eb49dfa1ab8a96dd8f0682f0590bdbf678f45"
+    },
+    {
+      "file": "FI044A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI044A.xml",
+      "sha256": "bfeb43f5f249e46f5ff04d26de74804f435ed197aed95c8332217882a9c26e6e"
+    },
+    {
+      "file": "FI014A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI014A.xml",
+      "sha256": "19c9c70d611ef8967a9d4b5a1de625f40f1e90dc200c0c43d1cae214282fe93d"
+    },
+    {
+      "file": "FI028A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI028A.xml",
+      "sha256": "480f66c2c98ef8a4d65b0fd0096e59b1d69fa83551e32fce1f122a1c4b93cc93"
+    },
+    {
+      "file": "FI026A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI026A.xml",
+      "sha256": "4f3ea6e0dc07d2fe49ec8189b8cf75f5d2d6c3c9f63b94066083da507a13ef40"
+    },
+    {
+      "file": "FI029A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI029A.xml",
+      "sha256": "f3e9a46ad03c6862efe3ca5e3723a3a3fe47b643a3f3d88e29567426e2733e57"
+    },
+    {
+      "file": "FI016A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI016A.xml",
+      "sha256": "eee330163afb94147e695b1ed556bd238c2c60755b72aa5b2303054de8c52254"
+    },
+    {
+      "file": "FI050A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI050A.xml",
+      "sha256": "2f72db8dc2a282f82a82a6a1e5e8e925322b3c81c4ae3916becabdb7020bff17"
+    },
+    {
+      "file": "FI025A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI025A.xml",
+      "sha256": "d4cf8136079f002d0cb7b3fa441693ff7106c432dcbd488ccef35353e3038986"
+    },
+    {
+      "file": "FI043A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI043A.xml",
+      "sha256": "83167b854a74965a81405ea13ad04d1ff9a812c8cfa828df34d139551888c67d"
+    },
+    {
+      "file": "FI010A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI010A.xml",
+      "sha256": "f426d450b5602fdaa6204a26310891106150bbecbc2e4a0b924b1ba93b32623d"
+    },
+    {
+      "file": "FI045A.xml",
+      "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Transit/common/2.2.0/examples/FI045A.xml",
+      "sha256": "2a1898669f33a4b756002d6c5881ceda30dd98ce4d0862677bb68516cfbeb0b6"
+    }
+  ]
+}

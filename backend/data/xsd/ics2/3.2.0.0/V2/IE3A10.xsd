@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3A10" type="IE3A10Type" />
+  <xs:complexType name="IE3A10Type">
+    <xs:sequence>
+      <xs:element name="documentIssueDate" type="DocumentIssueDateType" />
+      <xs:element name="referralRequestReference" minOccurs="0" type="ReferralRequestReferenceContentType1" />
+      <xs:element name="MRN" type="MRNContentType1">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3004</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SpecificCircumstanceIndicator" type="SpecificCircumstanceIndicatorContentType">
+        <xs:annotation>
+          <xs:documentation>
+            <ICS2CLMS>CL742</ICS2CLMS>
+            <ICS2CLTrade>CL742</ICS2CLTrade>
+            <Rules>R3024</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="reEntryIndicator" type="ReEntryIndicatorContentType">
+        <xs:annotation>
+          <xs:documentation>
+            <ICS2CLMS>CL027</ICS2CLMS>
+            <ICS2CLTrade>CL027</ICS2CLTrade>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="splitConsignment" type="SplitConsignmentType03" />
+      <xs:element name="representative" minOccurs="0" type="RepresentativeType02">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3024</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="activeBorderTransportMeans" type="ActiveBorderTransportMeansType22">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3035</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="consignmentMasterLevel" type="ConsignmentMasterLevelType94" />
+      <xs:element name="declarant" type="DeclarantType02" />
+      <xs:element name="customsOfficeOfFirstEntry" type="CustomsOfficeOfFirstEntryType03" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

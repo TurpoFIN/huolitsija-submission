@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI544A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>023166f30dc741</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="AdditionalLRN">Viite</FunctionalReference>
+  <FunctionalReference function="MRN">24FIV43000004501A3</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>VIR</Type>
+    <Notification>2024-03-18T09:49:31.6892119+02:00</Notification>
+    <Text>"Pyydetään korjaamaan nettopaino 800 kg → 780 kg"</Text>
+    <RequestCorrelation>{5ef08b39-7bf0-414e-b28a-47b2cbad9a37}</RequestCorrelation>
+    <Limit LimitType="A">2024-03-19T23:59:59+02:00</Limit>
+    <Decision>
+      <Decision>2024-03-18T09:49:31.6892119+02:00</Decision>
+      <Note>
+        <Note>N0001</Note>
+        <NoteDescription>Tulli on havainnut ilmoituksella virheitä. Korjaa luetellut virheet määräaikaan mennessä lähettämällä korjattu ilmoitus.</NoteDescription>
+      </Note>
+      <Note>
+        <Note>N0002</Note>
+        <NoteDescription>Jos ilmoitusta ei korjata määräaikaan mennessä, Tulli voi mitätöidä ilmoituksen tai evätä tavaroiden luovutuksen tullimenettelyyn.</NoteDescription>
+      </Note>
+      <Note>
+        <Note>N0003</Note>
+        <NoteDescription>Jos annettu ilmoitus on ilmoittajan mielestä virheetön, eikä ilmoitusta korjata, asiassa voi antaa vastineen. Mahdollinen vastine on toimitettava 30 päivän kuluessa käyttämällä vapaamuotoista yhteydenottopyyntöä. (UTK 22 (6).)</NoteDescription>
+      </Note>
+    </Decision>
+    <ContactInfo>
+      <Name>FI002000</Name>
+      <Email>veintussmailuss@tulli.fi</Email>
+      <Telephone>+420 023 1337</Telephone>
+    </ContactInfo>
+  </Notification>
+</FI544A>

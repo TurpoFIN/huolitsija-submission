@@ -1,0 +1,785 @@
+{
+  "goods_code": "6203423100",
+  "country": "BD",
+  "flow": "import",
+  "date": "2026-10-24",
+  "declarable": true,
+  "subcodes": [
+    "6203423100"
+  ],
+  "subcode_summaries": [],
+  "known_code": true,
+  "measures": [
+    {
+      "sid": "3103963",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Import control on cat and dog fur",
+      "type_code": "745",
+      "type_code_candidates": [
+        "745"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2009-08-15",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1523/07",
+      "regulation_id": "R0715230",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD568",
+          "text": "The placing on the market and the import to, or export from, the Community of cat and dog fur, and products containing such fur is prohibited (see Art. 3 Regulation (EC) No 1523/2007)."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y922",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Other than cats and dogs fur as mentioned by Regulation (EC) No 1523/2007 (OJ L 343)"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "Y922": "Other than cats and dogs fur as mentioned by Regulation (EC) No 1523/2007 (OJ L 343)"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3103963&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "3455152",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Import control on seal products",
+      "type_code": "746",
+      "type_code_candidates": [
+        "746"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2015-10-18",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1850/15",
+      "regulation_id": "R1518500",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD603",
+          "text": "Seal products may only be placed on the market when they are accompanied by an attesting document (for commercial use) or a written notification of import (for personal use) and a document giving evidence where the products were acquired (Commission Implementing Regulation (EU) 2015/1850 (OJ L 271))."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C679",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C680",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Written notification of import and document giving evidence where the products were acquired (seal product)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C683",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products"
+        },
+        {
+          "code": "B",
+          "sequence": 4,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y032",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)"
+        },
+        {
+          "code": "B",
+          "sequence": 5,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C679": "Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015",
+        "C680": "Written notification of import and document giving evidence where the products were acquired (seal product)",
+        "C683": "European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products",
+        "Y032": "Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3455152&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "2772007",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Third country duty",
+      "type_code": "103",
+      "type_code_candidates": [
+        "103"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2005-01-01",
+      "end": null,
+      "duty_expression": "12.00 %",
+      "duty": {
+        "raw": "12.00 %",
+        "kind": "ad_valorem",
+        "pct": 12.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 12.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1789/03",
+      "regulation_id": "R0317890",
+      "regulation_role": "4",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "third_country"
+    },
+    {
+      "sid": "4256702",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "regulation_id": "R2603820",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "low_value_consignment"
+    },
+    {
+      "sid": "3488597",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+      "type_code": "117",
+      "type_code_candidates": [
+        "117"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2016-07-01",
+      "end": null,
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2658/87",
+      "regulation_id": "R8726583",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "EU003",
+          "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+        },
+        {
+          "code": "TM510",
+          "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 22 10, 8903 23 10, 8903 32 10, 8903 33 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C990",
+          "requirement": null,
+          "action": "Apply the mentioned duty",
+          "action_kind": "apply_amount",
+          "duty_expression": null,
+          "duty": null,
+          "text": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Measure not applicable",
+          "action_kind": "not_applicable",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C990": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488597&Lang=en",
+      "kind": "suspension"
+    },
+    {
+      "sid": "3755729",
+      "goods_code": "6203423100",
+      "flow": "import",
+      "type": "Tariff preference",
+      "type_code": "142",
+      "type_code_candidates": [
+        "142"
+      ],
+      "geo_code": "2005",
+      "geo_name": "GSP-EBA (Special arrangement for the least-developed countries - Everything But Arms)",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2020-08-12",
+      "end": null,
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0978/12",
+      "regulation_id": "R1209782",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "preference"
+    },
+    {
+      "sid": "2982682",
+      "goods_code": "6203423100",
+      "flow": "both",
+      "type": "Supplementary unit",
+      "type_code": "109",
+      "type_code_candidates": [
+        "109"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2008-01-01",
+      "end": null,
+      "duty_expression": "p/st",
+      "duty": {
+        "raw": "p/st",
+        "kind": "supplementary_unit",
+        "unit": "p/st",
+        "pct": null,
+        "amount": null,
+        "currency": null,
+        "min": null,
+        "max": null,
+        "components": [],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2658/87",
+      "regulation_id": "R8726581",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "supplementary_unit"
+    }
+  ],
+  "third_country_duty": {
+    "duty_expression": "12.00 %",
+    "duty": {
+      "raw": "12.00 %",
+      "kind": "ad_valorem",
+      "pct": 12.0,
+      "amount": null,
+      "currency": null,
+      "unit": null,
+      "min": null,
+      "max": null,
+      "components": [
+        {
+          "type": "pct",
+          "pct": 12.0
+        }
+      ],
+      "agri_codes": []
+    },
+    "type_code": "103",
+    "regulation": "R1789/03",
+    "start": "2005-01-01",
+    "end": null
+  },
+  "preferences": [
+    {
+      "sid": "3755729",
+      "type": "Tariff preference",
+      "type_code": "142",
+      "type_code_candidates": [
+        "142"
+      ],
+      "kind": "preference",
+      "geo_code": "2005",
+      "geo_name": "GSP-EBA (Special arrangement for the least-developed countries - Everything But Arms)",
+      "excluded": [],
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0978/12",
+      "start": "2020-08-12",
+      "end": null,
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": []
+    }
+  ],
+  "trade_defence": [],
+  "restrictions": [
+    {
+      "sid": "3103963",
+      "type": "Import control on cat and dog fur",
+      "type_code": "745",
+      "type_code_candidates": [
+        "745"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1523/07",
+      "start": "2009-08-15",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD568",
+          "text": "The placing on the market and the import to, or export from, the Community of cat and dog fur, and products containing such fur is prohibited (see Art. 3 Regulation (EC) No 1523/2007)."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y922",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Other than cats and dogs fur as mentioned by Regulation (EC) No 1523/2007 (OJ L 343)"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "Y922": "Other than cats and dogs fur as mentioned by Regulation (EC) No 1523/2007 (OJ L 343)"
+      }
+    },
+    {
+      "sid": "3455152",
+      "type": "Import control on seal products",
+      "type_code": "746",
+      "type_code_candidates": [
+        "746"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1850/15",
+      "start": "2015-10-18",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD603",
+          "text": "Seal products may only be placed on the market when they are accompanied by an attesting document (for commercial use) or a written notification of import (for personal use) and a document giving evidence where the products were acquired (Commission Implementing Regulation (EU) 2015/1850 (OJ L 271))."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C679",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C680",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Written notification of import and document giving evidence where the products were acquired (seal product)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C683",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products"
+        },
+        {
+          "code": "B",
+          "sequence": 4,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y032",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)"
+        },
+        {
+          "code": "B",
+          "sequence": 5,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C679": "Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015",
+        "C680": "Written notification of import and document giving evidence where the products were acquired (seal product)",
+        "C683": "European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products",
+        "Y032": "Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)"
+      }
+    }
+  ],
+  "supplementary_unit": "p/st",
+  "other_duties": [
+    {
+      "sid": "4256702",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "kind": "low_value_consignment",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": []
+    },
+    {
+      "sid": "3488597",
+      "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+      "type_code": "117",
+      "type_code_candidates": [
+        "117"
+      ],
+      "kind": "suspension",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2658/87",
+      "start": "2016-07-01",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "EU003",
+          "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+        },
+        {
+          "code": "TM510",
+          "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 22 10, 8903 23 10, 8903 32 10, 8903 33 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C990",
+          "requirement": null,
+          "action": "Apply the mentioned duty",
+          "action_kind": "apply_amount",
+          "duty_expression": null,
+          "duty": null,
+          "text": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Measure not applicable",
+          "action_kind": "not_applicable",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ]
+    }
+  ],
+  "source": "EU TARIC consultation",
+  "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6203423100&Expand=true&Area=BD",
+  "fetched_at": "2026-10-24T21:29:10Z",
+  "cache": {
+    "hit": false,
+    "cached_at": "2026-10-24T21:29:10Z"
+  }
+}

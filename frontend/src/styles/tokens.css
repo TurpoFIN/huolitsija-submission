@@ -1,0 +1,451 @@
+/* The reserved --huo-relative-c/l properties intentionally stay unset. Their
+   fallback is the relative OKLCH channel, resolved by the browser. Keeping the
+   channel inside var() lets CRA's older postcss-calc preserve this arithmetic
+   without mistaking c/l for invalid numeric tokens. Do not define these vars. */
+/* ----------------------------------------------------------------------------
+   TIER 1 — PRIMITIVES
+   Raw values. No meaning. OKLCH throughout.
+   Neutrals and accent are parameterized by hue/chroma so the controls panel
+   can shift the whole ramp at once.
+---------------------------------------------------------------------------- */
+
+:root {
+  /* Knobs the controls panel writes to. */
+  /* helios-brand (from the brand-explore gallery): dead-neutral mono grays +
+     a bright electric-blue accent. Chrome stays ink-monochrome; blue is reserved for
+     accent text, focus, links and chart-1 — color elsewhere means status. */
+  --neutral-hue: 55;
+  --neutral-chroma: 0;
+  /* Accent shares the family's electric-blue hue + chroma — one blue in the system,
+     not two. */
+  --accent-hue: 250;
+  --accent-chroma: 0.27;
+
+  /* Neutral ramp — 12 steps, parameterized */
+  --gray-50:   oklch(98.5% var(--neutral-chroma) var(--neutral-hue));
+  --gray-100:  oklch(96.5% var(--neutral-chroma) var(--neutral-hue));
+  --gray-200:  oklch(92%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-300:  oklch(86%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-400:  oklch(72%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-500:  oklch(56%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-600:  oklch(44%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-700:  oklch(35%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-800:  oklch(26%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-900:  oklch(18%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-950:  oklch(13%   var(--neutral-chroma) var(--neutral-hue));
+  --gray-1000: oklch(8%    var(--neutral-chroma) var(--neutral-hue));
+
+  /* Accent ramp — 6 steps. Every step's chroma scales with --accent-chroma so
+     the controls panel's chroma knob moves the whole ramp (0 → neutral accent),
+     not just the mid-tones. Multipliers preserve the original per-step values. */
+  --accent-100: oklch(95% calc(var(--accent-chroma) * 0.22) var(--accent-hue));
+  --accent-300: oklch(82% calc(var(--accent-chroma) * 0.62) var(--accent-hue));
+  --accent-500: oklch(64% var(--accent-chroma)              var(--accent-hue));
+  --accent-600: oklch(56% var(--accent-chroma)              var(--accent-hue));
+  --accent-700: oklch(48% calc(var(--accent-chroma) * 0.9)  var(--accent-hue));
+  --accent-900: oklch(29% calc(var(--accent-chroma) * 0.44) var(--accent-hue));
+
+  /* Accent step for solid fills (buttons, switches, radio/check states, chat bubbles).
+     Bright enough to read as electric blue, held at L≈0.56 so white text still clears
+     WCAG AA. */
+  --accent-solid: oklch(56% var(--accent-chroma) var(--accent-hue));
+
+  /* Foreground on the accent: a near-white that holds AA on --accent-solid in
+     both themes. Replaces the theme's inverse text, which flipped dark in dark
+     mode and gave inconsistent contrast on the colored button. */
+  --on-accent: oklch(98% 0 0);
+
+  /* ── One perceptually balanced "meaning" stack ───────────────────────────────
+     The three steps keep the same jobs across hues: 100 is a quiet badge tint,
+     500 carries the chart palette's bright, lively hue character, and 700 is
+     readable badge/text ink. Their L/C values are deliberately hue-tuned instead
+     of mechanically identical. Info aliases the accent ramp exactly, preserving
+     one blue; status and chart tokens remain separate semantic roles. */
+  --danger-100:  oklch(95% 0.050 25);
+  --danger-500:  oklch(66% 0.230 25);
+  --danger-700:  oklch(48% 0.190 25);
+  --warning-100: oklch(95% 0.055 85);
+  --warning-500: oklch(80% 0.180 85);
+  --warning-700: oklch(47% 0.120 85);
+  --yellow-100:  oklch(96% 0.060 100);
+  --yellow-500:  oklch(86% 0.160 100);
+  --yellow-700:  oklch(45% 0.105 100);
+  --success-100: oklch(95% 0.055 155);
+  --success-500: oklch(72% 0.200 155);
+  --success-700: oklch(46% 0.140 155);
+  --teal-100:    oklch(95% 0.050 205);
+  --teal-500:    oklch(78% 0.160 210);
+  --teal-700:    oklch(46% 0.105 205);
+  --info-100:    var(--accent-100);
+  --info-500:    var(--accent-500);
+  --info-700:    var(--accent-700);
+  --violet-100:  oklch(95% 0.060 300);
+  --violet-500:  oklch(66% 0.250 300);
+  --violet-700:  oklch(48% 0.190 300);
+  --pink-100:    oklch(95% 0.055 345);
+  --pink-500:    oklch(68% 0.240 345);
+  --pink-700:    oklch(48% 0.170 345);
+
+  /* Spacing — 4px base */
+  --space-0:  0;
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Radius. The sm/md/lg/xl scale is derived from --radius in globals.css's
+     @theme block; only the base knob and the full pill value live here.
+     helios-brand runs tighter than the old 8px default — 6px keeps the mono
+     look crisp without going square. */
+  --radius-base: 6px;
+  --radius-full: 9999px;
+
+  /* Type */
+  /* Native stacks avoid a font request and inherit each platform's UI tuning. */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --text-xs:   0.75rem;
+  --text-sm:   0.8125rem;
+  --text-base: 0.875rem;
+  --text-md:   1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.375rem;
+  --text-2xl:  1.75rem;
+  --text-3xl:  2.25rem;
+  --text-4xl:  3rem;
+
+  /* Motion */
+  --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-spring: cubic-bezier(0.32, 0.72, 0, 1);
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+  --duration-slow: 260ms;
+  --duration-fall: 340ms;
+
+  /* Elevation — 4-step ladder. Each = tight contact + soft ambient.
+     Resolves --shadow-color and --shadow-strength-active at usage time. */
+  --elevation-sm:
+    0 1px 2px 0 oklch(var(--shadow-color) / calc(0.05 * var(--shadow-strength-active))),
+    0 2px 4px -2px oklch(var(--shadow-color) / calc(0.04 * var(--shadow-strength-active)));
+  --elevation-md:
+    0 1px 2px 0 oklch(var(--shadow-color) / calc(0.07 * var(--shadow-strength-active))),
+    0 12px 24px -6px oklch(var(--shadow-color) / calc(0.10 * var(--shadow-strength-active)));
+  --elevation-lg:
+    0 2px 4px 0 oklch(var(--shadow-color) / calc(0.07 * var(--shadow-strength-active))),
+    0 16px 32px -8px oklch(var(--shadow-color) / calc(0.14 * var(--shadow-strength-active)));
+  --elevation-xl:
+    0 2px 4px 0 oklch(var(--shadow-color) / calc(0.08 * var(--shadow-strength-active))),
+    0 24px 48px -12px oklch(var(--shadow-color) / calc(0.18 * var(--shadow-strength-active)));
+
+  /* Knobs the controls panel writes to */
+  /* helios-brand: flat mono surfaces — no gradients, no highlight sheen,
+     shadows pulled back to 0.7. */
+  --border-opacity-light: 0.10;
+  --border-opacity-dark:  0.50;
+  --shadow-strength: 0.7;
+  --gradient-strength: 0;
+  --surface-highlights: 0;
+  --tracking: 0;
+}
+
+/* ----------------------------------------------------------------------------
+   TIER 2 — SEMANTIC
+   Purpose-named. Components reference these. Defined per theme.
+---------------------------------------------------------------------------- */
+
+:root, [data-theme="light"] {
+  /* Backgrounds */
+  /* Surface is the brightest step but still carries the neutral hue — a tinted
+     near-white, not a dead #fff. Tracks the theme when chroma is pushed. */
+  --bg-canvas:  var(--gray-50);
+  --bg-surface: oklch(99.5% var(--neutral-chroma) var(--neutral-hue));
+  --bg-subtle:  var(--gray-100);
+  --bg-muted:   var(--gray-200);
+  --bg-hover:   oklch(0% 0 0 / calc(var(--border-opacity-light) * 0.35));
+  --icon-tile-bg: var(--bg-surface); /* bright neutral tile; its hairline and elevation provide separation */
+  --bg-inverse: var(--gray-950);
+
+  /* Text */
+  --text-primary:   var(--gray-950);
+  --text-secondary: var(--gray-700);
+  --text-tertiary:  var(--gray-500);
+  --text-disabled:  var(--gray-400);
+  --text-inverse:   var(--gray-50);
+  --text-accent:    var(--accent-600);
+
+  /* Status text — readable colored ink (e.g. +12% green, −3% red). Darker than
+     the -500 solids so it passes contrast as small text. */
+  --text-success:   var(--success-700);
+  --text-danger:    var(--danger-700);
+  --text-warning:   var(--warning-700);
+  /* One step short of a warning: something worth noticing that is not yet
+     worth acting on. Sits between muted and warning on the way to danger. */
+  --text-caution:   var(--yellow-700);
+  /* A field that means finished. Deep enough that white reads on it — the pale
+     --status-success-bg is for a pill carrying dark ink, not for a surface
+     standing in for the whole state. */
+  --bg-success:     var(--success-700);
+  --text-info:      var(--info-700);
+
+  /* Scrim behind modals/sheets. Tokenized so it stops being a raw Tailwind
+     `bg-black` and can be tinted/themed. */
+  --overlay: oklch(0% 0 0 / 0.12);
+
+  /* Borders */
+  --border-subtle:  oklch(0% 0 0 / calc(var(--border-opacity-light) * 0.6));
+  --border-default: oklch(0% 0 0 / var(--border-opacity-light));
+  --border-strong:  oklch(0% 0 0 / calc(var(--border-opacity-light) * 1.8));
+  --border-accent:  var(--accent-500);
+
+  /* Shadows */
+  --shadow-color: 0% 0 0;
+  --shadow-strength-active: var(--shadow-strength);
+
+  /* Focus — neutral (monochrome). No accent hue, so focusing an input/control
+     reads as a soft gray halo, not a colored glow. */
+  --focus-ring: oklch(48% var(--neutral-chroma) var(--neutral-hue) / 0.5);
+
+  /* Status pills — one palette: success / warning / danger / info + neutral.
+     Every state maps onto those four hues + gray; no bespoke per-status colors. */
+  --status-pending-bg:      var(--warning-100);
+  --status-pending-fg:      var(--warning-700);
+  --status-in-progress-bg:  var(--info-100);
+  --status-in-progress-fg:  var(--info-700);
+  --status-submitted-bg:    var(--violet-100);
+  --status-submitted-fg:    var(--violet-700);
+  --status-in-review-bg:    var(--yellow-100);
+  --status-in-review-fg:    var(--yellow-700);
+  --status-success-bg:      var(--success-100);
+  --status-success-fg:      var(--success-700);
+  --status-failed-bg:       var(--danger-100);
+  --status-failed-fg:       var(--danger-700);
+  --status-scheduled-bg:    var(--teal-100);
+  --status-scheduled-fg:    var(--teal-700);
+  --status-flagged-bg:      var(--pink-100);
+  --status-flagged-fg:      var(--pink-700);
+
+  /* Provenance source marks — category identity, separate from workflow state.
+     Aliased to the same theme-aware tint/ink pairs so compact source tiles and
+     status pills share one visual family without coupling their semantics. */
+  --source-erp-bg:          var(--status-in-progress-bg);
+  --source-erp-fg:          var(--status-in-progress-fg);
+  --source-file-bg:         var(--status-pending-bg);
+  --source-file-fg:         var(--status-pending-fg);
+  --source-accounting-bg:   var(--status-submitted-bg);
+  --source-accounting-fg:   var(--status-submitted-fg);
+  --source-file-excel-bg:   var(--status-success-bg);
+  --source-file-excel-fg:   var(--status-success-fg);
+  --source-file-csv-bg:     var(--status-scheduled-bg);
+  --source-file-csv-fg:     var(--status-scheduled-fg);
+  --source-file-text-bg:    var(--status-expired-bg);
+  --source-file-text-fg:    var(--status-expired-fg);
+  --source-file-pdf-bg:     var(--status-failed-bg);
+  --source-file-pdf-fg:     var(--status-failed-fg);
+
+  /* Tone aliases — tint, readable ink, and compact solid marks per meaning. The dot
+     mid-tones stay lighter than text ink on light surfaces without inventing new hues. */
+  --tone-info-bg:     var(--status-in-progress-bg);
+  --tone-info-fg:     var(--status-in-progress-fg);
+  --tone-info-dot:    var(--info-500);
+  --tone-success-bg:  var(--status-success-bg);
+  --tone-success-fg:  var(--status-success-fg);
+  --tone-success-dot: var(--success-500);
+  --tone-warning-bg:  var(--status-pending-bg);
+  --tone-warning-fg:  var(--status-pending-fg);
+  --tone-warning-dot: var(--warning-500);
+  --tone-danger-bg:   var(--status-failed-bg);
+  --tone-danger-fg:   var(--status-failed-fg);
+  --tone-danger-dot:  var(--danger-500);
+
+  /* Left-edge alert glow — the -500 icon hue at low alpha, faded in a radial. */
+  --tone-info-glow:    oklch(from var(--info-500) l c h / 0.08);
+  --tone-success-glow: oklch(from var(--success-500) l c h / 0.08);
+  --tone-warning-glow: oklch(from var(--warning-500) l c h / 0.08);
+  --tone-danger-glow:  oklch(from var(--danger-500) l c h / 0.08);
+  --status-expired-bg:      var(--gray-200);
+  --status-expired-fg:      var(--gray-700);
+
+  /* Surface gradient anchors (used by surfaces.css). Lightness delta scaled
+     by --gradient-strength. */
+  --surface-raised-top:       oklch(calc(100% - 0% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-raised-bottom:    oklch(calc(100% - 3% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-raised-highlight: oklch(100% 0 0 / calc(0.6 * var(--surface-highlights)));
+  --surface-sunken-top:       oklch(calc(96% - 1.5% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-sunken-bottom:    oklch(calc(96% + 1.5% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+
+  /* ---- shadcn-compat mappings ---- */
+  --background:           var(--bg-canvas);
+  --foreground:           var(--text-primary);
+  --card:                 var(--bg-surface);
+  --card-foreground:      var(--text-primary);
+  --popover:              var(--bg-surface);
+  --popover-foreground:   var(--text-primary);
+  /* helios-brand: primary actions are monochrome ink (dark-on-light / inverted
+     in dark), not accent-filled — blue stays for accent text/focus/links. */
+  --primary:              var(--text-primary);
+  --primary-foreground:   var(--bg-surface);
+  --secondary:            var(--bg-subtle);
+  --secondary-foreground: var(--text-primary);
+  --muted:                var(--bg-muted);
+  --muted-foreground:     var(--text-tertiary);
+  --accent:               var(--bg-subtle);
+  --accent-foreground:    var(--text-primary);
+  --destructive:          var(--danger-500);
+  --border:               var(--border-default);
+  --input:                var(--border-default);
+  --ring:                 var(--focus-ring);
+  /* Chart series — a dedicated bright categorical palette, NOT the status hues
+     (dataviz rule: status colors are reserved). The CVD-checked fixed order keeps
+     adjacent hues separated: blue·gold·magenta·cyan·orange·violet·emerald.
+     Each companion is intentionally luminous and high-chroma so the family feels
+     alive beside the exact Helios electric blue rather than muddy or corporate. */
+  --chart-1: var(--accent-solid);
+  --chart-2: oklch(80% 0.180 85);
+  --chart-3: oklch(68% 0.240 345);
+  --chart-4: oklch(78% 0.160 210);
+  --chart-5: oklch(72% 0.220 50);
+  --chart-6: oklch(66% 0.250 300);
+  --chart-7: oklch(72% 0.200 155);
+  --radius: var(--radius-base);
+  --sidebar:                       var(--bg-subtle);
+  --sidebar-foreground:            var(--text-primary);
+  --sidebar-primary:               var(--text-primary);
+  --sidebar-primary-foreground:    var(--bg-surface);
+  /* The buttons' quiet ink tint (--bg-hover): rail hovers match Button
+     ghost/outline instead of stamping a solid gray step on the open stage. */
+  --sidebar-accent:                var(--bg-hover);
+  --sidebar-accent-foreground:     var(--text-primary);
+  --sidebar-border:                var(--border-default);
+  --sidebar-ring:                  var(--focus-ring);
+}
+
+[data-theme="dark"] {
+  --bg-canvas:  var(--gray-1000);
+  --bg-surface: var(--gray-950);
+  --bg-subtle:  var(--gray-900);
+  --bg-muted:   var(--gray-800);
+  --bg-hover:   oklch(100% 0 0 / calc(var(--border-opacity-dark) * 0.1));
+  --icon-tile-bg: oklch(100% 0 0 / 0.07); /* subtle raised chip on the dark surface */
+  --bg-inverse: var(--gray-50);
+
+  --text-primary:   oklch(95% var(--neutral-chroma) var(--neutral-hue));
+  --text-secondary: var(--gray-300);
+  --text-tertiary:  var(--gray-400);
+  --text-disabled:  var(--gray-600);
+  --text-inverse:   var(--gray-950);
+  --text-accent:    var(--accent-300);
+
+  /* Status text — dark. Derived from the tuned signals so each hue keeps its
+     character while gaining enough lightness for small text. */
+  --text-success:   oklch(from var(--success-500) 80% calc(var(--huo-relative-c, c) * 0.78) h);
+  --text-danger:    oklch(from var(--danger-500) 80% calc(var(--huo-relative-c, c) * 0.72) h);
+  --text-warning:   oklch(from var(--warning-500) 82% calc(var(--huo-relative-c, c) * 0.74) h);
+  --text-caution:   oklch(from var(--yellow-500) 84% calc(var(--huo-relative-c, c) * 0.72) h);
+  --bg-success:     oklch(from var(--success-500) 48% calc(var(--huo-relative-c, c) * 0.95) h);
+  --text-info:      var(--accent-300);
+
+  /* Scrim — heavier on dark so the modal actually separates from the canvas. */
+  --overlay: oklch(0% 0 0 / 0.5);
+
+  --border-subtle:  oklch(0% 0 0 / calc(var(--border-opacity-dark) * 0.55));
+  --border-default: oklch(0% 0 0 / var(--border-opacity-dark));
+  --border-strong:  oklch(0% 0 0 / calc(var(--border-opacity-dark) * 1.4));
+  --border-accent:  var(--accent-500);
+
+  --shadow-color: 0% 0 0;
+  --shadow-strength-active: calc(var(--shadow-strength) * 2.5);
+
+  --focus-ring: oklch(72% var(--neutral-chroma) var(--neutral-hue) / 0.55);
+
+  /* Status pills — dark theme. Each pair is derived from its tuned 500 signal,
+     keeping the low-lightness tint and bright ink visibly related. */
+  --status-pending-bg:      oklch(from var(--warning-500) 30% calc(var(--huo-relative-c, c) * 0.48) h);
+  --status-pending-fg:      oklch(from var(--warning-500) 82% calc(var(--huo-relative-c, c) * 0.74) h);
+  --status-in-progress-bg:  var(--accent-900);
+  --status-in-progress-fg:  var(--accent-300);
+  --status-submitted-bg:    oklch(from var(--violet-500) 30% calc(var(--huo-relative-c, c) * 0.48) h);
+  --status-submitted-fg:    oklch(from var(--violet-500) 82% calc(var(--huo-relative-c, c) * 0.66) h);
+  --status-in-review-bg:    oklch(from var(--yellow-500) 30% calc(var(--huo-relative-c, c) * 0.46) h);
+  --status-in-review-fg:    oklch(from var(--yellow-500) 84% calc(var(--huo-relative-c, c) * 0.72) h);
+  --status-success-bg:      oklch(from var(--success-500) 30% calc(var(--huo-relative-c, c) * 0.46) h);
+  --status-success-fg:      oklch(from var(--success-500) 82% calc(var(--huo-relative-c, c) * 0.70) h);
+  --status-failed-bg:       oklch(from var(--danger-500) 30% calc(var(--huo-relative-c, c) * 0.46) h);
+  --status-failed-fg:       oklch(from var(--danger-500) 82% calc(var(--huo-relative-c, c) * 0.66) h);
+  --status-scheduled-bg:    oklch(from var(--teal-500) 30% calc(var(--huo-relative-c, c) * 0.48) h);
+  --status-scheduled-fg:    oklch(from var(--teal-500) 82% calc(var(--huo-relative-c, c) * 0.72) h);
+  --status-flagged-bg:      oklch(from var(--pink-500) 30% calc(var(--huo-relative-c, c) * 0.46) h);
+  --status-flagged-fg:      oklch(from var(--pink-500) 82% calc(var(--huo-relative-c, c) * 0.66) h);
+  --status-expired-bg:      var(--gray-800);
+  --status-expired-fg:      var(--gray-300);
+
+  /* Compact marks need the brighter dark-theme ink values on near-black surfaces. */
+  --tone-info-dot:    var(--status-in-progress-fg);
+  --tone-success-dot: var(--status-success-fg);
+  --tone-warning-dot: var(--status-pending-fg);
+  --tone-danger-dot:  var(--status-failed-fg);
+
+  --surface-raised-top:       oklch(calc(20% + 2% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-raised-bottom:    oklch(calc(20% - 2% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-raised-highlight: oklch(100% 0 0 / calc(0.08 * var(--surface-highlights)));
+  --surface-sunken-top:       oklch(calc(15% - 1.5% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+  --surface-sunken-bottom:    oklch(calc(15% + 1.5% * var(--gradient-strength)) var(--neutral-chroma) var(--neutral-hue));
+
+  /* ---- shadcn-compat (dark) ---- */
+  --background:           var(--bg-canvas);
+  --foreground:           var(--text-primary);
+  --card:                 var(--bg-surface);
+  --card-foreground:      var(--text-primary);
+  --popover:              var(--bg-surface);
+  --popover-foreground:   var(--text-primary);
+  /* helios-brand: primary actions are monochrome ink (dark-on-light / inverted
+     in dark), not accent-filled — blue stays for accent text/focus/links. */
+  --primary:              var(--text-primary);
+  --primary-foreground:   var(--bg-surface);
+  --secondary:            var(--bg-subtle);
+  --secondary-foreground: var(--text-primary);
+  --muted:                var(--bg-muted);
+  --muted-foreground:     var(--text-tertiary);
+  --accent:               var(--bg-subtle);
+  --accent-foreground:    var(--text-primary);
+  --destructive:          var(--danger-500);
+  --border:               var(--border-default);
+  --input:                var(--border-default);
+  --ring:                 var(--focus-ring);
+  /* Chart series — a dedicated bright categorical palette, NOT the status hues
+     (dataviz rule: status colors are reserved). The CVD-checked fixed order keeps
+     adjacent hues separated: blue·gold·magenta·cyan·orange·violet·emerald.
+     Each companion is intentionally luminous and high-chroma so the family feels
+     alive beside the exact Helios electric blue rather than muddy or corporate. */
+  --chart-1: var(--accent-solid);
+  --chart-2: oklch(80% 0.180 85);
+  --chart-3: oklch(68% 0.240 345);
+  --chart-4: oklch(78% 0.160 210);
+  --chart-5: oklch(72% 0.220 50);
+  --chart-6: oklch(66% 0.250 300);
+  --chart-7: oklch(72% 0.200 155);
+  --sidebar:                       var(--bg-surface);
+  --sidebar-foreground:            var(--text-primary);
+  --sidebar-primary:               var(--text-primary);
+  --sidebar-primary-foreground:    var(--bg-surface);
+  /* Same as light: the buttons' --bg-hover ink tint, not a solid gray step. */
+  --sidebar-accent:                var(--bg-hover);
+  --sidebar-accent-foreground:     var(--text-primary);
+  --sidebar-border:                var(--border-default);
+  --sidebar-ring:                  var(--focus-ring);
+}
+
+/* Tabular numbers helper used in tables. */
+.tabular-nums-token {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Tracking utility — controls panel sets --tracking. */
+html {
+  letter-spacing: var(--tracking);
+}

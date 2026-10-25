@@ -1,0 +1,837 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+<head>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/footnote.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/iframes.js' ></script>
+   
+
+  <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/buttons.css">
+  <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/ddstaric.css">
+    
+  <script type="text/javascript">
+    var frameId = getIFrameIDFromWindowName();
+    var pageDisplayedFootnotes;
+    var numberOfmeasuresByArea;
+    
+      pageDisplayedFootnotes=new Array(new Array("CD808", new Footnote("CD808", "If goods bear a reference to organic production in the labelling, advertising material or accompanying documents of products, the declarant must submit a certificate of inspection (C644) at import in accordance with Article 45(1) of Regulation (EU) 2018/848 (release for free circulation). For products not covered by Regulation (EU) 2018/848, certificate Y929 has to be declared.<br>These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625.<br>", "null")), new Array("TM01066", new Footnote("TM01066", "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>", "null")), new Array("TM01026", new Footnote("TM01026", "In case the goods are exported directly or indirectly from the Russian Federation or from Belarus, the additional customs duty based on Council Regulation (EU) 2025/1227 is applied.", "null")), new Array("CD522", new Footnote("CD522", "No certificate or analysis report need to be presented for products originating in and coming from third countries in labelled containers of not more than 10 litres fitted with a non-reusable closing device where the total quantity transported, whether or not made up of separate consignments, does not exceed 100 litres (Article 21 Regulation 2018/273, OJ L 58).", "null")), new Array("CD524", new Footnote("CD524", "Wine originating in the United States can be imported into the Community if it is accompanied by the certification document \u0022commercial document to accompany wine products originating in the United States of America\u0022 (Agreement between EC and USA on trade of wine, Article 9 and Annex III a - OJ L 87 of 24/03/2006)", "null")), new Array("CD801", new Footnote("CD801", "Declaration under this goods code is only allowed if the threshold values (net weight/supplementary unit) are respected. If not, check the respective figures and correct if necessary. Otherwise, another goods code should be declared.", "null")));
+       
+       
+  
+    function onloadIFrame()
+    {
+      //replaceAdditionalCodeDivId();
+      processOnIFrameLoad();
+      parent.addFootnotesToFootnoteList(frameId, pageDisplayedFootnotes);
+			parent.showDivAdditionalCode(frameId);
+      
+      // If the ExpandAll is set to true, expand all the conditions and the export refunds.
+      if('' == 'true' && parent.expandAllAllowed)
+        expandAllIframeContent();
+      
+      top.highlightOnLoad();
+    }
+    
+    function replaceAdditionalCodeDivId()
+    {
+      var divAddCod = document.getElementById("div_additional_code");
+      divAddCod.id = "div_additional_code"+frameId;
+      var divRedInd = document.getElementById("div_reduction_indicator");
+      divRedInd.id = "div_reduction_indicator"+frameId;
+    }
+        
+    function onunloadIFrame()
+    {
+      parent.addFootnotesToFootnoteList(frameId, new Array());
+    }
+    
+    function getNumberOfAreaMeasures(area_code)
+    {
+     if(numberOfmeasuresByArea==null)
+      return 0;
+     for(var i=0; i<numberOfmeasuresByArea.length; i++)
+     {
+      if(numberOfmeasuresByArea[i][0] == area_code)
+        return numberOfmeasuresByArea[i][1];
+     }
+    }
+ 
+  </script>
+ 
+</head>
+
+<body onload="onloadIFrame();" onunload="onunloadIFrame();">
+
+
+<div id="div_measures_for_2204210600" class="measures_detail">
+  
+  
+  <!-- Additional code for the meursing -->
+  <!----------------------------------------------------->
+  <div id="div_additional_code_taric_2204210600_1792870179959" style="display: none;" style="padding-left: 5px;">
+    <table class="table_meursing_additional_code">
+      <tr>
+        <td>
+          Additional Code:&nbsp;
+          
+            <input id="input_additional_code" class="measure_textbox" type="text" size="6" maxlength="3" id="addCodMeursing" value="" onkeyup="instantiateEnterTyped('2204210600', 'en' ,'20261024', 'US', event,'taric_2204210600_1792870179959');"/>
+          
+          				
+        </td>
+        <td>
+          &nbsp;
+          <button style="padding:5px" class="ecl-button ecl-button--primary"class="submitBlueBtn" value="Calculate" onclick="reloadMeasuresWithMeursingAddCod('2204210600', 'en' ,'20261024',  'US','taric_2204210600_1792870179959');"><span>Calculate</span></button><a style="display:none;">Calculate</a>
+          &nbsp;&nbsp;
+          <button id="meusing_composition" style="padding:5px" class="ecl-button ecl-button--primary" value="Find additional code from composition" onclick="showMeursingModalPanel('2204210600','20261024','en', event ,'taric_2204210600_1792870179959');"><span>Find additional code from composition</span></button><a style="display:none;">Find additional code from composition</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          
+          
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  
+    
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+        
+          <div id="geographical_area" class="measure_area">
+            <span class="country hand_mouse" style="display: inline;" onclick='linkToGeographicalPage("ERGA OMNES", "1", "en", "20261024")'>ERGA OMNES (ERGA OMNES 1011)</span>
+          </div>
+        
+        
+      
+      
+      <div id="measure_3886528">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+              
+              
+                <img title="Measures for&nbsp;import" alt="Measures for&nbsp;import:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import.png" width="15" heigth="15"></img>
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Import control of organic products
+                
+              
+                
+                <span>(01-01-2022&nbsp;-&nbsp;)</span>
+              
+              
+              </td><td>
+                              
+              </td><td>
+              
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_CD808" name="footnote_link" style="display: inline;" title="Show footnote" href="#CD808">(CD808)</a></span>
+                
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2204000000_1" style="display: none;">1</a>
+                <a id="db_regulation_id_2204000000_1" style="display: none;">R2123060</a>
+                <a id="regulation_id_2204000000_1" class="regulation_link" onclick="showRegulationModalPanel('2204000000_1', 'en', event);">R2306/21</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+          
+            <tr>
+              <td></td>
+              <td style="margin-right : 10;">
+                <span class="excluded_countries" style="vertical-align: top;">Excluding:</span>&nbsp;
+                  
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">Switzerland (CH)</span>
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">,&nbsp;Iceland (IS)</span>
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">,&nbsp;Liechtenstein (LI)</span>
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">,&nbsp;Norway (NO)</span>
+                    
+                </span>
+              </td>
+              <td></td>
+            </tr>
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+          
+            <tr>
+              <td></td>
+              <td class="td_measure_conditions" style="margin-right : 10;">
+                <span id='exp_cond_conditions_3886528_1792870180473_show' class="action iframe_content_expand_all_condition" onclick="expandCollapseIFrame('conditions_3886528_1792870180473', 'measures_conditions.jsp?MeasureSid=3886528&Lang=en&LangDescr=&SimDate=20261024');">[Show conditions]</span>
+                <span id='exp_cond_conditions_3886528_1792870180473_hide' class="action" style="display: none;" onclick="expandCollapseIFrame('conditions_3886528_1792870180473', 'measures_conditions.jsp?MeasureSid=3886528&Lang=en&LangDescr=&SimDate=20261024');">[Hide conditions]</span>
+                <div id='conditions_3886528_1792870180473' name='conditions_3886528_1792870180473' style='display: none;'><iframe id='dds_iframe_conditions_3886528_1792870180473' name='dds_iframe_conditions_3886528_1792870180473' src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/empty_iframe.html' width='100%' style='display: none; height: 100%'></iframe><div id='div_conditions_3886528_1792870180473' name='div_conditions_3886528_1792870180473'></div><div id='iframe_page_conditions_3886528_1792870180473' name='iframe_page_conditions_3886528_1792870180473' style='display:none;'></div><div id='iframe_text_conditions_3886528_1792870180473' name='iframe_text_conditions_3886528_1792870180473' style='display:none;'></div><div id='callback_conditions_3886528_1792870180473' name='callback_conditions_3886528_1792870180473' style='display:none;'>true</div><div id='iframe_other_dest_conditions_3886528_1792870180473' name='iframe_other_dest_conditions_3886528_1792870180473' style='display:none;'></div></div>
+              </td>    
+              <td></td>          
+            </tr>
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      <div id="measure_3114251">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+              
+              
+                <img title="Measures for&nbsp;import" alt="Measures for&nbsp;import:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import.png" width="15" heigth="15"></img>
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Third country duty
+                
+              
+                
+                <span>(01-01-2010&nbsp;-&nbsp;)</span>
+              
+                            
+                <span>:&nbsp;</span>                                
+              
+              </td><td>
+                            
+                
+                <span class="duty_rate">32.00 EUR / hl</span>
+                
+                              
+              </td><td>
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2204210600_2" style="display: none;">4</a>
+                <a id="db_regulation_id_2204210600_2" style="display: none;">R0909480</a>
+                <a id="regulation_id_2204210600_2" class="regulation_link" onclick="showRegulationModalPanel('2204210600_2', 'en', event);">R0948/09</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      <div id="measure_4256604">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+              
+              
+                <img title="Measures for&nbsp;import" alt="Measures for&nbsp;import:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import.png" width="15" heigth="15"></img>
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Low-value consignment customs duty
+                
+              
+                
+                <span>(01-07-2026&nbsp;-&nbsp;31-10-2026)</span>
+              
+                            
+                <span>:&nbsp;</span>                                
+              
+              </td><td>
+                            
+                
+                <span class="duty_rate">3.00 EUR</span>
+                
+                              
+              </td><td>
+              
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_TM01066" name="footnote_link" style="display: inline;" title="Show footnote" href="#TM01066">(TM01066)</a></span>
+                
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2200000000_3" style="display: none;">1</a>
+                <a id="db_regulation_id_2200000000_3" style="display: none;">R2603820</a>
+                <a id="regulation_id_2200000000_3" class="regulation_link" onclick="showRegulationModalPanel('2200000000_3', 'en', event);">R0382/26</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      <div id="measure_4171435">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+              
+              
+                <img title="Measures for&nbsp;import" alt="Measures for&nbsp;import:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import.png" width="15" heigth="15"></img>
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Additional duties
+                
+              
+                
+                <span>(20-07-2025&nbsp;-&nbsp;)</span>
+              
+              
+              </td><td>
+                              
+              </td><td>
+              
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_TM01026" name="footnote_link" style="display: inline;" title="Show footnote" href="#TM01026">(TM01026)</a></span>
+                
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2200000000_4" style="display: none;">1</a>
+                <a id="db_regulation_id_2200000000_4" style="display: none;">R2512270</a>
+                <a id="regulation_id_2200000000_4" class="regulation_link" onclick="showRegulationModalPanel('2200000000_4', 'en', event);">R1227/25</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+          
+            <tr>
+              <td></td>
+              <td style="margin-right : 10;">
+                <span class="excluded_countries" style="vertical-align: top;">Excluding:</span>&nbsp;
+                  
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">Belarus (BY)</span>
+                    
+                      
+                      
+                      
+                      <span class="excluded_countries" style="vertical-align: top;">,&nbsp;Russian Federation (RU)</span>
+                    
+                </span>
+              </td>
+              <td></td>
+            </tr>
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+          
+            <tr>
+              <td></td>
+              <td class="td_measure_conditions" style="margin-right : 10;">
+                <span id='exp_cond_conditions_4171435_1792870180474_show' class="action iframe_content_expand_all_condition" onclick="expandCollapseIFrame('conditions_4171435_1792870180474', 'measures_conditions.jsp?MeasureSid=4171435&Lang=en&LangDescr=&SimDate=20261024');">[Show conditions]</span>
+                <span id='exp_cond_conditions_4171435_1792870180474_hide' class="action" style="display: none;" onclick="expandCollapseIFrame('conditions_4171435_1792870180474', 'measures_conditions.jsp?MeasureSid=4171435&Lang=en&LangDescr=&SimDate=20261024');">[Hide conditions]</span>
+                <div id='conditions_4171435_1792870180474' name='conditions_4171435_1792870180474' style='display: none;'><iframe id='dds_iframe_conditions_4171435_1792870180474' name='dds_iframe_conditions_4171435_1792870180474' src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/empty_iframe.html' width='100%' style='display: none; height: 100%'></iframe><div id='div_conditions_4171435_1792870180474' name='div_conditions_4171435_1792870180474'></div><div id='iframe_page_conditions_4171435_1792870180474' name='iframe_page_conditions_4171435_1792870180474' style='display:none;'></div><div id='iframe_text_conditions_4171435_1792870180474' name='iframe_text_conditions_4171435_1792870180474' style='display:none;'></div><div id='callback_conditions_4171435_1792870180474' name='callback_conditions_4171435_1792870180474' style='display:none;'>true</div><div id='iframe_other_dest_conditions_4171435_1792870180474' name='iframe_other_dest_conditions_4171435_1792870180474' style='display:none;'></div></div>
+              </td>    
+              <td></td>          
+            </tr>
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+        
+          <div id="geographical_area" class="measure_area">
+            <span class="country hand_mouse" style="display: inline;" onclick='linkToGeographicalPage("US", "0", "en", "20261024")'>United States (US)</span>
+          </div>
+        
+        
+      
+      
+      <div id="measure_3114259">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+              
+              
+                <img title="Measures for&nbsp;import" alt="Measures for&nbsp;import:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import.png" width="15" heigth="15"></img>
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Restriction on entry into free circulation
+                
+              
+                
+                <span>(01-01-2010&nbsp;-&nbsp;)</span>
+              
+              
+              </td><td>
+                              
+              </td><td>
+              
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_CD522" name="footnote_link" style="display: inline;" title="Show footnote" href="#CD522">(CD522)</a></span>
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_CD524" name="footnote_link" style="display: inline;" title="Show footnote" href="#CD524">(CD524)</a></span>
+                
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2204210600_5" style="display: none;">1</a>
+                <a id="db_regulation_id_2204210600_5" style="display: none;">D0602320</a>
+                <a id="regulation_id_2204210600_5" class="regulation_link" onclick="showRegulationModalPanel('2204210600_5', 'en', event);">D0232/06</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+          
+            <tr>
+              <td></td>
+              <td class="td_measure_conditions" style="margin-right : 10;">
+                <span id='exp_cond_conditions_3114259_1792870180474_show' class="action iframe_content_expand_all_condition" onclick="expandCollapseIFrame('conditions_3114259_1792870180474', 'measures_conditions.jsp?MeasureSid=3114259&Lang=en&LangDescr=&SimDate=20261024');">[Show conditions]</span>
+                <span id='exp_cond_conditions_3114259_1792870180474_hide' class="action" style="display: none;" onclick="expandCollapseIFrame('conditions_3114259_1792870180474', 'measures_conditions.jsp?MeasureSid=3114259&Lang=en&LangDescr=&SimDate=20261024');">[Hide conditions]</span>
+                <div id='conditions_3114259_1792870180474' name='conditions_3114259_1792870180474' style='display: none;'><iframe id='dds_iframe_conditions_3114259_1792870180474' name='dds_iframe_conditions_3114259_1792870180474' src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/empty_iframe.html' width='100%' style='display: none; height: 100%'></iframe><div id='div_conditions_3114259_1792870180474' name='div_conditions_3114259_1792870180474'></div><div id='iframe_page_conditions_3114259_1792870180474' name='iframe_page_conditions_3114259_1792870180474' style='display:none;'></div><div id='iframe_text_conditions_3114259_1792870180474' name='iframe_text_conditions_3114259_1792870180474' style='display:none;'></div><div id='callback_conditions_3114259_1792870180474' name='callback_conditions_3114259_1792870180474' style='display:none;'>true</div><div id='iframe_other_dest_conditions_3114259_1792870180474' name='iframe_other_dest_conditions_3114259_1792870180474' style='display:none;'></div></div>
+              </td>    
+              <td></td>          
+            </tr>
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+        
+          <div id="geographical_area" class="measure_area">
+            <span class="country hand_mouse" style="display: inline;" onclick='linkToGeographicalPage("ERGA OMNES", "1", "en", "20261024")'>ERGA OMNES (ERGA OMNES 1011)</span>
+          </div>
+        
+        
+      
+      
+      <div id="measure_3832343">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+                <img title="Measures for&nbsp;import - export" alt="Measures for&nbsp;import - export:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import-export.png" width="15" heigth="15"></img>
+              
+              
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Declaration of subheading submitted to physical restrictions (net weight/supplementary unit)
+                
+              
+                
+                <span>(01-03-2021&nbsp;-&nbsp;)</span>
+              
+              
+              </td><td>
+                              
+              </td><td>
+              
+                
+                  
+                  
+                  <span class="footnote_parenthesis" style="vertical-align: top;"><a class="footnote_link" style="vertical-align: top;" id="ftnlink_CD801" name="footnote_link" style="display: inline;" title="Show footnote" href="#CD801">(CD801)</a></span>
+                
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2204000000_6" style="display: none;">1</a>
+                <a id="db_regulation_id_2204000000_6" style="display: none;">R1309521</a>
+                <a id="regulation_id_2204000000_6" class="regulation_link" onclick="showRegulationModalPanel('2204000000_6', 'en', event);">R0952/13</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+          
+            <tr>
+              <td></td>
+              <td class="td_measure_conditions" style="margin-right : 10;">
+                <span id='exp_cond_conditions_3832343_1792870180474_show' class="action iframe_content_expand_all_condition" onclick="expandCollapseIFrame('conditions_3832343_1792870180474', 'measures_conditions.jsp?MeasureSid=3832343&Lang=en&LangDescr=&SimDate=20261024');">[Show conditions]</span>
+                <span id='exp_cond_conditions_3832343_1792870180474_hide' class="action" style="display: none;" onclick="expandCollapseIFrame('conditions_3832343_1792870180474', 'measures_conditions.jsp?MeasureSid=3832343&Lang=en&LangDescr=&SimDate=20261024');">[Hide conditions]</span>
+                <div id='conditions_3832343_1792870180474' name='conditions_3832343_1792870180474' style='display: none;'><iframe id='dds_iframe_conditions_3832343_1792870180474' name='dds_iframe_conditions_3832343_1792870180474' src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/empty_iframe.html' width='100%' style='display: none; height: 100%'></iframe><div id='div_conditions_3832343_1792870180474' name='div_conditions_3832343_1792870180474'></div><div id='iframe_page_conditions_3832343_1792870180474' name='iframe_page_conditions_3832343_1792870180474' style='display:none;'></div><div id='iframe_text_conditions_3832343_1792870180474' name='iframe_text_conditions_3832343_1792870180474' style='display:none;'></div><div id='callback_conditions_3832343_1792870180474' name='callback_conditions_3832343_1792870180474' style='display:none;'>true</div><div id='iframe_other_dest_conditions_3832343_1792870180474' name='iframe_other_dest_conditions_3832343_1792870180474' style='display:none;'></div></div>
+              </td>    
+              <td></td>          
+            </tr>
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+    	
+      
+      
+      
+      
+      <!-- Get variables values -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      <div id="measure_2982609">
+        <table  class="table_measure_line" width="98%">
+          <tr>
+            <td width="3%" class="td_measure_picture">
+              
+                <img title="Measures for&nbsp;import - export" alt="Measures for&nbsp;import - export:" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/import-export.png" width="15" heigth="15"></img>
+              
+              
+              
+            </td>
+            <td width="92%" class="td_measure_description to_highlight" name="measure_description_search">
+              <table><tr valign="baseline"><td>
+              <!-- Do not repeat the country every time -->
+              Supplementary unit
+                
+              
+                
+                <span>(01-01-2008&nbsp;-&nbsp;)</span>
+              
+                            
+                <span>:&nbsp;</span>                                
+              
+              </td><td>
+                            
+                
+                <span class="duty_rate">l</span>
+                
+                              
+              </td><td>
+              
+                                                          
+              </td></tr></table>
+              </td>
+            <td width="5%" class="td_measure_regulation">
+              <!--  Regulation information -->
+              
+                
+                
+                
+                <a id="regulation_role_type_2204000000_7" style="display: none;">1</a>
+                <a id="db_regulation_id_2204000000_7" style="display: none;">R8726581</a>
+                <a id="regulation_id_2204000000_7" class="regulation_link" onclick="showRegulationModalPanel('2204000000_7', 'en', event);">R2658/87</a>
+              		
+            </td>
+          </tr>        
+          <!--  Suspended -->
+                        
+          
+          
+                                      
+          <!--  Excluded countries -->
+            
+          <!-- Additional code -->
+          <!-- End of Additional code -->
+          <!-- Conditions -->
+           <!-- end exists conditions -->
+                           
+        </table>
+        <br>
+          
+      </div>
+      
+     <!-- end of measureListXPath -->
+   <!-- end of measureListXPath -->
+  
+</div><!-- END OF div_measures_for_ -->
+
+<div class="div_top_button" >
+  <a class="top_button" href="#top">Top</a>
+</div>
+
+</body>
+
+</html>
+
+<!--form:dump_document/>-->
+

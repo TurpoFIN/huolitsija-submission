@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="accepttermsofservice"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="netvisorgeneraltypes.xsd" />
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="invalidatevouchers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="comment" minOccurs="0" maxOccurs ="1" type="netvisor_string_min1_max255"></xs:element>
+              <xs:element name="invalidatevoucher" minOccurs="1" maxOccurs ="100">
+                <xs:simpleType>
+                  <xs:union memberTypes="netvisor_positiveinteger netvisor_guid"></xs:union>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="identifier" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="netvisorkey|guid" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+          <xs:unique name="uniqueInvalidateVoucher">
+            <xs:selector xpath="invalidatevoucher"/>
+            <xs:field xpath="."/>
+          </xs:unique>
+        </xs:element>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

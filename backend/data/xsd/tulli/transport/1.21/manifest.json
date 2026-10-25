@@ -1,0 +1,21 @@
+{
+  "source": "User supplied official Finnish Customs v1.21 distribution",
+  "guide": "tulli-technical-guidebook-2026-06-25.pdf",
+  "files": {
+    "DmeDocumentInfoMessage.xsd": "6d7949a8bbfcccde52398fa734441dc74db9bc1b51aa465da8bc0ccab75d4b5f",
+    "NotificationTypes.xsd": "ed5315e258fc72cd2b26387e764b1ea43ee85fe4b2ef2be1d25105329136249a",
+    "EchoContent.xsd": "789ae870159b1ed608fcdb695f71a78e92f6e20fe53af08ee3da7f78416fb6ed",
+    "DmeErrorMessage.xsd": "bf37881976f36b9c8b8411cabf8c6664d2917ec5286f49ba8a7c0cbb8bebe984",
+    "xmldsig-core-schema.xsd": "200ea6fca6945cb2eb5a58fc296c986830e2304f57c7b9a4b29583847e3a4069",
+    "WsdlTypes.xsd": "64d55ec53a79cd795c69c92125c250c775d990c5ba1e7fc9c3ab9c5bd05eb02f",
+    "DmeErrorMessageTypes.xsd": "b13f628b323599e58298863bfbee2fc0561c3a72b71b492058123daa6019aaeb",
+    "ApplicationRequest.xsd": "a011209f22316676663076fccb7dd4d9ff72b5a7a76dc11f899e4943087a277e",
+    "CustomsCorporateService_soap1_2.wsdl": "997aa03e482be354c23156145620c927cecd5840d0839284e4ac530aecb17f9b",
+    "LiituResponseMessage.xsd": "cde2bc8e289a03deec09519988b4c513e6eecaab9b086cc667ff8b4709e6b530",
+    "ApplicationResponse.xsd": "e2000a0b8c979c838c0c3ec3a5e9cefb10183dcbbc7f71ec66e3f8f655efe71a",
+    "ApplicationMessageTypes.xsd": "16ae36f2f655751c9fdf3d0f454b7af95019291671a88c1a036f931671d890cb",
+    "NotificationService.wsdl": "2d83335e28c637241c9e90da63e26d412d3b4989110546e9eeb0fd25b2a7c2bd",
+    "CustomsCorporateService_soap1_1.wsdl": "d068d886d1624f3fb6ffe4ce664734878fd132113e2df8ea619c87cdc3664be2",
+    "AttachmentRequest.xsd": "2b953684159027853551055a81a7bc61e30da6ff5f77dd120505a3c27549595a"
+  }
+}

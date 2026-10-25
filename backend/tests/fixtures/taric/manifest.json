@@ -1,0 +1,994 @@
+{
+ "captured_by": "scripts/taric_capture.py",
+ "cases": [
+  {
+   "code": "8712003010",
+   "country": "CN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "8712003000",
+   "country": "CN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "6403999810",
+   "country": "VN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "6403999890",
+   "country": "VN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "8471300000",
+   "country": "CN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "2204210600",
+   "country": "US",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "0805102210",
+   "country": "MA",
+   "date": "2026-01-15"
+  },
+  {
+   "code": "7208100000",
+   "country": "CN",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "8471300000",
+   "country": "RU",
+   "date": "2026-10-24"
+  },
+  {
+   "code": "1905319100",
+   "country": "US",
+   "date": "2026-10-24"
+  }
+ ],
+ "pages": {
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20260115&Taric=0805102210&Expand=true&Area=MA": {
+   "bytes": 71412,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "96119f4a9d979bdd737639e6.html",
+   "sha256": "2024113b8ce565af968b159888ac413d67ad7c78e0f75f58c3dc993ac030ad9d"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=1905319100&Expand=true&Area=US": {
+   "bytes": 71408,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "d678cef9bf22c81b37197277.html",
+   "sha256": "6c07ebd2ad4db1b562f0535219a7a9f8416a21a152b70aa5a31c3e15c7c0e510"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=2204210600&Expand=true&Area=US": {
+   "bytes": 71543,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "4820507e1dc9cb27eb944bad.html",
+   "sha256": "2540d6ba21fa7e6b3735a063c587d0491ec654dc6053205fcd9ee409c3bfcbe7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403999810&Expand=true&Area=VN": {
+   "bytes": 71682,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "db7a5915c484496fb8da77d7.html",
+   "sha256": "36a5b785739a21a1fd5d78ae436a2748aa80bc957411dde8dd2fedd8df105cbd"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403999890&Expand=true&Area=VN": {
+   "bytes": 71690,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "6e2b1948fb3bb695457560d7.html",
+   "sha256": "02798a5d40f5aeaab5ea11d80ec6276a5e4145c21573e25c86d86a0c5ea289d5"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=7208100000&Expand=true&Area=CN": {
+   "bytes": 76299,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "6053d93b1d4945d616872327.html",
+   "sha256": "b4b01be5e07643a042341953df4eaada90012009cd5c7c70d7100a0d033a8562"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8471300000&Expand=true&Area=CN": {
+   "bytes": 71261,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "90a4992514f8e44e3d2f4a8e.html",
+   "sha256": "1bc6ffc3ffe158301c2ecf4402061f2499b07271fc45aeed7f71ee4eec146e03"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8471300000&Expand=true&Area=RU": {
+   "bytes": 72080,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "ac974af04c1c2663c1ac2a91.html",
+   "sha256": "5f8732289cf98f8da593470bf91f6ee5ac8c8d5364b9e7c69bad509aa747cf5f"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003000&Expand=true&Area=CN": {
+   "bytes": 84155,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "b9270ef6622457a2d71033ca.html",
+   "sha256": "d9c6068897864c028f46b60a67cb997a03740c9a4f20bae695bae92166e573c7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN": {
+   "bytes": 72588,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3d4b4cf3ff0a38c1494ad0af.html",
+   "sha256": "fa99f61e53b45dd9088f332cfa80b667a205ec685c7f51ee1e5cb6057cb66e61"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3088482&Lang=en&SimDate=20261024": {
+   "bytes": 6498,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "65fe201c18dbc5cd28c8ded5.html",
+   "sha256": "cfb4ac46355c457e3acbcdfcaff771fefc28d50a239f9a0d3dd5cecf140c67f6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3088482&Lang=fi&SimDate=20261024": {
+   "bytes": 6486,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "dbef0d4348e7bf368176fa7b.html",
+   "sha256": "7f4d2ee3957848773ea3a0362805b0a7ec0c7633669ae0298d3f19c552799a5d"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3114259&Lang=en&SimDate=20261024": {
+   "bytes": 6520,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "4610a2893e9e9ab873bd4fee.html",
+   "sha256": "22834bde0ccb49ac03e7eea66e857f19d4e5c97bb2b58dddf48b9396e85afc82"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3114259&Lang=fi&SimDate=20261024": {
+   "bytes": 6598,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "f97e100fd08c166977095f1e.html",
+   "sha256": "ccf56fbef027c6658d31ffeb85bc0f3f2b8de32990e02b441bf42a57c7adaddb"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3288895&Lang=en&SimDate=20261024": {
+   "bytes": 4431,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3558c5c5e04121ff20f83ce5.html",
+   "sha256": "7a50946a4a150f6a0ebd1910e8307e0e0f20e7793771a6374c9b7367a812cc79"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3288895&Lang=fi&SimDate=20261024": {
+   "bytes": 4486,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "bdc8c2ac7ae7e953b1c508e4.html",
+   "sha256": "b69d97c2663c1c53ed1fa9b372ebeaf46e0408024ecb01dffe24dabf8d8feac0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3349242&Lang=en&SimDate=20261024": {
+   "bytes": 4721,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "bb25bcb82cfddf94b000c8bc.html",
+   "sha256": "b774a3b16c43d687692fd08f22bb0cdb4c30cbbe4cbf9897dd9460a59d55d425"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3349242&Lang=fi&SimDate=20261024": {
+   "bytes": 4696,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "caea0f789d785166d0e3b9a3.html",
+   "sha256": "35ed5bf4ac5f7bd56c34290a9b672ff0be66bff92f0f17535071a017411dbee4"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3455167&Lang=en&SimDate=20261024": {
+   "bytes": 10582,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3accca162a73eccb74f397ab.html",
+   "sha256": "8384528301991f6c8263d48d125343232e37bbdf4fa1c7212bd205a23d089ecb"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3455167&Lang=fi&SimDate=20261024": {
+   "bytes": 10619,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "4a97ba1d8312f6d84e4bcc51.html",
+   "sha256": "e786120b1ee1ddab36ef4fb015e826bc49ffbd1720ae79f619036929b8af0024"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488679&Lang=en&SimDate=20261024": {
+   "bytes": 4758,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "16d092ba6bb7951e2cde7b86.html",
+   "sha256": "f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488679&Lang=fi&SimDate=20261024": {
+   "bytes": 4782,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "a03111697285d03a299195b8.html",
+   "sha256": "ae4dbf530ac3c0772f6b90101fab5e2bac11a28e766492ac31ce7a7c8ff2a70f"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488789&Lang=en&SimDate=20261024": {
+   "bytes": 4758,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "15bf9a239f28a0aa6e5fa563.html",
+   "sha256": "f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488789&Lang=fi&SimDate=20261024": {
+   "bytes": 4782,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "6513a02c828686a175f7b8a2.html",
+   "sha256": "ae4dbf530ac3c0772f6b90101fab5e2bac11a28e766492ac31ce7a7c8ff2a70f"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3832343&Lang=en&SimDate=20261024": {
+   "bytes": 6120,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "f3b895aa6e427b3b2f5587c7.html",
+   "sha256": "2aa8aa531e5f462b42404f89cc9b983eddfd67b5ad39b25757e29612764aff6f"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3832343&Lang=fi&SimDate=20261024": {
+   "bytes": 6217,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "c117e98b66afbd71931b34f9.html",
+   "sha256": "e2f50d4d8c162f3ab27bd0aabb7feee43d19abf8163a4ab1380518a44c267307"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886424&Lang=en&SimDate=20260115": {
+   "bytes": 6574,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2cc663f46e8e706c82669358.html",
+   "sha256": "2ba1f5cdcd3073299df534aa9c6cb0a93eab57fca738cef05f51478caba96bf4"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886424&Lang=fi&SimDate=20260115": {
+   "bytes": 6606,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "b1adb1a5ce46fe556be472c9.html",
+   "sha256": "6fcd331a13cbfd025a6da3642d207352c81e0469709ad86c3329b1bb3eaeedb9"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886523&Lang=en&SimDate=20261024": {
+   "bytes": 6574,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "013d7bb0d9ccd6f00cec5305.html",
+   "sha256": "2ba1f5cdcd3073299df534aa9c6cb0a93eab57fca738cef05f51478caba96bf4"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886523&Lang=fi&SimDate=20261024": {
+   "bytes": 6606,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "97aae4154ec09ec1b8981900.html",
+   "sha256": "6fcd331a13cbfd025a6da3642d207352c81e0469709ad86c3329b1bb3eaeedb9"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886528&Lang=en&SimDate=20261024": {
+   "bytes": 6574,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "9b98832b5bd0cf9b1f15ff1a.html",
+   "sha256": "2ba1f5cdcd3073299df534aa9c6cb0a93eab57fca738cef05f51478caba96bf4"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886528&Lang=fi&SimDate=20261024": {
+   "bytes": 6606,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "a75e9655b9b44493c238e075.html",
+   "sha256": "6fcd331a13cbfd025a6da3642d207352c81e0469709ad86c3329b1bb3eaeedb9"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985756&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2e824f5b96bfa53d5c595df3.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985756&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "c852c98b7a09e90deb42d373.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985757&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "48bcd54723b452580e8a2b8f.html",
+   "sha256": "9884a1c1a7e205d01b00d0524c57cf53947a1035735929447676111a417329cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985757&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "e086ae5e3f963c46b88caf5b.html",
+   "sha256": "2a14c8490cb17eb2d05dab25c5445990017dc025f12cce5394f32a54e7f5aec6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985758&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "fb4b119a526a1c9c38243585.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985758&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "7d52ccece3f7c7a27883f90c.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985759&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "10f054d9bce88d6885370e4a.html",
+   "sha256": "9884a1c1a7e205d01b00d0524c57cf53947a1035735929447676111a417329cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985759&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "ae35bb8f3ceaca3f8eb53d76.html",
+   "sha256": "2a14c8490cb17eb2d05dab25c5445990017dc025f12cce5394f32a54e7f5aec6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985760&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "24a0e8a355f2aa08813d21b4.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985760&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "a53e017f1dc9359000db56a1.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985761&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "663350be9dd21d6ca6066f60.html",
+   "sha256": "ea274747047cc451dc2d35c0be129a2c5a2128ed49a41e042d779f3a7ef46ed0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985761&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "b1eb43ffd3c70099f90bfc17.html",
+   "sha256": "b3171ee6dbbbeb151682393db35dea8df9c438e630a2170810a6ed393e5ac878"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985762&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "fd42c652e51d367b679862ad.html",
+   "sha256": "ea274747047cc451dc2d35c0be129a2c5a2128ed49a41e042d779f3a7ef46ed0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985762&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "cf55b37e0f7186d5a52233b1.html",
+   "sha256": "b3171ee6dbbbeb151682393db35dea8df9c438e630a2170810a6ed393e5ac878"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985763&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "25e76680e0583571e5797632.html",
+   "sha256": "ea274747047cc451dc2d35c0be129a2c5a2128ed49a41e042d779f3a7ef46ed0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985763&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "97d0e0ff324e0001cc73eb1e.html",
+   "sha256": "b3171ee6dbbbeb151682393db35dea8df9c438e630a2170810a6ed393e5ac878"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985764&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "13875e2c55c98387cab426d2.html",
+   "sha256": "a2ca13de34d94d46258680e950cd8913cca83378bcb2dbfaec36923cf2ea03e7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985764&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "f853b19c02c28cb355d81509.html",
+   "sha256": "1b452b951044c42fc43b9f9ee3c12f01dfd546bcd059cf025a78d7ed974cb547"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985765&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "a7cb1ecbcf1d4115f24c8195.html",
+   "sha256": "a2ca13de34d94d46258680e950cd8913cca83378bcb2dbfaec36923cf2ea03e7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985765&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "1b63e687b8224be97e3403d2.html",
+   "sha256": "1b452b951044c42fc43b9f9ee3c12f01dfd546bcd059cf025a78d7ed974cb547"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985766&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "8d5456ab70f4cfd969d225b7.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985766&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "58664b1968ee7105d28aba98.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985767&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "e2d34e4604ed8c0b1594c5ce.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985767&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "5ac7eddb32a7b786fd3cd31b.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985768&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "cf4e6354acbd3fa80e10d50e.html",
+   "sha256": "9884a1c1a7e205d01b00d0524c57cf53947a1035735929447676111a417329cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985768&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "329548a226e4686837819d71.html",
+   "sha256": "2a14c8490cb17eb2d05dab25c5445990017dc025f12cce5394f32a54e7f5aec6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985769&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "f3cbbc18f53a7d4820d8f07c.html",
+   "sha256": "9884a1c1a7e205d01b00d0524c57cf53947a1035735929447676111a417329cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985769&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "8b7a4e510f505e6c00baaa3c.html",
+   "sha256": "2a14c8490cb17eb2d05dab25c5445990017dc025f12cce5394f32a54e7f5aec6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985770&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "234de50a8da74df9203fb249.html",
+   "sha256": "9884a1c1a7e205d01b00d0524c57cf53947a1035735929447676111a417329cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985770&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "314d0f54b978c1c1d655c48c.html",
+   "sha256": "2a14c8490cb17eb2d05dab25c5445990017dc025f12cce5394f32a54e7f5aec6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985771&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "d6345474694c4a04f5d4926d.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985771&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "7a36ca90ae7e313607ba3d13.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985772&Lang=en&SimDate=20261024": {
+   "bytes": 4972,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "4336c995db26371e0810f128.html",
+   "sha256": "4380db01f78934d51eaa1f655b192d5ac015b0124e2cff3c1eab8f6a3c3402f2"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3985772&Lang=fi&SimDate=20261024": {
+   "bytes": 4931,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "5349e38c9ead03690128649e.html",
+   "sha256": "b648150cf1141b0e0efd7a8fde2122b53ca7eebd1344baf94042479962849964"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986213&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2b893792090353ed6dbc8abf.html",
+   "sha256": "c6344764cd8235ec91221ffb3f3e79991aa9c4ad8b971beef1ac0d2593b8a252"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986213&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "1e35c5db13292c176e3c61e7.html",
+   "sha256": "599c7d830e8244788929af1619f5acae9cd91896e8bbcf64474869b8f7ec92c8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986215&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2e4bc60ebe4ff5003e926052.html",
+   "sha256": "c6344764cd8235ec91221ffb3f3e79991aa9c4ad8b971beef1ac0d2593b8a252"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986215&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "9147f7d857dfc87e7028145c.html",
+   "sha256": "599c7d830e8244788929af1619f5acae9cd91896e8bbcf64474869b8f7ec92c8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986216&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "98fafdc5289b1761a06adffb.html",
+   "sha256": "ed0f214e1503865200eb81d3b7097be22f40adc182b800307c68266c6e3912a5"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986216&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "c3f6cbeaf1d03c46a2d283ea.html",
+   "sha256": "8d23c8712ba24a2feef49754974e306fdda76efcbcee5fa5c5d20d32f8000cd9"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986217&Lang=en&SimDate=20261024": {
+   "bytes": 4979,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "6a59e3b249165769dfa38b72.html",
+   "sha256": "a018faf4d876d91dfba2c75819a4983d378c5dbc10aed13341dfca9ded72f0cd"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986217&Lang=fi&SimDate=20261024": {
+   "bytes": 4938,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "c198ad833b3a48863fe4f9c3.html",
+   "sha256": "b51608c8344383a09f76e2fd537eb11545b4fdc59de87175508ee31c912a2d86"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986218&Lang=en&SimDate=20261024": {
+   "bytes": 4979,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "10f2583e67bbb4ad6fab8f91.html",
+   "sha256": "a018faf4d876d91dfba2c75819a4983d378c5dbc10aed13341dfca9ded72f0cd"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986218&Lang=fi&SimDate=20261024": {
+   "bytes": 4938,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "592a718f1aa105c3ecc560e2.html",
+   "sha256": "b51608c8344383a09f76e2fd537eb11545b4fdc59de87175508ee31c912a2d86"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986219&Lang=en&SimDate=20261024": {
+   "bytes": 4979,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "42f0fa65f334b0636b8b8fa7.html",
+   "sha256": "a018faf4d876d91dfba2c75819a4983d378c5dbc10aed13341dfca9ded72f0cd"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986219&Lang=fi&SimDate=20261024": {
+   "bytes": 4938,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "3ac6008e66fdd7bf05a63e6f.html",
+   "sha256": "b51608c8344383a09f76e2fd537eb11545b4fdc59de87175508ee31c912a2d86"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986220&Lang=en&SimDate=20261024": {
+   "bytes": 4979,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "af0b3227f8ed4ae415271168.html",
+   "sha256": "eea634c30b4d36acbe2b25d4d962784213aabc956aa34db531fc5445192ac5fe"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986220&Lang=fi&SimDate=20261024": {
+   "bytes": 4938,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "3628f4db263047c9b2011f3e.html",
+   "sha256": "fe1a9f255f02b7490508f913920578dd6d832cbba38537325aa02418ebea1a46"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986221&Lang=en&SimDate=20261024": {
+   "bytes": 4979,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "77e429c931ae9c999bddefcb.html",
+   "sha256": "eea634c30b4d36acbe2b25d4d962784213aabc956aa34db531fc5445192ac5fe"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986221&Lang=fi&SimDate=20261024": {
+   "bytes": 4938,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "0cb36d4467f05effe2a698db.html",
+   "sha256": "fe1a9f255f02b7490508f913920578dd6d832cbba38537325aa02418ebea1a46"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986223&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c0ed7b56d6b1af41f8c29f41.html",
+   "sha256": "e6b57b335c131501b600752001bd3f1ec4dc587115ab5b95a01de1d9dceb1237"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986223&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "b8516d991608156c4eabeeb6.html",
+   "sha256": "dd7d41bd8422ebf8d5975f44f753bb1651c85e540d13c76e575d921bb9e7425b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986224&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "5860c7e43162578a649c036b.html",
+   "sha256": "c6344764cd8235ec91221ffb3f3e79991aa9c4ad8b971beef1ac0d2593b8a252"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986224&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "715bdf10d60ac94f2b2b9607.html",
+   "sha256": "599c7d830e8244788929af1619f5acae9cd91896e8bbcf64474869b8f7ec92c8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986225&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "48bab890f43c38d56759627c.html",
+   "sha256": "c6344764cd8235ec91221ffb3f3e79991aa9c4ad8b971beef1ac0d2593b8a252"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986225&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "3210abf5af16b70f4f9e07f3.html",
+   "sha256": "599c7d830e8244788929af1619f5acae9cd91896e8bbcf64474869b8f7ec92c8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986226&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "57c9cce83a4e39fc38ba65f7.html",
+   "sha256": "c6344764cd8235ec91221ffb3f3e79991aa9c4ad8b971beef1ac0d2593b8a252"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986226&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "cac1c2cc28e6d84011cf702e.html",
+   "sha256": "599c7d830e8244788929af1619f5acae9cd91896e8bbcf64474869b8f7ec92c8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986228&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3166c55d2ddf64e1bb0113bf.html",
+   "sha256": "e6b57b335c131501b600752001bd3f1ec4dc587115ab5b95a01de1d9dceb1237"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3986228&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "14c65f378ec76c5c4b6bbca7.html",
+   "sha256": "dd7d41bd8422ebf8d5975f44f753bb1651c85e540d13c76e575d921bb9e7425b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3992053&Lang=en&SimDate=20261024": {
+   "bytes": 10305,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c26f2cadabebc68bdf030113.html",
+   "sha256": "d10a230c171e4daed890c3c96ca55c0b4d35fe24004760582d3ea0f73a9cddf1"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3992053&Lang=fi&SimDate=20261024": {
+   "bytes": 10248,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "1b6ef343685e8dcbc46b51d9.html",
+   "sha256": "ff399a7ddb660ff88b7a539bf25ce66baf3b83a042a9653386d7f9c4ed62bb19"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3994022&Lang=en&SimDate=20261024": {
+   "bytes": 12264,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "55551cc7fc6831522054908b.html",
+   "sha256": "7fe158e9f31fe20f3fc7d4c3452efc5bd0c1f631a864434dbba83972d938f03f"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3994022&Lang=fi&SimDate=20261024": {
+   "bytes": 12320,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "53a58369239b3290ff7e6c64.html",
+   "sha256": "cb7faa3051a411e652af82f00c3d7c45f408d373751c64d9fcb70dc714132d8b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023095&Lang=en&SimDate=20261024": {
+   "bytes": 6485,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "932e78dbb38d5e2f0528f910.html",
+   "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023095&Lang=fi&SimDate=20261024": {
+   "bytes": 6452,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "5bcaa195643289125cdc7ed5.html",
+   "sha256": "764b88dde279b004c27f69016b3a4a76785e0339646aae88b8c96e1654c82ddf"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023734&Lang=en&SimDate=20261024": {
+   "bytes": 6485,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "361d73d2f40e1cb23d701890.html",
+   "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023734&Lang=fi&SimDate=20261024": {
+   "bytes": 6452,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "f70abf04f5d122dfea33bc02.html",
+   "sha256": "764b88dde279b004c27f69016b3a4a76785e0339646aae88b8c96e1654c82ddf"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4032248&Lang=en&SimDate=20261024": {
+   "bytes": 12274,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c2160c0cb3310abcc7c7b9b1.html",
+   "sha256": "d30151dda3735cf82d7091536efa269c987c396ef0eb8ec61b8de0121c7fac7d"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4032248&Lang=fi&SimDate=20261024": {
+   "bytes": 12225,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "ebb93c371ce17092da8b780e.html",
+   "sha256": "32f0b7ae3bf8846d4c1e62437917b8f16e487a4ccc501bc156060e8cff1f5e3e"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4065020&Lang=en&SimDate=20261024": {
+   "bytes": 6501,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "72ba3b6c8fb9c21b4bac0b84.html",
+   "sha256": "4accc98e8149544ec1e181e32734cbcc4da7a1f7b9af47b3234a2abdb0dab8a7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4065020&Lang=fi&SimDate=20261024": {
+   "bytes": 6488,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "748610e8b31648ff6ab451bd.html",
+   "sha256": "bba2bc8e536c273d8e05c42075f2eac177de6332d1dc542d20f70cdb3aa621cb"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4072924&Lang=en&SimDate=20261024": {
+   "bytes": 15859,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "db81b351125f545fc682f22a.html",
+   "sha256": "9acb15b4a05d49de2e1e45593953f4e92e4a13c12804c78d1d0c910fdd049019"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4072924&Lang=fi&SimDate=20261024": {
+   "bytes": 15794,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "2f17792c064eb18f8b356722.html",
+   "sha256": "bd64e857e85f2deb65dcf29b76c5daa5fb684be995b38043078694a7752784b9"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4076996&Lang=en&SimDate=20261024": {
+   "bytes": 21834,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "233311d6e480a5320469e8cf.html",
+   "sha256": "dbe3cbd63f7aaeff35065e7e5fead757b7ced53ca11a2409d9c51840a8118d16"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4076996&Lang=fi&SimDate=20261024": {
+   "bytes": 22085,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "04c374941b4113f44e2388a3.html",
+   "sha256": "b1d0437889287e0613361a597f8a80ff27e496483a7bf490499268b7ef9c9a6a"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4143018&Lang=en&SimDate=20261024": {
+   "bytes": 22618,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "22e755b3a65774ab12710bfc.html",
+   "sha256": "b8882b4061784ddb0ce3fe76b7129ef99cbb981b9e658b760f0379f9ba7a4f49"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4143018&Lang=fi&SimDate=20261024": {
+   "bytes": 22649,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "1f91d891deaf6ad8fe1ab81b.html",
+   "sha256": "f7c608e2a07f47895045470ec4d9988ead665d4a0f2360551b16ed69ff7468f6"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161700&Lang=en&SimDate=20261024": {
+   "bytes": 29403,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2af27ea31236e1934db904f1.html",
+   "sha256": "f6dccedd44f5f89d48c7bc0dbf19d0f103a331446155020743c6b811f8f6c8bc"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161700&Lang=fi&SimDate=20261024": {
+   "bytes": 29594,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "7dedcfee186ec1911764e88f.html",
+   "sha256": "fe71f0e40463ec756ba6f0d66fe8f8afbd89fa7211faa7afa358859d80d2d6cb"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171210&Lang=en&SimDate=20261024": {
+   "bytes": 6689,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "51a821bb732494262f8d0ec8.html",
+   "sha256": "2305f793eb0947971c6949e847dc375aad46c3ba05c925a6c0d207d3e9220668"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171210&Lang=fi&SimDate=20261024": {
+   "bytes": 6666,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "531c52aa65127f21ebd28ec2.html",
+   "sha256": "a3af9b8d0141e8eb923f08f1887799d09479bb3774a542e6d6d640ee40cfaa4c"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171377&Lang=en&SimDate=20260115": {
+   "bytes": 5004,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "42e378bccff79e654471225f.html",
+   "sha256": "bc3acfc2adbca3ac0f1d6c2e4d661f31c3f5f7717249c22ff67f943aad5a7d2b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171377&Lang=fi&SimDate=20260115": {
+   "bytes": 4968,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "139c11fd7cc04e96ba4970c9.html",
+   "sha256": "54aed7b979c76cba89d6511950fa3626a99e434c7891a9285f18b53206805e8a"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171432&Lang=en&SimDate=20261024": {
+   "bytes": 5004,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "2d6f9ee1960a253dde142ef3.html",
+   "sha256": "bc3acfc2adbca3ac0f1d6c2e4d661f31c3f5f7717249c22ff67f943aad5a7d2b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171432&Lang=fi&SimDate=20261024": {
+   "bytes": 4968,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "74a998e1f84a1fcc2adcdbce.html",
+   "sha256": "54aed7b979c76cba89d6511950fa3626a99e434c7891a9285f18b53206805e8a"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171435&Lang=en&SimDate=20261024": {
+   "bytes": 5004,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c549238ff18eeafff037315e.html",
+   "sha256": "bc3acfc2adbca3ac0f1d6c2e4d661f31c3f5f7717249c22ff67f943aad5a7d2b"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171435&Lang=fi&SimDate=20261024": {
+   "bytes": 4968,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "360e4983d1756c330af65c80.html",
+   "sha256": "54aed7b979c76cba89d6511950fa3626a99e434c7891a9285f18b53206805e8a"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4196454&Lang=en&SimDate=20261024": {
+   "bytes": 25704,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c2d79ca1f4fa17ca5944233b.html",
+   "sha256": "003b1517431bea65a67ab6f4c9e2e1057d8b7a778ec73eb67642be45e7169bfd"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4196454&Lang=fi&SimDate=20261024": {
+   "bytes": 25539,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "09cc35e062dcbf53d524765d.html",
+   "sha256": "cd85bd9c43cbec9455a7b536c6325b43349ee0e1883d6ff87339ced0bb7b6842"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4206534&Lang=en&SimDate=20260115": {
+   "bytes": 10661,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "dffb63693497934b0a17ac02.html",
+   "sha256": "9d58638bdb9fab935e9817d6d4becb8b80cb50dff7c13024f843eec020248394"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4206534&Lang=fi&SimDate=20260115": {
+   "bytes": 10765,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "6aeadada0eb63e222a5afe5f.html",
+   "sha256": "e4673b320d29dfd831f5ed883f8efbe6793380cb036b18c22c1cd6463d6f60ae"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210316&Lang=en&SimDate=20261024": {
+   "bytes": 4980,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "60e6415ea51cc3cd2eca99a6.html",
+   "sha256": "d3a7a3b743a05fc46d1a927aef120ec2b95927cef1f6210e32db77c5d49e1842"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210316&Lang=fi&SimDate=20261024": {
+   "bytes": 4939,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "24415a5d2944d8ff09423db1.html",
+   "sha256": "6d0ede65744a899922b5c6302004cf2a2a25b7f1bd28a05676f2759765b661b1"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210317&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "5b24a54f91d138fa50dd45b0.html",
+   "sha256": "460607b07000dd942744bd0f07def01a464683905b9a7b7ccafadcfeb9489574"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210317&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "6145e0dadb2a2724e1810ec7.html",
+   "sha256": "4beb6a150878d3b24d22822e523ddd71352820317f52c81ca029a257e15a33e0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210318&Lang=en&SimDate=20261024": {
+   "bytes": 4976,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "e07ff9902585a3ba5d6bcdb0.html",
+   "sha256": "460607b07000dd942744bd0f07def01a464683905b9a7b7ccafadcfeb9489574"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4210318&Lang=fi&SimDate=20261024": {
+   "bytes": 4935,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "8a630c3f55392df29231495c.html",
+   "sha256": "4beb6a150878d3b24d22822e523ddd71352820317f52c81ca029a257e15a33e0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4213299&Lang=en&SimDate=20260115": {
+   "bytes": 11153,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "a1a752cf9ebc95bb583a7d31.html",
+   "sha256": "5d5b50c878be945f9c8e8deaf2662ff239dcb18fc5392097e920e55cbca75a06"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4213299&Lang=fi&SimDate=20260115": {
+   "bytes": 11054,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "50cf3b75834d732c8c02aef6.html",
+   "sha256": "1aa7fc34b728e3f74b846bdba806d7bdcafd986833ea77d92e28f2a6fbc4d8be"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4221963&Lang=en&SimDate=20260115": {
+   "bytes": 19386,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "b9d37fca64ba364188505c2b.html",
+   "sha256": "41326edb25cdb1cd8a3c8708976436e1953a5f4fdc4bbe1870faf40fb594fa02"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4221963&Lang=fi&SimDate=20260115": {
+   "bytes": 19212,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "ae8262330881afde66453614.html",
+   "sha256": "8351a29055c9709d335581db8328338333094479fbd380265d9cd231eee5e8a3"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4225863&Lang=en&SimDate=20261024": {
+   "bytes": 28997,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "801a012dd4b0b81849f7eee2.html",
+   "sha256": "b55ba910bc62c0849b9e8bb1a931cd9f295aff851e7bdff60b805772283e0cff"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4225863&Lang=fi&SimDate=20261024": {
+   "bytes": 29414,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "12ec0ac741ce813d616d2220.html",
+   "sha256": "1873134698a53ff24300b52c06440c5a6ee172cd00e4997630a7a99892efe8b8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4239282&Lang=en&SimDate=20261024": {
+   "bytes": 4742,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "9f62b492b0ab458efe6af1b2.html",
+   "sha256": "730d13e65ea169b7bad32959f87df042b008487c357d8cdd29aff4a74f721367"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4239282&Lang=fi&SimDate=20261024": {
+   "bytes": 4702,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "8c4102129fb989c37f0ccf1e.html",
+   "sha256": "c5727bdab7fac52c59a91448b88dbb55fe002994ef51544edd6e4d35b3eddba0"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4248728&Lang=en&SimDate=20261024": {
+   "bytes": 12343,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "c0ac554b50b1b576459b2e50.html",
+   "sha256": "a62fd0201fd81d9d806c7bc659bc8b3587bc0b89fb2719fc76f65b39385772ef"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4248728&Lang=fi&SimDate=20261024": {
+   "bytes": 12273,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "9cff265fe8ead0e23d458896.html",
+   "sha256": "458fa3b918d9fc84eb4c611df62c4e2d0cb94d4f427f45c49c440aeaa54f68b1"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4275406&Lang=en&SimDate=20261024": {
+   "bytes": 45128,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "18c1bf24bfb27f8e23a10ed1.html",
+   "sha256": "0a77abf534d5c56923f042d8ff090afd72a423e2cb17109670bd52c5ed21b5a8"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4275406&Lang=fi&SimDate=20261024": {
+   "bytes": 44998,
+   "fetched_at": "2026-10-24T21:27:33+00:00",
+   "file": "32faaf29f96e3511684d042a.html",
+   "sha256": "e12beb9cd32f86208a0a116d30b4929a7db0f206795c95507d7f521341284a5e"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=0805102210&Area=MA&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20260115&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwVx7kRACAMA7CFUuCHmOy%2fGFDpZK7ecumcNl0mxJkyAiXvxLS%2baaQu64sJmA%3d%3d&FrameId=taric_0805102210_0&Lang=en": {
+   "bytes": 36572,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "8f5c3fa0a449613dd3bfa804.html",
+   "sha256": "3493ca8170737706ce5dc32cd6cf6eede272243bf9123c0da6afb155588f9f75"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1905319100&Area=US&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNyLEBADAIArCHGBSs6P%2bP1YzRTD8KtJkZKL7lCJXOElHh3u173RMf7AAJng%3d%3d&FrameId=taric_1905319100_0&Lang=en": {
+   "bytes": 35334,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "ade4f6bd213e73dbe2b9d6de.html",
+   "sha256": "21874c05842ad83a4b9e073c13c20f99da90562fa046623d17e3988e21ca0b43"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=2204210600&Area=US&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwtyLEBwDAMArCHGGLADv7%2fsXTookFKphmoyuzCx8wxXLes%2fn%2bhiLLADecsHj7HCyk%3d&FrameId=taric_2204210600_0&Lang=en": {
+   "bytes": 34451,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "19bf678a6695630b33c92eb4.html",
+   "sha256": "e5235e4a98fd1320d24aa343ebd468f9db0ffc8471f2e94f69dce7d9568ac1c7"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6403999810&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNyrkRADAIA7CFXAA2j%2fdfLGl1UhTDDao7Z5F3uSRUPRv6fjdr0EpHQ%2f8vhfLVlvEAoW4M3A%3d%3d&FrameId=taric_6403999810_0&Lang=en": {
+   "bytes": 35535,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "a38b11567b3e0ec313b2cf0c.html",
+   "sha256": "22fc0f270c897fdea91799f07eef2323bd3ee72a34a751ac06cc2820ae77c32c"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6403999890&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNyrERADAIw8CFXAA2GPZfLCn1J0UxrkF15xi5myah6nHo%2b%2b74fkdyG%2fq%2fKdRtuQ4PoK0M1A%3d%3d&FrameId=taric_6403999890_0&Lang=en": {
+   "bytes": 35548,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "791032305bc3fff200b97429.html",
+   "sha256": "9417fb8ec00259d2789fed89d9450e088211394dee5c97a9cdd1a8b3f749fbdb"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=7208100000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJw1zMENwDAIQ9GFcqAO2LD%2fYo1a5%2fRkhfyEKoMLEkK5EpqcvXZ2q%2bfsalUcmWKvjA3kEeeB5266VLSybeeXYR8L6%2f9MW9Y9ukf36J7ck3tyT19Pge%2beeL7Nqe1dllb23s8vwj7%2bn97u4G73QN%2fd7R5mvZtOR%2bY%3d&FrameId=taric_7208100000_0&Lang=en": {
+   "bytes": 235074,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3976cec7d8a8abb8ee7041b8.html",
+   "sha256": "24736b73e8f20f09e80d030c8cb23ba51968b9b756bd6f67f92a51197d12d383"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8471300000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwFwbEBADAIArCHGJSiwv%2bPNWG9nmqIsy5DndUIj7YzYMy74AOjnAgS&FrameId=taric_8471300000_0&Lang=en": {
+   "bytes": 28105,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "d9427082744decd068fbfc79.html",
+   "sha256": "18ff41c4afa4cbb24bfcd415447eb4a361a524373ab7489158681dbcf80ebe2a"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8471300000&Area=RU&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwVy7ERAEEIw8CGCIwxB%2b6%2fsecjzQYiKhsZYr%2fFXrXDa%2fqpFcJrEFE20XUemvotkFHcXXfQyxnfN8lEfA1SEZY%3d&FrameId=taric_8471300000_0&Lang=en": {
+   "bytes": 61243,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "b7a4140e14dd63b24a69c7ef.html",
+   "sha256": "680fbd706bda0393a1df963df28df6a1cfae839d3fedb9731014a861c94edf07"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwty7ERADEIA7CFKMA4xuy%2f2OfuU6kSSzWZgS3YE4QMnGtll57z9HN%2fkdFjtHQ%2fJZ3fPdHNBRGdNo1gsfN%2brHFHfJ3EF9U%3d&FrameId=taric_8712003010_0&Lang=en": {
+   "bytes": 74700,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "55232274cf26c5a02fc8daa5.html",
+   "sha256": "bf7e9439b73d919d15113e7c1dd150a9c66597d50e320d33fe506d06e0bdda44"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwty7ERADEIA7CFKMA4xuy%2f2OfuU6kSSzWZgS3YE4QMnGtll57z9HN%2fkdFjtHQ%2fJZ3fPdHNBRGdNo1gsfN%2brHFHfJ3EF9U%3d&FrameId=taric_8712003020_0&Lang=en": {
+   "bytes": 74700,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "e02a19121f600a10c08e70a0.html",
+   "sha256": "b74a45d7c45481e2482fb377dda9686ebc36168ffc9a7c4733ef89e733641575"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwty7ERADEIA7CFKMA4xuy%2f2OfuU6kSSzWZgS3YE4QMnGtll57z9HN%2fkdFjtHQ%2fJZ3fPdHNBRGdNo1gsfN%2brHFHfJ3EF9U%3d&FrameId=taric_8712003090_0&Lang=en": {
+   "bytes": 74700,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "84a72c0709017ed9a5604a48.html",
+   "sha256": "2ecf23125052a2d40fc47f03cd6aff26afa972d8abcde982108f3fc2c129f05d"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003010&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwty7ERADEIA7CFKMA4xuy%2f2OfuU6kSSzWZgS3YE4QMnGtll57z9HN%2fkdFjtHQ%2fJZ3fPdHNBRGdNo1gsfN%2brHFHfJ3EF9U%3d&FrameId=taric_8712003010_0&Lang=en": {
+   "bytes": 74700,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "a47d2d46825d8a2af6eeaa83.html",
+   "sha256": "0b23302c2e9fd7279a7b7ea233563fb42817dcee490ed6dd08330217dfbf4073"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/quota_list.jsp?Lang=en&Code=099600&Year=2026&Critical=&Status=&Origin=&Expand=true&Offset=0": {
+   "bytes": 4359,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "3c2565578289141ad6b85201.html",
+   "sha256": "e689f2e50af2386bacb6edba3dc458827055b6beb2d3b93f6b9c8ae74d703f7e"
+  },
+  "https://ec.europa.eu/taxation_customs/dds2/taric/quota_tariff_details.jsp?Lang=en&StartDate=2026-10-01&Code=099600": {
+   "bytes": 63674,
+   "fetched_at": "2026-10-24T19:30:28+00:00",
+   "file": "d18488f2314e18ced9125af9.html",
+   "sha256": "06f52b2f0c08ca5e1229c27a4ae00cc5e33da97c1ad699cc67c7423cd1e8a043"
+  }
+ },
+ "source": "https://ec.europa.eu/taxation_customs/dds2/taric/"
+}

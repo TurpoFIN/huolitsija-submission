@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: CustomsCorporateService_soap1_1.wsdl
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:cs="http://tulli.fi/ws/corporateservice/v1" xmlns:cst="http://tulli.fi/ws/corporateservicetypes/v1" targetNamespace="http://tulli.fi/ws/corporateservice/v1">
+	<wsdl:types>
+		<xs:schema targetNamespace="http://tulli.fi/ws/corporateservice/v1" elementFormDefault="qualified" attributeFormDefault="unqualified">
+			<xs:import namespace="http://tulli.fi/ws/corporateservicetypes/v1" schemaLocation="WsdlTypes.xsd"/>
+			<xs:element name="ServiceFaultDetail" type="cst:ServiceFaultDetail"/>
+			<xs:element name="UploadRequest" type="cst:UploadRequest"/>
+			<xs:element name="UploadResponse" type="cst:UploadResponse"/>
+			<xs:element name="UploadAttachmentRequest" type="cst:UploadAttachmentRequest"/>
+			<xs:element name="UploadAttachmentResponse" type="cst:UploadAttachmentResponse"/>
+			<xs:element name="DownloadListRequest" type="cst:DownloadListRequest"/>
+			<xs:element name="DownloadListResponse" type="cst:DownloadListResponse"/>
+			<xs:element name="DownloadRequest" type="cst:DownloadRequest"/>
+			<xs:element name="DownloadResponse" type="cst:DownloadResponse"/>
+			<xs:element name="CheckRequest" type="cst:CheckRequest"/>
+			<xs:element name="CheckResponse" type="cst:CheckResponse"/>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="serviceFaultDetail">
+		<wsdl:part name="serviceFault" element="cs:ServiceFaultDetail"/>
+	</wsdl:message>
+	<wsdl:message name="uploadRequest">
+		<wsdl:part name="uploadRequest" element="cs:UploadRequest"/>
+	</wsdl:message>
+	<wsdl:message name="uploadResponse">
+		<wsdl:part name="uploadResponse" element="cs:UploadResponse"/>
+	</wsdl:message>
+	<wsdl:message name="uploadAttachmentRequest">
+		<wsdl:part name="uploadAttachmentRequest" element="cs:UploadAttachmentRequest"/>
+	</wsdl:message>
+	<wsdl:message name="uploadAttachmentResponse">
+		<wsdl:part name="uploadAttachmentResponse" element="cs:UploadAttachmentResponse"/>
+	</wsdl:message>
+	<wsdl:message name="downloadListRequest">
+		<wsdl:part name="downloadListRequest" element="cs:DownloadListRequest"/>
+	</wsdl:message>
+	<wsdl:message name="downloadListResponse">
+		<wsdl:part name="downloadListResponse" element="cs:DownloadListResponse"/>
+	</wsdl:message>
+	<wsdl:message name="downloadRequest">
+		<wsdl:part name="downloadRequest" element="cs:DownloadRequest"/>
+	</wsdl:message>
+	<wsdl:message name="downloadResponse">
+		<wsdl:part name="downloadResponse" element="cs:DownloadResponse"/>
+	</wsdl:message>
+	<wsdl:message name="checkRequest">
+		<wsdl:part name="checkRequest" element="cs:CheckRequest"/>
+	</wsdl:message>
+	<wsdl:message name="checkResponse">
+		<wsdl:part name="checkResponse" element="cs:CheckResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="CorporateMessageServicePortType">
+		<wsdl:operation name="Upload">
+			<wsdl:input name="uploadRequest" message="cs:uploadRequest"/>
+			<wsdl:output name="uploadResponse" message="cs:uploadResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="cs:serviceFaultDetail"/>
+		</wsdl:operation>
+		<wsdl:operation name="UploadAttachment">
+			<wsdl:input name="uploadAttachmentRequest" message="cs:uploadAttachmentRequest"/>
+			<wsdl:output name="uploadAttachmentResponse" message="cs:uploadAttachmentResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="cs:serviceFaultDetail"/>
+		</wsdl:operation>
+		<wsdl:operation name="DownloadList">
+			<wsdl:input name="downloadListRequest" message="cs:downloadListRequest"/>
+			<wsdl:output name="downloadListResponse" message="cs:downloadListResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="cs:serviceFaultDetail"/>
+		</wsdl:operation>
+		<wsdl:operation name="Download">
+			<wsdl:input name="downloadRequest" message="cs:downloadRequest"/>
+			<wsdl:output name="downloadResponse" message="cs:downloadResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="cs:serviceFaultDetail"/>
+		</wsdl:operation>
+		<wsdl:operation name="CheckConnectivity">
+			<wsdl:input name="checkRequest" message="cs:checkRequest"/>
+			<wsdl:output name="checkResponse" message="cs:checkResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="cs:serviceFaultDetail"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="CorporateMessageServiceHttpBinding" type="cs:CorporateMessageServicePortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="Upload">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="uploadRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="uploadResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="UploadAttachment">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="uploadAttachmentRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="uploadAttachmentResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>		
+		<wsdl:operation name="DownloadList">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="downloadListRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="downloadListResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="Download">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="downloadRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="downloadResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="CheckConnectivity">
+			<soap:operation soapAction=""/>
+			<wsdl:input name="checkRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="checkResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="CorporateMessageService">
+		<wsdl:port name="CorporateMessageServiceHttpPort" binding="cs:CorporateMessageServiceHttpBinding">
+			<soap:address location="https://ws-customertest.tulli.fi/services/DirectMessageExchange" />
+			<!-- <soap:address location="https://ws.tulli.fi/services/DirectMessageExchange" />-->
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

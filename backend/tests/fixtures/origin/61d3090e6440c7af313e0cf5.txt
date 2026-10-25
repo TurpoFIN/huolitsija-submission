@@ -1,0 +1,1 @@
+{"agreementID":null,"agreementName":null,"partnerISO":null,"partnerName":null,"rules":{},"rulesDecomposed":[],"comments":[],"footnotes":[],"ruleComponentsFootnotes":[],"notes":[],"terms":[],"correlationInfo":null,"officialJournalInfo":null}

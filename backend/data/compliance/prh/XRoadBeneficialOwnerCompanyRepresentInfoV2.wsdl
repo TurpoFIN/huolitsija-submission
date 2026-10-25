@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://xroad.virre.prh.fi/producer" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:esr="http://www.prh.fi/ESRServices" name="XRoadBeneficialOwnerCompanyRepresentInfoV2Service" targetNamespace="http://xroad.virre.prh.fi/producer">
+   <wsdl:types>
+      <xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xroad.virre.prh.fi/producer" elementFormDefault="qualified">
+         <xs:import id="esr" namespace="http://www.prh.fi/ESRServices"/>
+         <xs:import id="xrd" namespace="http://x-road.eu/xsd/xroad.xsd" schemaLocation="http://x-road.eu/xsd/xroad.xsd"/>
+         <xs:element name="XRoadBeneficialOwnerCompanyRepresentInfoV2">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element name="request" type="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2RequestType"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="XRoadBeneficialOwnerCompanyRepresentInfoV2Response">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element name="request" type="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2RequestType"/>
+                  <xs:element name="response" type="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2ResponseType"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:complexType name="XRoadBeneficialOwnerCompanyRepresentInfoV2RequestType">
+            <xs:sequence>
+               <xs:element ref="esr:beneficialOwnerCompanyRepresentInfoV2Request"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="XRoadBeneficialOwnerCompanyRepresentInfoV2ResponseType">
+            <xs:choice>
+               <xs:element ref="esr:beneficialOwnerCompanyRepresentInfoV2Response"/>
+               <xs:sequence>
+                  <xs:element name="faultCode" type="xs:string"/>
+                  <xs:element name="faultString" type="xs:string"/>
+               </xs:sequence>
+            </xs:choice>
+         </xs:complexType>
+      </xs:schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prh="http://www.prh.fi/ESRServices" targetNamespace="http://www.prh.fi/ESRServices" version="1.0">
+         <xsd:complexType name="errorDetailsType">
+            <xsd:sequence>
+               <xsd:element name="Type" type="xsd:string"/>
+               <xsd:element name="Message" type="xsd:string"/>
+               <xsd:element name="Trace" type="xsd:string" minOccurs="0"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:element name="beneficialOwnerActiveRoleInfoRequest">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="socialSecurityNumber">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:maxLength value="16"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:element>
+                  <xsd:element name="userId">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:maxLength value="128"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+         <xsd:element name="beneficialOwnerCompanyRepresentInfoV2Request" type="prh:companyRepresentInfoESRV2"/>
+         <xsd:complexType name="companyRepresentInfoESRV2">
+            <xsd:complexContent>
+               <xsd:extension base="prh:beneficialOwnerCompanyRepresentInfoV2Request"/>
+            </xsd:complexContent>
+         </xsd:complexType>
+         <xsd:complexType name="beneficialOwnerCompanyRepresentInfoV2Request">
+            <xsd:sequence>
+               <xsd:choice>
+                  <xsd:element name="businessId">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:maxLength value="16"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:element>
+               </xsd:choice>
+               <xsd:element name="userId">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="128"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:element name="beneficialOwnerActiveRoleInfoResponse">
+            <xsd:complexType>
+               <xsd:choice>
+                  <xsd:element name="beneficialOwnerActiveRoleInfoTypeDetails" type="prh:beneficialOwnerActiveRoleInfoType"/>
+                  <xsd:element name="Error" type="prh:errorDetailsType"/>
+               </xsd:choice>
+            </xsd:complexType>
+         </xsd:element>
+         <xsd:element name="beneficialOwnerCompanyRepresentInfoV2Response">
+            <xsd:complexType>
+               <xsd:choice>
+                  <xsd:element name="beneficialOwnerCompanyRepresentInfoV2ResponseTypeDetails" type="prh:beneficialOwnerCompanyRepresentInfoV2ResponseType"/>
+                  <xsd:element name="Error" type="prh:errorDetailsType"/>
+               </xsd:choice>
+            </xsd:complexType>
+         </xsd:element>
+         <xsd:complexType name="beneficialOwnerActiveRoleInfoType">
+            <xsd:sequence>
+               <xsd:element name="firstname" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="64"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="surname">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="64"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="socialSecurityNumber" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="status" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="32"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="roleInCompany" type="prh:roleInCompanyESRType" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="beneficialOwnerCompanyRepresentInfoV2ResponseType">
+            <xsd:sequence>
+               <xsd:element name="registrationDate" type="xsd:date" minOccurs="0"/>
+               <xsd:element name="businessId" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="companyName" type="prh:companyNameRepresentationESRType"/>
+               <xsd:element name="body" type="prh:bodyESRTypeV2" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="companyNameRepresentationESRType">
+            <xsd:sequence>
+               <xsd:element name="name">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="1024"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="registrationDate" type="xsd:date" minOccurs="0"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="bodyESRTypeV2">
+            <xsd:sequence>
+               <xsd:element name="type">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:choice minOccurs="0" maxOccurs="unbounded">
+                  <xsd:element name="naturalPerson" type="prh:naturalPersonESRTypeV2"/>
+               </xsd:choice>
+               <xsd:element name="beneficialOwnersFlag" minOccurs="0" type="xsd:boolean"/>
+               <xsd:element name="registrationDate" type="xsd:date" minOccurs="0"/>
+               <xsd:element name="noBeneficialOwners" minOccurs="0" type="xsd:boolean"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="naturalPersonESRTypeV2">
+            <xsd:sequence>
+               <xsd:element name="role">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="firstname" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="64"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="surname">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="64"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="socialSecurityNumber" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="dateOfBirth" type="xsd:date" minOccurs="0"/>
+               <xsd:element name="status" type="prh:personStatusType" minOccurs="0" maxOccurs="unbounded"/>
+               <xsd:element name="domicile" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="homeCountry" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="nationality" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="beneficialOwnership" minOccurs="0">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="ownershipExtent" minOccurs="0" type="xsd:double"/>
+                        <xsd:element name="voteExtent" minOccurs="0" type="xsd:double"/>
+                        <xsd:element name="otherBeneficialOwnership" minOccurs="0" type="xsd:boolean"/>
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="personStatusType">
+            <xsd:sequence>
+               <xsd:element name="value">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="32"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="startDate" type="xsd:date" minOccurs="0"/>
+               <xsd:element name="endDate" type="xsd:date" minOccurs="0"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="defLanguage">
+            <xsd:sequence>
+               <xsd:element name="language">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="2"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="definition">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="250"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="roleInCompanyESRType">
+            <xsd:sequence>
+               <xsd:element name="companyName">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="1024"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="registrationDate" type="xsd:date" minOccurs="0"/>
+               <xsd:element name="businessId" minOccurs="0">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="stateCode" maxOccurs="unbounded">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="state">
+                           <xsd:simpleType>
+                              <xsd:restriction base="xsd:string">
+                                 <xsd:maxLength value="16"/>
+                              </xsd:restriction>
+                           </xsd:simpleType>
+                        </xsd:element>
+                        <xsd:element name="defLanguage" type="prh:defLanguage" minOccurs="0" maxOccurs="unbounded"/>
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+               <xsd:element name="roleBasicInfo" type="prh:roleBasicESRInfo" minOccurs="0" maxOccurs="unbounded"/>
+               <xsd:element name="beneficialOwnership" minOccurs="0">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="ownershipExtent" minOccurs="0" type="xsd:double"/>
+                        <xsd:element name="voteExtent" minOccurs="0" type="xsd:double"/>
+                        <xsd:element name="otherBeneficialOwnership" minOccurs="0" type="xsd:boolean"/>
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="roleBasicESRInfo">
+            <xsd:sequence>
+               <xsd:element name="bodyTypeCode" type="prh:bodyTypeCodeESR" minOccurs="0" maxOccurs="unbounded"/>
+               <xsd:element name="nameCodeESR" type="prh:nameCodeESR" minOccurs="0" maxOccurs="unbounded"/>
+               <xsd:element name="startDateESR" type="xsd:dateTime"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="bodyTypeCodeESR">
+            <xsd:sequence>
+               <xsd:element name="bodyType">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="defLanguage" type="prh:defLanguage" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+         </xsd:complexType>
+         <xsd:complexType name="nameCodeESR">
+            <xsd:sequence>
+               <xsd:element name="name">
+                  <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                        <xsd:maxLength value="16"/>
+                     </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:element>
+               <xsd:element name="defLanguage" type="prh:defLanguage" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+         </xsd:complexType>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="requestheader">
+      <wsdl:part name="client" element="xrd:client"/>
+      <wsdl:part name="service" element="xrd:service"/>
+      <wsdl:part name="userId" element="xrd:userId"/>
+      <wsdl:part name="id" element="xrd:id"/>
+      <wsdl:part name="issue" element="xrd:issue"/>
+      <wsdl:part name="protocolVersion" element="xrd:protocolVersion"/>
+   </wsdl:message>
+   <wsdl:message name="XRoadBeneficialOwnerCompanyRepresentInfoV2">
+      <wsdl:part name="body" element="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2"/>
+   </wsdl:message>
+   <wsdl:message name="XRoadBeneficialOwnerCompanyRepresentInfoV2Response">
+      <wsdl:part name="body" element="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2Response"/>
+   </wsdl:message>
+   <wsdl:portType name="XRoadBeneficialOwnerCompanyRepresentInfoV2PortType">
+      <wsdl:operation name="XRoadBeneficialOwnerCompanyRepresentInfoV2">
+         <wsdl:input message="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2"/>
+         <wsdl:output message="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2Response"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="XRoadBeneficialOwnerCompanyRepresentInfoV2Binding" type="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2PortType">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="XRoadBeneficialOwnerCompanyRepresentInfoV2">
+         <soap:operation soapAction="" style="document"/>
+         <xrd:version>v1</xrd:version>
+         <wsdl:input>
+            <soap:body parts="body" use="literal"/>
+            <soap:header message="tns:requestheader" part="client" use="literal"/>
+            <soap:header message="tns:requestheader" part="service" use="literal"/>
+            <soap:header message="tns:requestheader" part="userId" use="literal"/>
+            <soap:header message="tns:requestheader" part="id" use="literal"/>
+            <soap:header message="tns:requestheader" part="issue" use="literal"/>
+            <soap:header message="tns:requestheader" part="protocolVersion" use="literal"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body parts="body" use="literal"/>
+            <soap:header message="tns:requestheader" part="client" use="literal"/>
+            <soap:header message="tns:requestheader" part="service" use="literal"/>
+            <soap:header message="tns:requestheader" part="userId" use="literal"/>
+            <soap:header message="tns:requestheader" part="id" use="literal"/>
+            <soap:header message="tns:requestheader" part="issue" use="literal"/>
+            <soap:header message="tns:requestheader" part="protocolVersion" use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="XRoadBeneficialOwnerCompanyRepresentInfoV2Service">
+      <wsdl:port name="XRoadBeneficialOwnerCompanyRepresentInfoV2Port" binding="tns:XRoadBeneficialOwnerCompanyRepresentInfoV2Binding">
+         <soap:address location="http://example.org/xroad-endpoint"/>
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

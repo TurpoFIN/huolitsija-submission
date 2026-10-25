@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/transit/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/transit/ext/v1" version="1.0.138" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Unloading permission</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI043A">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="chars_1_14">
+        <xs:annotation>
+          <xs:documentation>Case identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="FunctionalReference" type="FunctionalReference_026">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="Type_331">
+        <xs:annotation>
+          <xs:documentation>Declaration type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_720">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ReducedDatasetIndicator" type="byte_between_0_1">
+        <xs:annotation>
+          <xs:documentation>ReducedDatasetIndicator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Security" type="byte_between_0_3">
+        <xs:annotation>
+          <xs:documentation>Security</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Notification" type="Notification_104">
+        <xs:annotation>
+          <xs:documentation>Notification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DestinationTrader" type="DestinationTrader_482">
+        <xs:annotation>
+          <xs:documentation>Trader of destination</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Principal" type="Principal_643">
+        <xs:annotation>
+          <xs:documentation>Holder of transit procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Consignment" type="Consignment_835">
+        <xs:annotation>
+          <xs:documentation>Consignment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DestinationOffice" type="DestinationOffice_951">
+        <xs:annotation>
+          <xs:documentation>Customs office of destination</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI043A" type="FI043A">
+    <xs:annotation>
+      <xs:documentation>Unloading permission</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

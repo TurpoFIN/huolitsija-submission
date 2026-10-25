@@ -1,0 +1,523 @@
+{
+ "source": {
+  "legal": {
+   "act": "Council Regulation (EU) No 833/2014, Annex XL",
+   "celex": "02014R0833-20260724",
+   "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0833-20260724"
+  },
+  "commission_list": {
+   "url": "https://finance.ec.europa.eu/document/download/5a2494db-d874-4e2b-bf2a-ec5a191d2dc0_en",
+   "version": "February 2024",
+   "fetched_at": "2026-10-24T19:34:12+00:00",
+   "sha256": "8c4bc8dbf0faa4573116395a3a84fa1aae66bf672a2910cbb282e9667c5d51f8",
+   "bytes": 180410,
+   "publisher": "European Commission (DG FISMA), List of Common High Priority Items"
+  }
+ },
+ "items": [
+  {
+   "hs6": "845710",
+   "description": "Machining centres for working metal",
+   "tier": "4.B"
+  },
+  {
+   "hs6": "845811",
+   "description": "Horizontal lathes, including turning centres, for removing metal, numerically controlled",
+   "tier": "4.B"
+  },
+  {
+   "hs6": "845891",
+   "description": "Lathes (including turning centres) for removing metal, numerically controlled (excluding horizontal lathes)",
+   "tier": "4.B"
+  },
+  {
+   "hs6": "845961",
+   "description": "Milling machines for metals, numerically controlled (excluding lathes and turning centres of heading 8458 , way-type unit head machines, drilling machines, boring- milling machines, boring machines, and knee-type milling machines)",
+   "tier": "4.B"
+  },
+  {
+   "hs6": "846693",
+   "description": "Parts and accessories suitable for use solely or principally with the machines of headings 8456 to 8461 , n.e.s.",
+   "tier": "4.B"
+  },
+  {
+   "hs6": "847150",
+   "description": "Processing units other than those of subheading 8471 41 or 8471 49 , whether or not containing in the same housing one or two of the following types of unit: storage units, input units, output units",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "847180",
+   "description": "Units for automatic data-processing machines (excl. processing units, input or output units and storage units)",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "848210",
+   "description": "Ball bearings",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "848220",
+   "description": "Tapered roller bearings, including cone and tapered roller assemblies",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "848230",
+   "description": "Spherical roller bearings",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "848250",
+   "description": "Other cylindrical roller bearings, including cage and roller assemblies",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "848610",
+   "description": "Machines and apparatus for the manufacture of boules or wafers",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "848620",
+   "description": "Machines and apparatus for the manufacture of semiconductor devices or of electronic integrated circuits",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "848640",
+   "description": "Machines and apparatus specified in note 11(C) to this chapter",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "850440",
+   "description": "Static converters",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "851762",
+   "description": "Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",
+   "tier": "2"
+  },
+  {
+   "hs6": "851769",
+   "description": "Other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "852589",
+   "description": "Other television cameras, digital cameras and video camera recorders",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "852691",
+   "description": "Radio navigational aid apparatus",
+   "tier": "2"
+  },
+  {
+   "hs6": "852910",
+   "description": "Aerials and aerial reflectors of all kinds; parts suitable for use therewith",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "852990",
+   "description": "Other parts suitable for use solely or principally with the apparatus of headings 8524 to 8528",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "853221",
+   "description": "Other fixed capacitors: Tantalum capacitors",
+   "tier": "2"
+  },
+  {
+   "hs6": "853224",
+   "description": "Other fixed capacitors: Ceramic dielectric, multilayer",
+   "tier": "2"
+  },
+  {
+   "hs6": "853400",
+   "description": "Printed circuits",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "853669",
+   "description": "Plugs and sockets for a voltage not exceeding 1 000 V",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "853690",
+   "description": "Electrical apparatus for switching electrical circuits, or for making connections to or in electrical circuits, for a voltage not exceeding 1 000 V (excluding fuses, automatic circuit breakers and other apparatus for protecting electrical circuits, relays and other switches, lamp holders, plugs and sockets)",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854110",
+   "description": "Diodes, other than photosensitive or light-emitting diodes (LED)",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854121",
+   "description": "Transistors, other than photosensitive transistors with a dissipation rate of less than 1 W",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854129",
+   "description": "Other transistors, other than photosensitive transistors",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854130",
+   "description": "Thyristors, diacs and triacs (excl. photosensitive semiconductor devices)",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854149",
+   "description": "Photosensitive semiconductor devices (excl. Photovoltaic generators and cells)",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854151",
+   "description": "Other semiconductor devices: Semiconductor-based transducers",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854159",
+   "description": "Other semiconductor devices",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854160",
+   "description": "Mounted piezo-electric crystals",
+   "tier": "3.A"
+  },
+  {
+   "hs6": "854231",
+   "description": "Electronic integrated circuits: Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",
+   "tier": "1"
+  },
+  {
+   "hs6": "854232",
+   "description": "Electronic integrated circuits: Memories",
+   "tier": "1"
+  },
+  {
+   "hs6": "854233",
+   "description": "Electronic integrated circuits: Amplifiers",
+   "tier": "1"
+  },
+  {
+   "hs6": "854239",
+   "description": "Electronic integrated circuits: Other",
+   "tier": "1"
+  },
+  {
+   "hs6": "854320",
+   "description": "Signal generators",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "854800",
+   "description": "Electrical parts of machinery or apparatus, not specified or included elsewhere in chapter 85",
+   "tier": "2"
+  },
+  {
+   "hs6": "880730",
+   "description": "Other parts of aeroplanes, helicopters or unmanned aircraft",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "901310",
+   "description": "Telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter or Section XVI",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "901380",
+   "description": "Other optical devices, appliances and instruments",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "901420",
+   "description": "Instruments and appliances for aeronautical or space navigation (other than compasses)",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "901480",
+   "description": "other navigational instruments and appliances",
+   "tier": "3.B"
+  },
+  {
+   "hs6": "902750",
+   "description": "Other instruments and apparatus using optical radiations (ultraviolet, visible, infrared)",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "903020",
+   "description": "Oscilloscopes and oscillographs",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "903032",
+   "description": "Multimeters with recording device",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "903039",
+   "description": "Instruments and apparatus for measuring or checking voltage, current, resistance or electrical power, with recording device",
+   "tier": "4.A"
+  },
+  {
+   "hs6": "903082",
+   "description": "Instruments and apparatus for measuring or checking semiconductor wafers or devices",
+   "tier": "4.A"
+  }
+ ],
+ "commission_items": [
+  {
+   "hs6": "854231",
+   "tier": "1",
+   "text": "Electronic integrated circuits: Processors and controllers, whether or not combin ed with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"
+  },
+  {
+   "hs6": "854232",
+   "tier": "1",
+   "text": "Electronic integrated circuits: Memories"
+  },
+  {
+   "hs6": "854233",
+   "tier": "1",
+   "text": "Electronic integrated circuits: Amplifiers"
+  },
+  {
+   "hs6": "854239",
+   "tier": "1",
+   "text": "Electronic integrated circuits: Other"
+  },
+  {
+   "hs6": "851762",
+   "tier": "2",
+   "text": "Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus"
+  },
+  {
+   "hs6": "852691",
+   "tier": "2",
+   "text": "Radio navigational aid apparatus"
+  },
+  {
+   "hs6": "853221",
+   "tier": "2",
+   "text": "Other fixed capacitors: Tantalum capacitors"
+  },
+  {
+   "hs6": "853224",
+   "tier": "2",
+   "text": "Other fixed capacitors: Ceramic dielectric, multilayer"
+  },
+  {
+   "hs6": "854800",
+   "tier": "2",
+   "text": "Electrical parts of machinery or apparatus, not specified or included elsewhere in chapter 85"
+  },
+  {
+   "hs6": "847150",
+   "tier": "3.A",
+   "text": "Processing units other than those of subheading 8471 41 or 8471 49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units, output units"
+  },
+  {
+   "hs6": "850440",
+   "tier": "3.A",
+   "text": "Static converters"
+  },
+  {
+   "hs6": "851769",
+   "tier": "3.A",
+   "text": "Other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network"
+  },
+  {
+   "hs6": "852589",
+   "tier": "3.A",
+   "text": "Other television cameras, digital cameras and video camera recorders"
+  },
+  {
+   "hs6": "852910",
+   "tier": "3.A",
+   "text": "Aerials and aerial reflectors of all kinds; parts suitable for use therewith"
+  },
+  {
+   "hs6": "852990",
+   "tier": "3.A",
+   "text": "Other parts suitable for use solely or principally with the apparatus of headings 8524 to 8528"
+  },
+  {
+   "hs6": "853669",
+   "tier": "3.A",
+   "text": "Plugs and sockets for a voltage not exceeding 1 000 V"
+  },
+  {
+   "hs6": "853690",
+   "tier": "3.A",
+   "text": "Electrical apparatus for switching electrical circuits, or for making connections to or in electrical circuits, for a voltage not exceeding 1000 V (excluding fuses, automatic circuit breakers and other apparatus for protecting electrical circuits, relays and other switches, lamp h olders, plugs and sockets)"
+  },
+  {
+   "hs6": "854110",
+   "tier": "3.A",
+   "text": "Diodes, other than photosensitive or light-emitting diodes (LED)"
+  },
+  {
+   "hs6": "854121",
+   "tier": "3.A",
+   "text": "Transistors, other than photosensitive transistors with a dissipation rate of less than 1 W"
+  },
+  {
+   "hs6": "854129",
+   "tier": "3.A",
+   "text": "Other transistors, other than photosensitive transistors"
+  },
+  {
+   "hs6": "854130",
+   "tier": "3.A",
+   "text": "Thyristors, diacs and triacs (excl. photosensitive semiconductor devices)"
+  },
+  {
+   "hs6": "854149",
+   "tier": "3.A",
+   "text": "Photosensitive semiconductor devices (excl. Photovoltaic generators and cells)"
+  },
+  {
+   "hs6": "854151",
+   "tier": "3.A",
+   "text": "Other semiconductor devices: Semiconductor-based transducers"
+  },
+  {
+   "hs6": "854159",
+   "tier": "3.A",
+   "text": "Other semiconductor devices"
+  },
+  {
+   "hs6": "854160",
+   "tier": "3.A",
+   "text": "Mounted piezo-electric crystals"
+  },
+  {
+   "hs6": "848210",
+   "tier": "3.B",
+   "text": "Ball bearings"
+  },
+  {
+   "hs6": "848220",
+   "tier": "3.B",
+   "text": "Tapered roller bearings, including cone and tapered roller assemblies"
+  },
+  {
+   "hs6": "848230",
+   "tier": "3.B",
+   "text": "Spherical roller bearings"
+  },
+  {
+   "hs6": "848250",
+   "tier": "3.B",
+   "text": "Other cylindrical roller bearings, including cage and roller assemblies"
+  },
+  {
+   "hs6": "880730",
+   "tier": "3.B",
+   "text": "Other parts of aeroplanes, helicopters or unmanned aircraft"
+  },
+  {
+   "hs6": "901310",
+   "tier": "3.B",
+   "text": "Telescopic sights for fitting to arms; periscopes; telescopes designed to form parts of machines, appliances, instruments or apparatus of this chapter or Section XVI"
+  },
+  {
+   "hs6": "901380",
+   "tier": "3.B",
+   "text": "Other optical devices, appliances and instruments"
+  },
+  {
+   "hs6": "901420",
+   "tier": "3.B",
+   "text": "Instruments and appliances for aeronautical or space navigation (other than compasses)"
+  },
+  {
+   "hs6": "901480",
+   "tier": "3.B",
+   "text": "other navigational instruments and appliances"
+  },
+  {
+   "hs6": "847180",
+   "tier": "4.A",
+   "text": "Units for automatic data-processing machines (excl. processing units, input or output units and storage units)"
+  },
+  {
+   "hs6": "848610",
+   "tier": "4.A",
+   "text": "Machines and apparatus for the manufacture of boules or wafers"
+  },
+  {
+   "hs6": "848620",
+   "tier": "4.A",
+   "text": "Machines and apparatus for the manufacture of semiconductor devices or of electronic integrated circuits"
+  },
+  {
+   "hs6": "848640",
+   "tier": "4.A",
+   "text": "Machines and apparatus specified in note 11(C) to this chapter"
+  },
+  {
+   "hs6": "853400",
+   "tier": "4.A",
+   "text": "Printed circuits"
+  },
+  {
+   "hs6": "854320",
+   "tier": "4.A",
+   "text": "Signal generators"
+  },
+  {
+   "hs6": "902750",
+   "tier": "4.A",
+   "text": "Other instruments and apparatus using optical radiations (ultraviolet, visible, infrared)"
+  },
+  {
+   "hs6": "903020",
+   "tier": "4.A",
+   "text": "Oscilloscopes and oscillographs"
+  },
+  {
+   "hs6": "903032",
+   "tier": "4.A",
+   "text": "Multimeters with recording device"
+  },
+  {
+   "hs6": "903039",
+   "tier": "4.A",
+   "text": "Instruments and apparatus for measuring or checking voltage, current, resistance or electrical power, with recording device"
+  },
+  {
+   "hs6": "903082",
+   "tier": "4.A",
+   "text": "Instruments and apparatus for measuring or checking semiconductor wafers or devices"
+  },
+  {
+   "hs6": "845710",
+   "tier": "4.B",
+   "text": "Machining centres for working metal"
+  },
+  {
+   "hs6": "845811",
+   "tier": "4.B",
+   "text": "Horizontal lathes, including turning centres, for removing metal, numerically controlled"
+  },
+  {
+   "hs6": "845891",
+   "tier": "4.B",
+   "text": "Lathes (including turning centres) for removing metal, numerically controlled (excluding horizontal lathes)"
+  },
+  {
+   "hs6": "845961",
+   "tier": "4.B",
+   "text": "Milling machines for metals, numerically controlled (excluding lathes and turning centres of heading 8458, way-type unit head machines, drilling machines, boring-milling machines, boring machines, and knee-type milling machines)"
+  },
+  {
+   "hs6": "846693",
+   "tier": "4.B",
+   "text": "Parts and accessories suitable for use solely or principally with the machines of headings 8456 to 8461, n.e.s."
+  }
+ ],
+ "only_in_commission_list": [],
+ "only_in_annex_xl": []
+}

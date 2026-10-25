@@ -1,0 +1,198 @@
+{
+  "transportDocumentTypeCode": "SWB",
+  "isElectronic": true,
+  "isToOrder": false,
+  "numberOfCopiesWithCharges": 0,
+  "freightPaymentTermCode": "PRE",
+  "isShippedOnBoardType": true,
+  "isHouseBillOfLadingsIssued": false,
+  "invoicePayableAt": {
+    "UNLocationCode": "BRSSZ"
+  },
+  "isCargoDeliveredInICS2Zone": false,
+  "partyContactDetails": [
+    {
+      "name": "DCSA Test Person",
+      "email": "no-reply@dcsa.org"
+    }
+  ],
+  "consignmentItems": [
+    {
+      "carrierBookingReference": "{CBR}",
+      "descriptionOfGoods": [
+        "Refined Soybean Oil"
+      ],
+      "HSCodes": [
+        "15152100"
+      ],
+      "commoditySubReference": "SOY2025REF-BR",
+      "cargoItems": [
+        {
+          "equipmentReference": "MSCU9988776",
+          "cargoGrossWeight": {
+            "value": 12000,
+            "unit": "KGM"
+          },
+          "outerPackaging": {
+            "description": "Steel Drums",
+            "numberOfPackages": 400
+          }
+        }
+      ]
+    }
+  ],
+  "utilizedTransportEquipments": [
+    {
+      "isShipperOwned": false,
+      "equipmentReference": "MSCU9988776",
+      "shippingMarks": [
+        "Made in Brazil",
+        "こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは"
+      ],
+      "seals": [
+        {
+          "number": "NSL13386"
+        }
+      ]
+    }
+  ],
+  "advanceManifestFilings": [
+    {
+      "identificationNumber": "1",
+      "manifestTypeCode": "ENS",
+      "advanceManifestFilingsHouseBLPerformedBy": "SELF",
+      "selfFilerCode": "FLXP"
+    }
+  ],
+  "houseBillOfLadings": [
+    {
+      "houseBillOfLadingReference": "HBOL001",
+      "isToOrder": true,
+      "methodOfPayment": "A",
+      "documentParties": {
+        "shipper": {
+          "partyName": "DCSA CTK",
+          "typeOfPerson": "NATURAL_PERSON"
+        },
+        "notifyParty": {
+          "partyName": "DCSA CTK",
+          "typeOfPerson": "NATURAL_PERSON",
+          "partyContactDetails": [
+            {
+              "name": "DCSA Test Person",
+              "email": "test@test.com"
+            }
+          ]
+        }
+      },
+      "placeOfAcceptance": {
+        "locationName": "Rotterdam",
+        "countryCode": "NL"
+      },
+      "placeOfFinalDelivery": {
+        "locationName": "Hamburg",
+        "countryCode": "DE"
+      },
+      "isCargoDeliveredInICS2Zone": false,
+      "routingOfConsignmentCountries": [
+        "NL",
+        "DE"
+      ],
+      "consignmentItems": [
+        {
+          "carrierBookingReference": "BOOKREQ-HBOL-1234567890123456",
+          "descriptionOfGoods": "Blue Shoes Size 47",
+          "nationalCommodityCode": {
+            "type": "NCM",
+            "countryCode": "BR",
+            "values": [
+              "64041900"
+            ]
+          },
+          "HSCodes": [
+            "64041900"
+          ],
+          "commoditySubReference": "FOOT-BR-B47",
+          "cargoItems": [
+            {
+              "equipmentReference": "MSCU9988776",
+              "cargoGrossWeight": {
+                "value": 12000,
+                "unit": "KGM"
+              },
+              "outerPackaging": {
+                "packageCode": "SH",
+                "numberOfPackages": 400
+              }
+            }
+          ]
+        }
+      ],
+      "utilizedTransportEquipments": [
+        {
+          "isShipperOwned": false,
+          "equipmentReference": "MSCU9988776",
+          "ISOEquipmentCode": "42G0",
+          "emptyIndicatorCode": "LADEN"
+        }
+      ]
+    }
+  ],
+  "documentParties": {
+    "shipper": {
+      "partyName": "DCSA CTK",
+      "reference": "SI-REF-1234",
+      "partyContactDetails": [
+        {
+          "name": "DCSA Test Person",
+          "email": "no-reply@dcsa.org"
+        }
+      ],
+      "address": {
+        "street": "Ruijggoordweg",
+        "city": "Amsterdam",
+        "countryCode": "NL"
+      }
+    },
+    "issueTo": {
+      "partyName": "DCSA CTK",
+      "identifyingCodes": [
+        {
+          "codeListProvider": "W3C",
+          "codeListName": "DID",
+          "partyCode": "123456789abcdefghi"
+        }
+      ],
+      "partyContactDetails": [
+        {
+          "name": "DCSA Test Person",
+          "email": "no-reply@dcsa.org"
+        }
+      ]
+    },
+    "consignee": {
+      "partyName": "Global Retail Imports",
+      "identifyingCodes": [
+        {
+          "codeListProvider": "GLEIF",
+          "codeListName": "LEI",
+          "partyCode": "111100T8BM49ADCSAO64"
+        }
+      ],
+      "partyContactDetails": [
+        {
+          "name": "Consignee Contact",
+          "email": "final@dcsa.org"
+        }
+      ],
+      "address": {
+        "street": "Consignee Street 1",
+        "city": "Singapore",
+        "countryCode": "SG"
+      }
+    }
+  },
+  "requestedCarrierClauses": [
+    "CARGO_CARGOSPECIFICS"
+  ]
+}

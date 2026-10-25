@@ -1,0 +1,1319 @@
+{
+ "captured_at": "2026-10-24T19:29:52Z",
+ "source": "https://sales.app.redkik.com/api/v2/apidoc/doc/quoteservice.json",
+ "paths": {
+  "/api/v2/quote/quotes/quote": {
+   "post": {
+    "operationId": "quotesQuote",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "array",
+         "items": {
+          "$ref": "#/components/schemas/OfferResponse"
+         }
+        }
+       }
+      },
+      "description": "Success"
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Unauthorized"
+        }
+       }
+      },
+      "description": "Unauthorized"
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Forbidden"
+        }
+       }
+      },
+      "description": "Forbidden"
+     }
+    },
+    "security": [
+     {
+      "bearerAuth": []
+     }
+    ],
+    "parameters": [],
+    "requestBody": {
+     "required": false,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/QuoteRequest"
+       }
+      }
+     }
+    },
+    "tags": [
+     "QuoteController"
+    ]
+   }
+  },
+  "/api/v2/quote/bookings/purchase": {
+   "post": {
+    "operationId": "bookingsPurchase",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/BookingDto"
+        }
+       }
+      },
+      "description": "Success"
+     },
+     "400": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ControllerError"
+        }
+       }
+      },
+      "description": "Faulty offerId"
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Unauthorized"
+        }
+       }
+      },
+      "description": "Unauthorized"
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Forbidden"
+        }
+       }
+      },
+      "description": "Forbidden"
+     },
+     "404": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ControllerError"
+        }
+       }
+      },
+      "description": "Not Found"
+     }
+    },
+    "security": [
+     {
+      "bearerAuth": []
+     }
+    ],
+    "parameters": [],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "multipart/form-data": {
+       "schema": {
+        "properties": {
+         "offerId": {
+          "type": "string",
+          "minLength": 1
+         },
+         "addonOptions": {
+          "type": "array",
+          "items": {
+           "oneOf": [
+            {
+             "type": "integer",
+             "multipleOf": 1
+            },
+            {
+             "type": "number"
+            },
+            {
+             "type": "string"
+            },
+            {
+             "type": "boolean"
+            },
+            {
+             "type": "array"
+            },
+            {
+             "type": "object"
+            }
+           ],
+           "nullable": true
+          }
+         },
+         "metadata": {
+          "type": "object",
+          "additionalProperties": true
+         },
+         "documents": {
+          "type": "array",
+          "items": {
+           "type": "string",
+           "format": "binary"
+          }
+         }
+        },
+        "type": "object",
+        "required": [
+         "offerId"
+        ]
+       }
+      }
+     }
+    },
+    "tags": [
+     "BookingController"
+    ]
+   }
+  },
+  "/api/v2/quote/bookings/{id}/certificate": {
+   "get": {
+    "operationId": "bookingsGetBookingCertificate",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "string"
+        }
+       },
+       ".pdf": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      },
+      "description": "Success"
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Unauthorized"
+        }
+       }
+      },
+      "description": "Unauthorized"
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Forbidden"
+        }
+       }
+      },
+      "description": "Forbidden"
+     }
+    },
+    "security": [],
+    "parameters": [
+     {
+      "in": "path",
+      "name": "id",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "tags": [
+     "BookingController"
+    ]
+   }
+  },
+  "/api/v2/quote/bookings/{id}/cancel": {
+   "patch": {
+    "operationId": "bookingsCancel",
+    "responses": {
+     "200": {
+      "content": {
+       "*/*": {
+        "schema": {
+         "type": "boolean"
+        }
+       }
+      },
+      "description": "Success"
+     },
+     "400": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/BadRequest"
+        }
+       }
+      },
+      "description": "Invalid booking"
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Unauthorized"
+        }
+       }
+      },
+      "description": "Unauthorized"
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Forbidden"
+        }
+       }
+      },
+      "description": "Forbidden"
+     }
+    },
+    "security": [
+     {
+      "bearerAuth": []
+     }
+    ],
+    "parameters": [
+     {
+      "in": "path",
+      "name": "id",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "tags": [
+     "BookingController"
+    ]
+   }
+  },
+  "/api/v2/quote/commodities/search": {
+   "get": {
+    "operationId": "commoditiesSearch",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "array",
+         "items": {
+          "$ref": "#/components/schemas/IdentifierAndName"
+         }
+        }
+       }
+      },
+      "description": "Success"
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Unauthorized"
+        }
+       }
+      },
+      "description": "Unauthorized"
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Forbidden"
+        }
+       }
+      },
+      "description": "Forbidden"
+     }
+    },
+    "security": [],
+    "parameters": [
+     {
+      "in": "query",
+      "name": "query",
+      "required": false,
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "in": "query",
+      "name": "commodityGroupId",
+      "required": false,
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "in": "query",
+      "name": "commodityGroupIds",
+      "required": false,
+      "schema": {
+       "type": "array",
+       "items": {
+        "nullable": true,
+        "oneOf": [
+         {
+          "type": "integer"
+         },
+         {
+          "type": "number"
+         },
+         {
+          "type": "string"
+         },
+         {
+          "type": "boolean"
+         },
+         {
+          "type": "array"
+         },
+         {
+          "type": "object"
+         }
+        ]
+       }
+      }
+     },
+     {
+      "in": "query",
+      "name": "take",
+      "required": false,
+      "schema": {
+       "type": "number"
+      }
+     }
+    ],
+    "tags": [
+     "CommodityController"
+    ]
+   }
+  }
+ },
+ "schemas": {
+  "QuoteRequest": {
+   "type": "object",
+   "properties": {
+    "commodities": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/QuoteRequestCommodity"
+     },
+     "description": "Commodities in the shipment"
+    },
+    "commodityDescription": {
+     "type": "string",
+     "description": "Full description of the shipment"
+    },
+    "CIFMarkup": {
+     "type": "number",
+     "description": "CIF markup percentage"
+    },
+    "freightAndOtherExpenses": {
+     "type": "number",
+     "description": "Freight and other expenses"
+    },
+    "trackingCode": {
+     "type": "string"
+    },
+    "marksNumbers": {
+     "type": "string"
+    },
+    "letterOfCredit": {
+     "type": "string"
+    },
+    "voyageNumber": {
+     "type": "string"
+    },
+    "origin": {
+     "$ref": "#/components/schemas/QuoteRequestAddress"
+    },
+    "originType": {
+     "type": "string",
+     "enum": [
+      "ADDRESS",
+      "IATA",
+      "LOCODE",
+      "CITY",
+      "FREETEXT",
+      "WAREHOUSE"
+     ],
+     "example": "ADDRESS",
+     "description": "Specify a special type for origin address, Redkik will perform post processing based on the formatted value"
+    },
+    "destination": {
+     "$ref": "#/components/schemas/QuoteRequestAddress"
+    },
+    "destinationType": {
+     "type": "string",
+     "enum": [
+      "ADDRESS",
+      "IATA",
+      "LOCODE",
+      "CITY",
+      "FREETEXT",
+      "WAREHOUSE"
+     ],
+     "example": "ADDRESS",
+     "description": "Specify a special type for destination address, Redkik will perform post processing based on the formatted value"
+    },
+    "startDate": {
+     "type": "string",
+     "example": "2023-01-01T00:00:00Z",
+     "description": "Start date and time of the insurance cover, omitting timezone information will default to servers timezone",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "endDate": {
+     "type": "string",
+     "example": "2023-01-01T00:00:00Z",
+     "description": "End date and time of the insurance cover, omitting timezone information will default to servers timezone",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "conveyanceType": {
+     "type": "string",
+     "enum": [
+      "SEA",
+      "AIR",
+      "ROAD",
+      "RAIL",
+      "ALL",
+      "LAND"
+     ],
+     "example": "ROAD",
+     "description": "Mode of transport for this journey leg"
+    },
+    "conveyanceDescriptor": {
+     "type": "string",
+     "example": "redkik:conveyanceDescriptors.sea.underDeck",
+     "description": "Descriptor for transport mode",
+     "enum": [
+      "redkik:conveyanceDescriptors.sea.underDeck",
+      "redkik:conveyanceDescriptors.sea.onDeck",
+      "redkik:conveyanceDescriptors.sea.openTop",
+      "redkik:conveyanceDescriptors.sea.flatRack",
+      "redkik:conveyanceDescriptors.sea.roro",
+      "redkik:conveyanceDescriptors.sea.roroOnDeck",
+      "redkik:conveyanceDescriptors.sea.fcl",
+      "redkik:conveyanceDescriptors.sea.lcl",
+      "redkik:conveyanceDescriptors.sea.barge",
+      "redkik:conveyanceDescriptors.sea.tow",
+      "redkik:conveyanceDescriptors.sea.breakbulk",
+      "redkik:conveyanceDescriptors.sea.bulk",
+      "redkik:conveyanceDescriptors.air.international",
+      "redkik:conveyanceDescriptors.air.domestic",
+      "redkik:conveyanceDescriptors.road.enclosed",
+      "redkik:conveyanceDescriptors.road.enclosedFullTrailerLoad",
+      "redkik:conveyanceDescriptors.road.enclosedGroupageLoad",
+      "redkik:conveyanceDescriptors.road.enclosedLessThanTrailerLoad",
+      "redkik:conveyanceDescriptors.road.flatbed",
+      "redkik:conveyanceDescriptors.road.refrigerated",
+      "redkik:conveyanceDescriptors.road.parcelPost",
+      "redkik:conveyanceDescriptors.rail.boxcar",
+      "redkik:conveyanceDescriptors.rail.flatcar",
+      "redkik:conveyanceDescriptors.rail.intermodalOrContainerWagon",
+      "redkik:conveyanceDescriptors.rail.hopperWagonOpen",
+      "redkik:conveyanceDescriptors.rail.hopperWagonCovered",
+      "redkik:conveyanceDescriptors.rail.gondola",
+      "redkik:conveyanceDescriptors.rail.tanker",
+      "redkik:conveyanceDescriptors.rail.autorack",
+      "redkik:conveyanceDescriptors.rail.coilCar",
+      "redkik:conveyanceDescriptors.rail.reefer"
+     ]
+    },
+    "loadingSpace": {
+     "type": "string",
+     "description": "Identifier for searching exitSpaceId, used if id is not given"
+    },
+    "loadingSpaceType": {
+     "type": "string",
+     "enum": [
+      "PORT_LOCODE",
+      "AIRPORT_IATA",
+      "AIRPORT_ICAO",
+      "VESSEL_IMO",
+      "VESSEL_MMSI",
+      "FLIGHT_IATA",
+      "FLIGHT_ICAO"
+     ],
+     "description": "Identifier type for searching exitSpaceId, used if id is not given"
+    },
+    "dischargeSpace": {
+     "type": "string",
+     "description": "Identifier for searching entrySpaceId, used if id is not given"
+    },
+    "dischargeSpaceType": {
+     "type": "string",
+     "enum": [
+      "PORT_LOCODE",
+      "AIRPORT_IATA",
+      "AIRPORT_ICAO",
+      "VESSEL_IMO",
+      "VESSEL_MMSI",
+      "FLIGHT_IATA",
+      "FLIGHT_ICAO"
+     ],
+     "description": "Identifier type for searching entrySpaceId, used if id is not given"
+    },
+    "conveyanceSpace": {
+     "type": "string",
+     "description": "Identifier for searching conveyanceSpaceId, used if id is not given"
+    },
+    "conveyanceSpaceType": {
+     "type": "string",
+     "enum": [
+      "PORT_LOCODE",
+      "AIRPORT_IATA",
+      "AIRPORT_ICAO",
+      "VESSEL_IMO",
+      "VESSEL_MMSI",
+      "FLIGHT_IATA",
+      "FLIGHT_ICAO"
+     ],
+     "description": "Identifier type for searching conveyanceSpaceId, used if id is not given"
+    },
+    "unableToFindVessel": {
+     "type": "boolean",
+     "description": "Set to true when the vessel cannot be found by identifier. Skips conveyanceSpace lookup entirely and uses customVesselName instead"
+    },
+    "customVesselName": {
+     "type": "string",
+     "example": "MV Example Carrier",
+     "description": "Manually entered vessel name, used when unableToFindVessel is true. Ignored otherwise"
+    },
+    "bookingFee": {
+     "type": "number"
+    },
+    "bookingFeeType": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "PERCENT",
+        "FLAT_FEE"
+       ]
+      },
+      {
+       "type": "number"
+      }
+     ],
+     "example": "PERCENT"
+    },
+    "beneficiary": {
+     "type": "string"
+    },
+    "customerId": {
+     "type": "string",
+     "format": "uuid",
+     "description": "ID of a previously submitted customer to use"
+    },
+    "customer": {
+     "$ref": "#/components/schemas/QuoteRequestCustomer"
+    },
+    "consigneeId": {
+     "type": "string",
+     "format": "uuid",
+     "description": "ID of a previously submitted consignee to use"
+    },
+    "consignee": {
+     "$ref": "#/components/schemas/QuoteRequestConsignee"
+    },
+    "policyId": {
+     "type": "string",
+     "description": "ID of an assigned policy to quote against, if only one policy is assigned this can be omitted"
+    },
+    "policyIds": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "ID of an assigned policy to quote against, if only one policy is assigned this can be omitted"
+    },
+    "coverType": {
+     "type": "string",
+     "description": "Selected type of coverage"
+    },
+    "organizationId": {
+     "type": "string",
+     "format": "uuid",
+     "description": "ID of a sub organization when quoting on behalf of"
+    },
+    "courier": {
+     "type": "string",
+     "description": "Courier moving the shipment"
+    },
+    "additionalFields": {
+     "type": "object",
+     "description": "Additional fields e.g { \"costCenter\": \"FL\" }",
+     "additionalProperties": true
+    },
+    "originFormatted": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15, Joensuu 80110, FI",
+     "description": "Full origin address for the covered load, if omitted individual address components are required"
+    },
+    "originStreet": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15",
+     "description": "Street component of the origin address for the covered load, if omitted formatted address is required"
+    },
+    "originState": {
+     "type": "string",
+     "deprecated": true,
+     "description": "State component of the origin address for the covered load"
+    },
+    "originPostcode": {
+     "type": "string",
+     "deprecated": true,
+     "example": "80110",
+     "description": "Postcode component of the origin address for the covered load, if omitted formatted address is required"
+    },
+    "originCity": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Joensuu",
+     "description": "City component of the origin address for the covered load, if omitted formatted address is required"
+    },
+    "originCountry": {
+     "type": "string",
+     "deprecated": true,
+     "example": "FI",
+     "description": "Country component of the origin address for the covered load, if omitted formatted address is required"
+    },
+    "destinationFormatted": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15, Joensuu 80110, FI",
+     "description": "Full destination address for the covered load, if omitted individual address components are required"
+    },
+    "destinationStreet": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15",
+     "description": "Street component of the destination address for the covered load, if omitted formatted address is required"
+    },
+    "destinationState": {
+     "type": "string",
+     "deprecated": true,
+     "description": "State component of the destination address for the covered load"
+    },
+    "destinationPostcode": {
+     "type": "string",
+     "deprecated": true,
+     "example": "80110",
+     "description": "Postcode component of the destination address for the covered load, if omitted formatted address is required"
+    },
+    "destinationCity": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Joensuu",
+     "description": "City component of the destination address for the covered load, if omitted formatted address is required"
+    },
+    "destinationCountry": {
+     "type": "string",
+     "deprecated": true,
+     "example": "FI",
+     "description": "Country component of the destination address for the covered load, if omitted formatted address is required"
+    },
+    "transportType": {
+     "type": "number",
+     "deprecated": true,
+     "description": "Deprecated: Use conveyanceType instead"
+    },
+    "courierId": {
+     "type": "string",
+     "description": "ID for the courier moving the shipment",
+     "deprecated": true,
+     "format": "uuid"
+    },
+    "exitSpaceId": {
+     "type": "string",
+     "description": "ID for the port of loading,  use loadingSpace and loadingSpaceType instead",
+     "format": "uuid",
+     "deprecated": true
+    },
+    "entrySpaceId": {
+     "type": "string",
+     "description": "ID for the port of discharge, use dischargeSpace and dischargeSpaceType instead",
+     "format": "uuid",
+     "deprecated": true
+    },
+    "conveyanceSpaceId": {
+     "type": "string",
+     "description": "ID for the vessel/flight, use conveyanceSpace and conveyanceSpaceType instead",
+     "format": "uuid",
+     "deprecated": true
+    },
+    "exitPort": {
+     "type": "string",
+     "description": "Use exitSpaceId instead",
+     "deprecated": true
+    },
+    "entryPort": {
+     "type": "string",
+     "description": "Use entrySpaceId instead",
+     "deprecated": true
+    },
+    "vessel": {
+     "type": "string",
+     "description": "Use conveyanceSpaceId instead",
+     "deprecated": true
+    },
+    "customerType": {
+     "deprecated": true,
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "BUSINESS",
+        "INDIVIDUAL"
+       ]
+      },
+      {
+       "type": "number"
+      }
+     ],
+     "example": "BUSINESS",
+     "description": "Describes the type of customer, required if customerId omitted"
+    },
+    "customerOrganization": {
+     "type": "string",
+     "deprecated": true,
+     "description": "The name of the organization/business, required if customerType is BUSINESS"
+    },
+    "customerTaxId": {
+     "type": "string",
+     "description": "The tax ID of the organization/business",
+     "deprecated": true
+    },
+    "customerForename": {
+     "type": "string",
+     "description": "The forename/first name of the individual, required if customerType is INDIVIDUAL",
+     "deprecated": true
+    },
+    "customerSurname": {
+     "type": "string",
+     "description": "The surname/last name of the individual, required if customerType is INDIVIDUAL",
+     "deprecated": true
+    },
+    "customerEmail": {
+     "type": "string",
+     "deprecated": true,
+     "description": "The email address of the customer, required if customerId omitted"
+    },
+    "customerAdditionalEmail": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "deprecated": true,
+     "description": "Additional email addresses of the customer, these can be used to send certain emails to relevant people"
+    },
+    "customerPhone": {
+     "type": "string",
+     "deprecated": true,
+     "description": "The phone number of the customer"
+    },
+    "customerFormatted": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15, Joensuu 80110, FI",
+     "description": "Full address for the customer, if omitted individual address components are required"
+    },
+    "customerStreet": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Länsikatu 15",
+     "description": "Street component of the customer's address, if omitted formatted address is required"
+    },
+    "customerCity": {
+     "type": "string",
+     "deprecated": true,
+     "example": "Joensuu",
+     "description": "City component of the customer's address, if omitted formatted address is required"
+    },
+    "customerState": {
+     "type": "string",
+     "deprecated": true,
+     "description": "State component of the customer's address"
+    },
+    "customerPostcode": {
+     "type": "string",
+     "deprecated": true,
+     "example": "80110",
+     "description": "Postcode component of the customer's address, if omitted formatted address is required"
+    },
+    "customerCountry": {
+     "type": "string",
+     "deprecated": true,
+     "example": "FI",
+     "description": "Country component of the customer's address, if omitted formatted address is required"
+    },
+    "customerReference": {
+     "type": "string",
+     "description": "A custom reference for the customer",
+     "deprecated": true
+    },
+    "metadata": {
+     "type": "object",
+     "additionalProperties": true
+    }
+   },
+   "required": [
+    "commodities",
+    "startDate",
+    "endDate"
+   ]
+  },
+  "QuoteRequestCommodity": {
+   "type": "object",
+   "properties": {
+    "commodityId": {
+     "type": "string",
+     "format": "uuid",
+     "description": "Commodity ID provided by Redkik",
+     "minLength": 1
+    },
+    "insuredValue": {
+     "type": "number",
+     "description": "Insured value of the commodity",
+     "format": "isNotBlank"
+    },
+    "dutyValue": {
+     "type": "number",
+     "description": "Duty value of the commodity"
+    },
+    "currencyId": {
+     "type": "string",
+     "example": "EUR",
+     "description": "Currency ID of the insured value, falls back to policy's currency if omitted"
+    }
+   },
+   "required": [
+    "commodityId",
+    "insuredValue"
+   ]
+  },
+  "QuoteRequestAddress": {
+   "type": "object",
+   "properties": {
+    "formatted": {
+     "type": "string",
+     "example": "Länsikatu 15, Joensuu 80110, FI",
+     "description": "Full address, if omitted individual address components are required"
+    },
+    "street": {
+     "type": "string",
+     "example": "Länsikatu",
+     "description": "Street component of the address, if omitted formatted address is required"
+    },
+    "houseNumber": {
+     "type": "string",
+     "example": "15",
+     "description": "House number component of the address, if omitted formatted address is required"
+    },
+    "city": {
+     "type": "string",
+     "example": "Joensuu",
+     "description": "City component of the address, if omitted formatted address is required"
+    },
+    "state": {
+     "type": "string",
+     "description": "State component of the address"
+    },
+    "postcode": {
+     "type": "string",
+     "example": "80110",
+     "description": "Postcode component of the address, if omitted formatted address is required"
+    },
+    "country": {
+     "type": "string",
+     "example": "FI",
+     "description": "Country component of the address, if omitted formatted address is required"
+    }
+   }
+  },
+  "QuoteRequestCustomer": {
+   "type": "object",
+   "properties": {
+    "address": {
+     "$ref": "#/components/schemas/QuoteRequestAddress"
+    },
+    "type": {
+     "format": "isNotBlank",
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "BUSINESS",
+        "INDIVIDUAL"
+       ]
+      }
+     ],
+     "example": "BUSINESS",
+     "description": "Describes the type of customer",
+     "minLength": 1
+    },
+    "businessName": {
+     "type": "string",
+     "description": "The name of the organization/business"
+    },
+    "taxId": {
+     "type": "string",
+     "description": "The tax ID of the organization/business"
+    },
+    "individualFirstName": {
+     "type": "string",
+     "description": "The forename/first name of the customer"
+    },
+    "individualLastName": {
+     "type": "string",
+     "description": "The surname/last name of the customer"
+    },
+    "email": {
+     "type": "string",
+     "description": "The email address of the customer"
+    },
+    "additionalEmail": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "The additional email addresses of the customer"
+    },
+    "phone": {
+     "type": "string",
+     "description": "The phone number of the customer"
+    },
+    "reference": {
+     "type": "string",
+     "description": "A custom reference for the customer"
+    }
+   },
+   "required": [
+    "address",
+    "type"
+   ]
+  },
+  "OfferResponse": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "insurerPremium": {
+     "type": "number",
+     "description": "Total cost for the insurance, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "technologyFee": {
+     "type": "number",
+     "description": "Total technology fee, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "bookingFee": {
+     "type": "number",
+     "description": "Total booking fee, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "insurerPremiumTax": {
+     "type": "number",
+     "description": "Total tax for the insurance, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "technologyFeeTax": {
+     "type": "number",
+     "description": "Total tax for technology fee, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "bookingFeeTax": {
+     "type": "number",
+     "description": "Total tax for booking fee, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "totalCost": {
+     "type": "number",
+     "description": "Sum of all costs and taxes, stored as whole number, IE cents",
+     "format": "isNotBlank"
+    },
+    "accepted": {
+     "type": "boolean",
+     "description": "If the offer was accepted by the policy, or if amendments are required",
+     "format": "isNotBlank"
+    },
+    "amendments": {
+     "type": "array",
+     "items": {
+      "format": "isNotBlank"
+     },
+     "example": [
+      "redkik:quote.errors.maxInsuredExceeded"
+     ],
+     "description": "List of amendments needed to make the offer accepted"
+    },
+    "currencySymbol": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "currencyDecimalPlaces": {
+     "type": "number",
+     "format": "isNotBlank"
+    },
+    "currencyDivisionModifier": {
+     "type": "number",
+     "format": "isNotBlank"
+    },
+    "lineItems": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/OfferLineItemDto"
+     }
+    },
+    "addons": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/SolvedModifierDto"
+     }
+    },
+    "deductibles": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/Deductible"
+     }
+    },
+    "clauses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/ClauseDto"
+     }
+    },
+    "sanctionSources": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "id",
+    "insurerPremium",
+    "technologyFee",
+    "bookingFee",
+    "insurerPremiumTax",
+    "technologyFeeTax",
+    "bookingFeeTax",
+    "totalCost",
+    "accepted",
+    "amendments",
+    "currencySymbol",
+    "currencyDecimalPlaces",
+    "currencyDivisionModifier",
+    "clauses"
+   ]
+  },
+  "BookingDto": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string",
+     "format": "uuid",
+     "minLength": 1
+    },
+    "reference": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "paymentUrl": {
+     "type": "string"
+    },
+    "riskId": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "status": {
+     "type": "object",
+     "format": "isNotBlank",
+     "enum": [
+      "PENDING",
+      "ACTIVE",
+      "CANCELLED",
+      "COMPLETE",
+      "AWAITING_PAYMENT",
+      "PAYMENT_FAILED",
+      "AWAITING_APPROVAL"
+     ]
+    },
+    "organizationId": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "statusAt": {
+     "type": "string",
+     "format": "isNotBlank",
+     "minLength": 1
+    },
+    "createdAt": {
+     "type": "string"
+    },
+    "risk": {
+     "$ref": "#/components/schemas/RiskDto"
+    },
+    "offer": {
+     "$ref": "#/components/schemas/OfferDto"
+    },
+    "events": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/BookingEventDto"
+     }
+    },
+    "documents": {
+     "type": "array",
+     "items": {
+      "$ref": "#/components/schemas/BookingDocumentDto"
+     }
+    }
+   },
+   "required": [
+    "id",
+    "reference",
+    "riskId",
+    "status",
+    "organizationId",
+    "statusAt",
+    "risk",
+    "offer",
+    "events"
+   ]
+  },
+  "Deductible": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "value": {
+     "type": "number"
+    },
+    "formulaValue": {
+     "type": "number"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "PERCENTAGE",
+      "FLAT_FEE"
+     ]
+    },
+    "label": {
+     "type": "string"
+    }
+   }
+  },
+  "ClauseDto": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string",
+     "format": "uuid",
+     "minLength": 1
+    },
+    "name": {
+     "type": "string",
+     "minLength": 1
+    },
+    "wording": {
+     "type": "string"
+    },
+    "versionReference": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "name"
+   ]
+  },
+  "OfferLineItemDto": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "object",
+     "enum": [
+      "redkik:lineItems.insurerPremium",
+      "redkik:lineItems.premiumFillUp",
+      "redkik:lineItems.technologyFee",
+      "redkik:lineItems.bookingFee",
+      "redkik:booking.field.combinedFee",
+      "redkik:booking.field.totalCost",
+      "redkik:lineItems.insurerPremiumTax",
+      "redkik:lineItems.technologyFeeTax",
+      "redkik:lineItems.bookingFeeTax"
+     ]
+    },
+    "type": {
+     "type": "object",
+     "enum": [
+      "INSURANCE",
+      "FEE",
+      "TAX",
+      "TOTAL"
+     ]
+    },
+    "taxType": {
+     "type": "object",
+     "enum": [
+      "IPT",
+      "IOF",
+      "VAT",
+      "CITY_TAX",
+      "FEDERAL",
+      "REVENUE",
+      "INDIRECT_TAX",
+      "INSURANCE_OMBUDSMAN_CONTRIBUTION",
+      "GST",
+      "REVERSE_CHARGE_VAT",
+      "SURPLUS_LINES"
+     ]
+    },
+    "taxRate": {
+     "type": "number"
+    },
+    "amount": {
+     "type": "number"
+    }
+   },
+   "required": [
+    "name",
+    "type",
+    "amount"
+   ]
+  }
+ }
+}

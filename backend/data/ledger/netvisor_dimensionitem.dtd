@@ -1,0 +1,22 @@
+﻿<!ELEMENT root (dimensionitem)>
+  <!ELEMENT dimensionitem (name, item?, code?, label?, olditem?, oldcode?, oldlabel?, integrationdimensiondetailguid?, fatherid?, fatheritem?, fathercode?, fatherlabel?, integrationdimensiondetailfatherguid?, ishidden?, activityperiodstart?, activityperiodend?, metadata*)>
+    <!ELEMENT metadata (data, type?)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT olditem (#PCDATA)>
+<!ELEMENT oldcode (#PCDATA)>
+<!ELEMENT oldlabel (#PCDATA)>
+<!ELEMENT integrationdimensiondetailguid (#PCDATA)>
+<!ELEMENT fatherid (#PCDATA)>
+<!ELEMENT fatheritem (#PCDATA)>
+<!ELEMENT fathercode (#PCDATA)>
+<!ELEMENT fatherlabel (#PCDATA)>
+<!ELEMENT integrationdimensiondetailfatherguid (#PCDATA)>
+<!ELEMENT ishidden (#PCDATA)>
+<!ELEMENT activityperiodstart (#PCDATA)>
+<!ELEMENT activityperiodend (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT type (#PCDATA)>

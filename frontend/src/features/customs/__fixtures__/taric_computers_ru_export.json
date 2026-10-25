@@ -1,0 +1,1754 @@
+{
+ "cache": {
+  "cached_at": "2026-10-24T21:30:25Z",
+  "hit": false
+ },
+ "country": "RU",
+ "date": "2026-10-24",
+ "declarable": true,
+ "fetched_at": "2026-10-24T21:30:25Z",
+ "flow": "export",
+ "goods_code": "8471300000",
+ "known_code": true,
+ "measures": [
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X060": "Individual Export Authorisation - Article 12(1)(a) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X061": "Union General Export Authorisation No EU001 - ANNEX II A - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X062": "Union General Export Authorisation No EU002 - ANNEX II B - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X063": "Union General Export Authorisation No EU003 - ANNEX II C - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X064": "Union General Export Authorisation No EU004 - ANNEX II D - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X065": "Union General Export Authorisation No EU005 - ANNEX II E - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X066": "Union General Export Authorisation No EU006 - ANNEX II F - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X067": "Union General Export Authorisation No EU007 - ANNEX II G - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X068": "Union General Export Authorisation No EU008 - ANNEX II H - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X070": "Global Export Authorisation - referred to in Article 12(1)(b) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X071": "National General Export Authorisations in national Official Journals - ANNEX III C - referred to in Article 12(6) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "Y901": "Product not included in the dual use list"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X060",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Individual Export Authorisation - Article 12(1)(a) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X061",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Union General Export Authorisation No EU001 - ANNEX II A - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X062",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "Union General Export Authorisation No EU002 - ANNEX II B - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X063",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 15,
+     "text": "Union General Export Authorisation No EU003 - ANNEX II C - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X064",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Union General Export Authorisation No EU004 - ANNEX II D - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X065",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 25,
+     "text": "Union General Export Authorisation No EU005 - ANNEX II E - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X066",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 30,
+     "text": "Union General Export Authorisation No EU006 - ANNEX II F - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X067",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 35,
+     "text": "Union General Export Authorisation No EU007 - ANNEX II G - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X068",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 40,
+     "text": "Union General Export Authorisation No EU008 - ANNEX II H - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X070",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 45,
+     "text": "Global Export Authorisation - referred to in Article 12(1)(b) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X071",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 50,
+     "text": "National General Export Authorisations in national Official Journals - ANNEX III C - referred to in Article 12(6) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y901",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": "Product not included in the dual use list"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 99,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4196454&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "export",
+   "footnotes": [
+    {
+     "code": "CD464",
+     "text": "If the goods declared are described in footnote \"DU\" linked to the measure, an export authorisation must be presented according to Regulation (EU) 2021/821 of the European Parliament and of the Council and its amendments."
+    },
+    {
+     "code": "DU216",
+     "text": "Goods 4A001 from the dual use list."
+    },
+    {
+     "code": "DU220",
+     "text": "Goods 4A005 from the dual use list."
+    },
+    {
+     "code": "DU222",
+     "text": "Goods 4A101 from the dual use list."
+    },
+    {
+     "code": "DU223",
+     "text": "Goods 4A102 from the dual use list."
+    },
+    {
+     "code": "DU229",
+     "text": "Goods 5A002 from the dual use list."
+    },
+    {
+     "code": "DU280",
+     "text": "Goods 7A004 from the dual use list."
+    },
+    {
+     "code": "DU435",
+     "text": "Goods 4A003b from the dual use list."
+    },
+    {
+     "code": "DU635",
+     "text": "Goods 9A116d from the dual use list."
+    },
+    {
+     "code": "DU694",
+     "text": "Goods 5A001j from the dual use list."
+    },
+    {
+     "code": "DU703",
+     "text": "Goods 5A003 from the dual use list."
+    },
+    {
+     "code": "DU704",
+     "text": "Goods 5A004 from the dual use list."
+    },
+    {
+     "code": "DU705",
+     "text": "Goods 3A002h from the dual use list."
+    },
+    {
+     "code": "DU754",
+     "text": "Goods 3A502 from the dual use list."
+    },
+    {
+     "code": "DU763",
+     "text": "Goods 4A506 from the dual use list."
+    },
+    {
+     "code": "DU764",
+     "text": "Goods 4A507 from the dual use list."
+    }
+   ],
+   "geo_code": "1008",
+   "geo_group": true,
+   "geo_name": "All third countries",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R2003/25",
+   "regulation_id": "R2520031",
+   "regulation_role": "4",
+   "sid": "4196454",
+   "start": "2025-11-15",
+   "type": "Export authorization (Dual use)",
+   "type_code": "478",
+   "type_code_candidates": [
+    "478"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "C052": "Export authorisation for restricted goods and technologies",
+    "Y920": "Goods other than those described in the footnotes linked to the measure"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y920",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those described in the footnotes linked to the measure"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "C052",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "Export authorisation for restricted goods and technologies"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4065020&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "export",
+   "footnotes": [
+    {
+     "code": "CD800",
+     "text": "The competent authorities of the Member States, as listed in Annex III, may authorise, under such conditions as they deem appropriate, the sale, supply, transfer or export of equipment which might be used for internal repression as listed in Annex I provided that it is intended solely for the protective use of the personnel of the Union and its Member States"
+    },
+    {
+     "code": "CD994",
+     "text": "If the declared goods are referred to in the footnotes linked to the measure an export/import authorisation must be presented."
+    },
+    {
+     "code": "TM631",
+     "text": "Simulators, other than those controlled by ML 14 of the EU Common Military List, for training in the use of firearms, and specially designed software therefor.(see TM 637)"
+    },
+    {
+     "code": "TM637",
+     "text": "Common Military List of the European Union Union (adopted by the Council on 9 February 2015) (equipment covered by Council Common Position 2008/944/CFSP defining common rules governing the control of exports of military technology and equipment) (2015/C 129/01)."
+    },
+    {
+     "code": "TM934",
+     "text": "It is prohibited to sell, supply, transfer or export, directly or indirectly, the equipment, technology and software listed in Annex II, whether or not originating in the Union, to any person, entity or body in, or for use in, Venezuela without the prior authorisation of the competent authority of the Member State concerned, as identified on the websites listed in Annex III (Article 6 (1) of Council Regulation (EU) 2017/2063)."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_group": false,
+   "geo_name": "Russian Federation",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R1485/24",
+   "regulation_id": "R2414850",
+   "regulation_role": "1",
+   "sid": "4065020",
+   "start": "2024-06-04",
+   "type": "Export authorization",
+   "type_code": "473",
+   "type_code_candidates": [
+    "473"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X817": "Export authorisation by virtue of article 3f 4. of Council Regulation (EU) 833/2014",
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "Y815": "Goods other than those concerned by the prohibitions defined in article 3f paragraph 1 of Regulation (EU) No 833/2014",
+    "Y816": "The prohibitions defined in article 3f paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3f paragraph 3)"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y815",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those concerned by the prohibitions defined in article 3f paragraph 1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y816",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "The prohibitions defined in article 3f paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3f paragraph 3)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X817",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": "Export authorisation by virtue of article 3f 4. of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 71,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3992053&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "export",
+   "footnotes": [
+    {
+     "code": "CD862",
+     "text": "It shall be prohibited to sell, supply, transfe or export, directlyor indirectly, maritime navigation goods and technology, as listed in Annex XVI whether or not originating in the Union, to any natural or legal person, entity or body in Russia, for use in Russia, or for the placing on board of a Russian-flagged vessel."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_group": false,
+   "geo_name": "Russian Federation",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "regulation_id": "R1408337",
+   "regulation_role": "1",
+   "sid": "3992053",
+   "start": "2023-06-24",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X834": "Export authorisation by virtue of article 3k.5 of Council Regulation (EU) 833/2014",
+    "X837": "Export authorisation by virtue of article 3k.5b of Council Regulation (EU) 833/2014",
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "X843": "Export authorisation by virtue of article 3k.5d of Council Regulation (EU) 833/2014",
+    "Y708": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4a)",
+    "Y833": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4)",
+    "Y863": "Goods other than those concerned by the prohibitions defined in article 3k paragraph 1 of Regulation (EU) No 833/2014"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X834",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Export authorisation by virtue of article 3k.5 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X843",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": "Export authorisation by virtue of article 3k.5d of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X837",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 7,
+     "text": "Export authorisation by virtue of article 3k.5b of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y833",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y863",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Goods other than those concerned by the prohibitions defined in article 3k paragraph 1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y708",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 30,
+     "text": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4a)"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4072924&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "export",
+   "footnotes": [
+    {
+     "code": "CD869",
+     "text": "It shall be prohibited to sell, supply, transfer or export, directly or indirectly, goods which could contribute in particular to the enhancement of Russian industrial capacities as listed in Annex XXIII, to any natural or legal person, entity or body in Russia or for use in Russia."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_group": false,
+   "geo_name": "Russian Federation",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "regulation_id": "R140833C",
+   "regulation_role": "1",
+   "sid": "4072924",
+   "start": "2024-06-26",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "X990": "Export authorisation by virtue of articles 2.4 or article 2a.4 and 2b.1b of Council Regulation (EU) No 833/2014",
+    "X991": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 2.5 and article 2a.5 - export authorization)",
+    "Y987": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in articles 2.3 and 2a.3)",
+    "Y995": "Goods other than those concerned by the prohibitions defined in articles 2.1 and 2a.1 of Regulation (EU) No 833/2014"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X990",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Export authorisation by virtue of articles 2.4 or article 2a.4 and 2b.1b of Council Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X991",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 2.5 and article 2a.5 - export authorization)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y987",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in articles 2.3 and 2a.3)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y995",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Goods other than those concerned by the prohibitions defined in articles 2.1 and 2a.1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 71,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3994022&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "export",
+   "footnotes": [
+    {
+     "code": "CD903",
+     "text": "Regulation (EU) No 833/2014 (Article 2a):<br><br>It shall be prohibited to sell, supply, transfer or export, directly or indirectly, goods and technology which might contribute to Russia’s military and technological enhancement, or the development of the defence and security sector, as listed in Annex VII, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia.<br>"
+    },
+    {
+     "code": "TM856",
+     "text": "It shall be prohibited to sell, supply, transfer or export, directly or indirectly, dual-use goods and technology, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia.<br><br>Regulation (EU) 833/2014 - Article 2 (1)"
+    }
+   ],
+   "geo_code": "RU",
+   "geo_group": false,
+   "geo_name": "Russian Federation",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "regulation_id": "R1408330",
+   "regulation_role": "1",
+   "sid": "3994022",
+   "start": "2023-06-24",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [
+    {
+     "action": "Declaration to be corrected - box 33, 37, 38, 41 or 46 // D.E. 6/14, 6/15, 1/10, 6/1, 6/2 or 8/6 // D.E. 18 09 057 000, 18 09 058 000, 11 09 001 000, 18 01 000 000, 18 02 000 000 or 99 06 000 000 incorrect",
+     "action_kind": "other",
+     "certificate": null,
+     "code": "R",
+     "condition": "Ratio \"net weight/supplementary unit\" is equal to or higher than the condition amount",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": "10.001kg",
+     "sequence": 1,
+     "text": null
+    },
+    {
+     "action": "Declared subheading allowed",
+     "action_kind": "allowed",
+     "certificate": null,
+     "code": "R",
+     "condition": "Ratio \"net weight/supplementary unit\" is equal to or higher than the condition amount",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": "0kg",
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3288895&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "both",
+   "footnotes": [
+    {
+     "code": "CD651",
+     "text": "Declaration under this goods code is only allowed if the threshold values (net weight/supplementary unit or value/net weight or value/supplementary unit) are respected. If not, check the respective values and correct if necessary. Otherwise, another goods code should be declared."
+    }
+   ],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0927/12",
+   "regulation_id": "R1209279",
+   "regulation_role": "1",
+   "sid": "3288895",
+   "start": "2013-02-01",
+   "type": "Declaration of subheading submitted to legal restrictions (net weight/supplementary unit)",
+   "type_code": "482",
+   "type_code_candidates": [
+    "482"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [],
+   "conditions_url": null,
+   "duty": {
+    "agri_codes": [],
+    "amount": null,
+    "components": [],
+    "currency": null,
+    "kind": "supplementary_unit",
+    "max": null,
+    "min": null,
+    "pct": null,
+    "raw": "p/st",
+    "unit": "p/st"
+   },
+   "duty_expression": "p/st",
+   "end": null,
+   "excluded": [],
+   "flow": "both",
+   "footnotes": [],
+   "geo_code": "1011",
+   "geo_group": true,
+   "geo_name": "ERGA OMNES",
+   "goods_code": "8471300000",
+   "has_conditions": false,
+   "kind": "supplementary_unit",
+   "order_number": null,
+   "regulation": "R2658/87",
+   "regulation_id": "R8726581",
+   "regulation_role": "1",
+   "sid": "2982779",
+   "start": "2008-01-01",
+   "type": "Supplementary unit",
+   "type_code": "109",
+   "type_code_candidates": [
+    "109"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "Y692": "The prohibitions defined in article 4 paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 4 paragraph 2)",
+    "Y759": "Goods other than those described in the Common Military List of the European Union"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y759",
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those described in the Common Military List of the European Union"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y692",
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in article 4 paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 4 paragraph 2)"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 99,
+     "text": null
+    }
+   ],
+   "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171210&Lang=en",
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "flow": "both",
+   "footnotes": [
+    {
+     "code": "TM01028",
+     "text": "It shall be prohibited  to:<br>(a) export, directly or indirectly, the goods and technology listed in the Common Military List of the European Union, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia;<br>(b) import, directly or indirectly, the goods and technology listed in the Common Military List into the Union if they originate in Russia or are exported from Russia.<br>"
+    }
+   ],
+   "geo_code": "RU",
+   "geo_group": false,
+   "geo_name": "Russian Federation",
+   "goods_code": "8471300000",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "regulation_id": "R140833O",
+   "regulation_role": "1",
+   "sid": "4171210",
+   "start": "2025-07-20",
+   "type": "Import/export restriction - Common Military List (CML) goods",
+   "type_code": "738",
+   "type_code_candidates": [
+    "738"
+   ]
+  }
+ ],
+ "other_duties": [],
+ "preferences": [],
+ "restrictions": [
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X060": "Individual Export Authorisation - Article 12(1)(a) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X061": "Union General Export Authorisation No EU001 - ANNEX II A - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X062": "Union General Export Authorisation No EU002 - ANNEX II B - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X063": "Union General Export Authorisation No EU003 - ANNEX II C - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X064": "Union General Export Authorisation No EU004 - ANNEX II D - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X065": "Union General Export Authorisation No EU005 - ANNEX II E - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X066": "Union General Export Authorisation No EU006 - ANNEX II F - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X067": "Union General Export Authorisation No EU007 - ANNEX II G - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X068": "Union General Export Authorisation No EU008 - ANNEX II H - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X070": "Global Export Authorisation - referred to in Article 12(1)(b) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "X071": "National General Export Authorisations in national Official Journals - ANNEX III C - referred to in Article 12(6) of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "Y901": "Product not included in the dual use list"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X060",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Individual Export Authorisation - Article 12(1)(a) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X061",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Union General Export Authorisation No EU001 - ANNEX II A - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X062",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "Union General Export Authorisation No EU002 - ANNEX II B - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X063",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 15,
+     "text": "Union General Export Authorisation No EU003 - ANNEX II C - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X064",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Union General Export Authorisation No EU004 - ANNEX II D - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X065",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 25,
+     "text": "Union General Export Authorisation No EU005 - ANNEX II E - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X066",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 30,
+     "text": "Union General Export Authorisation No EU006 - ANNEX II F - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X067",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 35,
+     "text": "Union General Export Authorisation No EU007 - ANNEX II G - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X068",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 40,
+     "text": "Union General Export Authorisation No EU008 - ANNEX II H - referred to in Article 12(1)(d) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X070",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 45,
+     "text": "Global Export Authorisation - referred to in Article 12(1)(b) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X071",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 50,
+     "text": "National General Export Authorisations in national Official Journals - ANNEX III C - referred to in Article 12(6) of the Regulation (EU) 2021/821 of the European Parliament and of the Council"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y901",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": "Product not included in the dual use list"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 99,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD464",
+     "text": "If the goods declared are described in footnote \"DU\" linked to the measure, an export authorisation must be presented according to Regulation (EU) 2021/821 of the European Parliament and of the Council and its amendments."
+    },
+    {
+     "code": "DU216",
+     "text": "Goods 4A001 from the dual use list."
+    },
+    {
+     "code": "DU220",
+     "text": "Goods 4A005 from the dual use list."
+    },
+    {
+     "code": "DU222",
+     "text": "Goods 4A101 from the dual use list."
+    },
+    {
+     "code": "DU223",
+     "text": "Goods 4A102 from the dual use list."
+    },
+    {
+     "code": "DU229",
+     "text": "Goods 5A002 from the dual use list."
+    },
+    {
+     "code": "DU280",
+     "text": "Goods 7A004 from the dual use list."
+    },
+    {
+     "code": "DU435",
+     "text": "Goods 4A003b from the dual use list."
+    },
+    {
+     "code": "DU635",
+     "text": "Goods 9A116d from the dual use list."
+    },
+    {
+     "code": "DU694",
+     "text": "Goods 5A001j from the dual use list."
+    },
+    {
+     "code": "DU703",
+     "text": "Goods 5A003 from the dual use list."
+    },
+    {
+     "code": "DU704",
+     "text": "Goods 5A004 from the dual use list."
+    },
+    {
+     "code": "DU705",
+     "text": "Goods 3A002h from the dual use list."
+    },
+    {
+     "code": "DU754",
+     "text": "Goods 3A502 from the dual use list."
+    },
+    {
+     "code": "DU763",
+     "text": "Goods 4A506 from the dual use list."
+    },
+    {
+     "code": "DU764",
+     "text": "Goods 4A507 from the dual use list."
+    }
+   ],
+   "geo_code": "1008",
+   "geo_name": "All third countries",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R2003/25",
+   "sid": "4196454",
+   "start": "2025-11-15",
+   "type": "Export authorization (Dual use)",
+   "type_code": "478",
+   "type_code_candidates": [
+    "478"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "C052": "Export authorisation for restricted goods and technologies",
+    "Y920": "Goods other than those described in the footnotes linked to the measure"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y920",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those described in the footnotes linked to the measure"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "C052",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "Export authorisation for restricted goods and technologies"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD800",
+     "text": "The competent authorities of the Member States, as listed in Annex III, may authorise, under such conditions as they deem appropriate, the sale, supply, transfer or export of equipment which might be used for internal repression as listed in Annex I provided that it is intended solely for the protective use of the personnel of the Union and its Member States"
+    },
+    {
+     "code": "CD994",
+     "text": "If the declared goods are referred to in the footnotes linked to the measure an export/import authorisation must be presented."
+    },
+    {
+     "code": "TM631",
+     "text": "Simulators, other than those controlled by ML 14 of the EU Common Military List, for training in the use of firearms, and specially designed software therefor.(see TM 637)"
+    },
+    {
+     "code": "TM637",
+     "text": "Common Military List of the European Union Union (adopted by the Council on 9 February 2015) (equipment covered by Council Common Position 2008/944/CFSP defining common rules governing the control of exports of military technology and equipment) (2015/C 129/01)."
+    },
+    {
+     "code": "TM934",
+     "text": "It is prohibited to sell, supply, transfer or export, directly or indirectly, the equipment, technology and software listed in Annex II, whether or not originating in the Union, to any person, entity or body in, or for use in, Venezuela without the prior authorisation of the competent authority of the Member State concerned, as identified on the websites listed in Annex III (Article 6 (1) of Council Regulation (EU) 2017/2063)."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_name": "Russian Federation",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R1485/24",
+   "sid": "4065020",
+   "start": "2024-06-04",
+   "type": "Export authorization",
+   "type_code": "473",
+   "type_code_candidates": [
+    "473"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X817": "Export authorisation by virtue of article 3f 4. of Council Regulation (EU) 833/2014",
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "Y815": "Goods other than those concerned by the prohibitions defined in article 3f paragraph 1 of Regulation (EU) No 833/2014",
+    "Y816": "The prohibitions defined in article 3f paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3f paragraph 3)"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y815",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those concerned by the prohibitions defined in article 3f paragraph 1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y816",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "The prohibitions defined in article 3f paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3f paragraph 3)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X817",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": "Export authorisation by virtue of article 3f 4. of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 71,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD862",
+     "text": "It shall be prohibited to sell, supply, transfe or export, directlyor indirectly, maritime navigation goods and technology, as listed in Annex XVI whether or not originating in the Union, to any natural or legal person, entity or body in Russia, for use in Russia, or for the placing on board of a Russian-flagged vessel."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_name": "Russian Federation",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "sid": "3992053",
+   "start": "2023-06-24",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X834": "Export authorisation by virtue of article 3k.5 of Council Regulation (EU) 833/2014",
+    "X837": "Export authorisation by virtue of article 3k.5b of Council Regulation (EU) 833/2014",
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "X843": "Export authorisation by virtue of article 3k.5d of Council Regulation (EU) 833/2014",
+    "Y708": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4a)",
+    "Y833": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4)",
+    "Y863": "Goods other than those concerned by the prohibitions defined in article 3k paragraph 1 of Regulation (EU) No 833/2014"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X834",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Export authorisation by virtue of article 3k.5 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X843",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 3,
+     "text": "Export authorisation by virtue of article 3k.5d of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 5,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X837",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 7,
+     "text": "Export authorisation by virtue of article 3k.5b of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y833",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y863",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Goods other than those concerned by the prohibitions defined in article 3k paragraph 1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y708",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 30,
+     "text": "The prohibitions defined in article 3k paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 3k paragraph 4a)"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD869",
+     "text": "It shall be prohibited to sell, supply, transfer or export, directly or indirectly, goods which could contribute in particular to the enhancement of Russian industrial capacities as listed in Annex XXIII, to any natural or legal person, entity or body in Russia or for use in Russia."
+    }
+   ],
+   "geo_code": "RU",
+   "geo_name": "Russian Federation",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "sid": "4072924",
+   "start": "2024-06-26",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "X840": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014",
+    "X990": "Export authorisation by virtue of articles 2.4 or article 2a.4 and 2b.1b of Council Regulation (EU) No 833/2014",
+    "X991": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 2.5 and article 2a.5 - export authorization)",
+    "Y987": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in articles 2.3 and 2a.3)",
+    "Y995": "Goods other than those concerned by the prohibitions defined in articles 2.1 and 2a.1 of Regulation (EU) No 833/2014"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X990",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Export authorisation by virtue of articles 2.4 or article 2a.4 and 2b.1b of Council Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X991",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 2,
+     "text": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 2.5 and article 2a.5 - export authorization)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y987",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in articles 2.1 and 2a.1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in articles 2.3 and 2a.3)"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y995",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 20,
+     "text": "Goods other than those concerned by the prohibitions defined in articles 2.1 and 2a.1 of Regulation (EU) No 833/2014"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "X840",
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 71,
+     "text": "Export authorisation by virtue of article 5q paragraph 1 of Council Regulation (EU) 833/2014"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "Y",
+     "condition": "Other conditions",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 90,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD903",
+     "text": "Regulation (EU) No 833/2014 (Article 2a):<br><br>It shall be prohibited to sell, supply, transfer or export, directly or indirectly, goods and technology which might contribute to Russia’s military and technological enhancement, or the development of the defence and security sector, as listed in Annex VII, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia.<br>"
+    },
+    {
+     "code": "TM856",
+     "text": "It shall be prohibited to sell, supply, transfer or export, directly or indirectly, dual-use goods and technology, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia.<br><br>Regulation (EU) 833/2014 - Article 2 (1)"
+    }
+   ],
+   "geo_code": "RU",
+   "geo_name": "Russian Federation",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "sid": "3994022",
+   "start": "2023-06-24",
+   "type": "Export control",
+   "type_code": null,
+   "type_code_candidates": [
+    "709",
+    "736",
+    "737",
+    "766",
+    "767",
+    "768",
+    "780",
+    "781"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {},
+   "conditions": [
+    {
+     "action": "Declaration to be corrected - box 33, 37, 38, 41 or 46 // D.E. 6/14, 6/15, 1/10, 6/1, 6/2 or 8/6 // D.E. 18 09 057 000, 18 09 058 000, 11 09 001 000, 18 01 000 000, 18 02 000 000 or 99 06 000 000 incorrect",
+     "action_kind": "other",
+     "certificate": null,
+     "code": "R",
+     "condition": "Ratio \"net weight/supplementary unit\" is equal to or higher than the condition amount",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": "10.001kg",
+     "sequence": 1,
+     "text": null
+    },
+    {
+     "action": "Declared subheading allowed",
+     "action_kind": "allowed",
+     "certificate": null,
+     "code": "R",
+     "condition": "Ratio \"net weight/supplementary unit\" is equal to or higher than the condition amount",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": "0kg",
+     "sequence": 2,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "CD651",
+     "text": "Declaration under this goods code is only allowed if the threshold values (net weight/supplementary unit or value/net weight or value/supplementary unit) are respected. If not, check the respective values and correct if necessary. Otherwise, another goods code should be declared."
+    }
+   ],
+   "geo_code": "1011",
+   "geo_name": "ERGA OMNES",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0927/12",
+   "sid": "3288895",
+   "start": "2013-02-01",
+   "type": "Declaration of subheading submitted to legal restrictions (net weight/supplementary unit)",
+   "type_code": "482",
+   "type_code_candidates": [
+    "482"
+   ]
+  },
+  {
+   "additional_codes": [],
+   "certificates": {
+    "Y692": "The prohibitions defined in article 4 paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 4 paragraph 2)",
+    "Y759": "Goods other than those described in the Common Military List of the European Union"
+   },
+   "conditions": [
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y759",
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 1,
+     "text": "Goods other than those described in the Common Military List of the European Union"
+    },
+    {
+     "action": "Import/export allowed after control",
+     "action_kind": "allowed",
+     "certificate": "Y692",
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 10,
+     "text": "The prohibitions defined in article 4 paragraph 1 of Council Regulation (EU) No 833/2014 do not apply (see exemptions in article 4 paragraph 2)"
+    },
+    {
+     "action": "Import/export not allowed after control",
+     "action_kind": "not_allowed",
+     "certificate": null,
+     "code": "B",
+     "condition": "Presentation of a certificate/licence/document",
+     "duty": null,
+     "duty_expression": null,
+     "requirement": null,
+     "sequence": 99,
+     "text": null
+    }
+   ],
+   "duty": null,
+   "duty_expression": null,
+   "end": null,
+   "excluded": [],
+   "footnotes": [
+    {
+     "code": "TM01028",
+     "text": "It shall be prohibited  to:<br>(a) export, directly or indirectly, the goods and technology listed in the Common Military List of the European Union, whether or not originating in the Union, to any natural or legal person, entity or body in Russia or for use in Russia;<br>(b) import, directly or indirectly, the goods and technology listed in the Common Military List into the Union if they originate in Russia or are exported from Russia.<br>"
+    }
+   ],
+   "geo_code": "RU",
+   "geo_name": "Russian Federation",
+   "has_conditions": true,
+   "kind": "restriction",
+   "order_number": null,
+   "regulation": "R0833/14",
+   "sid": "4171210",
+   "start": "2025-07-20",
+   "type": "Import/export restriction - Common Military List (CML) goods",
+   "type_code": "738",
+   "type_code_candidates": [
+    "738"
+   ]
+  }
+ ],
+ "source": "EU TARIC consultation",
+ "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8471300000&Expand=true&Area=RU",
+ "subcode_summaries": [],
+ "subcodes": [
+  "8471300000"
+ ],
+ "supplementary_unit": "p/st",
+ "third_country_duty": null,
+ "trade_defence": []
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FI050A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>autopassi0100</Identification>
+  <FunctionalReference function="MRN">23FIP41000013473J6</FunctionalReference>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>TAR</Type>
+    <Notification>2023-09-18T08:11:44.7525148+03:00</Notification>
+    <Text>Tullin suorittama tarkastus on tavarantarkastus.</Text>
+    <Control>
+      <Type>P001</Type>
+      <Control>2023-09-18T08:10:58.8771789+03:00</Control>
+      <Subject>Koko ilmoitus</Subject>
+    </Control>
+    <ContactInfo>
+      <Name>FI002000</Name>
+      <Email>passitusseuranta@tulli.fi</Email>
+      <Telephone>+358 295 5207</Telephone>
+    </ContactInfo>
+    <Decision>
+      <Note>
+        <Note>N0009</Note>
+        <NoteDescription>Value was not found in codelist</NoteDescription>
+      </Note>
+    </Decision>
+  </Notification>
+</FI050A>

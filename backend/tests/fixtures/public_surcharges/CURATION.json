@@ -1,0 +1,6 @@
+{
+  "file": "maersk-cn.html",
+  "change": "Removed script elements, including the public website client API key; tariff document text is unchanged. Original raw capture remains in the source repository.",
+  "original_sha256": "82c99aa8a40eb7a91bc5c43a03c25a811bf89fe489bfb85d6fe05ec2b065a0ef",
+  "curated_sha256": "5eb4dd8096bb1b407685a04c8bdc45a68acbc06e68b862ee6dcc436f075d6b6f"
+}

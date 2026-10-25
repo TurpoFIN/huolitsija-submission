@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:v0="http://tulli.fi/ws/corporateservice/v1" xmlns:v1="http://tulli.fi/ws/corporateservicetypes/v1">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<v0:DownloadResponse>
+			<v1:ResponseHeader>
+				<v1:IntermediaryBusinessId>FI3451020-1</v1:IntermediaryBusinessId>
+				<v1:Timestamp>2019-03-01T11:43:59+02:00</v1:Timestamp>
+				<v1:ResponseCode>000</v1:ResponseCode>
+				<v1:ResponseText>OK</v1:ResponseText>
+				<v1:TransactionId>2-20190301-114359-219036951</v1:TransactionId>
+			</v1:ResponseHeader>
+			<v1:ApplicationResponseMessageInformation>
+				<v1:MessageStorageId>CWAR20190228114951844C011</v1:MessageStorageId>
+				<v1:DocumentInformation>
+					<v1:DocumentId>CD-48368</v1:DocumentId>
+					<v1:RelatedMessageStorageId>CWAR201902281148446D39112</v1:RelatedMessageStorageId>
+				</v1:DocumentInformation>
+				<v1:MessageStatus>NEW</v1:MessageStatus>
+				<v1:Application>CWAR</v1:Application>
+				<v1:ControlReference>4e30990a861d40</v1:ControlReference>
+				<v1:MessageStoredTimestamp>2019-02-28T11:49:51.464Z</v1:MessageStoredTimestamp>
+				<v1:DeclarantBusinessId>FI3451020-1</v1:DeclarantBusinessId>
+			</v1:ApplicationResponseMessageInformation>
+			<v1:ApplicationResponseMessage>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8QXBwbGljYXRpb25SZXNwb25zZSB4bWxucz0iaHR0cDovL3R1bGxpLmZpL3NjaGVtYS9jb3Jwb3JhdGVzZXJ2aWNlL2FwcGwvdjEiIHhtbG5zOm5zMj0iaHR0cDovL3R1bGxpLmZpL3NjaGVtYS9jb3Jwb3JhdGVzZXJ2aWNlL3YxIiB4bWxuczpuczM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgPERlY2xhcmFudEJ1c2luZXNzSWQ+RkkzNDUxMDIwLTE8L0RlY2xhcmFudEJ1c2luZXNzSWQ+CiAgICA8VGltZXN0YW1wPjIwMTktMDItMjhUMTE6NDk6NTEuNDY0WjwvVGltZXN0YW1wPgogICAgPEFwcGxpY2F0aW9uPkNXQVI8L0FwcGxpY2F0aW9uPgogICAgPENvbnRyb2xSZWZlcmVuY2U+NGUzMDk5MGE4NjFkNDA8L0NvbnRyb2xSZWZlcmVuY2U+CiAgICA8TWVzc2FnZVN0b3JhZ2VJZD5DV0FSMjAxOTAyMjgxMTQ5NTE4NDRDMDExPC9NZXNzYWdlU3RvcmFnZUlkPgogICAgPEFwcGxpY2F0aW9uUmVzcG9uc2VDb250ZW50PgogICAgICAgIDxuczI6Q29udGVudD5QRDk0Yld3Z2RtVnljMmx2YmowaU1TNHdJaUJsYm1OdlpHbHVaejBpVlZSR0xUZ2lJSE4wWVc1a1lXeHZibVU5SW5sbGN5SS9QZ284UkcxbFJHOWpkVzFsYm5SSmJtWnZUV1Z6YzJGblpTQjRiV3h1Y3owaWFIUjBjRG92TDNSMWJHeHBMbVpwTDNOamFHVnRZUzlFYldWRWIyTjFiV1Z1ZEVsdVptOU5aWE56WVdkbElqNEtJQ0FnSUR4TlpYTnpZV2RsVW1WamFYQnBaVzUwUGtaSk16UTFNVEF5TUMweFBDOU5aWE56WVdkbFVtVmphWEJwWlc1MFBnb2dJQ0FnUEVSdlkzVnRaVzUwU1dRK1EwUXRORGd6TmpnOEwwUnZZM1Z0Wlc1MFNXUStDaUFnSUNBOFVtVnNZWFJsWkUxbGMzTmhaMlZUZEc5eVlXZGxTV1ErUTFkQlVqSXdNVGt3TWpJNE1URTBPRFEwTmtRek9URXhNand2VW1Wc1lYUmxaRTFsYzNOaFoyVlRkRzl5WVdkbFNXUStDaUFnSUNBOFEyOXVkSEp2YkZKbFptVnlaVzVqWlQ0MFpUTXdPVGt3WVRnMk1XUTBNRHd2UTI5dWRISnZiRkpsWm1WeVpXNWpaVDRLSUNBZ0lEeERkWE4wYjIxelJHOWpkVzFsYm5SU1pXWmxjbVZ1WTJVK01UbEdTVlUwTWpBd01EQXdNRFV6TkZJMlBDOURkWE4wYjIxelJHOWpkVzFsYm5SU1pXWmxjbVZ1WTJVK0NpQWdJQ0E4Ukc5amRXMWxiblJVZVhCbFBreFZUend2Ukc5amRXMWxiblJVZVhCbFBnb2dJQ0FnUEVSdlkzVnRaVzUwUTNKbFlYUnBiMjVVYVcxbFBqSXdNVGt0TURJdE1qaFVNVE02TkRrNk5EVXVNamcxS3pBeU9qQXdQQzlFYjJOMWJXVnVkRU55WldGMGFXOXVWR2x0WlQ0S1BDOUViV1ZFYjJOMWJXVnVkRWx1Wm05TlpYTnpZV2RsUGdvPTwvbnMyOkNvbnRlbnQ+CiAgICAgICAgPG5zMjpDb250ZW50Rm9ybWF0PmFwcGxpY2F0aW9uL3htbDwvbnMyOkNvbnRlbnRGb3JtYXQ+CiAgICA8L0FwcGxpY2F0aW9uUmVzcG9uc2VDb250ZW50Pgo8L0FwcGxpY2F0aW9uUmVzcG9uc2U+Cg==</v1:ApplicationResponseMessage>
+		</v0:DownloadResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

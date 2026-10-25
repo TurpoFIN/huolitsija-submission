@@ -1,0 +1,589 @@
+{
+ "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+ "created_at": "2026-10-24T21:48:01Z",
+ "decision_id": "98319310-1f04-4d83-97fa-2a1650810512",
+ "declaration_type": "T1",
+ "delivery_pending": false,
+ "guarantee_amount": "1000",
+ "guarantee_currency": "EUR",
+ "history": [
+  {
+   "at": "2026-10-24T21:50:27Z",
+   "from": "draft",
+   "message_id": null,
+   "to": "ready"
+  },
+  {
+   "at": "2026-10-24T21:50:33Z",
+   "from": "ready",
+   "message_id": null,
+   "to": "submitted"
+  },
+  {
+   "at": "2026-10-24T21:50:33Z",
+   "from": "submitted",
+   "message_id": "769f9b90-fe2c-4ceb-a9a0-e609f150e89a",
+   "to": "accepted"
+  }
+ ],
+ "id": "279e8be1-bea1-4b21-a6a4-7657de778343",
+ "items": [
+  {
+   "description": "New bicycle frames",
+   "gross_mass": "100",
+   "hs_code": "871491",
+   "package_type": "CT",
+   "packages": 2,
+   "shipping_marks": "SBX"
+  }
+ ],
+ "last_outbound": "CC015C",
+ "last_response": {
+  "correlation_id": null,
+  "data": {
+   "CustomsOfficeOfDeparture": {
+    "referenceNumber": "FI015300"
+   },
+   "HolderOfTheTransitProcedure": {
+    "identificationNumber": "FI39900099"
+   },
+   "TransitOperation": {
+    "LRN": "T279e8be1bea14b21a6a47",
+    "MRN": "26FISBX527221191J5",
+    "declarationAcceptanceDate": "2026-10-24"
+   },
+   "messageIdentification": "0a55050764f5479585440ecb48eaf679",
+   "messageRecipient": "FI39900099",
+   "messageSender": "NTA.FI",
+   "messageType": "CC028C",
+   "preparationDateAndTime": "2026-10-24T21:50:33"
+  },
+  "lrn": "T279e8be1bea14b21a6a47",
+  "message_id": "0a55050764f5479585440ecb48eaf679",
+  "mrn": "26FISBX527221191J5",
+  "name": "MRN allocated",
+  "status": "accepted",
+  "type": "CC028C"
+ },
+ "lrn": "T279e8be1bea14b21a6a47",
+ "messages": [
+  {
+   "at": "2026-10-24T21:50:33Z",
+   "channel": "sandbox",
+   "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+   "declaration_id": "279e8be1-bea1-4b21-a6a4-7657de778343",
+   "digest": "09e9c0215599c0f4678e0801878b0951b0a4a3424e4dcc8620b9054b151337a4",
+   "direction": "out",
+   "id": "b160cf05-4591-4e1a-84d8-c2cb8e26eb2a",
+   "kind": "transit",
+   "sandbox": true,
+   "type": "CC015C",
+   "xsd_valid": true
+  },
+  {
+   "applied": true,
+   "at": "2026-10-24T21:50:33Z",
+   "channel": "sandbox",
+   "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+   "declaration_id": "279e8be1-bea1-4b21-a6a4-7657de778343",
+   "digest": "65a4f4d153afdaa25cc9ac165e5ebad7f9c1fc0294068d73f2a05b3dbe7b22db",
+   "direction": "in",
+   "id": "769f9b90-fe2c-4ceb-a9a0-e609f150e89a",
+   "kind": "transit",
+   "sandbox": true,
+   "type": "CC028C",
+   "xsd_valid": true
+  }
+ ],
+ "mrn": "26FISBX527221191J5",
+ "office_of_departure": "FI015300",
+ "office_of_destination": "FI002000",
+ "parties": [
+  {
+   "eori": "FI39900099",
+   "name": "Sandbox Logistics Oy",
+   "parties": [
+    {
+     "eori": "NO999999999",
+     "name": "Sandbox Carrier"
+    }
+   ]
+  }
+ ],
+ "pending_message_id": "b160cf05-4591-4e1a-84d8-c2cb8e26eb2a",
+ "screening": {
+  "complete": true,
+  "hits": [],
+  "legal_point": null,
+  "lists": [
+   {
+    "fetched_at": "2026-10-24T21:28:29Z",
+    "list": "eu",
+    "sha256": "636800c3e494b2ef8934f51f5e23c914a6208a383ac850e674b1b35a7d49d34f",
+    "status": "ok",
+    "version": "f3066ff4-ce9a-4f51-b65c-64600708729f"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:30Z",
+    "list": "un",
+    "sha256": "dfb2a90b0e3a02193e4198b2c4a9eafeb04325469e48a80a8092650f6cf6dc76",
+    "status": "ok",
+    "version": "d220e444-9a2a-4273-a0f7-f814563df8a4"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:43Z",
+    "list": "ofac",
+    "sha256": "abc40b04ef1e514f322f302cffce56faef7ac73c9e0e69f6316e584a503a1173",
+    "status": "ok",
+    "version": "04d056f3-20a8-47c7-8a08-32d4ed42425c"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:46Z",
+    "list": "csl",
+    "sha256": "f8d7c6a4f37583ebd97a86f4bf4c1860bf0be0c00a6eeef2b540f186a80290cb",
+    "status": "ok",
+    "version": "11fab8ac-7536-40b4-b618-61d7c9433c12"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:48Z",
+    "list": "uk",
+    "sha256": "8e71e2237d0dee3191d433f94ba6cec65ec76b5f0f3e9d2e42b4f3f992682281",
+    "status": "ok",
+    "version": "a14df997-796d-47b3-bddb-b4316d0e0ac7"
+   }
+  ],
+  "name": null,
+  "parties": [
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 25,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Shipper",
+    "normalized": "sandbox shipper",
+    "query": "Sandbox Shipper",
+    "role": "transport.consignor",
+    "screened_at": "2026-10-24T21:50:28Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 24,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Consignee",
+    "normalized": "sandbox consignee",
+    "query": "Sandbox Consignee",
+    "role": "transport.consignee",
+    "screened_at": "2026-10-24T21:50:33Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 24,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Logistics Oy",
+    "normalized": "sandbox logistics",
+    "query": "Sandbox Logistics Oy",
+    "role": "parties[0]",
+    "screened_at": "2026-10-24T21:50:33Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 31,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Logistics Oy",
+    "normalized": "sandbox logistics",
+    "query": "Sandbox Logistics Oy",
+    "role": "outbound.holder",
+    "screened_at": "2026-10-24T21:50:33Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 17,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Shipper",
+    "normalized": "sandbox shipper",
+    "query": "Sandbox Shipper",
+    "role": "outbound.consignment.consignor",
+    "screened_at": "2026-10-24T21:50:33Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 20,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Sandbox Consignee",
+    "normalized": "sandbox consignee",
+    "query": "Sandbox Consignee",
+    "role": "outbound.consignment.consignee",
+    "screened_at": "2026-10-24T21:50:33Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   }
+  ],
+  "party_fingerprint": "b1680cf4f2e50bedc26c9d0fa042181e35b846b322651ddf8d79dd8e6a0ff0f0",
+  "screened_at": "2026-10-24T21:50:33Z",
+  "status": "clear"
+ },
+ "seals": [
+  "SBX-SEAL-1"
+ ],
+ "shipment_id": "112ba39e-7774-4ad4-b16c-bae0e4f383b4",
+ "status": "accepted",
+ "status_label_en": "Accepted",
+ "status_label_fi": "Hyväksytty",
+ "submission": {
+  "channel": "sandbox",
+  "sandbox": true,
+  "sent_at": "2026-10-24T21:50:33Z"
+ },
+ "transport": {
+  "Consignee": {
+   "Address": {
+    "city": "Helsinki",
+    "country": "FI",
+    "postcode": "00100",
+    "streetAndNumber": "Test 2"
+   },
+   "name": "Sandbox Consignee"
+  },
+  "Consignor": {
+   "Address": {
+    "city": "Helsinki",
+    "country": "FI",
+    "postcode": "00100",
+    "streetAndNumber": "Test 1"
+   },
+   "name": "Sandbox Shipper"
+  },
+  "DepartureTransportMeans": [
+   {
+    "identificationNumber": "SBX-001",
+    "nationality": "FI",
+    "sequenceNumber": 1,
+    "typeOfIdentification": "30"
+   }
+  ],
+  "PlaceOfLoading": {
+   "country": "FI",
+   "location": "Helsinki"
+  },
+  "containerIndicator": "0",
+  "countryOfDestination": "FI",
+  "countryOfDispatch": "FI",
+  "inlandModeOfTransport": "3"
+ },
+ "updated_at": "2026-10-24T21:50:33Z"
+}

@@ -1,0 +1,539 @@
+{
+ "source": {
+  "celex": "02021R0821-20260921",
+  "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+  "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+  "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+  "fetched_at": "2026-10-24T19:34:50+00:00",
+  "valid_on": "2026-10-24",
+  "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+  "bytes": 3231736,
+  "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+  "amended_by": [
+   {
+    "m": "M1",
+    "act": "Commission Delegated Regulation (EU) 2022/1"
+   },
+   {
+    "m": "M2",
+    "act": "Commission Delegated Regulation (EU) 2022/699"
+   },
+   {
+    "m": "M3",
+    "act": "Commission Delegated Regulation (EU) 2023/66"
+   },
+   {
+    "m": "M4",
+    "act": "Commission Delegated Regulation (EU) 2023/996"
+   },
+   {
+    "m": "M5",
+    "act": "Commission Delegated Regulation (EU) 2023/2616"
+   },
+   {
+    "m": "M6",
+    "act": "Commission Delegated Regulation (EU) 2024/2547"
+   },
+   {
+    "m": "M7",
+    "act": "Commission Delegated Regulation (EU) 2025/2003"
+   },
+   {
+    "m": "M8",
+    "act": "Commission Delegated Regulation (EU) 2026/1405"
+   }
+  ]
+ },
+ "items": [
+  {
+   "code": "1C001",
+   "code_official": "1C001",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "Materials specially designed for absorbing electromagnetic radiations, or intrinsically conductive polymers. N.B. SEE ALSO 1C101"
+  },
+  {
+   "code": "1C101",
+   "code_official": "1C101",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "Materials and devices for reduced observables such as radar reflectivity, ultraviolet/infrared signatures and acoustic signatures, other than those specified in 1C001, usable in ‘missiles’, ‘missile’ subsystems or unmanned aerial vehicles specified in 9A012. Note: 1C101 does not control materials if such goods are formulated solely for civil applications. Technical Note: In 1C101 ‘missiles’ means complete rocket systems and unmanned aerial vehicle systems capable of a range exceeding 300 km."
+  },
+  {
+   "code": "1D103",
+   "code_official": "1D103",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "‘Software’ specially designed for analysis of reduced observables such as radar reflectivity, ultraviolet/infrared signatures and acoustic signatures."
+  },
+  {
+   "code": "1E101",
+   "code_official": "1E101",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "‘Technology’ according to the GTN for the ‘use’ of goods specified in 1C101 or 1D103."
+  },
+  {
+   "code": "1E102",
+   "code_official": "1E102",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "‘Technology’ according to the GTN for the ‘development’ of ‘software’ specified in 1D103."
+  },
+  {
+   "code": "6B008",
+   "code_official": "6B008",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "Pulse radar cross-section measurement systems having transmit pulse widths of 100 ns or less and specially designed components therefor. N.B. SEE ALSO 6B108"
+  },
+  {
+   "code": "6B108",
+   "code_official": "6B108",
+   "part": "I",
+   "section": "Items of stealth technology",
+   "text": "Systems specially designed for radar cross section measurement usable for ‘missiles’ and their subsystems. Technical Note: In 6B108 ‘missile’ means complete rocket systems and unmanned aerial vehicle systems capable of a range exceeding 300 km."
+  },
+  {
+   "code": "1A007",
+   "code_official": "1A007",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Equipment and devices, specially designed to initiate charges and devices containing ‘energetic materials’, by electrical means, as follows: N.B. SEE ALSO MILITARY GOODS CONTROLS, 3A229 AND 3A232. a. Explosive detonator firing sets designed to drive multiple controlled detonators specified in 1A007.b. below ; b. Electrically driven explosive detonators as follows: 1. Exploding bridge (EB); 2. Exploding bridge wire (EBW); 3. Slapper; 4. Exploding foil initiators (EFI). Note: 1A007.b. does not control detonators using only primary explosives, such as lead azide."
+  },
+  {
+   "code": "1C239",
+   "code_official": "1C239",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "High explosives, other than those specified in the Military Goods Controls, or substances or mixtures containing more than 2 % by weight thereof, with a crystal density greater than 1,8 g/cm3 and having a detonation velocity greater than 8 000 m/s."
+  },
+  {
+   "code": "1E201",
+   "code_official": "1E201",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of goods specified in 1C239."
+  },
+  {
+   "code": "3A229",
+   "code_official": "3A229",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "High-current pulse generators, as follows … N.B. SEE ALSO MILITARY GOODS CONTROLS"
+  },
+  {
+   "code": "3A232",
+   "code_official": "3A232",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Multipoint initiation systems, other than those specified in 1A007 above , as follows… N.B. SEE ALSO MILITARY GOODS CONTROLS"
+  },
+  {
+   "code": "3E201",
+   "code_official": "3E201",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of equipment specified in 3A229 or 3A232."
+  },
+  {
+   "code": "6A001",
+   "code_official": "6A001",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Acoustics, limited to the following:"
+  },
+  {
+   "code": "6A001.a.1.b",
+   "code_official": "6A001.a.1.b.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Object detection or location systems, having any of the following: 1. A transmitting frequency below 5 kHz ; 6. Designed to withstand …;"
+  },
+  {
+   "code": "6A001.a.2.a.2",
+   "code_official": "6A001.a.2.a.2.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Hydrophones … Incorporating …"
+  },
+  {
+   "code": "6A001.a.2.a.3",
+   "code_official": "6A001.a.2.a.3.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Hydrophones … Having any …"
+  },
+  {
+   "code": "6A001.a.2.a.6",
+   "code_official": "6A001.a.2.a.6.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Hydrophones … Designed for …"
+  },
+  {
+   "code": "6A001.a.2.b",
+   "code_official": "6A001.a.2.b.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Towed acoustic hydrophone arrays …"
+  },
+  {
+   "code": "6A001.a.2.c",
+   "code_official": "6A001.a.2.c.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Processing equipment, specially designed for real time application with towed acoustic hydrophone arrays, having ‘user-accessible programmability’ and time or frequency domain processing and correlation, including spectral analysis, digital filtering and beamforming using Fast Fourier or other transforms or processes;"
+  },
+  {
+   "code": "6A001.a.2.e",
+   "code_official": "6A001.a.2.e.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Bottom or bay-cable hydrophone arrays, having any of the following: 1. Incorporating hydrophones …, or 2. Incorporating multiplexed hydrophone group signal modules …;"
+  },
+  {
+   "code": "6A001.a.2.f",
+   "code_official": "6A001.a.2.f.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Processing equipment, specially designed for real time application with bottom or bay cable systems, having ‘user-accessible programmability’ and time or frequency domain processing and correlation, including spectral analysis, digital filtering and beamforming using Fast Fourier or other transforms or processes;"
+  },
+  {
+   "code": "6D003.a",
+   "code_official": "6D003.a.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "‘Software’ for the ‘real-time processing’ of acoustic data;"
+  },
+  {
+   "code": "8A002.o.3",
+   "code_official": "8A002.o.3.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "Noise reduction systems designed for use on vessels of 1 000 tonnes displacement or more, as follows: b. ‘Active noise reduction or cancellation systems’, or magnetic bearings, specially designed for power transmission systems, and incorporating electronic control systems capable of actively reducing equipment vibration by the generation of anti-noise or anti-vibration signals directly to the source; Technical Note: ‘Active noise reduction or cancellation systems’ incorporate electronic control systems capable of actively reducing equipment vibration by the generation of anti-noise or anti-vibration signals directly to the source."
+  },
+  {
+   "code": "8E002.a",
+   "code_official": "8E002.a.",
+   "part": "I",
+   "section": "Items of the Community strategic control",
+   "text": "‘Technology’ for the ‘development’, ‘production’, repair, overhaul or refurbishing (re-machining) of propellers specially designed for underwater noise reduction."
+  },
+  {
+   "code": "5A004.a",
+   "code_official": "5A004.a.",
+   "part": "I",
+   "section": "Items of the Community strategic control — Cryptanalysis — Category 5 Part 2",
+   "text": "Equipment designed or modified to perform ‘cryptanalytic functions’. Note: 5A004.a. includes systems or equipment, designed or modified to perform ‘cryptanalytic functions’ by means of reverse engineering. Technical Note: ‘Cryptanalytic functions’ are functions designed to defeat cryptographic mechanisms in order to derive confidential variables or sensitive data, including clear text, passwords or cryptographic keys."
+  },
+  {
+   "code": "5D002.a",
+   "code_official": "5D002.a.",
+   "part": "I",
+   "section": "Items of the Community strategic control — Cryptanalysis — Category 5 Part 2",
+   "text": "‘Software’ specially designed or modified for the ‘development’, ‘production’ or ‘use’ of any of the following: 3. Equipment as follows: a. Equipment specified in 5A004.a.;"
+  },
+  {
+   "code": "5D002.c",
+   "code_official": "5D002.c.",
+   "part": "I",
+   "section": "Items of the Community strategic control — Cryptanalysis — Category 5 Part 2",
+   "text": "‘Software’ having the characteristics of, or performing or simulating the functions of, any of the following: 3. Equipment as follows: a. Equipment specified in 5A004.a.;"
+  },
+  {
+   "code": "5E002.a",
+   "code_official": "5E002.a.",
+   "part": "I",
+   "section": "Items of the Community strategic control — Cryptanalysis — Category 5 Part 2",
+   "text": "Only ‘technology’ for the ‘development’, ‘production’ or ‘use’ of the goods specified in 5A004.a, 5D002.a.3. or 5D002.c.3. above."
+  },
+  {
+   "code": "7A117",
+   "code_official": "7A117",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Guidance sets’, usable in ‘missiles’ capable of achieving system accuracy of 3,33 % or less of the range (e.g., a ‘CEP’ of 10 km or less at a range of 300 km), except ‘guidance sets’ designed for missiles with a range under 300 km or manned aircraft. Technical Note: In 7A117 ‘CEP’ (Circular Error Probable or Circle of Equal Probability) is a measure of accuracy, defined as the radius of the circle centred at the target, at a specific range, in which 50 % of the payloads impact."
+  },
+  {
+   "code": "7B001",
+   "code_official": "7B001",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Test, calibration or alignment equipment specially designed for equipment specified in 7A117 above . Note: 7B001 does not control test, calibration or alignment equipment for ‘Maintenance Level I’ or ‘Maintenance Level II’."
+  },
+  {
+   "code": "7B003",
+   "code_official": "7B003",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Equipment specially designed for the ‘production’ of equipment specified in 7A117 above."
+  },
+  {
+   "code": "7B103",
+   "code_official": "7B103",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Production facilities’ specially designed for equipment specified in 7A117 above ."
+  },
+  {
+   "code": "7D101",
+   "code_official": "7D101",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Software’ specially designed for the ‘use’ of equipment specified in 7B003 or 7B103 above ."
+  },
+  {
+   "code": "7E001",
+   "code_official": "7E001",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘development’ of equipment or ‘software’ specified in 7A117, 7B003, 7B103 or 7D101 above ."
+  },
+  {
+   "code": "7E002",
+   "code_official": "7E002",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘production’ of equipment specified in 7A117, 7B003 and 7B103 above ."
+  },
+  {
+   "code": "7E101",
+   "code_official": "7E101",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of equipment specified in 7A117, 7B003, 7B103 and 7D101 above ."
+  },
+  {
+   "code": "9A004",
+   "code_official": "9A004",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Space launch vehicles capable of delivering at least a 500 kg payload to a range of at least 300 km . N.B. SEE ALSO 9A104. Note 1: 9A004 does not control payloads."
+  },
+  {
+   "code": "9A005",
+   "code_official": "9A005",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Liquid rocket propulsion systems containing any of the systems or components specified in 9A006 usable for space launch vehicles specified in 9A004 above or sounding rockets specified in 9A104 below . N.B. SEE ALSO 9A105 and 9A119."
+  },
+  {
+   "code": "9A007.a",
+   "code_official": "9A007.a.",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Solid rocket propulsion systems, usable for space launch vehicles specified in 9A004 above or sounding rockets specified in 9A104 below , with any of the following: N.B. SEE ALSO 9A119. a. Total impulse capacity exceeding 1,1 MNs;"
+  },
+  {
+   "code": "9A008.d",
+   "code_official": "9A008.d.",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Components, as follows, specially designed for solid rocket propulsion systems: N.B. SEE ALSO 9A108.c. d. Movable nozzle or secondary fluid injection thrust vector control systems, usable for space launch vehicles specified in 9A004 above or sounding rockets specified in 9A104 below , capable of any of the following: 1. Omni-axial movement exceeding ± 5°; 2. Angular vector rotations of 20°/s or more; or 3. Angular vector accelerations of 40°/s2 or more."
+  },
+  {
+   "code": "9A104",
+   "code_official": "9A104",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Sounding rockets, capable of delivering at least a 500 kg payload to a range of at least 300 km. N.B. SEE ALSO 9A004."
+  },
+  {
+   "code": "9A105.a",
+   "code_official": "9A105.a.",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Liquid propellant rocket engines, as follows: N.B. SEE ALSO 9A119. a. Liquid propellant rocket engines usable in ‘missiles’, other than those specified in 9A005, integrated, or designed or modified to be integrated, into a liquid propellant propulsion system which has a total impulse capacity equal to or greater than 1,1 MNs having a total impulse capacity equal to or greater than 1,1 MNs; except liquid propellant apogee engines designed or modified for satellite applications and having all of the following: 1. nozzle throat diameter of 20 mm or less; and 2. combustion chamber pressure of 15 bar or less."
+  },
+  {
+   "code": "9A106.c",
+   "code_official": "9A106.c.",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Systems or components, other than those specified in 9A006, usable in ‘missiles’ , as follows, specially designed for liquid rocket propulsion systems: c. Thrust vector control sub-systems, except those designed for rocket systems that are not capable of delivering at least a 500 kg payload to a range of at least 300 km . Technical Note: Examples of methods of achieving thrust vector control specified in 9A106.c. are: 1. Flexible nozzle; 2. Fluid or secondary gas injection; 3. Movable engine or nozzle; 4. Deflection of exhaust gas stream (jet vanes or probes); or 5. Thrust tabs."
+  },
+  {
+   "code": "9A108.c",
+   "code_official": "9A108.c.",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Components, other than those specified in 9A008, usable in ‘missiles’ as follows , specially designed for solid rocket propulsion systems: c. Thrust vector control sub-systems, except those designed for rocket systems that are not capable of delivering at least a 500 kg payload to a range of at least 300 km . Technical Note: Examples of methods of achieving thrust vector control specified in 9A108.c. are: 1. Flexible nozzle; 2. Fluid or secondary gas injection; 3. Movable engine or nozzle; 4. Deflection of exhaust gas stream (jet vanes or probes); or 5. Thrust tabs."
+  },
+  {
+   "code": "9A116",
+   "code_official": "9A116",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Reentry vehicles, usable in ‘missiles’, and equipment designed or modified therefor, as follows, except for reentry vehicles designed for non-weapon payloads: a. Reentry vehicles; b. Heat shields and components therefor fabricated of ceramic or ablative materials; c. Heat sinks and components therefor fabricated of light-weight, high heat capacity materials; d. Electronic equipment specially designed for reentry vehicles."
+  },
+  {
+   "code": "9A119",
+   "code_official": "9A119",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Individual rocket stages, usable in complete rocket systems or unmanned aerial vehicles, capable of delivering at least a 500 kg payload to a range of 300 km, other than those specified in 9A005 or 9A007.a. above"
+  },
+  {
+   "code": "9B115",
+   "code_official": "9B115",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Specially designed ‘production equipment’ for the systems, sub-systems and components specified in 9A005, 9A007.a., 9A008.d., 9A105.a., 9A106.c., 9A108.c., 9A116 or 9A119 above ."
+  },
+  {
+   "code": "9B116",
+   "code_official": "9B116",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "Specially designed ‘production facilities’ for the space launch vehicles specified in 9A004, or systems, sub-systems, and components specified in 9A005, 9A007.a., 9A008.d., 9A104, 9A105.a., 9A106.c., 9A108.c., 9A116 or 9A119 above ."
+  },
+  {
+   "code": "9D101",
+   "code_official": "9D101",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Software’ specially designed for the ‘use’ of goods specified in 9B116 above ."
+  },
+  {
+   "code": "9E001",
+   "code_official": "9E001",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘development’ of equipment or ‘software’ specified in 9A004, 9A005, 9A007.a., 9A008.d., 9B115, 9B116 or 9D101 above ."
+  },
+  {
+   "code": "9E002",
+   "code_official": "9E002",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘production’ of equipment specified in 9A004, 9A005, 9A007.a., 9A008.d., 9B115 or 9B116 above . Note: For ‘technology’ for the repair of controlled structures, laminates or materials, see 1E002.f."
+  },
+  {
+   "code": "9E101",
+   "code_official": "9E101",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘development’ or ‘production’ of goods specified in 9A104, 9A105.a., 9A106.c., 9A108.c., 9A116 or 9A119 above ."
+  },
+  {
+   "code": "9E102",
+   "code_official": "9E102",
+   "part": "I",
+   "section": "Items of the MTCR technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of space launch vehicles specified in 9A004, 9A005, 9A007.a., 9A008.d., 9A104, 9A105.a., 9A106.c., 9A108.c., 9A116, 9A119, 9B115, 9B116 or 9D101 above ."
+  },
+  {
+   "code": "1C351.d.4",
+   "code_official": "1C351.d.4.",
+   "part": "II",
+   "section": "Items of the CWC (Chemical Weapons Convention)",
+   "text": "Ricin"
+  },
+  {
+   "code": "1C351.d.5",
+   "code_official": "1C351.d.5.",
+   "part": "II",
+   "section": "Items of the CWC (Chemical Weapons Convention)",
+   "text": "Saxitoxin"
+  },
+  {
+   "code": "1B226",
+   "code_official": "1B226",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Electromagnetic isotope separators designed for, or equipped with, single or multiple ion sources capable of providing a total ion beam current of 50 mA or greater. Note: 1B226 includes separators: a. Capable of enriching stable isotopes; b. With the ion sources and collectors both in the magnetic field and those configurations in which they are external to the field."
+  },
+  {
+   "code": "1B231",
+   "code_official": "1B231",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Tritium facilities or plants, and equipment therefor, as follows: a. Facilities or plants for the production, recovery, extraction, concentration, or handling of tritium; b. Equipment for tritium facilities or plants, as follows: 1. Hydrogen or helium refrigeration units capable of cooling to 23 K (– 250 °C) or less, with heat removal capacity greater than 150 W; 2. Hydrogen isotope storage or hydrogen isotope purification systems using metal hydrides as the storage or purification medium."
+  },
+  {
+   "code": "1B233",
+   "code_official": "1B233",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Lithium isotope separation facilities or plants, and equipment therefor, as follows: a. Facilities or plants for the separation of lithium isotopes; b. Equipment for the separation of lithium isotopes, as follows: 1. Packed liquid-liquid exchange columns specially designed for lithium amalgams; 2. Mercury or lithium amalgam pumps; 3. Lithium amalgam electrolysis cells; 4. Evaporators for concentrated lithium hydroxide solution."
+  },
+  {
+   "code": "1C012",
+   "code_official": "1C012",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Materials as follows: Technical Note: These materials are typically used for nuclear heat sources. b. ‘Previously separated’ neptunium-237 in any form. Note: 1C012.b. does not control shipments with a neptunium-237 content of 1 g or less."
+  },
+  {
+   "code": "1C233",
+   "code_official": "1C233",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Lithium enriched in the lithium-6 (6Li) isotope to greater than its natural isotopic abundance, and products or devices containing enriched lithium, as follows: elemental lithium, alloys, compounds, mixtures containing lithium, manufactures thereof, waste or scrap of any of the foregoing. Note: 1C233 does not control thermoluminescent dosimeters. Technical Note: The natural isotopic abundance of lithium-6 is approximately 6,5 weight per cent (7,5 atom per cent)."
+  },
+  {
+   "code": "1C235",
+   "code_official": "1C235",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Tritium, tritium compounds, mixtures containing tritium in which the ratio of tritium to hydrogen atoms exceeds 1 part in 1 000 , and products or devices containing any of the foregoing. Note: 1C235 does not control a product or device containing less than 1,48 × 103 GBq (40 Ci) of tritium."
+  },
+  {
+   "code": "1E001",
+   "code_official": "1E001",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘development’ or ‘production’ of equipment or materials specified in 1C012.b."
+  },
+  {
+   "code": "1E201",
+   "code_official": "1E201",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of goods specified in 1B226, 1B231, 1B233, 1C233 or 1C235."
+  },
+  {
+   "code": "3A228",
+   "code_official": "3A228",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Switching devices, as follows: a. Cold-cathode tubes, whether gas filled or not, operating similarly to a spark gap, having all of the following characteristics: 1. Containing three or more electrodes; 2. Anode peak voltage rating of 2,5 kV or more; 3. Anode peak current rating of 100 A or more; and 4. Anode delay time of 10 μs or less; Note: 3A228 includes gas krytron tubes and vacuum sprytron tubes. b. Triggered spark-gaps having both of the following characteristics: 1. An anode delay time of 15 μs or less; and 2. Rated for a peak current of 500 A or more;"
+  },
+  {
+   "code": "3A231",
+   "code_official": "3A231",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Neutron generator systems, including tubes, having both of the following characteristics: a. Designed for operation without an external vacuum system; and b. Utilizing electrostatic acceleration to induce a tritium-deuterium nuclear reaction."
+  },
+  {
+   "code": "3E201",
+   "code_official": "3E201",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "‘Technology’ according to the General Technology Note for the ‘use’ of equipment specified in 3A228 or 3A231 above ."
+  },
+  {
+   "code": "6A203",
+   "code_official": "6A203",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Cameras and components, other than those specified in 6A003, as follows: a. Mechanical rotating mirror streak cameras, as follows, and specially designed components therefor: 1. Streak cameras with writing speeds greater than 0,5 mm per microsecond; b. Mechanical rotating mirror framing cameras, as follows, and specially designed components therefor: 1. Framing cameras with recording rates greater than 225 000 frames per second; Note: In 6A203.a. components of such cameras include their synchronising electronics units and rotor assemblies consisting of turbines, mirrors and bearings."
+  },
+  {
+   "code": "6A225",
+   "code_official": "6A225",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Velocity interferometers for measuring velocities exceeding 1 km/s during time intervals of less than 10 microseconds. Note: 6A225 includes velocity interferometers such as VISARs (Velocity interferometer systems for any reflector) and DLIs (Doppler laser interferometers)."
+  },
+  {
+   "code": "6A226",
+   "code_official": "6A226",
+   "part": "II",
+   "section": "Items of the NSG technology",
+   "text": "Pressure sensors, as follows: a. Shock pressure gauges capable of measuring pressures greater than 10 GPa, including gauges made with manganin, ytterbium, and polyvinylidene fluoride (PVDF)/polyvinyl difluoride (PVF2); b. Quartz pressure transducers for pressures greater than 10 GPa."
+  }
+ ]
+}

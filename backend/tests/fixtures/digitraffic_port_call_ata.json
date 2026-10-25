@@ -1,0 +1,97 @@
+{
+ "portCallId": 3397658,
+ "portCallTimestamp": "2026-10-24T08:30:03.000Z",
+ "customsReference": "0/757465",
+ "portToVisit": "FIHEL",
+ "prevPort": "EETLL",
+ "nextPort": "EETLL",
+ "domesticTrafficArrival": false,
+ "domesticTrafficDeparture": false,
+ "arrivalWithCargo": true,
+ "notLoading": false,
+ "discharge": 1,
+ "shipMasterArrival": "",
+ "shipMasterDeparture": "",
+ "managementNameArrival": " ",
+ "managementNameDeparture": " ",
+ "forwarderNameArrival": " ",
+ "forwarderNameDeparture": " ",
+ "freeTextArrival": " ",
+ "freeTextDeparture": " ",
+ "vesselName": "Viking XPRS",
+ "vesselNamePrefix": "ms",
+ "radioCallSign": "OJND",
+ "radioCallSignType": "real",
+ "imoLloyds": 9375654,
+ "mmsi": 230705000,
+ "nationality": "FI",
+ "vesselTypeCode": 20,
+ "certificateIssuer": "FI/DNV",
+ "certificateStartDate": "2023-08-16T21:00:00.000Z",
+ "certificateEndDate": "2028-08-16T21:00:00.000Z",
+ "currentSecurityLevel": 1,
+ "agentInfo": [
+  {
+   "ediNumber": "003701449838",
+   "name": "Viking Line  Abp",
+   "portCallDirection": "Arrival or whole PortCall",
+   "role": 2
+  },
+  {
+   "ediNumber": "003701449838",
+   "name": "Viking Line Abp / Helsinki",
+   "portCallDirection": "Arrival or whole PortCall",
+   "role": 1
+  }
+ ],
+ "imoInformation": [
+  {
+   "briefParticularsVoyage": "eetll\r eetll",
+   "cargoDeclarationOb": 0,
+   "crewListsOb": 0,
+   "crewsEffectsDeclarationsOb": 0,
+   "healthDeclarationsOb": 0,
+   "imoGeneralDeclaration": "Departure",
+   "numberOfCrew": 134,
+   "numberOfPassangers": 1463,
+   "passangerListsOb": 0,
+   "portOfDischarge": " ",
+   "shipStoresDeclarationsOb": 0
+  },
+  {
+   "briefParticularsVoyage": "eetll\r eetll",
+   "cargoDeclarationOb": 0,
+   "crewListsOb": 0,
+   "crewsEffectsDeclarationsOb": 0,
+   "healthDeclarationsOb": 0,
+   "imoGeneralDeclaration": "Arrival",
+   "numberOfCrew": 128,
+   "numberOfPassangers": 1080,
+   "passangerListsOb": 0,
+   "portOfDischarge": " ",
+   "shipStoresDeclarationsOb": 0
+  }
+ ],
+ "portAreaDetails": [
+  {
+   "arrivalDraught": 0.0,
+   "ata": "2026-10-24T06:30:00.000Z",
+   "ataSource": "Port",
+   "ataTimestamp": "2026-10-24T07:39:00.000Z",
+   "atd": "2026-10-24T07:23:00.000Z",
+   "atdSource": "Port",
+   "atdTimestamp": "2026-10-24T07:39:00.000Z",
+   "berthCode": "EK7",
+   "berthName": "NOKKA 4",
+   "departureDraught": 0.0,
+   "eta": "2026-10-24T06:30:00.000Z",
+   "etaSource": "Agent",
+   "etaTimestamp": "2026-09-16T07:15:44.958Z",
+   "etd": "2026-10-24T07:30:00.000Z",
+   "etdSource": "Agent",
+   "etdTimestamp": "2026-09-16T07:15:44.958Z",
+   "portAreaCode": "ES",
+   "portAreaName": "Etel\u00e4satama"
+  }
+ ]
+}

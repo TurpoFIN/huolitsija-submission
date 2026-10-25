@@ -1,0 +1,50 @@
+# Official Tulli import MIG 2.1.7
+
+Source: https://finnishcustoms-suomentulli.github.io/MIGs/Import/en/index.html
+
+Fetched by `scripts/fetch_tulli_specs.py` on 2026-10-24.
+Schemas and examples are unmodified official downloads. Archive URLs, UTC timestamps and SHA256 are in manifest.json.
+The import schema internal version is 3.0.37; export is 1.0.90. MIG version and XSD version are distinct.
+Examples are authority examples, not customer declarations and not evidence of legal correctness.
+
+- `FI403.xsd` SHA256 `bd9b9a422dcd64781a5c4e0748715bc2e765a9ccf0e5e919ab7a2e2e2084bb7b`
+- `FI405.xsd` SHA256 `db3dbd76d4d9fefca04fd3e54037b4cc9789013e12d5b4733e4d3bba35b00888`
+- `FI410.xsd` SHA256 `bf7e5369adef468a970ec62a0980f92e1e909ea7f1c54e15858963275f5570da`
+- `FI413.xsd` SHA256 `e2b9077226b9aa6cde6ce77c486707aa825329104da68bc022813aa19d6a1b45`
+- `FI414.xsd` SHA256 `7f65a9de0389f88a5351b53283301323e7155a20df9d383ead56862a7ddc800e`
+- `FI415.xsd` SHA256 `79472859491b3bf0101996c7dd74b260ce2ecfff1d1763346b11bba8c9daef19`
+- `FI416.xsd` SHA256 `f14ab220e9a6df79a26e972cce089b6453dfece30ac286804ba1bd06b0a29703`
+- `FI419.xsd` SHA256 `716787a43ed901e40e8d2aa826934d28bcd6e9fbeee54e210c1ed3d5fc345f13`
+- `FI420.xsd` SHA256 `1854d44a141ecb93a690f2fc658ce677dabea2c59ecaa7daad9daa3d86ca1578`
+- `FI426.xsd` SHA256 `c46885bd077ec719d03b8cf43119eabd532004b327c6a89e371828d27ff8c41a`
+- `FI428.xsd` SHA256 `d40fc8aa889a7639db8d59bd5562f26e3d5d05c1356392e8f8ee2498dfd40ba7`
+- `FI429.xsd` SHA256 `86639a2ff1409cadc94cfaacdc23f9832e10e1665eb5359b4d4f4f547ea068df`
+- `FI430.xsd` SHA256 `cc919621da70d662a45b14ab040326937bf699cc3e4d86932f086a486de0c6ee`
+- `FI432.xsd` SHA256 `c15bdcf526ea2f3144d71a41dfacc412af5874ffdf89cc925acae55910fb91d1`
+- `FI439.xsd` SHA256 `55180b4f18e1f681d5ba08301ab99d4cafe9a74eb7a0979b2ac3bc345931c16f`
+- `FI444.xsd` SHA256 `541968544700efe33e193d951acb8c27feb99558d4b147968da915ab252f06ee`
+- `FI445.xsd` SHA256 `99d48355b4c1b5e8a8f6a874f59933e0ab9bd30103260013ab5caf62443c7e98`
+- `FI446.xsd` SHA256 `05c975f5d2328358f997a863aed928d15e6b3c4ab73c79db21a63fc3fcffe4ff`
+- `FI448.xsd` SHA256 `d0396ed34bc70a539be0b828b49a6fd34204b39d8571b40fa07ee67ea6982620`
+- `FI450.xsd` SHA256 `888f93d00f456f505455f915127965da02c807689f40ab373fe21e7691e7d18b`
+- `FI451.xsd` SHA256 `8f6fe22b6f6328069d5d6e7bd9ffefa9957b54b62f40a955915cee760b3d986b`
+- `FI452.xsd` SHA256 `2ade4c63b437bbe23927deb6fdbce2e21ef584d6dd8a186b2be3a351a2e4a34d`
+- `FI453.xsd` SHA256 `b7e2c1eec01258a045d2772a5af7a3aee6a2b207377d2e79b16d00822aecf85a`
+- `FI468.xsd` SHA256 `9d04f2008ccbfd1622fab78ab5b07c834f348309a0f59d3dfc3a2b9182875bad`
+- `FI470.xsd` SHA256 `1803d485d58734e470221a5c77580e918c68b90e82f1e1ceee13160c989d5f90`
+- `FI473.xsd` SHA256 `bf1274ddd2434fbfe967579ca48ce4e68f66901d9afeafe374b478c5225a5918`
+- `FI475.xsd` SHA256 `0a3ab3f95d4cb78bac26820fc76242b7ace3a9bf7787a910972ed9756699ab3b`
+- `FI483.xsd` SHA256 `8e6b93192bb319378dc3575e2ea876485761b18f265df375d1c1ce0fb2d8a350`
+- `FI485.xsd` SHA256 `e900c593c1a5db841471f7f7a5b33aa9c1b0900b2c05dd0ce98a01739ef2ff64`
+- `FI488.xsd` SHA256 `841acfe1cf9bdde195d339bd51b0bfecd507736c53e32f9417dc60099ab2acbd`
+- `FI905.xsd` SHA256 `4f2a800f649ff819bf1193b4c7fd19923590bfd7d4ed6ba8f8d183dec3d2f2da`
+- `constraints.json` SHA256 `9d1f630c1e03f27cacfd1c04d19dadee8d89a890c913ddf9a7d28f9e8ddb1333`
+- `data.json` SHA256 `0709b272c7825ae2744026b18e3e23ffb92b04a953c52b4c5a3ab18012a4a1c5`
+- `examples/FI415B.xml` SHA256 `52c6f2c9e2a58c4b35b7538dd7810b1f4f88900cfe08585736df520506beb5c1`
+- `examples/FI416B.xml` SHA256 `69f80412578a3db13a19c500aabf2dbeab9032ce0cdefab6cb0c24767824462d`
+- `examples/FI428B.xml` SHA256 `9455621130d6389449852c4dfe994088c87dd9528ef2be6bb04d696c8ff757bf`
+- `examples/FI429B.xml` SHA256 `83614ddbb6dae318c3afe00dbc94a02047f680c44f2933614cf835a1f903c12f`
+- `examples/FI444B.xml` SHA256 `efcc78dcaa1c9a4ee05f064b48f80e92cd1f090fb9cc5593f903ce99232e866c`
+- `types_.xsd` SHA256 `c84012f77a4369d91bd4fcc82094cad0bef0ee50501bd5e3f29092c331e5efab`
+- `types_1.xsd` SHA256 `0e6fa2a8c6de6a181372aa9d86fd185447dc0e59598b37c7d80fdcc97c32b9ec`
+- `usecases.json` SHA256 `2265a50dd4524a7d773a1d6dbaa652d48ab1dcebd12539d5f007f03d8ebf85d3`

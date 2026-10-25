@@ -1,0 +1,14 @@
+<S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header/>
+	<S:Body>
+		<ns4:CheckRequest xmlns:ns4="http://tulli.fi/ws/corporateservice/v1" xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://tulli.fi/ws/corporateservicetypes/v1" xmlns:ns3="http://tulli.fi/schema/corporateservice/v1">
+			<ns2:RequestHeader>
+				<ns2:IntermediaryBusinessId>FI9991026-5</ns2:IntermediaryBusinessId>
+				<ns2:Timestamp>2018-05-24T10:46:48.249+03:00</ns2:Timestamp>
+				<ns2:Language>EN</ns2:Language>
+				<ns2:IntermediarySoftwareInfo>TESB QA tester</ns2:IntermediarySoftwareInfo>
+			</ns2:RequestHeader>
+			<ns2:EchoRequest>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RWNob0NvbnRlbnQgeG1sbnM9Imh0dHA6Ly90dWxsaS5maS9zY2hlbWEvY29ycG9yYXRlc2VydmljZS92MSIgeG1sbnM6bnMyPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48VGV4dD5IZWxsbyB3b3JsZCE8L1RleHQ+PC9FY2hvQ29udGVudD4=</ns2:EchoRequest>
+		</ns4:CheckRequest>
+	</S:Body>
+</S:Envelope>

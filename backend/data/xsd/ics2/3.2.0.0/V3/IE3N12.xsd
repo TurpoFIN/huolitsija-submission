@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:3" targetNamespace="urn:wco:datamodel:eu:ics2:3" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3N12" type="IE3N12Type" />
+  <xs:complexType name="IE3N12Type">
+    <xs:sequence>
+      <xs:element name="functionalReference" type="FunctionalReferenceContentType" />
+      <xs:element name="documentIssueDate" type="DocumentIssueDateType" />
+      <xs:element name="preLoadingRiskAssessmentStatus" maxOccurs="999" type="PreLoadingRiskAssessmentStatusType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

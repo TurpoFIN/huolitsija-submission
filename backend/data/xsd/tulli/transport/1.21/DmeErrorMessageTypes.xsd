@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: DmeErrorMessageTypes.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://tulli.fi/schema/DmeErrorMessageTypes" 
+xmlns:tns="http://tulli.fi/schema/DmeErrorMessageTypes" 
+xmlns:amt="http://tulli.fi/schema/corporateservice/v1"
+elementFormDefault="qualified"
+version="v1_21">
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<xs:complexType name="MessageIdentier">
+		<xs:annotation>
+			<xs:documentation>Information of the DME declaration schema error message.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageSender" type="amt:BusinessId">
+				<xs:annotation>
+					<xs:documentation>ID of the error message sender. Without exception Finnish Customs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageRecipient" type="amt:BusinessId">
+				<xs:annotation>
+					<xs:documentation>ID of the error message recipient. The message sender of the original DME declaration.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorDateTime">
+				<xs:annotation>
+					<xs:documentation>The time when the error was detected.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:dateTime"/>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Application" type="amt:Application">
+				<xs:annotation>
+					<xs:documentation>The Customs application of the original DME declaration.</xs:documentation>
+				</xs:annotation>
+			</xs:element>	
+			<xs:element name="ControlReference" type="amt:Reference">
+				<xs:annotation>
+					<xs:documentation>The ID of the original DME declaration.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OriginalMessageStorageId" type="amt:MessageStorageId">
+				<xs:annotation>
+					<xs:documentation>The unique message storage ID of the original DME declaration.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ErrorInformation">
+		<xs:annotation>
+			<xs:documentation>Detailed information of the schema error discovered by DME applications.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ErrorType">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:annotation>
+							<xs:documentation>Only the XML schema error type is supported.</xs:documentation>
+						</xs:annotation>
+						<xs:enumeration value="SCHEMA"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Details">
+				<xs:annotation>
+					<xs:documentation>Detailed information of the found error, usually output of the XML parser or schema validator.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="1024"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

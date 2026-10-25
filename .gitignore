@@ -1,0 +1,36 @@
+# Local configuration and credentials
+.env
+.env.*
+*.env
+!.env.example
+!**/.env.example
+*credentials.json
+*token.json
+*.pem
+*.key
+.credentials
+
+# Dependencies, output and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+yarn-error.log
+.DS_Store
+.idea/
+.vscode/
+
+# Local database, reports and development captures
+.local/
+evidence/
+notes/
+*.dump
+*.sqlite*

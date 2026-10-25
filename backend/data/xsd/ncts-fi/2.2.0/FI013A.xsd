@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/transit/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/transit/ext/v1" version="1.0.138" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Amendment request</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI013A">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_1_14">
+        <xs:annotation>
+          <xs:documentation>Case identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="2" maxOccurs="2" name="FunctionalReference" type="FunctionalReference_033">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="2" maxOccurs="2" name="Type" type="Type_331">
+        <xs:annotation>
+          <xs:documentation>Declaration type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="BindingItinerary" type="byte_between_0_1">
+        <xs:annotation>
+          <xs:documentation>BindingItinerary</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_720">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Limit" type="d_date_char_regex">
+        <xs:annotation>
+          <xs:documentation>LimitDate</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ReducedDatasetIndicator" type="byte_between_0_1">
+        <xs:annotation>
+          <xs:documentation>ReducedDatasetIndicator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Security" type="byte_between_0_3">
+        <xs:annotation>
+          <xs:documentation>Security</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="SpecificCircumstances" type="chars_3_3">
+        <xs:annotation>
+          <xs:documentation>Specific circumstance indicator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TIRCarnetNumber" type="chars_1_12">
+        <xs:annotation>
+          <xs:documentation>TIRCarnetNumber</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Amendment" type="Amendment_503">
+        <xs:annotation>
+          <xs:documentation>Amendment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Agent" type="Agent_724">
+        <xs:annotation>
+          <xs:documentation>Representative</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Principal" type="Principal_724">
+        <xs:annotation>
+          <xs:documentation>Holder of transit procedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ServiceProvider" type="ServiceProvider_056">
+        <xs:annotation>
+          <xs:documentation>Service provider</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Submitter" type="Submitter_545">
+        <xs:annotation>
+          <xs:documentation>Submitter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="Authorisation" type="Authorisation_555">
+        <xs:annotation>
+          <xs:documentation>Authorisation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Consignment" type="Consignment_342">
+        <xs:annotation>
+          <xs:documentation>Consignment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="9" name="Guarantee" type="Guarantee_375">
+        <xs:annotation>
+          <xs:documentation>Guarantee</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DepartureOffice" type="DepartureOffice_575">
+        <xs:annotation>
+          <xs:documentation>Customs office of departure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DestinationOffice" type="DestinationOffice_951">
+        <xs:annotation>
+          <xs:documentation>Customs office of destination</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="ExitOffice" type="ExitOffice_407">
+        <xs:annotation>
+          <xs:documentation>Customs office of exit for transit</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI013A" type="FI013A">
+    <xs:annotation>
+      <xs:documentation>Amendment request</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

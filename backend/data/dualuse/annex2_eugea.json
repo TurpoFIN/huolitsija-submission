@@ -1,0 +1,450 @@
+{
+ "source": {
+  "celex": "02021R0821-20260921",
+  "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+  "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+  "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+  "fetched_at": "2026-10-24T19:34:50+00:00",
+  "valid_on": "2026-10-24",
+  "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+  "bytes": 3231736,
+  "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+  "amended_by": [
+   {
+    "m": "M1",
+    "act": "Commission Delegated Regulation (EU) 2022/1"
+   },
+   {
+    "m": "M2",
+    "act": "Commission Delegated Regulation (EU) 2022/699"
+   },
+   {
+    "m": "M3",
+    "act": "Commission Delegated Regulation (EU) 2023/66"
+   },
+   {
+    "m": "M4",
+    "act": "Commission Delegated Regulation (EU) 2023/996"
+   },
+   {
+    "m": "M5",
+    "act": "Commission Delegated Regulation (EU) 2023/2616"
+   },
+   {
+    "m": "M6",
+    "act": "Commission Delegated Regulation (EU) 2024/2547"
+   },
+   {
+    "m": "M7",
+    "act": "Commission Delegated Regulation (EU) 2025/2003"
+   },
+   {
+    "m": "M8",
+    "act": "Commission Delegated Regulation (EU) 2026/1405"
+   }
+  ]
+ },
+ "eugea": {
+  "EU001": {
+   "code": "EU001",
+   "title": "Exports to Australia, Canada, Iceland, Japan, New Zealand, Norway, Switzerland, including Liechtenstein, the United Kingdom and the United States",
+   "items_text": "This authorisation covers all dual-use items specified in any entry in Annex I, except those listed in Section I of this Annex.",
+   "items_mode": "all_except_section_i",
+   "items": [],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Australia, — Canada, — Iceland, — Japan, — New Zealand, — Norway, — Switzerland, including Liechtenstein, — United Kingdom (without prejudice to the application of this Regulation to and in the United Kingdom in respect of Northern Ireland, in accordance with point 47 of Annex 2 to the Protocol on Ireland/Northern Ireland (the ‘Protocol’) annexed to the Agreement on the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the European Union and the European Atomic Energy Community ( 11 ), listing the provisions of Union law referred to in Article 5(4) of the Protocol), — United States.",
+    "mode": "listed",
+    "countries": [
+     "AU",
+     "CA",
+     "IS",
+     "JP",
+     "NZ",
+     "NO",
+     "CH",
+     "LI",
+     "GB",
+     "US"
+    ]
+   },
+   "conditions_text": "1. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation in a country subject to an arms embargo; or (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); or (c) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation. 2. The exporter shall declare that the items are being exported under Union general export authorisation No EU001 in the customs declaration. 3. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. B. EXPORTS OF CERTAIN DUAL-USE ITEMS TO CERTAIN DESTINATIONS",
+   "declare_in_customs_declaration": true
+  },
+  "EU002": {
+   "code": "EU002",
+   "title": "Exports of certain dual-use items to certain destinations",
+   "items_text": "This authorisation covers the following dual-use items specified in Annex I: — 1A001, — 1A003, — 1A004, — 1C003.b., — 1C003.c., — 1C004, — 1C005, — 1C006, — 1C008, — 1C009, — 2B008, — 3A001.a.3., — 3A001.a.6., — 3A001.a.7., — 3A001.a.9., — 3A001.a.10., — 3A001.a.11., — 3A001.a.12., — 3A002.c., — 3A002.d., — 3A002.e., — 3A002.f., — 3C001, — 3C002, — 3C003, — 3C004, — 3C005, — 3C006.",
+   "items_mode": "listed",
+   "items": [
+    "1A001",
+    "1A003",
+    "1A004",
+    "1C003.b",
+    "1C003.c",
+    "1C004",
+    "1C005",
+    "1C006",
+    "1C008",
+    "1C009",
+    "2B008",
+    "3A001.a.3",
+    "3A001.a.6",
+    "3A001.a.7",
+    "3A001.a.9",
+    "3A001.a.10",
+    "3A001.a.11",
+    "3A001.a.12",
+    "3A002.c",
+    "3A002.d",
+    "3A002.e",
+    "3A002.f",
+    "3C001",
+    "3C002",
+    "3C003",
+    "3C004",
+    "3C005",
+    "3C006"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Argentina, — South Africa, — South Korea, — Turkey.",
+    "mode": "listed",
+    "countries": [
+     "AR",
+     "ZA",
+     "KR",
+     "TR"
+    ]
+   },
+   "conditions_text": "1. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation in a country subject to an arms embargo; or (iii) for use as parts or components of military items listed in national military lists that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); or (c) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation. 2. The exporter shall declare that the items are being exported under Union general export authorisation No EU002 in the customs declaration. 3. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation are defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. C. EXPORT AFTER REPAIR/REPLACEMENT",
+   "declare_in_customs_declaration": true
+  },
+  "EU003": {
+   "code": "EU003",
+   "title": "Export after repair/replacement",
+   "items_text": "1. This authorisation covers all dual-use items specified in any entry in Annex I, except those listed in paragraph 2 of this Section where: (a) the items were reimported into the customs territory of the Union for the purpose of maintenance, repair or replacement, and are exported or re-exported to the country of consignment without any changes to their original characteristics within a period of 5 years after the date when the original export authorisation has been granted; or (b) the items are exported to the country of consignment in exchange for items of the same quality and number which were reimported into the customs territory of the Union for maintenance, repair or replacement within a period of 5 years after the date when the original export authorisation has been granted. 2. Items excluded: (a) all items listed in Section I of this Annex; (b) all items listed in Sections D and E of each Category of Annex I; (c) the following items specified in Annex I: — 1A002.a., — 1C012.a., — 1C227, — 1C228, — 1C229, — 1C230, — 1C231, — 1C236, — 1C237, — 1C240, — 1C350, — 1C450, — 5A001.b.5., — 5A002.c., — 5A002.d., — 5A002.e., — 5A003.a., — 5A003.b., — 6A001.a.2.a.1., — 6A001.a.2.a.5., — 6A002.a.1.c., — 8A001.b., — 8A001.c.1., — 9A011.",
+   "items_mode": "all_except_section_i",
+   "items": [
+    "1A002.a",
+    "1C012.a",
+    "1C227",
+    "1C228",
+    "1C229",
+    "1C230",
+    "1C231",
+    "1C236",
+    "1C237",
+    "1C240",
+    "1C350",
+    "1C450",
+    "5A001.b.5",
+    "5A002.c",
+    "5A002.d",
+    "5A002.e",
+    "5A003.a",
+    "5A003.b",
+    "6A001.a.2.a.1",
+    "6A001.a.2.a.5",
+    "6A002.a.1.c",
+    "8A001.b",
+    "8A001.c.1",
+    "9A011"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Albania, — Argentina, — Bosnia and Herzegovina, — Brazil, — Chile, — China (including Hong Kong and Macao), — French overseas territories, — India, — Kazakhstan, — Mexico, — Montenegro, — Morocco, — North Macedonia, ————— — Serbia, — Singapore, — South Africa, — South Korea, — Tunisia, — Turkey, — Ukraine, — United Arab Emirates.",
+    "mode": "listed",
+    "countries": [
+     "AL",
+     "AR",
+     "BA",
+     "BR",
+     "CL",
+     "CN",
+     "HK",
+     "MO",
+     "NC",
+     "PF",
+     "TF",
+     "WF",
+     "PM",
+     "BL",
+     "IN",
+     "KZ",
+     "MX",
+     "ME",
+     "MA",
+     "MK",
+     "RS",
+     "SG",
+     "ZA",
+     "KR",
+     "TN",
+     "TR",
+     "UA",
+     "AE"
+    ]
+   },
+   "conditions_text": "1. This authorisation can only be used when the initial export has taken place under a Union general export authorisation or an initial export authorisation has been granted by the competent authority of the Member State where the original exporter was resident or established for the export of the items which have subsequently been reimported into the customs territory of the Union for the purposes of maintenance, repair or replacement. This authorisation is valid only for exports to the original end-user. 2. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation where the purchasing country or country of destination is subject to an arms embargo; or (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); (c) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation; (d) the initial authorisation has been annulled, suspended, modified or revoked; or (e) the exporter is aware that the end-use of the items in question is different from that specified in the original export authorisation. 3. On exportation of any of the items pursuant to this authorisation, exporters shall: (a) mention the reference number of the initial export authorisation in the export declaration to customs together with the name of the Member State that granted the authorisation, and declare that the items are being exported under Union general export authorisation No EU003 in the customs declaration; (b) provide customs officers, if so requested, with documentary evidence of the date of importation of the items into the Union, of any maintenance, repair or replacement of the items carried out in the Union and of the fact that the items are being returned to the end-user and the country from which they were imported into the Union. 4. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. 5. This authorisation covers items for ‘repair’, ‘replacement’ and ‘maintenance’, including coincidental improvements to the original goods, e.g. resulting from the use of modern spare parts or from use of a later built standard for reliability or safety reasons, provided that this does not result in any enhancement to the functional capability of the items or provide the items with new or additional functions. D. TEMPORARY EXPORT FOR EXHIBITION OR FAIR",
+   "declare_in_customs_declaration": true
+  },
+  "EU004": {
+   "code": "EU004",
+   "title": "Temporary export for exhibition or fair",
+   "items_text": "This authorisation covers all dual-use items specified in any entry in Annex I, except: (a) all items listed in Section I of this Annex; (b) all items listed in Section D of each Category of Annex I (this does not include software necessary to the proper functioning of the equipment for the purpose of the demonstration); (c) all items listed in Section E of each category of Annex I; (d) the following items specified in Annex I: — 1A002.a., — 1C002.b.4., — 1C010, — 1C012.a., — 1C227, — 1C228, — 1C229, — 1C230, — 1C231, — 1C236, — 1C237, — 1C240, — 1C350, — 1C450, — 5A001.b.5., — 5A002.c., — 5A002.d., — 5A002.e., — 5A003.a., — 5A003.b., — 6A001, — 6A002.a., — 8A001.b., — 8A001.c.1., — 9A011.",
+   "items_mode": "all_except_section_i",
+   "items": [
+    "1A002.a",
+    "1C002.b.4",
+    "1C010",
+    "1C012.a",
+    "1C227",
+    "1C228",
+    "1C229",
+    "1C230",
+    "1C231",
+    "1C236",
+    "1C237",
+    "1C240",
+    "1C350",
+    "1C450",
+    "5A001.b.5",
+    "5A002.c",
+    "5A002.d",
+    "5A002.e",
+    "5A003.a",
+    "5A003.b",
+    "6A001",
+    "6A002.a",
+    "8A001.b",
+    "8A001.c.1",
+    "9A011"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Albania, — Argentina, — Bosnia and Herzegovina, — Brazil, — Chile, — China (including Hong Kong and Macao), — French overseas territories, — India, — Kazakhstan, — Mexico, — Montenegro, — Morocco, — North Macedonia, ————— — Serbia, — Singapore, — South Africa, — South Korea, — Tunisia, — Turkey, — Ukraine, — United Arab Emirates.",
+    "mode": "listed",
+    "countries": [
+     "AL",
+     "AR",
+     "BA",
+     "BR",
+     "CL",
+     "CN",
+     "HK",
+     "MO",
+     "NC",
+     "PF",
+     "TF",
+     "WF",
+     "PM",
+     "BL",
+     "IN",
+     "KZ",
+     "MX",
+     "ME",
+     "MA",
+     "MK",
+     "RS",
+     "SG",
+     "ZA",
+     "KR",
+     "TN",
+     "TR",
+     "UA",
+     "AE"
+    ]
+   },
+   "conditions_text": "1. This authorisation authorises the export of items listed in Part 1 on condition that the export concerns temporary export for an exhibition or fair as defined in paragraph 6 of this Part and that the items are reimported within a period of 120 days after the initial export, complete and without modification, into the customs territory of the Union. 2. The competent authority of the Member State where the exporter is resident or established may, at the exporter’s request, waive the requirement that the items are to be reimported as stated in paragraph 1. To waive the requirement, the procedure for individual authorisations laid down in Article 12(2) of this Regulation shall apply accordingly. 3. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation where the purchasing country or country of destination is subject to an arms embargo; or (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); (c) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation; (d) the exporter has been informed by a competent authority of the Member State in which the exporter is resident or established, or is otherwise aware (e.g. from information received from the manufacturer), that the items in question have been classified by the competent authority as having a protective national security classification marking, equivalent to or above ‘CONFIDENTIEL UE/EU CONFIDENTIAL’; (e) their return, in their original state, without the removal, copying or dissemination of any component or software, cannot be guaranteed by the exporter, or where a transfer of technology is connected with a presentation; (f) the relevant items are to be exported for a private presentation or demonstration (e.g. in in-house showrooms); (g) the relevant items are to be merged into any production process; (h) the relevant items are to be used for their intended purpose, except to the minimum extent required for effective demonstration, but without making specific test outputs available to third parties; (i) the export is to take place as a result of a commercial transaction, in particular as regards the sale, rental or lease of the relevant items; (j) the relevant items are to be stored at an exhibition or fair only for the purpose of sale, rent or lease, without being presented or demonstrated; or (k) the exporter makes any arrangement which would prevent him from keeping the relevant items under his control during the whole period of the temporary export. 4. The exporter shall declare that the items are being exported under Union general export authorisation No EU004 in the customs declaration. 5. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation are defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. 6. For the purpose of this authorisation, ‘exhibition or fair’ means commercial events of a specific duration at which several exhibitors make demonstrations of their products to trade visitors or to the general public. E. TELECOMMUNICATIONS",
+   "declare_in_customs_declaration": true
+  },
+  "EU005": {
+   "code": "EU005",
+   "title": "Telecommunications",
+   "items_text": "This authorisation covers the following dual-use items specified in Annex I: (a) the following items of Category 5, Part l: (i) items, including specially designed or developed components and accessories therefor specified in 5A001.b.2., 5A001.c. and 5A001.d.; (ii) items specified in 5B001 and 5D001, where test, inspection and production equipment is concerned and software for items mentioned under point (i); (b) technology controlled by 5E001.a., where required for the installation, operation, maintenance or repair of items specified under point (a) and intended for the same end-user.",
+   "items_mode": "listed",
+   "items": [
+    "5A001.b.2",
+    "5A001.c",
+    "5A001.d",
+    "5B001",
+    "5D001",
+    "5E001.a"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Argentina, — China (including Hong Kong and Macao), — India, — South Africa, — South Korea, ————— — Turkey, — Ukraine.",
+    "mode": "listed",
+    "countries": [
+     "AR",
+     "CN",
+     "HK",
+     "MO",
+     "IN",
+     "ZA",
+     "KR",
+     "TR",
+     "UA"
+    ]
+   },
+   "conditions_text": "1. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation where the purchasing country or country of destination is subject to an arms embargo; (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; or (iv) for use in connection with a violation of human rights, democratic principles or the freedom of expression as defined by the Charter of Fundamental Rights of the European Union, by using interception technologies and digital data transfer devices for monitoring mobile phones and text messages and targeted surveillance of Internet use (e.g. via Monitoring Centres and Lawful Interception Gateways); (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); (c) the exporter is aware that the items in question will be re-exported to any destination other than those listed in Part 2 of this Section or in Part 2 of Section A of this Annex and the Member States; (d) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation. 2. The exporter shall declare that the items are being exported under Union general export authorisation No EU005 in the customs declaration. 3. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation are defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. F. CHEMICALS",
+   "declare_in_customs_declaration": true
+  },
+  "EU006": {
+   "code": "EU006",
+   "title": "Chemicals",
+   "items_text": "This authorisation covers the following dual-use items specified in Annex I: 1C350: 1. Thiodiglycol (CAS 111-48-8); 2. Phosphorus oxychloride (CAS 10025-87-3); 3. Dimethyl methylphosphonate (CAS 756-79-6); 5. Methylphosphonyl dichloride (CAS 676-97-1); 6. Dimethyl phosphite (DMP) (CAS 868-85-9); 7. Phosphorus trichloride (CAS 7719-12-2); 8. Trimethyl phosphite (TMP) (CAS 121-45-9); 9. Thionyl chloride (CAS 7719-09-7); 10. 3-Hydroxy-1-methylpiperidine (CAS 3554-74-3); 11. N,N-Diisopropyl-(beta)-aminoethyl chloride (CAS 96-79-7); 12. N,N-Diisopropyl-(beta)-aminoethane thiol (CAS 5842-07-9); 13. 3-Quinuclidinol (CAS 1619-34-7); 14. Potassium fluoride (CAS 7789-23-3); 15. 2-Chloroethanol (CAS 107-07-3); 16. Dimethylamine (CAS 124-40-3); 17. Diethyl ethylphosphonate (CAS 78-38-6); 18. Diethyl-N,N-dimethylphosphoramidate (CAS 2404-03-7); 19. Diethyl phosphite (CAS 762-04-9); 20. Dimethylamine hydrochloride (CAS 506-59-2); 21. Ethyl phosphinyl dichloride (CAS 1498-40-4); 22. Ethyl phosphonyl dichloride (CAS 1066-50-8); 24. Hydrogen fluoride (CAS 7664-39-3); 25. Methyl benzilate (CAS 76-89-1); 26. Methyl phosphinyl dichloride (CAS 676-83-5); 27. N,N-Diisopropyl-(beta)-amino ethanol (CAS 96-80-0); 28. Pinacolyl alcohol (CAS 464-07-3); 30. Triethyl phosphite (CAS 122-52-1); 31. Arsenic trichloride (CAS 7784-34-1); 32. Benzilic acid (CAS 76-93-7); 33. Diethyl methylphosphonite (CAS 15715-41-0); 34. Dimethyl ethylphosphonate (CAS 6163-75-3); 35. Ethyl phosphinyl difluoride (CAS 430-78-4); 36. Methyl phosphinyl difluoride (CAS 753-59-3); 37. 3-Quinuclidone (CAS 3731-38-2); 38. Phosphorus pentachloride (CAS 10026-13-8); 39. Pinacolone (CAS 75-97-8); 40. Potassium cyanide (CAS 151-50-8); 41. Potassium bifluoride (CAS 7789-29-9); 42. Ammonium hydrogen fluoride or ammonium bifluoride (CAS 1341-49-7); 43. Sodium fluoride (CAS 7681-49-4); 44. Sodium bifluoride (CAS 1333-83-1); 45. Sodium cyanide (CAS 143-33-9); 46. Triethanolamine (CAS 102-71-6); 47. Phosphorus pentasulphide (CAS 1314-80-3); 48. Di-isopropylamine (CAS 108-18-9); 49. Diethylaminoethanol (CAS 100-37-8); 50. Sodium sulphide (CAS 1313-82-2); 51. Sulphur monochloride (CAS 10025-67-9); 52. Sulphur dichloride (CAS 10545-99-0); 53. Triethanolamine hydrochloride (CAS 637-39-8); 54. N,N-Diisopropyl-(beta)-aminoethyl chloride hydrochloride (CAS 4261-68-1); 55. Methylphosphonic acid (CAS 993-13-5); 56. Diethyl methylphosphonate (CAS 683-08-9); 57. N,N-Dimethylaminophosphoryl dichloride (CAS 677-43-0); 58. Triisopropyl phosphite (CAS 116-17-6); 59. Ethyldiethanolamine (CAS 139-87-7); 60. O,O-Diethyl phosphorothioate (CAS 2465-65-8); 61. O,O-Diethyl phosphorodithioate (CAS 298-06-6); 62. Sodium hexafluorosilicate (CAS 16893-85-9); 63. Methylphosphonothioic dichloride (CAS 676-98-2); 64. Diethylamine (CAS 109-89-7); 65. N,N-Diisopropylaminoethanethiol hydrochloride (CAS 41480-75-5). 1C450.a.: 4. Phosgene: Carbonyl dichloride (CAS 75-44-5); 5. Cyanogen chloride (CAS 506-77-4); 6. Hydrogen cyanide (CAS 74-90-8); 7. Chloropicrin: Trichloronitromethane (CAS 76-06-2); 1C450.b.: 1. Chemicals, other than those specified in the Military Goods Controls or in 1C350, containing a phosphorus atom to which is bonded one methyl, ethyl or propyl (normal or iso) group but not further carbon atoms; 2. N,N-Dialkyl [methyl, ethyl or propyl (normal or iso)] phosphoramidic dihalides, other than N,N-Dimethylaminophosphoryl dichloride which is specified in 1C350.57; 3. Dialkyl [methyl, ethyl or propyl (normal or iso)] N,N-dialkyl [methyl, ethyl or propyl (normal or iso)]-phosphoramidates, other than Diethyl-N,N-dimethylphosphoramidate which is specified in 1C350; 4. N,N-Dialkyl [methyl, ethyl or propyl (normal or iso)] aminoethyl-2-chlorides and corresponding protonated salts, other than N,N-Diisopropyl-(beta)-aminoethyl chloride or N,N-Diisopropyl-(beta)-aminoethyl chloride hydrochloride which are specified in 1C350; 5. N,N-Dialkyl [methyl, ethyl or propyl (normal or iso)] aminoethane-2-ols and corresponding protonated salts, other than N,N-Diisopropyl-(beta)-aminoethanol (CAS 96-80-0) and N,N-Diethylaminoethanol (100-37-8) which are specified in 1C350; 6. N,N-Dialkyl [methyl, ethyl or propyl (normal or iso)] aminoethane-2-thiols and corresponding protonated salts, other than N,N-Diisopropyl-(beta)-aminoethane thiol (CAS 5842-07-9) and N,N-Diisopropylaminoethanethiol hydrochloride (CAS 41480-75-5) which are specified in 1C350; 8. Methyldiethanolamine (CAS 105-59-9).",
+   "items_mode": "listed",
+   "items": [
+    "1C350",
+    "1C450.a",
+    "1C450.b",
+    "1C350",
+    "1C350.57",
+    "1C350",
+    "1C350",
+    "1C350",
+    "1C350"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to the following destinations: — Argentina, — South Korea, — Turkey, — Ukraine.",
+    "mode": "listed",
+    "countries": [
+     "AR",
+     "KR",
+     "TR",
+     "UA"
+    ]
+   },
+   "conditions_text": "1. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military end-use as defined in point (b) of Article 4(1) of this Regulation where the purchasing country or country of destination is subject to an arms embargo; or (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); (c) the exporter is aware that the items in question will be re-exported to any destination other than those listed in Part 2 of this Section or in Part 2 of Section A of this Annex and the Member States; or (d) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation. 2. The exporter shall declare that the items are being exported under Union general export authorisation No EU006 in the customs declaration. 3. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is resident or established of the first use of this authorisation within 30 days from the date when the first export took place or, alternatively, and in accordance with a requirement by the competent authority of the Member State where the exporter is resident or established, prior to the first use of this authorisation. Member States shall notify the Commission of the notification mechanism chosen for this authorisation. The Commission shall publish the information notified to it in the C series of the Official Journal of the European Union. Reporting requirements attached to the use of this authorisation and additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States. A Member State may require exporters resident or established in that Member State to register prior to the first use of this authorisation. Registration shall be automatic and acknowledged by the competent authority to the exporter without delay and in any case within 10 working days of receipt, subject to Article 12(7) of this Regulation. Where applicable, the requirements set out in the second and third subparagraphs shall be based on those defined for the use of national general export authorisations granted by those Member States which provide for such authorisations. G. INTRA-GROUP EXPORT OF SOFTWARE AND TECHNOLOGY",
+   "declare_in_customs_declaration": true
+  },
+  "EU007": {
+   "code": "EU007",
+   "title": "Intra-group export of software and technology",
+   "items_text": "This authorisation covers all technology and software specified in Annex I, except those listed in Section I of this Annex and technology and software related to items under 4A005, 4D004, 4E001.c, 5A001.f and 5A001.j.",
+   "items_mode": "listed",
+   "items": [
+    "4A005",
+    "4D004",
+    "4E001.c",
+    "5A001.f",
+    "5A001.j"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports of software and technology to the following destinations: — Argentina, — Brazil, — Chile, — India, — Indonesia, — Israel, — Jordan, — Malaysia, — Mexico, — Morocco, — Philippines, — Singapore, — South Africa, — South Korea, — Thailand, — Tunisia.",
+    "mode": "listed",
+    "countries": [
+     "AR",
+     "BR",
+     "CL",
+     "IN",
+     "ID",
+     "IL",
+     "JO",
+     "MY",
+     "MX",
+     "MA",
+     "PH",
+     "SG",
+     "ZA",
+     "KR",
+     "TH",
+     "TN"
+    ]
+   },
+   "conditions_text": "1. This authorisation authorises the export of software and technology listed in Part 1 by any exporter that is a legal person established in a Member State to a company wholly owned and controlled by the exporter (subsidiary) or to a company directly and wholly owned and controlled by the same parent company as the exporter (sister company), provided that: (a) the parent company that directly controls the exporter and the entity ultimately controlling the exporter are resident or established in a Member State or in a country covered by Union general export authorisation No EU001; and (b) the parent company that directly controls the exporter provides a binding guarantee for the sister company’s compliance with the requirements of this authorisation; and For the purpose of this authorisation, a parent company controls another company when it is capable of exercising decisive influence on it; (c) the exported software and technology will be exclusively used for the commercial product development activities of the exporter and the subsidiary or sister company respectively, and, in the case of employees, pursuant to the agreement establishing the employment relationship; and (d) the exported software and technology and any products resulting therefrom remain under the complete control of the exporter, or, for the purpose of fulfilling the requirements of this authorisation when the export is directed to a sister company, under the complete control of the parent company that directly controls the sister company and will not be shared with any other entity; and (e) the exported software and technology will be returned to the exporter and completely deleted by the subsidiary or sister company when the development activity has been completed or in the event that the subsidiary or sister company is acquired by any other entity. Any resulting developed technology will also be transmitted to the exporter and completely deleted by the subsidiary or sister company. 2. This authorisation does not authorise the export of software and technology where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is established that the software or technology in question is or may be intended, in its entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military, paramilitary, police, intelligence, surveillance end-use or other security end-use by the government or by entities acting on behalf of the government; (iii) for use as parts or components of military items listed in the national military list that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; or (iv) for use in connection with a violation of human rights, democratic principles or the freedom of expression as defined by the Charter of Fundamental Rights of the European Union; (b) the exporter is aware that the software or technology in question is intended, in its entirety or in part, for any of the uses referred to in point (a); (c) the exporter is aware that the software or technology in question will be re-exported to any destination other than those listed in Part 2 of Section A of this Annex and the Member States; or (d) the exporter is aware that the consignee or end-user of the items in question is a military, paramilitary, police or intelligence service, or another governmental service for security, or that the items are intended for entities acting on behalf of any of the aforementioned services. A Member State may adopt national legislation expanding points (b) and (c) to cover circumstances where the exporter has grounds for suspecting that the software or technology in question are intended for the uses referred to in point (b) or (c). 3. The exporter intending to use this authorisation shall implement an Internal Compliance Programme. 4. The exporter shall declare that the items are being exported under Union general export authorisation No EU007 in the customs declaration in the case of tangible export of software or technology. 5. The exporter intending to use this authorisation shall register prior to the first use of this authorisation with the competent authority of the Member State where the exporter is established. Registration shall be automatic and acknowledged by the competent authority to the exporter within 10 working days of receipt. 6. The exporter who uses this authorisation shall notify the competent authority of the Member State where the exporter is established of the first use of this authorisation no later than 30 days prior to the date of the first export. 7. The exporter who uses this authorisation shall report to the competent authority of the Member State where the exporter is established on the use of this authorisation. The report on the use of this authorisation shall be produced at least once per year and shall include at least information regarding: (a) the description of the software and technology; (b) where available, the quantity and the value of the software and technology; (c) the subsidiaries, sister companies and parent companies involved under this authorisation. Additional information that the Member State from which the export is made might require on items exported under this authorisation shall be defined by Member States. H. ENCRYPTION",
+   "declare_in_customs_declaration": true
+  },
+  "EU008": {
+   "code": "EU008",
+   "title": "Encryption",
+   "items_text": "1. This authorisation covers dual-use items specified in Annex I, as follows: — 5A002.a.2, — 5A002.a.3, — 5A002.b., only ‘cryptographic activation token’ converting, by means of ‘cryptographic activation’, an item not specified in Category 5, Part 2, into an item specified in 5A002.a. as above or 5D002.c.1. as below, and not released by the Cryptography Note (Note 3 in Category 5, Part 2), — 5D002.a.1., only ‘Software’ specially designed or modified for the ‘use’ of equipment specified in 5A002.a. as above or ‘software’ specified in 5D002.c.1. as below, — 5D002.b., ‘Software’ having the characteristics of a ‘cryptographic activation token’ specified in 5A002.b. as above, — 5D002.c.1., only ‘Software’ having the characteristics of, or performing or simulating the functions of equipment specified in 5A002.a. as above, — 5E002.b., only ‘Technology’ having the characteristics of a ‘cryptographic activation token’ specified in 5A002.b. as above. 2. This authorisation shall be valid only if the items meet all of the following conditions: (a) the items use only published or commercial cryptographic standards that have been approved or adopted by internationally recognised standard bodies; (b) the items do not use cryptographic standards specially designed for government use (e.g. the cryptographic standards used in public safety radio systems, such as TETRA, TETRAPOL and P25); and (c) any cryptographic functionality used by the items cannot be easily changed by the user. 3. This authorisation shall not be used if: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established, or is otherwise aware (e.g. from information received from the manufacturer), that the items in question have been accredited or otherwise formally approved by the designated authority in a Member State (or are in the process of accreditation or other formal approval) to transmit, process or store classified information, equivalent to or above ‘RESTREINT UE/EU RESTRICTED’; (b) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established, or is otherwise aware (e.g. from information received from the manufacturer), that the items in question have been classified by the designated authority in a Member State (or are in the process of classification) as having a protective national security classification marking, equivalent to or above ‘RESTREINT UE/EU RESTRICTED’.",
+   "items_mode": "listed",
+   "items": [
+    "5A002.a.2",
+    "5A002.a.3",
+    "5A002.b",
+    "5A002.a",
+    "5D002.c.1",
+    "5D002.a.1",
+    "5A002.a",
+    "5D002.c.1",
+    "5D002.b",
+    "5A002.b",
+    "5D002.c.1",
+    "5A002.a",
+    "5E002.b",
+    "5A002.b"
+   ],
+   "destinations": {
+    "text": "This authorisation is valid throughout the customs territory of the Union for exports to all destinations, excluding: (a) destinations eligible for export under Union general export authorisation No EU001; (b) Afghanistan, Armenia, Azerbaijan, Belarus, Cambodia, Central African Republic, China (including Hong Kong and Macao), Congo, Democratic Republic of the Congo, Egypt, Eritrea, Georgia, Iran, Iraq, Israel, Kazakhstan, Kyrgyzstan, Lebanon, Libya, Malaysia, Mali, Mauritius, Mongolia, Myanmar/Burma, North Korea, Oman, Pakistan, Qatar, Russia, Saudi Arabia, Somalia, South Sudan, Sudan, Syria, Tajikistan, Turkmenistan, United Arab Emirates, Uzbekistan, Venezuela, Yemen, Zimbabwe; (c) any destination, other than those listed in point (b), subject to an arms embargo or subject to restrictive measures of the Union applicable to dual-use items.",
+    "mode": "all_except",
+    "excluded": [
+     "AF",
+     "AM",
+     "AZ",
+     "BY",
+     "KH",
+     "CF",
+     "CN",
+     "HK",
+     "MO",
+     "CG",
+     "CD",
+     "EG",
+     "ER",
+     "GE",
+     "IR",
+     "IQ",
+     "IL",
+     "KZ",
+     "KG",
+     "LB",
+     "LY",
+     "MY",
+     "ML",
+     "MU",
+     "MN",
+     "MM",
+     "KP",
+     "OM",
+     "PK",
+     "QA",
+     "RU",
+     "SA",
+     "SO",
+     "SS",
+     "SD",
+     "SY",
+     "TJ",
+     "TM",
+     "AE",
+     "UZ",
+     "VE",
+     "YE",
+     "ZW"
+    ],
+    "excludes_eu001": true,
+    "excludes_embargoed": true
+   },
+   "conditions_text": "1. This authorisation does not authorise the export of items where: (a) the exporter has been informed by the competent authority of the Member State in which the exporter is resident or established that the items in question are or may be intended, in their entirety or in part: (i) for use in connection with the development, production, handling, operation, maintenance, storage, detection, identification or dissemination of chemical, biological or nuclear weapons or other nuclear explosive devices, or the development, production, maintenance or storage of missiles capable of delivering such weapons; (ii) for a military, paramilitary, police, intelligence, surveillance end-use, or other security end-use by the government or by entities acting on behalf of the government; (iii) for use as parts or components of military items listed in national military lists that have been exported from the territory of the Member State concerned without authorisation or in breach of an authorisation prescribed by the national legislation of that Member State; or (iv) for use in connection with a violation of human rights, democratic principles or the freedom of expression as defined by the Charter of Fundamental Rights of the European Union; (b) the exporter is aware that the items in question are intended, in their entirety or in part, for any of the uses referred to in point (a); (c) the exporter is aware that the items in question will be re-exported to any destination excluded by point (b) or (c) of Part 2 of this authorisation; (d) the relevant items are exported to a customs-free zone or a free warehouse which is located in a destination covered by this authorisation; (e) the exporter is aware that the consignee or end-user of the items in question is a military, paramilitary, police or intelligence service, or another governmental service for security, or that the items are intended for entities acting on behalf of any of the aforementioned services; or (f) the export is controlled by virtue of any entry in Annex I not specified in this authorisation. 2. Where a customs declaration is required, the exporter shall declare that the items are being exported under Union general export authorisation No EU008 in the customs declaration. 3. The exporter intending to use this authorisation shall register prior to the first use of this authorisation with the competent authority of the Member State where the exporter is resident or established. Registration shall be automatic and acknowledged by the competent authority to the exporter within 10 working days of receipt. 4. The registered exporter shall notify the first use of this authorisation to the competent authority of the Member State where the registered exporter is resident or established, no later than 10 days before the date of the first export. 5. The exporter shall, at the request of the competent authority of the Member State where the exporter is resident or established, submit technical data of any export planned or conducted under this authorisation. If such technical data has been requested in relation to a specific item and the technical data changes, the exporter shall notify the competent authority of this without delay. The technical data shall include at least the following information regarding the item: (a) manufacturer; (b) product name; (c) model number; (d) item description - a brief general description of the item such as might be contained in a product brochure; (e) if necessary, as determined by the competent authority, technical specifications, which shall include: (i) a list of all relevant cryptographic algorithms, including associated key management, related to data confidentiality; (ii) a list of any protocols to which the item adheres; (iii) specification of pre- or post-processing of data, such as compression of plain text or packetizing of encrypted data; (iv) details of programming interfaces that can be used to gain access to the cryptographic functionality of the item; (f) export control classification. 6. The competent authority of the Member State where the exporter is resident or established may, for reasons of national security, prohibit the exporter from using this Union general export authorisation for any item mentioned in Part 1. The Member State concerned shall inform the Commission and the other Member States on the use of this provision. 7. The registered exporter shall at the request of the competent authority of the Member State where the registered exporter is resident or established report on the use of this authorisation. Upon request, the report on the use of this authorisation shall be produced at least once per year and shall include at least the following information: (a) export control classification of the dual-use items; (b) the quantity and the value of the dual-use items; (c) the name and address of the consignee; (d) where known, the end-use and end-user of the dual-use items; (e) a reference to the last submission of technical data for the dual-use items.",
+   "declare_in_customs_declaration": true
+  }
+ },
+ "section_i": {
+  "text": "I. LIST REFERRED TO IN POINT (A) OF ARTICLE 12(6) OF THIS REGULATION AND SECTIONS A, C, D AND G OF THIS ANNEX The entries do not always provide a complete description of the items and the related notes in Annex I. Only Annex I provides a complete description of the items. The mention of an item in this Section does not affect the application of the General Software Note (GSN) set out in Annex I. — all items specified in Annex IV, — 0C001 ‘Natural uranium’ or ‘depleted uranium’ or thorium in the form of metal, alloy, chemical compound or concentrate and any other material containing one or more of the foregoing, — 0C002 ‘Special fissile materials’ other than those specified in Annex IV, — 0D001 ‘Software’ specially designed or modified for the ‘development’, ‘production’ or ‘…’ of goods specified in Category 0, in so far as it relates to 0C001 or to those items of 0C002 that are excluded from Annex IV, — 0E001 ‘Technology’ in accordance with the Nuclear Technology Note for the ‘development’, ‘production’ or ‘…’ of goods specified in Category 0, in so far as it relates to 0C001 or to those items of 0C002 that are excluded from Annex IV, — 1A102 Resaturated pyrolised carbon-carbon components designed for space launch vehicles specified in 9A004 or sounding rockets specified in 9A104, — 1C351 Human and animal pathogens and ‘toxins’, — 1C353 Genetic elements and genetically modified organisms, — 1C354 Plant pathogens, — 1C450.a.1. Amiton: O,O-Diethyl S-[2-(diethylamino)ethyl] phosphorothiolate (78-53-5) and corresponding alkylated or protonated salts, — 1C450.a.2. PFIB: 1,1,3,3,3-Pentafluoro-2-(trifluoromethyl)-1-propene (382-21-8), — 7E104 ‘Technology’ for the integration of flight control, guidance and propulsion data into a flight management system for optimisation of rocket system trajectory, — 9A009.a. Hybrid rocket propulsion systems with total impulse capacity exceeding 1.1 MNs, — 9A117 Staging mechanisms, separation mechanisms and interstages usable in ‘missiles’.",
+  "codes": [
+   "0C001",
+   "0C002",
+   "0D001",
+   "0E001",
+   "1A102",
+   "1C351",
+   "1C353",
+   "1C354",
+   "1C450.a.1",
+   "1C450.a.2",
+   "7E104",
+   "9A009.a",
+   "9A117"
+  ],
+  "includes_annex_iv": true
+ }
+}

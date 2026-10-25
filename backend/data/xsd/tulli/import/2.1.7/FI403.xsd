@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/import/ext/v3" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/import/ext/v3" version="3.0.37" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Amendment notification (after the release of the goods)</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI403">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="chars_1_22">
+        <xs:annotation>
+          <xs:documentation>LRN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="3" name="FunctionalReference" type="FunctionalReference_287">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="2" name="Type" type="Type_962">
+        <xs:annotation>
+          <xs:documentation>Declaration type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Invoice" type="Invoice_649">
+        <xs:annotation>
+          <xs:documentation>Invoice</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalGrossMass" type="dec_total_16_between_0_max_fract_6">
+        <xs:annotation>
+          <xs:documentation>Total gross mass (kg)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_502">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Notification" type="Notification_769">
+        <xs:annotation>
+          <xs:documentation>Notification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Agent" type="Representative_532">
+        <xs:annotation>
+          <xs:documentation>Representative</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Declarant" type="Declarant_351">
+        <xs:annotation>
+          <xs:documentation>Declarant</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Debtor" type="Debtor_565">
+        <xs:annotation>
+          <xs:documentation>Debtor</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Exporter" type="Exporter_293">
+        <xs:annotation>
+          <xs:documentation>Exporter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ServiceProvider" type="ServiceProvider_056">
+        <xs:annotation>
+          <xs:documentation>Service provider</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Submitter" type="Submitter_409">
+        <xs:annotation>
+          <xs:documentation>Submitter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="AdditionalDocument" type="AdditionalDocument_713">
+        <xs:annotation>
+          <xs:documentation>Additional document</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="Authorisation" type="Authorisation_897">
+        <xs:annotation>
+          <xs:documentation>Authorisation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="AdditionalInformation" type="AdditionalInformation_781">
+        <xs:annotation>
+          <xs:documentation>Additional information</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="BorderTransportMeans" type="BorderTransportMeans_754">
+        <xs:annotation>
+          <xs:documentation>Means of transport at the border</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9999" name="PreviousDocument" type="PreviousDocument_388">
+        <xs:annotation>
+          <xs:documentation>Previous document</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="DutyTaxFee" type="DutyTaxFee_496">
+        <xs:annotation>
+          <xs:documentation>DutyTaxFee</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="TaxCalculation" type="TaxCalculation_105">
+        <xs:annotation>
+          <xs:documentation>TaxCalculation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="TotalPayableTax" type="TotalPayableTax_292">
+        <xs:annotation>
+          <xs:documentation>TotalPayableTax</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Payment" type="Payment_178">
+        <xs:annotation>
+          <xs:documentation>Payment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="3" name="Bank" type="Bank_236">
+        <xs:annotation>
+          <xs:documentation>Bank</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="GoodsShipment" type="GoodsShipment_694">
+        <xs:annotation>
+          <xs:documentation>Goods shipment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="Guarantee" type="ObligationGuarantee_242">
+        <xs:annotation>
+          <xs:documentation>Obligation Guarantee</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="PresentationOffice" type="CustomsOfficeOfPresentation_681">
+        <xs:annotation>
+          <xs:documentation>Customs Office Of Presentation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI403B" type="FI403">
+    <xs:annotation>
+      <xs:documentation>Amendment notification (after the release of the goods)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

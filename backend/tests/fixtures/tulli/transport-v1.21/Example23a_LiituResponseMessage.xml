@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiituResponseMessage xmlns="http://tulli.fi/schema/external/liitu/response/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tulli.fi/schema/external/liitu/response/2 LiituResponseMessage.xsd" schemaVersion="2.0" messageTimestamp="2018-05-23T11:45:30">
+  <MessageHeader>
+    <SenderIdentifier>FI0245442-8</SenderIdentifier>
+    <ReceiverIdentifier>FI3451020-1</ReceiverIdentifier>
+    <ControlReference>ad0bce7ad9e649</ControlReference>
+    <RelatedMessageStorageId>ELEX20180523081519F10FF11</RelatedMessageStorageId>
+    <Application>ELEX</Application>
+  </MessageHeader>
+  <Acceptance>
+    <AcceptanceTimestamp>2018-05-23T11:45:30</AcceptanceTimestamp>
+    <AttachmentIdentifier>L18ELEX000000039</AttachmentIdentifier>
+  </Acceptance>
+</LiituResponseMessage>

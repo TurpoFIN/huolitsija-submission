@@ -1,0 +1,31 @@
+{
+ "items": [
+  {
+   "certificate_code": "C052",
+   "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+   "created_at": "2026-10-24T21:30:39Z",
+   "created_by": {
+    "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+    "name": "Esimerkkikäyttäjä",
+    "org_type": "internal",
+    "type": "user"
+   },
+   "goods": [
+    "871200"
+   ],
+   "holder": "Paikallinen käyttöliittymätesti",
+   "id": "a40f9a3a-85d4-47c1-a0e2-0f8ccceb7931",
+   "issuer": "Ei viranomainen / UI test",
+   "note": "UI test only. Not an issued licence. Must never authorise a filing.",
+   "number": "UI-TEST-NOT-VALID",
+   "quantity_balance": 10.0,
+   "quantity_total": 10.0,
+   "status": "suspended",
+   "unit": "pce",
+   "updated_at": "2026-10-24T21:30:39Z",
+   "usage": [],
+   "valid_from": "2026-10-24",
+   "valid_to": "2026-10-24"
+  }
+ ]
+}

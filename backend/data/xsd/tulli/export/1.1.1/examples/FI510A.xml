@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI510A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>b2910e06d81b4c</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="AdditionalLRN">Viite</FunctionalReference>
+  <FunctionalReference function="MRN">24FIV43000004471B4</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>MIT</Type>
+    <Notification>2024-03-18T07:51:56.3151744+02:00</Notification>
+    <Decision>
+      <Decision>2024-03-18T07:51:56.3151744+02:00</Decision>
+    </Decision>
+    <ContactInfo>
+      <Name>FI002000</Name>
+      <Email>veintussmailuss@tulli.fi</Email>
+      <Telephone>+420 023 1337</Telephone>
+    </ContactInfo>
+  </Notification>
+</FI510A>

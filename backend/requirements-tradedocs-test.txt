@@ -1,0 +1,4 @@
+# Validation against bundled official DCSA/UNCEFACT/IATA schemas.
+openapi-schema-validator>=0.6,<0.7
+rdflib>=7,<8
+PyYAML>=6,<7

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI010A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>uCVEqrmzBg</Identification>
+  <FunctionalReference function="MRN">23FIP44000008923J0</FunctionalReference>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>MIT</Type>
+    <Notification>2023-04-25T08:50:02.7727561+03:00</Notification>
+    <Decision>
+      <Decision>2023-04-25T05:50:02</Decision>
+      <Note>
+        <Note>D0035</Note>
+        <NoteDescription>Ilmoitus on mitätöity.</NoteDescription>
+      </Note>
+    </Decision>
+    <ContactInfo>
+      <Name>FI002000</Name>
+      <Email>passitusseuranta@tulli.fi</Email>
+      <Telephone>+358 295 5207</Telephone>
+    </ContactInfo>
+  </Notification>
+</FI010A>

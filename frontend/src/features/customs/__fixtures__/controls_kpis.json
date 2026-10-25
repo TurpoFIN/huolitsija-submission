@@ -1,0 +1,128 @@
+{
+ "autopilot": {
+  "auto_filed": 0,
+  "owner_queue": 0
+ },
+ "by_kind": {
+  "ens": {
+   "amended_after_rejection": 0,
+   "amendments": 0,
+   "filed": 1,
+   "invalidated_after_acceptance": 0,
+   "rejected": 0,
+   "rejection_rate_pct": 0.0,
+   "released": 0,
+   "time_to_release_hours": {
+    "average": null,
+    "max": null,
+    "median": null,
+    "n": 0,
+    "p90": null
+   }
+  },
+  "export": {
+   "amended_after_rejection": 0,
+   "amendments": 0,
+   "filed": 1,
+   "invalidated_after_acceptance": 0,
+   "rejected": 0,
+   "rejection_rate_pct": 0.0,
+   "released": 1,
+   "time_to_release_hours": {
+    "average": 0.01,
+    "max": 0.01,
+    "median": 0.01,
+    "n": 1,
+    "p90": 0.01
+   }
+  },
+  "import": {
+   "amended_after_rejection": 0,
+   "amendments": 0,
+   "filed": 0,
+   "invalidated_after_acceptance": 0,
+   "rejected": 0,
+   "rejection_rate_pct": null,
+   "released": 0,
+   "time_to_release_hours": {
+    "average": null,
+    "max": null,
+    "median": null,
+    "n": 0,
+    "p90": null
+   }
+  },
+  "transit": {
+   "amended_after_rejection": 0,
+   "amendments": 0,
+   "filed": 3,
+   "invalidated_after_acceptance": 0,
+   "rejected": 0,
+   "rejection_rate_pct": 0.0,
+   "released": 2,
+   "time_to_release_hours": {
+    "average": 0.01,
+    "max": 0.02,
+    "median": 0.01,
+    "n": 2,
+    "p90": 0.02
+   }
+  }
+ },
+ "control_refusals": {},
+ "definitions": {
+  "amendments": {
+   "en": "Amendments: a rejected declaration corrected, or an accepted one invalidated",
+   "fi": "Korjaukset: hylätyn ilmoituksen korjaus tai hyväksytyn ilmoituksen mitätöinti"
+  },
+  "changed_after_approval_request": {
+   "en": "Declaration changed after filing approval was requested (approval voided)",
+   "fi": "Ilmoitus muuttui hyväksyntäpyynnön jälkeen (hyväksyntä mitätöitiin)"
+  },
+  "filed": {
+   "en": "Declarations sent to Tulli (first submission in the period)",
+   "fi": "Tullille lähetetyt ilmoitukset (ensimmäinen lähetys jaksolla)"
+  },
+  "overrides": {
+   "en": "Four-eyes overrides (approved alone with an audited reason)",
+   "fi": "Neljän silmän poikkeukset (yksin hyväksytyt, perustelu auditoitu)"
+  },
+  "rejection_rate_pct": {
+   "en": "Rejected by Tulli / sent",
+   "fi": "Tullin hylkäämät / lähetetyt"
+  },
+  "time_to_release_hours": {
+   "en": "Hours from submission to release",
+   "fi": "Tunnit lähettämisestä luovutukseen"
+  }
+ },
+ "four_eyes": {
+  "approved": 0,
+  "filing_cards": 2,
+  "override_list": [],
+  "override_rate_pct": null,
+  "overrides": 0,
+  "required": 0
+ },
+ "period": {
+  "from": "2026-07-26",
+  "to": "2026-10-24"
+ },
+ "totals": {
+  "amended_after_rejection": 0,
+  "amendments": 0,
+  "changed_after_approval_request": 0,
+  "filed": 5,
+  "invalidated_after_acceptance": 0,
+  "rejected": 0,
+  "rejection_rate_pct": 0.0,
+  "released": 3,
+  "time_to_release_hours": {
+   "average": 0.01,
+   "max": 0.02,
+   "median": 0.01,
+   "n": 3,
+   "p90": 0.02
+  }
+ }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3R03" type="IE3R03Type" />
+  <xs:complexType name="IE3R03Type">
+    <xs:sequence>
+      <xs:element name="documentIssueDate" type="DocumentIssueDateType" />
+      <xs:element name="MRN" type="MRNContentType1" />
+      <xs:element name="responsibleMemberState" type="ResponsibleMemberStateType" />
+      <xs:element name="representative" minOccurs="0" type="RepresentativeType04" />
+      <xs:element name="transportDocument" minOccurs="0" type="TransportDocumentType" />
+      <xs:element name="declarant" type="DeclarantType04" />
+      <xs:element name="hrcmScreeningResults" maxOccurs="999" type="HrcmScreeningResultsType04" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

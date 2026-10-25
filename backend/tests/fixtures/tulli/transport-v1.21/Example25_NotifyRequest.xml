@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:vx="http://tulli.fi/ws/notificationservice/v1" xmlns:vx1="http://tulli.fi/ws/notificationservicetypes/v1" xmlns:v1="http://tulli.fi/ws/corporateservicetypes/v1">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<vx:NotifyRequest>
+			<vx1:RequestHeader>
+				<vx1:IntermediaryBusinessId>FI9991026-5</vx1:IntermediaryBusinessId>
+				<vx1:TransactionId>1-20180524-110250-56800727</vx1:TransactionId>
+				<vx1:Timestamp>2018-05-24T11:02:50.578+03:00</vx1:Timestamp>
+				<vx1:Environment>TEST</vx1:Environment>
+			</vx1:RequestHeader>
+			<vx1:MessageInformation>
+				<v1:MessageStorageId>LIIT20180524080250BF88B11</v1:MessageStorageId>
+				<v1:Application>LIITU</v1:Application>
+				<v1:ControlReference>39db440e2f2f46</v1:ControlReference>
+				<v1:MessageStoredTimestamp>2018-05-24T08:02:50.419Z</v1:MessageStoredTimestamp>
+				<v1:DeclarantBusinessId>FI9991026-5</v1:DeclarantBusinessId>
+			</vx1:MessageInformation>
+		</vx:NotifyRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

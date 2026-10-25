@@ -1,0 +1,1661 @@
+{
+ "_captured": "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=49410&location=Vantaa on 2026-10-24, trimmed to 7 of 100 companies",
+ "totalResults": 375,
+ "companies": [
+  {
+   "businessId": {
+    "value": "0217115-3",
+    "registrationDate": "1978-11-11",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0217115-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetusliike V. Mönkkönen Oy",
+     "type": "1",
+     "registrationDate": "2001-03-31",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Kuljetusliike V. Mönkkönen Ky",
+     "type": "1",
+     "registrationDate": "1984-06-14",
+     "endDate": "2001-03-30",
+     "version": 2,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "website": {
+    "url": "www.kuljetusliikemonkkonen.fi",
+    "registrationDate": "2022-02-09",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2001-03-31",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1984-06-14",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-11-11",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1995-03-01",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-07-01",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "street": "Vetokuja",
+     "postCode": "01610",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "buildingNumber": "4",
+     "entrance": "C",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2024-04-01",
+     "source": "0"
+    },
+    {
+     "type": 2,
+     "street": "Neitoperhosentie",
+     "postCode": "00410",
+     "postOffices": [
+      {
+       "city": "HELSINGFORS",
+       "languageCode": "2",
+       "municipalityCode": "091"
+      },
+      {
+       "city": "HELSINKI",
+       "languageCode": "1",
+       "municipalityCode": "091"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "10",
+     "entrance": "as.",
+     "apartmentNumber": "8",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2024-04-01",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1984-06-14",
+   "lastModified": "2026-02-23T20:05:13"
+  },
+  {
+   "businessId": {
+    "value": "0473931-2",
+    "registrationDate": "1982-07-26",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0473931-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetus Oy Laakso",
+     "type": "1",
+     "registrationDate": "1981-08-13",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "website": {
+    "url": "www.kuljetuslaakso.fi",
+    "registrationDate": "2021-01-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1981-08-13",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1982-07-26",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1995-03-01",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1982-06-01",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "street": "Nuolitie",
+     "postCode": "01740",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "buildingNumber": "10",
+     "entrance": "",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2021-01-13",
+     "source": "0"
+    },
+    {
+     "type": 2,
+     "street": "Nuolitie",
+     "postCode": "01740",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "10",
+     "entrance": "",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2021-01-13",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1981-08-13",
+   "lastModified": "2025-12-31T07:39:20"
+  },
+  {
+   "businessId": {
+    "value": "0581033-6",
+    "registrationDate": "1985-02-04",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0581033-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetus J.J. Oksanen Oy",
+     "type": "1",
+     "registrationDate": "2000-03-03",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Kuljetus J.J. Oksanen & Co",
+     "type": "1",
+     "registrationDate": "1992-05-13",
+     "endDate": "2000-03-02",
+     "version": 2,
+     "source": "1"
+    },
+    {
+     "name": "JJ Huoltomestari",
+     "type": "3",
+     "registrationDate": "2024-08-25",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "website": {
+    "url": "www.jjoksanen.fi",
+    "registrationDate": "2019-05-22",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2000-03-03",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1984-09-20",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1985-02-04",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1995-03-01",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "82",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "För överlåtelse av nyttjanderätten till en fastighet"
+      },
+      {
+       "languageCode": "1",
+       "description": "Kiinteistön käyttöoikeuden luovuttamisesta"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-obliged for the transfer of rights to use immovable property"
+      }
+     ],
+     "registrationDate": "2022-06-21",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2002-01-01",
+     "register": "7",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1985-04-01",
+     "endDate": "1993-12-31",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "street": "Kivipyykintie",
+     "postCode": "01260",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "12",
+     "entrance": "",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2013-10-11",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1984-09-20",
+   "lastModified": "2026-02-24T13:36:30"
+  },
+  {
+   "businessId": {
+    "value": "0587574-6",
+    "registrationDate": "1985-04-02",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0587574-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetus ja maanrakennus Katupojat Oy",
+     "type": "1",
+     "registrationDate": "2014-08-18",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Kuljetusliike Katupojat Oy",
+     "type": "1",
+     "registrationDate": "1985-12-31",
+     "endDate": "2014-08-18",
+     "version": 2,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "website": {
+    "url": "www.katupojat.fi",
+    "registrationDate": "2022-05-05",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1984-10-25",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1985-04-02",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1995-03-01",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2014-07-29",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "street": "Siirakuja",
+     "postCode": "01490",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "buildingNumber": "5",
+     "entrance": "",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2023-11-16",
+     "source": "0"
+    },
+    {
+     "type": 2,
+     "street": "Siirakuja",
+     "postCode": "01490",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "5",
+     "entrance": "",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2023-11-16",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1984-10-25",
+   "lastModified": "2025-12-31T07:39:20"
+  },
+  {
+   "businessId": {
+    "value": "0196126-8",
+    "registrationDate": "1978-06-16",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0196126-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Nordig Finland Oy",
+     "type": "1",
+     "registrationDate": "2004-06-18",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Maalauspähkinä Oy",
+     "type": "1",
+     "registrationDate": "1979-04-20",
+     "endDate": "2004-06-17",
+     "version": 2,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1976-05-28",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-06-16",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2015-05-19",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2004-06-10",
+     "endDate": "2014-06-30",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "2015-04-01",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "2004-06-01",
+     "endDate": "2014-08-31",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "endDate": "2003-08-31",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1976-06-01",
+     "endDate": "2003-07-31",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "street": "Pekankuja",
+     "postCode": "01400",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "4",
+     "entrance": "A",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "c/o Salminen",
+     "registrationDate": "2004-06-10",
+     "source": "0"
+    },
+    {
+     "type": 2,
+     "street": "Pekankuja",
+     "postCode": "01400",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "4",
+     "entrance": "A",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "c/o Salminen",
+     "registrationDate": "2004-06-10",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1976-05-28",
+   "lastModified": "2026-01-16T03:02:40"
+  },
+  {
+   "businessId": {
+    "value": "0199367-3",
+    "registrationDate": "1978-06-21",
+    "source": "3"
+   },
+   "names": [
+    {
+     "name": "Kuljetusliike A Björklund & Co",
+     "type": "1",
+     "registrationDate": "1988-06-22",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Kuljetusliike P. Wikman & Kumpp.",
+     "type": "1",
+     "registrationDate": "1960-08-26",
+     "endDate": "1988-06-21",
+     "version": 2,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "companyForms": [
+    {
+     "type": "5",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Avoin yhtiö"
+      },
+      {
+       "languageCode": "3",
+       "description": "Partnership"
+      },
+      {
+       "languageCode": "2",
+       "description": "Öppet bolag"
+      }
+     ],
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1960-08-26",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-06-21",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1979-01-01",
+     "endDate": "1989-06-30",
+     "register": "7",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1990-03-01",
+     "endDate": "1991-12-31",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "street": "LUHDINSOLA",
+     "postCode": "01660",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "15",
+     "entrance": "E",
+     "apartmentNumber": "21",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "1990-10-18",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1960-08-26",
+   "lastModified": "2025-12-31T07:39:20"
+  },
+  {
+   "businessId": {
+    "value": "0115178-3",
+    "registrationDate": "1978-03-15",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.0115178-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetus Oy T-J",
+     "type": "1",
+     "registrationDate": "1998-09-15",
+     "version": 1,
+     "source": "1"
+    },
+    {
+     "name": "Tim-Jor Oy",
+     "type": "1",
+     "registrationDate": "1963-01-04",
+     "endDate": "1998-09-14",
+     "version": 2,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "49410",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Freight transport by road"
+     },
+     {
+      "languageCode": "1",
+      "description": "Tieliikenteen tavarankuljetus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Vägtransport, godstrafik"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-01-01",
+    "source": "2"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [
+    {
+     "type": "SELTILA",
+     "registrationDate": "2022-12-01",
+     "source": "1"
+    }
+   ],
+   "registeredEntries": [
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1963-01-04",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-03-15",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1995-03-01",
+     "endDate": "2010-11-30",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "1994-06-01",
+     "endDate": "2010-03-31",
+     "register": "6",
+     "authority": "1"
+    },
+    {
+     "type": "41",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "1978-11-01",
+     "endDate": "2008-10-31",
+     "register": "7",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "street": "Peltolantie",
+     "postCode": "01300",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "buildingNumber": "10",
+     "entrance": "A",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "",
+     "registrationDate": "2023-02-09",
+     "source": "0"
+    },
+    {
+     "type": 2,
+     "street": "Peltolantie",
+     "postCode": "01300",
+     "postOffices": [
+      {
+       "city": "VANDA",
+       "languageCode": "2",
+       "municipalityCode": "092"
+      },
+      {
+       "city": "VANTAA",
+       "languageCode": "1",
+       "municipalityCode": "092"
+      }
+     ],
+     "postOfficeBox": "",
+     "buildingNumber": "10",
+     "entrance": "A",
+     "apartmentNumber": "",
+     "apartmentIdSuffix": "",
+     "co": "c/o Tikkurilan Tilitoimisto Oy",
+     "registrationDate": "2023-02-09",
+     "source": "0"
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "1963-01-04",
+   "lastModified": "2025-12-31T07:39:20"
+  }
+ ]
+}

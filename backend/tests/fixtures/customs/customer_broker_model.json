@@ -1,0 +1,71 @@
+{
+  "source_text": "Quote 6 x 40HC containers, total gross weight 60000 kg, Shanghai CNSHA to Helsinki FIHEL, FOB Shanghai, ready 2026-10-28. Do not restrict the transport mode. All export and import customs formalities are handled by our own broker; do not arrange customs for us.",
+  "model_response": {
+    "origin": {
+      "query": "Shanghai",
+      "unlocode": "CNSHA",
+      "country": "CN"
+    },
+    "destination": {
+      "query": "Helsinki",
+      "unlocode": "FIHEL",
+      "country": "FI"
+    },
+    "mode": null,
+    "mode_stated": true,
+    "ready_date": "2026-10-28",
+    "incoterm": "FOB",
+    "incoterm_place": "Shanghai",
+    "cargo": {
+      "load_type": "FCL",
+      "description": null,
+      "packages": null,
+      "package_type": null,
+      "weight_kg": 60000,
+      "volume_m3": null,
+      "stackable": null,
+      "containers": [
+        {
+          "type": "40HC",
+          "count": 6
+        }
+      ],
+      "dangerous_goods": null,
+      "dg": null,
+      "value_eur": null,
+      "hs_hint": null
+    },
+    "customs_clearance": false,
+    "customs_handling": "customer_broker",
+    "customs_handling_evidence": "All export and import customs formalities are handled by our own broker; do not arrange customs for us.",
+    "insurance": null,
+    "missing": [
+      "mode",
+      "description",
+      "packages",
+      "package_type",
+      "volume_m3",
+      "stackable",
+      "dangerous_goods",
+      "dg",
+      "value_eur",
+      "hs_hint",
+      "insurance"
+    ],
+    "assumptions": [
+      "The container shipment is classified as FCL.",
+      "Container units are explicitly stated, so mode_stated is true; mode remains null because you requested no transport-mode restriction.",
+      "Country codes are taken from the supplied UN/LOCODEs."
+    ],
+    "summary": "Quote six 40HC containers with a total gross weight of 60000 kg from Shanghai to Helsinki, FOB Shanghai, ready 2026-10-28, without restricting the transport mode and with all export and import customs handled by your own broker.",
+    "summary_i18n": {
+      "fi": "Tarjous kuudesta 40HC-kontista, joiden kokonaisbruttopaino on 60000 kg, Shanghaista Helsinkiin, FOB Shanghai, valmiina 2026-10-28, kuljetusmuotoa rajoittamatta ja asiakkaan oman huolitsijan hoitaessa kaikki vienti- ja tuontitullimuodollisuudet.",
+      "en": "Quote six 40HC containers with a total gross weight of 60000 kg from Shanghai to Helsinki, FOB Shanghai, ready 2026-10-28, without restricting the transport mode and with all export and import customs handled by your own broker."
+    },
+    "confidence": 0.98
+  },
+  "capture": {
+    "configured_model": "gpt-6.1-sol",
+    "source": "Actual project llm_json/Responses call, no quote or shipment created"
+  }
+}

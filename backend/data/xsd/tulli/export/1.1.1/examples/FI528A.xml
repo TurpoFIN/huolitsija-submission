@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI528A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>e723471b61b146</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="AdditionalLRN">Viite</FunctionalReference>
+  <FunctionalReference function="MRN">24FIV43000004507B4</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYV</Type>
+    <Notification>2024-03-18T10:13:29.2824539+02:00</Notification>
+  </Notification>
+</FI528A>

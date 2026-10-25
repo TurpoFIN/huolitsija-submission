@@ -1,0 +1,50 @@
+{
+ "token_keys": [
+  "@id",
+  "id",
+  "token"
+ ],
+ "messages": {
+  "@context": "/contexts/Message",
+  "@id": "/messages",
+  "@type": "hydra:Collection",
+  "hydra:totalItems": 1,
+  "hydra:member": [
+   {
+    "@id": "/messages/6add80e0b24ead0ceb36e874",
+    "@type": "Message",
+    "id": "6add80e0b24ead0ceb36e874",
+    "msgid": "<E1xKpXY-AIkwcC8jTPo-esRk@message-id.smtpcorp.com>",
+    "from": {
+     "address": "02f0ce8dc68e626a0bdf747768fdc1f8@inbound.postmarkapp.com",
+     "name": "Huolitsija"
+    },
+    "to": [
+     {
+      "address": "inbound@example-mailtm.test",
+      "name": ""
+     }
+    ],
+    "subject": "Huolitsija inbound check (mail.tm) 04:08:59",
+    "intro": "Genuine delivery check from SMTP2GO to the mail.tm inbound mailbox.",
+    "seen": false,
+    "isDeleted": false,
+    "hasAttachments": false,
+    "size": 2907,
+    "downloadUrl": "/messages/6add80e0b24ead0ceb36e874/download",
+    "sourceUrl": "/sources/6add80e0b24ead0ceb36e874",
+    "createdAt": "2026-10-25T04:09:00+00:00",
+    "updatedAt": "2026-10-25T04:09:04+00:00",
+    "accountId": "/accounts/6add80c5387ede74db0b74c8"
+   }
+  ]
+ },
+ "source": {
+  "@context": "/contexts/Source",
+  "@id": "/sources/6add80e0b24ead0ceb36e874",
+  "@type": "Source",
+  "id": "6add80e0b24ead0ceb36e874",
+  "downloadUrl": "/messages/6add80e0b24ead0ceb36e874/download",
+  "data": "Delivered-To: inbound@example-mailtm.test\r\nReturn-Path: <bT.k68ruuifikvbiu5=osjuss0d6jlp=8ej26alk8oi67x@return.smtpservice.net>\r\nReceived: from a2i949.smtp2go.com (a2i949.smtp2go.com [103.47.207.181])\r\n\tby in.mail.tm (Haraka/3.1.2) with ESMTPS id 6E4A43E3-1CFD-4F51-826B-D9FD417E55B4.1\r\n\tenvelope-from <bT.k68ruuifikvbiu5=osjuss0d6jlp=8ej26alk8oi67x@return.smtpservice.net>\r\n\ttls TLS_AES_256_GCM_SHA384;\r\n\tSun, 25 Oct 2026 04:09:04 +0000\r\nDKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;\r\n\td=smtpservice.net; s=mnysk0.a1-4.dyn; x=1792902244; h=Feedback-ID:\r\n\tX-Smtpcorp-Track:Date:Message-Id:From:To:Subject:Reply-To:Sender:\r\n\tList-Unsubscribe:List-Unsubscribe-Post;\r\n\tbh=OA8kKThW/JQ/BuiZ3WyAWdTvzfzvHW1CAE9AHH3WUw8=; b=nUZLJ4z/0sFYfJEc3wEOHTDcPL\r\n\t0m0sNBvBSkGshJNZDlYTev4ae/jZiLwyO+xRdne6/nRSzOnMO29Vf7b77E09fQ0rrh9oTwYuvvvNh\r\n\tApQVEU/kkWdkYxa7umOG7dFiYQAJFkzaI9lZry1XyYFIjvl4ZUE4JLlm74LMJvbNfNTlhcZs/mcic\r\n\tgnwgE1a6nPLySl31lG1D1iviCarx2dAFb9Ru6yriFpoa7/w+j2FLQwx/Z35z8FeOJhobGSUkqilXW\r\n\tKbfHqx4IxsivMMpc1hb5h6N9m5PEsDK3LEQ2AK7sP8GnxuWSnpLwO+ZA6A/UlFFP+x3r66+YCjHJ/\r\n\tlyJEOaZQ==;\r\nReceived: from [10.172.238.102] (helo=SmtpCorp) by smtpcorp.com with esmtpsa\r\n (TLS1.3:ECDHE_SECP256R1__RSA_PSS_RSAE_SHA256__AES_256_GCM:256)\r\n (Exim 4.94.2-S2G)\r\n (envelope-from <02f0ce8dc68e626a0bdf747768fdc1f8@inbound.postmarkapp.com>)\r\n id 1xKpXa-gL4RGe-3O\r\n for inbound@example-mailtm.test; Sun, 25 Oct 2026 04:09:02 +0000\r\nReceived: from [10.118.248.192] (helo=localhost)\r\n by smtpcorp.com with esmtpa (Exim 4.100.1)\r\n (envelope-from <02f0ce8dc68e626a0bdf747768fdc1f8@inbound.postmarkapp.com>)\r\n id 1xKpXY-AIkwcC8jTPo-esRk\r\n for inbound@example-mailtm.test;\r\n Sun, 25 Oct 2026 04:09:00 +0000\r\nContent-Type: multipart/mixed; boundary=\"===============9006568040844786755==\"\r\nMIME-Version: 1.0\r\nSubject: Huolitsija inbound check (mail.tm) 04:08:59\r\nX-Smtp2go-Api: Python-urllib on Other\r\nX-Smtp2go-Api-Version: 3.12\r\nX-Smtp2go-TLS-Version: TLS_AES_128_GCM_SHA256, TLS 1.3\r\nTo: inbound@example-mailtm.test\r\nFrom: Huolitsija <02f0ce8dc68e626a0bdf747768fdc1f8@inbound.postmarkapp.com>\r\nMessage-Id: <E1xKpXY-AIkwcC8jTPo-esRk@message-id.smtpcorp.com>\r\nDate: Sun, 25 Oct 2026 04:09:00 +0000\r\nX-Smtpcorp-Track: eexpEXfIJ86J.As5SCSQJ5ObQ.l9eitw4C60p\r\nFeedback-ID: 1118180m:1118180aSLK_Tp:1118180sgWxnmTFcD\r\nX-Report-Abuse: Please forward a copy of this message, including all headers,\r\n to <abuse-report@smtp2go.com>\r\n\r\n\r\n--===============9006568040844786755==\r\nContent-Type: multipart/alternative;\r\n boundary=\"===============1762633806977995577==\"\r\nMIME-Version: 1.0\r\n\r\n\r\n--===============1762633806977995577==Content-Type: text/plain; charset=\"us-ascii\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: 7bit\r\n\r\nGenuine delivery check from SMTP2GO to the mail.tm inbound mailbox.\r\n--===============1762633806977995577==--\r\n\r\n--===============9006568040844786755==--\r\n"
+ }
+}

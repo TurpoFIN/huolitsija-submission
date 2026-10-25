@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: DmeErrorMessage.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://tulli.fi/schema/DmeErrorMessage" 
+xmlns:tns="http://tulli.fi/schema/DmeErrorMessage" 
+xmlns:demt="http://tulli.fi/schema/DmeErrorMessageTypes"
+elementFormDefault="qualified"
+version="v1_21">
+	<xs:import namespace="http://tulli.fi/schema/DmeErrorMessageTypes" schemaLocation="DmeErrorMessageTypes.xsd"/>
+	<!--===== Root Element =====-->
+	<xs:element name="DmeErrorMessage" type="tns:DmeErrorMessageType"/>
+	<xs:complexType name="DmeErrorMessageType">
+		<xs:annotation>
+			<xs:documentation>Used for schema error information of DME declaration messages.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageIdentifier" type="demt:MessageIdentier"/>
+			<xs:element name="ErrorInformation" type="demt:ErrorInformation" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,111 @@
+{
+  "transportDocumentTypeCode": "BOL",
+  "isElectronic": true,
+  "isToOrder": true,
+  "freightPaymentTermCode": "PRE",
+  "isShippedOnBoardType": true,
+  "invoicePayableAt": {
+    "UNLocationCode": "BRSSZ"
+  },
+  "isCargoDeliveredInICS2Zone": false,
+  "partyContactDetails": [
+    {
+      "name": "DCSA Test Person",
+      "email": "no-reply@dcsa.org"
+    }
+  ],
+  "consignmentItems": [
+    {
+      "carrierBookingReference": "{CBR}",
+      "descriptionOfGoods": [
+        "Refined Soybean Oil"
+      ],
+      "HSCodes": [
+        "15152100"
+      ],
+      "commoditySubReference": "SOYOIL-BR-2025",
+      "cargoItems": [
+        {
+          "equipmentReference": "MAEU6543210",
+          "cargoGrossWeight": {
+            "value": 5000,
+            "unit": "KGM"
+          },
+          "outerPackaging": {
+            "description": "Steel Drums",
+            "numberOfPackages": 400
+          }
+        }
+      ]
+    }
+  ],
+  "utilizedTransportEquipments": [
+    {
+      "isShipperOwned": false,
+      "equipmentReference": "MAEU6543210",
+      "seals": [
+        {
+          "number": "NSL13386"
+        }
+      ]
+    }
+  ],
+  "documentParties": {
+    "shipper": {
+      "partyName": "DCSA CTK",
+      "partyContactDetails": [
+        {
+          "name": "DCSA Test Person",
+          "email": "no-reply@dcsa.org"
+        }
+      ],
+      "address": {
+        "street": "Ruijggoordweg",
+        "city": "Amsterdam",
+        "countryCode": "NL"
+      }
+    },
+    "endorsee": {
+      "partyName": "Bank of America",
+      "identifyingCodes": [
+        {
+          "codeListProvider": "GLEIF",
+          "codeListName": "LEI",
+          "partyCode": "111100T8BM49ADCSAO64"
+        }
+      ]
+    },
+    "issueTo": {
+      "partyName": "DCSA CTK",
+      "sendToPlatform": "CARX",
+      "identifyingCodes": [
+        {
+          "codeListProvider": "CARX",
+          "partyCode": "CARX123"
+        }
+      ],
+      "partyContactDetails": [
+        {
+          "name": "DCSA Test Person",
+          "email": "no-reply@dcsa.org"
+        }
+      ]
+    },
+    "notifyParties": [
+      {
+        "partyName": "DCSA CTK",
+        "partyContactDetails": [
+          {
+            "name": "DCSA Test Person",
+            "email": "no-reply@dcsa.org"
+          }
+        ],
+        "address": {
+          "street": "Ruijggoordweg",
+          "city": "Amsterdam",
+          "countryCode": "NL"
+        }
+      }
+    ]
+  }
+}

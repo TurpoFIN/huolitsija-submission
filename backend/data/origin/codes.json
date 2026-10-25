@@ -1,0 +1,303 @@
+{
+  "preference_codes": {
+    "first_digit": {
+      "1": {
+        "en": "Tariff arrangement erga omnes",
+        "fi": "Tavanomainen tullikohtelu (muualle kuulumattomat)"
+      },
+      "2": {
+        "en": "Generalised System of Preferences (GSP)",
+        "fi": "Yleinen tullietuusjärjestelmä (GSP)"
+      },
+      "3": {
+        "en": "Tariff preferences other than those mentioned under code 2",
+        "fi": "Tullietuus (muu kuin koodilla 2 ilmoitettu)"
+      },
+      "4": {
+        "en": "Customs duties under the provisions of customs union agreements concluded by the European Union",
+        "fi": "Tullien kantaminen Euroopan unionin tekemien tulliliittosopimusten mukaisesti"
+      }
+    },
+    "suffix": {
+      "00": {
+        "en": "None of the following",
+        "fi": "Ei mikään seuraavista"
+      },
+      "10": {
+        "en": "Tariff suspension",
+        "fi": "Tullisuspensio"
+      },
+      "18": {
+        "en": "Tariff suspension with certificate confirming the special nature of the product",
+        "fi": "Tuotteen erityisluonteesta annettuun todistukseen liittyvä tullisuspensio"
+      },
+      "19": {
+        "en": "Temporary suspension for products imported with an authorised release certificate EASA Form 1 or an equivalent certificate",
+        "fi": "Väliaikainen suspensio tuotteille, jotka on tuotu huolto- ja valmistustodistuksella (EASA 1 -lomake) tai vastaavalla todistuksella"
+      },
+      "20": {
+        "en": "Tariff quota ( *1 )",
+        "fi": "Tariffikiintiö ( *1 )"
+      },
+      "25": {
+        "en": "Tariff quota with certificate confirming the special nature of the product (*1)",
+        "fi": "Tuotteen erityisluonteesta annettuun todistukseen liittyvä tariffikiintiö (*1)"
+      },
+      "28": {
+        "en": "Tariff quota following outward processing (*1)",
+        "fi": "Ulkoisen jalostuksen jälkeen sovellettava tariffikiintiö (*1)"
+      },
+      "50": {
+        "en": "Certificate confirming the special nature of the product",
+        "fi": "Todistus tuotteen erityisluonteesta"
+      }
+    }
+  },
+  "document_codes": {
+    "N018": {
+      "proof_type": "atr",
+      "arrangements": [
+        "CU_TR"
+      ],
+      "en": "ATR certificate",
+      "fi": "ATR-todistus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "N864": {
+      "proof_type": "origin_declaration",
+      "arrangements": [
+        "KR",
+        "CA",
+        "VN",
+        "CAM",
+        "CARIFORUM",
+        "CPE",
+        "MX",
+        "PACIFIC",
+        "SADC",
+        "PEM",
+        "GH"
+      ],
+      "en": "Invoice declaration or origin declaration made out by any exporter on invoice or any other commercial document",
+      "fi": "Kauppalaskuilmoitus tai viejän kauppalaskulle tai muulle kaupalliselle asiakirjalle laatima alkuperäilmoitus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "N954": {
+      "proof_type": "eur1",
+      "arrangements": [],
+      "en": "Movement certificate EUR.1",
+      "fi": "EUR.1-tavaratodistus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U045": {
+      "proof_type": "eur_med",
+      "arrangements": [],
+      "en": "Movement certificate EUR-MED",
+      "fi": "EUR-MED tavaratodistus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U048": {
+      "proof_type": "origin_declaration_eur_med",
+      "arrangements": [],
+      "en": "Invoice declaration EUR-MED",
+      "fi": "EUR–MED-kauppalaskuilmoitus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U075": {
+      "proof_type": "eur1",
+      "arrangements": [
+        "PEM2021",
+        "EEA2022"
+      ],
+      "en": "Movement certificate EUR. 1 (under the condition that in box 7 the remark \"Transitional Rules\" is inserted) in the context of the Pan-Euro-Mediterranean transitional rules of origin",
+      "fi": "EUR.1-tavaratodistus (edellyttäen, että kohdassa 7 on maininta ”Siirtymäsäännökset”) siirtymäkauden Paneurooppa–Välimeri-alkuperäsääntöjä sovellettaessa",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U076": {
+      "proof_type": "origin_declaration",
+      "arrangements": [
+        "PEM2021",
+        "EEA2022"
+      ],
+      "en": "Origin declaration (under the condition that the declaration mentions “origin according to the transitional rules”) in the context of the Pan-Euro-Mediterranean transitional rules of origin",
+      "fi": "Alkuperäilmoitus (edellyttäen, että ilmoituksessa on maininta ”Siirtymämääräysten mukainen alkuperä”) siirtymäkauden Paneurooppa–Välimeri-alkuperäsääntöjä sovellettaessa",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U101": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "SG"
+      ],
+      "en": "Statement on origin made out by an exporter registered in Singapore",
+      "fi": "Singaporessa sijaitsevan rekisteröidyn viejän laatima alkuperätodistus",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U110": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "JP"
+      ],
+      "en": "Statement on Origin (Article 3.16(2)(a) and 3.17(5)(a) of the EU-Japan EPA)",
+      "fi": "Alkuperävakuutus (EU:n ja Japanin välisen talouskumppanuussopimuksen 3.16 artiklan 2 kohdan a alakohta ja 3.17 artiklan 5 kohdan a alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U111": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "JP"
+      ],
+      "en": "Statement on Origin for multiple shipments of identical products (Article 3.16(2)(a) and Article 3.17(5)(b) of the EU-Japan EPA)",
+      "fi": "Useita samanlaisten tuotteiden lähetyksiä koskeva alkuperävakuutus (EU:n ja Japanin välisen talouskumppanuussopimuksen 3.16 artiklan 2 kohdan a alakohta ja 3.17 artiklan 5 kohdan b alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U112": {
+      "proof_type": "importers_knowledge",
+      "arrangements": [
+        "JP"
+      ],
+      "en": "Importer’s knowledge (Article 3.16(2)(b) of the EU-Japan EPA)",
+      "fi": "Tuojan tieto (EU:n ja Japanin välisen talouskumppanuussopimuksen 3.16 artiklan 2 kohdan b alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U116": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "GB"
+      ],
+      "en": "Statement on Origin (Article 56 (4) point (a) of the EU-UK TCA)",
+      "fi": "Alkuperävakuutus (EU:n ja UK välisen talouskumppanuussopimuksen 56 artiklan 4 kohdan a alakohdassa)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U117": {
+      "proof_type": "importers_knowledge",
+      "arrangements": [
+        "GB"
+      ],
+      "en": "Importer’s knowledge (Article 58 of the EU-UK TCA)",
+      "fi": "Tuojan tieto (EU:n ja UK välisen talouskumppanuussopimuksen 58)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U118": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "GB"
+      ],
+      "en": "Statement on Origin for multiple shipments of identical products (Article 56 (4) point (b) of the EU-UK TCA)",
+      "fi": "Useita samanlaisten tuotteiden lähetyksiä koskeva alkuperävakuutus (EU:n ja UK välisen talouskumppanuussopimuksen 56 artiklan 4 kohdan b alakohdassa)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U120": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "NZ"
+      ],
+      "en": "Statement on origin (Article 3.16(2)(a) and 3.18(4)(a) for the Free Trade Agreement between the European Union and New Zealand)",
+      "fi": "Alkuperävakuutus (Euroopan unionin ja Uuden-Seelannin välisen vapaakauppasopimuksen 3.16 artiklan 2 kohdan a alakohta ja 3.18 artiklan 4 kohdan a alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U122": {
+      "proof_type": "importers_knowledge",
+      "arrangements": [
+        "NZ"
+      ],
+      "en": "Importer’s knowledge (Article 3.16(2)(b) of the Free Trade Agreement between the European Union and New Zealand)",
+      "fi": "Tuojan tieto (Euroopan unionin ja Uuden-Seelannin välinen vapaakauppasopimus 3.16 artiklan 2 kohdan b alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U123": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "CL"
+      ],
+      "en": "Statement on origin (Article 3.17(5)(a) of the EU-Chile Interim Trade Agreement)",
+      "fi": "Alkuperävakuutus (EU:n ja Chilen väliaikaisen kauppasopimuksen 3.17 artiklan 5 kohdan a alakohta)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U125": {
+      "proof_type": "importers_knowledge",
+      "arrangements": [
+        "CL"
+      ],
+      "en": "Importer’s knowledge (Article 3.19 of the EU-Chile Interim Trade Agreement)",
+      "fi": "Tuojan tieto (EU:n ja Chilen väliaikaisen kauppasopimuksen 3.19 artikla)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U126": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "MERCOSUR"
+      ],
+      "en": "Statement on origin (Article 3.16 of the EU-Mercosur Interim Trade Agreement)",
+      "fi": "Alkuperävakuutus (EU:n ja Mercosurin väliaikaisen kauppasopimuksen 3.16 artiklan)",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U162": {
+      "proof_type": "origin_declaration",
+      "arrangements": [
+        "KR",
+        "CA",
+        "VN"
+      ],
+      "en": "Invoice declaration or origin declaration made out on invoice by any exporter or any other commercial document neither in the framework of GSP nor EUR-MED for a total value of originating products not exceeding 6000 EUR",
+      "fi": "Kauppalaskuilmoitus tai viejän kauppalaskulla tai muulla kaupallisella asiakirjalla antama alkuperäimoitus, joka ei ole GSP- eikä EUR–MED-ilmoitus ja jonka kattamien alkuperätuotteiden kokonaisarvo on enintään 6 000 EUR",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U164": {
+      "proof_type": "statement_on_origin_rex",
+      "arrangements": [
+        "GSPB",
+        "GSPA"
+      ],
+      "en": "Statement on origin made out by a Registered Exporter in the framework of GSP for a total value of originating products consigned not exceeding 6 000 €",
+      "fi": "Rekisteröidyn viejän GSP-järjestelmän mukaisesti laatima alkuperävakuutus lähetyksestä, jonka alkuperätuotteiden yhteisarvo on enintään 6 000 euroa",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U165": {
+      "proof_type": "statement_on_origin_rex",
+      "arrangements": [
+        "GSPB",
+        "GSPA"
+      ],
+      "en": "Statement on origin made out by a Registered Exporter in the framework of GSP for a total value of originating products consigned exceeding 6000 €",
+      "fi": "Rekisteröidyn viejän GSP-järjestelmän mukaisesti laatima alkuperävakuutus lähetyksestä, jonka alkuperätuotteiden yhteisarvo on yli 6 000 euroa",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    },
+    "U166": {
+      "proof_type": "statement_on_origin",
+      "arrangements": [
+        "GSPB",
+        "GSPA"
+      ],
+      "en": "Statement on origin made out by a non-registered Exporter in the framework of GSP for a total value of originating products consigned not exceeding 6000 €",
+      "fi": "Rekisteröimättömän viejän GSP-järjestelmän mukaisesti laatima alkuperävakuutus lähetyksestä, jonka alkuperätuotteiden yhteisarvo on enintään 6 000 euroa",
+      "source": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://publications.europa.eu/resource/cellar/29ee0635-8532-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+      "fetched_at": "2026-10-24T21:27:52.345792+00:00",
+      "download_sha256": "0c56e3ef4b7b314f512f500e4a01f96f563756bf97f76d9ee54d05f9cab4e5cb",
+      "file": "raw/annex_b_en.gz",
+      "sha256": "0c56e3ef4b7b314f512f500e4a01f96f563756bf97f76d9ee54d05f9cab4e5cb",
+      "bytes": 35578690
+    },
+    {
+      "url": "https://publications.europa.eu/resource/cellar/29ee0635-8532-11f1-bf5e-01aa75ed71a1.0005.02/DOC_1",
+      "fetched_at": "2026-10-24T21:27:55.686219+00:00",
+      "download_sha256": "179f5bfe4e735c02e0c142bdbc8e5343b4d008495d37e0a88df6853c954ae4bd",
+      "file": "raw/annex_b_fi.gz",
+      "sha256": "179f5bfe4e735c02e0c142bdbc8e5343b4d008495d37e0a88df6853c954ae4bd",
+      "bytes": 36499199
+    },
+    {
+      "url": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/RD-Generic-20261024.zip",
+      "fetched_at": "2026-10-24T21:28:34.553090+00:00",
+      "download_sha256": "5b19f285b66e57e140df7bba7322845417b75655884df72ce53a11c737f475b6",
+      "extraction": "RD_CCI.zip / RD_CCI.xml / RDEntity[@name=\"SupportingDocumentType\"] (lxml serialization)",
+      "file": "raw/cci_documents.gz",
+      "sha256": "a130c383386529f28bfe800a57a17b7b554de07bdc8bf5a6f6e979ffc09b21df",
+      "bytes": 1268378
+    }
+  ]
+}

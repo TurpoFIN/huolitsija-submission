@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Schema for message LiituResponseMessage -->
+<xs:schema xmlns="http://tulli.fi/schema/external/liitu/response/2" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tulli.fi/schema/external/liitu/response/2" elementFormDefault="qualified" version="2.0">
+	<!--Common schema components-->
+	<!--
+	<xs:include schemaLocation="FIALACompositeType.xsd"/>
+	-->
+	<!-- ROOT ELEMENTS -->
+	<xs:element name="LiituResponseMessage">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="LiituMessageType">
+					<xs:group ref="LiituResponseGroup"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<!-- MESSAGE CONSTRUCTS -->
+	<xs:simpleType name="SchemaVersionEnumerationType">
+		<xs:restriction base="SchemaVersionType">
+			<xs:enumeration value="2.0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SchemaVersionType">
+		<xs:restriction base="IdentifierType">
+			<xs:pattern value="[1-9]+[0-9]*\.[0-9]*|X.Y"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="LiituMessageType">
+		<xs:sequence>
+			<xs:element name="MessageHeader">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="SenderIdentifier">
+							<xs:simpleType>
+								<xs:restriction base="IdentifierType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ReceiverIdentifier">
+							<xs:simpleType>
+								<xs:restriction base="IdentifierType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ControlReference">
+							<xs:simpleType>
+								<xs:restriction base="IdentifierType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="RelatedMessageStorageId">
+							<xs:simpleType>
+								<xs:restriction base="IdentifierType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="Application">
+							<xs:simpleType>
+								<xs:restriction base="IdentifierType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="schemaVersion" type="SchemaVersionEnumerationType" use="required"/>
+		<xs:attribute name="messageTimestamp" type="DateTimeType" use="required"/>
+	</xs:complexType>
+	<xs:group name="LiituResponseGroup">
+		<xs:choice>
+			<xs:element name="Acceptance" type="AcceptanceType"/>
+			<xs:element name="Rejection" type="RejectionType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="AcceptanceType">
+		<xs:sequence>
+			<xs:element name="AcceptanceTimestamp" type="DateTimeType"/>
+			<xs:element name="AttachmentIdentifier" type="IdentifierType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RejectionType">
+		<xs:sequence>
+			<xs:element name="RejectionTimestamp" type="DateTimeType"/>
+			<xs:element name="RejectionReason" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="RejectionReasonCode">
+							<xs:simpleType>
+								<xs:restriction base="CodeType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="RejectionReasonDescription">
+							<xs:simpleType>
+								<xs:restriction base="LatinTextType">
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- Component types -->
+	<!-- TEXTS -->
+	<!-- Base text -->
+	<xs:simpleType name="BaseLatinTextType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Base type for any text, and limiting accepted caharacter code group for specific Latin based language area.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+			<!-- Pattern '\p{ls<group-name>}' specifies a character code group for a specific language area. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Descriptive text -->
+	<xs:simpleType name="LatinTextType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Base type for any descriptive text expressed by Latin character code sets.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="BaseLatinTextType">
+			<xs:pattern value="[\P{Cc}\s]+"/>
+			<!-- Pattern '\P{Cc}' forbids character class 'Cc', which contains control characters within range 0x00..0x1F and 0x80..0x9F, i.e. any control characters (including end of line variations), except 'space' (0x20), 'non-breakin space' (0xA0) and 'soft hyphen' (0xAD). In additon, pattern '\s' for any white-spaces is added to acceptable characters. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Single line of text -->
+	<xs:simpleType name="LineLatinTextType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Base type for any single line of text expressed by Latin character code sets.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="BaseLatinTextType">
+			<xs:pattern value="[\P{Cc}\t]+"/>
+			<!-- Pattern '\P{Cc}' forbids character class 'Cc', which contains control characters within range 0x00..0x1F and 0x80..0x9F, i.e. any control characters (including end of line variations), except 'space' (0x20), 'non-breakin space' (0xA0) and 'soft hyphen' (0xAD). In additon, pattern '\t' for 'horizontal tab' (0x09) is added to acceptable characters. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- CODES -->
+	<!-- Code -->
+	<xs:simpleType name="CodeType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Base type for any code. Code name token limited to values without whitespace characters. A character string (letters, figures or symbols) that for brevity and / or language independence may be used to represent or replace a definitive value or text of a Property. [Note: The term 'Code' should not be used if the character string identifies an instance of an Object Class or an object in the real world, in which case the Representation Term identifier should be used.]</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="BaseLatinTextType">
+			<xs:pattern value="[\P{Cc}\t]+"/>
+			<!-- Pattern '\P{Cc}' forbids character class 'Cc', which contains control characters within range 0x00..0x1F and 0x80..0x9F, i.e. any control characters (including end of line variations), except 'space' (0x20), 'non-breakin space' (0xA0) and 'soft hyphen' (0xAD). In additon, pattern '\t' for 'horizontal tab' (0x09) is added to acceptable characters. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- IDENTIFIERS -->
+	<!-- Identifier -->
+	<xs:simpleType name="IdentifierType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Base type for an identifier. Identity name token limited to values without whitespace characters. A character string to identify and distinguish uniquely, one instance of an object in an identification scheme from all other objects in the same scheme together with relevant supplementary information.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="BaseLatinTextType">
+			<xs:pattern value="[\P{Cc}\t]+"/>
+			<!-- Pattern '\P{Cc}' forbids character class 'Cc', which contains control characters within range 0x00..0x1F and 0x80..0x9F, i.e. any control characters (including end of line variations), except 'space' (0x20), 'non-breakin space' (0xA0) and 'soft hyphen' (0xAD). In additon, pattern '\t' for 'horizontal tab' (0x09) is added to acceptable characters. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- CHRONOLOGY -->
+	<!-- Date & time -->
+	<xs:simpleType name="YearType">
+		<xs:annotation>
+			<xs:documentation xml:lang="fi">Vuosi neljällä numerolla</xs:documentation>
+			<xs:documentation xml:lang="en">Year in format YYYY</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:pattern value="[1-9][0-9]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DateType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Date in format YYYY-MM-DD, without fractions of seconds or time zone information.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:date">
+			<xs:pattern value="[0-9]{4}\-[0-9]{2}\-[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Combined date and time -->
+	<xs:simpleType name="DateTimeType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">DateTime in format YYYY-MM-DDThh:mm:ss, without fractions of seconds or time zone information.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:dateTime">
+			<xs:pattern value="[0-9]{4}\-[0-9]{2}\-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

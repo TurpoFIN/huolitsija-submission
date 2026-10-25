@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3R04" type="IE3R04Type" />
+  <xs:complexType name="IE3R04Type">
+    <xs:sequence>
+      <xs:element name="LRN" type="LRNContentType1" />
+      <xs:element name="MRN" type="MRNContentType1" />
+      <xs:element name="registrationDate" type="RegistrationDateType" />
+      <xs:element name="notifyParty" minOccurs="0" type="NotifyPartyType05" />
+      <xs:element name="personNotifyingTheArrival" minOccurs="0" type="PersonNotifyingTheArrivalType02" />
+      <xs:element name="customsOfficeOfFirstEntry" type="CustomsOfficeOfFirstEntryType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

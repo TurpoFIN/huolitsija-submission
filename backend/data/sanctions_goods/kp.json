@@ -1,0 +1,3503 @@
+{
+ "country": "KP",
+ "act": "Council Regulation (EU) 2017/1509",
+ "legal_point": null,
+ "source": {
+  "celex": "02017R1509-20251217",
+  "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R1509-20251217",
+  "cellar_url": "http://publications.europa.eu/resource/cellar/827da182-fb8c-11f0-8da5-01aa75ed71a1.0009.02/DOC_1",
+  "fetched_at": "2026-10-24T19:34:12+00:00",
+  "valid_on": "2026-10-24",
+  "sha256": "dbb874c9d7faa1c31bf8f9848dd48fdb56ebc25542d8ebfaebfb3ef53a2b3ad5",
+  "bytes": 1738808
+ },
+ "annexes": {
+  "III": {
+   "annex": "III",
+   "title": "Aviation fuel referred to in point (b) of Article 3(1) EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "3",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 3 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, the goods and technology, including software, listed in Annex II, whether or not originating in the Union, to any natural or legal person, entity or body in, or for use in the DPRK; (b) to sell, supply, transfer or export aviation fuel, directly or indirectly, as listed in Annex III to the DPRK or transport to DPRK aviation fuel on board the flag vessels or aircraft of Member States, whether or not originating in the territories of Member States; (c) to import, purchase or transfer, directly or indirectly, the goods and technology listed in Annex II from the DPRK, whether or not originating in the DPRK; (d) to import, purchase or transfer, directly or indirectly, gold, titanium ore, vanadium ore and rare-earth minerals, as listed in Annex IV, from the DPRK, whether or not originating in "
+    }
+   ],
+   "items": [
+    {
+     "cn": "27101270",
+     "ex": false,
+     "cn_text": "2710 12 70",
+     "description": "Naptha-type jet fuel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "27101921",
+     "ex": false,
+     "cn_text": "2710 19 21",
+     "description": "Kerosene-type jet fuel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "27101925",
+     "ex": false,
+     "cn_text": "2710 19 25",
+     "description": "Kerosene-type rocket fuel",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "IV": {
+   "annex": "IV",
+   "title": "Gold, titanium ore, vanadium ore and rare earth minerals referred to in point (d) of Article 3(1) EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "3",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 3 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, the goods and technology, including software, listed in Annex II, whether or not originating in the Union, to any natural or legal person, entity or body in, or for use in the DPRK; (b) to sell, supply, transfer or export aviation fuel, directly or indirectly, as listed in Annex III to the DPRK or transport to DPRK aviation fuel on board the flag vessels or aircraft of Member States, whether or not originating in the territories of Member States; (c) to import, purchase or transfer, directly or indirectly, the goods and technology listed in Annex II from the DPRK, whether or not originating in the DPRK; (d) to import, purchase or transfer, directly or indirectly, gold, titanium ore, vanadium ore and rare-earth minerals, as listed in Annex IV, from the DPRK, whether or not originating in "
+    }
+   ],
+   "items": [
+    {
+     "cn": "25309000",
+     "ex": true,
+     "cn_text": "ex 2530 90 00",
+     "description": "Ores of the rare earth metals",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2612",
+     "ex": true,
+     "cn_text": "ex 26 12",
+     "description": "Monazites and other ores used solely or principally for the extraction of uranium or thorium",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "26140000",
+     "ex": true,
+     "cn_text": "ex 2614 00 00",
+     "description": "Titanium ore",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "26159000",
+     "ex": true,
+     "cn_text": "ex 2615 90 00",
+     "description": "Vanadium ore",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2616900010",
+     "ex": false,
+     "cn_text": "2616 90 00 10",
+     "description": "Gold ores and concentrates",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "V": {
+   "annex": "V",
+   "title": "Coal, iron and iron ore as referred to in point (e) of Article 3(1) EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "3",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 3 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, the goods and technology, including software, listed in Annex II, whether or not originating in the Union, to any natural or legal person, entity or body in, or for use in the DPRK; (b) to sell, supply, transfer or export aviation fuel, directly or indirectly, as listed in Annex III to the DPRK or transport to DPRK aviation fuel on board the flag vessels or aircraft of Member States, whether or not originating in the territories of Member States; (c) to import, purchase or transfer, directly or indirectly, the goods and technology listed in Annex II from the DPRK, whether or not originating in the DPRK; (d) to import, purchase or transfer, directly or indirectly, gold, titanium ore, vanadium ore and rare-earth minerals, as listed in Annex IV, from the DPRK, whether or not originating in "
+    }
+   ],
+   "items": [
+    {
+     "cn": "2601",
+     "ex": true,
+     "cn_text": "ex 26 01",
+     "description": "Iron ore",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2701",
+     "ex": false,
+     "cn_text": "2701",
+     "description": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2702",
+     "ex": false,
+     "cn_text": "2702",
+     "description": "Lignite, whether or not agglomerated, excluding jet",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2703",
+     "ex": false,
+     "cn_text": "2703",
+     "description": "Peat (including peat litter), whether or not agglomerated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2704",
+     "ex": false,
+     "cn_text": "2704",
+     "description": "Coke and semi-coke of coal, of lignite or of peat, whether or not agglomerated; retort carbon",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7201",
+     "ex": false,
+     "cn_text": "7201",
+     "description": "Pig iron and spiegeleisen in pigs, blocks or other primary forms",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7202",
+     "ex": false,
+     "cn_text": "7202",
+     "description": "Ferro-alloys",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7203",
+     "ex": false,
+     "cn_text": "7203",
+     "description": "Ferrous products obtained by direct reduction of iron ore and other spongy ferrous products, in lumps, pellets or similar forms; iron having a minimum purity by weight of 99,94 %, in lumps, pellets or similar forms",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72041000",
+     "ex": false,
+     "cn_text": "7204 10 00",
+     "description": "Waste and scrap of cast iron",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72043000",
+     "ex": true,
+     "cn_text": "ex 7204 30 00",
+     "description": "Waste and scrap of tinned iron or steel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "720441",
+     "ex": true,
+     "cn_text": "ex 7204 41",
+     "description": "Other waste and scrap: Turnings, shavings, chips, milling waste, sawdust, filings, trimmings and stampings, whether or not in bundles",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "720449",
+     "ex": true,
+     "cn_text": "ex 7204 49",
+     "description": "Other waste and scrap: Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72045000",
+     "ex": true,
+     "cn_text": "ex 7204 50 00",
+     "description": "Other waste and scrap: Remelting scrap ingot",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72051000",
+     "ex": true,
+     "cn_text": "ex 7205 10 00",
+     "description": "Granules",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72052900",
+     "ex": true,
+     "cn_text": "ex 7205 29 00",
+     "description": "Powders, other than of alloy steel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72061000",
+     "ex": true,
+     "cn_text": "ex 7206 10 00",
+     "description": "Ingots",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "72069000",
+     "ex": true,
+     "cn_text": "ex 7206 90 00",
+     "description": "Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7207",
+     "ex": true,
+     "cn_text": "ex 72 07",
+     "description": "Semi-finished products of iron or non-alloy steel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7208",
+     "ex": true,
+     "cn_text": "ex 72 08",
+     "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, hot-rolled, not clad, plated or coated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7209",
+     "ex": true,
+     "cn_text": "ex 72 09",
+     "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7210",
+     "ex": true,
+     "cn_text": "ex 72 10",
+     "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7211",
+     "ex": true,
+     "cn_text": "ex 72 11",
+     "description": "Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, not clad, plated or coated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7212",
+     "ex": true,
+     "cn_text": "ex 72 12",
+     "description": "Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, clad, plated or coated",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7214",
+     "ex": true,
+     "cn_text": "ex 72 14",
+     "description": "Other bars and rods of iron or non-alloy steel, not further worked than forged, hot-rolled, hot-drawn or hot-extruded, but including those twisted after rolling",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7215",
+     "ex": true,
+     "cn_text": "ex 72 15",
+     "description": "Other bars and rods of iron or non-alloy steel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7216",
+     "ex": true,
+     "cn_text": "ex 72 16",
+     "description": "Angles, shapes and sections of iron or non-alloy steel",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7217",
+     "ex": true,
+     "cn_text": "ex 72 17",
+     "description": "Wire of iron or non-alloy steel",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "VI": {
+   "annex": "VI",
+   "title": "Petroleum products referred to in point (f) of Article 3(1) EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "3",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 3 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, the goods and technology, including software, listed in Annex II, whether or not originating in the Union, to any natural or legal person, entity or body in, or for use in the DPRK; (b) to sell, supply, transfer or export aviation fuel, directly or indirectly, as listed in Annex III to the DPRK or transport to DPRK aviation fuel on board the flag vessels or aircraft of Member States, whether or not originating in the territories of Member States; (c) to import, purchase or transfer, directly or indirectly, the goods and technology listed in Annex II from the DPRK, whether or not originating in the DPRK; (d) to import, purchase or transfer, directly or indirectly, gold, titanium ore, vanadium ore and rare-earth minerals, as listed in Annex IV, from the DPRK, whether or not originating in "
+    }
+   ],
+   "items": [
+    {
+     "cn": "2707",
+     "ex": false,
+     "cn_text": "2707",
+     "description": "Oils and other products of the distillation of high temperature coal tar; similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2709",
+     "ex": false,
+     "cn_text": "2709",
+     "description": "Petroleum oils and oils obtained from bituminous minerals, crude",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2710",
+     "ex": false,
+     "cn_text": "2710",
+     "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2711",
+     "ex": false,
+     "cn_text": "2711",
+     "description": "Petroleum gases and other gaseous hydrocarbons",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "271210",
+     "ex": false,
+     "cn_text": "2712 10",
+     "description": "Petroleum jelly",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "271220",
+     "ex": false,
+     "cn_text": "2712 20",
+     "description": "Paraffin wax containing by weight less than 0,75 % of oil",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "271290",
+     "ex": false,
+     "cn_text": "2712 90",
+     "description": "Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2713",
+     "ex": false,
+     "cn_text": "2713",
+     "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2714",
+     "ex": false,
+     "cn_text": "2714",
+     "description": "Bitumen and asphalt, natural; bituminous or oil-shale and tar sands; asphaltites and asphaltic rocks",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "2715",
+     "ex": false,
+     "cn_text": "2715",
+     "description": "Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (for example, bituminous mastics, cut-backs)",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "340311",
+     "ex": false,
+     "cn_text": "3403 11",
+     "description": "– – Preparations for the treatment of textile materials, leather, furskins or other materials",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "340319",
+     "ex": false,
+     "cn_text": "3403 19",
+     "description": "– – Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "340391",
+     "ex": false,
+     "cn_text": "3403 91",
+     "description": "– – Preparations for the treatment of textile materials, leather, furskins or other materials",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "340399",
+     "ex": false,
+     "cn_text": "3403 99",
+     "description": "– – Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "38249992",
+     "ex": false,
+     "cn_text": "3824 99 92",
+     "description": "– – – – – – In the form of a liquid at 20 °C",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "38249993",
+     "ex": false,
+     "cn_text": "3824 99 93",
+     "description": "– – – – – – Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "38249996",
+     "ex": false,
+     "cn_text": "3824 99 96",
+     "description": "– – – – – Other",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "38260010",
+     "ex": false,
+     "cn_text": "3826 00 10",
+     "description": "– Fatty-acid mono-alkyl esters, containing by volume 96,5 % or more of esters (FAMAE)",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "38260090",
+     "ex": false,
+     "cn_text": "3826 00 90",
+     "description": "– Other",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "VII": {
+   "annex": "VII",
+   "title": "Copper, nickel, silver and zinc referred to in point (g) of Article 3(1) EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "3",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 3 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, the goods and technology, including software, listed in Annex II, whether or not originating in the Union, to any natural or legal person, entity or body in, or for use in the DPRK; (b) to sell, supply, transfer or export aviation fuel, directly or indirectly, as listed in Annex III to the DPRK or transport to DPRK aviation fuel on board the flag vessels or aircraft of Member States, whether or not originating in the territories of Member States; (c) to import, purchase or transfer, directly or indirectly, the goods and technology listed in Annex II from the DPRK, whether or not originating in the DPRK; (d) to import, purchase or transfer, directly or indirectly, gold, titanium ore, vanadium ore and rare-earth minerals, as listed in Annex IV, from the DPRK, whether or not originating in "
+    }
+   ],
+   "items": [
+    {
+     "cn": "2603",
+     "ex": false,
+     "cn_text": "2603",
+     "description": "Copper ores and concentrates",
+     "part": "Copper"
+    },
+    {
+     "cn": "74",
+     "ex": false,
+     "cn_text": "74",
+     "description": "Copper and articles thereof",
+     "part": "Copper"
+    },
+    {
+     "cn": "8536909530",
+     "ex": false,
+     "cn_text": "8536 90 95 30",
+     "description": "Rivet contacts – of copper – plated with silver nickel alloy AgNi10 or with silver containing by weight 11,2 % (± 1,0 %) of tin oxide and of indium oxide taken together – with a thickness of the plating of 0,3 mm (– 0/+ 0,015mm)",
+     "part": "Copper"
+    },
+    {
+     "cn": "85389099",
+     "ex": false,
+     "cn_text": "8538 90 99",
+     "description": "Copper parts suitable for use solely or principally with the apparatus of heading 8535 , 8536 or 8537",
+     "part": "Copper"
+    },
+    {
+     "cn": "854411",
+     "ex": false,
+     "cn_text": "8544 11",
+     "description": "Winding wire of copper",
+     "part": "Copper"
+    },
+    {
+     "cn": "854442",
+     "ex": false,
+     "cn_text": "8544 42",
+     "description": "– – Fitted with connectors",
+     "part": "Copper"
+    },
+    {
+     "cn": "854449",
+     "ex": false,
+     "cn_text": "8544 49",
+     "description": "– – Other",
+     "part": "Copper"
+    },
+    {
+     "cn": "85446010",
+     "ex": false,
+     "cn_text": "8544 60 10",
+     "description": "– – With copper conductors",
+     "part": "Copper"
+    },
+    {
+     "cn": "2604",
+     "ex": false,
+     "cn_text": "2604",
+     "description": "Nickel ores and concentrates",
+     "part": "Nickel"
+    },
+    {
+     "cn": "720260",
+     "ex": false,
+     "cn_text": "7202 60",
+     "description": "– Ferro-nickel",
+     "part": "Nickel"
+    },
+    {
+     "cn": "72230011",
+     "ex": false,
+     "cn_text": "7223 00 11",
+     "description": "– – Containing by weight 28 % or more but not more than 31 % of nickel and 20 % or more but not more than 22 % of chromium",
+     "part": "Nickel"
+    },
+    {
+     "cn": "75",
+     "ex": false,
+     "cn_text": "75",
+     "description": "Nickel and articles thereof",
+     "part": "Nickel"
+    },
+    {
+     "cn": "8105900010",
+     "ex": false,
+     "cn_text": "8105 90 00 10",
+     "description": "Bars or wires made of cobalt alloy containing, by weight: — 35 % (± 2 %) cobalt, — 25 % (± 1 %) nickel, — 19 % (± 1 %) chromium and — 7 % (± 2 %) iron conforming to the material specifications AMS 5842, of a kind used in the aerospace industry",
+     "part": "Nickel"
+    },
+    {
+     "cn": "261610",
+     "ex": false,
+     "cn_text": "2616 10",
+     "description": "Silver ores and concentrates",
+     "part": "Silver"
+    },
+    {
+     "cn": "2608",
+     "ex": false,
+     "cn_text": "2608",
+     "description": "Zinc ores and concentrates",
+     "part": "Zinc"
+    },
+    {
+     "cn": "79",
+     "ex": false,
+     "cn_text": "79",
+     "description": "Zinc and articles thereof",
+     "part": "Zinc"
+    }
+   ]
+  },
+  "VIII": {
+   "annex": "VIII",
+   "title": "Luxury goods referred to in Article 10 EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "10",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 10 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, luxury goods as listed in Annex VIII, to the DPRK; (b) to import, purchase or transfer from the DPRK, directly or indirectly, luxury goods, as listed in Annex VIII, whether or not originating in the DPRK."
+    }
+   ],
+   "items": [
+    {
+     "cn": "01012100",
+     "ex": false,
+     "cn_text": "0101 21 00",
+     "description": "Pure-bred breeding animals",
+     "part": "(1) Horses"
+    },
+    {
+     "cn": "01012990",
+     "ex": false,
+     "cn_text": "0101 29 90",
+     "description": "Other",
+     "part": "(1) Horses"
+    },
+    {
+     "cn": "16043100",
+     "ex": false,
+     "cn_text": "1604 31 00",
+     "description": "Caviar",
+     "part": "(2) Caviar and caviar substitutes"
+    },
+    {
+     "cn": "16043200",
+     "ex": false,
+     "cn_text": "1604 32 00",
+     "description": "Caviar substitutes",
+     "part": "(2) Caviar and caviar substitutes"
+    },
+    {
+     "cn": "07095950",
+     "ex": false,
+     "cn_text": "0709 59 50",
+     "description": "Truffles",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "07108069",
+     "ex": false,
+     "cn_text": "0710 80 69",
+     "description": "Other",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "07115900",
+     "ex": false,
+     "cn_text": "0711 59 00",
+     "description": "Other",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "07123900",
+     "ex": false,
+     "cn_text": "0712 39 00",
+     "description": "Other",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "20019097",
+     "ex": false,
+     "cn_text": "2001 90 97",
+     "description": "Other",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "20039010",
+     "ex": false,
+     "cn_text": "2003 90 10",
+     "description": "Truffles",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "21039090",
+     "ex": false,
+     "cn_text": "2103 90 90",
+     "description": "Other",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "21041000",
+     "ex": false,
+     "cn_text": "2104 10 00",
+     "description": "Soups and broths and preparations therefor",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "21042000",
+     "ex": false,
+     "cn_text": "2104 20 00",
+     "description": "Homogenised composite food preparations",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "21060000",
+     "ex": false,
+     "cn_text": "2106 00 00",
+     "description": "Food preparations not elsewhere specified or included",
+     "part": "(3) Truffles and preparations thereof"
+    },
+    {
+     "cn": "22030000",
+     "ex": false,
+     "cn_text": "2203 00 00",
+     "description": "Beer made from malt",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041011",
+     "ex": false,
+     "cn_text": "2204 10 11",
+     "description": "Champagne",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041091",
+     "ex": false,
+     "cn_text": "2204 10 91",
+     "description": "Asti spumante",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041093",
+     "ex": false,
+     "cn_text": "2204 10 93",
+     "description": "Other",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041094",
+     "ex": false,
+     "cn_text": "2204 10 94",
+     "description": "With a protected geographical indication (PGI)",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041096",
+     "ex": false,
+     "cn_text": "2204 10 96",
+     "description": "Other varietal wines",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22041098",
+     "ex": false,
+     "cn_text": "2204 10 98",
+     "description": "Other",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22042100",
+     "ex": false,
+     "cn_text": "2204 21 00",
+     "description": "In containers holding 2 litres or less",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22042900",
+     "ex": false,
+     "cn_text": "2204 29 00",
+     "description": "Other",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22050000",
+     "ex": false,
+     "cn_text": "2205 00 00",
+     "description": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22060000",
+     "ex": false,
+     "cn_text": "2206 00 00",
+     "description": "Other fermented beverages (for example, cider, perry, mead, saké); mixtures of fermented beverages and mixtures of fermented beverages with non-alcoholic beverages, not elsewhere specified or included",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22071000",
+     "ex": false,
+     "cn_text": "2207 10 00",
+     "description": "Undenatured ethyl alcohol of an alcoholic strength by volume of 80 % vol or higher",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "22080000",
+     "ex": false,
+     "cn_text": "2208 00 00",
+     "description": "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages",
+     "part": "(4) Wines (including sparkling wines), beers, spirits and spirituous beverages"
+    },
+    {
+     "cn": "24021000",
+     "ex": false,
+     "cn_text": "2402 10 00",
+     "description": "Cigars, cheroots and cigarillos, containing tobacco",
+     "part": "(5) Cigars and cigarillos"
+    },
+    {
+     "cn": "24029000",
+     "ex": false,
+     "cn_text": "2402 90 00",
+     "description": "Other",
+     "part": "(5) Cigars and cigarillos"
+    },
+    {
+     "cn": "3303",
+     "ex": false,
+     "cn_text": "3303",
+     "description": "Perfumes and toilet waters",
+     "part": "(6) Perfumes, toilet waters and cosmetics, including beauty and make-up products"
+    },
+    {
+     "cn": "33040000",
+     "ex": false,
+     "cn_text": "3304 00 00",
+     "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or suntan preparations; manicure or pedicure preparations",
+     "part": "(6) Perfumes, toilet waters and cosmetics, including beauty and make-up products"
+    },
+    {
+     "cn": "33050000",
+     "ex": false,
+     "cn_text": "3305 00 00",
+     "description": "Preparations for use on the hair",
+     "part": "(6) Perfumes, toilet waters and cosmetics, including beauty and make-up products"
+    },
+    {
+     "cn": "33070000",
+     "ex": false,
+     "cn_text": "3307 00 00",
+     "description": "Pre-shave, shaving or aftershave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
+     "part": "(6) Perfumes, toilet waters and cosmetics, including beauty and make-up products"
+    },
+    {
+     "cn": "67040000",
+     "ex": false,
+     "cn_text": "6704 00 00",
+     "description": "Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included",
+     "part": "(6) Perfumes, toilet waters and cosmetics, including beauty and make-up products"
+    },
+    {
+     "cn": "42010000",
+     "ex": false,
+     "cn_text": "4201 00 00",
+     "description": "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle-cloths, saddlebags, dog coats and the like), of any material",
+     "part": "(7) Leather, saddlery and travel goods, handbags and similar articles of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "42020000",
+     "ex": false,
+     "cn_text": "4202 00 00",
+     "description": "Trunks, suitcases, vanity cases, executive-cases, briefcases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverages bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly o",
+     "part": "(7) Leather, saddlery and travel goods, handbags and similar articles of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "42050090",
+     "ex": false,
+     "cn_text": "4205 00 90",
+     "description": "Other",
+     "part": "(7) Leather, saddlery and travel goods, handbags and similar articles of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "96050000",
+     "ex": false,
+     "cn_text": "9605 00 00",
+     "description": "Travel sets for personal toilet, sewing or shoe or clothes cleaning",
+     "part": "(7) Leather, saddlery and travel goods, handbags and similar articles of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "42030000",
+     "ex": false,
+     "cn_text": "4203 00 00",
+     "description": "Articles of apparel and clothing accessories, of leather or of composition leather",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "43030000",
+     "ex": false,
+     "cn_text": "4303 00 00",
+     "description": "Articles of apparel, clothing accessories and other articles of furskin",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61010000",
+     "ex": false,
+     "cn_text": "6101 00 00",
+     "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 6103",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61020000",
+     "ex": false,
+     "cn_text": "6102 00 00",
+     "description": "Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 6104",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61030000",
+     "ex": false,
+     "cn_text": "6103 00 00",
+     "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61040000",
+     "ex": false,
+     "cn_text": "6104 00 00",
+     "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61050000",
+     "ex": false,
+     "cn_text": "6105 00 00",
+     "description": "Men's or boys' shirts, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61060000",
+     "ex": false,
+     "cn_text": "6106 00 00",
+     "description": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61070000",
+     "ex": false,
+     "cn_text": "6107 00 00",
+     "description": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61080000",
+     "ex": false,
+     "cn_text": "6108 00 00",
+     "description": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61090000",
+     "ex": false,
+     "cn_text": "6109 00 00",
+     "description": "T-shirts, singlets and other vests, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61100000",
+     "ex": false,
+     "cn_text": "6110 00 00",
+     "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61110000",
+     "ex": false,
+     "cn_text": "6111 00 00",
+     "description": "Babies' garments and clothing accessories, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61121100",
+     "ex": false,
+     "cn_text": "6112 11 00",
+     "description": "Of cotton",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61121200",
+     "ex": false,
+     "cn_text": "6112 12 00",
+     "description": "Of synthetic fibres",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61121900",
+     "ex": false,
+     "cn_text": "6112 19 00",
+     "description": "Of other textile materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61122000",
+     "ex": false,
+     "cn_text": "6112 20 00",
+     "description": "Ski suits",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61123100",
+     "ex": false,
+     "cn_text": "6112 31 00",
+     "description": "Of synthetic fibres",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61123900",
+     "ex": false,
+     "cn_text": "6112 39 00",
+     "description": "Of other textile materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61124100",
+     "ex": false,
+     "cn_text": "6112 41 00",
+     "description": "Of synthetic fibres",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61124900",
+     "ex": false,
+     "cn_text": "6112 49 00",
+     "description": "Of other textile materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61130010",
+     "ex": false,
+     "cn_text": "6113 00 10",
+     "description": "Of knitted or crocheted fabrics of heading 5906",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61130090",
+     "ex": false,
+     "cn_text": "6113 00 90",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61140000",
+     "ex": false,
+     "cn_text": "6114 00 00",
+     "description": "Other garments, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61150000",
+     "ex": false,
+     "cn_text": "6115 00 00",
+     "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61160000",
+     "ex": false,
+     "cn_text": "6116 00 00",
+     "description": "Gloves, mittens and mitts, knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "61170000",
+     "ex": false,
+     "cn_text": "6117 00 00",
+     "description": "Other made-up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62010000",
+     "ex": false,
+     "cn_text": "6201 00 00",
+     "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, other than those of heading 6203",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62020000",
+     "ex": false,
+     "cn_text": "6202 00 00",
+     "description": "Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, other than those of heading 6204",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62030000",
+     "ex": false,
+     "cn_text": "6203 00 00",
+     "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62040000",
+     "ex": false,
+     "cn_text": "6204 00 00",
+     "description": "Women's or girls. suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62050000",
+     "ex": false,
+     "cn_text": "6205 00 00",
+     "description": "Men's or boys' shirts",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62060000",
+     "ex": false,
+     "cn_text": "6206 00 00",
+     "description": "Women's or girls' blouses, shirts and shirt-blouses",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62070000",
+     "ex": false,
+     "cn_text": "6207 00 00",
+     "description": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62080000",
+     "ex": false,
+     "cn_text": "6208 00 00",
+     "description": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62090000",
+     "ex": false,
+     "cn_text": "6209 00 00",
+     "description": "Babies' garments and clothing accessories",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62101000",
+     "ex": false,
+     "cn_text": "6210 10 00",
+     "description": "Of fabrics of heading 5602 or 5603",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62102000",
+     "ex": false,
+     "cn_text": "6210 20 00",
+     "description": "Other garments, of the type described in subheadings 6201 11 to 6201 19",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62103000",
+     "ex": false,
+     "cn_text": "6210 30 00",
+     "description": "Other garments, of the type described in subheadings 6202 11 to 6202 19",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62104000",
+     "ex": false,
+     "cn_text": "6210 40 00",
+     "description": "Other men's or boys' garments",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62105000",
+     "ex": false,
+     "cn_text": "6210 50 00",
+     "description": "Other women's or girls' garments",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62111100",
+     "ex": false,
+     "cn_text": "6211 11 00",
+     "description": "Men's or boys'",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62111200",
+     "ex": false,
+     "cn_text": "6211 12 00",
+     "description": "Women's or girls'",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62112000",
+     "ex": false,
+     "cn_text": "6211 20 00",
+     "description": "Ski suits",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62113200",
+     "ex": false,
+     "cn_text": "6211 32 00",
+     "description": "Of cotton",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62113300",
+     "ex": false,
+     "cn_text": "6211 33 00",
+     "description": "Of man-made fibres",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62113900",
+     "ex": false,
+     "cn_text": "6211 39 00",
+     "description": "Of other textile materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62114200",
+     "ex": false,
+     "cn_text": "6211 42 00",
+     "description": "Of cotton",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62114300",
+     "ex": false,
+     "cn_text": "6211 43 00",
+     "description": "Of man-made fibres",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62114900",
+     "ex": false,
+     "cn_text": "6211 49 00",
+     "description": "Of other textile materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62120000",
+     "ex": false,
+     "cn_text": "6212 00 00",
+     "description": "Brassières, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62130000",
+     "ex": false,
+     "cn_text": "6213 00 00",
+     "description": "Handkerchiefs",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62140000",
+     "ex": false,
+     "cn_text": "6214 00 00",
+     "description": "Shawls, scarves, mufflers, mantillas, veils and the like",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62150000",
+     "ex": false,
+     "cn_text": "6215 00 00",
+     "description": "Ties, bow ties and cravats",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62160000",
+     "ex": false,
+     "cn_text": "6216 00 00",
+     "description": "Gloves, mittens and mitts",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "62170000",
+     "ex": false,
+     "cn_text": "6217 00 00",
+     "description": "Other made-up clothing accessories; parts of garments or of clothing accessories, other than those of heading 6212",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64010000",
+     "ex": false,
+     "cn_text": "6401 00 00",
+     "description": "Waterproof footwear with outer soles and uppers of rubber or of plastics, the uppers of which are neither fixed to the sole nor assembled by stitching, riveting, nailing, screwing, plugging or similar processes",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64022000",
+     "ex": false,
+     "cn_text": "6402 20 00",
+     "description": "Footwear with upper straps or thongs assembled to the sole by means of plugs",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64029100",
+     "ex": false,
+     "cn_text": "6402 91 00",
+     "description": "Covering the ankle",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64029900",
+     "ex": false,
+     "cn_text": "6402 99 00",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64031900",
+     "ex": false,
+     "cn_text": "6403 19 00",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64032000",
+     "ex": false,
+     "cn_text": "6403 20 00",
+     "description": "Footwear with outer soles of leather, and uppers which consist of leather straps across the instep and around the big toe",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64034000",
+     "ex": false,
+     "cn_text": "6403 40 00",
+     "description": "Other footwear, incorporating a protective metal toecap",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64035100",
+     "ex": false,
+     "cn_text": "6403 51 00",
+     "description": "Covering the ankle",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64035900",
+     "ex": false,
+     "cn_text": "6403 59 00",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64039100",
+     "ex": false,
+     "cn_text": "6403 91 00",
+     "description": "Covering the ankle",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64039900",
+     "ex": false,
+     "cn_text": "6403 99 00",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64041910",
+     "ex": false,
+     "cn_text": "6404 19 10",
+     "description": "Slippers and other indoor footwear",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64042000",
+     "ex": false,
+     "cn_text": "6404 20 00",
+     "description": "Footwear with outer soles of leather or composition leather",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "64050000",
+     "ex": false,
+     "cn_text": "6405 00 00",
+     "description": "Other footwear",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "65040000",
+     "ex": false,
+     "cn_text": "6504 00 00",
+     "description": "Hats and other headgear, plaited or made by assembling strips of any material, whether or not lined or trimmed",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "65050010",
+     "ex": false,
+     "cn_text": "6505 00 10",
+     "description": "Of fur felt or of felt of wool and fur, made from the hat bodies, hoods or plateaux of heading 6501 00 00",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "65050030",
+     "ex": false,
+     "cn_text": "6505 00 30",
+     "description": "Peaked caps",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "65050090",
+     "ex": false,
+     "cn_text": "6505 00 90",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "65069900",
+     "ex": false,
+     "cn_text": "6506 99 00",
+     "description": "Of other materials",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "66019100",
+     "ex": false,
+     "cn_text": "6601 91 00",
+     "description": "Having a telescopic shaft",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "66019900",
+     "ex": false,
+     "cn_text": "6601 99 00",
+     "description": "Other",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "66020000",
+     "ex": false,
+     "cn_text": "6602 00 00",
+     "description": "Walking sticks, seat-sticks, whips, riding-crops and the like",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "96190081",
+     "ex": false,
+     "cn_text": "9619 00 81",
+     "description": "Napkins and napkin liners for babies",
+     "part": "(8) Coats of a value exceeding EUR 75 each, or other garments, clothing accessories and shoes (regardless of their material) of a value exceeding EUR 20 each"
+    },
+    {
+     "cn": "57010000",
+     "ex": false,
+     "cn_text": "5701 00 00",
+     "description": "Carpets and other textile floor coverings, knotted, whether or not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57021000",
+     "ex": false,
+     "cn_text": "5702 10 00",
+     "description": "‘Kelem’, ‘Schumacks’, ‘Karamanie’ and similar hand-woven rugs",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57022000",
+     "ex": false,
+     "cn_text": "5702 20 00",
+     "description": "Floor coverings of coconut fibres (coir)",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57023180",
+     "ex": false,
+     "cn_text": "5702 31 80",
+     "description": "Other",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57023200",
+     "ex": false,
+     "cn_text": "5702 32 00",
+     "description": "Of man-made textile materials",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57023900",
+     "ex": false,
+     "cn_text": "5702 39 00",
+     "description": "Of other textile materials",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57024190",
+     "ex": false,
+     "cn_text": "5702 41 90",
+     "description": "Other",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57024200",
+     "ex": false,
+     "cn_text": "5702 42 00",
+     "description": "Of man-made textile materials",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57025000",
+     "ex": false,
+     "cn_text": "5702 50 00",
+     "description": "Other, not of pile construction, not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57029100",
+     "ex": false,
+     "cn_text": "5702 91 00",
+     "description": "Of wool or fine animal hair",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57029200",
+     "ex": false,
+     "cn_text": "5702 92 00",
+     "description": "Of man-made textile materials",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57029900",
+     "ex": false,
+     "cn_text": "5702 99 00",
+     "description": "Of other textile materials",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57030000",
+     "ex": false,
+     "cn_text": "5703 00 00",
+     "description": "Carpets and other textile floor coverings, tufted, whether or not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57040000",
+     "ex": false,
+     "cn_text": "5704 00 00",
+     "description": "Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "57050000",
+     "ex": false,
+     "cn_text": "5705 00 00",
+     "description": "Other carpets and other textile floor coverings, whether or not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "58050000",
+     "ex": false,
+     "cn_text": "5805 00 00",
+     "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up",
+     "part": "(9) Carpets, rugs and tapestries, hand-made or not"
+    },
+    {
+     "cn": "71010000",
+     "ex": false,
+     "cn_text": "7101 00 00",
+     "description": "Pearls, natural or cultured, whether or not worked or graded but not strung, mounted or set; pearls, natural or cultured, temporarily strung for convenience of transport",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71020000",
+     "ex": false,
+     "cn_text": "7102 00 00",
+     "description": "Diamonds, whether or not worked, but not mounted or set",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71030000",
+     "ex": false,
+     "cn_text": "7103 00 00",
+     "description": "Precious stones (other than diamonds) and semi-precious stones, whether or not worked or graded but not strung, mounted or set; ungraded precious stones (other than diamonds) and semi-precious stones, temporarily strung for convenience of transport",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71042000",
+     "ex": false,
+     "cn_text": "7104 20 00",
+     "description": "Other, unworked or simply sawn or roughly shaped",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71049000",
+     "ex": false,
+     "cn_text": "7104 90 00",
+     "description": "Other",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71050000",
+     "ex": false,
+     "cn_text": "7105 00 00",
+     "description": "Dust and powder of natural or synthetic precious or semi-precious stones",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71060000",
+     "ex": false,
+     "cn_text": "7106 00 00",
+     "description": "Silver (including silver plated with gold or platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71070000",
+     "ex": false,
+     "cn_text": "7107 00 00",
+     "description": "Base metals clad with silver, not further worked than semi-manufactured",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71080000",
+     "ex": false,
+     "cn_text": "7108 00 00",
+     "description": "Gold (including gold plated with platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71090000",
+     "ex": false,
+     "cn_text": "7109 00 00",
+     "description": "Base metals or silver, clad with gold, not further worked than semi-manufactured",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71101100",
+     "ex": false,
+     "cn_text": "7110 11 00",
+     "description": "Unwrought or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71101900",
+     "ex": false,
+     "cn_text": "7110 19 00",
+     "description": "Other",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71102100",
+     "ex": false,
+     "cn_text": "7110 21 00",
+     "description": "Unwrought or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71102900",
+     "ex": false,
+     "cn_text": "7110 29 00",
+     "description": "Other",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71103100",
+     "ex": false,
+     "cn_text": "7110 31 00",
+     "description": "Unwrought or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71103900",
+     "ex": false,
+     "cn_text": "7110 39 00",
+     "description": "Other",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71104100",
+     "ex": false,
+     "cn_text": "7110 41 00",
+     "description": "Unwrought or in powder form",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71104900",
+     "ex": false,
+     "cn_text": "7110 49 00",
+     "description": "Other",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71110000",
+     "ex": false,
+     "cn_text": "7111 00 00",
+     "description": "Base metals, silver or gold, clad with platinum, not further worked than semi-manufactured",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71130000",
+     "ex": false,
+     "cn_text": "7113 00 00",
+     "description": "Articles of jewellery and parts thereof, of precious metal or of metal clad with precious metal",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71140000",
+     "ex": false,
+     "cn_text": "7114 00 00",
+     "description": "Articles of goldsmiths' or silversmiths' wares and parts thereof, of precious metal or of metal clad with precious metal",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71150000",
+     "ex": false,
+     "cn_text": "7115 00 00",
+     "description": "Other articles of precious metal or of metal clad with precious metal",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "71160000",
+     "ex": false,
+     "cn_text": "7116 00 00",
+     "description": "Articles of natural or cultured pearls, precious or semi-precious stones (natural, synthetic or reconstructed)",
+     "part": "(10) Pearls, precious and semi-precious stones, articles of pearls, jewellery, gold- or silversmith articles"
+    },
+    {
+     "cn": "49070030",
+     "ex": false,
+     "cn_text": "4907 00 30",
+     "description": "Banknotes",
+     "part": "(11) Coins and banknotes, not being legal tender"
+    },
+    {
+     "cn": "71181000",
+     "ex": false,
+     "cn_text": "7118 10 00",
+     "description": "Coin (other than gold coin), not being legal tender",
+     "part": "(11) Coins and banknotes, not being legal tender"
+    },
+    {
+     "cn": "71189000",
+     "ex": false,
+     "cn_text": "7118 90 00",
+     "description": "Other",
+     "part": "(11) Coins and banknotes, not being legal tender"
+    },
+    {
+     "cn": "71140000",
+     "ex": false,
+     "cn_text": "7114 00 00",
+     "description": "Articles of goldsmiths' or silversmiths' wares and parts thereof, of precious metal or of metal clad with precious metal",
+     "part": "(12) Cutlery of precious metal or plated or clad with precious metal"
+    },
+    {
+     "cn": "71150000",
+     "ex": false,
+     "cn_text": "7115 00 00",
+     "description": "Other articles of precious metal or of metal clad with precious metal",
+     "part": "(12) Cutlery of precious metal or plated or clad with precious metal"
+    },
+    {
+     "cn": "82140000",
+     "ex": false,
+     "cn_text": "8214 00 00",
+     "description": "Other articles of cutlery (for example, hair clippers, butchers' or kitchen cleavers, choppers and mincing knives, paperknives); manicure or pedicure sets and instruments (including nail files)",
+     "part": "(12) Cutlery of precious metal or plated or clad with precious metal"
+    },
+    {
+     "cn": "82150000",
+     "ex": false,
+     "cn_text": "8215 00 00",
+     "description": "Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware",
+     "part": "(12) Cutlery of precious metal or plated or clad with precious metal"
+    },
+    {
+     "cn": "93070000",
+     "ex": false,
+     "cn_text": "9307 00 00",
+     "description": "Swords, cutlasses, bayonets, lances and similar arms and parts thereof and scabbards and sheaths therefor",
+     "part": "(12) Cutlery of precious metal or plated or clad with precious metal"
+    },
+    {
+     "cn": "69110000",
+     "ex": false,
+     "cn_text": "6911 00 00",
+     "description": "Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69120023",
+     "ex": false,
+     "cn_text": "6912 00 23",
+     "description": "Stoneware",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69120025",
+     "ex": false,
+     "cn_text": "6912 00 25",
+     "description": "Earthenware or fine pottery",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69120083",
+     "ex": false,
+     "cn_text": "6912 00 83",
+     "description": "Stoneware",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69120085",
+     "ex": false,
+     "cn_text": "6912 00 85",
+     "description": "Earthenware or fine pottery",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69141000",
+     "ex": false,
+     "cn_text": "6914 10 00",
+     "description": "Of porcelain or china",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "69149000",
+     "ex": false,
+     "cn_text": "6914 90 00",
+     "description": "Other",
+     "part": "(13) Tableware of porcelain, china, stone- or earthenware or fine pottery"
+    },
+    {
+     "cn": "70099100",
+     "ex": false,
+     "cn_text": "7009 91 00",
+     "description": "Unframed",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70099200",
+     "ex": false,
+     "cn_text": "7009 92 00",
+     "description": "Framed",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70100000",
+     "ex": false,
+     "cn_text": "7010 00 00",
+     "description": "Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70132200",
+     "ex": false,
+     "cn_text": "7013 22 00",
+     "description": "Of lead crystal",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70133300",
+     "ex": false,
+     "cn_text": "7013 33 00",
+     "description": "Of lead crystal",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70134100",
+     "ex": false,
+     "cn_text": "7013 41 00",
+     "description": "Of lead crystal",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70139100",
+     "ex": false,
+     "cn_text": "7013 91 00",
+     "description": "Of lead crystal",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70181000",
+     "ex": false,
+     "cn_text": "7018 10 00",
+     "description": "Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass smallwares",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70189000",
+     "ex": false,
+     "cn_text": "7018 90 00",
+     "description": "Other",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "70200080",
+     "ex": false,
+     "cn_text": "7020 00 80",
+     "description": "Other",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "94051050",
+     "ex": false,
+     "cn_text": "9405 10 50",
+     "description": "Of glass",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "94052050",
+     "ex": false,
+     "cn_text": "9405 20 50",
+     "description": "Of glass",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "94055000",
+     "ex": false,
+     "cn_text": "9405 50 00",
+     "description": "Non-electrical lamps and lighting fittings",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "94059100",
+     "ex": false,
+     "cn_text": "9405 91 00",
+     "description": "Of glass",
+     "part": "(14) Items of lead crystal"
+    },
+    {
+     "cn": "841451",
+     "ex": false,
+     "cn_text": "8414 51",
+     "description": "Table, floor, wall, window, ceiling or roof fans, with a self-contained electric motor of an output not exceeding 125 W",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84145900",
+     "ex": false,
+     "cn_text": "8414 59 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84146000",
+     "ex": false,
+     "cn_text": "8414 60 00",
+     "description": "Hoods having a maximum horizontal side not exceeding 120 cm",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84151000",
+     "ex": false,
+     "cn_text": "8415 10 00",
+     "description": "Window or wall types, self-contained or ‘split-system’",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84181000",
+     "ex": false,
+     "cn_text": "8418 10 00",
+     "description": "Combined refrigerator-freezers, fitted with separate external doors",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84182100",
+     "ex": false,
+     "cn_text": "8418 21 00",
+     "description": "Compression-type",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84182900",
+     "ex": false,
+     "cn_text": "8418 29 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84183000",
+     "ex": false,
+     "cn_text": "8418 30 00",
+     "description": "Freezers of the chest type, not exceeding 800 litres capacity",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84184000",
+     "ex": false,
+     "cn_text": "8418 40 00",
+     "description": "Freezers of the upright type, not exceeding 900 litres capacity",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84198100",
+     "ex": false,
+     "cn_text": "8419 81 00",
+     "description": "For making hot drinks or for cooking or heating food",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84221100",
+     "ex": false,
+     "cn_text": "8422 11 00",
+     "description": "Of the household type",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84231000",
+     "ex": false,
+     "cn_text": "8423 10 00",
+     "description": "Personal weighing machines, including baby scales; household scales",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84431200",
+     "ex": false,
+     "cn_text": "8443 12 00",
+     "description": "Offset printing machinery, sheet fed, office type (using sheets with one side not exceeding 22 cm and the other side not exceeding 36 cm in the unfolded state)",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84433100",
+     "ex": false,
+     "cn_text": "8443 31 00",
+     "description": "Machines which perform two or more of the functions of printing, copying or facsimile transmission, capable of connecting to an automatic data-processing machine or to a network",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84433200",
+     "ex": false,
+     "cn_text": "8443 32 00",
+     "description": "Other, capable of connecting to an automatic data-processing machine or to a network",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84433900",
+     "ex": false,
+     "cn_text": "8443 39 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84501100",
+     "ex": false,
+     "cn_text": "8450 11 00",
+     "description": "Fully-automatic machines",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84501200",
+     "ex": false,
+     "cn_text": "8450 12 00",
+     "description": "Other machines, with built-in centrifugal drier",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84501900",
+     "ex": false,
+     "cn_text": "8450 19 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84512100",
+     "ex": false,
+     "cn_text": "8451 21 00",
+     "description": "Each of a dry linen capacity not exceeding 10 kg",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84521000",
+     "ex": false,
+     "cn_text": "8452 10 00",
+     "description": "Sewing machines of the household type",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84701000",
+     "ex": false,
+     "cn_text": "8470 10 00",
+     "description": "Electronic calculators capable of operation without an external source of electric power and pocket-size data-recording, reproducing and displaying machines with calculating functions",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84702100",
+     "ex": false,
+     "cn_text": "8470 21 00",
+     "description": "Incorporating a printing device",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84702900",
+     "ex": false,
+     "cn_text": "8470 29 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84703000",
+     "ex": false,
+     "cn_text": "8470 30 00",
+     "description": "Other calculating machines",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84710000",
+     "ex": false,
+     "cn_text": "8471 00 00",
+     "description": "Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84729040",
+     "ex": false,
+     "cn_text": "8472 90 40",
+     "description": "Word-processing machines",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84729090",
+     "ex": false,
+     "cn_text": "8472 90 90",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "84796000",
+     "ex": false,
+     "cn_text": "8479 60 00",
+     "description": "Evaporative air coolers",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85081100",
+     "ex": false,
+     "cn_text": "8508 11 00",
+     "description": "Of a power not exceeding 1 500 W and having a dust bag or other receptacle capacity not exceeding 20 l",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85081900",
+     "ex": false,
+     "cn_text": "8508 19 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85086000",
+     "ex": false,
+     "cn_text": "8508 60 00",
+     "description": "Other vacuum cleaners",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85098000",
+     "ex": false,
+     "cn_text": "8509 80 00",
+     "description": "Other appliances",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85163100",
+     "ex": false,
+     "cn_text": "8516 31 00",
+     "description": "Hairdryers",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85165000",
+     "ex": false,
+     "cn_text": "8516 50 00",
+     "description": "Microwave ovens",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85166010",
+     "ex": false,
+     "cn_text": "8516 60 10",
+     "description": "Cookers (incorporating at least an oven and a hob)",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85167100",
+     "ex": false,
+     "cn_text": "8516 71 00",
+     "description": "Coffee or tea makers",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85167200",
+     "ex": false,
+     "cn_text": "8516 72 00",
+     "description": "Toasters",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85167900",
+     "ex": false,
+     "cn_text": "8516 79 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85171100",
+     "ex": false,
+     "cn_text": "8517 11 00",
+     "description": "Line telephone sets with cordless handsets",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85171200",
+     "ex": false,
+     "cn_text": "8517 12 00",
+     "description": "Telephones for cellular networks or for other wireless networks",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85171800",
+     "ex": false,
+     "cn_text": "8517 18 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85176100",
+     "ex": false,
+     "cn_text": "8517 61 00",
+     "description": "Base stations",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85176200",
+     "ex": false,
+     "cn_text": "8517 62 00",
+     "description": "Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85176900",
+     "ex": false,
+     "cn_text": "8517 69 00",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85269100",
+     "ex": false,
+     "cn_text": "8526 91 00",
+     "description": "Radio navigational aid apparatus",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85291031",
+     "ex": false,
+     "cn_text": "8529 10 31",
+     "description": "For reception via satellite",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85291039",
+     "ex": false,
+     "cn_text": "8529 10 39",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85291065",
+     "ex": false,
+     "cn_text": "8529 10 65",
+     "description": "Inside aerials for radio or television broadcast receivers, including built-in types",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85291069",
+     "ex": false,
+     "cn_text": "8529 10 69",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85311000",
+     "ex": false,
+     "cn_text": "8531 10 00",
+     "description": "Burglar or fire alarms and similar apparatus",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85437010",
+     "ex": false,
+     "cn_text": "8543 70 10",
+     "description": "Electrical machines with translation or dictionary functions",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85437030",
+     "ex": false,
+     "cn_text": "8543 70 30",
+     "description": "Aerial amplifiers",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85437050",
+     "ex": false,
+     "cn_text": "8543 70 50",
+     "description": "Sunbeds, sunlamps and similar suntanning equipment",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85437090",
+     "ex": false,
+     "cn_text": "8543 70 90",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "95045000",
+     "ex": false,
+     "cn_text": "9504 50 00",
+     "description": "Video game consoles and machines, other than those of subheading 9504 30",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "95049080",
+     "ex": false,
+     "cn_text": "9504 90 80",
+     "description": "Other",
+     "part": "(15) Electronic items for domestic use of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85190000",
+     "ex": false,
+     "cn_text": "8519 00 00",
+     "description": "Sound recording or sound reproducing apparatus",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85210000",
+     "ex": false,
+     "cn_text": "8521 00 00",
+     "description": "Video recording or reproducing apparatus, whether or not incorporating a video tuner",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85258030",
+     "ex": false,
+     "cn_text": "8525 80 30",
+     "description": "Digital cameras",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85258091",
+     "ex": false,
+     "cn_text": "8525 80 91",
+     "description": "Only able to record sound and images taken by the television camera",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85258099",
+     "ex": false,
+     "cn_text": "8525 80 99",
+     "description": "Other",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85270000",
+     "ex": false,
+     "cn_text": "8527 00 00",
+     "description": "Reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85287100",
+     "ex": false,
+     "cn_text": "8528 71 00",
+     "description": "Not designed to incorporate a video display or screen",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "85287200",
+     "ex": false,
+     "cn_text": "8528 72 00",
+     "description": "Other, colour",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "90060000",
+     "ex": false,
+     "cn_text": "9006 00 00",
+     "description": "Photographic (other than cinematographic) cameras; photographic flashlight apparatus and flashbulbs other than discharge lamps of heading 8539",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "90070000",
+     "ex": false,
+     "cn_text": "9007 00 00",
+     "description": "Cinematographic cameras and projectors, whether or not incorporating sound recording or reproducing apparatus",
+     "part": "(16) Electrical/electronic or optical apparatus for recording and reproducing sound and images, of a value exceeding EUR 50 each"
+    },
+    {
+     "cn": "40111000",
+     "ex": false,
+     "cn_text": "4011 10 00",
+     "description": "Of a kind used on motor cars (including station wagons and racing cars)",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "40112000",
+     "ex": false,
+     "cn_text": "4011 20 00",
+     "description": "Of a kind used on buses or lorries",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "40113000",
+     "ex": false,
+     "cn_text": "4011 30 00",
+     "description": "Of a kind used on aircraft",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "40114000",
+     "ex": false,
+     "cn_text": "4011 40 00",
+     "description": "Of a kind used on motorcycles",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "40119000",
+     "ex": false,
+     "cn_text": "4011 90 00",
+     "description": "Other",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "70091000",
+     "ex": false,
+     "cn_text": "7009 10 00",
+     "description": "Rear-view mirrors for vehicles",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84070000",
+     "ex": false,
+     "cn_text": "8407 00 00",
+     "description": "Spark-ignition reciprocating or rotary internal combustion piston engines",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84080000",
+     "ex": false,
+     "cn_text": "8408 00 00",
+     "description": "Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84090000",
+     "ex": false,
+     "cn_text": "8409 00 00",
+     "description": "Parts suitable for use solely or principally with the engines of heading 8407 or 8408",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84110000",
+     "ex": false,
+     "cn_text": "8411 00 00",
+     "description": "Turbojets, turbopropellers and other gas turbines",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84286000",
+     "ex": false,
+     "cn_text": "8428 60 00",
+     "description": "Teleferics, chairlifts, ski-draglines, traction mechanisms for funiculars",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84313900",
+     "ex": false,
+     "cn_text": "8431 39 00",
+     "description": "Parts and acccessories of teleferics, chairlifts, ski-draglines, traction mechanisms for funiculars",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "84830000",
+     "ex": false,
+     "cn_text": "8483 00 00",
+     "description": "Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85110000",
+     "ex": false,
+     "cn_text": "8511 00 00",
+     "description": "Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85122000",
+     "ex": false,
+     "cn_text": "8512 20 00",
+     "description": "Other lighting or visual signalling equipment",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85123010",
+     "ex": false,
+     "cn_text": "8512 30 10",
+     "description": "Burglar alarms of a kind used for motor vehicles",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85123090",
+     "ex": false,
+     "cn_text": "8512 30 90",
+     "description": "Other",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85124000",
+     "ex": false,
+     "cn_text": "8512 40 00",
+     "description": "Windscreen wipers, defrosters and demisters",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "85443000",
+     "ex": false,
+     "cn_text": "8544 30 00",
+     "description": "Ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "86030000",
+     "ex": false,
+     "cn_text": "8603 00 00",
+     "description": "Self-propelled railway or tramway coaches, vans and trucks, other than those of heading 8604",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "86050000",
+     "ex": false,
+     "cn_text": "8605 00 00",
+     "description": "Railway or tramway passenger coaches, not self-propelled; luggage vans, post office coaches and other special purpose railway or tramway coaches, not self-propelled (excluding those of heading 8604 )",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "86070000",
+     "ex": false,
+     "cn_text": "8607 00 00",
+     "description": "Parts of railway or tramway locomotives or rolling stock",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87020000",
+     "ex": false,
+     "cn_text": "8702 00 00",
+     "description": "Motor vehicles for the transport of ten or more persons, including the driver",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87030000",
+     "ex": false,
+     "cn_text": "8703 00 00",
+     "description": "Motor cars and other motor vehicles principally designed for the transport of persons (other than those of heading 8702 ), including station wagons and racing cars, including snowmobiles",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87060000",
+     "ex": false,
+     "cn_text": "8706 00 00",
+     "description": "Chassis fitted with engines, for the motor vehicles of headings 8701 to 8705",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87070000",
+     "ex": false,
+     "cn_text": "8707 00 00",
+     "description": "Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87080000",
+     "ex": false,
+     "cn_text": "8708 00 00",
+     "description": "Parts and accessories of the motor vehicles of headings 8701 to 8705",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87110000",
+     "ex": false,
+     "cn_text": "8711 00 00",
+     "description": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87120000",
+     "ex": false,
+     "cn_text": "8712 00 00",
+     "description": "Bicycles and other cycles (including delivery tricycles), not motorised",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87140000",
+     "ex": false,
+     "cn_text": "8714 00 00",
+     "description": "Parts and accessories of vehicles of headings 8711 to 8713",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87161000",
+     "ex": false,
+     "cn_text": "8716 10 00",
+     "description": "Trailers and semi-trailers of the caravan type, for housing or camping",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87164000",
+     "ex": false,
+     "cn_text": "8716 40 00",
+     "description": "Other trailers and semi-trailers",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "87169000",
+     "ex": false,
+     "cn_text": "8716 90 00",
+     "description": "Parts",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88010000",
+     "ex": false,
+     "cn_text": "8801 00 00",
+     "description": "Balloons and dirigibles; gliders, hang gliders and other non-powered aircraft",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88021100",
+     "ex": false,
+     "cn_text": "8802 11 00",
+     "description": "Of an unladen weight not exceeding 2 000 kg",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88021200",
+     "ex": false,
+     "cn_text": "8802 12 00",
+     "description": "Of an unladen weight exceeding 2 000 kg",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88022000",
+     "ex": false,
+     "cn_text": "8802 20 00",
+     "description": "Aeroplanes and other aircraft, of an unladen weight not exceeding 2 000 kg",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88023000",
+     "ex": false,
+     "cn_text": "8802 30 00",
+     "description": "Aeroplanes and other aircraft, of an unladen weight exceeding 2 000 kg but not exceeding 15 000 kg",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88024000",
+     "ex": false,
+     "cn_text": "8802 40 00",
+     "description": "Aeroplanes and other aircraft, of an unladen weight exceeding 15 000 kg",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88031000",
+     "ex": false,
+     "cn_text": "8803 10 00",
+     "description": "Propellers and rotors and parts thereof",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88032000",
+     "ex": false,
+     "cn_text": "8803 20 00",
+     "description": "Undercarriages and parts thereof",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88033000",
+     "ex": false,
+     "cn_text": "8803 30 00",
+     "description": "Other parts of aeroplanes or helicopters",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88039010",
+     "ex": false,
+     "cn_text": "8803 90 10",
+     "description": "Of kites",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88039090",
+     "ex": false,
+     "cn_text": "8803 90 90",
+     "description": "Other",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "88051000",
+     "ex": false,
+     "cn_text": "8805 10 00",
+     "description": "Aircraft launching gear and parts thereof; deck-arrestor or similar gear and parts thereof",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "89011000",
+     "ex": false,
+     "cn_text": "8901 10 00",
+     "description": "Cruise ships, excursion boats and similar vessels principally designed for the transport of persons; ferry-boats of all kinds",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "89019000",
+     "ex": false,
+     "cn_text": "8901 90 00",
+     "description": "Other vessels for the transport of goods and other vessels for the transport of both persons and goods",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "89030000",
+     "ex": false,
+     "cn_text": "8903 00 00",
+     "description": "Yachts and other vessels for pleasure or sports; rowing boats and canoes",
+     "part": "(17) Vehicles for the transport of persons on earth, air or sea of a value exceeding EUR 10 000 each, teleferics, chairlifts, ski-draglines, traction mechanisms"
+    },
+    {
+     "cn": "91010000",
+     "ex": false,
+     "cn_text": "9101 00 00",
+     "description": "Wristwatches, pocket-watches and other watches, including stopwatches, with case of precious metal or of metal clad with precious metal",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91020000",
+     "ex": false,
+     "cn_text": "9102 00 00",
+     "description": "Wristwatches, pocket-watches and other watches, including stopwatches, other than those of heading 9101",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91030000",
+     "ex": false,
+     "cn_text": "9103 00 00",
+     "description": "Clocks with watch movements, excluding clocks of heading 9104",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91040000",
+     "ex": false,
+     "cn_text": "9104 00 00",
+     "description": "Instrument panel clocks and clocks of a similar type for vehicles, aircraft, spacecraft or vessels",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91050000",
+     "ex": false,
+     "cn_text": "9105 00 00",
+     "description": "Other clocks",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91080000",
+     "ex": false,
+     "cn_text": "9108 00 00",
+     "description": "Watch movements, complete and assembled",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91090000",
+     "ex": false,
+     "cn_text": "9109 00 00",
+     "description": "Clock movements, complete and assembled",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91100000",
+     "ex": false,
+     "cn_text": "9110 00 00",
+     "description": "Complete watch or clock movements, unassembled or partly assembled (movement sets); incomplete watch or clock movements, assembled; rough watch or clock movements",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91110000",
+     "ex": false,
+     "cn_text": "9111 00 00",
+     "description": "Watch cases and parts thereof",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91120000",
+     "ex": false,
+     "cn_text": "9112 00 00",
+     "description": "Clock cases and cases of a similar type for other goods of this chapter, and parts thereof",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91130000",
+     "ex": false,
+     "cn_text": "9113 00 00",
+     "description": "Watch straps, watch bands and watch bracelets, and parts thereof",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "91140000",
+     "ex": false,
+     "cn_text": "9114 00 00",
+     "description": "Other clock or watch parts",
+     "part": "(18) Clocks and watches and their parts"
+    },
+    {
+     "cn": "92010000",
+     "ex": false,
+     "cn_text": "9201 00 00",
+     "description": "Pianos, including automatic pianos; harpsichords and other keyboard stringed instruments",
+     "part": "(19) Musical instruments"
+    },
+    {
+     "cn": "92020000",
+     "ex": false,
+     "cn_text": "9202 00 00",
+     "description": "Other string musical instruments (for example, guitars, violins, harps)",
+     "part": "(19) Musical instruments"
+    },
+    {
+     "cn": "92050000",
+     "ex": false,
+     "cn_text": "9205 00 00",
+     "description": "Wind musical instruments (for example, keyboard pipe organs, accordions, clarinets, trumpets, bagpipes), other than fairground organs and mechanical street organs",
+     "part": "(19) Musical instruments"
+    },
+    {
+     "cn": "92060000",
+     "ex": false,
+     "cn_text": "9206 00 00",
+     "description": "Percussion musical instruments (for example, drums, xylophones, cymbals, castanets, maracas)",
+     "part": "(19) Musical instruments"
+    },
+    {
+     "cn": "92070000",
+     "ex": false,
+     "cn_text": "9207 00 00",
+     "description": "Musical instruments, the sound of which is produced, or must be amplified, electrically (for example, organs, guitars, accordions)",
+     "part": "(19) Musical instruments"
+    },
+    {
+     "cn": "9700",
+     "ex": false,
+     "cn_text": "9700",
+     "description": "Works of art, collectors' pieces and antiques",
+     "part": "(20) Works of art, collectors' pieces and antiques"
+    },
+    {
+     "cn": "40151900",
+     "ex": false,
+     "cn_text": "4015 19 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "40159000",
+     "ex": false,
+     "cn_text": "4015 90 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62104000",
+     "ex": false,
+     "cn_text": "6210 40 00",
+     "description": "Other men's or boys' garments",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62105000",
+     "ex": false,
+     "cn_text": "6210 50 00",
+     "description": "Other women's or girls' garments",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62111100",
+     "ex": false,
+     "cn_text": "6211 11 00",
+     "description": "Men's or boys'",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62111200",
+     "ex": false,
+     "cn_text": "6211 12 00",
+     "description": "Women's or girls'",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62112000",
+     "ex": false,
+     "cn_text": "6211 20 00",
+     "description": "Ski suits",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "62160000",
+     "ex": false,
+     "cn_text": "6216 00 00",
+     "description": "Gloves, mittens and mitts",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64021200",
+     "ex": false,
+     "cn_text": "6402 12 00",
+     "description": "Ski-boots, cross-country ski footwear and snowboard boots",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64021900",
+     "ex": false,
+     "cn_text": "6402 19 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64031200",
+     "ex": false,
+     "cn_text": "6403 12 00",
+     "description": "Ski-boots, cross-country ski footwear and snowboard boots",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64031900",
+     "ex": false,
+     "cn_text": "6403 19 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64041100",
+     "ex": false,
+     "cn_text": "6404 11 00",
+     "description": "Sports footwear; tennis shoes, basketball shoes, gym shoes, training shoes and the like",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "64041990",
+     "ex": false,
+     "cn_text": "6404 19 90",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "90049000",
+     "ex": false,
+     "cn_text": "9004 90 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "90200000",
+     "ex": false,
+     "cn_text": "9020 00 00",
+     "description": "Other breathing appliances and gas masks, excluding protective masks having neither mechanical parts nor replaceable filters",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95061100",
+     "ex": false,
+     "cn_text": "9506 11 00",
+     "description": "Skis",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95061200",
+     "ex": false,
+     "cn_text": "9506 12 00",
+     "description": "Ski-fastenings (ski-bindings)",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95061900",
+     "ex": false,
+     "cn_text": "9506 19 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95062100",
+     "ex": false,
+     "cn_text": "9506 21 00",
+     "description": "Sailboards",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95062900",
+     "ex": false,
+     "cn_text": "9506 29 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95063100",
+     "ex": false,
+     "cn_text": "9506 31 00",
+     "description": "Clubs, complete",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95063200",
+     "ex": false,
+     "cn_text": "9506 32 00",
+     "description": "Golf balls",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95063900",
+     "ex": false,
+     "cn_text": "9506 39 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95064000",
+     "ex": false,
+     "cn_text": "9506 40 00",
+     "description": "Articles and equipment for table tennis",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95065100",
+     "ex": false,
+     "cn_text": "9506 51 00",
+     "description": "Lawn-tennis rackets, whether or not strung",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95065900",
+     "ex": false,
+     "cn_text": "9506 59 00",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95066100",
+     "ex": false,
+     "cn_text": "9506 61 00",
+     "description": "Lawn-tennis balls",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95066910",
+     "ex": false,
+     "cn_text": "9506 69 10",
+     "description": "Cricket and polo balls",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95066990",
+     "ex": false,
+     "cn_text": "9506 69 90",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "950670",
+     "ex": false,
+     "cn_text": "9506 70",
+     "description": "Ice skates and roller skates, including skating boots with skates attached",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "950691",
+     "ex": false,
+     "cn_text": "9506 91",
+     "description": "Articles and equipment for general physical exercise, gymnastics or athletics",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95069910",
+     "ex": false,
+     "cn_text": "9506 99 10",
+     "description": "Cricket and polo equipment, other than balls",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95069990",
+     "ex": false,
+     "cn_text": "9506 99 90",
+     "description": "Other",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95070000",
+     "ex": false,
+     "cn_text": "9507 00 00",
+     "description": "Fishing rods, fish-hooks and other line fishing tackle; fish landing nets, butterfly nets and similar nets; decoy ‘birds’ (other than those of heading 9208 or 9705 ) and similar hunting or shooting requisites",
+     "part": "(21) Articles and equipment for sports, including skiing, golf, diving and water sports"
+    },
+    {
+     "cn": "95042000",
+     "ex": false,
+     "cn_text": "9504 20 00",
+     "description": "Articles and accessories for billiards of all kinds",
+     "part": "(22) Articles and equipment for billiard, automatic bowling, casino games and games operated by coins or banknotes"
+    },
+    {
+     "cn": "95043000",
+     "ex": false,
+     "cn_text": "9504 30 00",
+     "description": "Other games, operated by coins, banknotes, bank cards, tokens or by any other means of payment, other than automatic bowling alley equipment",
+     "part": "(22) Articles and equipment for billiard, automatic bowling, casino games and games operated by coins or banknotes"
+    },
+    {
+     "cn": "95044000",
+     "ex": false,
+     "cn_text": "9504 40 00",
+     "description": "Playing cards",
+     "part": "(22) Articles and equipment for billiard, automatic bowling, casino games and games operated by coins or banknotes"
+    },
+    {
+     "cn": "95045000",
+     "ex": false,
+     "cn_text": "9504 50 00",
+     "description": "Video game consoles and machines, other than those of subheading 9504 30",
+     "part": "(22) Articles and equipment for billiard, automatic bowling, casino games and games operated by coins or banknotes"
+    },
+    {
+     "cn": "95049080",
+     "ex": false,
+     "cn_text": "9504 90 80",
+     "description": "Other",
+     "part": "(22) Articles and equipment for billiard, automatic bowling, casino games and games operated by coins or banknotes"
+    }
+   ]
+  },
+  "IX": {
+   "annex": "IX",
+   "title": "List of gold, precious metals and diamonds referred to in Article 11 EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "11",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 11 It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, gold, precious metals and diamonds as listed in Annex IX, whether or not originating in the Union, to or for the Government of the DPRK, its public bodies, corporations and agencies, the Central Bank of the DPRK and any person, entity or body acting on their behalf or at their direction, or any entity or body owned or controlled by them; (b) to import, purchase or transport, directly or indirectly, gold, precious metals and diamonds, as listed in Annex IX, whether or not originating in the DPRK, from the Government of the DPRK, its public bodies, corporations and agencies, the Central Bank of the DPRK and any person, entity or body acting on their behalf or at their direction, or any entity or body owned or controlled by them; (c) to provide, directly or indirectly, technical assistance or"
+    }
+   ],
+   "items": [
+    {
+     "cn": "7102",
+     "ex": false,
+     "cn_text": "7102",
+     "description": "Diamonds, whether or not worked, but not mounted or set",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7106",
+     "ex": false,
+     "cn_text": "7106",
+     "description": "Silver (including silver plated with gold or platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7108",
+     "ex": false,
+     "cn_text": "7108",
+     "description": "Gold (including gold plated with platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7109",
+     "ex": false,
+     "cn_text": "7109",
+     "description": "Base metals or silver, clad with gold, not further worked than semi-manufactured",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7110",
+     "ex": false,
+     "cn_text": "7110",
+     "description": "Platinum, unwrought or in semi-manufactured forms, or in powder form",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7111",
+     "ex": false,
+     "cn_text": "7111",
+     "description": "Base metals, silver or gold, clad with platinum, not further worked than semi-manufactured",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "7112",
+     "ex": true,
+     "cn_text": "ex 7112",
+     "description": "Waste and scrap of precious metal or of metal clad with precious metal; other waste and scrap containing precious metal or precious-metal compounds, of a kind used principally for the recovery of precious metal",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "X": {
+   "annex": "X",
+   "title": "The statues referred to in Article 13 EXPLANATORY NOTE",
+   "flows": [
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "13",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 13 It shall be prohibited to import, purchase or transfer, directly or indirectly, statues as listed in Annex X, from DPRK whether or not originating in the DPRK."
+    }
+   ],
+   "items": [
+    {
+     "cn": "442010",
+     "ex": false,
+     "cn_text": "4420 10",
+     "description": "Statues and statuettes of wood",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "680291",
+     "ex": false,
+     "cn_text": "6802 91",
+     "description": "– – Marble, travertine and alabaster",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "680292",
+     "ex": false,
+     "cn_text": "6802 92",
+     "description": "– – Other calcareous stone",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "680293",
+     "ex": false,
+     "cn_text": "6802 93",
+     "description": "– – Granite",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "680299",
+     "ex": false,
+     "cn_text": "6802 99",
+     "description": "– – Other stone",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "680990",
+     "ex": false,
+     "cn_text": "6809 90",
+     "description": "Statues and statuettes of plaster or of compositions based on plaster",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "681099",
+     "ex": false,
+     "cn_text": "6810 99",
+     "description": "Statues and statuettes of cement, of concrete or of artificial stone, whether or not reinforced",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "6913",
+     "ex": false,
+     "cn_text": "6913",
+     "description": "Ceramic statues and statuettes",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "711411",
+     "ex": false,
+     "cn_text": "7114 11",
+     "description": "– – Statuettes of silver, whether or not plated or clad with other precious metal",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "711419",
+     "ex": false,
+     "cn_text": "7114 19",
+     "description": "– – Statuettes of other precious metal, whether or not plated or clad with precious metal",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "711420",
+     "ex": false,
+     "cn_text": "7114 20",
+     "description": "– Statues and statuettes of base metal clad with precious metal",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "830621",
+     "ex": false,
+     "cn_text": "8306 21",
+     "description": "– – Statues and statuettes plated with precious metal",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "830629",
+     "ex": false,
+     "cn_text": "8306 29",
+     "description": "– – Other statues and statuettes",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "9505",
+     "ex": false,
+     "cn_text": "9505",
+     "description": "Statues and statuettes for festive, carnival or other entertainment use",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "9602",
+     "ex": false,
+     "cn_text": "9602",
+     "description": "Statuettes of worked vegetable or mineral carving material",
+     "part": "EXPLANATORY NOTE"
+    },
+    {
+     "cn": "9703",
+     "ex": false,
+     "cn_text": "9703",
+     "description": "Original statuary, of any material",
+     "part": "EXPLANATORY NOTE"
+    }
+   ]
+  },
+  "XI": {
+   "annex": "XI",
+   "title": "The helicopters and vessels referred to in Article 15 EXPLANATORY NOTE",
+   "flows": [
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "15",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 15 It shall be prohibited to sell, supply, transfer or export, directly or indirectly, helicopters and vessels, as listed in Annex XI, to the DPRK."
+    },
+    {
+     "article": "16a",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16a 1. It shall be prohibited to import, purchase or transfer, directly or indirectly, seafood, including fish, crustaceans, molluscs, and other aquatic invertebrates in all forms, as listed in Annex XIa, from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16b",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16b It shall be prohibited to import, purchase or transfer, directly or indirectly, lead and lead ore, as listed in Annex XIb, from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16c",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 16c It shall be prohibited to sell, supply, transfer or export, directly or indirectly, condensates and natural gas liquids, as listed in Annex XIc, to the DPRK."
+    },
+    {
+     "article": "16d",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 16d It shall be prohibited to sell, supply, transfer or export, directly or indirectly, all refined petroleum products, as listed in Annex XId, whether or not originating in the Union, to the DPRK."
+    },
+    {
+     "article": "16f",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 16f It shall be prohibited to sell, supply, transfer or export, directly or indirectly, crude oil, as listed in Annex XIe, whether or not originating in the Union, to the DPRK."
+    },
+    {
+     "article": "16h",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16h It shall be prohibited to import, purchase or transfer, directly or indirectly, textiles, as listed in Annex XIf, from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16j",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16j It shall be prohibited to import, purchase or transfer, directly or indirectly, food and agricultural products listed in Annex XIg from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16k",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16k It shall be prohibited to import, purchase or transfer, directly or indirectly, machinery and electrical equipment listed in Annex XIh from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16l",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16l It shall be prohibited to import, purchase or transfer, directly or indirectly, earth and stone, including magnesite and magnesia, listed in Annex XIi from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16m",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16m It shall be prohibited to import, purchase or transfer, directly or indirectly, wood listed in Annex XIj from the DPRK, whether or not originating in the DPRK."
+    },
+    {
+     "article": "16n",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 16n It shall be prohibited to import, purchase or transfer, directly or indirectly, vessels listed in Annex XIk from the DPRK, whether or not originating in the DPRK."
+    }
+   ],
+   "items": [
+    {
+     "cn": "880211",
+     "ex": false,
+     "cn_text": "8802 11",
+     "description": "Of an unladen weight not exceeding 2 000 kg",
+     "part": "Helicopters"
+    },
+    {
+     "cn": "880212",
+     "ex": false,
+     "cn_text": "8802 12",
+     "description": "Of an unladen weight exceeding 2 000 kg",
+     "part": "Helicopters"
+    },
+    {
+     "cn": "8901",
+     "ex": false,
+     "cn_text": "8901",
+     "description": "Cruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods",
+     "part": "Vessels"
+    },
+    {
+     "cn": "8902",
+     "ex": false,
+     "cn_text": "8902",
+     "description": "Fishing vessels; factory ships and other vessels for processing or preserving fishery products",
+     "part": "Vessels"
+    },
+    {
+     "cn": "8903",
+     "ex": false,
+     "cn_text": "8903",
+     "description": "Yachts and other vessels for pleasure or sports; rowing boats and canoes",
+     "part": "Vessels"
+    },
+    {
+     "cn": "8904",
+     "ex": false,
+     "cn_text": "8904",
+     "description": "Tugs and pusher crafts",
+     "part": "Vessels"
+    },
+    {
+     "cn": "8906",
+     "ex": false,
+     "cn_text": "8906",
+     "description": "Other vessels, including warships and lifeboats other than rowing boats",
+     "part": "Vessels"
+    },
+    {
+     "cn": "890710",
+     "ex": false,
+     "cn_text": "8907 10",
+     "description": "Inflatable rafts",
+     "part": "Vessels"
+    }
+   ]
+  }
+ }
+}

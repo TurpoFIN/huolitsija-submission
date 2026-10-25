@@ -1,0 +1,7 @@
+Finvoice3.0.xsd - official Finvoice 3.0 schema published by Finanssiala ry (Finance Finland).
+Source URL: https://file.finanssiala.fi/finvoice/Finvoice3.0.xsd
+Downloaded: 2026-10-24 (HTTP 200, 97429 bytes)
+sha256: 03ba971b4eeb002e06e7d503a89ed58b67cf0516284b206bf25f664799d3b4c8
+Header comment in the file: "Modified 17.12.2020 (back to version 11/2019)  For Finvoice version 3.0"
+Implementation guidelines: https://file.finanssiala.fi/finvoice/Finvoice_3_0_implementation_guidelines.pdf
+Used by services/finvoice.py (validate_finvoice) and tests/test_s13_ap_invoices.py.

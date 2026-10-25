@@ -1,0 +1,1861 @@
+{
+ "captured_at": "2026-10-24",
+ "source": "PRH/YTJ open data v3 (real responses, records copied unchanged)",
+ "responses": [
+  {
+   "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=4684",
+   "totalResults": 564,
+   "companies": [
+    {
+     "businessId": {
+      "value": "0185244-0",
+      "registrationDate": "1978-03-15",
+      "source": "3"
+     },
+     "euId": {
+      "value": "FIFPRO.0185244-0",
+      "source": "1"
+     },
+     "names": [
+      {
+       "name": "Kajaanin Lukko Oy",
+       "type": "1",
+       "registrationDate": "1993-12-22",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Kajaanin Lukko Ky",
+       "type": "1",
+       "registrationDate": "1989-11-29",
+       "endDate": "1993-12-21",
+       "version": 2,
+       "source": "1"
+      },
+      {
+       "name": "Helatalo",
+       "type": "3",
+       "registrationDate": "2017-05-18",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46841",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Partihandel med järnhandelsvaror"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rautakauppatavaroiden tukkukauppa"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of hardware"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "website": {
+      "url": "www.kajaaninlukko.fi",
+      "registrationDate": "2010-02-10",
+      "source": "0"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "registrationDate": "1993-12-22",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1976-11-05",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-03-15",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "82",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "För överlåtelse av nyttjanderätten till en fastighet"
+        },
+        {
+         "languageCode": "1",
+         "description": "Kiinteistön käyttöoikeuden luovuttamisesta"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-obliged for the transfer of rights to use immovable property"
+        }
+       ],
+       "registrationDate": "2004-09-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1977-01-01",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 2,
+       "street": "VÄLIKATU",
+       "postCode": "87100",
+       "postOffices": [
+        {
+         "city": "KAJAANI",
+         "languageCode": "1",
+         "municipalityCode": "205"
+        },
+        {
+         "city": "KAJAANI",
+         "languageCode": "2",
+         "municipalityCode": "205"
+        }
+       ],
+       "postOfficeBox": "",
+       "buildingNumber": "15",
+       "entrance": "",
+       "apartmentNumber": "",
+       "apartmentIdSuffix": "",
+       "co": "",
+       "registrationDate": "1976-10-01",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1976-11-05",
+     "lastModified": "2026-08-28T03:06:57"
+    },
+    {
+     "businessId": {
+      "value": "0199266-2",
+      "registrationDate": "1978-06-21",
+      "source": "3"
+     },
+     "names": [
+      {
+       "name": "Life Force Ky",
+       "type": "1",
+       "registrationDate": "2004-12-21",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Video-Management Ky Jorma Kenkkilä",
+       "type": "1",
+       "registrationDate": "1985-09-12",
+       "endDate": "2004-12-20",
+       "version": 2,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46842",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "LVI-laitteiden ja -tarvikkeiden tukkukauppa"
+       },
+       {
+        "languageCode": "2",
+        "description": "Partihandel med VVS-armatur"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of plumbing and heating equipment and supplies"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "13",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Kommandiittiyhtiö"
+        },
+        {
+         "languageCode": "2",
+         "description": "Kommanditbolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited partnership"
+        }
+       ],
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1965-03-19",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-06-21",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-08-01",
+       "endDate": "2001-09-30",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 1,
+       "street": "Kuivuritie",
+       "postCode": "10300",
+       "postOffices": [
+        {
+         "city": "KARIS",
+         "languageCode": "2",
+         "municipalityCode": "710"
+        },
+        {
+         "city": "KARJAA",
+         "languageCode": "1",
+         "municipalityCode": "710"
+        }
+       ],
+       "buildingNumber": "61",
+       "registrationDate": "2007-11-08",
+       "source": "0"
+      },
+      {
+       "type": 2,
+       "street": "Kuivuritie",
+       "postCode": "10300",
+       "postOffices": [
+        {
+         "city": "KARIS",
+         "languageCode": "2",
+         "municipalityCode": "710"
+        },
+        {
+         "city": "KARJAA",
+         "languageCode": "1",
+         "municipalityCode": "710"
+        }
+       ],
+       "buildingNumber": "61",
+       "registrationDate": "2007-11-08",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1965-03-19",
+     "lastModified": "2025-12-31T07:39:20"
+    },
+    {
+     "businessId": {
+      "value": "0202881-6",
+      "registrationDate": "1978-06-30",
+      "source": "3"
+     },
+     "euId": {
+      "value": "FIFPRO.0202881-6",
+      "source": "1"
+     },
+     "names": [
+      {
+       "name": "Würth Oy",
+       "type": "1",
+       "registrationDate": "1977-04-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Würth Suomi Oy",
+       "type": "1",
+       "registrationDate": "1975-09-05",
+       "endDate": "1977-04-06",
+       "version": 2,
+       "source": "1"
+      },
+      {
+       "name": "Indunorm",
+       "type": "3",
+       "registrationDate": "2006-10-06",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Ares Nikotips",
+       "type": "3",
+       "registrationDate": "2017-02-22",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46841",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Partihandel med järnhandelsvaror"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rautakauppatavaroiden tukkukauppa"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of hardware"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1975-09-05",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-06-30",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "82",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "För överlåtelse av nyttjanderätten till en fastighet"
+        },
+        {
+         "languageCode": "1",
+         "description": "Kiinteistön käyttöoikeuden luovuttamisesta"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-obliged for the transfer of rights to use immovable property"
+        }
+       ],
+       "registrationDate": "2008-09-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1993-01-01",
+       "register": "7",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1979-01-01",
+       "endDate": "1992-12-31",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 2,
+       "street": "Würthintie",
+       "postCode": "11710",
+       "postOffices": [
+        {
+         "city": "RIIHIMÄKI",
+         "languageCode": "1",
+         "municipalityCode": "694"
+        },
+        {
+         "city": "RIIHIMÄKI",
+         "languageCode": "2",
+         "municipalityCode": "694"
+        }
+       ],
+       "postOfficeBox": "",
+       "buildingNumber": "1",
+       "entrance": "",
+       "apartmentNumber": "",
+       "apartmentIdSuffix": "",
+       "co": "",
+       "registrationDate": "2016-06-21",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1975-09-05",
+     "lastModified": "2026-10-22T00:20:19"
+    },
+    {
+     "businessId": {
+      "value": "0240002-4",
+      "registrationDate": "1978-12-10",
+      "source": "3"
+     },
+     "euId": {
+      "value": "FIFPRO.0240002-4",
+      "source": "1"
+     },
+     "names": [
+      {
+       "name": "Pajutavi Oy",
+       "type": "1",
+       "registrationDate": "1978-03-31",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46841",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Partihandel med järnhandelsvaror"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rautakauppatavaroiden tukkukauppa"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of hardware"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [
+      {
+       "type": "SELTILA",
+       "registrationDate": "2026-05-20",
+       "source": "1"
+      }
+     ],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-03-31",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-12-10",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "endDate": "2026-09-25",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "endDate": "2026-09-25",
+       "register": "6",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 2,
+       "street": "Piikavuorentie",
+       "postCode": "21250",
+       "postOffices": [
+        {
+         "city": "MASKU",
+         "languageCode": "1",
+         "municipalityCode": "481"
+        },
+        {
+         "city": "MASKU",
+         "languageCode": "2",
+         "municipalityCode": "481"
+        }
+       ],
+       "postOfficeBox": "",
+       "buildingNumber": "6",
+       "entrance": "",
+       "apartmentNumber": "",
+       "apartmentIdSuffix": "",
+       "co": "",
+       "registrationDate": "2005-04-21",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1978-03-31",
+     "lastModified": "2026-09-24T10:47:51"
+    },
+    {
+     "businessId": {
+      "value": "0291568-5",
+      "registrationDate": "1979-04-26",
+      "source": "3"
+     },
+     "euId": {
+      "value": "FIFPRO.0291568-5",
+      "source": "1"
+     },
+     "names": [
+      {
+       "name": "Tarfi Oy",
+       "type": "1",
+       "registrationDate": "2019-02-19",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Berner Kiinnitystekniikka Oy",
+       "type": "1",
+       "registrationDate": "2016-07-13",
+       "endDate": "2019-02-19",
+       "version": 2,
+       "source": "1"
+      },
+      {
+       "name": "Puijon Pultti",
+       "type": "3",
+       "registrationDate": "2007-10-25",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Raweli",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Päijät Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Warkauden Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Pieksän Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Mikkelin Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Iisalmen Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Hämeen Pultti",
+       "type": "3",
+       "registrationDate": "2007-11-07",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46841",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Partihandel med järnhandelsvaror"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rautakauppatavaroiden tukkukauppa"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of hardware"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [
+      {
+       "type": "KONK",
+       "registrationDate": "2021-01-21",
+       "source": "1"
+      }
+     ],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1979-04-12",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1979-04-26",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "endDate": "2020-12-31",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "endDate": "2020-09-30",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1979-04-01",
+       "endDate": "2020-10-31",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 2,
+       "street": "",
+       "postCode": "00000",
+       "postOffices": [
+        {
+         "city": "ADRESS OKÄND",
+         "languageCode": "2",
+         "municipalityCode": "200"
+        },
+        {
+         "city": "OSOITE TUNTEMATON",
+         "languageCode": "1",
+         "municipalityCode": "200"
+        }
+       ],
+       "postOfficeBox": "",
+       "buildingNumber": "",
+       "entrance": "",
+       "apartmentNumber": "",
+       "apartmentIdSuffix": "",
+       "co": "",
+       "registrationDate": "2024-01-11",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1979-04-12",
+     "lastModified": "2026-02-03T08:27:10"
+    }
+   ],
+   "note": "first 3 active records, one in liquidation (SELTILA), one in bankruptcy (KONK)"
+  },
+  {
+   "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=4669",
+   "totalResults": 1548,
+   "companies": [
+    {
+     "businessId": {
+      "value": "0187300-6",
+      "registrationDate": "1978-03-15",
+      "source": "3"
+     },
+     "names": [
+      {
+       "name": "A. Rantaniemi Oy",
+       "type": "1",
+       "registrationDate": "2024-03-26",
+       "endDate": "2025-04-21",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Laivaradiohuolto Oy",
+       "type": "1",
+       "registrationDate": "1975-08-22",
+       "endDate": "2024-03-26",
+       "version": 2,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46699",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Muualla luokittelemattomien koneiden ja laitteiden tukkukauppa"
+       },
+       {
+        "languageCode": "2",
+        "description": "Partihandel med maskiner och apparater som inte klassificerats på annat håll"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of machinery and equipment n.e.c."
+       }
+      ],
+      "typeCodeSet": "TOIMI3",
+      "registrationDate": "2007-12-31",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "endDate": "2025-04-21",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1975-08-22",
+       "endDate": "2025-04-20",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "4",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Ceased"
+        },
+        {
+         "languageCode": "1",
+         "description": "Lakannut"
+        },
+        {
+         "languageCode": "2",
+         "description": "Upphört"
+        }
+       ],
+       "registrationDate": "2025-04-21",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-03-15",
+       "endDate": "2025-03-26",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1998-03-01",
+       "endDate": "2025-03-26",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "endDate": "2025-03-26",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-01-01",
+       "endDate": "1983-12-31",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [],
+     "tradeRegisterStatus": "4",
+     "status": "2",
+     "registrationDate": "1975-08-22",
+     "endDate": "2025-04-21",
+     "lastModified": "2026-04-22T01:30:05"
+    },
+    {
+     "businessId": {
+      "value": "0196537-3",
+      "registrationDate": "1978-06-16",
+      "source": "3"
+     },
+     "names": [
+      {
+       "name": "Exomet Oy",
+       "type": "1",
+       "registrationDate": "1983-12-29",
+       "endDate": "2017-10-23",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Special Pump Ltd Oy",
+       "type": "1",
+       "registrationDate": "1972-08-18",
+       "endDate": "1983-12-28",
+       "version": 2,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "46692",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Partihandel med andra maskiner inom industrin"
+       },
+       {
+        "languageCode": "1",
+        "description": "Teollisuudessa käytettävien muiden koneiden tukkukauppa"
+       },
+       {
+        "languageCode": "3",
+        "description": "Wholesale of other machinery for use in industry"
+       }
+      ],
+      "typeCodeSet": "TOIMI3",
+      "registrationDate": "2007-12-31",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "endDate": "2017-10-23",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1972-08-18",
+       "endDate": "2017-10-22",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "4",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Ceased"
+        },
+        {
+         "languageCode": "1",
+         "description": "Lakannut"
+        },
+        {
+         "languageCode": "2",
+         "description": "Upphört"
+        }
+       ],
+       "registrationDate": "2017-10-23",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-06-16",
+       "endDate": "2017-10-23",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "endDate": "2010-02-28",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "endDate": "2009-10-31",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1983-06-01",
+       "endDate": "2009-06-30",
+       "register": "7",
+       "authority": "1"
+      }
+     ],
+     "addresses": [],
+     "tradeRegisterStatus": "4",
+     "status": "2",
+     "registrationDate": "1972-08-18",
+     "endDate": "2017-10-23",
+     "lastModified": "2023-03-19T13:07:32"
+    }
+   ],
+   "note": "TOL 2008 group 4669: ceased companies with TOIMI3 codes (active ones moved to TOL 2025 4664)"
+  },
+  {
+   "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=3100",
+   "totalResults": 1627,
+   "companies": [
+    {
+     "businessId": {
+      "value": "0195876-3",
+      "registrationDate": "1978-06-16",
+      "source": "3"
+     },
+     "euId": {
+      "value": "FIFPRO.0195876-3",
+      "source": "1"
+     },
+     "names": [
+      {
+       "name": "Oy IBM Finland Ab",
+       "type": "1",
+       "registrationDate": "2013-01-21",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Oy International Business Machines Ab",
+       "type": "1",
+       "registrationDate": "1946-02-22",
+       "endDate": "2013-01-20",
+       "version": 2,
+       "source": "1"
+      },
+      {
+       "name": "IBM Suomi",
+       "type": "3",
+       "registrationDate": "2013-01-21",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Lotus Development Finland",
+       "type": "3",
+       "registrationDate": "2004-11-04",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "International Business Machines",
+       "type": "3",
+       "registrationDate": "2013-01-21",
+       "version": 1,
+       "source": "1"
+      },
+      {
+       "name": "Nordcloud",
+       "type": "3",
+       "registrationDate": "2026-10-01",
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "mainBusinessLine": {
+      "type": "63100",
+      "descriptions": [
+       {
+        "languageCode": "3",
+        "description": "Computing infrastructure, data processing, hosting and related activities"
+       },
+       {
+        "languageCode": "2",
+        "description": "Datainfrastruktur, databehandling, hosting o.d."
+       },
+       {
+        "languageCode": "1",
+        "description": "Tietojenkäsittelyinfrastruktuuri, tietojenkäsittely, palvelintilan vuokraus ja niihin liittyvät palvelut"
+       }
+      ],
+      "typeCodeSet": "TOIMI4",
+      "registrationDate": "2026-01-01",
+      "source": "2"
+     },
+     "companyForms": [
+      {
+       "type": "16",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "Aktiebolag"
+        },
+        {
+         "languageCode": "3",
+         "description": "Limited company"
+        },
+        {
+         "languageCode": "1",
+         "description": "Osakeyhtiö"
+        }
+       ],
+       "version": 1,
+       "source": "1"
+      }
+     ],
+     "companySituations": [],
+     "registeredEntries": [
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1937-02-02",
+       "register": "1",
+       "authority": "2"
+      },
+      {
+       "type": "1",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1978-06-16",
+       "register": "4",
+       "authority": "1"
+      },
+      {
+       "type": "55",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1995-03-01",
+       "register": "5",
+       "authority": "1"
+      },
+      {
+       "type": "80",
+       "descriptions": [
+        {
+         "languageCode": "1",
+         "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+        },
+        {
+         "languageCode": "2",
+         "description": "Momsskyldig för rörelseverksamhet"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-liable for business activity"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "82",
+       "descriptions": [
+        {
+         "languageCode": "2",
+         "description": "För överlåtelse av nyttjanderätten till en fastighet"
+        },
+        {
+         "languageCode": "1",
+         "description": "Kiinteistön käyttöoikeuden luovuttamisesta"
+        },
+        {
+         "languageCode": "3",
+         "description": "VAT-obliged for the transfer of rights to use immovable property"
+        }
+       ],
+       "registrationDate": "1994-06-01",
+       "register": "6",
+       "authority": "1"
+      },
+      {
+       "type": "41",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "1950-01-01",
+       "register": "7",
+       "authority": "1"
+      },
+      {
+       "type": "32",
+       "descriptions": [
+        {
+         "languageCode": "3",
+         "description": "Registered"
+        },
+        {
+         "languageCode": "2",
+         "description": "Registrerad"
+        },
+        {
+         "languageCode": "1",
+         "description": "Rekisterissä"
+        }
+       ],
+       "registrationDate": "2001-10-16",
+       "endDate": "2013-12-31",
+       "register": "8",
+       "authority": "1"
+      }
+     ],
+     "addresses": [
+      {
+       "type": 2,
+       "street": "",
+       "postCode": "00101",
+       "postOffices": [
+        {
+         "city": "HELSINGFORS",
+         "languageCode": "2",
+         "municipalityCode": "091"
+        },
+        {
+         "city": "HELSINKI",
+         "languageCode": "1",
+         "municipalityCode": "091"
+        }
+       ],
+       "postOfficeBox": "265",
+       "buildingNumber": "",
+       "entrance": "",
+       "apartmentNumber": "",
+       "apartmentIdSuffix": "",
+       "co": "",
+       "registrationDate": "1992-01-02",
+       "source": "0"
+      }
+     ],
+     "tradeRegisterStatus": "1",
+     "status": "2",
+     "registrationDate": "1937-02-02",
+     "lastModified": "2026-10-21T22:00:23"
+    }
+   ],
+   "note": "substring match: a record whose code only contains 3100"
+  }
+ ]
+}

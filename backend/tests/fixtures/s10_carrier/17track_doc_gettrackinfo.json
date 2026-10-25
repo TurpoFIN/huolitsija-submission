@@ -1,0 +1,310 @@
+{
+ "_source": "17TRACK API documentation example response for POST /track/v2.4/gettrackinfo, https://api.17track.net/en/doc?version=v2.2 (the page serves the v2.4 reference; fetched 2026-10-24). Documentation example, NOT a live capture: no 17TRACK key was available.",
+ "gettrackinfo": {
+  "code": 0,
+  "data": {
+   "accepted": [
+    {
+     "number": "RR123465789CN",
+     "carrier": 100003,
+     "param": null,
+     "tag": "myID",
+     "lang": null,
+     "destination_postal_code": null,
+     "origin_country": null,
+     "destination_country": null,
+     "destination_city": null,
+     "ship_date": null,
+     "shipper": null,
+     "consignee": null,
+     "phone_number_last_4": null,
+     "phone_number": null,
+     "cpf_or_cnpj": null,
+     "special_tracking_info": null,
+     "track_info": {
+      "shipping_info": {
+       "shipper_address": {
+        "country": "CN",
+        "state": "GD",
+        "city": "SHENZHEN",
+        "street": "HARTFORD CT DISTRIBUTION CENTER",
+        "postal_code": "518000",
+        "coordinates": {
+         "longitude": "114.085947",
+         "latitude": "22.547"
+        }
+       },
+       "recipient_address": {
+        "country": "AF",
+        "state": null,
+        "city": "KABUL",
+        "street": null,
+        "postal_code": null,
+        "coordinates": {
+         "longitude": null,
+         "latitude": null
+        }
+       }
+      },
+      "latest_status": {
+       "status": "InfoReceived",
+       "sub_status": "InfoReceived",
+       "sub_status_descr": null
+      },
+      "latest_event": {
+       "time_iso": "2022-03-02T20:43:24-06:00",
+       "time_utc": "2022-03-03T02:43:24Z",
+       "time_raw": {
+        "date": "2022-03-02",
+        "time": "20:43:24",
+        "timezone": "-06:00"
+       },
+       "description": "Shipment information sent to FedEx",
+       "description_translation": {
+        "lang": "en",
+        "description": "Shipment information sent to FedEx"
+       },
+       "location": "NJ",
+       "stage": "InfoReceived",
+       "sub_status": "InfoReceived",
+       "address": {
+        "country": "US",
+        "state": "NJ",
+        "city": "MARLTON",
+        "street": null,
+        "postal_code": "08053",
+        "coordinates": {
+         "longitude": null,
+         "latitude": null
+        }
+       }
+      },
+      "time_metrics": {
+       "days_after_order": 7,
+       "days_of_transit": 7,
+       "days_of_transit_done": 7,
+       "days_after_last_update": 57,
+       "estimated_delivery_date": {
+        "source": "Official",
+        "from": "2021-09-01T08:00:54-05:00",
+        "to": "2021-09-01T13:00:45-05:00"
+       }
+      },
+      "milestone": [
+       {
+        "key_stage": "InfoReceived",
+        "time_iso": "2023-08-14T00:00:00-05:00",
+        "time_utc": "2023-08-14T05:00:00Z",
+        "time_raw": {
+         "date": "2023-08-14",
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "PickedUp",
+        "time_iso": "2023-08-15T08:46:00-05:00",
+        "time_utc": "2023-08-15T12:46:00Z",
+        "time_raw": {
+         "date": "2023-08-15",
+         "time": "08:46:00",
+         "timezone": "-05:00"
+        }
+       },
+       {
+        "key_stage": "Departure",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "Arrival",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "AvailableForPickup",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "OutForDelivery",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "Delivered",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "Returning",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       },
+       {
+        "key_stage": "Returned",
+        "time_iso": null,
+        "time_utc": null,
+        "time_raw": {
+         "date": null,
+         "time": null,
+         "timezone": null
+        }
+       }
+      ],
+      "misc_info": {
+       "risk_factor": 0,
+       "service_type": "FedEx International Priority",
+       "weight_raw": "1.1 KG",
+       "weight_kg": "1.1",
+       "pieces": "1",
+       "dimensions": "22*20*16 CM",
+       "customer_number": "2459642000~270434455123~FX",
+       "reference_number": null,
+       "local_number": "270434455123",
+       "local_provider": "Fedex",
+       "local_key": 100003
+      },
+      "tracking": {
+       "providers_hash": 182180920,
+       "providers": [
+        {
+         "provider": {
+          "key": 100003,
+          "name": "Fedex",
+          "alias": "Fedex",
+          "tel": null,
+          "homepage": "http://www.fedex.com/",
+          "country": "TR"
+         },
+         "service_type": "FedEx International Priority",
+         "latest_sync_status": "Success",
+         "latest_sync_time": "2022-04-28T02:37:03Z",
+         "provider_lang": null,
+         "provider_tips": null,
+         "events_hash": -731027172,
+         "events": [
+          {
+           "time_iso": "2023-08-14T00:00:00-05:00",
+           "time_utc": "2023-08-14T05:00:00Z",
+           "time_raw": {
+            "date": "2023-08-14",
+            "time": null,
+            "timezone": null
+           },
+           "description": "At local FedEx facility",
+           "description_translation": {
+            "lang": "en",
+            "description": "At local FedEx facility"
+           },
+           "location": "ANCHORAGE, AK, US",
+           "stage": "InfoReceived",
+           "sub_status": "InfoReceived",
+           "address": {
+            "country": "US",
+            "state": "AK",
+            "city": "ANCHORAGE",
+            "street": null,
+            "postal_code": "99502",
+            "coordinates": {
+             "longitude": "35.86166",
+             "latitude": "104.195397"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "provider": {
+          "key": 1151,
+          "name": "Australia Post",
+          "alias": "Australia Post",
+          "tel": null,
+          "homepage": "http://auspost.com.au/",
+          "country": "AU"
+         },
+         "service_type": "International Post Express",
+         "latest_sync_status": "Success",
+         "latest_sync_time": "2022-04-12T22:12:54Z",
+         "provider_lang": null,
+         "provider_tips": null,
+         "events_hash": -225868020,
+         "events": [
+          {
+           "time_iso": "2022-03-04T15:33:00+08:00",
+           "time_utc": "2022-03-04T07:33:00Z",
+           "time_raw": {
+            "date": "2022-03-04",
+            "time": "15:33:00",
+            "timezone": null
+           },
+           "description": "InfoReceived",
+           "description_translation": {
+            "lang": "en",
+            "description": "InfoReceived"
+           },
+           "location": null,
+           "stage": "InfoReceived",
+           "sub_status": "InfoReceived",
+           "address": {
+            "country": null,
+            "state": null,
+            "city": null,
+            "street": null,
+            "postal_code": null,
+            "coordinates": {
+             "longitude": null,
+             "latitude": null
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "rejected": [
+    {
+     "carrier": "3011",
+     "number": "21213123123230",
+     "error": {
+      "code": -18019902,
+      "message": "The tracking number '21213123123230' does not register, please register first."
+     }
+    }
+   ]
+  }
+ }
+}

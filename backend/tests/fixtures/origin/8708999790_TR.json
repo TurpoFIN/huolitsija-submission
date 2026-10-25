@@ -1,0 +1,745 @@
+{
+  "goods_code": "8708999790",
+  "country": "TR",
+  "flow": "import",
+  "date": "2026-10-24",
+  "declarable": true,
+  "subcodes": [
+    "8708999790"
+  ],
+  "subcode_summaries": [],
+  "known_code": true,
+  "measures": [
+    {
+      "sid": "4161376",
+      "goods_code": "8708999790",
+      "flow": "import",
+      "type": "Import control of fluorinated greenhouse gases",
+      "type_code": "724",
+      "type_code_candidates": [
+        "724"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2025-06-25",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0573/24",
+      "regulation_id": "R2405732",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD917",
+          "text": "By virtue of Article 4(6) of Regulation (EU) 2024/573, the placing on the market of fluorinated greenhouse gases shall be prohibited, unless importers provide evidence that any trifluoromethane, produced as a by-product during the production process of the fluorinated greenhouse gases has been destroyed or recovered for subsequent use, using best available techniques.<br><br>By virtue of Article 11.1. of Regulation (EU) 2024/573, the placing on the market of products and equipment, including parts thereof, listed in Annex IV, with an exemption for military equipment, shall be prohibited from the date specified in that Annex.<br><br>By virtue of Article 11.1 sub paragraph 2 (a)(b), (c) of Regulation (I) 2024/573, the placing on the market of parts of products and equipment required for repair and servicing of existing equipment listed in Annex IV shall be allowed. <br><br>By virtue of Article 11.3. of Regulation (EU) 2024/573, the placing on the market of non-refillable containers for fluorinated greenhouse gases listed in Annex I and in Section 1 of Annex II, empty, or fully or partially filled, shall be prohibited.<br><br>By virtue of Article 11.4 of Regulation (EU) 2024/573, undertakings which place on the market refillable containers for fluorinated greenhouse gases shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling, in particular identifying the relevant actors, their obligatory commitments and the relevant logistical arrangements.<br><br>By virtue of Article 12 of Regulation (EU) 2024/573, the following products and equipment that contain fluorinated greenhouse gases or whose functioning relies upon those gases shall only be placed on the market if they are labelled as:<br>(a)\t refrigeration equipment ;<br>(b)\tair-conditioning equipment ; <br>(c)\theat pumps ;<br>(d)\tfire protection equipment ; <br>(e)\telectrical switchgear ;<br>(f)\taerosol dispenser that contain fluorinated greenhouse gases, including metered dose inhalers;<br>(g)\tall fluorinated greenhouse gas containers ;<br>(h)\tfluorinated greenhouse gas-based solvents ; or<br>(i)\torganic Rankine cycles.<br><br>By virtue of Article 16 of Regulation (EU) 2024/573, the placing on the market of hydrofluorocarbons shall be allowed only to the extent that importers have been allocated quota by the Commission as set out in Article 17.<br><br>By virtue of Article 19.1 of Regulation (EU) 2024/573, refrigeration and air-conditioning equipment, heat pumps and metered dose inhalers pre-charged with substances listed in Section 1 of Annex I shall not be placed on the market unless those substances with which the products or equipment have been pre-charged are accounted for within the quota system.<br><br>By virtue of Article 19.2 of Regulation (EU) 2024/573, the placing on the market of goods falling under the provisions of Article 19.1 shall be subject to the presentation of a declaration of conformity.<br><br>By virtue of Article 19.6 of Regulation (EU) 2024/573, undertakings that placed on the market less than 10 tonnes of CO2 equivalent of hydrofluorocarbons, per year, contained in the products or equipment referred to in Article 19.1 shall be exempted from the provisions of Article 19. <br><br>By virtue of Article 20.4 of Regulation (EU) 2024/573, the undertakings shall have a valid registration in the F-gas Portal prior to carrying out any of the activities listed in points (a) to (g).<br><br>By virtue of Article 23.3 (a) of Regulation (EU) 2024/573, the F-gas Portal registration identification number shall be declared.<br>The information listed in Article 23.3(a) to (d) of Regulation (EU) 2024/573 shall be provided to customs authorities, where relevant, in the customs declaration.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "Y152",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 5,
+          "condition": "Other conditions",
+          "certificate": "Y986",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 10,
+          "condition": "Other conditions",
+          "certificate": "Y160",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 15,
+          "condition": "Other conditions",
+          "certificate": "Y169",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573)."
+        },
+        {
+          "code": "Y",
+          "sequence": 90,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "Y152": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573",
+        "Y986": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573",
+        "Y160": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573",
+        "Y169": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573).",
+        "Y123": "Undertaking registered in the F-Gas Portal according to Article 20 of Regulation (EU) 2024/573",
+        "C057": "Copy of the declaration of conformity - Option A, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "C079": "Copy of the declaration of conformity - Option B, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "C082": "Copy of the declaration of conformity - Option C, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "Y120": "Undertaking importing less than 10 tonnes of CO\u2082 equivalent of hydrofluorocarbons, per year, contained in equipment or products, exempted from the provisions of Article 19 of Regulation (EU) 2024/573 (Article 19.6 of Regulation (EU) 2024/573)",
+        "Y179": "Quota provisions from Article 19 (Reg 2024/573) do not apply for products or equipment pre-charged with fluorinated greenhouse gases other than HFCs from Section 1 of Annex I (Reg 2024/573)",
+        "Y054": "Goods labelled according to the provisions of Article 12 of Regulation (EU) 2024/573",
+        "Y163": "Net mass of fluorinated greenhouse gases charged in products and equipment",
+        "Y121": "Tonnes of CO\u2082 equivalent of bulk gases and of gases contained in products or equipment, and parts thereof"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161376&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "4046886",
+      "goods_code": "8708999790",
+      "flow": "import",
+      "type": "Import control on ozone-depleting substances",
+      "type_code": "726",
+      "type_code_candidates": [
+        "726"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2024-03-11",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0590/24",
+      "regulation_id": "R2405905",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD911",
+          "text": "The placing on the market and import of ozone-depleting substances, products and equipment containing ozone-depleting substances listed in Annex I or whose functioning relies upon those substances shall be prohibited. (Articles 4 and 5 of regulation (EU) 2024/590)<br><br>By virtue of Article 13 of Regulation (EU) 2024/590, the following imports are allowed:<br>(a) ozone-depleting substances to be used as feedstock in accordance with Article 6;<br>(b) ozone-depleting substances to be used as process agents in accordance with Article 7;<br>(c) ozone-depleting substances to be used for essential laboratory and analytical uses in accordance with Article 8;<br>(d) ozone-depleting substances for destruction by technology as referred to in Article 20(6);<br>(e) ozone-depleting substances for reclamation as referred to in Article 12;<br>(f) methyl bromide for emergency use in accordance with Article 10;<br>(g) recovered, recycled or reclaimed halons, under the condition that they are only imported for critical uses referred to in Article 9(1), by undertakings authorised by the competent authority of the Member State concerned to store halons for critical uses;<br>(h) products and equipment containing halons or whose functioning relies upon halons, for the purposes of critical uses referred to in Article 9(1);<br>(i) products and equipment containing ozone-depleting substances, or whose functioning relies upon those substances, for destruction, where applicable by technology as referred to in Article 20(6);<br>(j) products and equipment containing ozone-depleting substances or whose functioning relies upon those substances, for the purposes of essential laboratory and analytical uses as referred to in Article 8.<br><br>The imports falling under the above exemptions shall be subject to the presentation of a valid licence to customs authorities issued by the Commission pursuant to Article 16.<br><br>According to article 15.1 of Regulation (EU) 2024/590, import of non-refillable containers for ozone-depleting substances, empty, or fully or partially filled, shall be prohibited, except for essential laboratory and analytical uses as referred to in Article 8.<br><br>Undertakings which place on the market refillable containers for ozone-depleting substances shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling. (Article 15.3 subparagraph (1) of Regulation (EU) 2024/590)."
+        },
+        {
+          "code": "CD912",
+          "text": "Each importer, undertaking or operator that imports ozone-depleting substances, products and equipment containing ozone-depleting substances listed in Annex I or whose functioning relies upon those substances shall provide to customs authorities the licensing system registration identification number and the number of the licence pursuant to Article 13(2) and Article 14(3)."
+        },
+        {
+          "code": "CD913",
+          "text": "By virtue of Article 17.3 (c) and (d), when importing goods, the following information shall be declared:<br>- net mass of ozone-depleting substance(s), also when included in products and equipment. <br>- net mass multiplied by the ODP of the ozone-depleting substance(s), also when included in products and equipment.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "L100",
+          "requirement": null,
+          "action": "Entry into free circulation allowed",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Import licence \"controlled substances\" (ozone), issued by the Commission"
+        },
+        {
+          "code": "B",
+          "sequence": 5,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y792",
+          "requirement": null,
+          "action": "Entry into free circulation allowed",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590"
+        },
+        {
+          "code": "B",
+          "sequence": 90,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "The entry into free circulation is not allowed",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "Y791",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for ozone-depleting substances to be used for essential laboratory and analytical uses (articles 8, 13.1(c) (import) and article 14.1(a) (export) of regulation (EU) 2024/590), and for products and equipment (articles 11.1 and 13.1(j) (import) and 14.1(g) (export) of regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 5,
+          "condition": "Other conditions",
+          "certificate": "Y789",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for products and equipment containing halons or whose functioning relies upon halons (see articles 13.1(h) (import) and 14.1(f) (export) of Regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 10,
+          "condition": "Other conditions",
+          "certificate": "Y790",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for ozone-depleting substances destined to destruction or reclamation (see articles 12, 13.1(d), 13.1(e) (import) of Regulation (EU) 2024/590), and for products and equipment (see articles 12, 13.1(i) (import) of Regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 15,
+          "condition": "Other conditions",
+          "certificate": "Y792",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590"
+        },
+        {
+          "code": "Y",
+          "sequence": 90,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "L100": "Import licence \"controlled substances\" (ozone), issued by the Commission",
+        "Y792": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590",
+        "Y791": "Exemption from prohibition for ozone-depleting substances to be used for essential laboratory and analytical uses (articles 8, 13.1(c) (import) and article 14.1(a) (export) of regulation (EU) 2024/590), and for products and equipment (articles 11.1 and 13.1(j) (import) and 14.1(g) (export) of regulation (EU) 2024/590)",
+        "Y789": "Exemption from prohibition for products and equipment containing halons or whose functioning relies upon halons (see articles 13.1(h) (import) and 14.1(f) (export) of Regulation (EU) 2024/590)",
+        "Y790": "Exemption from prohibition for ozone-depleting substances destined to destruction or reclamation (see articles 12, 13.1(d), 13.1(e) (import) of Regulation (EU) 2024/590), and for products and equipment (see articles 12, 13.1(i) (import) of Regulation (EU) 2024/590)",
+        "Y797": "Licensing system registration identification number as defined in Article 17.3 (a) of Regulation (EU) 2024/590",
+        "Y798": "Declaration of net mass of ozone-depleting substance(s), when included in products and equipment",
+        "Y799": "Net mass of the ozone-depleting substance multiplied by the ODP of the ozone-depleting substance(s), also when included in products and equipment"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4046886&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "2935171",
+      "goods_code": "8708999790",
+      "flow": "import",
+      "type": "Third country duty",
+      "type_code": "103",
+      "type_code_candidates": [
+        "103"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2007-01-01",
+      "end": null,
+      "duty_expression": "3.50 %",
+      "duty": {
+        "raw": "3.50 %",
+        "kind": "ad_valorem",
+        "pct": 3.5,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 3.5
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1549/06",
+      "regulation_id": "R0615490",
+      "regulation_role": "4",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "third_country"
+    },
+    {
+      "sid": "4256837",
+      "goods_code": "8708999790",
+      "flow": "import",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "regulation_id": "R2603820",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "low_value_consignment"
+    },
+    {
+      "sid": "2865920",
+      "goods_code": "8708999790",
+      "flow": "import",
+      "type": "Customs Union Duty",
+      "type_code": "106",
+      "type_code_candidates": [
+        "106"
+      ],
+      "geo_code": "TR",
+      "geo_name": "T\u00fcrkiye",
+      "geo_group": false,
+      "excluded": [],
+      "start": "2006-01-01",
+      "end": null,
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "D0142/96",
+      "regulation_id": "D9601421",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "third_country"
+    }
+  ],
+  "third_country_duty": {
+    "duty_expression": "3.50 %",
+    "duty": {
+      "raw": "3.50 %",
+      "kind": "ad_valorem",
+      "pct": 3.5,
+      "amount": null,
+      "currency": null,
+      "unit": null,
+      "min": null,
+      "max": null,
+      "components": [
+        {
+          "type": "pct",
+          "pct": 3.5
+        }
+      ],
+      "agri_codes": []
+    },
+    "type_code": "103",
+    "regulation": "R1549/06",
+    "start": "2007-01-01",
+    "end": null
+  },
+  "preferences": [],
+  "trade_defence": [],
+  "restrictions": [
+    {
+      "sid": "4161376",
+      "type": "Import control of fluorinated greenhouse gases",
+      "type_code": "724",
+      "type_code_candidates": [
+        "724"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0573/24",
+      "start": "2025-06-25",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD917",
+          "text": "By virtue of Article 4(6) of Regulation (EU) 2024/573, the placing on the market of fluorinated greenhouse gases shall be prohibited, unless importers provide evidence that any trifluoromethane, produced as a by-product during the production process of the fluorinated greenhouse gases has been destroyed or recovered for subsequent use, using best available techniques.<br><br>By virtue of Article 11.1. of Regulation (EU) 2024/573, the placing on the market of products and equipment, including parts thereof, listed in Annex IV, with an exemption for military equipment, shall be prohibited from the date specified in that Annex.<br><br>By virtue of Article 11.1 sub paragraph 2 (a)(b), (c) of Regulation (I) 2024/573, the placing on the market of parts of products and equipment required for repair and servicing of existing equipment listed in Annex IV shall be allowed. <br><br>By virtue of Article 11.3. of Regulation (EU) 2024/573, the placing on the market of non-refillable containers for fluorinated greenhouse gases listed in Annex I and in Section 1 of Annex II, empty, or fully or partially filled, shall be prohibited.<br><br>By virtue of Article 11.4 of Regulation (EU) 2024/573, undertakings which place on the market refillable containers for fluorinated greenhouse gases shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling, in particular identifying the relevant actors, their obligatory commitments and the relevant logistical arrangements.<br><br>By virtue of Article 12 of Regulation (EU) 2024/573, the following products and equipment that contain fluorinated greenhouse gases or whose functioning relies upon those gases shall only be placed on the market if they are labelled as:<br>(a)\t refrigeration equipment ;<br>(b)\tair-conditioning equipment ; <br>(c)\theat pumps ;<br>(d)\tfire protection equipment ; <br>(e)\telectrical switchgear ;<br>(f)\taerosol dispenser that contain fluorinated greenhouse gases, including metered dose inhalers;<br>(g)\tall fluorinated greenhouse gas containers ;<br>(h)\tfluorinated greenhouse gas-based solvents ; or<br>(i)\torganic Rankine cycles.<br><br>By virtue of Article 16 of Regulation (EU) 2024/573, the placing on the market of hydrofluorocarbons shall be allowed only to the extent that importers have been allocated quota by the Commission as set out in Article 17.<br><br>By virtue of Article 19.1 of Regulation (EU) 2024/573, refrigeration and air-conditioning equipment, heat pumps and metered dose inhalers pre-charged with substances listed in Section 1 of Annex I shall not be placed on the market unless those substances with which the products or equipment have been pre-charged are accounted for within the quota system.<br><br>By virtue of Article 19.2 of Regulation (EU) 2024/573, the placing on the market of goods falling under the provisions of Article 19.1 shall be subject to the presentation of a declaration of conformity.<br><br>By virtue of Article 19.6 of Regulation (EU) 2024/573, undertakings that placed on the market less than 10 tonnes of CO2 equivalent of hydrofluorocarbons, per year, contained in the products or equipment referred to in Article 19.1 shall be exempted from the provisions of Article 19. <br><br>By virtue of Article 20.4 of Regulation (EU) 2024/573, the undertakings shall have a valid registration in the F-gas Portal prior to carrying out any of the activities listed in points (a) to (g).<br><br>By virtue of Article 23.3 (a) of Regulation (EU) 2024/573, the F-gas Portal registration identification number shall be declared.<br>The information listed in Article 23.3(a) to (d) of Regulation (EU) 2024/573 shall be provided to customs authorities, where relevant, in the customs declaration.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "Y152",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 5,
+          "condition": "Other conditions",
+          "certificate": "Y986",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 10,
+          "condition": "Other conditions",
+          "certificate": "Y160",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573"
+        },
+        {
+          "code": "Y",
+          "sequence": 15,
+          "condition": "Other conditions",
+          "certificate": "Y169",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573)."
+        },
+        {
+          "code": "Y",
+          "sequence": 90,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "Y152": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573",
+        "Y986": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573",
+        "Y160": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573",
+        "Y169": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573).",
+        "Y123": "Undertaking registered in the F-Gas Portal according to Article 20 of Regulation (EU) 2024/573",
+        "C057": "Copy of the declaration of conformity - Option A, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "C079": "Copy of the declaration of conformity - Option B, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "C082": "Copy of the declaration of conformity - Option C, as referred to in Article 1.2 and in the Annex of Regulation (EU) 2025/2155",
+        "Y120": "Undertaking importing less than 10 tonnes of CO\u2082 equivalent of hydrofluorocarbons, per year, contained in equipment or products, exempted from the provisions of Article 19 of Regulation (EU) 2024/573 (Article 19.6 of Regulation (EU) 2024/573)",
+        "Y179": "Quota provisions from Article 19 (Reg 2024/573) do not apply for products or equipment pre-charged with fluorinated greenhouse gases other than HFCs from Section 1 of Annex I (Reg 2024/573)",
+        "Y054": "Goods labelled according to the provisions of Article 12 of Regulation (EU) 2024/573",
+        "Y163": "Net mass of fluorinated greenhouse gases charged in products and equipment",
+        "Y121": "Tonnes of CO\u2082 equivalent of bulk gases and of gases contained in products or equipment, and parts thereof"
+      }
+    },
+    {
+      "sid": "4046886",
+      "type": "Import control on ozone-depleting substances",
+      "type_code": "726",
+      "type_code_candidates": [
+        "726"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0590/24",
+      "start": "2024-03-11",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD911",
+          "text": "The placing on the market and import of ozone-depleting substances, products and equipment containing ozone-depleting substances listed in Annex I or whose functioning relies upon those substances shall be prohibited. (Articles 4 and 5 of regulation (EU) 2024/590)<br><br>By virtue of Article 13 of Regulation (EU) 2024/590, the following imports are allowed:<br>(a) ozone-depleting substances to be used as feedstock in accordance with Article 6;<br>(b) ozone-depleting substances to be used as process agents in accordance with Article 7;<br>(c) ozone-depleting substances to be used for essential laboratory and analytical uses in accordance with Article 8;<br>(d) ozone-depleting substances for destruction by technology as referred to in Article 20(6);<br>(e) ozone-depleting substances for reclamation as referred to in Article 12;<br>(f) methyl bromide for emergency use in accordance with Article 10;<br>(g) recovered, recycled or reclaimed halons, under the condition that they are only imported for critical uses referred to in Article 9(1), by undertakings authorised by the competent authority of the Member State concerned to store halons for critical uses;<br>(h) products and equipment containing halons or whose functioning relies upon halons, for the purposes of critical uses referred to in Article 9(1);<br>(i) products and equipment containing ozone-depleting substances, or whose functioning relies upon those substances, for destruction, where applicable by technology as referred to in Article 20(6);<br>(j) products and equipment containing ozone-depleting substances or whose functioning relies upon those substances, for the purposes of essential laboratory and analytical uses as referred to in Article 8.<br><br>The imports falling under the above exemptions shall be subject to the presentation of a valid licence to customs authorities issued by the Commission pursuant to Article 16.<br><br>According to article 15.1 of Regulation (EU) 2024/590, import of non-refillable containers for ozone-depleting substances, empty, or fully or partially filled, shall be prohibited, except for essential laboratory and analytical uses as referred to in Article 8.<br><br>Undertakings which place on the market refillable containers for ozone-depleting substances shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling. (Article 15.3 subparagraph (1) of Regulation (EU) 2024/590)."
+        },
+        {
+          "code": "CD912",
+          "text": "Each importer, undertaking or operator that imports ozone-depleting substances, products and equipment containing ozone-depleting substances listed in Annex I or whose functioning relies upon those substances shall provide to customs authorities the licensing system registration identification number and the number of the licence pursuant to Article 13(2) and Article 14(3)."
+        },
+        {
+          "code": "CD913",
+          "text": "By virtue of Article 17.3 (c) and (d), when importing goods, the following information shall be declared:<br>- net mass of ozone-depleting substance(s), also when included in products and equipment. <br>- net mass multiplied by the ODP of the ozone-depleting substance(s), also when included in products and equipment.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "L100",
+          "requirement": null,
+          "action": "Entry into free circulation allowed",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Import licence \"controlled substances\" (ozone), issued by the Commission"
+        },
+        {
+          "code": "B",
+          "sequence": 5,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y792",
+          "requirement": null,
+          "action": "Entry into free circulation allowed",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590"
+        },
+        {
+          "code": "B",
+          "sequence": 90,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "The entry into free circulation is not allowed",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "Y791",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for ozone-depleting substances to be used for essential laboratory and analytical uses (articles 8, 13.1(c) (import) and article 14.1(a) (export) of regulation (EU) 2024/590), and for products and equipment (articles 11.1 and 13.1(j) (import) and 14.1(g) (export) of regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 5,
+          "condition": "Other conditions",
+          "certificate": "Y789",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for products and equipment containing halons or whose functioning relies upon halons (see articles 13.1(h) (import) and 14.1(f) (export) of Regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 10,
+          "condition": "Other conditions",
+          "certificate": "Y790",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption from prohibition for ozone-depleting substances destined to destruction or reclamation (see articles 12, 13.1(d), 13.1(e) (import) of Regulation (EU) 2024/590), and for products and equipment (see articles 12, 13.1(i) (import) of Regulation (EU) 2024/590)"
+        },
+        {
+          "code": "Y",
+          "sequence": 15,
+          "condition": "Other conditions",
+          "certificate": "Y792",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590"
+        },
+        {
+          "code": "Y",
+          "sequence": 90,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "L100": "Import licence \"controlled substances\" (ozone), issued by the Commission",
+        "Y792": "Substances, products, equipment, other than those falling within the scope of Regulation (EU) 2024/590",
+        "Y791": "Exemption from prohibition for ozone-depleting substances to be used for essential laboratory and analytical uses (articles 8, 13.1(c) (import) and article 14.1(a) (export) of regulation (EU) 2024/590), and for products and equipment (articles 11.1 and 13.1(j) (import) and 14.1(g) (export) of regulation (EU) 2024/590)",
+        "Y789": "Exemption from prohibition for products and equipment containing halons or whose functioning relies upon halons (see articles 13.1(h) (import) and 14.1(f) (export) of Regulation (EU) 2024/590)",
+        "Y790": "Exemption from prohibition for ozone-depleting substances destined to destruction or reclamation (see articles 12, 13.1(d), 13.1(e) (import) of Regulation (EU) 2024/590), and for products and equipment (see articles 12, 13.1(i) (import) of Regulation (EU) 2024/590)",
+        "Y797": "Licensing system registration identification number as defined in Article 17.3 (a) of Regulation (EU) 2024/590",
+        "Y798": "Declaration of net mass of ozone-depleting substance(s), when included in products and equipment",
+        "Y799": "Net mass of the ozone-depleting substance multiplied by the ODP of the ozone-depleting substance(s), also when included in products and equipment"
+      }
+    }
+  ],
+  "supplementary_unit": null,
+  "other_duties": [
+    {
+      "sid": "4256837",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "kind": "low_value_consignment",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": []
+    }
+  ],
+  "source": "EU TARIC consultation",
+  "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=TR",
+  "fetched_at": "2026-10-24T21:28:59Z",
+  "cache": {
+    "hit": false,
+    "cached_at": "2026-10-24T21:28:59Z"
+  }
+}

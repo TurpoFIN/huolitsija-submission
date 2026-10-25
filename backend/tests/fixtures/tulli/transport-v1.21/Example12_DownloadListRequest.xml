@@ -1,0 +1,18 @@
+<S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header/>
+	<S:Body>
+		<ns4:DownloadListRequest xmlns:ns4="http://tulli.fi/ws/corporateservice/v1" xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://tulli.fi/ws/corporateservicetypes/v1" xmlns:ns3="http://tulli.fi/schema/corporateservice/v1">
+			<ns2:RequestHeader>
+				<ns2:IntermediaryBusinessId>FI3451020-1</ns2:IntermediaryBusinessId>
+				<ns2:Timestamp>2019-03-01T11:31:10.624+02:00</ns2:Timestamp>
+				<ns2:Language>EN</ns2:Language>
+				<ns2:IntermediarySoftwareInfo>TESB QA tester</ns2:IntermediarySoftwareInfo>
+			</ns2:RequestHeader>
+			<ns2:DownloadMessageListFilteringCriteria>
+				<ns2:StartTimestamp>2019-03-01T00:00:00.000+02:00</ns2:StartTimestamp>
+				<ns2:EndTimestamp>2019-03-01T23:59:59.000+02:00</ns2:EndTimestamp>
+				<ns2:MessageStatus>NEW</ns2:MessageStatus>
+			</ns2:DownloadMessageListFilteringCriteria>
+		</ns4:DownloadListRequest>
+	</S:Body>
+</S:Envelope>

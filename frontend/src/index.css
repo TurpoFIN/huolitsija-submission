@@ -1,0 +1,84 @@
+@import "./styles/tokens.css";
+@import "./styles/surfaces.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { border-color: var(--border-default); }
+  html { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg-canvas);
+    color: var(--text-primary);
+    font-size: var(--text-base);
+    line-height: 1.375rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 { font-weight: 400; }
+  ::selection { background-color: var(--accent-solid); color: var(--on-accent); }
+  input, textarea, select, button { font: inherit; }
+}
+
+/* ── App chrome (ported from Factory globals.css) ───────────────────────────── */
+.helios-app-stage {
+  position: relative; isolation: isolate; overflow: clip;
+  background: linear-gradient(145deg, var(--bg-subtle) 0%, var(--bg-canvas) 48%, var(--bg-muted) 100%);
+}
+.helios-app-window { --helios-app-window-border: 0.5px solid var(--border-default); background-color: var(--bg-canvas); }
+.helios-app-navbar { border-bottom: var(--helios-app-window-border); }
+@media (min-width: 48rem) {
+  .helios-app-window {
+    isolation: isolate; overflow: clip;
+    background-color: oklch(from var(--bg-surface) l c h / 0.76);
+    -webkit-backdrop-filter: blur(24px) saturate(1.18);
+    backdrop-filter: blur(24px) saturate(1.18);
+    border: var(--helios-app-window-border);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .helios-app-window { background-color: var(--bg-surface); -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media (prefers-contrast: more) {
+  .helios-app-window { --helios-app-window-border: 1px solid var(--border-strong); background-color: var(--bg-surface);
+    -webkit-backdrop-filter: none; backdrop-filter: none; border: var(--helios-app-window-border); }
+}
+.surface-raised.sidebar-nav-active { box-shadow: inset 0 0 0 0.5px var(--border-default); background-color: var(--bg-surface); }
+.sidebar-pressable { transition: color var(--duration-fast) ease, background-color var(--duration-fast) ease, transform var(--duration-fast) var(--ease-out); }
+.sidebar-pressable:active:not(:focus-visible) { transform: scale(0.98); }
+
+/* Minimal focus: one neutral hairline. Fields strengthen their own edge instead. */
+:focus-visible { outline: 1px solid oklch(from var(--ring) l c h / 0.42); outline-offset: 0px; --tw-ring-shadow: 0 0 #0000 !important; }
+.surface-input:focus-visible, [data-slot="select-trigger"]:focus-visible, [data-slot="textarea"]:focus-visible { outline: none; }
+.surface-input:focus-visible, [data-slot="textarea"]:focus-visible {
+  box-shadow: inset 0 0 0 1px oklch(from var(--ring) l c h / 0.5), inset 0 1px 1px 0 oklch(var(--shadow-color) / calc(0.04 * var(--shadow-strength-active)));
+}
+.surface-input[aria-invalid="true"], [data-slot="textarea"][aria-invalid="true"] { box-shadow: inset 0 0 0 1px var(--danger-500); }
+
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.tabular { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+/* Status pills: background + ink per workflow state (see components/app/StatusBadge). */
+.status-pending { background: var(--status-pending-bg); color: var(--status-pending-fg); }
+.status-in-progress { background: var(--status-in-progress-bg); color: var(--status-in-progress-fg); }
+.status-submitted { background: var(--status-submitted-bg); color: var(--status-submitted-fg); }
+.status-in-review { background: var(--status-in-review-bg); color: var(--status-in-review-fg); }
+.status-scheduled { background: var(--status-scheduled-bg); color: var(--status-scheduled-fg); }
+.status-flagged { background: var(--status-flagged-bg); color: var(--status-flagged-fg); }
+.status-success { background: var(--status-success-bg); color: var(--status-success-fg); }
+.status-failed { background: var(--status-failed-bg); color: var(--status-failed-fg); }
+.status-expired { background: var(--status-expired-bg); color: var(--status-expired-fg); }
+.agent-mark { background: var(--status-submitted-bg); color: var(--status-submitted-fg); }
+
+@keyframes helios-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.helios-pulse { animation: helios-pulse 1.4s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+#emergent-badge { display: none !important; }
+
+.app-header { background-color: oklch(from var(--bg-surface) l c h / 0.85); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }

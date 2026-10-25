@@ -1,0 +1,22 @@
+{
+  "isValid" : true,
+  "requestDate" : "2026-10-24T23:46:12.409Z",
+  "userError" : "VALID",
+  "name" : "Kesko Oyj",
+  "address" : "PL 1\n00016 KESKO",
+  "requestIdentifier" : "",
+  "originalVatNumber" : "01098628",
+  "vatNumber" : "01098628",
+  "viesApproximate" : {
+    "name" : "---",
+    "street" : "---",
+    "postalCode" : "---",
+    "city" : "---",
+    "companyType" : "---",
+    "matchName" : 3,
+    "matchStreet" : 3,
+    "matchPostalCode" : 3,
+    "matchCity" : 3,
+    "matchCompanyType" : 3
+  }
+}

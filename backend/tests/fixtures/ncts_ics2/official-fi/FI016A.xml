@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI016A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>4ecc76efa4d943</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYL</Type>
+    <Notification>2023-04-25T06:34:24.5416353+03:00</Notification>
+    <ContactInfo>
+      <Name>FI002000</Name>
+      <Email>passitusseuranta@tulli.fi</Email>
+      <Telephone>+358 295 5207</Telephone>
+    </ContactInfo>
+    <Error>
+      <Code>ConditionViolationGroupExcess</Code>
+      <Reason>C0337</Reason>
+      <Description>en:Rahtikuluja voi ilmoittaa vain kerran: joko  tulliselvitettävällä tai lähetyserällä.</Description>
+      <Pointer>
+        <Location>/FI015A/Consignment/Freight</Location>
+      </Pointer>
+    </Error>
+    <Error>
+      <Code>ConditionViolationGroupExcess</Code>
+      <Reason>C0337</Reason>
+      <Description>en:Rahtikuluja voi ilmoittaa vain kerran: joko  tulliselvitettävällä tai lähetyserällä.</Description>
+      <Pointer>
+        <Location>/FI015A/Consignment/HouseConsignment[1]/ConsignmentItem[1]/Freight</Location>
+      </Pointer>
+    </Error>
+  </Notification>
+</FI016A>

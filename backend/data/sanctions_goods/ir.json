@@ -1,0 +1,534 @@
+{
+ "country": "IR",
+ "act": "Council Regulation (EU) No 267/2012",
+ "legal_point": null,
+ "source": {
+  "celex": "02012R0267-20260801",
+  "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0267-20260801",
+  "cellar_url": "http://publications.europa.eu/resource/cellar/94a87dbd-90d5-11f1-9262-01aa75ed71a1.0001.03/DOC_1",
+  "fetched_at": "2026-10-24T19:34:12+00:00",
+  "valid_on": "2026-10-24",
+  "sha256": "4f2d477c43b286cc569d92e399f8ac7bcd637002ec4529cb68d7556690f3b107",
+  "bytes": 1914784
+ },
+ "annexes": {
+  "IV": {
+   "annex": "IV",
+   "title": "List of ‘crude oil and petroleum products’ referred to in Articles 11 and 31(1)",
+   "flows": [
+    "authorisation"
+   ],
+   "basis": [
+    {
+     "article": "31",
+     "paragraph": null,
+     "flows": [
+      "authorisation"
+     ],
+     "text": "Article 31 1. Branches and subsidiaries, falling within the scope of this Regulation as defined in Article 49, of credit and financial institutions domiciled in Iran shall notify the competent authority of the Member State where they are established of all transfers of funds carried out or received by them, the names of the parties and the amount and the date of the transaction, within five working days after carrying out or receiving the transfer of funds concerned. If the information is available, the notification must specify the nature of the transaction and, where appropriate, the nature of the goods covered by the transaction and must, in particular, state whether the goods are covered by Annexes I, II, IIA, III, IV, IVA, V, VI, VIA, VIB, VII, VIIA or VIIB of this Regulation and, if their export is subject to authorisation, indicate the number of the licence granted."
+    }
+   ],
+   "items": [
+    {
+     "cn": "270900",
+     "ex": false,
+     "cn_text": "2709 00",
+     "description": "Petroleum oils and oils obtained from bituminous minerals, crude.",
+     "part": null
+    },
+    {
+     "cn": "2710",
+     "ex": false,
+     "cn_text": "2710",
+     "description": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils (save that the purchase, in Iran, of kerosene jet fuel of CN code 2710 19 21 is not prohibited provided that it is intended and used solely for the purpose of the continuation of the flight operation of the aircraft into which it is loaded).",
+     "part": null
+    },
+    {
+     "cn": "2712",
+     "ex": false,
+     "cn_text": "2712",
+     "description": "Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured.",
+     "part": null
+    },
+    {
+     "cn": "2713",
+     "ex": false,
+     "cn_text": "2713",
+     "description": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals.",
+     "part": null
+    },
+    {
+     "cn": "2714",
+     "ex": false,
+     "cn_text": "2714",
+     "description": "Bitumen and asphalt, natural; bituminous or oil-shale and tar sands; asphaltites and asphaltic rocks.",
+     "part": null
+    },
+    {
+     "cn": "27150000",
+     "ex": false,
+     "cn_text": "2715 00 00",
+     "description": "Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (for example, bituminous mastics, cut-backs).",
+     "part": null
+    }
+   ]
+  },
+  "V": {
+   "annex": "V",
+   "title": "List of “petrochemical products” referred to in Article 13 and Article 31(1)",
+   "flows": [
+    "authorisation"
+   ],
+   "basis": [
+    {
+     "article": "31",
+     "paragraph": null,
+     "flows": [
+      "authorisation"
+     ],
+     "text": "Article 31 1. Branches and subsidiaries, falling within the scope of this Regulation as defined in Article 49, of credit and financial institutions domiciled in Iran shall notify the competent authority of the Member State where they are established of all transfers of funds carried out or received by them, the names of the parties and the amount and the date of the transaction, within five working days after carrying out or receiving the transfer of funds concerned. If the information is available, the notification must specify the nature of the transaction and, where appropriate, the nature of the goods covered by the transaction and must, in particular, state whether the goods are covered by Annexes I, II, IIA, III, IV, IVA, V, VI, VIA, VIB, VII, VIIA or VIIB of this Regulation and, if their export is subject to authorisation, indicate the number of the licence granted."
+    }
+   ],
+   "items": [
+    {
+     "cn": "28121100",
+     "ex": false,
+     "cn_text": "2812 11 00",
+     "description": "Phosgene (carbonyl chloride)",
+     "part": null
+    },
+    {
+     "cn": "2814",
+     "ex": false,
+     "cn_text": "2814",
+     "description": "Ammonia",
+     "part": null
+    },
+    {
+     "cn": "29012100",
+     "ex": false,
+     "cn_text": "2901 21 00",
+     "description": "Ethylene",
+     "part": null
+    },
+    {
+     "cn": "29012200",
+     "ex": false,
+     "cn_text": "2901 22 00",
+     "description": "Propene (propylene)",
+     "part": null
+    },
+    {
+     "cn": "29022000",
+     "ex": false,
+     "cn_text": "2902 20 00",
+     "description": "Benzene",
+     "part": null
+    },
+    {
+     "cn": "29023000",
+     "ex": false,
+     "cn_text": "2902 30 00",
+     "description": "Toluene",
+     "part": null
+    },
+    {
+     "cn": "29024100",
+     "ex": false,
+     "cn_text": "2902 41 00",
+     "description": "o-Xylene",
+     "part": null
+    },
+    {
+     "cn": "29024200",
+     "ex": false,
+     "cn_text": "2902 42 00",
+     "description": "m-Xylene",
+     "part": null
+    },
+    {
+     "cn": "29024300",
+     "ex": false,
+     "cn_text": "2902 43 00",
+     "description": "p-Xylene",
+     "part": null
+    },
+    {
+     "cn": "29024400",
+     "ex": false,
+     "cn_text": "2902 44 00",
+     "description": "Mixed xylene isomers",
+     "part": null
+    },
+    {
+     "cn": "29025000",
+     "ex": false,
+     "cn_text": "2902 50 00",
+     "description": "Styrene",
+     "part": null
+    },
+    {
+     "cn": "29026000",
+     "ex": false,
+     "cn_text": "2902 60 00",
+     "description": "Ethyl benzene",
+     "part": null
+    },
+    {
+     "cn": "29027000",
+     "ex": false,
+     "cn_text": "2902 70 00",
+     "description": "Cumene",
+     "part": null
+    },
+    {
+     "cn": "29031100",
+     "ex": false,
+     "cn_text": "2903 11 00",
+     "description": "Chloromethane (methyl chloride) and chloroethane (ethyl chloride)",
+     "part": null
+    },
+    {
+     "cn": "29032900",
+     "ex": false,
+     "cn_text": "2903 29 00",
+     "description": "Unsaturated chlorinated derivatives of acyclic hydrocarbons - other",
+     "part": null
+    },
+    {
+     "cn": "29038100",
+     "ex": false,
+     "cn_text": "2903 81 00",
+     "description": "1,2,3,4,5,6-Hexachlorocyclohexane (HCH (ISO)), including lindane (ISO, INN)",
+     "part": null
+    },
+    {
+     "cn": "29038200",
+     "ex": false,
+     "cn_text": "2903 82 00",
+     "description": "Aldrin (ISO), chlordane (ISO) and heptachlor (ISO)",
+     "part": null
+    },
+    {
+     "cn": "29038970",
+     "ex": false,
+     "cn_text": "2903 89 70",
+     "description": "- Halogenated derivatives of cyclanic, cyclenic or cycloterpenic hydrocarbons; -- Other; --- Other",
+     "part": null
+    },
+    {
+     "cn": "29039100",
+     "ex": false,
+     "cn_text": "2903 91 00",
+     "description": "Chlorobenzene, o-dichlorobenzene and p-dichlorobenzene",
+     "part": null
+    },
+    {
+     "cn": "29039200",
+     "ex": false,
+     "cn_text": "2903 92 00",
+     "description": "Hexachlorobenzene (ISO) and DDT (ISO) [clofenotane (DCI), 1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane]",
+     "part": null
+    },
+    {
+     "cn": "29039980",
+     "ex": false,
+     "cn_text": "2903 99 80",
+     "description": "- Halogenated derivatives of aromatic hydrocarbons; -- Other; --- Other",
+     "part": null
+    },
+    {
+     "cn": "29051100",
+     "ex": false,
+     "cn_text": "2905 11 00",
+     "description": "Methanol (methyl alcohol)",
+     "part": null
+    },
+    {
+     "cn": "29051200",
+     "ex": false,
+     "cn_text": "2905 12 00",
+     "description": "Propan-1-ol (propyl alcohol) and propan-2-ol (isopropyl alcohol)",
+     "part": null
+    },
+    {
+     "cn": "29051300",
+     "ex": false,
+     "cn_text": "2905 13 00",
+     "description": "Butan-1-ol (n-butyl alcohol)",
+     "part": null
+    },
+    {
+     "cn": "29053100",
+     "ex": false,
+     "cn_text": "2905 31 00",
+     "description": "Ethylene glycol (ethanediol)",
+     "part": null
+    },
+    {
+     "cn": "2909",
+     "ex": false,
+     "cn_text": "2909",
+     "description": "Ether-alcohols, ether-phenols, ether-alcohol-phenols, alcohol peroxides, ether peroxides, acetal and hemiacetal peroxides, ketone peroxides (whether or not chemically defined), and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+     "part": null
+    },
+    {
+     "cn": "29094100",
+     "ex": false,
+     "cn_text": "2909 41 00",
+     "description": "2, 2′-Oxydiethanol (diethylene glycol, digol)",
+     "part": null
+    },
+    {
+     "cn": "29094300",
+     "ex": false,
+     "cn_text": "2909 43 00",
+     "description": "Monobutyl ethers of ethylene-glycol or diethylene glycol",
+     "part": null
+    },
+    {
+     "cn": "29094400",
+     "ex": false,
+     "cn_text": "2909 44 00",
+     "description": "Other monoalkyl ethers of ethylene-glycol or diethylene glycol",
+     "part": null
+    },
+    {
+     "cn": "290949",
+     "ex": false,
+     "cn_text": "2909 49",
+     "description": "Other ether-alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+     "part": null
+    },
+    {
+     "cn": "29101000",
+     "ex": false,
+     "cn_text": "2910 10 00",
+     "description": "Oxirane (ethylene oxide)",
+     "part": null
+    },
+    {
+     "cn": "29102000",
+     "ex": false,
+     "cn_text": "2910 20 00",
+     "description": "Methyloxirane (propylene oxide)",
+     "part": null
+    },
+    {
+     "cn": "29141100",
+     "ex": false,
+     "cn_text": "2914 11 00",
+     "description": "Acetone",
+     "part": null
+    },
+    {
+     "cn": "29171400",
+     "ex": false,
+     "cn_text": "2917 14 00",
+     "description": "Maleic anhydride (MA)",
+     "part": null
+    },
+    {
+     "cn": "29173500",
+     "ex": false,
+     "cn_text": "2917 35 00",
+     "description": "Phthalic anhydride (PA)",
+     "part": null
+    },
+    {
+     "cn": "29173600",
+     "ex": false,
+     "cn_text": "2917 36 00",
+     "description": "Terephthalic acid and its salts",
+     "part": null
+    },
+    {
+     "cn": "29173700",
+     "ex": false,
+     "cn_text": "2917 37 00",
+     "description": "Dimethyl terephthalate (DMT)",
+     "part": null
+    },
+    {
+     "cn": "29261000",
+     "ex": false,
+     "cn_text": "2926 10 00",
+     "description": "Acrylonitrile",
+     "part": null
+    },
+    {
+     "cn": "29291000",
+     "ex": true,
+     "cn_text": "ex 2929 10 00",
+     "description": "Methylene diphenyl diisocyanate (MDI)",
+     "part": null
+    },
+    {
+     "cn": "29291000",
+     "ex": true,
+     "cn_text": "ex 2929 10 00",
+     "description": "Hexamethylene diisocyanate (HDI)",
+     "part": null
+    },
+    {
+     "cn": "29291000",
+     "ex": true,
+     "cn_text": "ex 2929 10 00",
+     "description": "Toluene diisocyanate (TDI)",
+     "part": null
+    },
+    {
+     "cn": "310230",
+     "ex": false,
+     "cn_text": "3102 30",
+     "description": "Ammonium Nitrate",
+     "part": null
+    },
+    {
+     "cn": "3901",
+     "ex": false,
+     "cn_text": "3901",
+     "description": "Polymers of ethylene, in primary forms",
+     "part": null
+    },
+    {
+     "cn": "27071000",
+     "ex": false,
+     "cn_text": "2707 10 00",
+     "description": "Benzol (benzene)",
+     "part": null
+    },
+    {
+     "cn": "27072000",
+     "ex": false,
+     "cn_text": "2707 20 00",
+     "description": "Toluol (toluene)",
+     "part": null
+    },
+    {
+     "cn": "27073000",
+     "ex": false,
+     "cn_text": "2707 30 00",
+     "description": "Xylol (xylenes)",
+     "part": null
+    },
+    {
+     "cn": "27074000",
+     "ex": false,
+     "cn_text": "2707 40 00",
+     "description": "Naphthalene",
+     "part": null
+    },
+    {
+     "cn": "27079980",
+     "ex": false,
+     "cn_text": "2707 99 80",
+     "description": "Phenols",
+     "part": null
+    },
+    {
+     "cn": "27111400",
+     "ex": false,
+     "cn_text": "2711 14 00",
+     "description": "Ethylene, propylene, butadiene",
+     "part": null
+    }
+   ]
+  },
+  "VII": {
+   "annex": "VII",
+   "title": "List of gold, precious metals and diamonds referred to in Articles 15 and 31(1)",
+   "flows": [
+    "authorisation",
+    "export",
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "10d",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 10d 1. It shall be prohibited to sell, supply, transfer or export software as listed in Annex VIIA, directly or indirectly, to any Iranian person, entity or body, or for use in Iran."
+    },
+    {
+     "article": "15",
+     "paragraph": null,
+     "flows": [
+      "export",
+      "import"
+     ],
+     "text": "Article 15 1. It shall be prohibited: (a) to sell, supply, transfer or export, directly or indirectly, gold, precious metals and diamonds, as listed in Annex VII, whether or not originating in the Union, to the Government of Iran, its public bodies, corporations and agencies, any person, entity or body acting on their behalf or at their direction, or any entity or body owned or controlled by them; (b) to purchase, import or transport, directly or indirectly, gold, precious metals and diamonds, as listed in Annex VII, whether the item concerned originates in Iran or not, from the Government of Iran, its public bodies, corporations and agencies and any person, entity or body acting on their behalf or at their direction, or any entity or body owned or controlled by them; and (c) to provide, directly or indirectly, technical assistance or brokering services, financing or financial assistance"
+    },
+    {
+     "article": "15a",
+     "paragraph": null,
+     "flows": [
+      "export"
+     ],
+     "text": "Article 15a 1. It shall be prohibited to sell, supply, transfer or export graphite and raw or semi-finished metals as listed in Annex VIIB, directly or indirectly, to any Iranian person, entity or body, or for use in Iran."
+    },
+    {
+     "article": "31",
+     "paragraph": null,
+     "flows": [
+      "authorisation"
+     ],
+     "text": "Article 31 1. Branches and subsidiaries, falling within the scope of this Regulation as defined in Article 49, of credit and financial institutions domiciled in Iran shall notify the competent authority of the Member State where they are established of all transfers of funds carried out or received by them, the names of the parties and the amount and the date of the transaction, within five working days after carrying out or receiving the transfer of funds concerned. If the information is available, the notification must specify the nature of the transaction and, where appropriate, the nature of the goods covered by the transaction and must, in particular, state whether the goods are covered by Annexes I, II, IIA, III, IV, IVA, V, VI, VIA, VIB, VII, VIIA or VIIB of this Regulation and, if their export is subject to authorisation, indicate the number of the licence granted."
+    }
+   ],
+   "items": [
+    {
+     "cn": "7102",
+     "ex": false,
+     "cn_text": "7102",
+     "description": "Diamonds, whether or not worked, but not mounted or set",
+     "part": null
+    },
+    {
+     "cn": "7106",
+     "ex": false,
+     "cn_text": "7106",
+     "description": "Silver (including silver plated with gold or platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": null
+    },
+    {
+     "cn": "7108",
+     "ex": false,
+     "cn_text": "7108",
+     "description": "Gold (including gold plated with platinum), unwrought or in semi-manufactured forms, or in powder form",
+     "part": null
+    },
+    {
+     "cn": "7109",
+     "ex": false,
+     "cn_text": "7109",
+     "description": "Base metals or silver, clad with gold, not further worked than semi-manufactured.",
+     "part": null
+    },
+    {
+     "cn": "7110",
+     "ex": false,
+     "cn_text": "7110",
+     "description": "Platinum, unwrought or in semi-manufactured forms, or in powder form",
+     "part": null
+    },
+    {
+     "cn": "7111",
+     "ex": false,
+     "cn_text": "7111",
+     "description": "Base metals, silver or gold, clad with platinum, not further worked than semi-manufactured.",
+     "part": null
+    },
+    {
+     "cn": "7112",
+     "ex": false,
+     "cn_text": "7112",
+     "description": "Waste and scrap of precious metal or of metal clad with precious metal; other waste and scrap containing precious metal or precious-metal compounds, of a kind used principally for the recovery of precious metal",
+     "part": null
+    }
+   ]
+  }
+ }
+}

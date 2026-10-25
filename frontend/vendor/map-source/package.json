@@ -1,0 +1,55 @@
+{
+  "name": "@huolitsija/shipment-map",
+  "version": "1.1.2-ci.1",
+  "private": true,
+  "description": "3D live shipment map (globe) for the Huolitsija customer portal and ops console.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/huolitsija-shipment-map.js",
+  "module": "./dist/huolitsija-shipment-map.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/huolitsija-shipment-map.js",
+      "default": "./dist/huolitsija-shipment-map.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "sideEffects": [
+    "**/*.css",
+    "./src/bundle.ts"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build:lib": "vite build -c vite.lib.config.ts && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "react": ">=18.2",
+    "react-dom": ">=18.2"
+  },
+  "devDependencies": {
+    "@deck.gl/core": "9.4",
+    "@deck.gl/extensions": "9.4",
+    "@deck.gl/layers": "9.4",
+    "@deck.gl/mapbox": "9.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "axe-core": "^4.14.0",
+    "ffmpeg-static": "^5.3.0",
+    "lucide-react": "^1.61.0",
+    "maplibre-gl": "^5.24.0",
+    "playwright-core": "^1.64.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

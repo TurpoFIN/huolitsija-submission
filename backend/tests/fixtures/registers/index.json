@@ -1,0 +1,104 @@
+{
+ "GET https://avoindata.prh.fi/opendata-xbrl-api/v3/financial?businessId=0291577-3&financialDate=2025-07-31": {
+  "content_type": "text/xml",
+  "file": "03b2a237ba4ca4aff58d.xml",
+  "recorded_at": "2026-10-24T23:35:07Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-xbrl-api/v3/financials?businessId=0109862-8": {
+  "content_type": "application/json",
+  "file": "ef584649821d1e5da833.json",
+  "recorded_at": "2026-10-24T23:48:10Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-xbrl-api/v3/financials?businessId=0291577-3": {
+  "content_type": "application/json",
+  "file": "a87a9d1787e0aaf13a20.json",
+  "recorded_at": "2026-10-24T23:35:06Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-xbrl-api/v3/financials?businessId=0502119-3": {
+  "content_type": "application/json",
+  "file": "46eb4dbe082b2422031e.json",
+  "recorded_at": "2026-10-24T23:48:00Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-xbrl-api/v3/financials?businessId=3596623-5": {
+  "content_type": "application/json",
+  "file": "c194563c193f9dff3df2.json",
+  "recorded_at": "2026-10-24T23:42:54Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=0109862-8": {
+  "content_type": "application/json",
+  "file": "a7dadab04a96911bd208.json",
+  "recorded_at": "2026-10-24T23:48:09Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=0502119-3": {
+  "content_type": "application/json",
+  "file": "9af26a524976d6c4c5dd.json",
+  "recorded_at": "2026-10-24T23:47:59Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=1071207-9": {
+  "content_type": "application/json",
+  "file": "8cf1d01aacc9b5c834d3.json",
+  "recorded_at": "2026-10-24T23:46:01Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3596623-5": {
+  "content_type": "application/json",
+  "file": "3631fb7deebced549512.json",
+  "recorded_at": "2026-10-24T23:43:29Z",
+  "status": 200
+ },
+ "GET https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3990001-4": {
+  "content_type": "application/json",
+  "file": "0c3d0e440fc96d1b0682.json",
+  "recorded_at": "2026-10-24T23:46:18Z",
+  "status": 200
+ },
+ "GET https://ec.europa.eu/taxation_customs/vies/rest-api/ms/FI/vat/01098628": {
+  "content_type": "application/json",
+  "file": "def998048cfc9fe2d13b.json",
+  "recorded_at": "2026-10-24T23:46:12Z",
+  "status": 200
+ },
+ "GET https://ec.europa.eu/taxation_customs/vies/rest-api/ms/FI/vat/10712079": {
+  "content_type": "application/json",
+  "file": "7c809fe230b9afcd22aa.json",
+  "recorded_at": "2026-10-24T23:45:52Z",
+  "status": 200
+ },
+ "GET https://ec.europa.eu/taxation_customs/vies/rest-api/ms/FI/vat/12345671": {
+  "content_type": "application/json",
+  "file": "bc58189c684ad41ff739.json",
+  "recorded_at": "2026-10-24T23:43:28Z",
+  "status": 200
+ },
+ "GET https://ec.europa.eu/taxation_customs/vies/rest-api/ms/FI/vat/35966235": {
+  "content_type": "application/json",
+  "file": "caaee11f1c907ab7c18f.json",
+  "recorded_at": "2026-10-24T23:43:27Z",
+  "status": 200
+ },
+ "POST https://ec.europa.eu/taxation_customs/dds2/eos/validation/services/validation #21914aba0fdcaf47": {
+  "content_type": "text/xml; charset=utf-8",
+  "file": "7b8ccb9e6c58f1633048.xml",
+  "recorded_at": "2026-10-24T23:43:27Z",
+  "status": 200
+ },
+ "POST https://ec.europa.eu/taxation_customs/dds2/eos/validation/services/validation #2341cac92fffb44a": {
+  "content_type": "text/xml; charset=utf-8",
+  "file": "1975beff930aca2df871.xml",
+  "recorded_at": "2026-10-24T23:45:53Z",
+  "status": 200
+ },
+ "POST https://ec.europa.eu/taxation_customs/dds2/eos/validation/services/validation #a8133979a7f81a4b": {
+  "content_type": "text/xml; charset=utf-8",
+  "file": "f8d51236176c06c8084c.xml",
+  "recorded_at": "2026-10-24T23:46:12Z",
+  "status": 200
+ }
+}

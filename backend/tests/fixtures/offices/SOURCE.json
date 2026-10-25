@@ -1,0 +1,11 @@
+{
+  "source": "EU COL (DG TAXUD CS/RD2)",
+  "source_url": "https://ec.europa.eu/taxation_customs/dds2/rd/compressed_file/data_download/COL-Generic-20261024.zip",
+  "source_date": "2026-10-24",
+  "fetched_at": "2026-10-24T21:58:46.492125+00:00",
+  "sha256": "4c17d41a29581c54c7e186744cba4afe4ccf845ea846be0ec4452548bd62cc32",
+  "office_count": 4275,
+  "download_page": "https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en",
+  "download_page_sha256": "15f564d8a585d150734eda36314512aeedfd872526b6a671259fdce25b47c4c4",
+  "archive_file": "COL-Generic.zip"
+}

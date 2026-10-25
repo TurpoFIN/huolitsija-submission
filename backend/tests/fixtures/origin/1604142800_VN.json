@@ -1,0 +1,1446 @@
+{
+  "goods_code": "1604142800",
+  "country": "VN",
+  "flow": "import",
+  "date": "2026-10-24",
+  "declarable": true,
+  "subcodes": [
+    "1604142800"
+  ],
+  "subcode_summaries": [],
+  "known_code": true,
+  "measures": [
+    {
+      "sid": "3886520",
+      "goods_code": "1604142800",
+      "flow": "import",
+      "type": "Import control of organic products",
+      "type_code": "750",
+      "type_code_candidates": [
+        "750"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        }
+      ],
+      "start": "2022-01-01",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2306/21",
+      "regulation_id": "R2123060",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD808",
+          "text": "If goods bear a reference to organic production in the labelling, advertising material or accompanying documents of products, the declarant must submit a certificate of inspection (C644) at import in accordance with Article 45(1) of Regulation (EU) 2018/848 (release for free circulation). For products not covered by Regulation (EU) 2018/848, certificate Y929 has to be declared.<br>These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C644",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Certificate of inspection for organic products"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y929",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C644": "Certificate of inspection for organic products",
+        "Y929": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886520&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "3403150",
+      "goods_code": "1604142800",
+      "flow": "import",
+      "type": "Third country duty",
+      "type_code": "103",
+      "type_code_candidates": [
+        "103"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2015-01-01",
+      "end": null,
+      "duty_expression": "24.00 %",
+      "duty": {
+        "raw": "24.00 %",
+        "kind": "ad_valorem",
+        "pct": 24.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 24.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1101/14",
+      "regulation_id": "R1411010",
+      "regulation_role": "4",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "third_country"
+    },
+    {
+      "sid": "4259280",
+      "goods_code": "1604142800",
+      "flow": "import",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "regulation_id": "R2603820",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "low_value_consignment"
+    },
+    {
+      "sid": "4076949",
+      "goods_code": "1604142800",
+      "flow": "import",
+      "type": "Veterinary control",
+      "type_code": "410",
+      "type_code_candidates": [
+        "410"
+      ],
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "AD",
+          "name": "Andorra"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "FO",
+          "name": "Faroe Islands"
+        },
+        {
+          "code": "GL",
+          "name": "Greenland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        },
+        {
+          "code": "SM",
+          "name": "San Marino"
+        }
+      ],
+      "start": "2024-08-01",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0632/21",
+      "regulation_id": "R2106320",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD624",
+          "text": "The import of the products of animal origin is subject to the presentation of a Common Health Entry Document for products of animal origin (CHED\u2013P) in accordance with the conditions laid down in article 40 of the Commission Implementing Regulation (EU) 2019/1715 of 30 September 2019 laying down rules for the functioning of the information management system for official controls and its system components (\u2018the IMSOC Regulation\u2019)."
+        },
+        {
+          "code": "CD626",
+          "text": "Import of the products of animal origin can derogate from the controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "CD686",
+          "text": "Small consignments of goods (sent to natural persons which are not intended to be placed on the market) or goods, which form part of passengers\u2019 personal luggage (intended for personal consumption or use) shall not be subjected to Official controls, by virtue of Articles 10 and 7 of Commission delegated regulation 2019/2122."
+        },
+        {
+          "code": "CD737",
+          "text": "Articles 3 and 4 of the Commission Delegated Regulation (EU) 2019/2122 establishes that some \u201canimals intended for scientific purposes\u201d and all the \u201cresearch and diagnostic samples\u201d, if authorised by the competent authority of the Member State of destination, shall be exempted from official controls at border control posts."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "N853",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
+        },
+        {
+          "code": "B",
+          "sequence": 10,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y058",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Article 7 of Commission Delegated Regulation 2019/2122 (Goods which form part of passengers' personal luggage and are intended for personal consumption or use) or Article 10 (small consignments of goods sent to natural persons which are not intended to be placed on the market) of Commission Delegated Regulation 2019/2122"
+        },
+        {
+          "code": "B",
+          "sequence": 70,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y170",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Andorra, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 71,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y171",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 72,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y172",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 73,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y173",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Greenland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 74,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y174",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Iceland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 75,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y175",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 76,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y176",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Norway, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 77,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y177",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from San Marino, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 84,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y931",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "B",
+          "sequence": 88,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C084",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+        },
+        {
+          "code": "B",
+          "sequence": 90,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "E",
+          "sequence": 1,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "N853",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
+        },
+        {
+          "code": "E",
+          "sequence": 10,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": null,
+          "requirement": "20.00kg",
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "E",
+          "sequence": 70,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y170",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Andorra, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 71,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y171",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 72,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y172",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 73,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y173",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Greenland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 74,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y174",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Iceland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 75,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y175",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 76,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y176",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Norway, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 77,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y177",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from San Marino, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 84,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y931",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "E",
+          "sequence": 88,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "C084",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+        },
+        {
+          "code": "E",
+          "sequence": 90,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "N853": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
+        "Y058": "Exemption by virtue of Article 7 of Commission Delegated Regulation 2019/2122 (Goods which form part of passengers' personal luggage and are intended for personal consumption or use) or Article 10 (small consignments of goods sent to natural persons which are not intended to be placed on the market) of Commission Delegated Regulation 2019/2122",
+        "Y170": "Goods with third country origin coming from Andorra, according to the relevant EU legislation.",
+        "Y171": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation.",
+        "Y172": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation.",
+        "Y173": "Goods with third country origin coming from Greenland, according to the relevant EU legislation.",
+        "Y174": "Goods with third country origin coming from Iceland, according to the relevant EU legislation.",
+        "Y175": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation.",
+        "Y176": "Goods with third country origin coming from Norway, according to the relevant EU legislation.",
+        "Y177": "Goods with third country origin coming from San Marino, according to the relevant EU legislation.",
+        "Y931": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630",
+        "C084": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4076949&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "4204303",
+      "goods_code": "1604142800",
+      "flow": "import",
+      "type": "Preferential tariff quota",
+      "type_code": "143",
+      "type_code_candidates": [
+        "143"
+      ],
+      "geo_code": "VN",
+      "geo_name": "Viet Nam",
+      "geo_group": false,
+      "excluded": [],
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "098204",
+      "regulation": "R1024/20",
+      "regulation_id": "R2010240",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "quota"
+    },
+    {
+      "sid": "4228701",
+      "goods_code": "1604142800",
+      "flow": "both",
+      "type": "Control on illegal, unreported and unregulated fishing",
+      "type_code": "719",
+      "type_code_candidates": [
+        "719"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "CM",
+          "name": "Cameroon"
+        },
+        {
+          "code": "KH",
+          "name": "Cambodia"
+        },
+        {
+          "code": "KM",
+          "name": "Comoros (excluding Mayotte)"
+        },
+        {
+          "code": "TT",
+          "name": "Trinidad and Tobago"
+        },
+        {
+          "code": "VC",
+          "name": "St Vincent and the Grenadines"
+        }
+      ],
+      "start": "2026-01-10",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1005/08",
+      "regulation_id": "R0810050",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD590",
+          "text": "Fishery products, with the exception of - aquaculture products obtained from fry and larvae;<br>- live ornamental fish, crustaceans, molluscs and other aquatic invertebrates;<br>- freshwater fish, crustaceans, molluscs and other aquatic invertebrates;<br>- oysters, scallops, mussels, clams, cockles and ark shells, jellyfish;<br>- livers, roes, milt, fish fins (with exception to fins of fish of the class Chondrichthyes), heads, tails, maws and other edible fish offal;<br>- snails, other than sea snails; <br>- caviar substitutes <br>shall be imported into the Union only upon submission of the valid IM-importer declaration from the CATCH as foreseen in Box 11 of the Catch certificate<br>shall,  where appropriate,  be exported from the Union upon submission of the valid Catch Certificate/Simplified Catch Certificate/Re-export Certificate from the CATCH  or in paper document<br>as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC)1010/2009. <br>The detailed list of fishery products excluded from these requirements is provided by Commission Implementing Regulation (EU) 2022/1479."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "C673",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Importer Declaration or Re-export Certificate, as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC) 1010/2009"
+        },
+        {
+          "code": "Y",
+          "sequence": 2,
+          "condition": "Other conditions",
+          "certificate": "Y927",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "The declared goods are not concerned by Council Regulation (EC) No. 1005/2008"
+        },
+        {
+          "code": "Y",
+          "sequence": 3,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C673": "Importer Declaration or Re-export Certificate, as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC) 1010/2009",
+        "Y927": "The declared goods are not concerned by Council Regulation (EC) No. 1005/2008"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4228701&Lang=en",
+      "kind": "restriction"
+    }
+  ],
+  "third_country_duty": {
+    "duty_expression": "24.00 %",
+    "duty": {
+      "raw": "24.00 %",
+      "kind": "ad_valorem",
+      "pct": 24.0,
+      "amount": null,
+      "currency": null,
+      "unit": null,
+      "min": null,
+      "max": null,
+      "components": [
+        {
+          "type": "pct",
+          "pct": 24.0
+        }
+      ],
+      "agri_codes": []
+    },
+    "type_code": "103",
+    "regulation": "R1101/14",
+    "start": "2015-01-01",
+    "end": null
+  },
+  "preferences": [
+    {
+      "sid": "4204303",
+      "type": "Preferential tariff quota",
+      "type_code": "143",
+      "type_code_candidates": [
+        "143"
+      ],
+      "kind": "quota",
+      "geo_code": "VN",
+      "geo_name": "Viet Nam",
+      "excluded": [],
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "098204",
+      "regulation": "R1024/20",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": []
+    }
+  ],
+  "trade_defence": [],
+  "restrictions": [
+    {
+      "sid": "3886520",
+      "type": "Import control of organic products",
+      "type_code": "750",
+      "type_code_candidates": [
+        "750"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        }
+      ],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2306/21",
+      "start": "2022-01-01",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD808",
+          "text": "If goods bear a reference to organic production in the labelling, advertising material or accompanying documents of products, the declarant must submit a certificate of inspection (C644) at import in accordance with Article 45(1) of Regulation (EU) 2018/848 (release for free circulation). For products not covered by Regulation (EU) 2018/848, certificate Y929 has to be declared.<br>These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C644",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Certificate of inspection for organic products"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y929",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C644": "Certificate of inspection for organic products",
+        "Y929": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+      }
+    },
+    {
+      "sid": "4076949",
+      "type": "Veterinary control",
+      "type_code": "410",
+      "type_code_candidates": [
+        "410"
+      ],
+      "kind": "restriction",
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "excluded": [
+        {
+          "code": "AD",
+          "name": "Andorra"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "FO",
+          "name": "Faroe Islands"
+        },
+        {
+          "code": "GL",
+          "name": "Greenland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        },
+        {
+          "code": "SM",
+          "name": "San Marino"
+        }
+      ],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0632/21",
+      "start": "2024-08-01",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD624",
+          "text": "The import of the products of animal origin is subject to the presentation of a Common Health Entry Document for products of animal origin (CHED\u2013P) in accordance with the conditions laid down in article 40 of the Commission Implementing Regulation (EU) 2019/1715 of 30 September 2019 laying down rules for the functioning of the information management system for official controls and its system components (\u2018the IMSOC Regulation\u2019)."
+        },
+        {
+          "code": "CD626",
+          "text": "Import of the products of animal origin can derogate from the controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "CD686",
+          "text": "Small consignments of goods (sent to natural persons which are not intended to be placed on the market) or goods, which form part of passengers\u2019 personal luggage (intended for personal consumption or use) shall not be subjected to Official controls, by virtue of Articles 10 and 7 of Commission delegated regulation 2019/2122."
+        },
+        {
+          "code": "CD737",
+          "text": "Articles 3 and 4 of the Commission Delegated Regulation (EU) 2019/2122 establishes that some \u201canimals intended for scientific purposes\u201d and all the \u201cresearch and diagnostic samples\u201d, if authorised by the competent authority of the Member State of destination, shall be exempted from official controls at border control posts."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "N853",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
+        },
+        {
+          "code": "B",
+          "sequence": 10,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y058",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Article 7 of Commission Delegated Regulation 2019/2122 (Goods which form part of passengers' personal luggage and are intended for personal consumption or use) or Article 10 (small consignments of goods sent to natural persons which are not intended to be placed on the market) of Commission Delegated Regulation 2019/2122"
+        },
+        {
+          "code": "B",
+          "sequence": 70,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y170",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Andorra, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 71,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y171",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 72,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y172",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 73,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y173",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Greenland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 74,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y174",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Iceland, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 75,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y175",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 76,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y176",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Norway, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 77,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y177",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from San Marino, according to the relevant EU legislation."
+        },
+        {
+          "code": "B",
+          "sequence": 84,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y931",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "B",
+          "sequence": 88,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C084",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+        },
+        {
+          "code": "B",
+          "sequence": 90,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "E",
+          "sequence": 1,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "N853",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
+        },
+        {
+          "code": "E",
+          "sequence": 10,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": null,
+          "requirement": "20.00kg",
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        },
+        {
+          "code": "E",
+          "sequence": 70,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y170",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Andorra, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 71,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y171",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 72,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y172",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 73,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y173",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Greenland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 74,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y174",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Iceland, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 75,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y175",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 76,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y176",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from Norway, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 77,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y177",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods with third country origin coming from San Marino, according to the relevant EU legislation."
+        },
+        {
+          "code": "E",
+          "sequence": 84,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "Y931",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+        },
+        {
+          "code": "E",
+          "sequence": 88,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": "C084",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+        },
+        {
+          "code": "E",
+          "sequence": 90,
+          "condition": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "N853": "Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
+        "Y058": "Exemption by virtue of Article 7 of Commission Delegated Regulation 2019/2122 (Goods which form part of passengers' personal luggage and are intended for personal consumption or use) or Article 10 (small consignments of goods sent to natural persons which are not intended to be placed on the market) of Commission Delegated Regulation 2019/2122",
+        "Y170": "Goods with third country origin coming from Andorra, according to the relevant EU legislation.",
+        "Y171": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation.",
+        "Y172": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation.",
+        "Y173": "Goods with third country origin coming from Greenland, according to the relevant EU legislation.",
+        "Y174": "Goods with third country origin coming from Iceland, according to the relevant EU legislation.",
+        "Y175": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation.",
+        "Y176": "Goods with third country origin coming from Norway, according to the relevant EU legislation.",
+        "Y177": "Goods with third country origin coming from San Marino, according to the relevant EU legislation.",
+        "Y931": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630",
+        "C084": "Exemption by virtue of Articles 3 and 4 of regulation 2019/2122 (animals intended for scientific purposes, research and diagnostic samples, and samples for product analysis and quality testing)."
+      }
+    },
+    {
+      "sid": "4228701",
+      "type": "Control on illegal, unreported and unregulated fishing",
+      "type_code": "719",
+      "type_code_candidates": [
+        "719"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [
+        {
+          "code": "CM",
+          "name": "Cameroon"
+        },
+        {
+          "code": "KH",
+          "name": "Cambodia"
+        },
+        {
+          "code": "KM",
+          "name": "Comoros (excluding Mayotte)"
+        },
+        {
+          "code": "TT",
+          "name": "Trinidad and Tobago"
+        },
+        {
+          "code": "VC",
+          "name": "St Vincent and the Grenadines"
+        }
+      ],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1005/08",
+      "start": "2026-01-10",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD590",
+          "text": "Fishery products, with the exception of - aquaculture products obtained from fry and larvae;<br>- live ornamental fish, crustaceans, molluscs and other aquatic invertebrates;<br>- freshwater fish, crustaceans, molluscs and other aquatic invertebrates;<br>- oysters, scallops, mussels, clams, cockles and ark shells, jellyfish;<br>- livers, roes, milt, fish fins (with exception to fins of fish of the class Chondrichthyes), heads, tails, maws and other edible fish offal;<br>- snails, other than sea snails; <br>- caviar substitutes <br>shall be imported into the Union only upon submission of the valid IM-importer declaration from the CATCH as foreseen in Box 11 of the Catch certificate<br>shall,  where appropriate,  be exported from the Union upon submission of the valid Catch Certificate/Simplified Catch Certificate/Re-export Certificate from the CATCH  or in paper document<br>as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC)1010/2009. <br>The detailed list of fishery products excluded from these requirements is provided by Commission Implementing Regulation (EU) 2022/1479."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "Y",
+          "sequence": 1,
+          "condition": "Other conditions",
+          "certificate": "C673",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Importer Declaration or Re-export Certificate, as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC) 1010/2009"
+        },
+        {
+          "code": "Y",
+          "sequence": 2,
+          "condition": "Other conditions",
+          "certificate": "Y927",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "The declared goods are not concerned by Council Regulation (EC) No. 1005/2008"
+        },
+        {
+          "code": "Y",
+          "sequence": 3,
+          "condition": "Other conditions",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C673": "Importer Declaration or Re-export Certificate, as foreseen in Annex II of Regulation (EC) 1005/2008 or Annex IV of Regulation (EC) 1010/2009",
+        "Y927": "The declared goods are not concerned by Council Regulation (EC) No. 1005/2008"
+      }
+    }
+  ],
+  "supplementary_unit": null,
+  "other_duties": [
+    {
+      "sid": "4259280",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "kind": "low_value_consignment",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": []
+    }
+  ],
+  "source": "EU TARIC consultation",
+  "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=1604142800&Expand=true&Area=VN",
+  "fetched_at": "2026-10-24T21:29:24Z",
+  "cache": {
+    "hit": false,
+    "cached_at": "2026-10-24T21:29:24Z"
+  }
+}

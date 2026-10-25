@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.nfs*
+demo/
+tests/
+tools/
+vite.config.ts

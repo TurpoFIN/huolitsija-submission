@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI529A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>e723471b61b146</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="AdditionalLRN">Viite</FunctionalReference>
+  <FunctionalReference function="MRN">24FIV43000004507B4</FunctionalReference>
+  <Type function="DeclarationType">EX</Type>
+  <Type function="AdditionalDeclarationType">A</Type>
+  <Invoice CurrencyUnit="EUR">4700</Invoice>
+  <Security>2</Security>
+  <Language>fi</Language>
+  <Notification>
+    <Type>LUO</Type>
+    <Notification>2024-03-18T10:13:31.2703552+02:00</Notification>
+    <Decision>
+      <Decision>2024-03-18T10:13:31.2703552+02:00</Decision>
+    </Decision>
+  </Notification>
+  <Agent>
+    <Function>2</Function>
+    <Identification>FI7007036-2</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+    <Name>Oija &amp; Niisa Testifirma OY</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Mannerheimintie 55 B 25</Line>
+      <CityName>HELSINKI</CityName>
+      <Postcode>00250</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Agent>
+  <Declarant>
+    <Identification>FI6619510-3</Identification>
+    <AdditionalIdentifier>
+      <Identification>001</Identification>
+    </AdditionalIdentifier>
+    <Name>UTU CW Company 1</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Härkätie 2</Line>
+      <CityName>Härkälä</CityName>
+      <Postcode>22222</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Declarant>
+  <Exporter>
+    <Identification>FI6619510-3</Identification>
+    <AdditionalIdentifier>
+      <Identification>001</Identification>
+    </AdditionalIdentifier>
+    <Name>UTU CW Company 1</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Härkätie 2</Line>
+      <CityName>Härkälä</CityName>
+      <Postcode>22222</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Exporter>
+  <Submitter>
+    <Name>Tiina Tullaaja</Name>
+    <Communication>
+      <Identification>tiina@tullaus.foo</Identification>
+      <Type>EM</Type>
+    </Communication>
+    <Communication>
+      <Identification>040123456</Identification>
+      <Type>TE</Type>
+    </Communication>
+  </Submitter>
+  <AdditionalInformation>
+    <Sequence>1</Sequence>
+    <Statement>FIPDF</Statement>
+  </AdditionalInformation>
+  <GoodsShipment>
+    <TransactionNature>11</TransactionNature>
+    <Destination>
+      <Country>US</Country>
+    </Destination>
+    <ExportCountry>
+      <Country>FI</Country>
+    </ExportCountry>
+    <Consignment>
+      <BorderTransportMode>4</BorderTransportMode>
+      <Container>0</Container>
+      <InlandTransportMode>3</InlandTransportMode>
+      <Consignee>
+        <Name>Key Management LTD</Name>
+        <Address>
+          <Line>Wallstreet 14 326</Line>
+          <CityName>New York, NY</CityName>
+          <Postcode>11341</Postcode>
+          <Country>US</Country>
+        </Address>
+      </Consignee>
+      <BorderTransportMeans>
+        <Identification>LH423/12.05.2023</Identification>
+        <IdentificationType>40</IdentificationType>
+        <Nationality>FI</Nationality>
+      </BorderTransportMeans>
+      <DepartureTransportMeans>
+        <Sequence>1</Sequence>
+        <Identification>AK-123/PUT-56</Identification>
+        <IdentificationType>30</IdentificationType>
+        <Nationality>FI</Nationality>
+      </DepartureTransportMeans>
+      <Freight>
+        <PaymentMethod>A</PaymentMethod>
+      </Freight>
+      <GoodsLocation>
+        <Type>D</Type>
+        <Address>
+          <Line>Kauppakatu 4</Line>
+          <CityName>Jyväskylä</CityName>
+          <Postcode>00211</Postcode>
+          <Country>FI</Country>
+        </Address>
+        <Contact>
+          <Name>Tiina Tullaaja</Name>
+          <Communication>
+            <Identification>tiina@tullaus.foo</Identification>
+            <Type>EM</Type>
+          </Communication>
+          <Communication>
+            <Identification>0458637492</Identification>
+            <Type>TE</Type>
+          </Communication>
+        </Contact>
+      </GoodsLocation>
+    </Consignment>
+    <TradeTerms>
+      <Condition>DDU</Condition>
+      <LocationName>New York</LocationName>
+      <Country>US</Country>
+    </TradeTerms>
+    <GovernmentAgencyGoodsItem>
+      <Sequence>1</Sequence>
+      <StatisticalValue>6788.96</StatisticalValue>
+      <Commodity>
+        <Description>Sylinterilukot</Description>
+        <Classification>
+          <Identification>830140</Identification>
+          <IdentificationType>HS</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>11</Identification>
+          <IdentificationType>CN</IdentificationType>
+        </Classification>
+      </Commodity>
+      <GoodsMeasure>
+        <GrossMass>850</GrossMass>
+        <NetNetMass>800</NetNetMass>
+      </GoodsMeasure>
+      <GovernmentProcedure>
+        <Current>10</Current>
+        <Previous>00</Previous>
+        <AdditionalProcedure>
+          <Sequence>1</Sequence>
+          <Procedure>999</Procedure>
+        </AdditionalProcedure>
+      </GovernmentProcedure>
+      <Packaging>
+        <Sequence>1</Sequence>
+        <MarksNumbers>1-32 KeyManagement</MarksNumbers>
+        <Quantity>32</Quantity>
+        <Type>CR</Type>
+      </Packaging>
+      <AdditionalDocument function="SupportingDocument">
+        <Sequence>1</Sequence>
+        <Type>N380</Type>
+        <Identification>12345</Identification>
+      </AdditionalDocument>
+      <AdditionalDocument function="SupportingDocument">
+        <Sequence>2</Sequence>
+        <Type>2270</Type>
+        <Identification>20122006</Identification>
+        <Expiration>2023-01-02+02:00</Expiration>
+      </AdditionalDocument>
+    </GovernmentAgencyGoodsItem>
+  </GoodsShipment>
+  <ExitOffice>
+    <Identification>FI261000</Identification>
+  </ExitOffice>
+  <ExportOffice>
+    <Identification>FI002002</Identification>
+  </ExportOffice>
+</FI529A>

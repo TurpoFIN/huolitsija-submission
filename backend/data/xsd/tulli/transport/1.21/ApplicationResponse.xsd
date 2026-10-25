@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: ApplicationResponse.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+	xmlns:mess="http://tulli.fi/schema/corporateservice/v1" 
+	xmlns:resp="http://tulli.fi/schema/corporateservice/appl/v1" 
+	targetNamespace="http://tulli.fi/schema/corporateservice/appl/v1" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="v1_21">
+	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsig-core-schema.xsd"/>
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<!--===== Root Element =====-->
+	<xs:element name="ApplicationResponse" type="resp:ApplicationResponseType"/>
+	<xs:complexType name="ApplicationResponseType">
+		<xs:annotation>
+			<xs:documentation>Use for transmitting (response) data. Can be XML Digital Signed</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DeclarantBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the party who is declarant.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Timestamp" type="xs:dateTime"/>
+			<xs:element name="Application">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="16"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ControlReference" type="mess:Reference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>An identifier originally given by the customer (Message Builder) to identify this particular interchange.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageStorageId" type="mess:MessageStorageId"/>
+			<xs:element name="ApplicationResponseContent" type="mess:ApplicationContent" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The actual response message from Customs application and information for it.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachmentOfApplicationResponseContent" type="mess:ApplicationContent" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>A file attachment that is related to the response content.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="ds:Signature" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

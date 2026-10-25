@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FI007A 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1" xsi:schemaLocation="http://tulli.fi/schema/external/transit/ext/v1 FI007A.xsd">
+  <Identification>d16bb6aeedaf42</Identification>
+  <FunctionalReference function="MRN">25FIP41000025406J4</FunctionalReference>
+  <Language>fi</Language>
+  <Issue>2025-05-12T13:15:18</Issue>
+  <SealCondition>1</SealCondition>
+  <DestinationTrader>
+    <Identification>FI7000288-8</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+  </DestinationTrader>
+  <Submitter>
+    <Name>Teppo Tullaaja</Name>
+    <Communication>
+      <Identification>teppo.tullaaja@yritys.fi</Identification>
+      <Type>EM</Type>
+    </Communication>
+    <Communication>
+      <Identification>0405678901</Identification>
+      <Type>TE</Type>
+    </Communication>
+  </Submitter>
+  <Authorisation>
+    <Sequence>1</Sequence>
+    <Category>C522</Category>
+    <Identification>FIACEL32996</Identification>
+    <HolderIdentification>FI7000288-8</HolderIdentification>
+  </Authorisation>
+  <Consignment>
+    <GoodsLocation>
+      <Type>B</Type>
+      <Identification function="EO">FI7000288-800004</Identification>
+    </GoodsLocation>
+  </Consignment>
+</FI007A>

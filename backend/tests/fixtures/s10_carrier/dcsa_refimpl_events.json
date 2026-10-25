@@ -1,0 +1,775 @@
+{
+ "_source": "Live capture 2026-10-24 from the DCSA reference implementation ghcr.io/dcsaorg/dcsa-tnt:ddt-1253-47a6e8d (GET /v2/events?limit=100, API-Version header 2.1.0) on the DCSA Information Model d49870aa test data.",
+ "events": [
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "e9806c73-3b75-43e4-ada8-6a960ce60f7c",
+   "eventDateTime": "2003-05-03T00:00:00Z",
+   "eventCreatedDateTime": "2003-05-01T00:00:00Z",
+   "eventClassifierCode": "EST",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "DEPA",
+   "delayReasonCode": "ANA",
+   "changeRemark": "Authorities not available",
+   "transportCall": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "transportCallReference": "TC-REF-08_02-B",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "APM TERMINALS ELIZABETH",
+     "UNLocationCode": "USNYC",
+     "facilitySMDGCode": "APMT"
+    },
+    "vessel": {
+     "id": "6d48ba62-021b-4f32-983d-2d0b873376a0",
+     "vesselIMONumber": "9321483",
+     "name": "Emma Maersk",
+     "flag": "DK",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    },
+    "importVoyage": {
+     "id": "576d5e95-a46f-403d-905d-437ec4568b23",
+     "carrierVoyageNumber": "TNT1E",
+     "service": {
+      "id": "8e638cfd-d3a7-4a47-9c3d-186ae0fe5879",
+      "carrier": {
+       "carrierName": "Maersk",
+       "smdgCode": "MSK"
+      },
+      "carrierServiceCode": "TNT1",
+      "carrierServiceName": "Service name for TNT"
+     }
+    },
+    "exportVoyage": {
+     "id": "576d5e95-a46f-403d-905d-437ec4568b23",
+     "carrierVoyageNumber": "TNT1E",
+     "service": {
+      "id": "8e638cfd-d3a7-4a47-9c3d-186ae0fe5879",
+      "carrier": {
+       "carrierName": "Maersk",
+       "smdgCode": "MSK"
+      },
+      "carrierServiceCode": "TNT1",
+      "carrierServiceName": "Service name for TNT"
+     }
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "4529aae0-2720-4b47-9ac7-0e1b05d14c2c",
+   "eventDateTime": "2003-05-03T00:00:00Z",
+   "eventCreatedDateTime": "2003-05-03T00:00:00Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "DEPA",
+   "delayReasonCode": "ANA",
+   "changeRemark": "Authorities not available",
+   "transportCall": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "transportCallReference": "TC-REF-08_02-B",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "APM TERMINALS ELIZABETH",
+     "UNLocationCode": "USNYC",
+     "facilitySMDGCode": "APMT"
+    },
+    "vessel": {
+     "id": "6d48ba62-021b-4f32-983d-2d0b873376a0",
+     "vesselIMONumber": "9321483",
+     "name": "Emma Maersk",
+     "flag": "DK",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    },
+    "importVoyage": {
+     "id": "576d5e95-a46f-403d-905d-437ec4568b23",
+     "carrierVoyageNumber": "TNT1E",
+     "service": {
+      "id": "8e638cfd-d3a7-4a47-9c3d-186ae0fe5879",
+      "carrier": {
+       "carrierName": "Maersk",
+       "smdgCode": "MSK"
+      },
+      "carrierServiceCode": "TNT1",
+      "carrierServiceName": "Service name for TNT"
+     }
+    },
+    "exportVoyage": {
+     "id": "576d5e95-a46f-403d-905d-437ec4568b23",
+     "carrierVoyageNumber": "TNT1E",
+     "service": {
+      "id": "8e638cfd-d3a7-4a47-9c3d-186ae0fe5879",
+      "carrier": {
+       "carrierName": "Maersk",
+       "smdgCode": "MSK"
+      },
+      "carrierServiceCode": "TNT1",
+      "carrierServiceName": "Service name for TNT"
+     }
+    }
+   }
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "8b654176-fe41-41fd-a457-a632d6811246",
+   "eventDateTime": "2021-01-08T13:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T13:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "RECE",
+   "documentTypeCode": "SHI",
+   "documentID": "c144c6df-440e-4065-8430-f46b9fa67e65"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "d7dde15f-5ddc-42ce-8103-9fa1c4da0bde",
+   "eventDateTime": "2021-01-08T13:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T13:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "BKG",
+     "value": "cbr-b83765166707812c8ff4"
+    }
+   ],
+   "shipmentEventTypeCode": "RECE",
+   "documentTypeCode": "BKG",
+   "documentID": "b12a58a2-c57e-4adb-bf30-3d088019ae43"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "97eb7c09-571e-438f-8f65-ac6a29ba04e5",
+   "eventDateTime": "2021-01-08T13:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T13:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "cbrr-b83765166707812c8ff4"
+    }
+   ],
+   "shipmentEventTypeCode": "RECE",
+   "documentTypeCode": "CBR",
+   "documentID": "b8376516-0c1c-4b6f-b51f-6707812c8ff4"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "6fa26d0e-3766-4dab-8f1f-ca4507e3814e",
+   "eventDateTime": "2021-01-08T13:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T13:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "RECE",
+   "documentTypeCode": "SHI",
+   "documentID": "770f11e5-aae2-4ae4-b27e-0c689ed2e333"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "fc712ef3-b614-4d7f-b5e8-63c54f1afc7a",
+   "eventDateTime": "2021-01-08T17:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T17:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "PENU",
+   "documentTypeCode": "SHI",
+   "documentID": "770f11e5-aae2-4ae4-b27e-0c689ed2e333",
+   "reason": "Carrier Booking Reference present in both shipping instruction as well as cargo items."
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "65de7d7a-82f8-40f7-a9e8-0d5bc686d9f3",
+   "eventDateTime": "2021-01-08T18:22:53Z",
+   "eventCreatedDateTime": "2021-01-08T18:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "DRFT",
+   "documentTypeCode": "SHI",
+   "documentID": "770f11e5-aae2-4ae4-b27e-0c689ed2e333"
+  },
+  {
+   "eventType": "EQUIPMENT",
+   "eventID": "2c645424-a125-4431-9dc4-5aff488173b7",
+   "eventDateTime": "2019-11-11T23:11:00Z",
+   "eventCreatedDateTime": "2021-01-09T13:12:56Z",
+   "eventClassifierCode": "EST",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "equipmentEventTypeCode": "LOAD",
+   "equipmentReference": "APZU4812090",
+   "emptyIndicatorCode": "EMPTY",
+   "transportCall": {
+    "id": "8b64d20b-523b-4491-b2e5-32cfa5174eed",
+    "transportCallReference": "TC-REF-08_02-A",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "f2c1e544-4084-42bf-9853-f0053580a2b8",
+     "vesselIMONumber": "1234567",
+     "name": "King of the Seas",
+     "flag": "DE",
+     "callSignNumber": "NCVV",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "84db923d-2a19-4eb0-beb5-446c1ec57d34",
+   "eventDateTime": "2019-11-11T23:11:00Z",
+   "eventCreatedDateTime": "2021-01-09T13:12:56Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "ARRI",
+   "delayReasonCode": "WEA",
+   "changeRemark": "Bad weather",
+   "transportCall": {
+    "id": "8b64d20b-523b-4491-b2e5-32cfa5174eed",
+    "transportCallReference": "TC-REF-08_02-A",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "f2c1e544-4084-42bf-9853-f0053580a2b8",
+     "vesselIMONumber": "1234567",
+     "name": "King of the Seas",
+     "flag": "DE",
+     "callSignNumber": "NCVV",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "2968b966-ee81-46ba-af87-0c5031c641f4",
+   "eventDateTime": "2021-11-30T23:11:00Z",
+   "eventCreatedDateTime": "2021-11-28T13:12:56Z",
+   "eventClassifierCode": "PLN",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "ARRI",
+   "delayReasonCode": "WEA",
+   "changeRemark": "Bad weather",
+   "transportCall": {
+    "id": "e7b0ae8f-b479-40d8-b3de-56c4c2474211",
+    "transportCallReference": "TC-REF-08_04-A",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "location": {
+     "locationName": "Hamburg",
+     "latitude": "53.551\u00b0 N",
+     "longitude": "9.9937\u00b0 E",
+     "UNLocationCode": "DEHAM",
+     "address": {
+      "name": "Lukas",
+      "street": "Rohrdamm",
+      "streetNumber": "81",
+      "floor": "5",
+      "postCode": "32108",
+      "city": "Bad Salzuflen Grastrup-h\u00f6lsen",
+      "stateRegion": "Nordrhein-Westfalen",
+      "country": "Germany"
+     },
+     "facility": {
+      "facilityName": "DP WORLD JEBEL ALI - CT1",
+      "UNLocationCode": "AEJEA",
+      "facilitySMDGCode": "DPWJA"
+     }
+    },
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "6d48ba62-021b-4f32-983d-2d0b873376a0",
+     "vesselIMONumber": "9321483",
+     "name": "Emma Maersk",
+     "flag": "DK",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    },
+    "importVoyage": {
+     "id": "b9c974e4-778b-4a2b-b198-f20775015d27",
+     "carrierVoyageNumber": "2106W"
+    },
+    "exportVoyage": {
+     "id": "0437c0d8-b9bf-4d75-9626-5ab4e05e1d90",
+     "carrierVoyageNumber": "2107E"
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "2968b966-ee81-46ba-af87-0c5031c641f2",
+   "eventDateTime": "2021-11-30T23:11:00Z",
+   "eventCreatedDateTime": "2021-11-28T13:12:56Z",
+   "eventClassifierCode": "PLN",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "DEPA",
+   "delayReasonCode": "WEA",
+   "changeRemark": "Bad weather",
+   "transportCall": {
+    "id": "770b7624-403d-11eb-b44b-d3f4ad185388",
+    "transportCallReference": "TC-REF-08_01-D",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "INTE",
+    "location": {
+     "locationName": "Nijmegen",
+     "UNLocationCode": "USMIA"
+    },
+    "modeOfTransportCode": "2",
+    "importVoyage": {
+     "id": "1db8a21f-b3da-4a56-a8f7-004e089ffd1f",
+     "carrierVoyageNumber": "3418W"
+    },
+    "exportVoyage": {
+     "id": "b1fed162-9005-4af1-9605-cf802cb515b9",
+     "carrierVoyageNumber": "3419E"
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "2968b966-ee81-46ba-af87-0c5031c641f3",
+   "eventDateTime": "2021-11-30T23:11:00Z",
+   "eventCreatedDateTime": "2021-11-28T13:12:56Z",
+   "eventClassifierCode": "PLN",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "ARRI",
+   "delayReasonCode": "WEA",
+   "changeRemark": "Bad weather",
+   "transportCall": {
+    "id": "770b7624-403d-11eb-b44b-d3f4ad185387",
+    "transportCallReference": "TC-REF-08_01-C",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "COFS",
+    "location": {
+     "locationName": "Genneb",
+     "UNLocationCode": "USMIA"
+    },
+    "modeOfTransportCode": "2",
+    "importVoyage": {
+     "id": "3999ef3f-fa24-4b6e-b717-0740ca3934ba",
+     "carrierVoyageNumber": "2418W"
+    },
+    "exportVoyage": {
+     "id": "b10af570-f3ac-448d-b3e7-d91a10e4124f",
+     "carrierVoyageNumber": "2419E"
+    }
+   }
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "9d5d0824-b228-4ea8-b2cb-4ebd8da76e15",
+   "eventDateTime": "2021-12-02T23:11:00Z",
+   "eventCreatedDateTime": "2021-11-29T13:12:56Z",
+   "eventClassifierCode": "PLN",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "DEPA",
+   "delayReasonCode": "WEA",
+   "changeRemark": "Bad weather",
+   "transportCall": {
+    "id": "af0acf67-604c-4ffa-befe-77878a6a665d",
+    "transportCallReference": "TC-REF-08_04-B",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "location": {
+     "locationName": "Lagkagehuset Islands Brygge",
+     "latitude": "55.6642249",
+     "longitude": "12.57341045",
+     "UNLocationCode": "USNYC",
+     "address": {
+      "name": "Lagkagehuset",
+      "street": "Islands Brygge",
+      "streetNumber": "43",
+      "floor": "St",
+      "postCode": "2300",
+      "city": "K\u00f8benhavn S",
+      "stateRegion": "N/A",
+      "country": "Denmark"
+     }
+    },
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "6d48ba62-021b-4f32-983d-2d0b873376a0",
+     "vesselIMONumber": "9321483",
+     "name": "Emma Maersk",
+     "flag": "DK",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    },
+    "importVoyage": {
+     "id": "b9c974e4-778b-4a2b-b198-f20775015d27",
+     "carrierVoyageNumber": "2106W"
+    },
+    "exportVoyage": {
+     "id": "0437c0d8-b9bf-4d75-9626-5ab4e05e1d90",
+     "carrierVoyageNumber": "2107E"
+    }
+   }
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "a292ccc8-8148-4e27-962c-d877443a355b",
+   "eventDateTime": "2022-03-01T18:22:53Z",
+   "eventCreatedDateTime": "2022-03-01T18:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "RECE",
+   "documentTypeCode": "SHI",
+   "documentID": "8fbb78cc-e7c6-4e17-9a23-24dc3ad0378d"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "92739b9f-65bd-443f-baa8-5e012150e3a8",
+   "eventDateTime": "2022-03-03T18:22:53Z",
+   "eventCreatedDateTime": "2022-03-03T18:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "TRD",
+     "value": "2b02401c-b2fb-5009"
+    }
+   ],
+   "shipmentEventTypeCode": "DRFT",
+   "documentTypeCode": "TRD",
+   "documentID": "945ba823-1b7e-4d3f-ade9-14443a1cee96"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "2ca91609-0fab-4beb-ac8c-6ca445d82d86",
+   "eventDateTime": "2022-03-03T18:22:53Z",
+   "eventCreatedDateTime": "2022-03-03T18:22:53Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "SHI",
+     "value": "SI_REF_4"
+    }
+   ],
+   "shipmentEventTypeCode": "DRFT",
+   "documentTypeCode": "SHI",
+   "documentID": "8fbb78cc-e7c6-4e17-9a23-24dc3ad0378d"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "6f41eec3-2151-40aa-a38f-893109fbc324",
+   "eventDateTime": "2022-03-05T13:56:12Z",
+   "eventCreatedDateTime": "2022-03-05T13:56:12Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "TRD",
+     "value": "2b02401c-b2fb-5009"
+    }
+   ],
+   "shipmentEventTypeCode": "APPR",
+   "documentTypeCode": "TRD",
+   "documentID": "945ba823-1b7e-4d3f-ade9-14443a1cee96"
+  },
+  {
+   "eventType": "TRANSPORT",
+   "eventID": "5e51e72c-d872-11ea-811c-0f8f10a32ea3",
+   "eventDateTime": "2003-05-03T00:00:00Z",
+   "eventCreatedDateTime": "2026-10-24T19:15:38.00093Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "transportEventTypeCode": "DEPA",
+   "delayReasonCode": "ANA",
+   "changeRemark": "Authorities not available",
+   "transportCall": {
+    "id": "8b64d20b-523b-4491-b2e5-32cfa5174eed",
+    "transportCallReference": "TC-REF-08_02-A",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "f2c1e544-4084-42bf-9853-f0053580a2b8",
+     "vesselIMONumber": "1234567",
+     "name": "King of the Seas",
+     "flag": "DE",
+     "callSignNumber": "NCVV",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    }
+   }
+  },
+  {
+   "eventType": "EQUIPMENT",
+   "eventID": "5e51e72c-d872-11ea-811c-0f8f10a32ea2",
+   "eventDateTime": "2003-05-03T00:00:00Z",
+   "eventCreatedDateTime": "2026-10-24T19:15:38.00093Z",
+   "eventClassifierCode": "ACT",
+   "relatedDocumentReferences": [
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    },
+    {
+     "type": "CBR",
+     "value": "CARRIER_BOOKING_REQUEST_REFERENCE_01"
+    }
+   ],
+   "equipmentEventTypeCode": "LOAD",
+   "equipmentReference": "equipref3453",
+   "emptyIndicatorCode": "EMPTY",
+   "transportCall": {
+    "id": "8b64d20b-523b-4491-b2e5-32cfa5174eed",
+    "transportCallReference": "TC-REF-08_02-A",
+    "transportCallSequenceNumber": 1,
+    "facilityTypeCode": "POTE",
+    "modeOfTransportCode": "1",
+    "facility": {
+     "facilityName": "BRANI TERMINAL",
+     "UNLocationCode": "SGSIN",
+     "facilitySMDGCode": "PSABT"
+    },
+    "vessel": {
+     "id": "f2c1e544-4084-42bf-9853-f0053580a2b8",
+     "vesselIMONumber": "1234567",
+     "name": "King of the Seas",
+     "flag": "DE",
+     "callSignNumber": "NCVV",
+     "vesselOperatorCarrier": {
+      "carrierName": "Maersk",
+      "smdgCode": "MSK"
+     },
+     "isDummy": false
+    }
+   }
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "5e51e72c-d872-11ea-811c-0f8f10a32ea1",
+   "eventDateTime": "2003-05-03T00:00:00Z",
+   "eventCreatedDateTime": "2026-10-24T19:15:38.00093Z",
+   "eventClassifierCode": "ACT",
+   "shipmentEventTypeCode": "CONF",
+   "documentTypeCode": "BKG",
+   "documentID": "85973233-334b-4ed8-b0cd-ada20c676af2"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "e48f2bc0-c746-11ea-a3ff-db48243a89f4",
+   "eventDateTime": "2020-07-15T00:00:00Z",
+   "eventCreatedDateTime": "2026-10-24T19:15:38.00093Z",
+   "eventClassifierCode": "ACT",
+   "shipmentEventTypeCode": "APPR",
+   "documentTypeCode": "BKG",
+   "documentID": "0d222092-a6e2-4a90-818c-ef0f42ac1500"
+  },
+  {
+   "eventType": "SHIPMENT",
+   "eventID": "784871e7-c9cd-4f59-8d88-2e033fa799a1",
+   "eventDateTime": "2020-07-15T00:00:00Z",
+   "eventCreatedDateTime": "2026-10-24T19:15:38.00093Z",
+   "eventClassifierCode": "ACT",
+   "shipmentEventTypeCode": "APPR",
+   "documentTypeCode": "BKG",
+   "documentID": "0d222092-a6e2-4a90-818c-ef0f42ac1500"
+  }
+ ]
+}

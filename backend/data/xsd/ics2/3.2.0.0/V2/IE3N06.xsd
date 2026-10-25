@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3N06" type="IE3N06Type" />
+  <xs:complexType name="IE3N06Type">
+    <xs:sequence>
+      <xs:element name="LRN" type="LRNContentType1">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3003</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="documentIssueDate" type="DocumentIssueDateType" />
+      <xs:element name="notifyParty" minOccurs="0" maxOccurs="9" type="NotifyPartyType03" />
+      <xs:element name="activeBorderTransportMeans" type="ActiveBorderTransportMeansType13" />
+      <xs:element name="relatedTransportDocument" minOccurs="0" maxOccurs="9999" type="RelatedTransportDocumentType">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3048</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="relatedMRN" minOccurs="0" maxOccurs="9999" type="RelatedMRNType">
+        <xs:annotation>
+          <xs:documentation>
+            <Rules>R3027</Rules>
+            <Rules>R3048</Rules>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="personNotifyingTheArrival" minOccurs="0" type="PersonNotifyingTheArrivalType">
+        <xs:annotation>
+          <xs:documentation>
+            <Conditions>C3049</Conditions>
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="actualCustomsOfficeOfFirstEntry" type="ActualCustomsOfficeOfFirstEntryType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

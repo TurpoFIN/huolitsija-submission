@@ -1,0 +1,22 @@
+{
+ "authorised_filers": [],
+ "customs_authorised_filers": [],
+ "customs_delegation_scope": "direct",
+ "customs_filing_delegated": false,
+ "customs_four_eyes_duty_eur": 5000,
+ "customs_four_eyes_value_eur": 100000,
+ "customs_rescreen_days": 1,
+ "eligible_filers": [
+  {
+   "email": "ops.demo@huolitsija.fi",
+   "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+   "name": "Esimerkkikäyttäjä",
+   "role": "ops_admin"
+  }
+ ],
+ "help": {
+  "en": "Four-eyes thresholds in euros (reached when the amount is at least the threshold). An empty authorised filers list = everyone with customs.file.",
+  "fi": "Neljän silmän rajat euroina (raja ylittyy, kun summa on vähintään raja). Tyhjä valtuutettujen lista = kaikki customs.file-oikeuden haltijat."
+ },
+ "record_retention_years": 6
+}

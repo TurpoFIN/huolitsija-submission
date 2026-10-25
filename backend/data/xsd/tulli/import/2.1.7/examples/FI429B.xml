@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI429B xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tulli.fi/schema/external/import/ext/v3" xsi:schemaLocation="http://tulli.fi/schema/external/import/ext/v3 eFI429B.xsd">
+  <Identification>20082613531700</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="MRN">20FIU41000004146R0</FunctionalReference>
+  <Type function="DeclarationType">IM</Type>
+  <Type function="AdditionalDeclarationType">A</Type>
+  <Invoice CurrencyUnit="EUR">1000</Invoice>
+  <Language>fi</Language>
+  <Notification>
+    <Type>LUO</Type>
+    <Notification>2020-08-26T16:59:00.11+03:00</Notification>
+    <Decision>
+      <Decision>2020-08-26T16:59:00.11+03:00</Decision>
+      <Note>
+        <Note>D0005</Note>
+        <NoteDescription>Tavarat on luovutettu tullimenettelyyn. UTK 194 artikla</NoteDescription>
+      </Note>
+    </Decision>
+  </Notification>
+  <Declarant>
+    <Identification>FI5342687-3</Identification>
+    <AdditionalIdentifier>
+      <Identification>001</Identification>
+    </AdditionalIdentifier>
+    <Name>Huolintatesti Oy</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Keskustori 2</Line>
+      <CityName>Tampere</CityName>
+      <Postcode>33100</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Declarant>
+  <Exporter>
+    <Name>Guangdong Xinruncheng Ceramics Co. Ltd</Name>
+    <Address>
+      <Line>Box 156</Line>
+      <CityName>Shanghai</CityName>
+      <Postcode>78956</Postcode>
+      <Country>CN</Country>
+    </Address>
+  </Exporter>
+  <Submitter>
+    <Name>Timo Tullaaja</Name>
+    <Communication>
+      <Identification>timo.tullaaja@yritys.fi</Identification>
+      <Type>EM</Type>
+    </Communication>
+  </Submitter>
+  <AdditionalDocument function="SupportingDocument">
+    <Type>N380</Type>
+    <Identification>55512345</Identification>
+  </AdditionalDocument>
+  <BorderTransportMeans>
+    <Mode>1</Mode>
+    <RegistrationNationality>CN</RegistrationNationality>
+  </BorderTransportMeans>
+  <AdditionalInformation>
+    <Statement>FICON</Statement>
+    <StatementDescription>a</StatementDescription>
+  </AdditionalInformation>
+  <GoodsShipment>
+    <TransactionNature>11</TransactionNature>
+    <Destination>
+      <Country>FI</Country>
+    </Destination>
+    <ExportCountry>
+      <Country>CN</Country>
+    </ExportCountry>
+    <Importer>
+      <Identification>FI5342687-3</Identification>
+      <AdditionalIdentifier>
+        <Identification>001</Identification>
+      </AdditionalIdentifier>
+      <Name>Huolintatesti Oy</Name>
+      <Role>Y</Role>
+      <Address>
+        <Line>Keskustori 2</Line>
+        <CityName>Tampere</CityName>
+        <Postcode>33100</Postcode>
+        <Country>FI</Country>
+      </Address>
+    </Importer>
+    <Seller>
+      <Name>Seller Ltd.</Name>
+      <Address>
+        <Line>Street 1</Line>
+        <CityName>Shanghai</CityName>
+        <Postcode>87000</Postcode>
+        <Country>CN</Country>
+      </Address>
+    </Seller>
+    <Consignment>
+      <Container>0</Container>
+      <ArrivalTransportMeans>
+        <Mode>1</Mode>
+        <Identification>SONG</Identification>
+        <IdentificationType>11</IdentificationType>
+      </ArrivalTransportMeans>
+      <GoodsLocation>
+        <Type>B</Type>
+        <Identification function="EO">FI5342687-300001</Identification>
+      </GoodsLocation>
+    </Consignment>
+    <TradeTerms>
+      <Condition>EXW</Condition>
+      <Location>FIHEL</Location>
+    </TradeTerms>
+    <UCR>
+      <TraderAssignedReference>VIITE</TraderAssignedReference>
+    </UCR>
+    <Warehouse>
+      <Identification>FI5342687-300001</Identification>
+      <Type>V</Type>
+    </Warehouse>
+    <GovernmentAgencyGoodsItem>
+      <Sequence>1</Sequence>
+      <StatisticalValue>1500</StatisticalValue>
+      <Commodity>
+        <Description>rannekelloja</Description>
+        <InvoiceLine>
+          <ItemCharge CurrencyUnit="EUR">1000</ItemCharge>
+        </InvoiceLine>
+        <Classification>
+          <Identification>871160</Identification>
+          <IdentificationType>HS</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>10</Identification>
+          <IdentificationType>CN</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>00</Identification>
+          <IdentificationType>TAR</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>C382</Identification>
+          <IdentificationType>TAN</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>Q099</Identification>
+          <IdentificationType>NAT</IdentificationType>
+        </Classification>
+        <DutyTaxFee>
+          <DutyRegime>100</DutyRegime>
+        </DutyTaxFee>
+      </Commodity>
+      <CustomsValuation>
+        <Method>6</Method>
+        <ChargeDeduction>
+          <ChargesType>AK</ChargesType>
+          <OtherChargeDeduction CurrencyUnit="EUR">500</OtherChargeDeduction>
+        </ChargeDeduction>
+      </CustomsValuation>
+      <GoodsMeasure>
+        <GrossMass>800</GrossMass>
+        <NetMass>700</NetMass>
+        <Tariff>200</Tariff>
+      </GoodsMeasure>
+      <GovernmentProcedure>
+        <Current>40</Current>
+        <Previous>00</Previous>
+        <AdditionalProcedure>
+          <Procedure>999</Procedure>
+        </AdditionalProcedure>
+      </GovernmentProcedure>
+      <Packaging>
+        <MarksNumbers>1-50</MarksNumbers>
+        <Quantity>50</Quantity>
+        <Type>CT</Type>
+      </Packaging>
+      <Origin>
+        <Country>CN</Country>
+        <Type>OC</Type>
+      </Origin>
+      <AdditionalDocument function="SupportingDocument">
+        <Type>Y923</Type>
+        <Identification>N/A</Identification>
+      </AdditionalDocument>
+      <AdditionalDocument function="SupportingDocument">
+        <Type>D008</Type>
+        <Identification>12345678</Identification>
+      </AdditionalDocument>
+      <PreviousDocument>
+        <Type>355</Type>
+        <Identification>20FIUKJML000000AT2</Identification>
+        <Line>1</Line>
+        <TransportDocumentIdentification>KL202004031</TransportDocumentIdentification>
+      </PreviousDocument>
+    </GovernmentAgencyGoodsItem>
+  </GoodsShipment>
+</FI429B>

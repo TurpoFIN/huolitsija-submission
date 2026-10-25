@@ -1,0 +1,35 @@
+{
+ "code": "87120030",
+ "count": 2,
+ "rulings": [
+  {
+   "code": "87120030",
+   "country": "FR",
+   "description": "Cycle de vélo avec roulement à billes, non assemblé, présenté en kit. Le kit comprend un cadre en carbone, une fourche, un jeu de direction, une potence, un guidon, des poignées, une selle, une tige de selle, des freins, un pignon, un levier de frein, un dérailleur, une cassette, une chaîne, un pédalier, un guide de chaîne, des roues, rayons, moyeux et 2 pneus. Les articles sont importés de Taiwan et sont conditionnés ensemble.",
+   "justification": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC. Règle générale 2 a) : les articles incomplets ou non finis, ou les articles à l'état démonté ou non monté sont classés à la position de",
+   "keywords": [
+    "BICYCLE TYRES,BICYCLES,CARBON,CYCLE FORKS,CYCLE FRAMES,CYCLES,HANDLEBARS,UNASSEMBLED,WITH BALL BEARINGS"
+   ],
+   "lang": "fr",
+   "ref": "FRBTIFR-BTI-2023-08626",
+   "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?Lang=en&reference=FRBTIFR-BTI-2023-08626",
+   "valid_from": "2024-02-26",
+   "valid_to": "2027-02-25"
+  },
+  {
+   "code": "8712003010",
+   "country": "DK",
+   "description": "Varen er en komplet tohjulet cykel uden motor og foreligger i delvis samlet stand. Cyklen er til voksne og har lav indstigning, cykelkurv, kædeskærm, indvendige gear, et bremsegreb på den ene side af styret og gearskifte på den anden side af styret. Cyklen foreligger med to stænger monteret på forhjulsakslen, som går op lige over forhjulet foran styret. De to monterede stænger på forhjulet, anvendes til fastgørelse af den medfølgende cykelkurv. Det er oplyst, at cyklen er med kuglelejer. Pedaler, topkap og gummibeslag, cykelkurv, skruer og øvrige beslag til cykelkurven foreligger ikke monteret. Cykelkurven har sider af lodrette og tværgående metalstænger, som danner en solid, åben struktur. ",
+   "justification": "Almindelig tariferingsbestemmelse 1, 2 a) og 6 til den kombinerede nomenklatur og teksten til varekode 8712, 8712 00 30 og 8712 00 30 10. Supplerende bestemmelse 1 til afsnit XVII Andet I finder jeres klagevejledning ved at udskrive denne BTO-afgørelse fra EU Customs Trader Portal. Toldstyrelsen har",
+   "keywords": [
+    "BASKETS,BICYCLES,COMPLETE,CYCLES,OF METAL,PARTLY ASSEMBLED,WITH ATTACHMENTS,WITHOUT MOTOR"
+   ],
+   "lang": "da",
+   "ref": "DKBTI23-1178151",
+   "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?Lang=en&reference=DKBTI23-1178151",
+   "valid_from": "2023-10-26",
+   "valid_to": "2026-10-25"
+  }
+ ],
+ "source": "EU EBTI database (European Commission, DG TAXUD)"
+}

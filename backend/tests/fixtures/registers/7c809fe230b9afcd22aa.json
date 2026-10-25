@@ -1,0 +1,22 @@
+{
+  "isValid" : true,
+  "requestDate" : "2026-10-24T23:45:52.658Z",
+  "userError" : "VALID",
+  "name" : "Onninen Oy",
+  "address" : "c/oKesko Oyj PL 1\n00016 KESKO",
+  "requestIdentifier" : "",
+  "originalVatNumber" : "10712079",
+  "vatNumber" : "10712079",
+  "viesApproximate" : {
+    "name" : "---",
+    "street" : "---",
+    "postalCode" : "---",
+    "city" : "---",
+    "companyType" : "---",
+    "matchName" : 3,
+    "matchStreet" : 3,
+    "matchPostalCode" : 3,
+    "matchCity" : 3,
+    "matchCompanyType" : 3
+  }
+}

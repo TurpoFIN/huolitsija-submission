@@ -1,0 +1,274 @@
+{
+  "export_declaration": {
+    "captured_at": "2026-10-24T21:50:35.669826+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-export/0074fc51-9ea0-4762-a5f0-6916238add96",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "023fd891ac5d6753f696e62380b2a7259b7117286dda474473f83d22b705cbf7",
+    "source_url": null
+  },
+  "export_list": {
+    "captured_at": "2026-10-24T21:50:35.685893+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-export",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "7d69805bae26e6a579110182351738986e4605b8a05d2bc4e079a7901fc7001b",
+    "source_url": null
+  },
+  "transit_declaration": {
+    "captured_at": "2026-10-24T21:50:35.711170+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-transit/279e8be1-bea1-4b21-a6a4-7657de778343",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "5eb6b23d8d9e0121e856f25132f6837952c537c4696f52adc1e914b42d6e2f47",
+    "source_url": null
+  },
+  "transit_list": {
+    "captured_at": "2026-10-24T21:50:35.729088+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-transit",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "90ba1b7f564c109bd329d606c4ced977daec59597a0f18c48e145c3114ea7324",
+    "source_url": null
+  },
+  "ens_declaration": {
+    "captured_at": "2026-10-24T21:50:35.764980+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-ens/bbe2f667-20e5-47af-adc1-4ff9e9232a00",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "e5fa26180af5f1dde3ff6b0323670173dad4e0430ebcb84de20584c64b5b11c4",
+    "source_url": null
+  },
+  "ens_list": {
+    "captured_at": "2026-10-24T21:50:35.775922+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-ens",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "4bbb16aa0a0827d8199c91f8a798a936333293a036c9a6e2ef68fcc3814384bb",
+    "source_url": null
+  },
+  "transit_decision": {
+    "captured_at": "2026-10-24T21:50:35.738187+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/autopilot/decisions/98319310-1f04-4d83-97fa-2a1650810512",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "742580d2e4f25ce3c02933548e53e1b6ca13ba607069805e2624e8ca06b8a52e",
+    "source_url": null
+  },
+  "ens_decision": {
+    "captured_at": "2026-10-24T21:50:35.787362+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/autopilot/decisions/c02206ed-8e95-4830-853f-d14dfc6fefdf",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "b80edddbbd0081af65e537b338a7fe2a976dcb4306b51946af5041e6ec48bbac",
+    "source_url": null
+  },
+  "import_declaration": {
+    "captured_at": "2026-10-24T21:50:35.822285+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/6030741a-7733-4496-9b46-b25e29c82bd8",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "b248bf6490698c3548794ec95dd2452749331777130ca0e8ba56d539f687316d",
+    "source_url": null
+  },
+  "bti": {
+    "captured_at": "2026-10-24T21:50:35.830492+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/bti?code=87120030",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "c04d42d2a929589b3ceeb842a1014c50228b4611cd76ad9fdf58ba5fa9ff93a5",
+    "source_url": null
+  },
+  "bti_status": {
+    "captured_at": "2026-10-24T21:50:35.838281+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/bti/status",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "30f94861f0fc0a11762a2187818b1ee7e5d8fdb21f96efc31ea73a42fcc089cf",
+    "source_url": null
+  },
+  "controls_kpis": {
+    "captured_at": "2026-10-24T21:50:35.857564+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/controls/kpis",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "00782365b7291d66ac6a19caaff57ed361f294c61f14dfb6876e9fd22fa3a3b0",
+    "source_url": null
+  },
+  "controls_settings": {
+    "captured_at": "2026-10-24T21:50:35.864658+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/controls/settings",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "65dea91f2468a4929e5d46368951c1dfb300ff18516d0f52837f7387f6afdd33",
+    "source_url": null
+  },
+  "export_decision": {
+    "captured_at": "2026-10-24T21:50:35.693306+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/autopilot/decisions/904c5554-bd3e-4773-9775-ef3f24053d78",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "9f77b2e433b4099ad40366b6a1004f9ba1067000cc6cf38a55e867ee80cc4502",
+    "source_url": null
+  },
+  "export_review": {
+    "captured_at": "2026-10-24T21:50:35.651233+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs-export/75e5ecf4-05b9-420e-8db2-4fc998b7817e",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "d13e50a5c062afc993e4c33be86270d23e2d52684b24fdc5ec16b76b44687cd0",
+    "source_url": null
+  },
+  "export_review_decision": {
+    "captured_at": "2026-10-24T21:50:35.659002+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/autopilot/decisions/e628bf9a-c4ab-40ae-8d90-25964649b183",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "efde442876b04acd9b1a99649f35a5fae03681a76e798675c6b1b88114832184",
+    "source_url": null
+  },
+  "taric_computers_ru_export": {
+    "captured_at": "2026-10-24T21:30:25.650358+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "747dbb55da16b447c3fda59230afcba89e5f38504910d08b348999d4ca9cb573",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8471300000&Expand=true&Area=RU"
+  },
+  "taric_bicycles_cn": {
+    "captured_at": "2026-10-24T21:29:45.161246+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "e8ce1136dde167875d46205bdbf306caea66ba8460099649e354c588496c8369",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN"
+  },
+  "taric_quota_099600": {
+    "captured_at": "2026-10-24T21:30:26.738685+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "6c76e289c4aa8bc0c6548a1da62a175dad28c9ef2d97a504d8db9e23ab5c0fd0",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/quota_list.jsp?Lang=en&Code=099600&Year=2026&Critical=&Status=&Origin=&Expand=true&Offset=0"
+  },
+  "taric_steel_cn": {
+    "captured_at": "2026-10-24T21:30:18.495289+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "cbde989a1e5b2ca620673e5f46cd914edd144222a92efc650964e1c236f58647",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=7208100000&Expand=true&Area=CN"
+  },
+  "licences": {
+    "captured_at": "2026-10-24T21:30:39.640811+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "5ad4ff3ae78bdb1cccbfd7d4acb98e60bbd87e0dfdd15170990eb8165c4c8479"
+  },
+  "taric_footwear_vn": {
+    "captured_at": "2026-10-24T21:29:49.275954+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "e1a4b966eed71b717a69d31917a682dcd9b768751b6c1a3bf990ae458a5f741e",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403999890&Expand=true&Area=VN"
+  },
+  "import_controls": {
+    "captured_at": "2026-10-24T21:30:39.626616+00:00",
+    "base": "http://127.0.0.1:8107",
+    "request": {
+      "method": "GET",
+      "path": "see seed-http.txt"
+    },
+    "sha256": "cba3a428fd956537ce7111d155a7848c334d34d8d8d4dae7d032c202b785d01c"
+  },
+  "origin_declaration": {
+    "captured_at": "2026-10-24T21:56:06.180305+00:00",
+    "request": {
+      "method": "GET",
+      "path": "/customs/e04c1445-6a00-4876-b0ff-104e645317c1",
+      "status": 200,
+      "missing_route": false
+    },
+    "base": "http://127.0.0.1:8107",
+    "sha256": "97a6cb6e2c38737d77d83913b7114a6615f87abb9e57735abd5bc9a38b74c96d",
+    "source_url": null
+  }
+}

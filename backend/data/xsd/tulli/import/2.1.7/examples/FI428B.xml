@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI428B xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tulli.fi/schema/external/import/ext/v3" xsi:schemaLocation="http://tulli.fi/schema/external/import/ext/v3 eFI428B.xsd">
+  <Identification>20091115384300</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="MRN">20FIU41000005773R4</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYV</Type>
+    <Notification>2020-09-11T15:41:43.4867181+03:00</Notification>
+  </Notification>
+</FI428B>

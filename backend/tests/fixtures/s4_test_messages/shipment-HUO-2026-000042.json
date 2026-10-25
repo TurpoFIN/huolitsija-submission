@@ -1,0 +1,75 @@
+{
+ "id": "33b6f668-f373-4c07-acdf-f9d4f2b49523",
+ "reference": "HUO-2026-000042",
+ "company_id": "e19d517b-7637-49e9-8403-97fe63db7728",
+ "mode": "sea",
+ "direction": "import",
+ "incoterm": "FOB",
+ "incoterm_place": "Yantian",
+ "origin": {
+  "name": "Yantian (Shenzhen)",
+  "code": null,
+  "unlocode": "CNYTN",
+  "country": "CN",
+  "city": "Shenzhen"
+ },
+ "destination": {
+  "name": "Helsinki Vuosaari Harbour",
+  "code": null,
+  "unlocode": "FIHEL",
+  "country": "FI",
+  "city": "Helsinki"
+ },
+ "cargo": {
+  "load_type": "loose",
+  "description": "Bicycle components (derailleurs, chains, LED lights, disc brakes)",
+  "packages": 58,
+  "package_type": "carton",
+  "weight_kg": 820,
+  "volume_m3": 6.4,
+  "ldm": null,
+  "stackable": true,
+  "containers": [],
+  "dangerous_goods": false,
+  "dg": null,
+  "value_cents": null,
+  "hs_hint": null,
+  "customs_items": 1,
+  "duty_rate_pct": null,
+  "vat_rate_pct": null,
+  "teu": null
+ },
+ "parties": {
+  "shipper": {
+   "name": "Shenzhen Velotek Components Co., Ltd.",
+   "address": {
+    "street": "No. 18 Huanguan South Road, Guanlan, Longhua District",
+    "postal_code": "518110",
+    "city": "Shenzhen",
+    "country": "CN"
+   },
+   "contact": {
+    "name": "Li Wei",
+    "email": "export@velotek.example"
+   },
+   "eori": null,
+   "vat_id": null
+  },
+  "consignee": {
+   "name": "E2E Testi 084712 Oy",
+   "address": {
+    "street": "Mannerheimintie 12",
+    "postal_code": "00100",
+    "city": "Helsinki",
+    "country": "FI"
+   },
+   "contact": {
+    "name": "Eeva Testaaja",
+    "email": "e2e.20261024084712@huolitsija.fi"
+   },
+   "eori": null,
+   "vat_id": "FI39947138"
+  }
+ },
+ "status": "delivered"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI028A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>FIRMA00000</Identification>
+  <FunctionalReference function="MRN">23FIP44000008950J7</FunctionalReference>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYV</Type>
+    <Notification>2023-04-25T12:15:13.7055014+03:00</Notification>
+  </Notification>
+  <DepartureOffice>
+    <Identification>FI002006</Identification>
+  </DepartureOffice>
+</FI028A>
+

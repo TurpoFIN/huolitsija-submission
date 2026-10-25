@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI516A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>5f6fcf25b45d45</Identification>
+  <FunctionalReference function="LRN">70531624</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYL</Type>
+    <Notification>2024-03-18T10:12:59.9571339+02:00</Notification>
+    <Error>
+      <Code>RuleViolation</Code>
+      <Reason>NR5507</Reason>
+      <Description>If you are applying for the outward processing authorisation with the customs declaration and provide the additional information code FIXBN, you can only provide A or D as the additional declaration type.</Description>
+      <Pointer>
+        <Location>/FI515A/Type[2]/@function</Location>
+      </Pointer>
+      <OriginalValue>AdditionalDeclarationType</OriginalValue>
+    </Error>
+  </Notification>
+</FI516A>

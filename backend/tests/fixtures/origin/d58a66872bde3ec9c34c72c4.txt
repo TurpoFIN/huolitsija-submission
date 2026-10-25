@@ -1,0 +1,1740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- File modified for QTM132 CR#CUSTD00027346(NVI)-->
+<html>
+
+<head>
+
+  <title>TARIC Measure Information</title>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/measures.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/iframes.js' ></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/util.js' ></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/overlay.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/nomenclaturebrowser.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/goodsresult.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/footnote.js'></script>
+  <script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/meursing.js' ></script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/yahoo-dom-event.js"> </script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/connection-min.js"></script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/element-min.js"></script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/button-min.js"></script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/dragdrop-min.js"></script>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/container-min.js"></script>
+
+
+<script type="text/javascript">
+<!--
+  var modalMeursingPanel;
+  var totalNumberOfMeasures = 0;
+  var totalNumberOfGoods = 0;
+  var expandAllMeasuresThreshold = 20;
+  var expandAllGoodsCodesThreshold = 15;
+  var matchingGoodsOnly = false;
+  if (''=='true') {
+  	matchingGoodsOnly = true;
+  }
+  var expandAllAllowed = false;
+  var pageFootnotes;
+  var pageDisplayedFootnotes = new Array();
+  var modalRegulationPanel;
+  var modalExportRefundPanel;
+  var modalGoodsMenuPanel;
+  var measuresOverlayPanelClicked=false;
+  var exportRefundConditions = new Array();
+  var areacomboarray;
+  var comboMeasTypArray;
+var measText = '';
+var goodsText = '';
+
+  
+    totalNumberOfMeasures=7;
+  
+
+  
+    totalNumberOfGoods=1;
+  
+
+  
+    expandAllMeasuresThreshold=20;
+  
+
+  
+    expandAllGoodsCodesThreshold=15;
+  
+	
+	//Use to go back to search form (taric_consultation.jsp) without losing criteria 
+	//(required for Chromium-based web browsers: Chrome & Edge)
+	function backToFilledSearchForm() {
+		if (location.href.indexOf("#") < 0)
+        	location.reload();
+	};
+
+
+  window.onload=function(){
+
+    var lang = 'en';
+    var descrLang = '';
+    var date = '20261024';
+
+
+    loadSectionTree(lang, date);
+
+    var client = getClient();
+    client.open("GET", "area_combo/area_combo_" + lang + "_" + date + ".js",  false);
+    client.send(null);
+    eval(client.responseText);
+
+    client = getClient();
+    client.open("GET", "meas_type_combo/meas_typ_combo_"+lang+"_"+date+".js",  false);
+    client.send(null);
+    eval(client.responseText);
+
+    
+     var areaCode = 'VN';
+     if (areaCode.length > 0) document.getElementById("area_description").innerHTML = getAreaDescription(areaCode);
+    
+
+    
+
+    displayAllGoodsData(lang, descrLang, date, true);
+
+    refreshDisplayedFootnotes();
+
+
+
+    // If the ExpandAll is set to true, expand all the iframes if it is allowed.
+    if(totalNumberOfMeasures>expandAllMeasuresThreshold || totalNumberOfGoods>expandAllGoodsCodesThreshold)
+      expandAllAllowed = false;
+    else
+      expandAllAllowed = true;
+
+    YAHOO.util.Event.onDOMReady(init);
+
+    var searchItem = "";
+    if(measText!=null && measText.length>0)
+    {
+      searchItem = measText;
+    }
+    if(goodsText!=null && goodsText.length>0)
+    {
+      searchItem = goodsText;
+    }
+
+    highlightOnLoad(searchItem,matchingGoodsOnly);
+    displayPageContent();
+
+    if('' == 'true')
+    {
+      expandAll();
+    }
+	
+	// The 2 following actions will replace the latest history entry with the URL to taric_consultation.jsp
+	// filled with all search criteria used then add back the current location to the history
+	// this is necessary for the management of the back button and to get back the search form with filled criteria
+	history.replaceState("",null,new URL(location.href.replaceAll("measures.jsp","taric_consultation.jsp")));
+	history.pushState("",null,new URL(location.href.replaceAll("taric_consultation.jsp","measures.jsp")));
+  }
+
+
+  function displayPageContent()
+  {
+    document.getElementById("measure_panel").style.display = "block";
+  }
+
+  function switchGoodsDisplay(showMatchingGoods){
+	  var searchItem = "";
+	    if(measText!=null && measText.length>0) {
+	      searchItem = measText;
+	    }
+	    if(goodsText!=null && goodsText.length>0) {
+	      searchItem = goodsText;
+	    }
+	    matchingGoodsOnly = showMatchingGoods;
+	    highlightOnLoad(searchItem,matchingGoodsOnly);
+  }
+
+
+
+-->
+</script>
+
+<script type="text/javascript">
+<!--
+
+  function init() {
+    modalExportRefundPanel = new YAHOO.widget.Panel("export_refund_panel", {
+      width:"750px",
+      visible:false,
+      constraintoviewport:true,
+      modal:true,
+      close:false,
+      draggable:false,
+      underlay:"none"
+      } );
+    modalExportRefundPanel.setHeader("");
+    modalExportRefundPanel.setBody("");
+    modalExportRefundPanel.render();
+
+    modalRegulationPanel = new YAHOO.widget.Panel("regulation_panel", {
+      width:"750px",
+      visible:false,
+      constraintoviewport:false,
+      modal:true,
+      close:false,
+      draggable:false,
+      underlay:"none"
+      } );
+    modalRegulationPanel.setHeader("");
+    modalRegulationPanel.setBody("");
+    modalRegulationPanel.render();
+
+    modalGoodsMenuPanel = new YAHOO.widget.Panel("goods_menu_panel", {
+      visible:false,
+      constraintoviewport:false,
+      modal:true,
+      close:false,
+      draggable:false,
+      underlay:"none"
+      } );
+    modalGoodsMenuPanel.setHeader("");
+    modalGoodsMenuPanel.setBody("");
+    modalGoodsMenuPanel.render();
+
+  }
+
+  function loadMeursingPanel()
+  {
+    prepareMeursingPanel('1108140000','20261024','en', 'VN');
+  }
+
+-->
+</script>
+
+	<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/buttons.css">
+	<!--[if IE]> <style type="text/css">@import "https://ec.europa.eu/taxation_customs/dds2/taric/buttons-ie.css";</style> <![endif]-->
+	<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/ddstaric.css">
+	<!--[if IE]> <style type="text/css">@import "https://ec.europa.eu/taxation_customs/dds2/taric/ddstaric-ie.css";</style> <![endif]-->
+	<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.css">
+	<!--[if IE]> <style type="text/css">@import "https://ec.europa.eu/taxation_customs/dds2/taric/measures-ie.css";</style> <![endif]-->
+  <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/export_refund.css">
+	<LINK href="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/fonts-min.css" type=text/css rel=stylesheet>
+	<LINK href="https://ec.europa.eu/taxation_customs/dds2/taric/popup_files/container.css" type=text/css rel=stylesheet>
+	<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/dds2-taric-custom.css">
+
+    <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ddstaric_ecl.css">
+</head>
+
+
+<body style="background-color: #FFFFFF;" class=" yui-skin-sam" onclick="closeMeasuresOverlayPanels(event);" onpopstate="backToFilledSearchForm();">
+  <a name="top"></a>
+<div class="layout" id="layout">
+  
+    
+    
+    
+    <span id="expand_all_hidden_button" style="display: none;" onclick="expandAll('deferred_measures.jsp?AdditionalCode=&MeasText=&Lang=en&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=true');"></span>
+  
+
+
+  <div id="regulation_panel"></div>
+  <div id="export_refund_panel"></div>
+  <div id="goods_menu_panel"></div>
+  <div id="meursing_panel" style="display: none;"><div id="frame" style="display: none;"></div></div>
+<!-- Changes for QTM 132 defect id: CUSTD00032690 DDS2-TARIC translation issue : STARTS -->
+
+
+
+  
+<!-- Changes for QTM 132 defect id: CUSTD00032690 DDS2-TARIC translation issue : ENDS -->
+  
+
+    
+    
+
+    
+    
+    <div>
+        
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="//europa.eu/webtools/load.js"></script>
+
+    <script type='application/json'>{"utility":"piwik","siteID":"335","sitePath":["ec.europa.eu\/1taxation_customs"],"siteSection":"dds2","is404":false}</script>
+
+
+
+<script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/europa/js/language.js'></script>
+
+
+        <script type="text/javascript" src="https://ec.europa.eu/wel/cookie-consent/consent.js" ></script>
+
+
+
+<!--banner -->
+
+
+
+<!-- Defect#CUSTD00032674 fix changes - START-->
+
+
+<html xml:lang="en">
+<head>
+    <meta name="application" content="DDS2-TARIC"/>
+<meta name="version" content="3.9.2.0"/>
+
+<!-- Defect# CUSTD00024730 Start -->
+<!-- IPG Rule requires the following 7 metatags in all application pages. Additional metatags e.g. version and application can be added if required by the application. -->
+<meta http-equiv="Content-Language" content="en">
+<meta name="description" content="DDS2-TARIC Application page">
+<meta name="reference" content="DDS2-TARIC Reference">
+<meta name="creator" content="DG-TAXUD">
+<meta name="classification" content="DDS2-TARIC">
+<meta name="keywords" content="DDS2-TARIC, TARIC, DDS2">
+<meta name="date" content="">
+<meta http-equiv="Cache-control" content="public">
+<!-- Defect# CUSTD00024730 End -->
+    <meta charset="utf-8"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>Header</title>
+    <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ddstaric_ecl.css">
+    <script>var contextPath = "/taxation_customs/dds2/taric";</script>
+
+<script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/europa/js/ec.js'></script>
+
+<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/css/ecl-ec-preset-website.css" media="screen">
+<link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/css/ecl-ec-preset-website-print.css" media="print">
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/scripts/ecl-ec-preset-website.js"></script>
+<script type="text/javascript">
+        function getClient()
+        {
+            var xmlhttp=null;
+            try
+            {
+                xmlhttp = new XMLHttpRequest();
+            }
+            catch (e)
+            {}
+            if (xmlhttp != null)
+                return xmlhttp;
+            try {
+                xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {}
+            if (xmlhttp != null)
+                return xmlhttp;
+
+            try {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            catch (E) {}
+            return xmlhttp;
+        }
+        window.addEventListener('load', function () {
+            var client = getClient();
+            client.open("GET", "/taxation_customs/dds2/taric/special_message.html", false);
+            client.send(null);
+            document.getElementById('message-container').innerHTML = client.responseText;
+        });
+
+
+    </script>
+
+
+    <script type="text/javascript">
+
+        function closeButton() {
+            document.getElementById("meta-container").removeChild(document.getElementById("message-container"));
+        }
+
+        function showOverlay() {
+            document.getElementById("language-list-overlay").style.display = 'block';
+        }
+
+        function closeOverlay() {
+            document.getElementById("language-list-overlay").style.display = 'none';
+        }
+
+
+        function toggleTiles(elem) {
+            setTimeout(function () {
+                elem.firstElementChild.firstElementChild.classList.toggle('tiles-focus');
+            }, 200);
+        }
+
+        // Implementation of startsWith fo IE
+        if (!String.prototype.startsWith) {
+            String.prototype.startsWith = function (searchString, position) {
+                position = position || 0;
+                return this.substr(position, searchString.length) === searchString;
+            };
+        }
+    </script>
+
+
+</head>
+<body>
+
+
+
+    
+    
+    
+
+    <div>
+		<div class="ecl-site-switcher ecl-site-switcher--header">
+			<div class="ecl-container">
+				<h2 class="ecl-u-sr-only">ECL site switcher</h2>
+				<ul id="ecl-site-switcher" class="ecl-site-switcher__list ecl-container">
+					<li class=" ecl-site-switcher__option"><a href="https://ec.europa.eu/commission/index"
+															  class="ecl-site-switcher__link ecl-link">Commission and
+						its
+						priorities</a></li>
+					<li class="ecl-site-switcher__option ecl-site-switcher__option--is-selected"><a
+							href="https://ec.europa.eu/info/index" class="ecl-site-switcher__link ecl-link">Policies,
+						information and services</a></li>
+				</ul>
+			</div>
+		</div>
+		<header data-ecl-auto-init="SiteHeaderHarmonised"
+				class="ecl-site-header-harmonised--group1 ecl-site-header-harmonised">
+			<div class="ecl-site-header-harmonised__container ecl-container">
+				<div class="ecl-site-header-harmonised__top"><a
+						class="ecl-link ecl-link--standalone ecl-site-header-harmonised__logo-link"
+						href="https://ec.europa.eu" aria-label="European Commission"><img alt="European Commission logo"
+																						  title="European Commission"
+																						  class="ecl-site-header-harmonised__logo-image"
+																						  src="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/images/logo/logo--en.svg"/></a>
+					<div class="ecl-site-header-harmonised__action">
+						<a onclick="showOverlay()"
+						   class="ecl-link ecl-link--standalone ecl-site-header-harmonised__language-selector"
+						   href="javascript:void(0)" data-ecl-language-selector="true"
+						   aria-controls="language-list-overlay"
+						   aria-expanded="false"><span class="ecl-site-header-harmonised__language-icon">
+                            <svg focusable="false" aria-hidden="true"
+								 class="ecl-site-header-harmonised__icon ecl-icon ecl-icon--s" width="24" height="24"
+								 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M18.191 1H5.81A4.812 4.812 0 001 5.818v8.338a4.812 4.812 0 004.809 4.818h.746V23l8.41-4.026h3.226c2.636 0 4.809-2.156 4.809-4.818V5.818C23 3.156 20.827 1 18.191 1z"/>
+                            </svg>
+                            <span class="ecl-site-header-harmonised__language-code">en</span></span>
+							English</a>
+						<div class="ecl-site-header-core__search-container">
+							<a class="ecl-link ecl-link--standalone ecl-site-header-core__search-toggle"
+							   data-ecl-search-toggle="true" aria-controls="search-form-id" aria-expanded="false">
+								<svg focusable="false" aria-hidden="true" class="ecl-icon ecl-icon--s" width="24"
+									 height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<path d="M22.457 20.018L17.67 15.46l-.065-.063a8.322 8.322 0 001.493-4.746C19.097 5.864 15.034 2 10.048 2 5.063 2 1 5.843 1 10.63c0 4.789 4.063 8.653 9.048 8.653a9.284 9.284 0 004.964-1.428l.065.063 4.766 4.578a1.946 1.946 0 002.613 0c.725-.672.725-1.785 0-2.478h.001zM10.05 16.28c-3.272 0-5.908-2.52-5.908-5.65 0-3.128 2.636-5.648 5.908-5.648 3.25 0 5.908 2.52 5.908 5.649S13.3 16.28 10.05 16.28z"/>
+								</svg>
+								Search</a>
+							<form action="https://ec.europa.eu/search" id="search-form-id" data-ecl-search-form="true"
+								  class="ecl-site-header-core__search ecl-search-form" role="search">
+								<input type="hidden" name="query_source" value="TAXUD">
+								<div class="ecl-form-group ecl-form-group--text-input"><label
+										class="ecl-search-form__label ecl-form-label"
+										for="search-input-id">Search</label><input type="search" id="search-input-id"
+																															class="ecl-search-form__text-input ecl-text-input"
+																															name="QueryText"/></div>
+								<button aria-label="Search" type="submit" class="ecl-search-form__button ecl-button ecl-button--search">
+									<span class="ecl-button__container">
+										<span class="ecl-button__label" data-ecl-label="true">Search</span>
+										<svg focusable="false" aria-hidden="true" data-ecl-icon="true"
+											 class="ecl-button__icon ecl-button__icon--after ecl-icon ecl-icon--s">
+											<path d="M22.457 20.018L17.67 15.46l-.065-.063a8.322 8.322 0 001.493-4.746C19.097 5.864 15.034 2 10.048 2 5.063 2 1 5.843 1 10.63c0 4.789 4.063 8.653 9.048 8.653a9.284 9.284 0 004.964-1.428l.065.063 4.766 4.578a1.946 1.946 0 002.613 0c.725-.672.725-1.785 0-2.478h.001zM10.05 16.28c-3.272 0-5.908-2.52-5.908-5.65 0-3.128 2.636-5.648 5.908-5.648 3.25 0 5.908 2.52 5.908 5.649S13.3 16.28 10.05 16.28z"/>
+										</svg>
+                                    </span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<nav data-ecl-auto-init="Menu" class="ecl-menu--group1 ecl-menu" aria-expanded="false" data-ecl-menu="true">
+					<div class="ecl-menu__overlay" data-ecl-menu-overlay="true"></div>
+					<div class="ecl-container ecl-menu__container">
+						<a class="ecl-link ecl-link--standalone ecl-menu__open" href="javascript:void(0)" data-ecl-menu-open="true">
+							<svg focusable="false" class="ecl-icon ecl-icon--s" fill="#fff" aria-hidden="true" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M0 19.2h24v2.402H0zm0-8.4h24v2.4H0zm0-8.402h24v2.403H0zm0 0"/></svg>
+							Menu
+						</a>
+						<div class="ecl-menu__site-name">Taxation and Customs Union </div>
+						<section class="ecl-menu__inner" data-ecl-menu-inner="true">
+							<header class="ecl-menu__inner-header">
+								<button data-ecl-menu-close="true" type="submit"
+										class="ecl-menu__close ecl-button ecl-button--text">
+                                  <span class="ecl-menu__close-container ecl-button__container">
+                                      <svg focusable="false" aria-hidden="true" data-ecl-icon="true" class="ecl-button__icon ecl-button__icon--after ecl-icon ecl-icon--s" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <path fill="#ffffff" d="M16.538 15.205L13.32 11.99l3.199-3.194-1.332-1.332-3.2 3.193L8.812 7.48 7.48 8.812l3.177 3.177-3.195 3.199 1.334 1.333 3.193-3.2 3.217 3.217 1.333-1.333zm5.594-7.49a10.886 10.886 0 00-2.355-3.492 10.882 10.882 0 00-3.492-2.355A10.906 10.906 0 0012 1c-1.488 0-2.93.293-4.286.868a10.958 10.958 0 00-3.492 2.355 10.888 10.888 0 00-2.355 3.492A10.925 10.925 0 001 12a10.958 10.958 0 003.222 7.778 10.9 10.9 0 003.492 2.355C9.07 22.707 10.512 23 12 23a10.964 10.964 0 007.777-3.222 10.912 10.912 0 002.355-3.492A10.94 10.94 0 0023 12c0-1.487-.294-2.93-.868-4.285zM21.702 12a9.642 9.642 0 01-2.844 6.858A9.619 9.619 0 0112 21.703a9.635 9.635 0 01-6.859-2.844A9.617 9.617 0 012.298 12a9.619 9.619 0 012.843-6.859A9.615 9.615 0 0112 2.298a9.619 9.619 0 016.858 2.843A9.623 9.623 0 0121.703 12z"/>
+                                      </svg>
+                                     <span class="ecl-button__label" data-ecl-label="true">Close</span>
+                                  </span>
+								</button>
+
+								<div class="ecl-menu__title">Taxation and Customs Union </div>
+								<button data-ecl-menu-back="true" type="submit" class="ecl-menu__back ecl-button ecl-button--text">
+                                    <span class="ecl-button__container">
+                                         <svg focusable="false" aria-hidden="true" data-ecl-icon="true" class="ecl-button__icon ecl-button__icon--before ecl-icon ecl-icon--s ecl-icon--rotate-270">
+                                            <use xlink:href="europa/ecl/images/icons/sprites/icons.svg#ui--corner-arrow"></use>
+                                         </svg>
+                                     <span class="ecl-button__label" data-ecl-label="true">Back</span>
+                                    </span>
+								</button>
+							</header>
+
+                            <ul class="ecl-menu__list" data-ecl-menu-list="true">
+                                <li class="ecl-menu__item--current" style="padding-right: 1rem; padding-left: 1rem; margin-right: 0px; margin-left: 0px;" data-ecl-menu-item="true"><a
+                                        href='https://ec.europa.eu/taxation_customs/dds2/taric/help/index.jsp?Lang=en'
+                                        class="ecl-menu__link" data-ecl-menu-link="true">Help</a></li>
+                                <li class="ecl-menu__item--current" style="padding-right: 1rem; padding-left: 1rem; margin-right: 0px; margin-left: 0px;" data-ecl-menu-item="true"><a
+                                        href='https://ec.europa.eu/taxation_customs/dds2/taric/news/newstar.jsp?Lang=en'
+                                        class="ecl-menu__link" data-ecl-menu-link="true">What's new?</a></li>
+                                <li class="ecl-menu__item--current" style="padding-right: 1rem; padding-left: 1rem; margin-right: 0px; margin-left: 0px;" data-ecl-menu-item="true"><a
+                                        href='http://ec.europa.eu/taxation_customs/business/calculation-customs-duties/what-is-common-customs-tariff/taric_en'
+                                        class="ecl-menu__link" data-ecl-menu-link="true">Information</a></li>
+                                <li class="ecl-menu__item--current" style="padding-right: 1rem; padding-left: 1rem; margin-right: 0px; margin-left: 0px;" data-ecl-menu-item="true"><a
+                                        href='https://ec.europa.eu/taxation_customs/dds2/taric/help/dds_tar_faq_en.pdf'
+                                        class="ecl-menu__link" data-ecl-menu-link="true">FAQ</a></li>
+                                <li class="ecl-menu__item--current" style="padding-right: 1rem; padding-left: 1rem; margin-right: 0px; margin-left: 0px;" data-ecl-menu-item="true"><a
+                                        href='mailto:TAXUD-DDS-TARIC@ec.europa.eu'
+                                        class="ecl-menu__link" data-ecl-menu-link="true">Contact TARIC</a></li>
+    
+
+</ul>
+</section>
+</div>
+</nav>
+</div>
+
+<div id="language-list-overlay" hidden="" class="ecl-language-list ecl-language-list--overlay"
+aria-labelledby="ecl-language-list__title" role="dialog" data-ecl-language-list-overlay="true">
+<div class="ecl-language-list__container ecl-container">
+<div class="ecl-row">
+<div class="ecl-language-list__close ecl-col-12 ecl-col-lg-8 ecl-offset-lg-2">
+<button onclick="closeOverlay()" data-ecl-language-list-close="true" type="submit"
+        class="ecl-language-list__close-button ecl-button ecl-button--ghost">
+    <span
+            class="ecl-button__container"><span class="ecl-button__label" data-ecl-label="true">Close</span>
+    <svg focusable="false" aria-hidden="true" data-ecl-icon="true" class="ecl-button__icon ecl-button__icon--after ecl-icon ecl-icon--s" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill="#ffffff" d="M16.538 15.205L13.32 11.99l3.199-3.194-1.332-1.332-3.2 3.193L8.812 7.48 7.48 8.812l3.177 3.177-3.195 3.199 1.334 1.333 3.193-3.2 3.217 3.217 1.333-1.333zm5.594-7.49a10.886 10.886 0 00-2.355-3.492 10.882 10.882 0 00-3.492-2.355A10.906 10.906 0 0012 1c-1.488 0-2.93.293-4.286.868a10.958 10.958 0 00-3.492 2.355 10.888 10.888 0 00-2.355 3.492A10.925 10.925 0 001 12a10.958 10.958 0 003.222 7.778 10.9 10.9 0 003.492 2.355C9.07 22.707 10.512 23 12 23a10.964 10.964 0 007.777-3.222 10.912 10.912 0 002.355-3.492A10.94 10.94 0 0023 12c0-1.487-.294-2.93-.868-4.285zM21.702 12a9.642 9.642 0 01-2.844 6.858A9.619 9.619 0 0112 21.703a9.635 9.635 0 01-6.859-2.844A9.617 9.617 0 012.298 12a9.619 9.619 0 012.843-6.859A9.615 9.615 0 0112 2.298a9.619 9.619 0 016.858 2.843A9.623 9.623 0 0121.703 12z"/>
+    </svg>
+</span>
+</button>
+</div>
+<div class="ecl-language-list__title ecl-col-12 ecl-col-lg-8 ecl-offset-lg-2"
+ id="ecl-language-list__title">
+<svg focusable="false" aria-hidden="true"
+     class="ecl-language-list__title-icon ecl-icon ecl-icon--m" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path fill="#ffffff" d="M15.134 12.329h1.842c.303-.653.49-1.353.536-2.1h-2.076c-.023.77-.14 1.47-.303 2.1zm.326-2.938h2.076A5.82 5.82 0 0017 7.29h-1.865c.162.63.28 1.33.326 2.1zm-3.358 3.777v2.401c.373-.28 1.235-1.026 1.842-2.401h-1.842zm2.729 0a7.872 7.872 0 01-1.307 2.192c1.213-.42 2.239-1.166 2.962-2.192H14.83zm.046-6.716h1.632a5.881 5.881 0 00-2.915-2.215c.42.536.91 1.259 1.282 2.215h.001zm-.606.84H12.1V9.39h2.52c-.047-.793-.164-1.493-.35-2.1zm.326 2.938h-2.495v2.099h2.169a7.944 7.944 0 00.326-2.1zm-.653-3.8c-.186-.514-.466-.933-.7-1.283-.35-.466-.7-.793-.956-1.003-.047-.07-.116-.093-.186-.14V6.43h1.842zm-4.524 0h1.866V4.027c-.397.28-1.26 1.05-1.866 2.401zm-2.541 0h1.655A7.34 7.34 0 019.84 4.237 5.957 5.957 0 006.879 6.43zm1.026 3.777H5.829a5.7 5.7 0 00.536 2.098h1.842c-.163-.63-.256-1.306-.303-2.098zm.326-2.939H6.39a6.367 6.367 0 00-.56 2.1h2.099c.047-.77.14-1.47.303-2.1zM0 13.818c0 2.822 2.192 5.091 5.09 5.091h3.637L17.455 24v-5.09h1.454c2.875 0 5.091-1.87 5.091-4.693V5.091C24 2.269 21.784 0 18.91 0H5.09C2.193 0 0 2.27 0 5.09v8.728zm4.99-4.031c0-3.708 3.008-6.716 6.715-6.692a6.663 6.663 0 016.67 6.715c0 3.708-3.008 6.716-6.716 6.693a6.663 6.663 0 01-6.67-6.716zm3.521 3.358H6.856a6.044 6.044 0 002.938 2.215 7.476 7.476 0 01-1.282-2.215zm.606-.84h2.146v-2.098H8.767c.024.792.14 1.492.35 2.098zm-.349-2.938h2.495V7.268H9.095c-.187.607-.28 1.307-.327 2.1zm.63 3.801c.21.49.489.91.722 1.259.35.443.7.793.956 1.003a.45.45 0 00.163.14v-2.402H9.397z"/>
+</svg>
+Select your language
+</div>
+</div>
+<div class="ecl-row">
+<div class="ecl-language-list__column ecl-col-12 ecl-col-lg-4 ecl-offset-lg-2">
+<ul class="ecl-language-list__list">
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="bg"
+                                            hrefLang="bg"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=bg&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Български
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="cs"
+                                            hrefLang="cs"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=cs&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Čeština
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="da"
+                                            hrefLang="da"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=da&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Dansk
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="de"
+                                            hrefLang="de"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=de&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Deutsch
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="et"
+                                            hrefLang="et"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=et&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Eesti keel
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="el"
+                                            hrefLang="el"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=el&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Ελληνικα
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item ecl-language-list__item--is-active"><a
+            lang="en"
+            hrefLang="en"
+            rel="alternate"
+            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=en&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+            class="ecl-language-list__link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
+            class="ecl-link__label">English</span>
+        <svg focusable="false" aria-hidden="true" class="ecl-link__icon ecl-icon ecl-icon--xs" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.333 4L9 13.465 4.778 9.183l-3.111 3.155L9 20 21.667 7.155z"/></svg>
+    </a></li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="es"
+                                            hrefLang="es"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=es&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Español
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="fr"
+                                            hrefLang="fr"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=fr&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Français
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="hr"
+                                            hrefLang="hr"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=hr&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Hrvatski
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="it"
+                                            hrefLang="it"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=it&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Italiano
+    </a>
+    </li>
+    
+</ul>
+</div>
+<div class="ecl-language-list__column ecl-col-12 ecl-col-lg-4">
+<ul class="ecl-language-list__list">
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="lv"
+                                            hrefLang="lv"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=lv&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Latviešu valoda
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="lt"
+                                            hrefLang="lt"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=lt&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Lietuvu kalba
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="hu"
+                                            hrefLang="hu"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=hu&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Magyar
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="nl"
+                                            hrefLang="nl"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=nl&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Nederlands
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="pl"
+                                            hrefLang="pl"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=pl&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Polski
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="pt"
+                                            hrefLang="pt"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=pt&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Português
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="ro"
+                                            hrefLang="ro"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=ro&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Română
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="sk"
+                                            hrefLang="sk"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=sk&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Slovenčina
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="sl"
+                                            hrefLang="sl"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=sl&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Slovenščina
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="fi"
+                                            hrefLang="fi"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=fi&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Suomi
+    </a>
+    </li>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+    
+    
+    <li class="ecl-language-list__item "><a lang="sv"
+                                            hrefLang="sv"
+                                            rel="alternate"
+                                            href="https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?AdditionalCode=&MeasText=&logoPath=europa%2fecl%2fimages%2flogo&Lang=sv&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&europaPath=europa&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll="
+                                            class="ecl-language-list__link ecl-link ecl-link--standalone">Svenska
+    </a>
+    </li>
+    
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</header>
+</div>
+
+
+</body>
+</html>
+    </div>
+
+
+
+	<STYLE>
+		#example {
+			HEIGHT: 30em;
+		}
+
+		LABEL {
+			CLEAR: left; DISPLAY: block; FLOAT: left; WIDTH: 45%;
+		}
+
+		.clear {
+			CLEAR: both;
+		}
+
+		#resp {
+			BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 10px; BORDER-LEFT:
+
+		#ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid
+		}
+
+		#resp LI {
+			FONT-FAMILY: monospace
+		}
+
+
+	</STYLE>
+
+
+<div id="measure_panel" style="display:none; background-color: #FFFFFF;">
+
+
+
+<!------------------------>
+<!--  Duty rates title  -->
+<div id="div_duty_rate_title" class="ecl-container">
+        
+    
+            
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/css/ecl-ec-preset-website.css" media="screen">
+    <link type="text/css" rel="stylesheet" href="https://ec.europa.eu/taxation_customs/dds2/taric/europa/ecl/css/ecl-ec-preset-website-print.css" media="print">
+</head>
+
+
+<body>
+
+
+    
+    <nav data-ecl-auto-init="BreadcrumbHarmonised"
+         class="ecl-page-header-harmonised__breadcrumb ecl-breadcrumb-harmonised"
+         aria-label="You are here:" data-ecl-breadcrumb-harmonised="true">
+        <ol class="ecl-breadcrumb-harmonised__container">
+            <li class="ecl-breadcrumb-harmonised__segment"
+                data-ecl-breadcrumb-harmonised-item="static" aria-hidden="false"><a
+                    href='http://ec.europa.eu/index_en.htm'
+                    class="ecl-breadcrumb-harmonised__link ecl-link ecl-link--standalone">European Commission</a>
+                <svg focusable="false" aria-hidden="true" role="presentation"
+                     class="ecl-breadcrumb-harmonised__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-90" width="24" height="24"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.623 19.5L12 9.83 3.377 19.5 1 16.835 12 4.5l11 12.335z"/>
+                </svg>
+            </li>
+            <li class="ecl-breadcrumb-harmonised__segment"
+                data-ecl-breadcrumb-harmonised-item="static" aria-hidden="false"><a
+                    href='https://ec.europa.eu/taxation_customs/index_en'
+                    class="ecl-breadcrumb-harmonised__link ecl-link ecl-link--standalone">Taxation and Customs Union </a>
+                <svg focusable="false" aria-hidden="true" role="presentation"
+                     class="ecl-breadcrumb-harmonised__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-90" width="24" height="24"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.623 19.5L12 9.83 3.377 19.5 1 16.835 12 4.5l11 12.335z"/>
+                </svg>
+            </li>
+            <li class="ecl-breadcrumb-harmonised__segment"
+                data-ecl-breadcrumb-harmonised-item="static" aria-hidden="false"><a
+                    href='http://ec.europa.eu/taxation_customs/online-services_en'
+                    class="ecl-breadcrumb-harmonised__link ecl-link ecl-link--standalone">Databases</a>
+                <svg focusable="false" aria-hidden="true" role="presentation"
+                     class="ecl-breadcrumb-harmonised__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-90" width="24" height="24"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.623 19.5L12 9.83 3.377 19.5 1 16.835 12 4.5l11 12.335z"/>
+                </svg>
+            </li>
+            </li>
+
+
+            
+            <li class="ecl-breadcrumb-harmonised__segment"
+                data-ecl-breadcrumb-harmonised-item="static" aria-hidden="false">
+
+                <a href="https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+                   class="ecl-breadcrumb-harmonised__link ecl-link ecl-link--standalone">TARIC
+                </a>
+                <svg focusable="false" aria-hidden="true" role="presentation"
+                     class="ecl-breadcrumb-harmonised__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-90" width="24" height="24"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.623 19.5L12 9.83 3.377 19.5 1 16.835 12 4.5l11 12.335z"/>
+                </svg>
+                <span class="ecl-breadcrumb__current-page">TARIC Measures Information
+                </span>
+            </li>
+            
+        </ol>
+    </nav>
+
+</body>
+</html>
+        
+            <!-- Message Container-->
+            <div id="message-container"></div>
+
+<div  class="welcome-area" >
+	<table width="100%">
+		<tr>
+			<td>
+        <table>
+          <tr>
+            <td>
+                <h1 class="ecl-page-header-harmonised__title">TARIC measure information</h1>
+            </td>
+            <td>
+              
+                
+                
+                
+                  
+                  
+                  
+                  <span class="action" onclick="tryToExpandAll('measures.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=true&DomainNameLink=taric_consultation.jsp', 'deferred_measures.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=true&DomainNameLink=taric_consultation.jsp')">[Show all information]</span>
+                
+              
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td style="text-align: right; vertical-align: top;">
+        <table align="right" style="text-align: right; vertical-align: top;">
+          <tr>
+            <td class="simulationdate" style="text-align: right; vertical-align: top;">
+              The reference date is
+              <span id="simulationdate1" style="vertical-align: top;">24-10-2026</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="last_update_date" style="text-align: right; vertical-align: top;">
+              Last TARIC update:&nbsp;
+              
+                23-10-2026
+              
+            </td>
+          </tr>
+        </table>
+      </td>
+		</tr>
+	</table>
+	</div>
+
+<!------------------->
+<!-- <div>
+  <table class="searhed_criteria_table">
+	 <tr>
+	  <td class="td_searhed_criteria">
+	   <input type="checkbox" name="matchingGoodsChoice" value="true"
+	   
+	    onclick ="switchGoodsDisplay(this.checked == true);">Show matching goods only
+	  </td>
+	 </tr>
+	</table>
+</div> -->
+    <!-- searched criteria summary  -->
+<div>
+  <table class="searhed_criteria_table">
+	
+	 <tr>
+	  <td class="td_searhed_criteria">
+	   Area: <span id="area_description"></span>
+	  </td>
+	 </tr>
+	
+	
+	  <tr>
+	  <td class="td_searhed_criteria">
+	   Goods nomenclature code: 1108140000
+	  </td>
+	 </tr>
+	
+	
+    
+    
+	
+	
+    
+    
+	
+	
+	
+	
+	
+	
+    
+        <tr>
+            <td class="td_searhed_criteria">
+              Add code: 
+            </td>
+        </tr>
+    
+  </table>
+</div>
+
+  <!-- If the response exists -->
+
+
+<!------------------->
+<!--  result report info  -->
+<div id="report_result_info">
+
+
+
+<!------------------->
+<!--  No data  -->
+
+
+<!------------------->
+<!--  Data found report  -->
+
+
+
+
+
+
+
+
+
+<!--  navigation -->
+<!--  This section is duplicate in the page. Remember to update both. -->
+
+<div id="navigation" align=center>
+	<table>
+		<tr>
+			<td>
+			
+		 	</td>
+
+			
+
+			<td>
+				
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!--  navigation end  -->
+
+</div>
+<!--  result report info end  -->
+
+<script>
+
+  function callGivenUrl(uribase,offset)
+    {
+	    var link = new url(uribase);
+	    link.setParameter("Lang",'en');
+	    link.setParameter("Taric",'1108140000');
+	    link.setParameter("GoodsText",'');
+	    link.setParameter("Domain",'TARIC');
+	    link.setParameter("MeasText",'');
+	    link.setParameter("Offset",offset);
+	    link.setParameter("Area",'VN');
+        link.setParameter("AdditionalCode", )
+	    link.setParameter("ShowMatchingGoods",matchingGoodsOnly);
+	    link.setParameter("ExpandAll",'');
+	    link.setParameter("LangDescr",'');
+	    link.setParameter("callbackuri",'CBU-1');
+	    link.setParameter("SimDate",'20261024');
+	    
+	    
+	    
+	    
+	    
+	    
+	    document.location.href = link.currentUrl;
+    }
+
+</script>
+
+
+<!------------------->
+<!--  Nomenclature list  -->
+<div id="div_nomenclature_list" >
+  
+  
+    
+    
+    
+    
+    <!-- will be copied at the end of the goods descritpion line and remove from here -->
+        
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+          
+          
+          
+          <span style="display: none;" class="iframe_expand_all_measure"></span>
+        
+
+
+        
+        
+
+        
+        
+
+
+    <div id="1108140000" >
+      
+        
+          
+          
+        
+        
+          
+          
+        
+        
+          
+          
+        
+        
+          
+          
+        
+      
+
+        <div id="1108140000_end_goods" style="white-space: nowrap;"><span class="blue_link iframe_expand_all_goods_code_taric_1108140000_1792877584982" style="display: none;" onclick="expandCollapseIFrame('taric_1108140000_1792877584982', 'measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJw9x7ERADAIAsCFLBAh6v6LJVWqv6%2bZo3IQhqUQvWyHsrMW7%2bn%2b8gkVMi4%2fswsh&FrameId=taric_1108140000_1792877584982&Lang=en');"></span>&nbsp;<img style="cursor: pointer; display: none;" src="https://ec.europa.eu/taxation_customs/dds2/taric/images/goods_menu.png" width="10" heigth="10" onclick="showGoodsMenu('<div class=\u0027cust_goods_menu_table popup_indexz1\u0027><div class=\u0027cust_popup_other_domains_links\u0027 onclick=\u0022goToLink(\u0027goods_description.jsp?Lang=en&LangDescr=en&SimDate=20261024&Taric=1108140000\u0027);\u0022><i18n:item item=\u0027link.show.goods.description\u0027>Goods description</i18n:item></div><div class=\u0027cust_popup_other_domains_links\u0027 onclick=\u0022goToLink(\u0027http://ec.europa.eu/taxation_customs/dds2/ebti/ebti_consultation.jsp?nomenc=1108140000&amp;Lang=EN&amp;SimDate=20261024\u0027);\u0022><i18n:item item=\u0027link.domain.ebti\u0027>Binding tariff information</i18n:item></div><div class=\u0027cust_popup_other_domains_links\u0027 onclick=\u0022goToLink(\u0027http://ec.europa.eu/taxation_customs/dds2/ecics/chemicalsubstance_consultation.jsp?&amp;CnCode=11081400&amp;Lang=EN&amp;SimDate=20261024\u0027);\u0022><i18n:item item=\u0027link.domain.ecics\u0027>Chemical substance information</i18n:item></div><div class=\u0027cust_popup_other_domains_links\u0027 onclick=\u0022goToLink(\u0027http://ec.europa.eu/taxation_customs/dds2/taric/suspension_consultation.jsp?Taric=1108140000&amp;Lang=en&amp;SimDate=20261024\u0027);\u0022><i18n:item item=\u0027link.domain.susp.in.force\u0027>Suspensions in force</i18n:item></div><div class=\u0027cust_popup_other_domains_links\u0027 onclick=\u0022goToLink(\u0027http://ec.europa.eu/taxation_customs/dds2/susp/susp_consultationtaric.jsp?taricCode=1108140000&amp;Lang=en&amp;SimDate=20261024\u0027);\u0022><i18n:item item=\u0027link.domain.susp.in.preparation\u0027>Suspensions in preparation</i18n:item></div></div>',event);"></img></div>
+
+
+      <div id="1108140000_iframe_content">
+      </div>
+      <div id="div_taric_1108140000_1792877584982">
+      </div>
+      
+    </div>
+  
+</div>
+
+
+
+
+  
+  
+    
+      
+        <div id='taric_1108140000_1792877584982' name='taric_1108140000_1792877584982' style='display: none;'><iframe id='dds_iframe_taric_1108140000_1792877584982' name='dds_iframe_taric_1108140000_1792877584982' src='https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJw9x7ERADAIAsCFLBAh6v6LJVWqv6%2bZo3IQhqUQvWyHsrMW7%2bn%2b8gkVMi4%2fswsh&FrameId=taric_1108140000_1792877584982&Lang=en' width='100%' style='display: none; height: 100%'></iframe><div id='div_taric_1108140000_1792877584982' name='div_taric_1108140000_1792877584982'></div><div id='iframe_page_taric_1108140000_1792877584982' name='iframe_page_taric_1108140000_1792877584982' style='display:none;'></div><div id='iframe_text_taric_1108140000_1792877584982' name='iframe_text_taric_1108140000_1792877584982' style='display:none;'></div><div id='callback_taric_1108140000_1792877584982' name='callback_taric_1108140000_1792877584982' style='display:none;'>true</div><div id='iframe_other_dest_taric_1108140000_1792877584982' name='iframe_other_dest_taric_1108140000_1792877584982' style='display:none;'>1108140000_iframe_content</div></div>
+      
+      
+    
+    
+  
+
+
+
+
+<!------------------->
+<!--  Description  -->
+
+    <div id="div_description">
+	<div id="div_description_content" class="div_content" style="display: block; padding-left: 0px;">
+		<div id="chapterhierarchy">
+		  <div style="padding:0px 0px;" class='section' id='section' sid='section$code$'>
+		    <table width="100%"><tbody><tr><td class='chaplabel'><nobr>$label$</nobr></td><td class='tddescription to_highlight' name="description_td">$description$</td></tr></tbody></table>
+		  </div>
+		  <div style="padding-top:15px;" class='chapter' id='chapter' sid='chap$code$'>
+		    <table width="100%">
+		    	<tbody>
+		    		<tr>
+		    			<td class='chaplabel'><nobr>$label$</nobr></td>
+		    			<td class='tddescription to_highlight' name="description_td">$description$<span id="footnote_parenthesis" class="footnote_parenthesis" style='display: inline;'>&nbsp;$footnotes$</span></td>
+		    		</tr>
+		    	</tbody>
+		    </table>
+		  </div>
+		  <div id='to_be_copied_leaf' sid='$code$-$level$' style="background-color: #FFFFFF;" class='nomenclaturecode codelev$codeLevel$ $class$'>
+		    <table width="100%"><tbody><tr><td class='tdlabel' style="width: 110px; white-space: nowrap;" id="$code$_code_expand_$isLeaf$"><span class='code'><nobr>$trimedCode$</nobr></span></td>
+                                    <td class='tddescription' width=><table cellpadding="0" cellspacing="0"><tr><td style="vertical-align: middle; display:flex; margin-right:3px;"><nobr>$indent$</nobr></td><td style="vertical-align: top; display: table-cell;" class="to_highlight" name="description_td">$description$<span id="footnote_parenthesis" class="footnote_parenthesis" style='vertical-align: top;display: inline;'>&nbsp;$footnotes$</span></td></tr></table></td>
+		    
+		    </tr></tbody></table>
+		  </div>
+		  <div id='to_be_copied_expanded' sid='$code$-$level$' style="background-color: #FFFFFF;" class='nomenclaturecode codelev$codeLevel$ $class$'>
+		    <table width="100%"><tbody><tr><td class='tdlabel' style="width: 110px; white-space: nowrap;" id="$code$_code_expand_$isLeaf$"><span class='code'><nobr>$trimedCode$</nobr></span></td>
+                                    <td class='tddescription' width=><table cellpadding="0" cellspacing="0"><tr><td style="vertical-align: middle; display:flex; margin-right:3px;"><nobr>$indent$</nobr></td><td style="vertical-align: text-top; display: table-cell;" class="to_highlight" name="description_td">$description$<span id="footnote_parenthesis" class="footnote_parenthesis" style='display: inline;'>&nbsp;$footnotes$</span></td></tr></table></td>
+		    
+		    </tr></tbody></table>
+		  </div>
+		  <div id='to_be_copied_collapsed' sid='$code$-$level$' style="background-color: #FFFFFF;" class='nomenclaturecode codelev$codeLevel$$class$'>
+		    <table width="100%"><tbody><tr><td class='tdlabel' style="width: 110px; white-space: nowrap;" ><span class='code' id="$code$_code_expand_$isLeaf$"><nobr>$trimedCode$</nobr></span></td>
+                                    <td class='tddescription' width=><table cellpadding="0" cellspacing="0"><tr><td style="vertical-align: middle; display:flex; margin-right:3px;"><nobr>$indent$</nobr></td><td style="vertical-align: text-top; display: table-cell;" name="description_td"  class='tddescription to_highlight'>$description$<span id="footnote_parenthesis" class="footnote_parenthesis" style='display: inline;'>&nbsp;$footnotes$</span></td></tr></table></td>
+		      
+		    </tr></tbody></table>
+		  </div>
+		  <!-- Begin specific code for ern infos -->
+			<div id='to_be_copied_ernCode' sid='$ernCode$-$ernProdLine$' style="background-color: #FFFFFF;" class='nomenclaturecode'>
+		    <table width="100%"><tbody><tr><td class='tdlabel' style="width: 110px; white-space: nowrap;" ><span class='erncode' id="$ernCode$_code_expand_1"><nobr>$ernCode$</nobr></span></td>
+                                    <td class='tddescription' width=><table cellpadding="0" cellspacing="0"><tr><td style="vertical-align: middle; display:flex; margin-right:3px;"><nobr>$ernIndent$</nobr></td><td style="vertical-align: top; display: table-cell;" class="to_highlight" name="description_td">$ernDesc$<span id="footnote_parenthesis" class="footnote_parenthesis" style='vertical-align: top;display: inline;'>&nbsp;$footnotes$</span></td></tr></table></td>
+		    
+		    </tr></tbody></table>
+		  </div>
+		  <!-- End specific code for ern infos -->
+		</div>
+    </div>
+    <span id="footnote_parenthesis_model" style="display: none;" ><a class="ecl-link ecl-link--standalone" onclick="stopPropagation(event);" href="#$footnote_ref$" class="footnote_link" id="ftnlink_$footnote_ref$" name="footnote_link" >($footnote_ref$)</a></span>
+    </div>
+
+
+<!--  navigation -->
+<!--  This section is duplicate in the page. Remember to update both. -->
+
+<div id="navigation" align=center>
+	<table>
+		<tr>
+			<td>
+			
+		 	</td>
+
+			
+
+			<td>
+				
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!--  navigation end  -->
+
+
+
+  <!-- End If the response exists -->
+
+<!-------------------------->
+<!------ Footnotes --------->
+
+<div id="div_footnotes">
+  <table id="table_footnotes" width="100%"></table>
+</div>
+<div class="top-link">
+    <a class="ecl-link ecl-link--standalone" href="#top">Top</a>
+</div>
+
+</div>
+</div>
+
+    <div>
+        
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+<html>
+<body>
+<footer class="ecl-footer-harmonised--group1 ecl-footer-harmonised">
+    <div class="ecl-container ecl-footer-harmonised__container">
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section1"><a href="https://ec.europa.eu/taxation_customs/home_en" class="ecl-footer-harmonised__title ecl-link ecl-link--standalone">Taxation and Custom Union</a>
+        </div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section2">
+            <div class="ecl-footer-harmonised__title ecl-footer-harmonised__title--separator">Contact us</div>
+            <ul class="ecl-footer-harmonised__list">
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/taxation_customs/contacts_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Contact information of the DG TAXUD</a></li>
+            </ul>
+        </div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section3">
+            <div class="ecl-footer-harmonised__title ecl-footer-harmonised__title--separator">About us</div>
+            <ul class="ecl-footer-harmonised__list">
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/taxation_customs/newsletters_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Newsletter</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/taxation_customs/dds2/taric/faq/20131127-Contact-List.pdf#zoom=125" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Contact List</a></li>
+            </ul>
+        </div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section4">
+            <div class="ecl-footer-harmonised__title ecl-footer-harmonised__title--separator">Follow us on</div>
+            <ul class="ecl-footer-harmonised__list ecl-footer-harmonised__list--inline">
+                <li class="ecl-footer-harmonised__list-item"><a href="https://www.flickr.com/photos/146315122@N05" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-before">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 50 50" class="ecl-link__icon ecl-icon ecl-icon--xs">
+                        <path fill="#ffffff" d="M 20,0 V 40 H 60 V 0 Z m 14.4,24.5 c -2.5,0 -4.4,-2 -4.4,-4.4 0,-2.5 2,-4.4 4.4,-4.4 2.5,0 4.4,2 4.4,4.4 0,2.4 -2,4.4 -4.4,4.4 z m 11.2,0 c -2.5,0 -4.4,-2 -4.4,-4.4 0,-2.5 2,-4.4 4.4,-4.4 2.5,0 4.4,2 4.4,4.4 0,2.4 -2,4.4 -4.4,4.4 z"/>
+                    </svg><span class="ecl-link__label">Flickr</span></a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://twitter.com/EU_Taxud" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-before">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ecl-link__icon ecl-icon ecl-icon--xs">
+                        <path fill="#ffffff" d="M20.592 8.031C20.592 14.068 16.104 21 7.896 21 5.269 21 2.86 20.217 1 18.876h.985c2.08 0 3.94-.783 5.582-2.013a4.415 4.415 0 01-4.268-3.13c.437.112.656.112.875.112.438 0 .766 0 1.204-.112-2.08-.447-3.612-2.236-3.612-4.472.657.223 1.314.559 2.08.559-1.314-.783-2.08-2.236-2.08-3.801 0-.895.22-1.677.657-2.348 2.189 2.907 5.582 4.695 9.303 4.92-.11-.448-.11-.672-.11-1.007 0-2.46 2.08-4.584 4.488-4.584 1.423 0 2.627.559 3.394 1.453.985-.111 1.97-.559 2.845-1.006-.219 1.006-.985 2.013-1.97 2.46.876-.112 1.751-.447 2.627-.783-.766.783-1.532 1.565-2.408 2.236v.671z"/>
+                    </svg><span class="ecl-link__label">Twitter</span></a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://www.youtube.com/EUTaxud" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-before">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ecl-link__icon ecl-icon ecl-icon--xs">
+                        <path fill="#ffffff" d="M9.729 15.32l-.001-7.191 5.944 3.608-5.943 3.582zM22.78 6.882s-.215-1.763-.874-2.54c-.837-1.02-1.775-1.024-2.205-1.084C16.623 3 12.005 3 12.005 3h-.01S7.377 3 4.3 3.259c-.43.06-1.368.065-2.205 1.084-.66.777-.874 2.54-.874 2.54S1 8.954 1 11.025v1.942c0 2.07.22 4.142.22 4.142s.215 1.763.874 2.54c.837 1.02 1.936.987 2.426 1.094C6.28 20.939 12 21 12 21s4.623-.008 7.701-.267c.43-.06 1.368-.065 2.205-1.084.66-.777.874-2.54.874-2.54s.22-2.071.22-4.142v-1.942c0-2.07-.22-4.142-.22-4.142z"/></svg>
+                    <span class="ecl-link__label">YouTube</span></a></li>
+            </ul>
+        </div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section7"><a href="https://ec.europa.eu/info/index_en" class="ecl-footer-harmonised__title ecl-link ecl-link--standalone">European Commission</a></div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section8">
+            <ul class="ecl-footer-harmonised__list">
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/about-european-commission/contact_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Contact the European Commission</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span class="ecl-link__label">Follow the European Commission on social media</span>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ecl-link__icon ecl-icon ecl-icon--xs">
+                        <path fill="#ffffff" d="M1 1l8.25.046v2.71H3.796V20.29H20.25v-5.465H23V23H1V1zm11.468 0H23v10.494l-3.944-3.93-5.892 5.87-2.599-2.588 5.847-5.824L12.468 1z"/>
+                    </svg>
+                </a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/about-commissions-new-web-presence" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">About the Commission's new web presence</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/resources-partners" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Resources for partners</a></li>
+            </ul>
+        </div>
+        <div class="ecl-footer-harmonised__section ecl-footer-harmonised__section9">
+            <ul class="ecl-footer-harmonised__list">
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/language-policy_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Language policy</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/cookies_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Cookies</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/privacy-policy_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Privacy policy</a></li>
+                <li class="ecl-footer-harmonised__list-item"><a href="https://ec.europa.eu/info/legal-notice_en" class="ecl-footer-harmonised__link ecl-link ecl-link--standalone">Legal notice</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    ECL.autoInit();
+    document.querySelector(".ecl-site-header-harmonised__logo-link").style.flex="1 0 auto";
+</script>
+</body>
+</html>
+    </div>
+
+
+
+</body></html>
+
+<!--form:dump_document/-->
+
+
+
+

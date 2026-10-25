@@ -1,0 +1,196 @@
+{
+ "country": "SY",
+ "act": "Council Regulation (EU) No 36/2012",
+ "legal_point": null,
+ "source": {
+  "celex": "02012R0036-20260520",
+  "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0036-20260520",
+  "cellar_url": "http://publications.europa.eu/resource/cellar/94c887a3-8acb-11f1-910d-01aa75ed71a1.0021.02/DOC_1",
+  "fetched_at": "2026-10-24T19:34:12+00:00",
+  "valid_on": "2026-10-24",
+  "sha256": "ee52d53521ef91e6ec66f3fbbcd4f6eecc2c8cd009fe5b849bed4203b14f0815",
+  "bytes": 1699553
+ },
+ "annexes": {
+  "XI": {
+   "annex": "XI",
+   "title": "List of categories of goods referred to in Article 11c ex CN code",
+   "flows": [
+    "import"
+   ],
+   "basis": [
+    {
+     "article": "11c",
+     "paragraph": null,
+     "flows": [
+      "import"
+     ],
+     "text": "Article 11c 1. It shall be prohibited to import, export, transfer, or provide brokering services related to the import, export or transfer of, Syrian cultural property goods and other goods of archaeological, historical, cultural, rare scientific or religious importance, including those listed in Annex XI, where there are reasonable grounds to suspect that the goods have been removed from Syria without the consent of their legitimate owner or have been removed in breach of Syrian law or international law, in particular if the goods form an integral part of either the public collections listed in the inventories of the conservation collections of Syrian museums, archives or libraries, or the inventories of Syrian religious institutions."
+    }
+   ],
+   "items": [
+    {
+     "cn": "97050000",
+     "ex": false,
+     "cn_text": "9705 00 00",
+     "description": "1. Archaeological objects more than 100 years old which are the products of:",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97060000",
+     "ex": false,
+     "cn_text": "9706 00 00",
+     "description": "— excavations and finds on land or under water",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "9701",
+     "ex": false,
+     "cn_text": "9701",
+     "description": "3. Pictures and paintings, other than those included in category 4 or 5, executed entirely by hand in any medium and on any material (1)",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "9701",
+     "ex": false,
+     "cn_text": "9701",
+     "description": "4. Water-colours, gouaches and pastels executed entirely by hand on any material (1)",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "69149701",
+     "ex": false,
+     "cn_text": "6914 9701",
+     "description": "5. Mosaics in any material executed entirely by hand, other than those falling in category 1 or 2, and drawings in any medium executed entirely by hand on any material (1)",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97030000",
+     "ex": false,
+     "cn_text": "9703 00 00",
+     "description": "7. Original sculptures or statuary and copies produced by the same process as the original (1) other than those in category 1",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97060000",
+     "ex": false,
+     "cn_text": "9706 00 00",
+     "description": "11. Printed maps more than 200 years old",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97050000",
+     "ex": false,
+     "cn_text": "9705 00 00",
+     "description": "13. (a) Collections (2) and specimens from zoological, botanical, mineralogical or anatomical collections;",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97050000",
+     "ex": false,
+     "cn_text": "9705 00 00",
+     "description": "(b) Collections (2) of historical, palaeontological, ethnographic or numismatic interest",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "95",
+     "ex": false,
+     "cn_text": "Chapter 95",
+     "description": "— toys, games",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "7013",
+     "ex": false,
+     "cn_text": "7013",
+     "description": "— glassware",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "7114",
+     "ex": false,
+     "cn_text": "7114",
+     "description": "— articles of goldsmiths' or silversmiths' wares",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "94",
+     "ex": false,
+     "cn_text": "Chapter 94",
+     "description": "— furniture",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "90",
+     "ex": false,
+     "cn_text": "Chapter 90",
+     "description": "— optical, photographic or cinematographic apparatus",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "92",
+     "ex": false,
+     "cn_text": "Chapter 92",
+     "description": "— musical instruments",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "91",
+     "ex": false,
+     "cn_text": "Chapter 91",
+     "description": "— clocks and watches and parts thereof",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "44",
+     "ex": false,
+     "cn_text": "Chapter 44",
+     "description": "— articles of wood",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "69",
+     "ex": false,
+     "cn_text": "Chapter 69",
+     "description": "— pottery",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "58050000",
+     "ex": false,
+     "cn_text": "5805 00 00",
+     "description": "— tapestries",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "57",
+     "ex": false,
+     "cn_text": "Chapter 57",
+     "description": "— carpets",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "4814",
+     "ex": false,
+     "cn_text": "4814",
+     "description": "— wallpaper",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "93",
+     "ex": false,
+     "cn_text": "Chapter 93",
+     "description": "— arms",
+     "part": "List of categories of goods referred to in Article 11c"
+    },
+    {
+     "cn": "97060000",
+     "ex": false,
+     "cn_text": "9706 00 00",
+     "description": "(b) more than 100 years old.",
+     "part": "List of categories of goods referred to in Article 11c"
+    }
+   ]
+  }
+ }
+}

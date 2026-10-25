@@ -1,0 +1,35 @@
+[
+  {
+    "file": "maersk-cn.html",
+    "url": "https://www.maersk.com.cn/news/articles/2026/09/07/pss-west-mediterranean-united-states-canada",
+    "status": 200,
+    "bytes": 49118,
+    "sha256": "5eb4dd8096bb1b407685a04c8bdc45a68acbc06e68b862ee6dcc436f075d6b6f",
+    "retrieved_at": "2026-10-24T23:57:22.496308+00:00",
+    "original_sha256": "82c99aa8a40eb7a91bc5c43a03c25a811bf89fe489bfb85d6fe05ec2b065a0ef",
+    "curation": "Script elements removed; tariff text retained."
+  },
+  {
+    "file": "zim.html",
+    "url": "https://www.zim.com/it/customer-updates/war-risk-premium-charge-wrp-update",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "hapag-pt.html",
+    "url": "https://www.hapag-lloyd.com/pt/services-information/news/2026/03/shipping-from-upper-gulf--arabian-gulf--and-persian-gulf--a-war-.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "hapag-jp.pdf",
+    "url": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/2026-006_Revised_WRS_implimatioin.pdf",
+    "status": 200,
+    "bytes": 176533,
+    "sha256": "9c2bbd1ce8c918db5382faae2f35afa549df6bbeccc381dcd7f3f0b80d0d240d",
+    "retrieved_at": "2026-10-24T23:57:21.024285+00:00"
+  },
+  {
+    "file": "cma-pss.html",
+    "url": "https://www.cma-cgm.com/local/india/news/6209/peak-season-surcharge-pss00-",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

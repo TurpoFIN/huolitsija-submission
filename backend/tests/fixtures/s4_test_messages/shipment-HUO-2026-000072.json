@@ -1,0 +1,61 @@
+{
+ "id": "331a96bb-1790-4914-b596-a607639b0de9",
+ "reference": "HUO-2026-000072",
+ "company_id": "e19d517b-7637-49e9-8403-97fe63db7728",
+ "mode": "road",
+ "direction": "export",
+ "incoterm": "FCA",
+ "incoterm_place": "Helsinki",
+ "origin": {
+  "name": "Helsinki Vuosaari Harbour",
+  "code": "FIHEL",
+  "unlocode": "FIHEL",
+  "country": "FI",
+  "city": "Helsinki"
+ },
+ "destination": {
+  "name": "Oslo",
+  "code": "NOOSL",
+  "unlocode": "NOOSL",
+  "country": "NO",
+  "city": "Oslo"
+ },
+ "cargo": {
+  "hs_hint": "320890",
+  "origin_country": "FI",
+  "packages": 4,
+  "package_type": "drum",
+  "weight_kg": 200,
+  "net_weight_kg": 180,
+  "volume_m3": 0.8,
+  "value_cents": 80000,
+  "currency": "EUR",
+  "description": "TEST S4 DG paint UN1263 - acceptance test, no cargo",
+  "dangerous_goods": true,
+  "dg_items": [
+   {
+    "un": "UN1263",
+    "class": "3",
+    "proper_shipping_name": "PAINT",
+    "packing_group": "III",
+    "packages": 4,
+    "package_type": "drum",
+    "gross_kg": 200,
+    "net_kg": 180
+   }
+  ],
+  "teu": null
+ },
+ "parties": {
+  "consignee": {
+   "name": "TEST DG Consignee AS (synthetic, no cargo)",
+   "address": {
+    "street": "Testveien 2",
+    "postal_code": "0000",
+    "city": "Oslo",
+    "country": "NO"
+   }
+  }
+ },
+ "status": "booked"
+}

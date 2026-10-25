@@ -1,0 +1,126 @@
+{
+ "_source": "Real hs_classifier answer (retired provider; identifier redacted, original in s1-model-fix evidence, 2026-10-24T14:56:08Z, bilingual prompt), captured from a local CI run's ai_runs.output_preview; not edited.",
+ "items": [
+  {
+   "description": "Solid oak dining chair with upholstered fabric seat, model AURA",
+   "origin_country": "VN",
+   "hs_hint": "94016100"
+  },
+  {
+   "description": "Extendable dining table, solid oak, 180-240 cm, model AURA",
+   "origin_country": "VN",
+   "hs_hint": "94036010"
+  },
+  {
+   "description": "Oak sideboard with three drawers, model LINEA",
+   "origin_country": "VN",
+   "hs_hint": "94036010"
+  }
+ ],
+ "answer": {
+  "items": [
+   {
+    "i": 0,
+    "action": "answer",
+    "hs6": "940161",
+    "cn8": "94016100",
+    "confidence": 0.95,
+    "insufficient_description": false,
+    "missing_info": null,
+    "rationale": "Tuoli on puurakenteinen ja verhoiltu kankaalla, luokittuu nimikkeeseen 9401 61 (verhoillut puurakenteisen tuolit).",
+    "rationale_i18n": {
+     "fi": "Tuoli on puurakenteinen ja verhoiltu kankaalla, luokittuu nimikkeeseen 9401 61 (verhoillut puurakenteisen tuolit).",
+     "en": "Chair has wooden frame and upholstered fabric seat, classified under heading 9401 61 (upholstered seats with wooden frames)."
+    },
+    "alternatives": [
+     {
+      "hs6": "940169",
+      "confidence": 0.02,
+      "why": "Jos istuinosa ei olisi verhoiltu vaan kova puupinta.",
+      "why_i18n": {
+       "fi": "Jos istuinosa ei olisi verhoiltu vaan kova puupinta.",
+       "en": "If the seat were not upholstered but solid wood."
+      }
+     }
+    ],
+    "duty_rate_pct": 0.0,
+    "preference_note": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+    "preference_note_i18n": {
+     "fi": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+     "en": "Vietnam has a free trade agreement with the EU (EVFTA) which can reduce duty with proof of origin."
+    }
+   },
+   {
+    "i": 1,
+    "action": "answer",
+    "hs6": "940360",
+    "cn8": "94036010",
+    "confidence": 0.95,
+    "insufficient_description": false,
+    "missing_info": null,
+    "rationale": "Puinen jatkettava ruokapöytä kuuluu nimikkeeseen 9403 60, ruokasalien huonekaluihin (CN 9403 60 10).",
+    "rationale_i18n": {
+     "fi": "Puinen jatkettava ruokapöytä kuuluu nimikkeeseen 9403 60, ruokasalien huonekaluihin (CN 9403 60 10).",
+     "en": "Wooden extendable dining table is classified under heading 9403 60, furniture for dining rooms (CN 9403 60 10)."
+    },
+    "alternatives": [
+     {
+      "hs6": "940330",
+      "confidence": 0.02,
+      "why": "Jos pöytä olisi tarkoitettu toimistokäyttöön eikä ruokailuun.",
+      "why_i18n": {
+       "fi": "Jos pöytä olisi tarkoitettu toimistokäyttöön eikä ruokailuun.",
+       "en": "If the table were intended for office use rather than dining."
+      }
+     }
+    ],
+    "duty_rate_pct": 0.0,
+    "preference_note": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+    "preference_note_i18n": {
+     "fi": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+     "en": "Vietnam has a free trade agreement with the EU (EVFTA) which can reduce duty with proof of origin."
+    }
+   },
+   {
+    "i": 2,
+    "action": "answer",
+    "hs6": "940360",
+    "cn8": "94036010",
+    "confidence": 0.9,
+    "insufficient_description": false,
+    "missing_info": null,
+    "rationale": "Tamminen lipasto kolmella laatikolla on puinen huonekalu, joka ei ole toimisto-, keittiö- tai makuuhuonekalua, kuuluu nimikkeeseen 9403 60 10.",
+    "rationale_i18n": {
+     "fi": "Tamminen lipasto kolmella laatikolla on puinen huonekalu, joka ei ole toimisto-, keittiö- tai makuuhuonekalua, kuuluu nimikkeeseen 9403 60 10.",
+     "en": "Oak sideboard with three drawers is wooden furniture other than office, kitchen or bedroom furniture, classified under 9403 60 10."
+    },
+    "alternatives": [
+     {
+      "hs6": "940350",
+      "confidence": 0.05,
+      "why": "Jos lipasto olisi erityisesti makuuhuonekäyttöön suunniteltu.",
+      "why_i18n": {
+       "fi": "Jos lipasto olisi erityisesti makuuhuonekäyttöön suunniteltu.",
+       "en": "If the sideboard were specifically designed for bedroom use."
+      }
+     },
+     {
+      "hs6": "940330",
+      "confidence": 0.02,
+      "why": "Jos lipasto olisi toimistokaluste eikä ruokasalihuonekalu.",
+      "why_i18n": {
+       "fi": "Jos lipasto olisi toimistokaluste eikä ruokasalihuonekalu.",
+       "en": "If the sideboard were office furniture rather than dining room furniture."
+      }
+     }
+    ],
+    "duty_rate_pct": 0.0,
+    "preference_note": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+    "preference_note_i18n": {
+     "fi": "Vietnamilla on EU:n kanssa vapaakauppasopimus (EVFTA), joka voi alentaa tullin alkuperätodistuksella.",
+     "en": "Vietnam has a free trade agreement with the EU (EVFTA) which can reduce duty with proof of origin."
+    }
+   }
+  ]
+ }
+}

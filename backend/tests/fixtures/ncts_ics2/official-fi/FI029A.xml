@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI029A 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1">
+  <Identification>FIRMA0000</Identification>
+  <FunctionalReference function="MRN">23FIP44000008950J7</FunctionalReference>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Type function="DeclarationType">T1</Type>
+  <Type function="AdditionalDeclarationType">A</Type>
+  <BindingItinerary>0</BindingItinerary>
+  <Language>fi</Language>
+  <Limit>2023-04-27</Limit>
+  <ReducedDatasetIndicator>0</ReducedDatasetIndicator>
+  <Security>0</Security>
+  <Notification>
+    <Type>LUO</Type>
+    <Notification>2023-04-25T12:16:21.6404877+03:00</Notification>
+    <Decision>
+      <Decision>2023-04-25T09:16:21</Decision>
+    </Decision>
+  </Notification>
+  <Agent>
+    <Function>2</Function>
+    <Identification>FI4239216-1</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+  </Agent>
+  <Principal>
+    <Identification>FI5342687-3</Identification>
+    <Name>Huolintatesti Oy</Name>
+    <Role>R</Role>
+    <Address>
+      <Line>Tullihallitus 2</Line>
+      <CityName>Helsinki</CityName>
+      <Postcode>00110</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Principal>
+  <Submitter>
+    <Name>Teppo Tullaaja</Name>
+    <Communication>
+      <Identification>teppo.tullaaja@yritys.fi</Identification>
+      <Type>EM</Type>
+    </Communication>
+    <Communication>
+      <Identification>09123456</Identification>
+      <Type>TE</Type>
+    </Communication>
+  </Submitter>
+  <Consignment>
+    <Container>0</Container>
+    <Destination>
+      <Country>DE</Country>
+    </Destination>
+    <BorderTransportMode>1</BorderTransportMode>
+    <InlandTransportMode>3</InlandTransportMode>
+    <TotalGrossMass>300</TotalGrossMass>
+    <AdditionalDocument function="SupportingDocument">
+      <Sequence>1</Sequence>
+      <Type>N380</Type>
+      <Identification>11123</Identification>
+    </AdditionalDocument>
+    <TransportContractDocument>
+      <Sequence>1</Sequence>
+      <Type>N730</Type>
+      <Identification>745856</Identification>
+    </TransportContractDocument>
+    <Carrier>
+      <Identification>FI0615327-8</Identification>
+    </Carrier>
+    <Consignee>
+      <Name>Deutsch Hair</Name>
+      <Address>
+        <Line>Hairstreet</Line>
+        <CityName>Berlin</CityName>
+        <Postcode>111333</Postcode>
+        <Country>CH</Country>
+      </Address>
+    </Consignee>
+    <Consignor>
+      <Name>Harjas Oy</Name>
+      <Address>
+        <Line>Harjakatu 2</Line>
+        <CityName>Tampere</CityName>
+        <Postcode>33101</Postcode>
+        <Country>FI</Country>
+      </Address>
+    </Consignor>
+    <BorderTransportMeans>
+      <Sequence>1</Sequence>
+      <Identification>Finnlines</Identification>
+      <IdentificationType>11</IdentificationType>
+      <Nationality>FI</Nationality>
+      <OfficeIdentification>DE002301</OfficeIdentification>
+    </BorderTransportMeans>
+    <DepartureTransportMeans>
+      <Sequence>1</Sequence>
+      <Identification>CBA-123</Identification>
+      <IdentificationType>30</IdentificationType>
+      <Nationality>FI</Nationality>
+    </DepartureTransportMeans>
+    <Itinerary>
+      <Sequence>1</Sequence>
+      <RoutingCountry>FI</RoutingCountry>
+    </Itinerary>
+    <Itinerary>
+      <Sequence>2</Sequence>
+      <RoutingCountry>DE</RoutingCountry>
+    </Itinerary>
+    <GoodsLocation>
+      <Type>B</Type>
+      <Identification function="EO">FI5342687-300001</Identification>
+      <Identification function="CustomsOffice" />
+    </GoodsLocation>
+    <LoadingLocation>
+      <Address>
+        <Country>FI</Country>
+      </Address>
+      <Name>Tampere</Name>
+    </LoadingLocation>
+    <HouseConsignment>
+      <Sequence>1</Sequence>
+      <TotalGrossMass>300</TotalGrossMass>
+      <ConsignmentItem>
+        <Sequence>1</Sequence>
+        <GoodsItemNumber>1</GoodsItemNumber>
+        <Type function="DeclarationType" />
+        <Commodity>
+          <Description>Hiusharjat</Description>
+          <Classification>
+            <Identification>960329</Identification>
+            <IdentificationType>HS</IdentificationType>
+          </Classification>
+        </Commodity>
+        <GoodsMeasure>
+          <GrossMass>300</GrossMass>
+          <NetNetMass>290</NetNetMass>
+        </GoodsMeasure>
+        <Packaging>
+          <Sequence>1</Sequence>
+          <MarksNumbers>Hair</MarksNumbers>
+          <Quantity>2</Quantity>
+          <Type>BX</Type>
+        </Packaging>
+        <Freight>
+          <PaymentMethod>A</PaymentMethod>
+        </Freight>
+      </ConsignmentItem>
+    </HouseConsignment>
+    <TransitOffice>
+      <Sequence>1</Sequence>
+      <Identification>DE002325</Identification>
+      <Arrival>2023-04-29T12:30:47+03:00</Arrival>
+    </TransitOffice>
+  </Consignment>
+  <Guarantee>
+    <Sequence>1</Sequence>
+    <Type>1</Type>
+    <GuaranteeReference>
+      <Sequence>1</Sequence>
+      <OtherGuaranteeReference>23FI651704P021200</OtherGuaranteeReference>
+      <AccessCode>fpqf</AccessCode>
+      <Amount CurrencyUnit="EUR">10</Amount>
+    </GuaranteeReference>
+  </Guarantee>
+  <DepartureOffice>
+    <Identification>FI002006</Identification>
+  </DepartureOffice>
+  <DestinationOffice>
+    <Identification>DE002325</Identification>
+  </DestinationOffice>
+</FI029A>
+

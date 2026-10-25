@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DmeDocumentInfoMessage xmlns="http://tulli.fi/schema/DmeDocumentInfoMessage">
+    <MessageRecipient>FI3451020-1</MessageRecipient>
+    <DocumentId>CD-48368</DocumentId>
+    <RelatedMessageStorageId>CWAR201902281148446D39112</RelatedMessageStorageId>
+    <ControlReference>4e30990a861d40</ControlReference>
+    <CustomsDocumentReference>19FIU42000000534R6</CustomsDocumentReference>
+    <DocumentType>LUO</DocumentType>
+    <DocumentCreationTime>2019-02-28T13:49:45.285+02:00</DocumentCreationTime>
+</DmeDocumentInfoMessage>

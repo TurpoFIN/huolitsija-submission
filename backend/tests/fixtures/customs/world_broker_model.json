@@ -1,0 +1,58 @@
+{
+  "source_text": "Please quote road freight from Oulu FIOUL, Finland to Tromsø NOTOS, Norway, DAP Tromsø, ready 2030-01-15: two stackable EUR pallets, machinery parts, gross 600 kg, volume 2 m3, not dangerous. All export and import customs formalities are handled by our own broker; do not arrange customs for us.",
+  "model_response": {
+    "origin": {
+      "query": "Oulu",
+      "unlocode": "FIOUL",
+      "country": "FI"
+    },
+    "destination": {
+      "query": "Tromsø",
+      "unlocode": "NOTOS",
+      "country": "NO"
+    },
+    "mode": "road",
+    "mode_stated": true,
+    "ready_date": "2030-01-15",
+    "incoterm": "DAP",
+    "incoterm_place": "Tromsø",
+    "cargo": {
+      "load_type": "loose",
+      "description": "machinery parts",
+      "packages": 2,
+      "package_type": "pallet_eur",
+      "weight_kg": 600,
+      "volume_m3": 2,
+      "stackable": true,
+      "containers": [],
+      "dangerous_goods": false,
+      "dg": null,
+      "value_eur": null,
+      "hs_hint": null
+    },
+    "customs_clearance": false,
+    "customs_handling": "customer_broker",
+    "customs_handling_evidence": "All export and import customs formalities are handled by our own broker; do not arrange customs for us.",
+    "insurance": null,
+    "missing": [
+      "value_eur",
+      "hs_hint",
+      "insurance"
+    ],
+    "assumptions": [
+      "The pallet shipment is classified as loose cargo, not FCL.",
+      "The stated 600 kg gross weight and 2 m3 volume are totals for both pallets."
+    ],
+    "summary": "Road freight quote from Oulu to Tromsø, DAP Tromsø, ready 2030-01-15, for two stackable EUR pallets of non-dangerous machinery parts totaling 600 kg and 2 m³, with all export and import customs handled by the customer's broker.",
+    "summary_i18n": {
+      "fi": "Tarjouspyyntö maantiekuljetuksesta Oulusta Tromssaan, DAP Tromssa, valmiina 2030-01-15: kaksi pinottavaa EUR-lavaa vaarattomia koneenosia, yhteensä 600 kg ja 2 m³, ja asiakkaan oma huolitsija hoitaa kaikki vienti- ja tuontitullimuodollisuudet.",
+      "en": "Road freight quote from Oulu to Tromsø, DAP Tromsø, ready 2030-01-15, for two stackable EUR pallets of non-dangerous machinery parts totaling 600 kg and 2 m³, with all export and import customs handled by the customer's broker."
+    },
+    "confidence": 0.99
+  },
+  "capture": {
+    "configured_model": "gpt-6.1-sol",
+    "source": "Actual project llm_json Responses call; no quote or shipment created",
+    "models_verified_utc": "2026-10-25T12:06Z"
+  }
+}

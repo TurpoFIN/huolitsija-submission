@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: DmeErrorMessage.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://tulli.fi/schema/DmeDocumentInfoMessage" 
+	xmlns:tns="http://tulli.fi/schema/DmeDocumentInfoMessage" 
+	xmlns:amt="http://tulli.fi/schema/corporateservice/v1"
+	elementFormDefault="qualified"
+	version="v1_21">
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<!--===== Root Element =====-->
+	<xs:element name="DmeDocumentInfoMessage" type="tns:DmeDocumentInfoMessageType"/>
+	<xs:complexType name="DmeDocumentInfoMessageType">
+		<xs:annotation>
+			<xs:documentation>Used for transmitting customer information about new available printable document.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+                        <xs:element name="MessageRecipient" type="amt:BusinessId" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>EORI ID of the error message recipient. The message sender of the original DME declaration schema errors are related to.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentId" type="amt:DocumentId" minOccurs="1" maxOccurs="1" />
+			<xs:element name="RelatedMessageStorageId" type="amt:MessageStorageId" minOccurs="1" maxOccurs="1" />
+			<xs:element name="ControlReference" type="amt:Reference" minOccurs="0" maxOccurs="1" />
+			<xs:element name="CustomsDocumentReference" type="amt:RelationIdentifier" minOccurs="0" maxOccurs="1" />
+			<xs:element name="DocumentType" type="amt:DocumentType" minOccurs="1" maxOccurs="1" />    
+			<xs:element name="DocumentCreationTime" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Date and time when the Document was created. Data type is ISODateTime. If no timezone is specified, the Finnish timezone is assumed.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:dateTime"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,89 @@
+{
+  "id": "sample",
+  "lrn": "TULLISBX000001",
+  "message_id": "TULLISBX000001",
+  "type": "export",
+  "company_id": "sandbox-export",
+  "declarant": {
+    "name": "Sandbox Export Oy",
+    "eori": "FI3990009-9"
+  },
+  "exporter": {
+    "name": "Sandbox Export Oy",
+    "eori": "FI3990009-9"
+  },
+  "consignee": {
+    "name": "Sample Buyer",
+    "address": {
+      "street": "1 Example Street",
+      "city": "New York",
+      "postal_code": "10001",
+      "country": "US"
+    }
+  },
+  "submitter": {
+    "name": "Sandbox Test",
+    "email": "sandbox@example.invalid"
+  },
+  "transport": {
+    "destination_country": "US",
+    "dispatch_country": "FI",
+    "mode_at_border": "4",
+    "inland_mode": "3"
+  },
+  "invoice": {
+    "currency": "EUR",
+    "total": 1000
+  },
+  "goods_location": {
+    "type": "D",
+    "address": {
+      "street": "Satamakatu 1",
+      "city": "Helsinki",
+      "postal_code": "00100",
+      "country": "FI"
+    }
+  },
+  "office": {
+    "code": "FI002000"
+  },
+  "exit_office": {
+    "code": "FI015300"
+  },
+  "items": [
+    {
+      "seq": 1,
+      "description": "Newly manufactured ordinary pedal bicycle",
+      "cn_code": "87120030",
+      "hs_code": "871200",
+      "net_kg": 12,
+      "gross_kg": 14,
+      "packages": 1,
+      "package_type": "CT",
+      "origin_country": "FI",
+      "statistical_value_cents": 100000,
+      "dual_use_classification": {
+        "controlled": false,
+        "basis": "Test-only technical assessment of ordinary pedal bicycle",
+        "reviewed_by": "test-reviewer"
+      },
+      "documents": [
+        {
+          "code": "Y160",
+          "reference": "Ordinary pedal bicycle without fluorinated gases",
+          "source": "declared"
+        },
+        {
+          "code": "Y935",
+          "reference": "New Finnish bicycle; not Syrian cultural property",
+          "source": "declared"
+        },
+        {
+          "code": "Y903",
+          "reference": "New bicycle; not cultural goods or historic transport",
+          "source": "declared"
+        }
+      ]
+    }
+  ]
+}

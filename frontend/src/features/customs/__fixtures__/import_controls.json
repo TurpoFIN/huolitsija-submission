@@ -1,0 +1,297 @@
+{
+ "approval": null,
+ "autopilot": {
+  "legal_points": [
+   "customs_filing_not_delegated"
+  ],
+  "may_file": false,
+  "reasons": [
+   {
+    "code": "aeo_poa",
+    "en": "The customer has not signed a power of attorney for customs representation",
+    "fi": "Asiakas ei ole allekirjoittanut tulliasioinnin valtakirjaa"
+   },
+   {
+    "code": "aeo_party_screening",
+    "en": "Declaration party screening is error; compliance must clear it first",
+    "fi": "Ilmoituksen osapuolten pakoteseulonta: error; pakotevastaava ratkaisee sen ensin"
+   },
+   {
+    "code": "aeo_declarant_eori",
+    "en": "The customer's EORI number is missing; they apply for one in Tulli's EORI registration service",
+    "fi": "Asiakkaan EORI-numero puuttuu; asiakas hakee sen Tullin EORI-palvelusta"
+   },
+   {
+    "code": "aeo_representative_eori",
+    "en": "Huolitsija's own EORI number is not configured (COMPANY_EORI); message exchange needs it as the representative's identifier (after incorporation)",
+    "fi": "Huolitsijan oma EORI-numero puuttuu (COMPANY_EORI); se tarvitaan sanomaliikenteessä edustajan tunnisteeksi (yhtiön perustamisen jälkeen)"
+   },
+   {
+    "code": "aeo_four_eyes_sanctions",
+    "en": "Sanctions flag: party screening has hits",
+    "fi": "Pakotemerkintä: osapuolten seulonnassa osumia"
+   },
+   {
+    "code": "aeo_four_eyes_first_declaration",
+    "en": "First customs declaration filed for this customer",
+    "fi": "Asiakkaan ensimmäinen tulli-ilmoitus"
+   }
+  ]
+ },
+ "checked_at": "2026-10-24T21:30:39Z",
+ "declaration_id": "6030741a-7733-4496-9b46-b25e29c82bd8",
+ "eligible_approvers": [],
+ "four_eyes": {
+  "actor_excluded": true,
+  "amounts": {
+   "customs_value_cents": 100000,
+   "duty_cents": 62500,
+   "duty_vat_cents": 103938,
+   "vat_cents": 41438
+  },
+  "classifiers": [
+   {
+    "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+    "name": "Esimerkkikäyttäjä",
+    "type": "user"
+   }
+  ],
+  "excluded_ids": [
+   "1bc8173e-453f-4a87-a426-8ab46d3a9c8d"
+  ],
+  "preparers": [
+   {
+    "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+    "name": "Esimerkkikäyttäjä",
+    "type": "user"
+   }
+  ],
+  "reasons": [
+   {
+    "code": "aeo_four_eyes_sanctions",
+    "en": "Sanctions flag: party screening has hits",
+    "fi": "Pakotemerkintä: osapuolten seulonnassa osumia"
+   },
+   {
+    "code": "aeo_four_eyes_first_declaration",
+    "en": "First customs declaration filed for this customer",
+    "fi": "Asiakkaan ensimmäinen tulli-ilmoitus"
+   }
+  ],
+  "required": true,
+  "segregation_reasons": [
+   {
+    "code": "aeo_segregation_classifier",
+    "en": "You classified or confirmed the CN codes, so you cannot be the sole approver above the four-eyes threshold",
+    "fi": "Luokittelit tai vahvistit CN-koodit itse, joten et voi yksin hyväksyä ilmoitusta neljän silmän rajan ylittyessä"
+   },
+   {
+    "code": "aeo_segregation_preparer",
+    "en": "You asked for this filing, so another person must approve it",
+    "fi": "Pyysit ilmoituksen jättämistä itse, joten toisen henkilön on hyväksyttävä se"
+   }
+  ],
+  "thresholds": {
+   "customs_value_cents": 10000000,
+   "duty_vat_cents": 500000
+  }
+ },
+ "kind": "import",
+ "lrn": "LRN-2026-000001",
+ "retention": null,
+ "status": "needs_info",
+ "you": {
+  "actor": {
+   "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+   "name": "Esimerkkikäyttäjä",
+   "org_type": "internal",
+   "type": "user"
+  },
+  "actor_kind": "person",
+  "at": "2026-10-24T21:30:39Z",
+  "checks": [
+   {
+    "code": "filer_permission",
+    "en": "Esimerkkikäyttäjä holds customs.file",
+    "fi": "Esimerkkikäyttäjä: oikeus jättää tulli-ilmoituksia (customs.file)",
+    "ok": true,
+    "scope": "actor",
+    "severity": "blocking"
+   },
+   {
+    "code": "filer_authorised",
+    "en": "Everyone with customs.file may file",
+    "fi": "Kaikki customs.file-oikeuden haltijat saavat jättää ilmoituksia",
+    "ok": true,
+    "scope": "actor",
+    "severity": "blocking"
+   },
+   {
+    "code": "poa",
+    "en": "The customer has not signed a power of attorney for customs representation",
+    "fi": "Asiakas ei ole allekirjoittanut tulliasioinnin valtakirjaa",
+    "ok": false,
+    "scope": "declaration",
+    "severity": "blocking"
+   },
+   {
+    "code": "kyc",
+    "en": "Customer KYC is approved",
+    "fi": "Asiakkaan tuntemistarkistus (KYC) on hyväksytty",
+    "ok": true,
+    "scope": "declaration",
+    "severity": "blocking"
+   },
+   {
+    "code": "sanctions",
+    "en": "Customer sanctions screening is clear",
+    "fi": "Asiakkaan pakotelistaseulonta: ei osumia",
+    "ok": true,
+    "scope": "declaration",
+    "severity": "blocking"
+   },
+   {
+    "code": "party_screening",
+    "data": {
+     "screened_at": "2026-10-24T21:30:39Z",
+     "source": "screening"
+    },
+    "en": "Declaration party screening is error; compliance must clear it first",
+    "fi": "Ilmoituksen osapuolten pakoteseulonta: error; pakotevastaava ratkaisee sen ensin",
+    "ok": false,
+    "scope": "declaration",
+    "severity": "blocking"
+   },
+   {
+    "code": "sanctions_age",
+    "data": {
+     "screened_at": null
+    },
+    "en": "The customer's sanctions screening has no date",
+    "fi": "Asiakkaan pakoteseulonnan ajankohta puuttuu",
+    "ok": false,
+    "scope": "declaration",
+    "severity": "advisory"
+   },
+   {
+    "code": "declarant_eori",
+    "data": {
+     "checked_at": null,
+     "eori": null,
+     "recheck_error": null,
+     "rechecked": null,
+     "source": null,
+     "status": "missing"
+    },
+    "en": "The customer's EORI number is missing; they apply for one in Tulli's EORI registration service",
+    "fi": "Asiakkaan EORI-numero puuttuu; asiakas hakee sen Tullin EORI-palvelusta",
+    "ok": false,
+    "scope": "declaration",
+    "severity": "blocking"
+   },
+   {
+    "code": "representative_eori",
+    "data": {
+     "checked_at": null,
+     "eori": null,
+     "recheck_error": null,
+     "rechecked": null,
+     "source": null,
+     "status": "missing"
+    },
+    "en": "Huolitsija's own EORI number is not configured (COMPANY_EORI); message exchange needs it as the representative's identifier (after incorporation)",
+    "fi": "Huolitsijan oma EORI-numero puuttuu (COMPANY_EORI); se tarvitaan sanomaliikenteessä edustajan tunnisteeksi (yhtiön perustamisen jälkeen)",
+    "ok": false,
+    "scope": "declaration",
+    "severity": "blocking"
+   }
+  ],
+  "decision_id": null,
+  "declaration_id": "6030741a-7733-4496-9b46-b25e29c82bd8",
+  "four_eyes": {
+   "actor_excluded": true,
+   "amounts": {
+    "customs_value_cents": 100000,
+    "duty_cents": 62500,
+    "duty_vat_cents": 103938,
+    "vat_cents": 41438
+   },
+   "classifiers": [
+    {
+     "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+     "name": "Esimerkkikäyttäjä",
+     "type": "user"
+    }
+   ],
+   "excluded_ids": [
+    "1bc8173e-453f-4a87-a426-8ab46d3a9c8d"
+   ],
+   "preparers": [
+    {
+     "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+     "name": "Esimerkkikäyttäjä",
+     "type": "user"
+    }
+   ],
+   "reasons": [
+    {
+     "code": "aeo_four_eyes_sanctions",
+     "en": "Sanctions flag: party screening has hits",
+     "fi": "Pakotemerkintä: osapuolten seulonnassa osumia"
+    },
+    {
+     "code": "aeo_four_eyes_first_declaration",
+     "en": "First customs declaration filed for this customer",
+     "fi": "Asiakkaan ensimmäinen tulli-ilmoitus"
+    }
+   ],
+   "required": true,
+   "segregation_reasons": [
+    {
+     "code": "aeo_segregation_classifier",
+     "en": "You classified or confirmed the CN codes, so you cannot be the sole approver above the four-eyes threshold",
+     "fi": "Luokittelit tai vahvistit CN-koodit itse, joten et voi yksin hyväksyä ilmoitusta neljän silmän rajan ylittyessä"
+    },
+    {
+     "code": "aeo_segregation_preparer",
+     "en": "You asked for this filing, so another person must approve it",
+     "fi": "Pyysit ilmoituksen jättämistä itse, joten toisen henkilön on hyväksyttävä se"
+    }
+   ],
+   "thresholds": {
+    "customs_value_cents": 10000000,
+    "duty_vat_cents": 500000
+   }
+  },
+  "kind": "import",
+  "lrn": "LRN-2026-000001",
+  "may_file": false,
+  "reasons": [
+   {
+    "code": "aeo_poa",
+    "en": "The customer has not signed a power of attorney for customs representation",
+    "fi": "Asiakas ei ole allekirjoittanut tulliasioinnin valtakirjaa",
+    "scope": "declaration"
+   },
+   {
+    "code": "aeo_party_screening",
+    "en": "Declaration party screening is error; compliance must clear it first",
+    "fi": "Ilmoituksen osapuolten pakoteseulonta: error; pakotevastaava ratkaisee sen ensin",
+    "scope": "declaration"
+   },
+   {
+    "code": "aeo_declarant_eori",
+    "en": "The customer's EORI number is missing; they apply for one in Tulli's EORI registration service",
+    "fi": "Asiakkaan EORI-numero puuttuu; asiakas hakee sen Tullin EORI-palvelusta",
+    "scope": "declaration"
+   },
+   {
+    "code": "aeo_representative_eori",
+    "en": "Huolitsija's own EORI number is not configured (COMPANY_EORI); message exchange needs it as the representative's identifier (after incorporation)",
+    "fi": "Huolitsijan oma EORI-numero puuttuu (COMPANY_EORI); se tarvitaan sanomaliikenteessä edustajan tunnisteeksi (yhtiön perustamisen jälkeen)",
+    "scope": "declaration"
+   }
+  ],
+  "stage": "check"
+ }
+}

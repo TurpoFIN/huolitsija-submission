@@ -1,0 +1,61 @@
+{
+  "eu": {
+    "url": "https://webgate.ec.europa.eu/fsd/fsf/public/files/xmlFullSanctionsList_1_1/content?token=dG9rZW4tMjAxNw",
+    "final_url": "https://webgate.ec.europa.eu/fsd/fsf/public/files/xmlFullSanctionsList_1_1/content?token=dG9rZW4tMjAxNw",
+    "file": "eu.gz",
+    "sha256": "636800c3e494b2ef8934f51f5e23c914a6208a383ac850e674b1b35a7d49d34f",
+    "bytes": 25899600,
+    "fetched_at": "2026-10-24T21:25:17.110204+00:00"
+  },
+  "un": {
+    "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+    "final_url": "https://unsolprodfiles.blob.core.windows.net/publiclegacyxmlfiles/EN/consolidatedLegacyByPRN.xml?sv=2024-05-04&st=2026-10-24T21%3A24%3A51Z&se=2026-10-24T22%3A24%3A51Z&sr=b&sp=r&sig=jlOkVQY5LZRcljkl4z%2FbpsoJXaRUwYYZE5c%2BEF7bmCs%3D&rscd=attachment%3B%20filename%3D%22consolidatedLegacyByPRN.xml%22",
+    "file": "un.gz",
+    "sha256": "dfb2a90b0e3a02193e4198b2c4a9eafeb04325469e48a80a8092650f6cf6dc76",
+    "bytes": 2175904,
+    "fetched_at": "2026-10-24T21:24:52.418798+00:00"
+  },
+  "ofac": {
+    "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+    "final_url": "https://wc2h-sls-prod-public-published.s3.us-gov-west-1.amazonaws.com/Published/c855675f-4385-4bb5-b89a-59ccb73a83e6/2026-10-20/4166a9f5-d268-432a-a70b-65bd16bcd16a/SDN.CSV",
+    "file": "ofac.gz",
+    "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
+    "bytes": 5744136,
+    "fetched_at": "2026-10-24T21:25:01.090772+00:00",
+    "signed_url_query_omitted": true
+  },
+  "csl": {
+    "url": "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv",
+    "final_url": "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv",
+    "file": "csl.gz",
+    "sha256": "f8d7c6a4f37583ebd97a86f4bf4c1860bf0be0c00a6eeef2b540f186a80290cb",
+    "bytes": 16832471,
+    "fetched_at": "2026-10-24T21:24:53.344907+00:00"
+  },
+  "uk": {
+    "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
+    "final_url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
+    "file": "uk.gz",
+    "sha256": "8e71e2237d0dee3191d433f94ba6cec65ec76b5f0f3e9d2e42b4f3f992682281",
+    "bytes": 22051514,
+    "fetched_at": "2026-10-24T21:24:51.085876+00:00"
+  },
+  "ofac_alt": {
+    "url": "https://www.treasury.gov/ofac/downloads/alt.csv",
+    "final_url": "https://wc2h-sls-prod-public-published.s3.us-gov-west-1.amazonaws.com/Published/c855675f-4385-4bb5-b89a-59ccb73a83e6/2026-10-20/4166a9f5-d268-432a-a70b-65bd16bcd16a/ALT.CSV",
+    "file": "ofac_alt.gz",
+    "sha256": "e489fe41709a1d38693c16be8448d55a05cd4b39c9c2ffa98fbcc76bb5ec8050",
+    "bytes": 1063745,
+    "fetched_at": "2026-10-24T21:24:59.582328+00:00",
+    "signed_url_query_omitted": true
+  },
+  "ofac_add": {
+    "url": "https://www.treasury.gov/ofac/downloads/add.csv",
+    "final_url": "https://wc2h-sls-prod-public-published.s3.us-gov-west-1.amazonaws.com/Published/c855675f-4385-4bb5-b89a-59ccb73a83e6/2026-10-20/4166a9f5-d268-432a-a70b-65bd16bcd16a/ADD.CSV",
+    "file": "ofac_add.gz",
+    "sha256": "2a76ba45cbd96ca22cb35e255c68ac9d6efba461dd85c056002592592c2bef4f",
+    "bytes": 1690030,
+    "fetched_at": "2026-10-24T21:24:59.734271+00:00",
+    "signed_url_query_omitted": true
+  }
+}

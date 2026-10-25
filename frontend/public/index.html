@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fi" data-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#111111" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+        <!-- Clickjacking guard: the static host sets no frame headers, so the page stays hidden when framed by
+             anything other than itself or the Emergent editor (preview pane). -->
+        <style id="frame-guard">html{display:none!important}</style>
+        <script>(function(){var ok=window.self===window.top;if(!ok){var re=/^https:\/\/([a-z0-9-]+\.)*(emergent\.sh|emergentagent\.com)$/,o=[];try{var a=location.ancestorOrigins;if(a)for(var i=0;i<a.length;i++)o.push(a[i]);else if(document.referrer)o.push(new URL(document.referrer).origin)}catch(e){}ok=o.length>0&&o.every(function(x){return x===location.origin||re.test(x)})}if(ok){var s=document.getElementById('frame-guard');s.parentNode.removeChild(s)}else{try{window.top.location=window.self.location.href}catch(e){}}})();</script>
+        <meta name="description" content="Huolitsija – digitaalinen huolitsija ja tulliasiamies. Hinta heti, varaus minuuteissa, tulli hoidettu." />
+        <title>Huolitsija – digital freight forwarder</title>
+        <script>(function(){try{var t=localStorage.getItem('huo.theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t);var l=localStorage.getItem('huo.locale');if(l)document.documentElement.setAttribute('lang',l)}catch(e){}})();</script>
+        <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
+    </head>
+    <body>
+        <noscript>Huolitsija needs JavaScript.</noscript>
+        <div id="root"></div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "source": "https://dvv.fineid.fi/api/v1/cas/711/certificate",
+  "directory": "https://dvv.fineid.fi/en/certificate-authority",
+  "directory_entry": {
+    "id": 711,
+    "name": "DVV Gov. Root CA - G3 RSA",
+    "type": "none",
+    "category": "root",
+    "environment": "prod",
+    "ldapBase": "cn=DVV Gov. Root CA - G3 RSA,ou=Varmennepalvelut,o=Digi- ja vaestotietovirasto CA,dmdName=FINEID,c=FI",
+    "uriCA": "http://proxy.fineid.fi/ca/dvvroot3rc.crt",
+    "uriCRL": "http://proxy.fineid.fi/crl/dvvroot3rc.crl",
+    "depth": 1
+  },
+  "sha256_pem": "f5a66b266f559b9bc1fe9d88ae44fa6308a4d6b878ba93acac053135c7900ae2",
+  "sha256_der": "d3ed3fc40ad26b52e001e1e18f4b9449529deb75a81d5eb680d7b62db23ba96d",
+  "subject": "CN=DVV Gov. Root CA - G3 RSA,OU=Varmennepalvelut,OU=Certification Authority Services,O=Digi- ja vaestotietovirasto CA,C=FI",
+  "valid_to": "2042-05-05T08:30:42+00:00",
+  "retrieved_at": "2026-10-24T23:59:03.642475+00:00",
+  "intermediate": {
+    "source": "https://dvv.fineid.fi/api/v1/cas/411/certificate",
+    "sha256_pem": "215f657570fcc171be2eff5ed97191e1cff62fe30d32a98db27a0a84d54e4537",
+    "sha256_der": "46319c69041db9a0d93dae802e3002cc615365931fe0976d392e8863e3f3be31",
+    "subject": "CN=DVV Service Certificates - G5R,OU=Palveluvarmenteet,O=Digi- ja vaestotietovirasto CA,C=FI",
+    "valid_to": "2041-05-20T12:09:39+00:00"
+  }
+}

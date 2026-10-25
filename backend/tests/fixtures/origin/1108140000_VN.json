@@ -1,0 +1,899 @@
+{
+  "goods_code": "1108140000",
+  "country": "VN",
+  "flow": "import",
+  "date": "2026-10-24",
+  "declarable": true,
+  "subcodes": [
+    "1108140000"
+  ],
+  "subcode_summaries": [],
+  "known_code": true,
+  "measures": [
+    {
+      "sid": "3886435",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Import control of organic products",
+      "type_code": "750",
+      "type_code_candidates": [
+        "750"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        }
+      ],
+      "start": "2022-01-01",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2306/21",
+      "regulation_id": "R2123060",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "CD808",
+          "text": "If goods bear a reference to organic production in the labelling, advertising material or accompanying documents of products, the declarant must submit a certificate of inspection (C644) at import in accordance with Article 45(1) of Regulation (EU) 2018/848 (release for free circulation). For products not covered by Regulation (EU) 2018/848, certificate Y929 has to be declared.<br>These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C644",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Certificate of inspection for organic products"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y929",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C644": "Certificate of inspection for organic products",
+        "Y929": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886435&Lang=en",
+      "kind": "restriction"
+    },
+    {
+      "sid": "2050544",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Third country duty",
+      "type_code": "103",
+      "type_code_candidates": [
+        "103"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2000-07-01",
+      "end": null,
+      "duty_expression": "166.00 EUR / tonne",
+      "duty": {
+        "raw": "166.00 EUR / tonne",
+        "kind": "specific",
+        "pct": null,
+        "amount": 166.0,
+        "currency": "EUR",
+        "unit": "tonne",
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 166.0,
+            "currency": "EUR",
+            "unit": "tonne",
+            "unit_raw": "tonne",
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2204/99",
+      "regulation_id": "R9922040",
+      "regulation_role": "4",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "third_country"
+    },
+    {
+      "sid": "4259275",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [],
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "regulation_id": "R2603820",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "low_value_consignment"
+    },
+    {
+      "sid": "4171390",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Additional duties",
+      "type_code": null,
+      "type_code_candidates": [
+        "693",
+        "695",
+        "696"
+      ],
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "start": "2025-07-20",
+      "end": null,
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1227/25",
+      "regulation_id": "R2512270",
+      "regulation_role": "1",
+      "footnotes": [
+        {
+          "code": "TM01026",
+          "text": "In case the goods are exported directly or indirectly from the Russian Federation or from Belarus, the additional customs duty based on Council Regulation (EU) 2025/1227 is applied."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y155",
+          "requirement": null,
+          "action": "Apply the amount of the action (see components)",
+          "action_kind": "apply_amount",
+          "duty_expression": "50.00 %",
+          "duty": {
+            "raw": "50.00 %",
+            "kind": "ad_valorem",
+            "pct": 50.0,
+            "amount": null,
+            "currency": null,
+            "unit": null,
+            "min": null,
+            "max": null,
+            "components": [
+              {
+                "type": "pct",
+                "pct": 50.0
+              }
+            ],
+            "agri_codes": []
+          },
+          "text": "Products exported directly or indirectly from the Russian Federation or Belarus"
+        },
+        {
+          "code": "B",
+          "sequence": 9,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Apply the amount of the action (see components)",
+          "action_kind": "apply_amount",
+          "duty_expression": "0 %",
+          "duty": {
+            "raw": "0 %",
+            "kind": "ad_valorem",
+            "pct": 0.0,
+            "amount": null,
+            "currency": null,
+            "unit": null,
+            "min": null,
+            "max": null,
+            "components": [
+              {
+                "type": "pct",
+                "pct": 0.0
+              }
+            ],
+            "agri_codes": []
+          },
+          "text": null
+        }
+      ],
+      "certificates": {
+        "Y155": "Products exported directly or indirectly from the Russian Federation or Belarus"
+      },
+      "conditions_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171390&Lang=en",
+      "kind": "additional_duty"
+    },
+    {
+      "sid": "4215790",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Non preferential tariff quota",
+      "type_code": "122",
+      "type_code_candidates": [
+        "122"
+      ],
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "duty_expression": "66.00 EUR / tonne",
+      "duty": {
+        "raw": "66.00 EUR / tonne",
+        "kind": "specific",
+        "pct": null,
+        "amount": 66.0,
+        "currency": "EUR",
+        "unit": "tonne",
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 66.0,
+            "currency": "EUR",
+            "unit": "tonne",
+            "unit_raw": "tonne",
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "090132",
+      "regulation": "R1988/20",
+      "regulation_id": "R2019880",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "quota"
+    },
+    {
+      "sid": "4215792",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Non preferential tariff quota",
+      "type_code": "122",
+      "type_code_candidates": [
+        "122"
+      ],
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "geo_group": true,
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "duty_expression": "66.00 EUR / tonne",
+      "duty": {
+        "raw": "66.00 EUR / tonne",
+        "kind": "specific",
+        "pct": null,
+        "amount": 66.0,
+        "currency": "EUR",
+        "unit": "tonne",
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 66.0,
+            "currency": "EUR",
+            "unit": "tonne",
+            "unit_raw": "tonne",
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "090135",
+      "regulation": "R1988/20",
+      "regulation_id": "R2019880",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "quota"
+    },
+    {
+      "sid": "4204301",
+      "goods_code": "1108140000",
+      "flow": "import",
+      "type": "Preferential tariff quota",
+      "type_code": "143",
+      "type_code_candidates": [
+        "143"
+      ],
+      "geo_code": "VN",
+      "geo_name": "Viet Nam",
+      "geo_group": false,
+      "excluded": [],
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "098203",
+      "regulation": "R1024/20",
+      "regulation_id": "R2010240",
+      "regulation_role": "1",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": [],
+      "certificates": {},
+      "conditions_url": null,
+      "kind": "quota"
+    }
+  ],
+  "third_country_duty": {
+    "duty_expression": "166.00 EUR / tonne",
+    "duty": {
+      "raw": "166.00 EUR / tonne",
+      "kind": "specific",
+      "pct": null,
+      "amount": 166.0,
+      "currency": "EUR",
+      "unit": "tonne",
+      "min": null,
+      "max": null,
+      "components": [
+        {
+          "type": "amount",
+          "amount": 166.0,
+          "currency": "EUR",
+          "unit": "tonne",
+          "unit_raw": "tonne",
+          "reference": false
+        }
+      ],
+      "agri_codes": []
+    },
+    "type_code": "103",
+    "regulation": "R2204/99",
+    "start": "2000-07-01",
+    "end": null
+  },
+  "preferences": [
+    {
+      "sid": "4215790",
+      "type": "Non preferential tariff quota",
+      "type_code": "122",
+      "type_code_candidates": [
+        "122"
+      ],
+      "kind": "quota",
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "duty_expression": "66.00 EUR / tonne",
+      "duty": {
+        "raw": "66.00 EUR / tonne",
+        "kind": "specific",
+        "pct": null,
+        "amount": 66.0,
+        "currency": "EUR",
+        "unit": "tonne",
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 66.0,
+            "currency": "EUR",
+            "unit": "tonne",
+            "unit_raw": "tonne",
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "090132",
+      "regulation": "R1988/20",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": []
+    },
+    {
+      "sid": "4215792",
+      "type": "Non preferential tariff quota",
+      "type_code": "122",
+      "type_code_candidates": [
+        "122"
+      ],
+      "kind": "quota",
+      "geo_code": "1008",
+      "geo_name": "All third countries",
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "duty_expression": "66.00 EUR / tonne",
+      "duty": {
+        "raw": "66.00 EUR / tonne",
+        "kind": "specific",
+        "pct": null,
+        "amount": 66.0,
+        "currency": "EUR",
+        "unit": "tonne",
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 66.0,
+            "currency": "EUR",
+            "unit": "tonne",
+            "unit_raw": "tonne",
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "090135",
+      "regulation": "R1988/20",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": []
+    },
+    {
+      "sid": "4204301",
+      "type": "Preferential tariff quota",
+      "type_code": "143",
+      "type_code_candidates": [
+        "143"
+      ],
+      "kind": "quota",
+      "geo_code": "VN",
+      "geo_name": "Viet Nam",
+      "excluded": [],
+      "duty_expression": "0 %",
+      "duty": {
+        "raw": "0 %",
+        "kind": "ad_valorem",
+        "pct": 0.0,
+        "amount": null,
+        "currency": null,
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "pct",
+            "pct": 0.0
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": "098203",
+      "regulation": "R1024/20",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "footnotes": [],
+      "has_conditions": false,
+      "conditions": []
+    }
+  ],
+  "trade_defence": [],
+  "restrictions": [
+    {
+      "sid": "3886435",
+      "type": "Import control of organic products",
+      "type_code": "750",
+      "type_code_candidates": [
+        "750"
+      ],
+      "kind": "restriction",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland"
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein"
+        },
+        {
+          "code": "NO",
+          "name": "Norway"
+        }
+      ],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R2306/21",
+      "start": "2022-01-01",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "CD808",
+          "text": "If goods bear a reference to organic production in the labelling, advertising material or accompanying documents of products, the declarant must submit a certificate of inspection (C644) at import in accordance with Article 45(1) of Regulation (EU) 2018/848 (release for free circulation). For products not covered by Regulation (EU) 2018/848, certificate Y929 has to be declared.<br>These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625.<br>"
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "C644",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Certificate of inspection for organic products"
+        },
+        {
+          "code": "B",
+          "sequence": 2,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y929",
+          "requirement": null,
+          "action": "Import/export allowed after control",
+          "action_kind": "allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+        },
+        {
+          "code": "B",
+          "sequence": 3,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Import/export not allowed after control",
+          "action_kind": "not_allowed",
+          "duty_expression": null,
+          "duty": null,
+          "text": null
+        }
+      ],
+      "certificates": {
+        "C644": "Certificate of inspection for organic products",
+        "Y929": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+      }
+    }
+  ],
+  "supplementary_unit": null,
+  "other_duties": [
+    {
+      "sid": "4259275",
+      "type": "Low-value consignment customs duty",
+      "type_code": "107",
+      "type_code_candidates": [
+        "107"
+      ],
+      "kind": "low_value_consignment",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [],
+      "duty_expression": "3.00 EUR",
+      "duty": {
+        "raw": "3.00 EUR",
+        "kind": "specific",
+        "pct": null,
+        "amount": 3.0,
+        "currency": "EUR",
+        "unit": null,
+        "min": null,
+        "max": null,
+        "components": [
+          {
+            "type": "amount",
+            "amount": 3.0,
+            "currency": "EUR",
+            "unit": null,
+            "unit_raw": null,
+            "reference": false
+          }
+        ],
+        "agri_codes": []
+      },
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R0382/26",
+      "start": "2026-07-01",
+      "end": "2026-10-31",
+      "footnotes": [
+        {
+          "code": "TM01066",
+          "text": "From 1 July 2026 until 1 July 2028, a customs duty of EUR 3 per item in a consignment the intrinsic value of which does not exceed a total of EUR 150 shall apply instead of the relief eliminated pursuant to Article 1 of this Regulation, where:<br>(a) the importation of the goods is exempt from VAT in accordance with Article 143(1), point (ca), of Directive 2006/112/EC; or<br>(b) the goods are in a postal consignment as defined in Article 1, point (24), of Delegated Regulation (EU) 2015/2446.<br>"
+        }
+      ],
+      "has_conditions": false,
+      "conditions": []
+    },
+    {
+      "sid": "4171390",
+      "type": "Additional duties",
+      "type_code": null,
+      "type_code_candidates": [
+        "693",
+        "695",
+        "696"
+      ],
+      "kind": "additional_duty",
+      "geo_code": "1011",
+      "geo_name": "ERGA OMNES",
+      "excluded": [
+        {
+          "code": "BY",
+          "name": "Belarus"
+        },
+        {
+          "code": "RU",
+          "name": "Russian Federation"
+        }
+      ],
+      "duty_expression": null,
+      "duty": null,
+      "additional_codes": [],
+      "order_number": null,
+      "regulation": "R1227/25",
+      "start": "2025-07-20",
+      "end": null,
+      "footnotes": [
+        {
+          "code": "TM01026",
+          "text": "In case the goods are exported directly or indirectly from the Russian Federation or from Belarus, the additional customs duty based on Council Regulation (EU) 2025/1227 is applied."
+        }
+      ],
+      "has_conditions": true,
+      "conditions": [
+        {
+          "code": "B",
+          "sequence": 1,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": "Y155",
+          "requirement": null,
+          "action": "Apply the amount of the action (see components)",
+          "action_kind": "apply_amount",
+          "duty_expression": "50.00 %",
+          "duty": {
+            "raw": "50.00 %",
+            "kind": "ad_valorem",
+            "pct": 50.0,
+            "amount": null,
+            "currency": null,
+            "unit": null,
+            "min": null,
+            "max": null,
+            "components": [
+              {
+                "type": "pct",
+                "pct": 50.0
+              }
+            ],
+            "agri_codes": []
+          },
+          "text": "Products exported directly or indirectly from the Russian Federation or Belarus"
+        },
+        {
+          "code": "B",
+          "sequence": 9,
+          "condition": "Presentation of a certificate/licence/document",
+          "certificate": null,
+          "requirement": null,
+          "action": "Apply the amount of the action (see components)",
+          "action_kind": "apply_amount",
+          "duty_expression": "0 %",
+          "duty": {
+            "raw": "0 %",
+            "kind": "ad_valorem",
+            "pct": 0.0,
+            "amount": null,
+            "currency": null,
+            "unit": null,
+            "min": null,
+            "max": null,
+            "components": [
+              {
+                "type": "pct",
+                "pct": 0.0
+              }
+            ],
+            "agri_codes": []
+          },
+          "text": null
+        }
+      ]
+    }
+  ],
+  "source": "EU TARIC consultation",
+  "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=1108140000&Expand=true&Area=VN",
+  "fetched_at": "2026-10-24T21:33:08Z",
+  "cache": {
+    "hit": false,
+    "cached_at": "2026-10-24T21:33:08Z"
+  }
+}

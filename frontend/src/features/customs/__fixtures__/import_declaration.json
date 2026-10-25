@@ -1,0 +1,1170 @@
+{
+ "additional_declaration_type": "A",
+ "additional_procedure": "000",
+ "ai": {
+  "drafted_at": "2026-10-24T21:30:27Z",
+  "drafted_by": {
+   "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+   "name": "Esimerkkikäyttäjä",
+   "org_type": "internal",
+   "type": "user"
+  },
+  "hs_model": null,
+  "hs_source": "retrieval_only",
+  "label": "AI drafted · broker approves before filing",
+  "sources": []
+ },
+ "approval_id": null,
+ "buyer": {
+  "address": null,
+  "country": null,
+  "eori": null,
+  "name": null
+ },
+ "can": {
+  "confirm": false,
+  "decide_approval": false,
+  "edit": true,
+  "file": false,
+  "record_response": false,
+  "request_approval": true
+ },
+ "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+ "company_name": "UI-koeyritys (ei oikea asiakas)",
+ "created_at": "2026-10-24T21:30:27Z",
+ "declarant": {
+  "address": {
+   "city": null,
+   "country": "FI",
+   "postal_code": null,
+   "street": null
+  },
+  "business_id": null,
+  "eori": null,
+  "name": "UI-koeyritys (ei oikea asiakas)",
+  "vat_id": null
+ },
+ "declaration_type": "IM",
+ "delivery_terms": {
+  "incoterm": "FCA",
+  "place": null
+ },
+ "demo": false,
+ "documents": [],
+ "edits": [
+  {
+   "at": "2026-10-24T21:30:35Z",
+   "by": {
+    "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+    "name": "Esimerkkikäyttäjä",
+    "org_type": "internal",
+    "type": "user"
+   },
+   "changes": [
+    {
+     "field": "cn_code",
+     "from": null,
+     "item": 1,
+     "to": "87120030"
+    },
+    {
+     "field": "taric_code",
+     "from": null,
+     "item": 1,
+     "to": "8712003010"
+    },
+    {
+     "field": "origin_country",
+     "from": null,
+     "item": 1,
+     "to": "CN"
+    },
+    {
+     "field": "net_kg",
+     "from": null,
+     "item": 1,
+     "to": 180.0
+    },
+    {
+     "field": "package_type",
+     "from": null,
+     "item": 1,
+     "to": "CT"
+    }
+   ]
+  }
+ ],
+ "exporter": {
+  "address": null,
+  "country": "CN",
+  "eori": null,
+  "name": null,
+  "vat_id": null
+ },
+ "gateway": {
+  "channel": "manual",
+  "description": "Manual filing in Tulli's Customs Clearance Service; MRN and release recorded by the broker",
+  "mode": "disabled",
+  "ready": true,
+  "template_version": "3.0.37"
+ },
+ "history": [
+  {
+   "at": "2026-10-24T21:30:27Z",
+   "by": {
+    "id": "1bc8173e-453f-4a87-a426-8ab46d3a9c8d",
+    "name": "Esimerkkikäyttäjä",
+    "org_type": "internal",
+    "type": "user"
+   },
+   "from": null,
+   "note": "Drafted from the shipment documents",
+   "to": "needs_info"
+  }
+ ],
+ "id": "6030741a-7733-4496-9b46-b25e29c82bd8",
+ "importer": {
+  "address": {
+   "city": null,
+   "country": "FI",
+   "postal_code": null,
+   "street": null
+  },
+  "business_id": null,
+  "eori": null,
+  "name": "UI-koeyritys (ei oikea asiakas)",
+  "vat_id": null
+ },
+ "invoice": {
+  "confirmed": false,
+  "currency": "EUR",
+  "date": null,
+  "document_id": null,
+  "extraction_status": null,
+  "number": null,
+  "total": 1000.0
+ },
+ "items": [
+  {
+   "cn_code": "87120030",
+   "cn_confirmed": true,
+   "cn_description": "Bicycles, not motorised, with ball bearings",
+   "controls": {
+    "dual_use": {
+     "annex_iv": false,
+     "authorisation": null,
+     "authorisation_options": [],
+     "candidates": [],
+     "catch_all": [],
+     "controlled": null,
+     "date": "2026-10-24",
+     "legal_point": null,
+     "licence_required": false,
+     "prohibited": false,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification.",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I."
+      }
+     ],
+     "requires_review": false,
+     "source": {
+      "amended_by": [
+       {
+        "act": "Commission Delegated Regulation (EU) 2022/1",
+        "m": "M1"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2022/699",
+        "m": "M2"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/66",
+        "m": "M3"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/996",
+        "m": "M4"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/2616",
+        "m": "M5"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2024/2547",
+        "m": "M6"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2025/2003",
+        "m": "M7"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2026/1405",
+        "m": "M8"
+       }
+      ],
+      "bytes": 3231736,
+      "celex": "02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "valid_on": "2026-10-24"
+     },
+     "taric_measures": []
+    },
+    "goods_sanctions": {
+     "blocked": false,
+     "common_high_priority": [],
+     "country": "CN",
+     "date": "2026-10-24",
+     "flow": "import",
+     "legal_point": null,
+     "matches": [],
+     "prohibited": false,
+     "reasons": [],
+     "requires_review": false,
+     "taric_measures": [],
+     "taric_verified": false
+    }
+   },
+   "currency": "EUR",
+   "customs_value_cents": 100000,
+   "description": "UI-koe: polkupyörät / local test consignment",
+   "documents": [],
+   "duty_cents": 62500,
+   "duty_label": "Third country duty 14.00 %",
+   "duty_rate_pct": 62.5,
+   "duty_source": "taric",
+   "edited": [
+    "cn_code",
+    "taric_code",
+    "origin_country",
+    "net_kg",
+    "package_type"
+   ],
+   "flags": [],
+   "freight_cents": 0,
+   "gross_kg": 200.0,
+   "hs_candidates": [
+    {
+     "code": "871200",
+     "confidence": null,
+     "description": "Bicycles and other cycles; including delivery tricycles, not motorised",
+     "rationale": "Keyword match in the HS 2022 nomenclature"
+    },
+    {
+     "code": "871493",
+     "confidence": null,
+     "description": "Cycles; parts thereof, hubs (other than coaster braking hubs and hub brakes) and free-wheel sprocket-wheels",
+     "rationale": "Keyword match in the HS 2022 nomenclature"
+    },
+    {
+     "code": "871492",
+     "confidence": null,
+     "description": "Cycles; parts thereof, wheel rims and spokes",
+     "rationale": "Keyword match in the HS 2022 nomenclature"
+    },
+    {
+     "code": "871499",
+     "confidence": null,
+     "description": "Cycles; parts thereof, n.e.c. in item no. 8714.9",
+     "rationale": "Keyword match in the HS 2022 nomenclature"
+    },
+    {
+     "code": "871496",
+     "confidence": null,
+     "description": "Cycles; parts, pedals and crank-gear, and parts thereof",
+     "rationale": "Keyword match in the HS 2022 nomenclature"
+    }
+   ],
+   "hs_code": "871200",
+   "hs_hint": "871200",
+   "hs_source": "invoice",
+   "hs_suggestion": {
+    "classified_at": "2026-10-24T21:30:27Z",
+    "cn8": null,
+    "cn8_description": null,
+    "cn8_note": "Proposed by AI from the CN 2026 subdivisions; confirm the CN/TARIC code against TARIC on the declaration date (RULE H-1)",
+    "cn8_proposed": null,
+    "cn_options": [
+     {
+      "code": "87120030",
+      "description": "Bicycles, not motorised, with ball bearings"
+     },
+     {
+      "code": "87120070",
+      "description": "Cycles, incl. delivery tricycles, not motorised (excl. bicycles with ball bearings)"
+     }
+    ],
+    "cn_resolution": null,
+    "confidence": null,
+    "duty": {
+     "basis": "Third-country (erga omnes) conventional duty",
+     "label": "Estimate — not authoritative; confirm in TARIC",
+     "preference_note": null,
+     "rate_pct": null,
+     "source": "ai_estimate"
+    },
+    "hs6": null,
+    "hs6_description": null,
+    "hs_hint_check": {
+     "agrees": null,
+     "code": "871200",
+     "note": "Printed code exists; not compared.",
+     "valid": true
+    },
+    "model": null,
+    "rationale": null,
+    "rationale_i18n": null,
+    "reason": "AI is not configured; pick the code from the candidates.",
+    "reason_i18n": null,
+    "source": "retrieval_only",
+    "status": "needs_review",
+    "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712000000&LangDescr=en"
+   },
+   "insurance_cents": 0,
+   "invoice_amount": 1000.0,
+   "licence_check": {
+    "at": "2026-10-24T21:30:39Z",
+    "country": "CN",
+    "date": "2026-10-24",
+    "flow": "import",
+    "status": "ok"
+   },
+   "licence_requirements": [
+    {
+     "alternatives": [
+      {
+       "action": "Import/export allowed after control",
+       "code": "Y986",
+       "kind": "exemption",
+       "sequence": 5,
+       "text_en": "Exemption from import prohibition according to Article 11.1 and 11.2 of Regulation (EU) 2024/573",
+       "text_fi": "Vapautus asetuksen (EU) N:o 2024/573 11 artiklan 1 ja 2 kohdan mukaisesta tuontikiellosta"
+      },
+      {
+       "action": "Import/export allowed after control",
+       "code": "Y160",
+       "kind": "exemption",
+       "sequence": 10,
+       "text_en": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573",
+       "text_fi": "Muut kuin asetuksen (EU) 2024/573 sovellettavien säännösten soveltamisalaan kuuluvat tavarat"
+      },
+      {
+       "action": "Import/export allowed after control",
+       "code": "Y169",
+       "kind": "exemption",
+       "sequence": 15,
+       "text_en": "Products and equipment, including parts (excluding military and repair exemption) listed in Annex IV containing F-gases or relies upon F-gases not subject to prohibition as imposed by Article 11.1. (Reg 2024/573).",
+       "text_fi": "Tuotteet ja laitteet sekä niiden osat, jotka sisältävät fluorattuja kaasuja tai joiden toiminta perustuu fluorattuihin kaasuihin ja joihin ei sovelleta 11 artiklan 1 kohdassa tarkoitettua kieltoa (lukuun ottamatta puolustustarvikkeille ja korjaamiseen tarvittaville tuotteille ja laitteille myönnettyjä poikkeuksia) eikä liitteen IV mukaista kieltoa (asetus (EU) 2024/573)"
+      }
+     ],
+     "blocking": true,
+     "certificate_code": "Y152",
+     "condition_code": "Y",
+     "fallback_action": "Import/export not allowed after control",
+     "footnotes": [
+      {
+       "code": "CD917",
+       "text": "By virtue of Article 4(6) of Regulation (EU) 2024/573, the placing on the market of fluorinated greenhouse gases shall be prohibited, unless importers provide evidence that any trifluoromethane, produced as a by-product during the production process of the fluorinated greenhouse gases has been destroyed or recovered for subsequent use, using best available techniques.<br><br>By virtue of Article 11.1. of Regulation (EU) 2024/573, the placing on the market of products and equipment, including parts thereof, listed in Annex IV, with an exemption for military equipment, shall be prohibited from the date specified in that Annex.<br><br>By virtue of Article 11.1 sub paragraph 2 (a)(b), (c) of Regulation (I) 2024/573, the placing on the market of parts of products and equipment required for repair and servicing of existing equipment listed in Annex IV shall be allowed. <br><br>By virtue of Article 11.3. of Regulation (EU) 2024/573, the placing on the market of non-refillable containers for fluorinated greenhouse gases listed in Annex I and in Section 1 of Annex II, empty, or fully or partially filled, shall be prohibited.<br><br>By virtue of Article 11.4 of Regulation (EU) 2024/573, undertakings which place on the market refillable containers for fluorinated greenhouse gases shall produce a declaration of conformity that includes evidence confirming that there are binding arrangements in place for the return of those containers for the purpose of refilling, in particular identifying the relevant actors, their obligatory commitments and the relevant logistical arrangements.<br><br>By virtue of Article 12 of Regulation (EU) 2024/573, the following products and equipment that contain fluorinated greenhouse gases or whose functioning relies upon those gases shall only be placed on the market if they are labelled as:<br>(a)\t refrigeration equipment ;<br>(b)\tair-conditioning equipment ; <br>(c)\theat pumps ;<br>(d)\tfire protection equipment ; <br>(e)\telectrical switchgear ;<br>(f)\taerosol dispenser that contain fluorinated greenhouse gases, including metered dose inhalers;<br>(g)\tall fluorinated greenhouse gas containers ;<br>(h)\tfluorinated greenhouse gas-based solvents ; or<br>(i)\torganic Rankine cycles.<br><br>By virtue of Article 16 of Regulation (EU) 2024/573, the placing on the market of hydrofluorocarbons shall be allowed only to the extent that importers have been allocated quota by the Commission as set out in Article 17.<br><br>By virtue of Article 19.1 of Regulation (EU) 2024/573, refrigeration and air-conditioning equipment, heat pumps and metered dose inhalers pre-charged with substances listed in Section 1 of Annex I shall not be placed on the market unless those substances with which the products or equipment have been pre-charged are accounted for within the quota system.<br><br>By virtue of Article 19.2 of Regulation (EU) 2024/573, the placing on the market of goods falling under the provisions of Article 19.1 shall be subject to the presentation of a declaration of conformity.<br><br>By virtue of Article 19.6 of Regulation (EU) 2024/573, undertakings that placed on the market less than 10 tonnes of CO2 equivalent of hydrofluorocarbons, per year, contained in the products or equipment referred to in Article 19.1 shall be exempted from the provisions of Article 19. <br><br>By virtue of Article 20.4 of Regulation (EU) 2024/573, the undertakings shall have a valid registration in the F-gas Portal prior to carrying out any of the activities listed in points (a) to (g).<br><br>By virtue of Article 23.3 (a) of Regulation (EU) 2024/573, the F-gas Portal registration identification number shall be declared.<br>The information listed in Article 23.3(a) to (d) of Regulation (EU) 2024/573 shall be provided to customs authorities, where relevant, in the customs declaration.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+      }
+     ],
+     "geo_code": "1011",
+     "geo_name": "ERGA OMNES",
+     "kind": "prohibition",
+     "measure_sid": "4161700",
+     "measure_type": "724",
+     "measure_type_candidates": [
+      "724"
+     ],
+     "measure_type_text": "Import control of fluorinated greenhouse gases",
+     "regulation": "R0573/24",
+     "satisfied_by": null,
+     "text_en": "Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573",
+     "text_fi": "Olemassa olevien laitteiden korjausta tai huoltoa varten asetuksen (EU) 2024/573 11 artiklan 1 kohdan toisen alakohdan mukaisesti myönnetty vapautus tuontikiellosta"
+    }
+   ],
+   "net_kg": 180.0,
+   "origin_assessment": {
+    "arrangement": null,
+    "assessed_at": "2026-10-24T21:30:39Z",
+    "available_preference_code": null,
+    "date": "2026-10-24",
+    "goods_code": "8712003010",
+    "origin": "CN",
+    "preference_code": "100",
+    "preference_label": {
+     "en": null,
+     "fi": null
+    },
+    "preferential_duty": null,
+    "proof": {
+     "document_code": null,
+     "ref": null,
+     "type": null,
+     "valid": null
+    },
+    "psr": {
+     "basis": null,
+     "met": null,
+     "rule": null,
+     "rule_text": null
+    },
+    "quota": null,
+    "reasons": [
+     {
+      "code": "no_arrangement",
+      "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+      "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8712003010; DG TRADE: ei alkuperäsääntöjä)."
+     }
+    ],
+    "saving_cents": null,
+    "sources": [
+     {
+      "fetched_at": "2026-10-24T21:29:45Z",
+      "name": "EU TARIC consultation",
+      "url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN"
+     }
+    ],
+    "third_country_duty": {
+     "cents": 14000,
+     "expression": "14.00 %",
+     "geo_code": "1011",
+     "geo_name": "ERGA OMNES",
+     "measure_type": "Third country duty",
+     "order_number": null,
+     "pct": 14.0,
+     "regulation": "R0838/06",
+     "type_code": "103"
+    }
+   },
+   "origin_country": "CN",
+   "origin_proof_document": null,
+   "origin_source": "broker",
+   "package_type": "CT",
+   "packages": 10,
+   "post_border_cents": 0,
+   "preference": "100",
+   "preference_note": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+   "preference_note_i18n": {
+    "detail_en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+    "detail_fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8712003010; DG TRADE: ei alkuperäsääntöjä).",
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8712003010; DG TRADE: ei alkuperäsääntöjä)."
+   },
+   "quantity": 10.0,
+   "seq": 1,
+   "source": "booking",
+   "source_line": 1,
+   "statistical_value_cents": 100000,
+   "taric": {
+    "additional_duties": [],
+    "at": "2026-10-24T21:30:39Z",
+    "basis": "14.00 %",
+    "duty_cents": 62500,
+    "duty_expression": "14.00 %",
+    "fetched_at": "2026-10-24T21:29:45Z",
+    "geo_code": "1011",
+    "geo_name": "ERGA OMNES",
+    "goods_code": "8712003010",
+    "measure_duty_cents": 14000,
+    "measure_rate_pct": 14.0,
+    "measure_type": "103",
+    "measure_type_text": "Third country duty",
+    "order_number": null,
+    "origin": "CN",
+    "preference": "100",
+    "rate_pct": 62.5,
+    "reasons": [
+     {
+      "code": "td_residual",
+      "en": "Anti-dumping/countervailing duty was taken at the residual additional code (all other companies) because the producer's TARIC additional code was not declared.",
+      "fi": "Polkumyyntitulli laskettiin jäännöskoodilla (muut yritykset), koska valmistajan TARIC-lisäkoodia ei ole ilmoitettu."
+     }
+    ],
+    "regulation": "R0838/06",
+    "source": "taric",
+    "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN",
+    "status": "ok",
+    "subcodes": null,
+    "supplementary_unit": "p/st",
+    "taric_date": "2026-10-24",
+    "trade_defence": [
+     {
+      "additional_code": "B999",
+      "additional_code_assumed_residual": true,
+      "condition": null,
+      "duty_cents": 48500,
+      "duty_expression": "48.50 %",
+      "rate_pct": 48.5,
+      "regulation": "R2146/25",
+      "status": "ok",
+      "type": "Definitive anti-dumping duty",
+      "type_code": "552"
+     }
+    ]
+   },
+   "taric_additional_codes": [],
+   "taric_code": "8712003010",
+   "taric_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003010&Expand=true&Area=CN",
+   "unit": null,
+   "unit_price": null,
+   "value_cents": 100000,
+   "vat_base_cents": 162500,
+   "vat_category": "standard",
+   "vat_cents": 41438,
+   "vat_rate_label": "General rate",
+   "vat_rate_pct": 25.5,
+   "weight_source": "invoice"
+  }
+ ],
+ "location_of_goods": null,
+ "lrn": "LRN-2026-000001",
+ "mrn": null,
+ "office": null,
+ "procedure_code": "4000",
+ "representation_type": "direct",
+ "representative": {
+  "address": {
+   "country": "FI",
+   "street": "Helsinki, Finland"
+  },
+  "business_id": null,
+  "eori": null,
+  "name": "Huolitsija Oy",
+  "vat_id": null
+ },
+ "representative_status_code": "2",
+ "screening": {
+  "complete": false,
+  "hits": [],
+  "legal_point": null,
+  "lists": [
+   {
+    "fetched_at": "2026-10-24T21:28:29Z",
+    "list": "eu",
+    "sha256": "636800c3e494b2ef8934f51f5e23c914a6208a383ac850e674b1b35a7d49d34f",
+    "status": "ok",
+    "version": "f3066ff4-ce9a-4f51-b65c-64600708729f"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:30Z",
+    "list": "un",
+    "sha256": "dfb2a90b0e3a02193e4198b2c4a9eafeb04325469e48a80a8092650f6cf6dc76",
+    "status": "ok",
+    "version": "d220e444-9a2a-4273-a0f7-f814563df8a4"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:43Z",
+    "list": "ofac",
+    "sha256": "abc40b04ef1e514f322f302cffce56faef7ac73c9e0e69f6316e584a503a1173",
+    "status": "ok",
+    "version": "04d056f3-20a8-47c7-8a08-32d4ed42425c"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:46Z",
+    "list": "csl",
+    "sha256": "f8d7c6a4f37583ebd97a86f4bf4c1860bf0be0c00a6eeef2b540f186a80290cb",
+    "status": "ok",
+    "version": "11fab8ac-7536-40b4-b618-61d7c9433c12"
+   },
+   {
+    "fetched_at": "2026-10-24T21:28:48Z",
+    "list": "uk",
+    "sha256": "8e71e2237d0dee3191d433f94ba6cec65ec76b5f0f3e9d2e42b4f3f992682281",
+    "status": "ok",
+    "version": "a14df997-796d-47b3-bddb-b4316d0e0ac7"
+   }
+  ],
+  "name": null,
+  "parties": [
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 20,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "UI-koeyritys (ei oikea asiakas)",
+    "normalized": "ui koeyritys ei oikea asiakas",
+    "query": "UI-koeyritys (ei oikea asiakas)",
+    "role": "importer",
+    "screened_at": "2026-10-24T21:30:39Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "complete": false,
+    "error": "A name is required for sanctions screening",
+    "hits": [],
+    "name": null,
+    "role": "seller",
+    "status": "error"
+   },
+   {
+    "complete": false,
+    "error": "A name is required for sanctions screening",
+    "hits": [],
+    "name": null,
+    "role": "buyer",
+    "status": "error"
+   },
+   {
+    "complete": false,
+    "error": "A name is required for sanctions screening",
+    "hits": [],
+    "name": null,
+    "role": "exporter",
+    "status": "error"
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 21,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "UI-koeyritys (ei oikea asiakas)",
+    "normalized": "ui koeyritys ei oikea asiakas",
+    "query": "UI-koeyritys (ei oikea asiakas)",
+    "role": "declarant",
+    "screened_at": "2026-10-24T21:30:39Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   },
+   {
+    "closest": null,
+    "complete": true,
+    "country": null,
+    "hits": [],
+    "kind": "any",
+    "latency_ms": 20,
+    "lists": [
+     {
+      "entries": 6269,
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "generated_at": "2026-10-23T17:05:43.888+02:00",
+      "label": "EU consolidated financial sanctions list",
+      "list": "eu",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 1007,
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "generated_at": "2026-10-24T19:27:12.813Z",
+      "label": "UN Security Council consolidated list",
+      "list": "un",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 19471,
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "generated_at": "2026-10-21T16:35:23Z",
+      "label": "OFAC Specially Designated Nationals (SDN) list",
+      "list": "ofac",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 5547,
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "generated_at": null,
+      "label": "US Consolidated Screening List",
+      "list": "csl",
+      "loaded": true,
+      "status": "ok"
+     },
+     {
+      "entries": 6408,
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "generated_at": "16/10/2026",
+      "label": "UK Sanctions List",
+      "list": "uk",
+      "loaded": true,
+      "status": "ok"
+     }
+    ],
+    "name": "Huolitsija Oy",
+    "normalized": "huolitsija",
+    "query": "Huolitsija Oy",
+    "role": "representative",
+    "screened_at": "2026-10-24T21:30:39Z",
+    "status": "clear",
+    "threshold": 0.86,
+    "top_score": 0.0
+   }
+  ],
+  "party_fingerprint": "0af1b0901bb5fe3547bdfa95d1be798f2f6557e089b8776ec49588ef08223044",
+  "screened_at": "2026-10-24T21:30:39Z",
+  "status": "error"
+ },
+ "seller": {
+  "address": null,
+  "country": "CN",
+  "eori": null,
+  "name": null,
+  "vat_id": null
+ },
+ "shipment": {
+  "destination": {
+   "city": "Helsinki",
+   "code": "FIHEL",
+   "country": "FI",
+   "kinds": [
+    "port",
+    "road",
+    "rail"
+   ],
+   "lat": 60.21502,
+   "lon": 25.19392,
+   "name": "Helsinki Vuosaari Harbour",
+   "unlocode": "FIHEL"
+  },
+  "direction": "import",
+  "eta": "2026-12-16T18:05:20Z",
+  "id": "112ba39e-7774-4ad4-b16c-bae0e4f383b4",
+  "incoterm": "FCA",
+  "mode": "sea",
+  "origin": {
+   "city": "Shanghai",
+   "code": "CNSHA",
+   "country": "CN",
+   "kinds": [
+    "port",
+    "road",
+    "rail"
+   ],
+   "lat": 30.62,
+   "lon": 122.07,
+   "name": "Shanghai (Yangshan)",
+   "unlocode": "CNSHA"
+  },
+  "reference": "HUO-2026-000001",
+  "status": "booked"
+ },
+ "shipment_id": "112ba39e-7774-4ad4-b16c-bae0e4f383b4",
+ "shipment_ref": "HUO-2026-000001",
+ "status": "needs_info",
+ "submission": null,
+ "test": false,
+ "totals": {
+  "customs_value_cents": 100000,
+  "duty_cents": 62500,
+  "duty_complete": true,
+  "estimate": false,
+  "estimate_label": "Duty from the EU TARIC consultation (2026-10-24). Freight and insurance to the EU border are not included yet; the customs value, duty and VAT will rise when the broker adds them",
+  "freight_pending": true,
+  "gross_kg": 200.0,
+  "invoice_value_cents": 100000,
+  "net_kg": 180.0,
+  "packages": 10,
+  "payable_to_customs_cents": 103938,
+  "value_complete": true,
+  "vat_base_cents": 162500,
+  "vat_cents": 41438
+ },
+ "transport": {
+  "container_numbers": [],
+  "containerised": false,
+  "dispatch_country": "CN",
+  "inland_mode": "3",
+  "means_on_arrival": null,
+  "mode": "sea",
+  "mode_at_border": "1",
+  "port_of_arrival": "FIHEL",
+  "transport_document": {
+   "document_id": null,
+   "number": null,
+   "type": null
+  }
+ },
+ "type": "import",
+ "updated_at": "2026-10-24T21:30:39Z",
+ "validations": [
+  {
+   "field": "importer.eori",
+   "item": null,
+   "message": "Importer EORI is missing or malformed: add it in Company (apply in Tulli's EORI Number Registration Service if you have none)",
+   "ok": false,
+   "owner": "customer",
+   "rule": "E-1",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "A valid power of attorney for direct representation covering imports is needed before filing (Company → Power of attorney)",
+   "ok": false,
+   "owner": "customer",
+   "rule": "R-2",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Customer KYC approved",
+   "ok": true,
+   "owner": "broker",
+   "rule": "KYC",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Customer sanctions screening clear",
+   "ok": true,
+   "owner": "broker",
+   "rule": "K-1",
+   "severity": "blocking"
+  },
+  {
+   "field": "screening",
+   "message": "A current, complete sanctions clearance is required for every party.",
+   "message_i18n": {
+    "en": "A current, complete sanctions clearance is required for every party.",
+    "fi": "Kaikkien osapuolten ajantasainen pakotetarkistus vaaditaan."
+   },
+   "ok": false,
+   "owner": "broker",
+   "rule": "K-1",
+   "severity": "blocking"
+  },
+  {
+   "item": 1,
+   "legal_point": null,
+   "message": "No export/transfer licence requirement for this flow.",
+   "message_i18n": {
+    "en": "No export/transfer licence requirement for this flow.",
+    "fi": "Kaksikäyttötuotteiden valvonta ja lupa on tarkistettava."
+   },
+   "ok": true,
+   "owner": "broker",
+   "rule": "DU-1",
+   "severity": "blocking"
+  },
+  {
+   "item": 1,
+   "legal_point": null,
+   "message": "No country goods sanction hold identified.",
+   "message_i18n": {
+    "en": "No country goods sanction hold identified.",
+    "fi": "Tavaran pakoterajoitukset on tarkistettava."
+   },
+   "ok": true,
+   "owner": "broker",
+   "rule": "SANC-GOODS",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Incoterm and named place are required (DE 4/1)",
+   "ok": false,
+   "owner": "customer",
+   "rule": "I-2",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Upload the commercial invoice",
+   "ok": false,
+   "owner": "customer",
+   "rule": "DOC-2",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Transport document number (B/L, AWB or CMR) is missing (DE 2/1)",
+   "ok": false,
+   "owner": "broker",
+   "rule": "DOC-2",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Exchange rate EUR 1.0 per EUR (EUR, n/a)",
+   "ok": true,
+   "owner": "broker",
+   "rule": "I-5",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "FCA: freight and insurance to the EU border are not known; enter them under valuation",
+   "ok": false,
+   "owner": "broker",
+   "rule": "I-5",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Set the customs office of presentation (DE 5/26)",
+   "ok": false,
+   "owner": "broker",
+   "rule": "C-2",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Set the location of goods (DE 5/23)",
+   "ok": false,
+   "owner": "broker",
+   "rule": "C-2",
+   "severity": "blocking"
+  },
+  {
+   "field": "description",
+   "item": 1,
+   "message": "Goods description is specific",
+   "ok": true,
+   "owner": "customer",
+   "rule": "S-2",
+   "severity": "blocking"
+  },
+  {
+   "field": "hs_code",
+   "item": 1,
+   "message": "HS 871200",
+   "ok": true,
+   "owner": "broker",
+   "rule": "H-1",
+   "severity": "blocking"
+  },
+  {
+   "field": "cn_code",
+   "item": 1,
+   "message": "CN 87120030 confirmed in TARIC",
+   "ok": true,
+   "owner": "broker",
+   "rule": "H-1",
+   "severity": "blocking"
+  },
+  {
+   "field": "origin_country",
+   "item": 1,
+   "message": "Origin CN",
+   "ok": true,
+   "owner": "customer",
+   "rule": "ORIGIN",
+   "severity": "blocking"
+  },
+  {
+   "field": "gross_kg",
+   "item": 1,
+   "message": "Weights stated",
+   "ok": true,
+   "owner": "customer",
+   "rule": "WEIGHT",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": null,
+   "message": "Import VAT: payable to Customs",
+   "ok": true,
+   "owner": "customer",
+   "rule": "V-3",
+   "severity": "advisory"
+  },
+  {
+   "field": "preference",
+   "item": 1,
+   "message": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+   "message_i18n": {
+    "en": "No EU preferential arrangement with CN (TARIC: no preferential duty for 8712003010; DG TRADE: no origin rules).",
+    "fi": "EU:lla ei ole etuuskohtelujärjestelyä alkuperämaan CN kanssa (TARIC: ei etuustullia nimikkeelle 8712003010; DG TRADE: ei alkuperäsääntöjä)."
+   },
+   "ok": true,
+   "owner": "broker",
+   "rule": "ORIGIN-PREF",
+   "severity": "advisory"
+  },
+  {
+   "field": null,
+   "item": 1,
+   "message": "Duty from the EU TARIC consultation on 2026-10-24: Third country duty 14.00 %",
+   "message_i18n": {
+    "en": "Duty from the EU TARIC consultation on 2026-10-24: Third country duty 14.00 %",
+    "fi": "Tulli EU:n TARIC-palvelusta 2026-10-24: 14.00 %"
+   },
+   "ok": true,
+   "owner": "broker",
+   "rule": "TARIC-1",
+   "severity": "advisory"
+  },
+  {
+   "field": "taric_additional_codes",
+   "item": 1,
+   "message": "Anti-dumping/countervailing measures (R2146/25) apply to this origin. The duty includes the residual rate (additional code B999); enter the producer's TARIC additional code (DE 6/16) or confirm the residual code.",
+   "message_i18n": {
+    "en": "Anti-dumping/countervailing measures (R2146/25) apply to this origin. The duty includes the residual rate (additional code B999); enter the producer's TARIC additional code (DE 6/16) or confirm the residual code.",
+    "fi": "Alkuperämaahan kohdistuu polkumyynti- tai tasoitustulli (R2146/25). Tulliin sisältyy jäännöskoodin tulli (lisäkoodi B999); ilmoita valmistajan TARIC-lisäkoodi (DE 6/16) tai vahvista jäännöskoodi."
+   },
+   "ok": false,
+   "owner": "broker",
+   "rule": "TD-1",
+   "severity": "blocking"
+  },
+  {
+   "field": null,
+   "item": 1,
+   "licence_requirement": {
+    "certificate_code": "Y152",
+    "condition_code": "Y",
+    "kind": "prohibition",
+    "measure_sid": "4161700",
+    "measure_type": "724",
+    "regulation": "R0573/24"
+   },
+   "message": "Prohibited unless an exemption or authorisation applies: Import control of fluorinated greenhouse gases (R0573/24, ERGA OMNES). Y152 Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573 Accepted document codes (DE 2/3): Y152, Y986, Y160, Y169.",
+   "message_i18n": {
+    "en": "Prohibited unless an exemption or authorisation applies: Import control of fluorinated greenhouse gases (R0573/24, ERGA OMNES). Y152 Exemption from import prohibition, granted for repair or servicing of existing equipment, according to the second paragraph of Article 11.1 of Regulation (EU) 2024/573 Accepted document codes (DE 2/3): Y152, Y986, Y160, Y169.",
+    "fi": "Kielletty, ellei poikkeus tai lupa koske tavaraa: Import control of fluorinated greenhouse gases (R0573/24). Y152 Olemassa olevien laitteiden korjausta tai huoltoa varten asetuksen (EU) 2024/573 11 artiklan 1 kohdan toisen alakohdan mukaisesti myönnetty vapautus tuontikiellosta Hyväksytyt asiakirjakoodit (DE 2/3): Y152, Y986, Y160, Y169."
+   },
+   "ok": false,
+   "owner": "broker",
+   "rule": "LIC-1",
+   "severity": "blocking"
+  }
+ ],
+ "valuation": {
+  "allocation": "weight",
+  "exchange_rate": {
+   "applies_month": null,
+   "currency": "EUR",
+   "rate": 1.0,
+   "rate_date": null,
+   "source": "EUR"
+  },
+  "freight_known": false,
+  "freight_to_border_cents": 0,
+  "incoterm": "FCA",
+  "incoterm_group": "F",
+  "insurance_cents": 0,
+  "invoice_currency": "EUR",
+  "invoice_stated_freight": null,
+  "invoice_stated_insurance": null,
+  "invoice_total": 1000.0,
+  "method": "1",
+  "method_label": "Transaction value (UCC art. 70)",
+  "notes": [
+   "Freight and insurance up to the EU border are added to the invoice price (IA art. 137 / RULE I-5); no priced quote on this shipment, so the broker enters them."
+  ],
+  "post_border_cents": 0,
+  "quote": {
+   "id": null,
+   "lines": [],
+   "number": null
+  }
+ },
+ "vat_route": "paid_to_customs",
+ "vat_route_label": "Import VAT: payable to Customs"
+}

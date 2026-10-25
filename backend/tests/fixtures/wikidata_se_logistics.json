@@ -1,0 +1,243 @@
+{
+ "head": {
+  "vars": [
+   "c",
+   "cLabel",
+   "web",
+   "cls"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2090767"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.walleniuswilhelmsen.com/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Wallenius Wilhelmsen"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q651658"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1028092"
+    },
+    "web": {
+     "type": "uri",
+     "value": "http://www.greencargo.com/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Green Cargo"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1028092"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.greencargo.com/en/norge/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Green Cargo"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1028092"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.greencargo.com/sv/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Green Cargo"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q140307435"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://isotrax.com/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EdIT Solutions Sweden AB"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q98165757"
+    },
+    "web": {
+     "type": "uri",
+     "value": "http://www.border.se"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Border Music Distribution AB"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3181430"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.postnord.com/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PostNord"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3181430"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.postnord.se/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PostNord"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q140594098"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://pango.ai"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Pango"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3181430"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.postnord.dk/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PostNord"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3181430"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.postnord.no/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PostNord"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   },
+   {
+    "c": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3181430"
+    },
+    "web": {
+     "type": "uri",
+     "value": "https://www.postnord.fi/"
+    },
+    "cLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "PostNord"
+    },
+    "cls": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q177777"
+    }
+   }
+  ]
+ },
+ "_captured": "Wikidata SPARQL logistics/freight companies in Sweden (Q34) with P856, 2026-10-24 (query variable ?ind renamed ?cls to match services.partner_discovery's query)"
+}

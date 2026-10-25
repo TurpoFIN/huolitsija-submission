@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/schemas.zip",
+    "sha256": "5e38c1f4683966d214346e4c78f1498923929cd314d9642b3259cca3f81bd2dd",
+    "retrieved_at": "2026-10-24T21:23:23.087735+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/examples/FI415B.xml",
+    "sha256": "52c6f2c9e2a58c4b35b7538dd7810b1f4f88900cfe08585736df520506beb5c1",
+    "retrieved_at": "2026-10-24T21:23:23.242441+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/examples/FI428B.xml",
+    "sha256": "9455621130d6389449852c4dfe994088c87dd9528ef2be6bb04d696c8ff757bf",
+    "retrieved_at": "2026-10-24T21:23:23.384254+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/examples/FI429B.xml",
+    "sha256": "83614ddbb6dae318c3afe00dbc94a02047f680c44f2933614cf835a1f903c12f",
+    "retrieved_at": "2026-10-24T21:23:23.503889+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/examples/FI416B.xml",
+    "sha256": "69f80412578a3db13a19c500aabf2dbeab9032ce0cdefab6cb0c24767824462d",
+    "retrieved_at": "2026-10-24T21:23:23.639754+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/examples/FI444B.xml",
+    "sha256": "efcc78dcaa1c9a4ee05f064b48f80e92cd1f090fb9cc5593f903ce99232e866c",
+    "retrieved_at": "2026-10-24T21:23:23.777795+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/data.json",
+    "sha256": "0709b272c7825ae2744026b18e3e23ffb92b04a953c52b4c5a3ab18012a4a1c5",
+    "retrieved_at": "2026-10-24T21:23:23.938348+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/constraints.json",
+    "sha256": "9d1f630c1e03f27cacfd1c04d19dadee8d89a890c913ddf9a7d28f9e8ddb1333",
+    "retrieved_at": "2026-10-24T21:23:24.100028+00:00"
+  },
+  {
+    "url": "https://finnishcustoms-suomentulli.github.io/MIGs/Import/common/2.1.7/usecases.json",
+    "sha256": "2265a50dd4524a7d773a1d6dbaa652d48ab1dcebd12539d5f007f03d8ebf85d3",
+    "retrieved_at": "2026-10-24T21:23:24.235713+00:00"
+  }
+]

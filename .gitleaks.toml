@@ -1,0 +1,12 @@
+title = "Huolitsija source scan"
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Reviewed public EU feed download token, geography text, and explicit CI-only passwords"
+regexTarget = "match"
+regexes = [
+  '''Sarapiqui","Horluetas/Sarapiqui"''',
+  '''token=dG9rZW4tMjAxNw''',
+  '''(?:DEMO_OPS_PASSWORD|CI_DEMO_PASSWORD)\", \"ci-pass-123456''',
+]

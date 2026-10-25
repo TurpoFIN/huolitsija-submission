@@ -1,0 +1,934 @@
+{
+ "source": {
+  "url": "https://www.sanctionsmap.eu/api/v1/regime",
+  "fetched_at": "2026-10-24T19:34:50+00:00",
+  "sha256": "6f33075926dada2b06bc40b67a3406bb86445e0d3658b4edc90c5400d206b93c",
+  "bytes": 399270,
+  "publisher": "EU Sanctions Map (www.sanctionsmap.eu)"
+ },
+ "countries": {
+  "AF": {
+   "country": "Afghanistan",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": true,
+     "political_declaration": false,
+     "regime": "Restrictive measures imposed with respect to the Taliban",
+     "regime_amended_at": 1726178400,
+     "regime_id": 1,
+     "programme": [
+      "AFG"
+     ],
+     "description": "It is prohibited to export arms and related materiel to the listed individuals. Related technical advice, training and assistance is also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures directed against certain individuals, groups, undertakings and entities in view of the situation in Afghanistan",
+       "number": "05.02.2022 consolidated basic legal act - 2011/486/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011D0486-20220205"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures directed against certain individuals, groups, undertakings and entities in view of the situation in Afghanistan",
+       "number": "13.09.2024 consolidated basic legal act - (EU) No 753/2011",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011R0753-20240913&qid=1751294529505"
+      },
+      {
+       "title": "Resolution 1988 (2011)",
+       "number": "S/RES/1988 (2011)",
+       "url": "https://undocs.org/S/RES/1988(2011)"
+      },
+      {
+       "title": "Resolution 1989 (2011)",
+       "number": "S/RES/1989 (2011)",
+       "url": "https://undocs.org/S/RES/1989(2011)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": false,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": true,
+   "dual_use_ban": false
+  },
+  "BY": {
+   "country": "Belarus",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+     "regime_amended_at": 1776895200,
+     "regime_id": 2,
+     "programme": [
+      "BLR"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Belarus. Related technical or financial assistance and brokering services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (EC) No 765/2006",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006R0765-20260724"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "23.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1847",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601847"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - 2012/642/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02012D0642-20260724"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "23.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1846",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601817"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_embargo",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+     "regime_amended_at": 1776895200,
+     "regime_id": 2,
+     "programme": [
+      "BLR"
+     ],
+     "description": "It is prohibited to sell, supply, transfer or export dual-use goods and technology to Belarus. It is also prohibited to sell, supply, transfer or export goods and technology, which might contribute to Belarus's military and technological enhancement, or to the development of its defence and security sector, as listed in Annex Va of Regulation (EC) 765/2006, to Belarus. The transit of such goods and technology via Belarus is also prohibited. Related technical or financial assistance and brokering or other services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (EC) No 765/2006",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006R0765-20260724"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "23.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1847",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601847"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - 2012/642/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02012D0642-20260724"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+       "number": "23.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1846",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601817"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": true
+  },
+  "CF": {
+   "country": "Central African Republic",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in the Central African Republic",
+     "regime_amended_at": 1742943600,
+     "regime_id": 9,
+     "programme": [
+      "CAF"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Central African Republic. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 2339 (2017)",
+       "number": "S/RES/2339(2017)",
+       "url": "http://undocs.org/en/S/RES/2339(2017)"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in the Central African Republic",
+       "number": "26.03.2025 consolidated basic legal act - (EU) No 224/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0224-20250326"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures against the Central African Republic",
+       "number": "26.03.2025 consolidated basic legal act - 2013/798/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02013D0798-20250326"
+      },
+      {
+       "title": "Resolution 2399 (2018)",
+       "number": "S/RES/2399(2018)",
+       "url": "https://www.undocs.org/en/S/RES/2399(2018)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "CN": {
+   "country": "China",
+   "measures": [
+    {
+     "kind": "arms_embargo",
+     "targeted": false,
+     "political_declaration": true,
+     "regime": "Specific restrictive measures in relation to the events at the Tiananmen Square protests of 1989",
+     "regime_amended_at": 614901600,
+     "regime_id": 10,
+     "programme": [],
+     "description": "Political declaration from 1989 by the Member States to interrupt military cooperation and apply an embargo on trade in arms with China",
+     "legal_acts": []
+    }
+   ],
+   "arms_embargo": false,
+   "arms_embargo_political": true,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "KP": {
+   "country": "Democratic People's Republic of Korea (DPRK – North Korea)",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in relation to the non-proliferation of the weapons of mass destruction",
+     "regime_amended_at": 1765839600,
+     "regime_id": 20,
+     "programme": [
+      "PRK"
+     ],
+     "description": "It is prohibited to export the following items and technology to the DPRK: (1) arms and related materiel of all types; (2) all items, materials, equipment, goods and technology, which could contribute to the DPRK's nuclear-related, ballistic-missile-related or other weapons of mass destruction-related programs; (3) key components for the ballistic-missile sector; (4) any other item that could contribute to the development of the operational capabilities of the DPRK's armed forces; (5) other items listed in Council Decision (CFSP) 2016/849. Related financial assistance, technical training, advi",
+     "legal_acts": [
+      {
+       "title": "Resolution 2371 (2017)",
+       "number": "S/RES/2371 (2017)",
+       "url": "https://undocs.org/S/RES/2371(2017)"
+      },
+      {
+       "title": "Resolution 2375 (2017)",
+       "number": "S/RES/2375 (2017)",
+       "url": "https://undocs.org/S/RES/2375(2017)"
+      },
+      {
+       "title": "Resolution 2270 (2016)",
+       "number": "S/RES/2270 (2016)",
+       "url": "https://undocs.org/S/RES/2270(2016)"
+      },
+      {
+       "title": "Resolution 2321 (2016)",
+       "number": "S/RES/2321 (2016)",
+       "url": "https://undocs.org/S/RES/2321(2016)"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in relation to the non-proliferation of the weapons of mass destruction",
+     "regime_amended_at": 1765839600,
+     "regime_id": 20,
+     "programme": [
+      "PRK"
+     ],
+     "description": "It is prohibited to export to DPRK (1) items, materials and equipment relating to dual-use goods and technology; (2) and any other item listed in the conventional arms dual-use list adopted by the UN Sanctions Committee pursuant to paragraph 7 of UNSCR 2321 (2016). Related assistance, technical training, advice and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 2371 (2017)",
+       "number": "S/RES/2371 (2017)",
+       "url": "https://undocs.org/S/RES/2371(2017)"
+      },
+      {
+       "title": "Resolution 2375 (2017)",
+       "number": "S/RES/2375 (2017)",
+       "url": "https://undocs.org/S/RES/2375(2017)"
+      },
+      {
+       "title": "Resolution 2270 (2016)",
+       "number": "S/RES/2270 (2016)",
+       "url": "https://undocs.org/S/RES/2270(2016)"
+      },
+      {
+       "title": "Resolution 2321 (2016)",
+       "number": "S/RES/2321 (2016)",
+       "url": "https://undocs.org/S/RES/2321(2016)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": true
+  },
+  "CD": {
+   "country": "Democratic Republic of the Congo",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": true,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in the Democratic Republic of the Congo",
+     "regime_amended_at": 1765321200,
+     "regime_id": 11,
+     "programme": [
+      "COD"
+     ],
+     "description": "It is prohibited to export arms and related materiel to all non-governmental entities and individuals operating in the territory of the DRC. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 1596 (2005)",
+       "number": "S/RES/1596 (2005)",
+       "url": "http://undocs.org/S/RES/1596(2005)"
+      },
+      {
+       "title": "Resolution 1649 (2005)",
+       "number": "S/RES/1649 (2005)",
+       "url": "http://undocs.org/en/S/RES/1649(2005)"
+      },
+      {
+       "title": "Resolution 1493 (2003)",
+       "number": "S/RES/1493 (2003)",
+       "url": "https://undocs.org/S/RES/1493(2003)"
+      },
+      {
+       "title": "Resolution 1771 (2007)",
+       "number": "S/RES/1771 (2007)",
+       "url": "http://undocs.org/en/S/RES/1771(2007)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": false,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": true,
+   "dual_use_ban": false
+  },
+  "HT": {
+   "country": "Haiti",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": true,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Haiti",
+     "regime_amended_at": 1765753200,
+     "regime_id": 54,
+     "programme": [
+      "HTI"
+     ],
+     "description": "It is prohibited to supply, sell, transfer or export arms and related materiel to the listed persons and entities. Related technical or financial assistance and training are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 2653 (2022)",
+       "number": "S/RES/2653",
+       "url": "http://unscr.com/en/resolutions/doc/2653"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Haiti",
+       "number": "14.07.2025 consolidated basic legal act - (CFSP) 2022/2319",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D2319-20260714"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Haiti",
+       "number": "15.12.2025 consolidated basic legal act - (EU) 2022/2309",
+       "url": "http://data.europa.eu/eli/reg/2022/2309/2025-12-15"
+      },
+      {
+       "title": "Resolution 2699 (2023)",
+       "number": "S/RES/2699",
+       "url": "http://unscr.com/en/resolutions/doc/2699"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": false,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": true,
+   "dual_use_ban": false
+  },
+  "IR": {
+   "country": "Iran",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in relation to the non-proliferation of weapons of mass destruction",
+     "regime_amended_at": 1774994400,
+     "regime_id": 18,
+     "programme": [
+      "IRN"
+     ],
+     "description": "A prohibition to sell, supply, or transfer, directly or indirectly, or procure arms and related materiel of all types, including weapons and ammunition, military vehicles and equipment, paramilitary equipment and spare parts for such arms and related materiel; and the provision of associated services continues to apply after Implementation Day. The EU arms embargo covers all goods included in the EU common military list. The EU arms embargo stays in place until Transition Day",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures against Iran and repealing Common Position 2007/140/CFSP",
+       "number": "01.08.2026 consolidated basic legal act - 2010/413/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02010D0413-20260801"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures against Iran and repealing Regulation No 961/2010",
+       "number": "01.08.2026 consolidated basic legal act - (EU) No 267/2012",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02012R0267-20260801"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_embargo",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in relation to the non-proliferation of weapons of mass destruction",
+     "regime_amended_at": 1774994400,
+     "regime_id": 18,
+     "programme": [
+      "IRN"
+     ],
+     "description": "The proliferation-sensitive transfers and activities concerning items on Annex II to Council Regulation 267/2012, including associated services and related investments are subject to prior authorisation by the competent authorities of the Member State.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures against Iran and repealing Common Position 2007/140/CFSP",
+       "number": "01.08.2026 consolidated basic legal act - 2010/413/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02010D0413-20260801"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures against Iran and repealing Regulation No 961/2010",
+       "number": "01.08.2026 consolidated basic legal act - (EU) No 267/2012",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02012R0267-20260801"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": true
+  },
+  "IQ": {
+   "country": "Iraq",
+   "measures": [
+    {
+     "kind": "arms_embargo",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures on Iraq",
+     "regime_amended_at": 1766444400,
+     "regime_id": 19,
+     "programme": [
+      "IRQ"
+     ],
+     "description": "It is prohibited to sell, supply, trensfer or export arms and related materiel to ... . Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Common Position on Iraq and repealing Common Positions 96/741/CFSP and 2002/599/CFSP",
+       "number": "16.02.2023 consolidated basic legal act - 2003/495/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02003E0495-20230216"
+      },
+      {
+       "title": "Council Regulation concerning certain specific restrictions on economic and financial relations with Iraq and repealing Regulation (EC) No 2465/96",
+       "number": "24.12.2025 consolidated basic legal act - (EC) No 1210/2003",
+       "url": "http://data.europa.eu/eli/reg/2003/1210/2025-12-24"
+      },
+      {
+       "title": "Council Regulation prohibiting the satisfying of Iraqi claims with regard to contracts and transactions the performance of which was affected by United Nations Security Council Resolution 661 (1990) and related resolutions",
+       "number": "07.12.1992 consolidated basic legal act - (EEC) No 3541/92",
+       "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992R3541"
+      },
+      {
+       "title": "Resolution 1546 (2004)",
+       "number": "S/RES/1546 (2004)",
+       "url": "https://www.un.org/depts/unmovic/new/documents/resolutions/s-res-1546.pdf"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "LB": {
+   "country": "Lebanon",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in relation to the UN Security Council Resolution 1701 (2006) on Lebanon",
+     "regime_amended_at": 1726178400,
+     "regime_id": 21,
+     "programme": [],
+     "description": "It is prohibited to export arms and related materiel to Lebanon. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Common Position concerning a prohibition on the sale or supply of arms and related materiel and on the provision of related services to entities or individuals in Lebanon in accordance with UNSC Resolution 1701 (2006)",
+       "number": "15.09.2006 consolidated basic legal act - 2006/625/CFSP",
+       "url": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006E0625"
+      },
+      {
+       "title": "Council Regulation concerning certain restrictive measures in respect of Lebanon",
+       "number": "13.09.2024 consolidated basic legal act - (EC) No 1412/2006",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006R1412-20240913"
+      },
+      {
+       "title": "Resolution 1701 (2006)",
+       "number": "S/RES/1701 (2006)",
+       "url": "https://undocs.org/S/RES/1701(2006)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "LY": {
+   "country": "Libya",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Libya",
+     "regime_amended_at": 1753912800,
+     "regime_id": 23,
+     "programme": [
+      "LBY"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Libya. Related assistance and training is also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 2174 (2014)",
+       "number": "S/RES/2174 (2014)",
+       "url": "https://undocs.org/S/RES/2174(2014)"
+      },
+      {
+       "title": "Resolution 1970 (2011)",
+       "number": "S/RES/1970 (2011)",
+       "url": "https://undocs.org/S/RES/1970(2011)"
+      },
+      {
+       "title": "Resolution 2009 (2011)",
+       "number": "S/RES/2009 (2011)",
+       "url": "https://undocs.org/en/S/RES/2009(2011)"
+      },
+      {
+       "title": "Resolution 2095 (2013)",
+       "number": "S/RES/2095 (2013)",
+       "url": "https://undocs.org/S/RES/2095(2013)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "MM": {
+   "country": "Myanmar (Burma)",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Myanmar/Burma",
+     "regime_amended_at": 1777413600,
+     "regime_id": 8,
+     "programme": [
+      "MMR"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Myanmar (Burma). Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Myanmar/Burma and repealing Regulation (EC) No 194/2008",
+       "number": "29.04.2026 consolidated basic legal act - (EU) No 401/2013",
+       "url": "http://data.europa.eu/eli/reg/2013/401/2026-04-29"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Myanmar/Burma",
+       "number": "29.04.2026 consolidated basic legal act - 2013/184/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02013D0184-20260429"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Myanmar/Burma",
+     "regime_amended_at": 1777413600,
+     "regime_id": 8,
+     "programme": [
+      "MMR"
+     ],
+     "description": "The export of dual-use goods and technology to Myanmar (Burma) is prohibited if those items are or may be intended for military use, military end-user or the Border Guard Police. Any provision of related technical assistance, financing or financial assistance, brokering services or other services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Myanmar/Burma and repealing Regulation (EC) No 194/2008",
+       "number": "29.04.2026 consolidated basic legal act - (EU) No 401/2013",
+       "url": "http://data.europa.eu/eli/reg/2013/401/2026-04-29"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Myanmar/Burma",
+       "number": "29.04.2026 consolidated basic legal act - 2013/184/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02013D0184-20260429"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": true
+  },
+  "RU": {
+   "country": "Russia",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of Russia's actions destabilising the situation in Ukraine (sectoral restrictive measures)",
+     "regime_amended_at": 1782338400,
+     "regime_id": 26,
+     "programme": [],
+     "description": "It is prohibited to export arms and related materiel to Russia. Related technical or financial assistance and brokering services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (CFSP) 2014/512",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014D0512-20260724&qid=1786537732417"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (EU) No 833/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0833-20260724"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "11.08.2026 amendments not yet included in consolidated legal act - (EU) 2026/506",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R0506R%2803%29&qid=1786537732417"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "31.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1849",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1849R%2801%29&qid=1786537732417"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of Russia's actions destabilising the situation in Ukraine (sectoral restrictive measures)",
+     "regime_amended_at": 1782338400,
+     "regime_id": 26,
+     "programme": [],
+     "description": "It is prohibited to sell, supply, transfer or export dual-use goods and technology to any person or entity in Russia or for use in Russia. The sale, supply, transfer or export of goods and technology, which might contribute to Russia's military and technological enhancement or the development of the defence and security sector, as listed in Annex VII of Regulation (EU) 833/2014, is also prohibited. The transit via the territory of Russia of these goods and technology as well as of firearms, their parts and essential components and ammunition exported from the Union is also prohibited. Related ",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (CFSP) 2014/512",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014D0512-20260724&qid=1786537732417"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (EU) No 833/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0833-20260724"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "11.08.2026 amendments not yet included in consolidated legal act - (EU) 2026/506",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R0506R%2803%29&qid=1786537732417"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "31.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1849",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1849R%2801%29&qid=1786537732417"
+      }
+     ]
+    },
+    {
+     "kind": "dual_use_entities",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of Russia's actions destabilising the situation in Ukraine (sectoral restrictive measures)",
+     "regime_amended_at": 1782338400,
+     "regime_id": 26,
+     "programme": [],
+     "description": "This list includes natural or legal persons, entities or bodies which are military end-users, form part of Russia’s military-industrial complex or which have commercial or other links with or which otherwise support Russia’s defence and security sector. These natural or legal persons, entities or bodies contribute to Russia’s military and technological enhancement or to the development of Russia’s defence and security sector. The list also includes entities in third countries other than Russia. Their inclusion in this list (Annex IV of Regulation (EU) No 833/2014) does not entail any attributi",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (CFSP) 2014/512",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014D0512-20260724&qid=1786537732417"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+       "number": "24.07.2026 consolidated basic legal act - (EU) No 833/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0833-20260724"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "11.08.2026 amendments not yet included in consolidated legal act - (EU) 2026/506",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R0506R%2803%29&qid=1786537732417"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine",
+       "number": "31.07.2026 amendments not yet included in the consolidated legal act - (CFSP) 2026/1849",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1849R%2801%29&qid=1786537732417"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": true
+  },
+  "SO": {
+   "country": "Somalia",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Somalia",
+     "regime_amended_at": 1726178400,
+     "regime_id": 29,
+     "programme": [
+      "SOM"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Somalia and to the listed individuals. Related technical advice, training and assistance is also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures against Somalia and repealing Common Position 2009/138/CFSP",
+       "number": "17.06.2024 consolidated basic legal act - 2010/231/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02010D0231-20240617"
+      },
+      {
+       "title": "Council Regulation imposing certain specific restrictive measures directed against certain natural or legal persons, entities or bodies, in view of the situation in Somalia",
+       "number": "13.09.2024 consolidated basic legal act - (EU) No 356/2010",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02010R0356-20240913"
+      },
+      {
+       "title": "Council Regulation concerning certain restrictive measures in respect of Somalia",
+       "number": "13.09.2024 consolidated basic legal act - (EC) No 147/2003",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02003R0147-20240913"
+      },
+      {
+       "title": "Resolution 733 (1992)",
+       "number": "S/RES/733 (1992)",
+       "url": "http://undocs.org/S/RES/733(1992)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "SS": {
+   "country": "South Sudan",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in South Sudan",
+     "regime_amended_at": 1752098400,
+     "regime_id": 30,
+     "programme": [
+      "SSD"
+     ],
+     "description": "It is prohibited to export arms and related materiel to South Sudan. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in South Sudan and repealing Decision 2014/449/CFSP",
+       "number": "24.06.2026 consolidated basic legal act - (CFSP) 2015/740",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02015D0740-20260624"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in respect of the situation in South Sudan, and repealing Regulation (EU) No 748/2014",
+       "number": "24.06.2026 consolidated basic legal act - (EU) 2015/735",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02015R0735-20260624"
+      },
+      {
+       "title": "Resolution 2206 (2015)",
+       "number": "S/RES/2206 (2015)",
+       "url": "https://undocs.org/S/RES/2206(2015)"
+      },
+      {
+       "title": "Resolution 2290 (2016)",
+       "number": "S/RES/2290 (2016)",
+       "url": "https://www.undocs.org/S/RES/2290(2016)"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "SD": {
+   "country": "Sudan",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Sudan",
+     "regime_amended_at": 1778104800,
+     "regime_id": 31,
+     "programme": [
+      "SDN"
+     ],
+     "description": "It is prohibited to export arms and related materiel to Sudan. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Sudan and repealing Decision 2011/423/CFSP",
+       "number": "22.06.2026 consolidated basic legal act - 2014/450/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014D0450-20260622"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Sudan and repealing Regulations (EC) No 131/2004 and (EC) No 1184/2005",
+       "number": "22.06.2026 consolidated basic legal act - (EU) No 747/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0747-20260622"
+      },
+      {
+       "title": "Resolution 1591 (2005)",
+       "number": "S/RES/1591 (2005)",
+       "url": "http://unscr.com/en/resolutions/doc/1591"
+      },
+      {
+       "title": "Resolution 1556 (2004)",
+       "number": "S/RES/1556 (2004)",
+       "url": "http://unscr.com/en/resolutions/doc/1556"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "VE": {
+   "country": "Venezuela",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Venezuela",
+     "regime_amended_at": 1765753200,
+     "regime_id": 44,
+     "programme": [
+      "VEN"
+     ],
+     "description": "It shall be prohibited to export arms and related materiel of all types to Venezuela. The prohibition shall not apply to the execution of contracts concluded before 13.11.2017 or to ancillary contracts necessary for the execution of such contracts. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Venezuela",
+       "number": "17.12.2025 consolidated basic legal act - (EU) 2017/2063",
+       "url": "http://data.europa.eu/eli/reg/2017/2063/2025-12-17"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Venezuela",
+       "number": "17.12.2025 consolidated basic legal act - (CFSP) 2017/2074",
+       "url": "http://data.europa.eu/eli/dec/2017/2074/2025-12-17"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  },
+  "YE": {
+   "country": "Yemen",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": true,
+     "political_declaration": false,
+     "regime": "Restrictive measures in view of the situation in Yemen",
+     "regime_amended_at": 1726178400,
+     "regime_id": 39,
+     "programme": [
+      "YEM"
+     ],
+     "description": "It is prohibited to export arms and related materiel to the listed persons and entities. Related technical or financial assistance and training is also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Resolution 2140 (2014)",
+       "number": "S/RES/2140 (2014)",
+       "url": "https://undocs.org/S/RES/2140(2014)"
+      },
+      {
+       "title": "Resolution 2216 (2015)",
+       "number": "S/RES/2216 (2015)",
+       "url": "https://undocs.org/S/RES/2216(2015)"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Yemen",
+       "number": "13.09.2024 consolidated basic legal act - (EU) No 1352/2014",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R1352-20240913"
+      },
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Yemen",
+       "number": "14.08.2024 consolidated basic legal act - 2014/932/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014D0932-20240814"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": false,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": true,
+   "dual_use_ban": false
+  },
+  "ZW": {
+   "country": "Zimbabwe",
+   "measures": [
+    {
+     "kind": "arms_export",
+     "targeted": false,
+     "political_declaration": false,
+     "regime": "Restrictive measures concerning an arms embargo in view of the situation in Zimbabwe",
+     "regime_amended_at": 1771282800,
+     "regime_id": 40,
+     "programme": [],
+     "description": "It is prohibited to export arms and related materiel to Zimbabwe. Related technical or financial assistance and services are also prohibited.",
+     "legal_acts": [
+      {
+       "title": "Council Decision concerning restrictive measures in view of the situation in Zimbabwe",
+       "number": "19.02.2026 consolidated basic legal act - 2011/101/CFSP",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011D0101-20260219"
+      },
+      {
+       "title": "Council Regulation concerning restrictive measures in view of the situation in Zimbabwe",
+       "number": "19.02.2026 consolidated basic legal act - (EC) No 314/2004",
+       "url": "http://data.europa.eu/eli/reg/2004/314/2026-02-19"
+      }
+     ]
+    }
+   ],
+   "arms_embargo": true,
+   "arms_embargo_political": false,
+   "arms_embargo_targeted": false,
+   "dual_use_ban": false
+  }
+ }
+}

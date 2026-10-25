@@ -1,0 +1,241 @@
+{
+ "captured_at": "2026-10-24T19:29:52Z",
+ "source": "Redkik sandbox, public endpoints (no credentials)",
+ "base_url": "https://sandbox.app.redkik.com",
+ "calls": [
+  {
+   "method": "GET",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/commodities/search?query=940161&take=25",
+   "status": 200,
+   "body": [
+    {
+     "id": "0960f6ac-7800-4ab5-95bf-041536c47ae4",
+     "name": "HS/HTS 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/commodities/search?query=9401&take=25",
+   "status": 200,
+   "body": [
+    {
+     "id": "ce41523e-ecf6-439d-a6fd-e7ad1cd0e210",
+     "name": "HS/HTS 940110: Seats; of a kind used for aircraft"
+    },
+    {
+     "id": "e3215f85-69c1-426b-9e92-856162864ef4",
+     "name": "HS/HTS 940120: Seats; of a kind used for motor vehicles"
+    },
+    {
+     "id": "32a48cb0-95d1-44d1-bf32-129d5ca8bc23",
+     "name": "HS/HTS 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture"
+    },
+    {
+     "id": "a6c76cea-703f-42eb-af10-172bf0603fba",
+     "name": "HS/HTS 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture"
+    },
+    {
+     "id": "3acadcd1-0125-4d2e-9ec1-a105a7c4e268",
+     "name": "HS/HTS 940141: Seats; convertible into beds of wood, other than garden seats or camping equipment"
+    },
+    {
+     "id": "b70fe684-5782-4162-a9d7-1ed92b5b52f4",
+     "name": "HS/HTS 940149: Seats; convertible into beds of other than wood, other than garden seats or camping equipment"
+    },
+    {
+     "id": "a525c347-2ccf-4294-9863-663d8ed010af",
+     "name": "HS/HTS 940152: Seats; of bamboo"
+    },
+    {
+     "id": "508c2e0b-3e3a-4832-9ac9-0ec555673f79",
+     "name": "HS/HTS 940153: Seats; of rattan"
+    },
+    {
+     "id": "5fe8b7d3-e8f7-4441-ab88-dddd0d0c87b6",
+     "name": "HS/HTS 940159: Seats; of cane, osier or similar materials, other than bamboo or rattan"
+    },
+    {
+     "id": "0960f6ac-7800-4ab5-95bf-041536c47ae4",
+     "name": "HS/HTS 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "da4067b2-5cb2-4601-9ab3-60cc9c916a97",
+     "name": "HS/HTS 940169: Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "6b59ce00-9cf1-4d75-b342-c0d06d97348c",
+     "name": "HS/HTS 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "918972fd-d75f-49b8-b704-74e354ccb5c6",
+     "name": "HS/HTS 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "b44e58b6-7032-404e-85b5-e8bffc56a122",
+     "name": "HS/HTS 940180: Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "bc76637d-936e-40af-b167-7c7ee7fede80",
+     "name": "HS/HTS 940191: Seats; parts, of wood, (other than for use in the assembly of motor vehicles as determined by the minister, other than automotive)"
+    },
+    {
+     "id": "ced0e84a-d253-4958-92bb-0b77e6aa01e1",
+     "name": "HS/HTS 940199: Seats; parts, (of other than wood) for use in the assembly of motor vehicles as determined by the minister"
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/commodities/search?query=843139&take=25",
+   "status": 200,
+   "body": [
+    {
+     "id": "0a1f3fb5-f573-4cf6-a028-b09658fbb211",
+     "name": "HS/HTS 843139: Machinery; parts of the machinery of heading no. 8428, (other than lifts, skip hoists or escalators)"
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/commodities/search?query=furniture&take=25",
+   "status": 200,
+   "body": [
+    {
+     "id": "777dac2c-ce5c-4ec6-91de-20e463e8c06f",
+     "name": "New Commercial Furniture (excluding Glass, Marble & Mirrors)"
+    },
+    {
+     "id": "4d050e0f-950b-481d-83aa-a9b420fdb7f2",
+     "name": "Furniture"
+    },
+    {
+     "id": "87b1e1b9-e7cf-4470-8b60-b04f2e5bc747",
+     "name": "Furniture (new)"
+    },
+    {
+     "id": "56fc4bdf-19fe-4bec-ab59-c1f116ef4fd6",
+     "name": "Commercial furniture and office equipment except antique furniture"
+    },
+    {
+     "id": "1208b799-c6da-4ea9-b4f5-9c15896ab729",
+     "name": "HS/HTS 340520: Polishes, creams and similar preparations; for the maintenance of wooden furniture, floors or other woodwork, excluding waxes of heading no. 3404"
+    },
+    {
+     "id": "58a51fa9-7a58-4878-a966-031fac059091",
+     "name": "HS/HTS 392630: Plastics; fittings for furniture, coachwork or the like"
+    },
+    {
+     "id": "08805e05-07c6-49d5-9cee-a1ddda3e899e",
+     "name": "HS/HTS 442090: Wood; marquetry and inlaid wood, caskets and cases for jewellery or cutlery and similar articles of wood, wooden articles of furniture not falling in chapter 94"
+    },
+    {
+     "id": "26aa2025-22db-4664-a499-ac20c16491b7",
+     "name": "HS/HTS 830140: Locks; (other than those for motor vehicles or furniture), (key, combination or electrically operated), of base metal"
+    },
+    {
+     "id": "9ef266b2-cf78-4e7a-816e-9a0145ba2283",
+     "name": "HS/HTS 830210: Hinges; suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like, of base metal"
+    },
+    {
+     "id": "27ba7129-4bb2-4e99-8c11-32740bf5aeec",
+     "name": "HS/HTS 830249: Mountings, fittings and similar articles; suitable for other than buildings or furniture, of base metal"
+    },
+    {
+     "id": "9e49f3e0-5265-4c7b-be77-a2cd0bcdf3b1",
+     "name": "HS/HTS 841899: Refrigerating or freezing equipment; parts thereof, other than furniture"
+    },
+    {
+     "id": "0c89da5f-1785-47be-9c6e-ab633bd9c78f",
+     "name": "Garden Furniture"
+    },
+    {
+     "id": "32a48cb0-95d1-44d1-bf32-129d5ca8bc23",
+     "name": "HS/HTS 940131: Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture"
+    },
+    {
+     "id": "a6c76cea-703f-42eb-af10-172bf0603fba",
+     "name": "HS/HTS 940139: Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture"
+    },
+    {
+     "id": "0960f6ac-7800-4ab5-95bf-041536c47ae4",
+     "name": "HS/HTS 940161: Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "6b59ce00-9cf1-4d75-b342-c0d06d97348c",
+     "name": "HS/HTS 940171: Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "918972fd-d75f-49b8-b704-74e354ccb5c6",
+     "name": "HS/HTS 940179: Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "b44e58b6-7032-404e-85b5-e8bffc56a122",
+     "name": "HS/HTS 940180: Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)"
+    },
+    {
+     "id": "0d486751-3bcb-492c-a5c9-b419be1b7a58",
+     "name": "HS/HTS 940320: Furniture; metal, other than for office use"
+    },
+    {
+     "id": "45fda06e-fca4-47ae-ada6-3038b0aeb6fe",
+     "name": "HS/HTS 940360: Furniture; wooden, other than for office, kitchen or bedroom use"
+    },
+    {
+     "id": "4a611b2f-809f-42b9-af76-532d94917770",
+     "name": "HS/HTS 940383: Furniture; of rattan"
+    },
+    {
+     "id": "ae113524-a3c5-4a7e-91d8-57df6e38d0c0",
+     "name": "HS/HTS 940389: Furniture; of cane, osier, or similar materials (other than bamboo or rattan)"
+    },
+    {
+     "id": "288917b6-f74d-469d-a4e7-206477582e64",
+     "name": "HS/HTS 940391: Furniture; parts, of wood"
+    },
+    {
+     "id": "9d07aec9-fedb-4b8c-b3a9-718536b079aa",
+     "name": " New tiles, sanitary ware, bathroom furniture and merchandising and goods of a similar nature"
+    },
+    {
+     "id": "983d79b7-83f1-478c-af3f-b94bbe5c1aea",
+     "name": "Gen Merch/Furniture/Open Cover"
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/status",
+   "status": 200,
+   "body": {
+    "statusMsg": "running"
+   }
+  },
+  {
+   "method": "POST",
+   "url": "https://sandbox.app.redkik.com/api/v2/user/oauth/token",
+   "request": {
+    "grant_type": "client_credentials",
+    "client_id": "huolitsija-probe-invalid",
+    "client_secret": "<redacted>"
+   },
+   "status": 400,
+   "body": {
+    "error": "invalid_client",
+    "error_description": "redkik:auth.errors.clientNotFound"
+   }
+  },
+  {
+   "method": "POST",
+   "url": "https://sandbox.app.redkik.com/api/v2/quote/quotes/quote",
+   "request": {},
+   "status": 401,
+   "body": {
+    "name": "UNAUTHORIZED",
+    "message": "redkik:auth.errors.unauthorized",
+    "status": 401,
+    "errors": []
+   }
+  }
+ ]
+}

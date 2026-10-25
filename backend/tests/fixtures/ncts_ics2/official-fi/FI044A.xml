@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FI044A 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://tulli.fi/schema/external/transit/ext/v1" xsi:schemaLocation="http://tulli.fi/schema/external/transit/ext/v1 FI044A.xsd">
+  <Identification>996bfa8f6c174c</Identification>
+  <FunctionalReference function="MRN">25FIP41000025406J4</FunctionalReference>
+  <Language>fi</Language>
+  <Submitter>
+    <Name>Teppo Tullaaja</Name>
+    <Communication>
+      <Identification>teppo.tullaaja@yritys.fi</Identification>
+      <Type>EM</Type>
+    </Communication>
+  </Submitter>
+  <DestinationTrader>
+    <Identification>FI7000288-8</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+  </DestinationTrader>
+  <Consignment>
+    <TotalGrossMass>35</TotalGrossMass>
+    <HouseConsignment>
+      <Sequence>1</Sequence>
+      <TotalGrossMass>35</TotalGrossMass>
+      <ConsignmentItem>
+        <Sequence>1</Sequence>
+        <GoodsItemNumber>1</GoodsItemNumber>
+        <GoodsMeasure>
+          <GrossMass>35</GrossMass>
+          <NetNetMass>32</NetNetMass>
+        </GoodsMeasure>
+      </ConsignmentItem>
+    </HouseConsignment>
+  </Consignment>
+  <UnloadingRemark>
+    <Conform>B1</Conform>
+    <Complete>2025-05-12</Complete>
+  </UnloadingRemark>
+</FI044A>

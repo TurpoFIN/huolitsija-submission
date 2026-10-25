@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: NotificationTypes.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:nst="http://tulli.fi/ws/notificationservicetypes/v1" 
+	xmlns:cst="http://tulli.fi/ws/corporateservicetypes/v1" 
+	xmlns:mess="http://tulli.fi/schema/corporateservice/v1" 
+	targetNamespace="http://tulli.fi/ws/notificationservicetypes/v1" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="v1_21">
+	<xs:import namespace="http://tulli.fi/ws/corporateservicetypes/v1" schemaLocation="WsdlTypes.xsd"/>
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<xs:complexType name="NotifyRequest">
+		<xs:annotation>
+			<xs:documentation>A notification from Customs to an intermediary. Used for signalling that one or more messages are available for download.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RequestHeader" type="nst:NotifyRequestHeader"/>
+			<xs:element name="MessageInformation" type="cst:MessageInformation" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NotifyRequestHeader">
+		<xs:annotation>
+			<xs:documentation>Header containing basic metadata for a notification request.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="IntermediaryBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the message intermediary. The intermediary must be authorized to download from Customs the message to which the notification refers.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TransactionId" type="cst:TransactionId"/>
+			<xs:element name="Timestamp" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Indicates when the notification request was sent from Customs to the intermediary.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Environment">
+				<xs:annotation>
+					<xs:documentation>Indicates whether the notification was sent from a test or production environment.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PRODUCTION"/>
+						<xs:enumeration value="TEST"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NotifyResponse">
+		<xs:annotation>
+			<xs:documentation>Response to a notification request.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ResponseHeader" type="nst:NotifyResponseHeader"/>
+			<xs:element name="ResponseCode">
+				<xs:annotation>
+					<xs:documentation>Status code for notification handling result. The code values are defined in a separate document.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{3}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ResponseText">
+				<xs:annotation>
+					<xs:documentation>Textual description of the status code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="512"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NotifyResponseHeader">
+		<xs:annotation>
+			<xs:documentation>Header containing basic metadata for a notification response.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="IntermediaryBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the message intermediary. It should be identical to the IntermediaryBusinessId in the notification request.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Timestamp" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Date and time when the notification response was returned from the intermediary's notification service. Data type is ISODateTime. If no timezone is specified, the Finnish timezone is assumed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

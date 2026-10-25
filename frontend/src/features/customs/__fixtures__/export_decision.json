@@ -1,0 +1,375 @@
+{
+ "action": "export_file",
+ "agent": "customs_agent",
+ "agent_label_en": "Customs",
+ "agent_label_fi": "Tulli",
+ "approval_id": null,
+ "at": "2026-10-24T21:48:15Z",
+ "autopilot_enabled": true,
+ "company_id": "64451095-4b4d-44f5-ac20-c3fb94ff9a21",
+ "confidence": null,
+ "cost_cents": 0,
+ "decision": {
+  "file": true
+ },
+ "guardrails": {
+  "claim": {},
+  "confidence_floor": 0.85,
+  "credit": {},
+  "spend": {}
+ },
+ "id": "904c5554-bd3e-4773-9775-ef3f24053d78",
+ "inputs": {
+  "controls": {
+   "assessment_date": "2026-10-24",
+   "dual_use": [
+    {
+     "annex_iv": false,
+     "authorisation": {
+      "alternatives": [
+       "global"
+      ],
+      "basis": "Reg (EU) 2021/821 Articles 3, 4, 5, 12 and 22",
+      "status": "competent_authority_review",
+      "type": "individual"
+     },
+     "authorisation_options": [],
+     "candidates": [],
+     "catch_all": [],
+     "controlled": false,
+     "date": "2026-10-24",
+     "legal_point": null,
+     "licence_required": false,
+     "prohibited": false,
+     "reasons": [
+      {
+       "code": "technical_classification",
+       "en": "Technical specifications must be checked against Annex I; CN alone is not a classification.",
+       "fi": "Tekniset ominaisuudet on tarkistettava liitteestä I."
+      }
+     ],
+     "requires_review": false,
+     "source": {
+      "amended_by": [
+       {
+        "act": "Commission Delegated Regulation (EU) 2022/1",
+        "m": "M1"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2022/699",
+        "m": "M2"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/66",
+        "m": "M3"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/996",
+        "m": "M4"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2023/2616",
+        "m": "M5"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2024/2547",
+        "m": "M6"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2025/2003",
+        "m": "M7"
+       },
+       {
+        "act": "Commission Delegated Regulation (EU) 2026/1405",
+        "m": "M8"
+       }
+      ],
+      "bytes": 3231736,
+      "celex": "02021R0821-20260921",
+      "cellar_url": "http://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0002.02/DOC_1",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921",
+      "fetched_at": "2026-10-24T19:34:50+00:00",
+      "header": "Consolidated TEXT: 32021R0821 — EN — 21.09.2026 02021R0821 — EN — 21.09.2026 — 008.001 This text is meant purely as a documentation tool and has no legal effect",
+      "sha256": "d29358c49f93a8672f10d1a32ae561a6a83934ab2a130652be29abba7ce6f1ea",
+      "title": "Regulation (EU) 2021/821 (dual-use), consolidated text",
+      "valid_on": "2026-10-24"
+     },
+     "taric_measures": []
+    }
+   ],
+   "licences": {
+    "consumed": [],
+    "items": [
+     {
+      "requirements": 3,
+      "seq": 1,
+      "unmet": []
+     }
+    ],
+    "status": "ok"
+   },
+   "reasons": [],
+   "screening": {
+    "complete": true,
+    "hits": [],
+    "legal_point": null,
+    "lists": [
+     {
+      "fetched_at": "2026-10-24T21:28:29Z",
+      "list": "eu",
+      "sha256": "636800c3e494b2ef8934f51f5e23c914a6208a383ac850e674b1b35a7d49d34f",
+      "status": "ok",
+      "version": "f3066ff4-ce9a-4f51-b65c-64600708729f"
+     },
+     {
+      "fetched_at": "2026-10-24T21:28:30Z",
+      "list": "un",
+      "sha256": "dfb2a90b0e3a02193e4198b2c4a9eafeb04325469e48a80a8092650f6cf6dc76",
+      "status": "ok",
+      "version": "d220e444-9a2a-4273-a0f7-f814563df8a4"
+     },
+     {
+      "fetched_at": "2026-10-24T21:28:43Z",
+      "list": "ofac",
+      "sha256": "abc40b04ef1e514f322f302cffce56faef7ac73c9e0e69f6316e584a503a1173",
+      "status": "ok",
+      "version": "04d056f3-20a8-47c7-8a08-32d4ed42425c"
+     },
+     {
+      "fetched_at": "2026-10-24T21:28:46Z",
+      "list": "csl",
+      "sha256": "f8d7c6a4f37583ebd97a86f4bf4c1860bf0be0c00a6eeef2b540f186a80290cb",
+      "status": "ok",
+      "version": "11fab8ac-7536-40b4-b618-61d7c9433c12"
+     },
+     {
+      "fetched_at": "2026-10-24T21:28:48Z",
+      "list": "uk",
+      "sha256": "8e71e2237d0dee3191d433f94ba6cec65ec76b5f0f3e9d2e42b4f3f992682281",
+      "status": "ok",
+      "version": "a14df997-796d-47b3-bddb-b4316d0e0ac7"
+     }
+    ],
+    "name": null,
+    "parties": [
+     {
+      "closest": null,
+      "complete": true,
+      "country": null,
+      "hits": [],
+      "kind": "any",
+      "latency_ms": 23,
+      "lists": [
+       {
+        "entries": 6269,
+        "fetched_at": "2026-10-24T21:28:29Z",
+        "generated_at": "2026-10-23T17:05:43.888+02:00",
+        "label": "EU consolidated financial sanctions list",
+        "list": "eu",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 1007,
+        "fetched_at": "2026-10-24T21:28:30Z",
+        "generated_at": "2026-10-24T19:27:12.813Z",
+        "label": "UN Security Council consolidated list",
+        "list": "un",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 19471,
+        "fetched_at": "2026-10-24T21:28:43Z",
+        "generated_at": "2026-10-21T16:35:23Z",
+        "label": "OFAC Specially Designated Nationals (SDN) list",
+        "list": "ofac",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 5547,
+        "fetched_at": "2026-10-24T21:28:46Z",
+        "generated_at": null,
+        "label": "US Consolidated Screening List",
+        "list": "csl",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 6408,
+        "fetched_at": "2026-10-24T21:28:48Z",
+        "generated_at": "16/10/2026",
+        "label": "UK Sanctions List",
+        "list": "uk",
+        "loaded": true,
+        "status": "ok"
+       }
+      ],
+      "name": "Sandbox Export Oy",
+      "normalized": "sandbox export",
+      "query": "Sandbox Export Oy",
+      "role": "exporter",
+      "screened_at": "2026-10-24T21:48:02Z",
+      "status": "clear",
+      "threshold": 0.86,
+      "top_score": 0.0
+     },
+     {
+      "closest": null,
+      "complete": true,
+      "country": null,
+      "hits": [],
+      "kind": "any",
+      "latency_ms": 18,
+      "lists": [
+       {
+        "entries": 6269,
+        "fetched_at": "2026-10-24T21:28:29Z",
+        "generated_at": "2026-10-23T17:05:43.888+02:00",
+        "label": "EU consolidated financial sanctions list",
+        "list": "eu",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 1007,
+        "fetched_at": "2026-10-24T21:28:30Z",
+        "generated_at": "2026-10-24T19:27:12.813Z",
+        "label": "UN Security Council consolidated list",
+        "list": "un",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 19471,
+        "fetched_at": "2026-10-24T21:28:43Z",
+        "generated_at": "2026-10-21T16:35:23Z",
+        "label": "OFAC Specially Designated Nationals (SDN) list",
+        "list": "ofac",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 5547,
+        "fetched_at": "2026-10-24T21:28:46Z",
+        "generated_at": null,
+        "label": "US Consolidated Screening List",
+        "list": "csl",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 6408,
+        "fetched_at": "2026-10-24T21:28:48Z",
+        "generated_at": "16/10/2026",
+        "label": "UK Sanctions List",
+        "list": "uk",
+        "loaded": true,
+        "status": "ok"
+       }
+      ],
+      "name": "Sandbox Export Oy",
+      "normalized": "sandbox export",
+      "query": "Sandbox Export Oy",
+      "role": "declarant",
+      "screened_at": "2026-10-24T21:48:07Z",
+      "status": "clear",
+      "threshold": 0.86,
+      "top_score": 0.0
+     },
+     {
+      "closest": null,
+      "complete": true,
+      "country": null,
+      "hits": [],
+      "kind": "any",
+      "latency_ms": 9,
+      "lists": [
+       {
+        "entries": 6269,
+        "fetched_at": "2026-10-24T21:28:29Z",
+        "generated_at": "2026-10-23T17:05:43.888+02:00",
+        "label": "EU consolidated financial sanctions list",
+        "list": "eu",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 1007,
+        "fetched_at": "2026-10-24T21:28:30Z",
+        "generated_at": "2026-10-24T19:27:12.813Z",
+        "label": "UN Security Council consolidated list",
+        "list": "un",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 19471,
+        "fetched_at": "2026-10-24T21:28:43Z",
+        "generated_at": "2026-10-21T16:35:23Z",
+        "label": "OFAC Specially Designated Nationals (SDN) list",
+        "list": "ofac",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 5547,
+        "fetched_at": "2026-10-24T21:28:46Z",
+        "generated_at": null,
+        "label": "US Consolidated Screening List",
+        "list": "csl",
+        "loaded": true,
+        "status": "ok"
+       },
+       {
+        "entries": 6408,
+        "fetched_at": "2026-10-24T21:28:48Z",
+        "generated_at": "16/10/2026",
+        "label": "UK Sanctions List",
+        "list": "uk",
+        "loaded": true,
+        "status": "ok"
+       }
+      ],
+      "name": "Sample Buyer",
+      "normalized": "sample buyer",
+      "query": "Sample Buyer",
+      "role": "consignee",
+      "screened_at": "2026-10-24T21:48:07Z",
+      "status": "clear",
+      "threshold": 0.86,
+      "top_score": 0.0
+     }
+    ],
+    "party_fingerprint": "63f7b53afbe1e3afe28ef3b3d368baa2df6d08b97ff5207d62cdd584e9db99a5",
+    "screened_at": "2026-10-24T21:48:07Z",
+    "status": "clear"
+   }
+  },
+  "human_approval_id": null,
+  "validation": {
+   "reasons": [],
+   "valid": true,
+   "xsd": {
+    "errors": [],
+    "message_type": "FI515A",
+    "mig_version": "1.1.1",
+    "schema_version": "1.0.90",
+    "sha256": "d5782907554408443cdb41e0c15c70b678ada29768357cad2325d389b30b4231",
+    "valid": true
+   }
+  }
+ },
+ "legal_point": null,
+ "model": null,
+ "outcome": "auto",
+ "reasons": [],
+ "spend_cents": 0,
+ "subject_id": "0074fc51-9ea0-4762-a5f0-6916238add96",
+ "subject_label": "EX0074fc519ea0",
+ "subject_type": "export_declaration",
+ "summary_fi": "",
+ "title": "File export EX0074fc519ea0",
+ "title_fi": "Vienti-ilmoituksen jättäminen EX0074fc519ea0"
+}

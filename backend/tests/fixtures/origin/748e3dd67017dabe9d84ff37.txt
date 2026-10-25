@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<html>
+<head>
+</head>
+
+<body>
+<div class="ecl-container">
+    
+        
+        <form name="rex_detail_form" method="get">
+            <div id="infoTd" style="margin-bottom: 2rem">
+                
+
+                    
+
+                    
+
+                    
+                        <div id="search_info" >
+                            <p class="ecl-u-type-paragraph">1&nbsp;result(s) match(es) your search</p>
+                        </div>
+
+                        <table id="tblData" class="ecl-table">
+                            <thead class="ecl-table__head table-head">
+
+                            <tr>
+                                <th class="ecl-table__header"></th>
+                                <th class="ecl-table__header" style="text-align: left;">REX number</th>
+                                <th class="ecl-table__header" style="text-align: left;">EORI / TIN number</th>
+                                <th class="ecl-table__header" style="text-align: left;">Status</th>
+                            </tr>
+
+                            </thead>
+                            <tbody class="ecl-table__body">
+                            
+
+                                
+                                
+                                
+                                
+
+                                
+
+                                <tr id="CHREX000018" class="ecl-table__row">
+                                    <td class="ecl-table__cell">
+                                        <span id="TREX0" class="action" onclick="toggle('rexData0', 'TREX0',this);"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="ecl-icon--rotate-90" fill="#9f9f9f"><path d="M10.444 6.135a2.224 2.224 0 0 1 3.112 0l8.8 8.666a2.144 2.144 0 0 1 0 3.064 2.224 2.224 0 0 1-3.112 0l-7.24-7.13-7.248 7.13a2.224 2.224 0 0 1-3.112 0 2.144 2.144 0 0 1 0-3.064l8.8-8.666z"/></svg></span>
+                                    </td>
+                                    <td data-ecl-table-header="REX number" class="ecl-table__cell">
+                                        CHREX000018
+                                    </td>
+                                    <td data-ecl-table-header="EORI / TIN number" class="ecl-table__cell">
+                                        CHE105958187
+                                    </td>
+                                    <td data-ecl-table-header="Status" class="ecl-table__cell rex_det_cell_last">
+                                        The REX number is valid
+                                    </td>
+                                </tr>
+
+                                <tr class="rexData0 ecl-table__row" style="display: none;">
+
+                                    <td colspan="4" class="rex_det">
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    <table class="ecl-table" style="table-layout: fixed;width: 100%;border: none;">
+        <tbody class="ecl-table__body">
+        <tr>
+            <td colspan="4" class="" style="border: 0;">
+                <table style="table-layout: fixed;width: 100%;">
+                    <tr class="ecl-table__row inner-table-row">
+                        <td class="ecl-table__cell ecl-table-cell__alt">
+                            <b>date of the authorisation status search</b>
+                        </td>
+                        <td class="ecl-table__cell ecl-table-cell__alt">24-10-2026 23:33
+                        </td>
+                    </tr>
+                    <tr class="ecl-table__row inner-table-row">
+                        <td class="ecl-table__cell ecl-table-cell__alt">
+                            <b>Status of the REX number</b></td>
+                        <td class="ecl-table__cell ecl-table-cell__alt">The REX number is valid</td>
+                    </tr>
+                    
+
+
+                        
+                    
+                    
+                    <tr class="ecl-table__row inner-table-row">
+
+                        <td class="ecl-table__cell ecl-table-cell__alt">
+                            <b>TIN Number</b></td>
+                        <td class="ecl-table__cell ecl-table-cell__alt rex_det_cell_last">CHE105958187
+                        </td>
+                    </tr>
+                    
+
+
+                        
+                    
+                </table>
+            </td>
+        </tr>
+        
+        
+        
+        
+        <tr>
+            <td colspan="4" style="border: none" class=" ecl-table-cell__alt">
+                <table class="ecl-table" style="table-layout: fixed;width: 100%;">
+                    <tbody class="ecl-table__body">
+                        
+                    <tr>
+                        <td class="ecl-table__cell ecl-table-cell__alt"><b>REX Number</b></td>
+                        <td style="border: 0 none;word-wrap: break-word;"
+                            class="ecl-table__cell ecl-table-cell__alt">CHREX000018
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="border:none " class=" ecl-table-cell__alt">
+                <table class="ecl-table" style="table-layout: fixed;width: 100%;">
+                    <tr>
+                        <td colspan="2" style="word-wrap: break-word"
+                            class="ecl-table__cell ecl-table-cell__alt exp_tab_header"><b>Validity period of the REX authorisation</b></td>
+                    </tr>
+                    <tbody class="ecl-table__body">
+                    
+                    <tr>
+                        <td colspan="" class="ecl-table__cell ecl-table-cell__alt">
+                            <b>Date from which the REX authorisation is valid</b></td>
+                        <td colspan="" style="border: 0 none;word-wrap: break-word;"
+                            class="ecl-table__cell ecl-table-cell__alt">31-10-2017
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        
+        </tbody>
+    </table>
+
+                                    </td>
+                                </tr>
+
+                                
+
+                            
+
+                            </tbody>
+
+                        </table>
+                    
+                
+            </div>
+        </form>
+    
+
+
+</div>
+</body>
+</html>

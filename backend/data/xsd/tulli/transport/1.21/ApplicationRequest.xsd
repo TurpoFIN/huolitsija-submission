@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+Name: ApplicationRequest.xsd
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:mess="http://tulli.fi/schema/corporateservice/v1" 
+	xmlns:req="http://tulli.fi/schema/corporateservice/appl/v1" 
+	targetNamespace="http://tulli.fi/schema/corporateservice/appl/v1" 
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+	version="v1_21">
+	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsig-core-schema.xsd"/>
+	<xs:import namespace="http://tulli.fi/schema/corporateservice/v1" schemaLocation="ApplicationMessageTypes.xsd"/>
+	<!--===== Root Element =====-->
+	<xs:element name="ApplicationRequest" type="req:ApplicationRequestType"/>
+	<xs:complexType name="ApplicationRequestType">
+		<xs:annotation>
+			<xs:documentation>Use for transmitting data. Can be XML Digital Signed</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageBuilderBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the party who built the ApplicationRequest document.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageBuilderSoftwareInfo">
+				<xs:annotation>
+					<xs:documentation>The name and version of the software which was used to build the ApplicationRequest document.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="255"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DeclarantBusinessId" type="mess:BusinessId">
+				<xs:annotation>
+					<xs:documentation>The business identity code of the party who is declarant.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Timestamp">
+				<xs:annotation>
+					<xs:documentation>Date and time when the ApplicationRequest document was built. Data type is ISODateTime. If no timezone is specified, the Finnish timezone is assumed.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:dateTime"/>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Application" type="mess:Application"/>
+			<xs:element name="Reference" type="mess:Reference">
+				<xs:annotation>
+					<xs:documentation>An identifier given by the customer (Message Builder) to identify this particular interchange. The reference must be unique for the combination of application and declarant.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Environment">
+				<xs:annotation>
+					<xs:documentation>Production or Test</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PRODUCTION"/>
+						<xs:enumeration value="TEST"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ApplicationContent" type="mess:ApplicationContent">
+				<xs:annotation>
+					<xs:documentation>The actual declarant-owned message, e.g. customs declaration and information for it.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="ds:Signature">
+				<xs:annotation>
+					<xs:documentation>Digital signature. This element is created by the XML Digital Signature operation by the message builder</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

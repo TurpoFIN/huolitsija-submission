@@ -1,0 +1,55 @@
+{
+  "captured_by": "scripts/capture_tulli_export_taric.py",
+  "pages": {
+    "https://ec.europa.eu/taxation_customs/dds2/taric/meas_type_combo/meas_typ_combo_en_20261024.js": {
+      "file": "af91579fb5da315fa5cfc897.html",
+      "sha256": "2a37b887d5f13cceb660ba6eb1a00a043a9f0dbfbbd01196d616c77d5e3cc8e6",
+      "fetched_at": "2026-10-24T21:28:33Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8712003000&Expand=true&Area=US": {
+      "file": "5b68d26da977ff39fbadf6c2.html",
+      "sha256": "2c493ac189fc562095808de65d9229592dbba3b6082366f0877593427a8d85b3",
+      "fetched_at": "2026-10-24T21:28:33Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=US&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwlybENAEEIA7CFKEjIQdh%2fsUf6yoWFxmQGF7QnxDb5ToiDk7OYe3X3%2b90XVVqKUWnLDEGV8L1pVnwQjBGh&FrameId=taric_8712003090_0&Lang=en": {
+      "file": "7780dba0b448949398b68c42.html",
+      "sha256": "4180869c0f2a7dd6d6880bfa2a29dbb668be14077f000ade50ff8c560aac6869",
+      "fetched_at": "2026-10-24T21:28:34Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=US&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwlyrERAEEIw8CGCLDxgem%2fsWfmow0koTGZwQXtCbFNvhNZ4MlZzHV19%2fvdF1VailFpy%2fdBlfB106z4AA6sEZk%3d&FrameId=taric_8712003010_0&Lang=en": {
+      "file": "198caaf03bbd0ab1172c0989.html",
+      "sha256": "56d93ba1557d3c44b5c82e41810fbc5326234a917637e68b7931b58564279f38",
+      "fetched_at": "2026-10-24T21:28:34Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8712003000&Area=US&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwlybENAEEIA7CFKEjIQdh%2fsUf6yoWFxmQGF7QnxDb5TmShTs5i7tXd73dfVGkpRqUtMwRVwvemWfEBDuYRmg%3d%3d&FrameId=taric_8712003020_0&Lang=en": {
+      "file": "3caf0af84669cdf52f503d1e.html",
+      "sha256": "4405e933cb8697b2af18f0ab0a60f1ec163604508f8526a314d31d329f4b8bba",
+      "fetched_at": "2026-10-24T21:28:34Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3349242&Lang=en&SimDate=20261024": {
+      "file": "bb25bcb82cfddf94b000c8bc.html",
+      "sha256": "b774a3b16c43d687692fd08f22bb0cdb4c30cbbe4cbf9897dd9460a59d55d425",
+      "fetched_at": "2026-10-24T21:28:34Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161700&Lang=en&SimDate=20261024": {
+      "file": "2af27ea31236e1934db904f1.html",
+      "sha256": "f6dccedd44f5f89d48c7bc0dbf19d0f103a331446155020743c6b811f8f6c8bc",
+      "fetched_at": "2026-10-24T21:28:37Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3088482&Lang=en&SimDate=20261024": {
+      "file": "65fe201c18dbc5cd28c8ded5.html",
+      "sha256": "cfb4ac46355c457e3acbcdfcaff771fefc28d50a239f9a0d3dd5cecf140c67f6",
+      "fetched_at": "2026-10-24T21:28:37Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4227917&Lang=en&SimDate=20261024": {
+      "file": "ce192a4c0bbeb7edcd01e14a.html",
+      "sha256": "730d13e65ea169b7bad32959f87df042b008487c357d8cdd29aff4a74f721367",
+      "fetched_at": "2026-10-24T21:28:37Z"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4143018&Lang=en&SimDate=20261024": {
+      "file": "22e755b3a65774ab12710bfc.html",
+      "sha256": "b8882b4061784ddb0ce3fe76b7129ef99cbb981b9e658b760f0379f9ba7a4f49",
+      "fetched_at": "2026-10-24T21:28:37Z"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI444B xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tulli.fi/schema/external/import/ext/v3" xsi:schemaLocation="http://tulli.fi/schema/external/import/ext/v3 eFI444B.xsd">
+  <Identification>20082613531700</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="MRN">20FIU41000004146R0</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>VIR</Type>
+    <Notification>2020-08-26T16:59:00.02+03:00</Notification>
+    <Text>TESTI</Text>
+    <Sequence>1</Sequence>
+    <RequestCorrelation>{5a15532e-1ea6-4663-bc57-bb14ae804625}</RequestCorrelation>
+    <Limit>2020-08-27T16:00:00+03:00</Limit>
+  </Notification>
+</FI444B>

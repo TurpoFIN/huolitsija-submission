@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3N02" type="IE3N02Type" />
+  <xs:complexType name="IE3N02Type">
+    <xs:sequence>
+      <xs:element name="MRN" type="MRNContentType1" />
+      <xs:element name="notificationDate" type="NotificationDateType" />
+      <xs:element name="representative" minOccurs="0" type="RepresentativeType03" />
+      <xs:element name="transportDocument" type="TransportDocumentType" />
+      <xs:element name="declarant" type="DeclarantType03" />
+      <xs:element name="customsOfficeOfFirstEntry" type="CustomsOfficeOfFirstEntryType" />
+      <xs:element name="supplementaryDeclarant" maxOccurs="99999" type="SupplementaryDeclarantType03" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

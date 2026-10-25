@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ter="http://rts.iru.org/services/TerminationService-1">
+	<soap:Header/>
+	<soap:Body>
+		<ns4:NotifyResponse xmlns="http://tulli.fi/ws/notificationservicetypes/v1" xmlns:ns2="http://tulli.fi/ws/corporateservicetypes/v1" xmlns:ns3="http://tulli.fi/schema/corporateservice/v1" xmlns:ns4="http://tulli.fi/ws/notificationservice/v1">
+			<ResponseHeader>
+				<IntermediaryBusinessId>FI9991026-5</IntermediaryBusinessId>
+				<Timestamp>2018-05-24T11:02:50+03:00</Timestamp>
+			</ResponseHeader>
+			<ResponseCode>000</ResponseCode>
+			<ResponseText>OK</ResponseText>
+		</ns4:NotifyResponse>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:wco:datamodel:eu:ics2:2" targetNamespace="urn:wco:datamodel:eu:ics2:2" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Generated from baseline release</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="ctypes.xsd" />
+  <xs:element name="IE3N11" type="IE3N11Type" />
+  <xs:complexType name="IE3N11Type">
+    <xs:sequence>
+      <xs:element name="notificationDate" type="NotificationDateType" />
+      <xs:element name="transportDocument" type="TransportDocumentType" />
+      <xs:element name="customsOfficeOfFirstEntry" type="CustomsOfficeOfFirstEntryType" />
+      <xs:element name="supplementaryDeclarant" type="SupplementaryDeclarantType03" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

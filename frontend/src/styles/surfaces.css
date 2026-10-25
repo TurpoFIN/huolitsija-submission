@@ -1,0 +1,400 @@
+/* The reserved --huo-relative-c/l properties intentionally stay unset. Their
+   fallback is the relative OKLCH channel, resolved by the browser. Keeping the
+   channel inside var() lets CRA's older postcss-calc preserve this arithmetic
+   without mistaking c/l for invalid numeric tokens. Do not define these vars. */
+/* ----------------------------------------------------------------------------
+   TIER 3 — SURFACES
+   Composite multi-layer effects. Convention: hairline (0.5px, a single device
+   pixel on retina) edges use inset box-shadow
+   (var(--border-default)), drop shadows reference the --elevation-* ladder.
+   Background COLOR stays on the element so the same surface can sit over
+   neutrals (cards) or accents (primary buttons) alike.
+   Real CSS `border` is reserved for forced-colors fallbacks (button base),
+   table dividers, and elements that need 1px to participate in box-model.
+---------------------------------------------------------------------------- */
+
+.surface-raised {
+  background-image: linear-gradient(
+    to bottom,
+    oklch(100% 0 0 / calc(0.05 * var(--gradient-strength))),
+    oklch(0% 0 0 / calc(0.02 * var(--gradient-strength)))
+  );
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.18 * var(--surface-highlights))),
+    var(--elevation-md);
+}
+
+[data-theme="dark"] .surface-raised {
+  background-image: linear-gradient(
+    to bottom,
+    oklch(100% 0 0 / calc(0.04 * var(--gradient-strength))),
+    oklch(0% 0 0 / calc(0.06 * var(--gradient-strength)))
+  );
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.10 * var(--surface-highlights))),
+    var(--elevation-md);
+}
+
+.surface-sunken {
+  background-image: linear-gradient(
+    to bottom,
+    oklch(0% 0 0 / calc(0.04 * var(--gradient-strength))),
+    oklch(100% 0 0 / calc(0.02 * var(--gradient-strength)))
+  );
+  box-shadow:
+    inset 0 1px 2px 0 oklch(var(--shadow-color) / calc(0.05 * var(--shadow-strength-active))),
+    inset 0 0 0 0.5px var(--border-default);
+}
+
+/* For dark mode the well reads as a slightly-darker fill (same idiom as
+   .surface-input below) — the black inset hairline alone disappears on the
+   card surface. */
+[data-theme="dark"] .surface-sunken {
+  --surface-sunken-fill: oklch(from var(--bg-surface) calc(var(--huo-relative-l, l) - 0.02) c h);
+  background-color: var(--surface-sunken-fill);
+  box-shadow:
+    inset 0 1px 2px 0 oklch(0% 0 0 / calc(0.15 * var(--shadow-strength-active))),
+    inset 0 0 0 1px oklch(100% 0 0 / 0.14);
+}
+
+.surface-overlay {
+  background-color: var(--bg-surface);
+  background-image: none;
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.06 * var(--surface-highlights))),
+    var(--elevation-lg);
+}
+
+[data-theme="dark"] .surface-overlay {
+  background-color: var(--bg-surface);
+  box-shadow:
+    inset 0 0 0 0.5px oklch(0% 0 0 / calc(var(--border-opacity-dark) * 0.9)),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.08 * var(--surface-highlights))),
+    var(--elevation-lg);
+}
+
+/* A panel that floats over the page on its own, with nothing dimmed behind it.
+   An overlay borrows separation from the scrim under it; this one has no scrim
+   to borrow from, so it carries the top of the elevation ladder instead. Same
+   recipe otherwise — one hairline, one catch-light — because what separates the
+   two is how far off the page it sits, not what it is made of. */
+.surface-floating {
+  background-color: var(--bg-surface);
+  background-image: none;
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.06 * var(--surface-highlights))),
+    var(--elevation-xl);
+}
+
+[data-theme="dark"] .surface-floating {
+  background-color: var(--bg-surface);
+  box-shadow:
+    inset 0 0 0 0.5px oklch(0% 0 0 / calc(var(--border-opacity-dark) * 0.9)),
+    inset 0 1px 0 0 oklch(100% 0 0 / calc(0.08 * var(--surface-highlights))),
+    var(--elevation-xl);
+}
+
+/* Cancels a surface its host has already applied, for the case where the thing
+   placed inside brings its own — a popover holding a card that is a card in its
+   own right, say. Unlayered like the recipes it cancels and declared after them,
+   so it wins on order rather than by out-weighing them. */
+.surface-bare,
+[data-theme="dark"] .surface-bare {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+.surface-flat {
+  background-color: var(--bg-surface);
+  box-shadow: inset 0 0 0 0.5px var(--border-default);
+}
+
+[data-theme="dark"] .surface-flat {
+  box-shadow: inset 0 0 0 1px oklch(100% 0 0 / 0.12);
+}
+
+/* Icon tiles sit between flat chrome and a raised card: a neutral fill, one
+   optical hairline, a top catch-light, and compact ambient depth. The edge
+   keeps tiny glyphs crisp while the shadow gives the tile enough separation
+   from cards and open canvas without making it read as an interactive button. */
+.icon-tile-depth {
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.72),
+    0 1px 2px 0 oklch(var(--shadow-color) / calc(0.07 * var(--shadow-strength-active))),
+    0 6px 14px -6px oklch(var(--shadow-color) / calc(0.12 * var(--shadow-strength-active)));
+}
+
+[data-theme="dark"] .icon-tile-depth {
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.08),
+    0 1px 2px 0 oklch(0% 0 0 / calc(0.18 * var(--shadow-strength-active))),
+    0 6px 14px -6px oklch(0% 0 0 / calc(0.28 * var(--shadow-strength-active)));
+}
+
+/* Inputs: faint inner recess for affordance. */
+.surface-input {
+  background-color: var(--bg-surface);
+  box-shadow:
+    inset 0 0 0 0.5px var(--border-default),
+    inset 0 1px 1px 0 oklch(var(--shadow-color) / calc(0.04 * var(--shadow-strength-active)));
+}
+
+/* Dark controls use a slightly lighter fill and a visible neutral edge so the
+   field boundary remains discoverable against the near-black canvas. */
+[data-theme="dark"] .surface-input {
+  --surface-input-fill: oklch(from var(--bg-surface) calc(var(--huo-relative-l, l) + 0.035) c h);
+  background-color: var(--surface-input-fill);
+  box-shadow:
+    inset 0 0 0 1px oklch(100% 0 0 / 0.22),
+    inset 0 1px 1px 0 oklch(0% 0 0 / calc(0.20 * var(--shadow-strength-active)));
+}
+
+/* Keyboard focus is defined once, GLOBALLY, in globals.css — a single minimal 1px
+   `outline` (a separate property from box-shadow, so this recess border stays put).
+   Nothing surface-specific is needed here anymore. */
+
+/* Inside an input-group the control must sit FLUSH — the group already draws the
+   border, background and focus ring. .surface-input is unlayered, so the group's
+   own reset utilities (border-0 / bg-transparent / shadow-none) can't switch it
+   off (unlayered CSS outranks Tailwind's utility layer). Neutralize it here with a
+   higher-specificity rule in the same layer — no !important, scoped to groups only,
+   so standalone inputs keep their recess. Fixes the box-in-a-box / divider artifact. */
+[data-slot="input-group"] .surface-input {
+  background-color: transparent;
+  box-shadow: none;
+}
+[data-slot="input-group"] .surface-input:focus-visible {
+  outline: none; /* the group owns the focus ring; don't double it */
+}
+
+/* ── Depth for data elements (opt-in) ────────────────────────────────────────
+   The chrome above stays FLAT (the --gradient-strength / --surface-highlights
+   knobs sit at 0). This recipe deliberately breaks that for colored status
+   pills, so they read as tactile objects rather than
+   printed swatches. Light-from-above: a faint top sheen (gradient) + a 1px
+   catch-light, a hairline ring matched to the element's own color (currentColor),
+   and a small drop shadow. Subtle by design — depth you feel, not see. Tuned per
+   theme (dark surfaces catch far less light). */
+:root {
+  --depth-sheen: 22%; /* top-edge gradient lightening */
+  --depth-hi: 42%;    /* 1px inset catch-light */
+}
+[data-theme="dark"] {
+  --depth-sheen: 9%;
+  --depth-hi: 13%;
+}
+
+.pill-depth {
+  background-image: linear-gradient(
+    to bottom,
+    color-mix(in oklch, white var(--depth-sheen), transparent),
+    transparent 62%
+  );
+  box-shadow:
+    inset 0 1px 0 0 color-mix(in oklch, white var(--depth-hi), transparent),
+    inset 0 0 0 1px color-mix(in oklch, currentColor 12%, transparent),
+    0 1px 2px -1px oklch(0% 0 0 / 0.12);
+}
+
+/* Minimal button depth — a whisper of lift on the SOLID buttons (primary + secondary).
+   A faint top catch-light + a tight grounding shadow, no sheen gradient (keeps the fill
+   and its hover/press states clean). Deliberately quieter than .pill-depth: chrome should
+   sit lower than colored data. Outline keeps its 1px hairline; ghost & link stay flat — a
+   drop shadow on a bordered or text button reads as broken, not premium. */
+.button-depth {
+  box-shadow:
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.1),
+    0 1px 2px -1px oklch(0% 0 0 / 0.1);
+}
+[data-theme="dark"] .button-depth {
+  box-shadow:
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.06),
+    0 1px 2px -1px oklch(0% 0 0 / 0.3);
+}
+
+/* Button depth for CIRCULAR controls — icon buttons and avatars. Same recipe as
+   .button-depth (top catch-light + tight contact shadow), just a touch brighter on the
+   catch-light so a disc still reads as a chip. No ambient float — a soft halo under a
+   small circle reads oversized, not premium. Round chips only. */
+.button-depth-lg {
+  box-shadow:
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.14),
+    0 1px 2px -1px oklch(0% 0 0 / 0.12);
+}
+[data-theme="dark"] .button-depth-lg {
+  box-shadow:
+    inset 0 1px 0 0 oklch(100% 0 0 / 0.08),
+    0 1px 2px -1px oklch(0% 0 0 / 0.4);
+}
+
+/* Dotted chart background — a faint dot matrix behind cartesian charts, in place of
+   line gridlines. Theme-aware dot color; sits under the (transparent) chart SVG. */
+:root { --dotgrid: oklch(0% 0 0 / 0.08); }
+[data-theme="dark"] { --dotgrid: oklch(100% 0 0 / 0.07); }
+.chart-dotgrid {
+  position: relative;
+}
+/* Dots live on a MASKED pseudo-element, so the soft radial fade (reads as a
+   shadow/vignette) applies to the dot grid ONLY — the chart marks sit above it,
+   unmasked. Without this, a mask on the container would fade the bars/lines too. */
+.chart-dotgrid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, var(--dotgrid) 1px, transparent 1.6px);
+  /* Tighter horizontal tile than vertical → more dot columns across the width,
+     so the grid reads denser in these wide charts' horizontal direction. */
+  background-size: 10px 15px;
+  /* Vignette window is wider than tall so the dots fade to the (white/background)
+     surface only near the left/right edges — the extra columns stay visible across
+     most of the width. */
+  -webkit-mask-image: radial-gradient(ellipse 84% 72% at 50% 45%, #000 12%, transparent 70%);
+  mask-image: radial-gradient(ellipse 84% 72% at 50% 45%, #000 12%, transparent 70%);
+}
+.chart-dotgrid > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Reusable product backgrounds ─────────────────────────────────────────────
+   Neutral, whisper-level backdrops for pages, sections, empty states, hero bands.
+   Monochrome by rule — color only ever means status. Each is a background-IMAGE
+   layer, so pair it with a bg-* color on the same element. */
+
+/* Faint dot matrix, ALWAYS softly vignetted — a centered radial mask fades the dots
+   to nothing on every edge (a soft shadow halo around the field). Dots live on a
+   masked ::before so the vignette never touches the element's own content. */
+.bg-dots {
+  position: relative;
+}
+.bg-dots::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(var(--dotgrid) 1px, transparent 1.6px);
+  background-size: 15px 15px;
+  -webkit-mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, #000 28%, transparent 76%);
+  mask-image: radial-gradient(ellipse 85% 85% at 50% 50%, #000 28%, transparent 76%);
+}
+.bg-dots > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Minimal vertical fade — a subtle top band that dissolves into the surface. */
+.bg-fade {
+  background-image: linear-gradient(to bottom, var(--bg-subtle), transparent);
+}
+
+/* Minimal spotlight — a soft radial that lifts the center and settles the edges.
+   A neutral ink vignette (not a light glow), so it reads on light surfaces AND on the
+   dark canvas without needing a tinted base. Tune --bg-glow. */
+:root {
+  --bg-glow: oklch(0% 0 0 / 0.06);
+}
+[data-theme="dark"] {
+  --bg-glow: oklch(0% 0 0 / 0.28);
+}
+.bg-spotlight {
+  background-image: radial-gradient(
+    ellipse 85% 80% at 50% 42%,
+    transparent 32%,
+    var(--bg-glow)
+  );
+}
+
+/* ── Liquid glass ─────────────────────────────────────────────────────────────
+   The translucent chip material, in two layers.
+
+   `.liquid-glass` alone is frosted: a backdrop blur, a saturation lift, a
+   specular rim and a contact shadow. That is the safe base — it needs nothing
+   but CSS and it renders everywhere.
+
+   Frost is not glass, though. What reads as glass is REFRACTION: a real edge
+   bends the backdrop, compressing it under the curved rim while the middle
+   stays comparatively clear. `.liquid-glass-lens` adds that, via an SVG
+   displacement map (see components/ui/liquid-glass.tsx, whose filter node must
+   be mounted for it to resolve). Because the lens does the shaping, that layer
+   drops the heavy blur to almost nothing and lets the tint go thinner — a 10px
+   blur over a bent backdrop just erases the bend.
+
+   The specular is directional rather than an even outline: bright along the
+   top-left arc where the light lands, a weaker bounce along the bottom-right,
+   and a full-perimeter hairline standing in for the glass's own thickness.
+
+   Transparency is a preference, not a given, so both media queries below fall
+   back to an opaque fill with no blur and no lens. */
+:root {
+  --glass-tint:   oklch(from var(--bg-surface) l c h / 0.55);
+  --glass-spec:   oklch(100% 0 0 / 0.70);
+  --glass-bounce: oklch(100% 0 0 / 0.30);
+  --glass-edge:   oklch(100% 0 0 / 0.18);
+  --glass-cast:   oklch(0% 0 0 / 0.10);
+}
+[data-theme="dark"] {
+  --glass-tint:   oklch(from var(--bg-surface) l c h / 0.40);
+  --glass-spec:   oklch(100% 0 0 / 0.22);
+  --glass-bounce: oklch(100% 0 0 / 0.10);
+  --glass-edge:   oklch(100% 0 0 / 0.08);
+  --glass-cast:   oklch(0% 0 0 / 0.34);
+}
+
+.liquid-glass {
+  background-color: var(--glass-tint);
+  -webkit-backdrop-filter: blur(10px) saturate(1.7);
+  backdrop-filter: blur(10px) saturate(1.7);
+  box-shadow:
+    inset 1px 1px 0 0 var(--glass-spec),
+    inset -1px -1px 0 0 var(--glass-bounce),
+    inset 0 0 0 1px var(--glass-edge),
+    0 1px 2px -1px var(--glass-cast),
+    0 6px 14px -8px var(--glass-cast);
+}
+
+/* Requires <LiquidGlassFilter /> mounted somewhere in the document. This rule
+   OVERRIDES the base backdrop-filter rather than adding to it, so if the
+   reference cannot resolve the element loses its blur entirely — the tint, rim
+   and shadow are separate properties and still stand, but the pane goes clear.
+   Mount the filter wherever this class is used.
+
+   The -webkit- line is deliberately a different value, not a copy: it is what
+   Safari gets, and Safari cannot resolve url() in a backdrop filter at all. So
+   it carries the full frosted blur, while the standard property below — which
+   Chromium prefers, being declared later — drops the blur to almost nothing
+   because the lens does the shaping and a real blur would erase the bend. */
+.liquid-glass-lens {
+  --glass-tint: oklch(from var(--bg-surface) l c h / 0.28);
+  -webkit-backdrop-filter: blur(9px) saturate(1.8) brightness(1.03);
+  backdrop-filter: url(#liquid-glass-lens) blur(0.5px) saturate(1.8) brightness(1.04);
+}
+[data-theme="dark"] .liquid-glass-lens {
+  --glass-tint: oklch(from var(--bg-surface) l c h / 0.30);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .liquid-glass,
+  .liquid-glass-lens {
+    background-color: var(--bg-subtle);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+@media (prefers-contrast: more) {
+  .liquid-glass,
+  .liquid-glass-lens {
+    background-color: var(--bg-subtle);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: inset 0 0 0 1px var(--border-strong);
+  }
+}

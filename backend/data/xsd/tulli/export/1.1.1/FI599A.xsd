@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/export/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/export/ext/v1" version="1.0.90" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Export notification (Exit confirmation)</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI599A">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Identification" type="token_1_14">
+        <xs:annotation>
+          <xs:documentation>Case Identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="3" name="FunctionalReference" type="FunctionalReference_241">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="2" maxOccurs="2" name="Type" type="Type_331">
+        <xs:annotation>
+          <xs:documentation>Declaration Type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Invoice" type="Invoice_649">
+        <xs:annotation>
+          <xs:documentation>Invoice</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Export" type="d_date_unlimited">
+        <xs:annotation>
+          <xs:documentation>Actual Date of Export</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Presentation" type="datetime_unlimited">
+        <xs:annotation>
+          <xs:documentation>Presentation of goods date and time</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Security" type="byte_total_1">
+        <xs:annotation>
+          <xs:documentation>security</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="SpecificCircumstances" type="chars_3_3">
+        <xs:annotation>
+          <xs:documentation>specificCircumstanceIndicator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_502">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalGrossMass" type="dec_total_16_between_0_max_fract_6">
+        <xs:annotation>
+          <xs:documentation>Gross mass</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Notification" type="Notification_166">
+        <xs:annotation>
+          <xs:documentation>Notification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Agent" type="Representative_627">
+        <xs:annotation>
+          <xs:documentation>Representative</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Declarant" type="Declarant_202">
+        <xs:annotation>
+          <xs:documentation>Declarant</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Exporter" type="Exporter_262">
+        <xs:annotation>
+          <xs:documentation>Exporter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ServiceProvider" type="ServiceProvider_056">
+        <xs:annotation>
+          <xs:documentation>Service provider</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Submitter" type="Submitter_072">
+        <xs:annotation>
+          <xs:documentation>Submitter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ExitControlResult" type="ExitControlResult_492">
+        <xs:annotation>
+          <xs:documentation>Exit Control Result</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="CurrencyExchange" type="CurrencyExchange_927">
+        <xs:annotation>
+          <xs:documentation>Currency Exchange</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="198" name="AdditionalDocument" type="AdditionalDocument_941">
+        <xs:annotation>
+          <xs:documentation>AdditionalDocument</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="Authorisation" type="Authorisation_900">
+        <xs:annotation>
+          <xs:documentation>Authorisation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="99" name="AdditionalInformation" type="AdditionalInformation_291">
+        <xs:annotation>
+          <xs:documentation>Additional information</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="GoodsShipment" type="GoodsShipment_800_1">
+        <xs:annotation>
+          <xs:documentation>GoodsShipment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ExitOffice" type="ExitOffice_289">
+        <xs:annotation>
+          <xs:documentation>Exit Customs Office</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DestinationOffice" type="DestinationOffice_951">
+        <xs:annotation>
+          <xs:documentation>Destination office</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ExportOffice" type="ExportOffice_991">
+        <xs:annotation>
+          <xs:documentation>Export Customs Office</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI599A" type="FI599A">
+    <xs:annotation>
+      <xs:documentation>Export notification (Exit confirmation)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "finnlines.json",
+    "url": "https://www.finnlines.com/wp-json/custom/v1/bunker-surcharges",
+    "status": 200,
+    "bytes": 58111,
+    "sha256": "144662d7073a034c86f572131c30d408cf0bbabab43bc059eb8c235a69ca50b2",
+    "retrieved_at": "2026-10-24T23:56:27.407165+00:00"
+  },
+  {
+    "file": "bluedart.html",
+    "url": "https://api.bluedart.com/currency-adjustment-factor",
+    "status": 200,
+    "bytes": 338617,
+    "sha256": "52f2bb95668c480dd3bf013dcbfc5a1296800c84097c5c1fe6cc991ad3c7556e",
+    "retrieved_at": "2026-10-24T23:56:29.244298+00:00"
+  },
+  {
+    "file": "maersk.html",
+    "url": "https://www.maersk.com/news/articles/2026/09/07/pss-west-mediterranean-united-states-canada",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "hapag.html",
+    "url": "https://www.hapag-lloyd.com/en/services-information/news/2026/03/shipping-from-upper-gulf--arabian-gulf--and-persian-gulf--a-war-.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "swissport.pdf",
+    "url": "https://www.swissport.com/en/media/network-files/finland/thc-hel-finland-01jan26",
+    "status": 200,
+    "bytes": 217388,
+    "sha256": "85d98c13ef024d5b7c2e65a91d3b1ef969ca5d8310df52f47c1e9e08c74c8f40",
+    "retrieved_at": "2026-10-24T23:56:28.758204+00:00"
+  },
+  {
+    "file": "cma.pdf",
+    "url": "https://www.cma-cgm.com/assets/public/documents/FINLAND%20-%20LOCAL%20SCES%2011.12.2025.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

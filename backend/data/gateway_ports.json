@@ -1,0 +1,5347 @@
+{
+ "version": "20261024-393",
+ "generated_at": "2026-10-24T19:13:10Z",
+ "sources": [
+  "Curated liner-network list in data/gateway_ports_build.py (Lloyd's List One Hundred Ports; carrier service networks)",
+  "https://msi.nga.mil/api/publications/download?key=16920959/SFH00000/UpdatedPub150.csv&type=download (NGA World Port Index, Pub. 150, public domain: harbour coordinates by UN/LOCODE)",
+  "data/locations_unlocode.json (UN/LOCODE existence, fallback coordinates)",
+  "data/locations_curated.json (terminal-level coordinates, preferred)"
+ ],
+ "regions": {
+  "FEA": "Far East",
+  "SEA": "Southeast Asia",
+  "ISC": "Indian Subcontinent",
+  "MEG": "Middle East Gulf",
+  "RSE": "Red Sea",
+  "MED": "Mediterranean & Black Sea",
+  "NEU": "North Europe",
+  "WAF": "West & Central Africa",
+  "SAF": "Southern Africa",
+  "EAF": "East Africa & Indian Ocean islands",
+  "NAW": "North America West Coast",
+  "NAE": "North America East Coast",
+  "USG": "US Gulf & Mexico Gulf",
+  "CAR": "Caribbean & Central America",
+  "SAE": "South America East Coast",
+  "SAW": "South America West Coast",
+  "OCE": "Oceania"
+ },
+ "ports": [
+  {
+   "unlocode": "CNNGB",
+   "name": "Ningbo-Zhoushan",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 29.94,
+   "lon": 121.88,
+   "aliases": [
+    "Ningbo",
+    "Beilun",
+    "Zhoushan",
+    "Meishan"
+   ],
+   "notes": "Beilun and Meishan terminals; Zhejiang mainline hub"
+  },
+  {
+   "unlocode": "CNNSA",
+   "name": "Guangzhou (Nansha)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 22.7,
+   "lon": 113.65,
+   "aliases": [
+    "Nansha",
+    "Guangzhou",
+    "Canton"
+   ],
+   "notes": "Pearl River Delta mainline terminal"
+  },
+  {
+   "unlocode": "CNSHA",
+   "name": "Shanghai (Yangshan)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 30.62,
+   "lon": 122.07,
+   "aliases": [
+    "Shanghai",
+    "Yangshan",
+    "Waigaoqiao"
+   ],
+   "notes": "World's busiest container port; Yangshan deep-water and Waigaoqiao terminals"
+  },
+  {
+   "unlocode": "CNSHK",
+   "name": "Shenzhen (Shekou)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 22.47,
+   "lon": 113.89,
+   "aliases": [
+    "Shekou",
+    "Chiwan",
+    "Mawan",
+    "Shenzhen",
+    "Shenzhen West"
+   ],
+   "notes": "West Shenzhen terminals (Shekou, Chiwan, Mawan)"
+  },
+  {
+   "unlocode": "CNTAO",
+   "name": "Qingdao",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 36.01,
+   "lon": 120.2,
+   "aliases": [
+    "Tsingtao",
+    "Qianwan",
+    "Dongjiakou"
+   ],
+   "notes": "North China mainline hub (Qianwan)"
+  },
+  {
+   "unlocode": "CNTSN",
+   "name": "Tianjin (Xingang)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 38.98,
+   "lon": 117.8,
+   "aliases": [
+    "Tianjin",
+    "Xingang",
+    "Tianjin Xingang"
+   ],
+   "notes": "Gateway for Beijing; carriers also file it as CNTXG"
+  },
+  {
+   "unlocode": "CNYTN",
+   "name": "Shenzhen (Yantian)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 22.57,
+   "lon": 114.28,
+   "aliases": [
+    "Yantian",
+    "Shenzhen",
+    "Shenzhen East"
+   ],
+   "notes": "East Shenzhen deep-water mainline terminal"
+  },
+  {
+   "unlocode": "HKHKG",
+   "name": "Hong Kong",
+   "country": "HK",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 22.34,
+   "lon": 114.12,
+   "aliases": [
+    "Kwai Tsing",
+    "Kwai Chung"
+   ],
+   "notes": "Kwai Tsing terminals; transshipment hub"
+  },
+  {
+   "unlocode": "KRPUS",
+   "name": "Busan",
+   "country": "KR",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 35.07,
+   "lon": 128.8,
+   "aliases": [
+    "Pusan",
+    "Busan New Port"
+   ],
+   "notes": "Korea's mainline port and Northeast Asia transshipment hub"
+  },
+  {
+   "unlocode": "TWKHH",
+   "name": "Kaohsiung",
+   "country": "TW",
+   "region": "FEA",
+   "tier": 1,
+   "lat": 22.56,
+   "lon": 120.32,
+   "aliases": [
+    "Gaoxiong"
+   ],
+   "notes": "Taiwan's mainline and transshipment hub"
+  },
+  {
+   "unlocode": "CNDLC",
+   "name": "Dalian",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 38.93,
+   "lon": 121.65,
+   "aliases": [
+    "Dayaowan"
+   ],
+   "notes": "Northeast China gateway"
+  },
+  {
+   "unlocode": "CNLYG",
+   "name": "Lianyungang",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 34.7333,
+   "lon": 119.45,
+   "aliases": [],
+   "notes": "Jiangsu gateway; China–Central Asia rail bridgehead"
+  },
+  {
+   "unlocode": "CNXMN",
+   "name": "Xiamen",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 24.48,
+   "lon": 118.07,
+   "aliases": [
+    "Amoy",
+    "Haicang"
+   ],
+   "notes": "Fujian mainline gateway"
+  },
+  {
+   "unlocode": "JPNGO",
+   "name": "Nagoya",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 35.06,
+   "lon": 136.85,
+   "aliases": [
+    "Tobishima"
+   ],
+   "notes": "Chukyo industrial region gateway"
+  },
+  {
+   "unlocode": "JPOSA",
+   "name": "Osaka",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 34.65,
+   "lon": 135.4333,
+   "aliases": [
+    "Yumeshima",
+    "Nanko"
+   ],
+   "notes": "Hanshin ports"
+  },
+  {
+   "unlocode": "JPTYO",
+   "name": "Tokyo",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 35.62,
+   "lon": 139.79,
+   "aliases": [
+    "Ohi",
+    "Aomi"
+   ],
+   "notes": "Keihin ports; mainline calls"
+  },
+  {
+   "unlocode": "JPUKB",
+   "name": "Kobe",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 34.66,
+   "lon": 135.21,
+   "aliases": [
+    "Port Island",
+    "Rokko Island"
+   ],
+   "notes": "Hanshin ports; mainline calls"
+  },
+  {
+   "unlocode": "JPYOK",
+   "name": "Yokohama",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 35.45,
+   "lon": 139.67,
+   "aliases": [
+    "Honmoku",
+    "Minami Honmoku"
+   ],
+   "notes": "Keihin ports; mainline calls"
+  },
+  {
+   "unlocode": "KRINC",
+   "name": "Incheon",
+   "country": "KR",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 37.45,
+   "lon": 126.6,
+   "aliases": [
+    "Inchon"
+   ],
+   "notes": "Seoul gateway; China/SEA and some transpacific services"
+  },
+  {
+   "unlocode": "KRKAN",
+   "name": "Gwangyang",
+   "country": "KR",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 34.9085,
+   "lon": 127.7501,
+   "aliases": [
+    "Kwangyang"
+   ],
+   "notes": "South Korea's second container port"
+  },
+  {
+   "unlocode": "TWTPE",
+   "name": "Taipei Port",
+   "country": "TW",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 25.1833,
+   "lon": 121.4,
+   "aliases": [
+    "Tamsui"
+   ],
+   "notes": "Taipei Port (Bali, New Taipei); mainline calls"
+  },
+  {
+   "unlocode": "TWTXG",
+   "name": "Taichung",
+   "country": "TW",
+   "region": "FEA",
+   "tier": 2,
+   "lat": 24.27,
+   "lon": 120.5,
+   "aliases": [],
+   "notes": "Central Taiwan"
+  },
+  {
+   "unlocode": "CNQZH",
+   "name": "Qinzhou (Beibu Gulf)",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 21.7333,
+   "lon": 108.5833,
+   "aliases": [
+    "Qinzhou",
+    "Beibu Gulf",
+    "Guangxi"
+   ],
+   "notes": "Western China land–sea corridor (rail-sea to Chongqing/Chengdu)"
+  },
+  {
+   "unlocode": "CNYIK",
+   "name": "Yingkou",
+   "country": "CN",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 40.6833,
+   "lon": 122.2333,
+   "aliases": [
+    "Bayuquan"
+   ],
+   "notes": "Liaoning; intra-Asia services, rail to Mongolia/Europe"
+  },
+  {
+   "unlocode": "JPHKT",
+   "name": "Hakata (Fukuoka)",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 33.6,
+   "lon": 130.4,
+   "aliases": [
+    "Hakata",
+    "Fukuoka"
+   ],
+   "notes": "Kyushu; Korea/China/SEA services"
+  },
+  {
+   "unlocode": "JPNAH",
+   "name": "Naha",
+   "country": "JP",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 26.2167,
+   "lon": 127.6833,
+   "aliases": [
+    "Okinawa"
+   ],
+   "notes": "Okinawa; domestic and Taiwan/Asia feeders"
+  },
+  {
+   "unlocode": "KRPTK",
+   "name": "Pyeongtaek",
+   "country": "KR",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 37.0,
+   "lon": 126.8,
+   "aliases": [
+    "Pyeongtaek-Dangjin"
+   ],
+   "notes": "China/intra-Asia services"
+  },
+  {
+   "unlocode": "MOMFM",
+   "name": "Macau",
+   "country": "MO",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 22.1833,
+   "lon": 113.5667,
+   "aliases": [
+    "Macao",
+    "Ka Ho"
+   ],
+   "notes": "River/feeder service via Hong Kong"
+  },
+  {
+   "unlocode": "TWKEL",
+   "name": "Keelung",
+   "country": "TW",
+   "region": "FEA",
+   "tier": 3,
+   "lat": 25.15,
+   "lon": 121.74,
+   "aliases": [
+    "Jilong",
+    "Chilung"
+   ],
+   "notes": "Northern Taiwan; intra-Asia services"
+  },
+  {
+   "unlocode": "MYPKG",
+   "name": "Port Klang",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 1,
+   "lat": 2.98,
+   "lon": 101.33,
+   "aliases": [
+    "Westports",
+    "Northport",
+    "Kuala Lumpur"
+   ],
+   "notes": "Transshipment hub (Westports, Northport)"
+  },
+  {
+   "unlocode": "MYTPP",
+   "name": "Tanjung Pelepas",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 1,
+   "lat": 1.365,
+   "lon": 103.55,
+   "aliases": [
+    "PTP"
+   ],
+   "notes": "Maersk/MSC transshipment hub"
+  },
+  {
+   "unlocode": "SGSIN",
+   "name": "Singapore",
+   "country": "SG",
+   "region": "SEA",
+   "tier": 1,
+   "lat": 1.27,
+   "lon": 103.78,
+   "aliases": [
+    "Pasir Panjang",
+    "Tuas",
+    "Keppel"
+   ],
+   "notes": "World's largest transshipment hub (PSA Pasir Panjang, Tuas)"
+  },
+  {
+   "unlocode": "IDJKT",
+   "name": "Jakarta (Tanjung Priok)",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 2,
+   "lat": -6.1,
+   "lon": 106.89,
+   "aliases": [
+    "Jakarta",
+    "Tanjung Priok",
+    "NPCT1",
+    "JICT"
+   ],
+   "notes": "Indonesia's main gateway; some direct mainline calls"
+  },
+  {
+   "unlocode": "PHMNL",
+   "name": "Manila",
+   "country": "PH",
+   "region": "SEA",
+   "tier": 2,
+   "lat": 14.6,
+   "lon": 120.95,
+   "aliases": [
+    "MICT",
+    "Manila North Harbor",
+    "Manila South Harbor"
+   ],
+   "notes": "Philippines' main gateway"
+  },
+  {
+   "unlocode": "THLCH",
+   "name": "Laem Chabang",
+   "country": "TH",
+   "region": "SEA",
+   "tier": 2,
+   "lat": 13.08,
+   "lon": 100.88,
+   "aliases": [
+    "Bangkok"
+   ],
+   "notes": "Thailand's deep-sea gateway"
+  },
+  {
+   "unlocode": "VNCMT",
+   "name": "Cai Mep",
+   "country": "VN",
+   "region": "SEA",
+   "tier": 2,
+   "lat": 10.53,
+   "lon": 107.03,
+   "aliases": [
+    "Cai Mep-Thi Vai",
+    "Gemalink"
+   ],
+   "notes": "Deep-water mainline terminals for southern Vietnam"
+  },
+  {
+   "unlocode": "VNHPH",
+   "name": "Hai Phong",
+   "country": "VN",
+   "region": "SEA",
+   "tier": 2,
+   "lat": 20.83,
+   "lon": 106.85,
+   "aliases": [
+    "Haiphong",
+    "Lach Huyen"
+   ],
+   "notes": "Northern Vietnam; Lach Huyen deep-water terminal"
+  },
+  {
+   "unlocode": "BNMUA",
+   "name": "Muara",
+   "country": "BN",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 5.0333,
+   "lon": 115.0667,
+   "aliases": [
+    "Bandar Seri Begawan",
+    "Brunei"
+   ],
+   "notes": "Brunei; feeder via Singapore/Tanjung Pelepas"
+  },
+  {
+   "unlocode": "IDBLW",
+   "name": "Belawan (Medan)",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 3.7833,
+   "lon": 98.6833,
+   "aliases": [
+    "Belawan",
+    "Medan"
+   ],
+   "notes": "North Sumatra; feeder via Port Klang/Singapore"
+  },
+  {
+   "unlocode": "IDDJJ",
+   "name": "Jayapura",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 3,
+   "lat": -2.5333,
+   "lon": 140.7,
+   "aliases": [],
+   "notes": "Papua; domestic feeder via Surabaya/Jakarta"
+  },
+  {
+   "unlocode": "IDMAK",
+   "name": "Makassar",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 3,
+   "lat": -5.1167,
+   "lon": 119.4,
+   "aliases": [
+    "Ujung Pandang"
+   ],
+   "notes": "Sulawesi; domestic and feeder"
+  },
+  {
+   "unlocode": "IDSRG",
+   "name": "Semarang",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 3,
+   "lat": -6.95,
+   "lon": 110.4167,
+   "aliases": [
+    "Tanjung Emas"
+   ],
+   "notes": "Central Java; feeder via Singapore"
+  },
+  {
+   "unlocode": "IDSUB",
+   "name": "Surabaya (Tanjung Perak)",
+   "country": "ID",
+   "region": "SEA",
+   "tier": 3,
+   "lat": -7.2,
+   "lon": 112.7333,
+   "aliases": [
+    "Surabaya",
+    "Tanjung Perak",
+    "Teluk Lamong"
+   ],
+   "notes": "East Java; intra-Asia and feeder"
+  },
+  {
+   "unlocode": "KHKOS",
+   "name": "Sihanoukville",
+   "country": "KH",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 10.6333,
+   "lon": 103.5,
+   "aliases": [
+    "Kampong Saom",
+    "Kompong Som"
+   ],
+   "notes": "Cambodia's deep-water port; feeder via Singapore"
+  },
+  {
+   "unlocode": "MMRGN",
+   "name": "Yangon (Thilawa)",
+   "country": "MM",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 16.7667,
+   "lon": 96.1667,
+   "aliases": [
+    "Yangon",
+    "Rangoon",
+    "Thilawa"
+   ],
+   "notes": "Myanmar; feeder via Singapore/Port Klang"
+  },
+  {
+   "unlocode": "MYBKI",
+   "name": "Kota Kinabalu (Sepanggar)",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 5.9833,
+   "lon": 116.0667,
+   "aliases": [
+    "Kota Kinabalu",
+    "Sepanggar"
+   ],
+   "notes": "Sabah; feeder via Port Klang/Singapore"
+  },
+  {
+   "unlocode": "MYJHB",
+   "name": "Pasir Gudang (Johor Port)",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 1.4333,
+   "lon": 103.9,
+   "aliases": [
+    "Pasir Gudang",
+    "Johor Port"
+   ],
+   "notes": "Johor Port; regional services"
+  },
+  {
+   "unlocode": "MYKCH",
+   "name": "Kuching",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 1.5667,
+   "lon": 110.35,
+   "aliases": [
+    "Senari"
+   ],
+   "notes": "Sarawak; feeder via Singapore/Port Klang"
+  },
+  {
+   "unlocode": "MYPEN",
+   "name": "Penang",
+   "country": "MY",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 5.4167,
+   "lon": 100.35,
+   "aliases": [
+    "Pulau Pinang",
+    "Butterworth",
+    "North Butterworth"
+   ],
+   "notes": "Northern Peninsular Malaysia"
+  },
+  {
+   "unlocode": "PHBTG",
+   "name": "Batangas",
+   "country": "PH",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 13.75,
+   "lon": 121.05,
+   "aliases": [],
+   "notes": "South Luzon alternative to Manila"
+  },
+  {
+   "unlocode": "PHCEB",
+   "name": "Cebu",
+   "country": "PH",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 10.3,
+   "lon": 123.9,
+   "aliases": [],
+   "notes": "Visayas; feeder"
+  },
+  {
+   "unlocode": "PHDVO",
+   "name": "Davao",
+   "country": "PH",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 7.0667,
+   "lon": 125.6167,
+   "aliases": [
+    "Sasa"
+   ],
+   "notes": "Mindanao; feeder and banana reefers"
+  },
+  {
+   "unlocode": "THBKK",
+   "name": "Bangkok (PAT)",
+   "country": "TH",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 13.75,
+   "lon": 100.5,
+   "aliases": [
+    "Bangkok",
+    "Khlong Toei",
+    "Klong Toey",
+    "PAT"
+   ],
+   "notes": "River port; intra-Asia services"
+  },
+  {
+   "unlocode": "TLDIL",
+   "name": "Dili",
+   "country": "TL",
+   "region": "SEA",
+   "tier": 3,
+   "lat": -8.5333,
+   "lon": 125.5833,
+   "aliases": [
+    "Tibar"
+   ],
+   "notes": "Timor-Leste; feeder via Singapore/Surabaya"
+  },
+  {
+   "unlocode": "VNDAD",
+   "name": "Da Nang",
+   "country": "VN",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 16.1,
+   "lon": 108.2167,
+   "aliases": [
+    "Tien Sa"
+   ],
+   "notes": "Central Vietnam; regional services"
+  },
+  {
+   "unlocode": "VNSGN",
+   "name": "Ho Chi Minh City (Cat Lai)",
+   "country": "VN",
+   "region": "SEA",
+   "tier": 3,
+   "lat": 10.76,
+   "lon": 106.8,
+   "aliases": [
+    "Ho Chi Minh City",
+    "Saigon",
+    "Cat Lai",
+    "HCMC"
+   ],
+   "notes": "River terminal; intra-Asia services (mainline at Cai Mep)"
+  },
+  {
+   "unlocode": "INMUN",
+   "name": "Mundra",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 1,
+   "lat": 22.74,
+   "lon": 69.7,
+   "aliases": [
+    "Adani Mundra"
+   ],
+   "notes": "India's largest container port by volume"
+  },
+  {
+   "unlocode": "INNSA",
+   "name": "Nhava Sheva (JNPT)",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 1,
+   "lat": 18.95,
+   "lon": 72.95,
+   "aliases": [
+    "Nhava Sheva",
+    "JNPT",
+    "Jawaharlal Nehru Port",
+    "Mumbai",
+    "Navi Mumbai"
+   ],
+   "notes": "India's main mainline gateway (Mumbai)"
+  },
+  {
+   "unlocode": "LKCMB",
+   "name": "Colombo",
+   "country": "LK",
+   "region": "ISC",
+   "tier": 1,
+   "lat": 6.95,
+   "lon": 79.845,
+   "aliases": [
+    "JCT",
+    "CICT",
+    "SAGT",
+    "ECT"
+   ],
+   "notes": "South Asia transshipment hub"
+  },
+  {
+   "unlocode": "INHZA",
+   "name": "Hazira",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 21.0833,
+   "lon": 72.6333,
+   "aliases": [
+    "Surat"
+   ],
+   "notes": "Adani Hazira, Gujarat"
+  },
+  {
+   "unlocode": "INKAT",
+   "name": "Kattupalli",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 13.3,
+   "lon": 80.35,
+   "aliases": [],
+   "notes": "Adani Kattupalli, Chennai region"
+  },
+  {
+   "unlocode": "INMAA",
+   "name": "Chennai",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 13.1,
+   "lon": 80.3,
+   "aliases": [
+    "Madras"
+   ],
+   "notes": "South-east India gateway"
+  },
+  {
+   "unlocode": "INPAV",
+   "name": "Pipavav",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 20.9167,
+   "lon": 71.5167,
+   "aliases": [
+    "Port Pipavav"
+   ],
+   "notes": "APM Terminals Pipavav, Gujarat"
+  },
+  {
+   "unlocode": "PKBQM",
+   "name": "Port Qasim",
+   "country": "PK",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 24.7667,
+   "lon": 67.35,
+   "aliases": [
+    "Muhammad Bin Qasim",
+    "QICT"
+   ],
+   "notes": "Karachi region's second port"
+  },
+  {
+   "unlocode": "PKKHI",
+   "name": "Karachi",
+   "country": "PK",
+   "region": "ISC",
+   "tier": 2,
+   "lat": 24.83,
+   "lon": 66.98,
+   "aliases": [
+    "KICT",
+    "SAPT",
+    "Keamari"
+   ],
+   "notes": "Pakistan's main gateway"
+  },
+  {
+   "unlocode": "BDCGP",
+   "name": "Chittagong",
+   "country": "BD",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 22.31,
+   "lon": 91.8,
+   "aliases": [
+    "Chattogram"
+   ],
+   "notes": "Bangladesh; feeder via Colombo/Singapore/Port Klang"
+  },
+  {
+   "unlocode": "BDMGL",
+   "name": "Mongla",
+   "country": "BD",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 22.4667,
+   "lon": 89.6,
+   "aliases": [
+    "Chalna"
+   ],
+   "notes": "Bangladesh's second port; feeder"
+  },
+  {
+   "unlocode": "INCCU",
+   "name": "Kolkata",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 22.55,
+   "lon": 88.3333,
+   "aliases": [
+    "Calcutta",
+    "Haldia",
+    "Syama Prasad Mookerjee Port"
+   ],
+   "notes": "River port with Haldia dock; feeder via Colombo/Singapore"
+  },
+  {
+   "unlocode": "INCOK",
+   "name": "Kochi (Vallarpadam)",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 9.9667,
+   "lon": 76.2667,
+   "aliases": [
+    "Kochi",
+    "Cochin",
+    "Vallarpadam",
+    "ICTT"
+   ],
+   "notes": "DP World ICTT; Colombo competitor feeder hub"
+  },
+  {
+   "unlocode": "INTUT",
+   "name": "Tuticorin (Thoothukudi)",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 8.8,
+   "lon": 78.1667,
+   "aliases": [
+    "Tuticorin",
+    "Thoothukudi",
+    "VOC Port"
+   ],
+   "notes": "South India; Colombo feeders and some direct services"
+  },
+  {
+   "unlocode": "INVTZ",
+   "name": "Visakhapatnam",
+   "country": "IN",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 17.7,
+   "lon": 83.3,
+   "aliases": [
+    "Vizag"
+   ],
+   "notes": "East coast; regional and Colombo/Singapore feeders"
+  },
+  {
+   "unlocode": "MVMLE",
+   "name": "Malé",
+   "country": "MV",
+   "region": "ISC",
+   "tier": 3,
+   "lat": 4.1667,
+   "lon": 73.5,
+   "aliases": [
+    "Male",
+    "Hulhumale",
+    "Thilafushi"
+   ],
+   "notes": "Maldives; feeder via Colombo"
+  },
+  {
+   "unlocode": "AEJEA",
+   "name": "Jebel Ali",
+   "country": "AE",
+   "region": "MEG",
+   "tier": 1,
+   "lat": 25.01,
+   "lon": 55.06,
+   "aliases": [
+    "Dubai",
+    "DP World Jebel Ali"
+   ],
+   "notes": "Middle East's main hub"
+  },
+  {
+   "unlocode": "OMSLL",
+   "name": "Salalah",
+   "country": "OM",
+   "region": "MEG",
+   "tier": 1,
+   "lat": 16.94,
+   "lon": 54.0,
+   "aliases": [
+    "Raysut"
+   ],
+   "notes": "Transshipment hub (APM Terminals)"
+  },
+  {
+   "unlocode": "AEKHL",
+   "name": "Abu Dhabi (Khalifa Port)",
+   "country": "AE",
+   "region": "MEG",
+   "tier": 2,
+   "lat": 24.8333,
+   "lon": 54.6667,
+   "aliases": [
+    "Khalifa Port",
+    "Abu Dhabi",
+    "KPCT",
+    "Kizad"
+   ],
+   "notes": "Abu Dhabi mainline gateway"
+  },
+  {
+   "unlocode": "AEKLF",
+   "name": "Khor Fakkan",
+   "country": "AE",
+   "region": "MEG",
+   "tier": 2,
+   "lat": 25.3628,
+   "lon": 56.3689,
+   "aliases": [
+    "Khawr Fakkan"
+   ],
+   "notes": "Transshipment hub outside the Strait of Hormuz"
+  },
+  {
+   "unlocode": "QAHMD",
+   "name": "Hamad (Doha)",
+   "country": "QA",
+   "region": "MEG",
+   "tier": 2,
+   "lat": 25.0,
+   "lon": 51.6167,
+   "aliases": [
+    "Hamad Port",
+    "Doha",
+    "Qatar"
+   ],
+   "notes": "Qatar's gateway"
+  },
+  {
+   "unlocode": "SADMM",
+   "name": "Dammam (King Abdulaziz Port)",
+   "country": "SA",
+   "region": "MEG",
+   "tier": 2,
+   "lat": 26.5,
+   "lon": 50.2,
+   "aliases": [
+    "Dammam",
+    "King Abdulaziz Port"
+   ],
+   "notes": "Saudi Gulf gateway; rail to Riyadh"
+  },
+  {
+   "unlocode": "AESHJ",
+   "name": "Sharjah (Port Khalid)",
+   "country": "AE",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 25.3667,
+   "lon": 55.3833,
+   "aliases": [
+    "Sharjah",
+    "Port Khalid",
+    "Mina Khalid"
+   ],
+   "notes": "Regional/feeder"
+  },
+  {
+   "unlocode": "BHKBS",
+   "name": "Khalifa Bin Salman (Bahrain)",
+   "country": "BH",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 26.1833,
+   "lon": 50.7,
+   "aliases": [
+    "Khalifa Bin Salman",
+    "Bahrain",
+    "Hidd",
+    "Manama"
+   ],
+   "notes": "Bahrain; APM Terminals; mostly feeder"
+  },
+  {
+   "unlocode": "IQUQR",
+   "name": "Umm Qasr",
+   "country": "IQ",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 30.0167,
+   "lon": 47.95,
+   "aliases": [
+    "Iraq"
+   ],
+   "notes": "Iraq's main container port; feeder via Jebel Ali and some direct calls"
+  },
+  {
+   "unlocode": "KWSWK",
+   "name": "Shuwaikh (Kuwait)",
+   "country": "KW",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 29.35,
+   "lon": 47.9333,
+   "aliases": [
+    "Shuwaikh",
+    "Kuwait",
+    "Kuwait City"
+   ],
+   "notes": "Kuwait; regional services"
+  },
+  {
+   "unlocode": "OMDQM",
+   "name": "Duqm",
+   "country": "OM",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 19.6733,
+   "lon": 57.7169,
+   "aliases": [],
+   "notes": "Central Oman; limited services"
+  },
+  {
+   "unlocode": "OMSOH",
+   "name": "Sohar",
+   "country": "OM",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 24.5167,
+   "lon": 56.6333,
+   "aliases": [
+    "Suhar"
+   ],
+   "notes": "Northern Oman; regional services"
+  },
+  {
+   "unlocode": "SAJUB",
+   "name": "Jubail",
+   "country": "SA",
+   "region": "MEG",
+   "tier": 3,
+   "lat": 27.0167,
+   "lon": 49.6667,
+   "aliases": [
+    "Al Jubail"
+   ],
+   "notes": "Industrial port; feeder"
+  },
+  {
+   "unlocode": "SAJED",
+   "name": "Jeddah",
+   "country": "SA",
+   "region": "RSE",
+   "tier": 1,
+   "lat": 21.47,
+   "lon": 39.15,
+   "aliases": [
+    "Jiddah",
+    "Jeddah Islamic Port"
+   ],
+   "notes": "Red Sea hub; Saudi west coast gateway"
+  },
+  {
+   "unlocode": "DJJIB",
+   "name": "Djibouti (Doraleh)",
+   "country": "DJ",
+   "region": "RSE",
+   "tier": 2,
+   "lat": 11.595,
+   "lon": 43.08,
+   "aliases": [
+    "Djibouti",
+    "Doraleh"
+   ],
+   "notes": "Gateway for Ethiopia; Doraleh container terminal"
+  },
+  {
+   "unlocode": "EGSOK",
+   "name": "Ain Sokhna",
+   "country": "EG",
+   "region": "RSE",
+   "tier": 2,
+   "lat": 29.6833,
+   "lon": 32.3667,
+   "aliases": [
+    "Sokhna",
+    "Ain Sukhna"
+   ],
+   "notes": "Gulf of Suez; DP World Sokhna; serves Cairo"
+  },
+  {
+   "unlocode": "JOAQJ",
+   "name": "Aqaba",
+   "country": "JO",
+   "region": "RSE",
+   "tier": 2,
+   "lat": 29.5167,
+   "lon": 35.0,
+   "aliases": [
+    "Al Aqabah",
+    "Aqaba Container Terminal"
+   ],
+   "notes": "Jordan's only port"
+  },
+  {
+   "unlocode": "SAKAC",
+   "name": "King Abdullah Port",
+   "country": "SA",
+   "region": "RSE",
+   "tier": 2,
+   "lat": 22.4,
+   "lon": 39.0833,
+   "aliases": [
+    "King Abdullah Economic City",
+    "KAEC"
+   ],
+   "notes": "Red Sea mainline port"
+  },
+  {
+   "unlocode": "ERMSW",
+   "name": "Massawa",
+   "country": "ER",
+   "region": "RSE",
+   "tier": 3,
+   "lat": 15.6167,
+   "lon": 39.4667,
+   "aliases": [
+    "Mitsiwa"
+   ],
+   "notes": "Eritrea; occasional feeder via Jeddah/Djibouti"
+  },
+  {
+   "unlocode": "SDPZU",
+   "name": "Port Sudan",
+   "country": "SD",
+   "region": "RSE",
+   "tier": 3,
+   "lat": 19.6,
+   "lon": 37.2333,
+   "aliases": [
+    "Bur Sudan"
+   ],
+   "notes": "Sudan; feeder via Jeddah/Djibouti; civil-war disruption"
+  },
+  {
+   "unlocode": "YEADE",
+   "name": "Aden",
+   "country": "YE",
+   "region": "RSE",
+   "tier": 3,
+   "lat": 12.7833,
+   "lon": 44.95,
+   "aliases": [
+    "Aden Container Terminal"
+   ],
+   "notes": "Yemen; feeder via Jebel Ali/Djibouti/Salalah; war-risk"
+  },
+  {
+   "unlocode": "YEHOD",
+   "name": "Hodeidah",
+   "country": "YE",
+   "region": "RSE",
+   "tier": 3,
+   "lat": 14.8333,
+   "lon": 42.9667,
+   "aliases": [
+    "Hudaydah",
+    "Al Hudaydah"
+   ],
+   "notes": "Yemen Red Sea port; war-risk, UN inspection regime"
+  },
+  {
+   "unlocode": "EGPSD",
+   "name": "Port Said",
+   "country": "EG",
+   "region": "MED",
+   "tier": 1,
+   "lat": 31.23,
+   "lon": 32.33,
+   "aliases": [
+    "East Port Said",
+    "SCCT",
+    "Suez Canal Container Terminal"
+   ],
+   "notes": "Suez Canal transshipment hub"
+  },
+  {
+   "unlocode": "ESALG",
+   "name": "Algeciras",
+   "country": "ES",
+   "region": "MED",
+   "tier": 1,
+   "lat": 36.14,
+   "lon": -5.43,
+   "aliases": [],
+   "notes": "Strait of Gibraltar transshipment hub"
+  },
+  {
+   "unlocode": "ESVLC",
+   "name": "Valencia",
+   "country": "ES",
+   "region": "MED",
+   "tier": 1,
+   "lat": 39.44,
+   "lon": -0.31,
+   "aliases": [
+    "València"
+   ],
+   "notes": "Spain's largest container port; Madrid hinterland"
+  },
+  {
+   "unlocode": "GRPIR",
+   "name": "Piraeus",
+   "country": "GR",
+   "region": "MED",
+   "tier": 1,
+   "lat": 37.95,
+   "lon": 23.58,
+   "aliases": [
+    "Pireas",
+    "Athens",
+    "PCT"
+   ],
+   "notes": "COSCO East Med hub"
+  },
+  {
+   "unlocode": "ITGIT",
+   "name": "Gioia Tauro",
+   "country": "IT",
+   "region": "MED",
+   "tier": 1,
+   "lat": 38.45,
+   "lon": 15.9,
+   "aliases": [],
+   "notes": "MSC transshipment hub"
+  },
+  {
+   "unlocode": "MAPTM",
+   "name": "Tanger Med",
+   "country": "MA",
+   "region": "MED",
+   "tier": 1,
+   "lat": 35.89,
+   "lon": -5.5,
+   "aliases": [
+    "Tangier",
+    "Tanger"
+   ],
+   "notes": "Strait of Gibraltar transshipment hub"
+  },
+  {
+   "unlocode": "MTMAR",
+   "name": "Marsaxlokk (Malta Freeport)",
+   "country": "MT",
+   "region": "MED",
+   "tier": 1,
+   "lat": 35.8267,
+   "lon": 14.5483,
+   "aliases": [
+    "Marsaxlokk",
+    "Malta Freeport",
+    "Malta",
+    "Birzebbuga"
+   ],
+   "notes": "CMA CGM transshipment hub"
+  },
+  {
+   "unlocode": "EGALY",
+   "name": "Alexandria",
+   "country": "EG",
+   "region": "MED",
+   "tier": 2,
+   "lat": 31.1667,
+   "lon": 29.8333,
+   "aliases": [
+    "El Dekheila",
+    "Iskandariya"
+   ],
+   "notes": "Egypt's Med gateway (Alexandria and El Dekheila)"
+  },
+  {
+   "unlocode": "EGDAM",
+   "name": "Damietta",
+   "country": "EG",
+   "region": "MED",
+   "tier": 2,
+   "lat": 31.4833,
+   "lon": 31.75,
+   "aliases": [
+    "Dumyat"
+   ],
+   "notes": "East Nile Delta"
+  },
+  {
+   "unlocode": "ESBCN",
+   "name": "Barcelona",
+   "country": "ES",
+   "region": "MED",
+   "tier": 2,
+   "lat": 41.34,
+   "lon": 2.16,
+   "aliases": [],
+   "notes": "Catalonia gateway"
+  },
+  {
+   "unlocode": "FRFOS",
+   "name": "Marseille-Fos",
+   "country": "FR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 43.4167,
+   "lon": 4.8833,
+   "aliases": [
+    "Fos-sur-Mer",
+    "Fos",
+    "Marseille"
+   ],
+   "notes": "French Med gateway (Fos 2XL, Seayard)"
+  },
+  {
+   "unlocode": "HRRJK",
+   "name": "Rijeka",
+   "country": "HR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 45.3333,
+   "lon": 14.4333,
+   "aliases": [
+    "Fiume",
+    "Rijeka Gateway"
+   ],
+   "notes": "Croatia's main container port"
+  },
+  {
+   "unlocode": "ILASH",
+   "name": "Ashdod",
+   "country": "IL",
+   "region": "MED",
+   "tier": 2,
+   "lat": 31.8167,
+   "lon": 34.65,
+   "aliases": [
+    "Southport"
+   ],
+   "notes": "Southern Israel"
+  },
+  {
+   "unlocode": "ILHFA",
+   "name": "Haifa",
+   "country": "IL",
+   "region": "MED",
+   "tier": 2,
+   "lat": 32.8167,
+   "lon": 35.0,
+   "aliases": [
+    "Haifa Bayport"
+   ],
+   "notes": "Northern Israel; Bayport terminal"
+  },
+  {
+   "unlocode": "ITGOA",
+   "name": "Genoa",
+   "country": "IT",
+   "region": "MED",
+   "tier": 2,
+   "lat": 44.405,
+   "lon": 8.9,
+   "aliases": [
+    "Genova",
+    "Pra'",
+    "Voltri"
+   ],
+   "notes": "Italy's main gateway (PSA Pra', Spinelli)"
+  },
+  {
+   "unlocode": "ITLIV",
+   "name": "Livorno",
+   "country": "IT",
+   "region": "MED",
+   "tier": 2,
+   "lat": 43.542,
+   "lon": 10.29,
+   "aliases": [
+    "Leghorn"
+   ],
+   "notes": "Tuscany gateway"
+  },
+  {
+   "unlocode": "ITSPE",
+   "name": "La Spezia",
+   "country": "IT",
+   "region": "MED",
+   "tier": 2,
+   "lat": 44.1,
+   "lon": 9.84,
+   "aliases": [
+    "LSCT"
+   ],
+   "notes": "Ligurian gateway"
+  },
+  {
+   "unlocode": "ITTRS",
+   "name": "Trieste",
+   "country": "IT",
+   "region": "MED",
+   "tier": 2,
+   "lat": 45.62,
+   "lon": 13.75,
+   "aliases": [
+    "Triest"
+   ],
+   "notes": "Adriatic mainline gateway; rail to Central Europe"
+  },
+  {
+   "unlocode": "ITVDL",
+   "name": "Vado Ligure",
+   "country": "IT",
+   "region": "MED",
+   "tier": 2,
+   "lat": 44.265,
+   "lon": 8.453,
+   "aliases": [
+    "Vado Gateway",
+    "Savona"
+   ],
+   "notes": "APM Terminals Vado Gateway"
+  },
+  {
+   "unlocode": "LBBEY",
+   "name": "Beirut",
+   "country": "LB",
+   "region": "MED",
+   "tier": 2,
+   "lat": 33.9,
+   "lon": 35.5,
+   "aliases": [
+    "Bayrut"
+   ],
+   "notes": "Lebanon; CMA CGM terminal"
+  },
+  {
+   "unlocode": "ROCND",
+   "name": "Constanța",
+   "country": "RO",
+   "region": "MED",
+   "tier": 2,
+   "lat": 44.1667,
+   "lon": 28.65,
+   "aliases": [
+    "Constanta",
+    "Constantza"
+   ],
+   "notes": "Black Sea gateway; Danube connection"
+  },
+  {
+   "unlocode": "SIKOP",
+   "name": "Koper",
+   "country": "SI",
+   "region": "MED",
+   "tier": 2,
+   "lat": 45.55,
+   "lon": 13.7333,
+   "aliases": [
+    "Capodistria",
+    "Luka Koper"
+   ],
+   "notes": "Adriatic mainline gateway for Central Europe"
+  },
+  {
+   "unlocode": "TRALI",
+   "name": "Aliağa (Izmir)",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 38.8333,
+   "lon": 26.9333,
+   "aliases": [
+    "Aliaga",
+    "Aliağa",
+    "Nemrut",
+    "Izmir",
+    "TCEEGE"
+   ],
+   "notes": "Izmir region deep-water terminals"
+  },
+  {
+   "unlocode": "TRAMR",
+   "name": "Ambarlı (Istanbul)",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 40.97,
+   "lon": 28.68,
+   "aliases": [
+    "Ambarli",
+    "Ambarlı",
+    "Istanbul",
+    "Kumport",
+    "Marport"
+   ],
+   "notes": "Istanbul's container gateway"
+  },
+  {
+   "unlocode": "TRGEM",
+   "name": "Gemlik",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 40.4167,
+   "lon": 29.1167,
+   "aliases": [
+    "Borusan",
+    "Gemport"
+   ],
+   "notes": "Bursa region"
+  },
+  {
+   "unlocode": "TRIZT",
+   "name": "Izmit (Kocaeli)",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 40.7667,
+   "lon": 29.9167,
+   "aliases": [
+    "Izmit",
+    "Kocaeli",
+    "Evyap",
+    "Yarimca",
+    "DP World Yarimca",
+    "Derince"
+   ],
+   "notes": "Gulf of Izmit terminals (Evyap, DP World Yarımca, Belde)"
+  },
+  {
+   "unlocode": "TRMER",
+   "name": "Mersin",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 36.79,
+   "lon": 34.64,
+   "aliases": [
+    "MIP"
+   ],
+   "notes": "Turkey's largest single container port"
+  },
+  {
+   "unlocode": "TRTEK",
+   "name": "Tekirdağ (Asyaport)",
+   "country": "TR",
+   "region": "MED",
+   "tier": 2,
+   "lat": 40.9833,
+   "lon": 27.5167,
+   "aliases": [
+    "Tekirdag",
+    "Tekirdağ",
+    "Asyaport"
+   ],
+   "notes": "Asyaport deep-water terminal"
+  },
+  {
+   "unlocode": "ALDRZ",
+   "name": "Durrës",
+   "country": "AL",
+   "region": "MED",
+   "tier": 3,
+   "lat": 41.3167,
+   "lon": 19.45,
+   "aliases": [
+    "Durres",
+    "Durazzo"
+   ],
+   "notes": "Albania; feeder via Piraeus/Gioia Tauro"
+  },
+  {
+   "unlocode": "BGVAR",
+   "name": "Varna",
+   "country": "BG",
+   "region": "MED",
+   "tier": 3,
+   "lat": 43.1833,
+   "lon": 27.9667,
+   "aliases": [],
+   "notes": "Bulgaria; Black Sea feeder"
+  },
+  {
+   "unlocode": "CYLMS",
+   "name": "Limassol",
+   "country": "CY",
+   "region": "MED",
+   "tier": 3,
+   "lat": 34.6489,
+   "lon": 33.0197,
+   "aliases": [
+    "Lemesos",
+    "Cyprus"
+   ],
+   "notes": "Cyprus; feeder and Med services"
+  },
+  {
+   "unlocode": "DZALG",
+   "name": "Algiers",
+   "country": "DZ",
+   "region": "MED",
+   "tier": 3,
+   "lat": 36.7667,
+   "lon": 3.0667,
+   "aliases": [
+    "Alger",
+    "El Djazair"
+   ],
+   "notes": "Algeria; feeder and Med services"
+  },
+  {
+   "unlocode": "DZORN",
+   "name": "Oran",
+   "country": "DZ",
+   "region": "MED",
+   "tier": 3,
+   "lat": 35.7,
+   "lon": -0.6333,
+   "aliases": [
+    "Wahran"
+   ],
+   "notes": "Western Algeria; feeder"
+  },
+  {
+   "unlocode": "GEPTI",
+   "name": "Poti",
+   "country": "GE",
+   "region": "MED",
+   "tier": 3,
+   "lat": 42.15,
+   "lon": 41.66,
+   "aliases": [],
+   "notes": "Georgia; Black Sea feeder; Middle Corridor to the Caspian"
+  },
+  {
+   "unlocode": "GRSKG",
+   "name": "Thessaloniki",
+   "country": "GR",
+   "region": "MED",
+   "tier": 3,
+   "lat": 40.6333,
+   "lon": 22.9333,
+   "aliases": [
+    "Salonica"
+   ],
+   "notes": "Northern Greece; serves North Macedonia/Balkans"
+  },
+  {
+   "unlocode": "HRPLE",
+   "name": "Ploče",
+   "country": "HR",
+   "region": "MED",
+   "tier": 3,
+   "lat": 43.05,
+   "lon": 17.4333,
+   "aliases": [
+    "Ploce"
+   ],
+   "notes": "Southern Croatia; serves Bosnia and Herzegovina"
+  },
+  {
+   "unlocode": "ITSAL",
+   "name": "Salerno",
+   "country": "IT",
+   "region": "MED",
+   "tier": 3,
+   "lat": 40.6667,
+   "lon": 14.75,
+   "aliases": [],
+   "notes": "Southern Italy; Med services"
+  },
+  {
+   "unlocode": "ITVCE",
+   "name": "Venice",
+   "country": "IT",
+   "region": "MED",
+   "tier": 3,
+   "lat": 45.4167,
+   "lon": 12.4333,
+   "aliases": [
+    "Venezia",
+    "Porto Marghera"
+   ],
+   "notes": "Northern Adriatic; feeder/Med services"
+  },
+  {
+   "unlocode": "LBKYE",
+   "name": "Tripoli (Lebanon)",
+   "country": "LB",
+   "region": "MED",
+   "tier": 3,
+   "lat": 34.45,
+   "lon": 35.8333,
+   "aliases": [
+    "Tripoli",
+    "Tarabulus"
+   ],
+   "notes": "Northern Lebanon; feeder"
+  },
+  {
+   "unlocode": "LYMIS",
+   "name": "Misrata",
+   "country": "LY",
+   "region": "MED",
+   "tier": 3,
+   "lat": 32.3667,
+   "lon": 15.2167,
+   "aliases": [
+    "Misurata",
+    "Misratah"
+   ],
+   "notes": "Libya's main container port; feeder"
+  },
+  {
+   "unlocode": "LYTIP",
+   "name": "Tripoli (Libya)",
+   "country": "LY",
+   "region": "MED",
+   "tier": 3,
+   "lat": 32.9,
+   "lon": 13.1833,
+   "aliases": [
+    "Tripoli",
+    "Tarabulus"
+   ],
+   "notes": "Libya; feeder"
+  },
+  {
+   "unlocode": "MEBAR",
+   "name": "Bar",
+   "country": "ME",
+   "region": "MED",
+   "tier": 3,
+   "lat": 42.0833,
+   "lon": 19.0833,
+   "aliases": [
+    "Montenegro"
+   ],
+   "notes": "Montenegro; feeder"
+  },
+  {
+   "unlocode": "TNRDS",
+   "name": "Radès (Tunis)",
+   "country": "TN",
+   "region": "MED",
+   "tier": 3,
+   "lat": 36.8167,
+   "lon": 10.3,
+   "aliases": [
+    "Rades",
+    "Radès",
+    "Tunis"
+   ],
+   "notes": "Tunisia's main container port; feeder"
+  },
+  {
+   "unlocode": "TNSFA",
+   "name": "Sfax",
+   "country": "TN",
+   "region": "MED",
+   "tier": 3,
+   "lat": 34.7333,
+   "lon": 10.7667,
+   "aliases": [],
+   "notes": "Southern Tunisia; feeder"
+  },
+  {
+   "unlocode": "UAILK",
+   "name": "Chornomorsk",
+   "country": "UA",
+   "region": "MED",
+   "tier": 3,
+   "lat": 46.3,
+   "lon": 30.65,
+   "aliases": [
+    "Illichivsk",
+    "Ilyichevsk"
+   ],
+   "notes": "War-risk; services resumed via the Black Sea corridor"
+  },
+  {
+   "unlocode": "UAODS",
+   "name": "Odesa",
+   "country": "UA",
+   "region": "MED",
+   "tier": 3,
+   "lat": 46.4833,
+   "lon": 30.7333,
+   "aliases": [
+    "Odessa"
+   ],
+   "notes": "War-risk; services resumed via the Black Sea corridor"
+  },
+  {
+   "unlocode": "BEANR",
+   "name": "Antwerp-Bruges",
+   "country": "BE",
+   "region": "NEU",
+   "tier": 1,
+   "lat": 51.278,
+   "lon": 4.26,
+   "aliases": [
+    "Antwerp",
+    "Antwerpen",
+    "Anvers",
+    "Deurganck"
+   ],
+   "notes": "Europe's second-largest container port"
+  },
+  {
+   "unlocode": "DEBRV",
+   "name": "Bremerhaven",
+   "country": "DE",
+   "region": "NEU",
+   "tier": 1,
+   "lat": 53.58,
+   "lon": 8.525,
+   "aliases": [
+    "Bremen"
+   ],
+   "notes": "North Range hub"
+  },
+  {
+   "unlocode": "DEHAM",
+   "name": "Hamburg",
+   "country": "DE",
+   "region": "NEU",
+   "tier": 1,
+   "lat": 53.535,
+   "lon": 9.93,
+   "aliases": [
+    "Waltershof",
+    "Altenwerder"
+   ],
+   "notes": "North Range hub; Baltic feeder hub"
+  },
+  {
+   "unlocode": "NLRTM",
+   "name": "Rotterdam",
+   "country": "NL",
+   "region": "NEU",
+   "tier": 1,
+   "lat": 51.955,
+   "lon": 4.03,
+   "aliases": [
+    "Maasvlakte",
+    "Maasvlakte II"
+   ],
+   "notes": "Europe's largest container port"
+  },
+  {
+   "unlocode": "BEZEE",
+   "name": "Zeebrugge",
+   "country": "BE",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 51.34,
+   "lon": 3.2,
+   "aliases": [
+    "Bruges",
+    "Brugge"
+   ],
+   "notes": "Port of Antwerp-Bruges coastal terminals"
+  },
+  {
+   "unlocode": "DEWVN",
+   "name": "Wilhelmshaven",
+   "country": "DE",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 53.5333,
+   "lon": 8.1667,
+   "aliases": [
+    "JadeWeserPort",
+    "CTW"
+   ],
+   "notes": "Deep-water JadeWeserPort"
+  },
+  {
+   "unlocode": "DKAAR",
+   "name": "Aarhus",
+   "country": "DK",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 56.155,
+   "lon": 10.235,
+   "aliases": [
+    "Århus"
+   ],
+   "notes": "Denmark's main container port"
+  },
+  {
+   "unlocode": "FRDKK",
+   "name": "Dunkirk",
+   "country": "FR",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 51.0667,
+   "lon": 2.35,
+   "aliases": [
+    "Dunkerque"
+   ],
+   "notes": "Northern France; mainline calls"
+  },
+  {
+   "unlocode": "FRLEH",
+   "name": "Le Havre",
+   "country": "FR",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 49.47,
+   "lon": 0.17,
+   "aliases": [
+    "Port 2000"
+   ],
+   "notes": "France's main container port"
+  },
+  {
+   "unlocode": "GBFXT",
+   "name": "Felixstowe",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 51.955,
+   "lon": 1.31,
+   "aliases": [],
+   "notes": "UK's largest container port"
+  },
+  {
+   "unlocode": "GBLGP",
+   "name": "London Gateway",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 51.505,
+   "lon": 0.47,
+   "aliases": [
+    "London"
+   ],
+   "notes": "DP World London Gateway"
+  },
+  {
+   "unlocode": "GBLIV",
+   "name": "Liverpool",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 53.4167,
+   "lon": -3.0,
+   "aliases": [
+    "Seaforth",
+    "Liverpool2"
+   ],
+   "notes": "Liverpool2; transatlantic services and feeder"
+  },
+  {
+   "unlocode": "GBSOU",
+   "name": "Southampton",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 50.9,
+   "lon": -1.43,
+   "aliases": [],
+   "notes": "UK mainline gateway"
+  },
+  {
+   "unlocode": "PLGDN",
+   "name": "Gdańsk (Baltic Hub)",
+   "country": "PL",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 54.395,
+   "lon": 18.71,
+   "aliases": [
+    "Gdansk",
+    "Gdańsk",
+    "Danzig",
+    "Baltic Hub",
+    "DCT"
+   ],
+   "notes": "Baltic's deep-sea mainline port"
+  },
+  {
+   "unlocode": "PTSIE",
+   "name": "Sines",
+   "country": "PT",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 37.95,
+   "lon": -8.8667,
+   "aliases": [
+    "Terminal XXI"
+   ],
+   "notes": "Portugal's deep-sea mainline port"
+  },
+  {
+   "unlocode": "SEGOT",
+   "name": "Gothenburg",
+   "country": "SE",
+   "region": "NEU",
+   "tier": 2,
+   "lat": 57.689,
+   "lon": 11.843,
+   "aliases": [
+    "Göteborg",
+    "Goteborg",
+    "Skandia"
+   ],
+   "notes": "Scandinavia's largest port; direct mainline calls"
+  },
+  {
+   "unlocode": "DKCPH",
+   "name": "Copenhagen",
+   "country": "DK",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 55.7,
+   "lon": 12.61,
+   "aliases": [
+    "København",
+    "Kobenhavn"
+   ],
+   "notes": "Feeder via Hamburg/Bremerhaven/Rotterdam"
+  },
+  {
+   "unlocode": "EEMUG",
+   "name": "Tallinn (Muuga)",
+   "country": "EE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 59.495,
+   "lon": 24.955,
+   "aliases": [
+    "Muuga",
+    "Tallinn"
+   ],
+   "notes": "Estonia; feeder"
+  },
+  {
+   "unlocode": "ESBIO",
+   "name": "Bilbao",
+   "country": "ES",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 43.35,
+   "lon": -3.05,
+   "aliases": [],
+   "notes": "Spanish Atlantic; feeder and some direct services"
+  },
+  {
+   "unlocode": "ESVGO",
+   "name": "Vigo",
+   "country": "ES",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 42.2333,
+   "lon": -8.7167,
+   "aliases": [],
+   "notes": "Galicia; feeder/shortsea"
+  },
+  {
+   "unlocode": "FIHEL",
+   "name": "Helsinki (Vuosaari)",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 60.215,
+   "lon": 25.1939,
+   "aliases": [
+    "Helsinki",
+    "Vuosaari",
+    "Helsingfors"
+   ],
+   "notes": "Feeder via Hamburg/Rotterdam/Antwerp/Bremerhaven/Gdańsk"
+  },
+  {
+   "unlocode": "FIHMN",
+   "name": "Hamina",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 60.527,
+   "lon": 27.1699,
+   "aliases": [
+    "Fredrikshamn",
+    "HaminaKotka"
+   ],
+   "notes": "Port of HaminaKotka"
+  },
+  {
+   "unlocode": "FIKEM",
+   "name": "Kemi",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 65.6676,
+   "lon": 24.5168,
+   "aliases": [
+    "Ajos"
+   ],
+   "notes": "Feeder"
+  },
+  {
+   "unlocode": "FIKOK",
+   "name": "Kokkola",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 63.8631,
+   "lon": 23.0345,
+   "aliases": [
+    "Karleby"
+   ],
+   "notes": "Feeder"
+  },
+  {
+   "unlocode": "FIKTK",
+   "name": "Kotka (Mussalo)",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 60.4203,
+   "lon": 26.9082,
+   "aliases": [
+    "Kotka",
+    "Mussalo",
+    "HaminaKotka"
+   ],
+   "notes": "Port of HaminaKotka; Finland's largest container port"
+  },
+  {
+   "unlocode": "FIOUL",
+   "name": "Oulu",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 64.9967,
+   "lon": 25.4185,
+   "aliases": [
+    "Uleåborg",
+    "Oritkari"
+   ],
+   "notes": "Northern Finland; feeder"
+  },
+  {
+   "unlocode": "FIRAU",
+   "name": "Rauma",
+   "country": "FI",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 61.1305,
+   "lon": 21.4335,
+   "aliases": [
+    "Raumo"
+   ],
+   "notes": "West coast; forest-product exports"
+  },
+  {
+   "unlocode": "FOTHO",
+   "name": "Tórshavn",
+   "country": "FO",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 62.0167,
+   "lon": -6.7667,
+   "aliases": [
+    "Torshavn",
+    "Thorshavn",
+    "Faroe Islands"
+   ],
+   "notes": "Faroe Islands; shortsea from Northern Europe"
+  },
+  {
+   "unlocode": "FRMTX",
+   "name": "Nantes Saint-Nazaire (Montoir)",
+   "country": "FR",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 47.3,
+   "lon": -2.1333,
+   "aliases": [
+    "Montoir",
+    "Montoir-de-Bretagne",
+    "Saint-Nazaire",
+    "Nantes"
+   ],
+   "notes": "Atlantic France; feeder and some direct services"
+  },
+  {
+   "unlocode": "GBBEL",
+   "name": "Belfast",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 54.6167,
+   "lon": -5.9,
+   "aliases": [],
+   "notes": "Northern Ireland; feeder"
+  },
+  {
+   "unlocode": "GBGRG",
+   "name": "Grangemouth",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 56.0167,
+   "lon": -3.7167,
+   "aliases": [],
+   "notes": "Scotland's main container port; feeder"
+  },
+  {
+   "unlocode": "GBTEE",
+   "name": "Teesport",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 54.65,
+   "lon": -1.1333,
+   "aliases": [
+    "Middlesbrough",
+    "Teesside"
+   ],
+   "notes": "North East England; feeder/shortsea"
+  },
+  {
+   "unlocode": "GBTIL",
+   "name": "Tilbury",
+   "country": "GB",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 51.4667,
+   "lon": 0.3333,
+   "aliases": [
+    "Port of Tilbury"
+   ],
+   "notes": "Thames; shortsea/feeder"
+  },
+  {
+   "unlocode": "GLGOH",
+   "name": "Nuuk",
+   "country": "GL",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 64.1833,
+   "lon": -51.75,
+   "aliases": [
+    "Godthåb",
+    "Greenland"
+   ],
+   "notes": "Greenland; Royal Arctic Line from Aalborg/Reykjavík"
+  },
+  {
+   "unlocode": "IEDUB",
+   "name": "Dublin",
+   "country": "IE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 53.4287,
+   "lon": -6.2621,
+   "aliases": [
+    "Baile Átha Cliath"
+   ],
+   "notes": "Ireland's main port; feeder/shortsea"
+  },
+  {
+   "unlocode": "IEORK",
+   "name": "Cork",
+   "country": "IE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 51.85,
+   "lon": -8.2667,
+   "aliases": [
+    "Ringaskiddy"
+   ],
+   "notes": "Southern Ireland; feeder"
+  },
+  {
+   "unlocode": "ISREY",
+   "name": "Reykjavík",
+   "country": "IS",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 64.15,
+   "lon": -21.9333,
+   "aliases": [
+    "Reykjavik",
+    "Sundahöfn"
+   ],
+   "notes": "Iceland; Eimskip/Samskip from Northern Europe"
+  },
+  {
+   "unlocode": "LTKLJ",
+   "name": "Klaipėda",
+   "country": "LT",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 55.69,
+   "lon": 21.135,
+   "aliases": [
+    "Klaipeda",
+    "Memel"
+   ],
+   "notes": "Lithuania; feeder and some direct services"
+  },
+  {
+   "unlocode": "LVRIX",
+   "name": "Riga",
+   "country": "LV",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 57.042,
+   "lon": 24.05,
+   "aliases": [
+    "Rīga"
+   ],
+   "notes": "Latvia; feeder"
+  },
+  {
+   "unlocode": "NLAMS",
+   "name": "Amsterdam",
+   "country": "NL",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 52.378,
+   "lon": 4.9,
+   "aliases": [],
+   "notes": "Shortsea/feeder"
+  },
+  {
+   "unlocode": "NOBGO",
+   "name": "Bergen",
+   "country": "NO",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 60.4028,
+   "lon": 5.2986,
+   "aliases": [],
+   "notes": "Western Norway; feeder"
+  },
+  {
+   "unlocode": "NOOSL",
+   "name": "Oslo",
+   "country": "NO",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 59.885,
+   "lon": 10.765,
+   "aliases": [
+    "Sjursøya"
+   ],
+   "notes": "Norway's main container port; feeder"
+  },
+  {
+   "unlocode": "NOSVG",
+   "name": "Stavanger",
+   "country": "NO",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 58.9667,
+   "lon": 5.75,
+   "aliases": [
+    "Risavika"
+   ],
+   "notes": "Western Norway; feeder"
+  },
+  {
+   "unlocode": "NOTRD",
+   "name": "Trondheim",
+   "country": "NO",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 63.4483,
+   "lon": 10.4017,
+   "aliases": [],
+   "notes": "Mid-Norway; feeder"
+  },
+  {
+   "unlocode": "PLGDY",
+   "name": "Gdynia",
+   "country": "PL",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 54.535,
+   "lon": 18.535,
+   "aliases": [
+    "BCT",
+    "GCT"
+   ],
+   "notes": "Feeder/shortsea"
+  },
+  {
+   "unlocode": "PLSZZ",
+   "name": "Szczecin",
+   "country": "PL",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 53.4167,
+   "lon": 14.55,
+   "aliases": [
+    "Stettin",
+    "Świnoujście"
+   ],
+   "notes": "Feeder"
+  },
+  {
+   "unlocode": "PTCNL",
+   "name": "Caniçal (Madeira)",
+   "country": "PT",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 32.7333,
+   "lon": -16.7333,
+   "aliases": [
+    "Canical",
+    "Caniçal",
+    "Madeira",
+    "Funchal"
+   ],
+   "notes": "Madeira; shortsea from Lisbon/Leixões"
+  },
+  {
+   "unlocode": "PTLEI",
+   "name": "Leixões (Porto)",
+   "country": "PT",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 41.1833,
+   "lon": -8.7,
+   "aliases": [
+    "Leixoes",
+    "Leixões",
+    "Porto",
+    "Oporto"
+   ],
+   "notes": "Northern Portugal; feeder/shortsea"
+  },
+  {
+   "unlocode": "PTLIS",
+   "name": "Lisbon",
+   "country": "PT",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 38.71,
+   "lon": -9.1,
+   "aliases": [
+    "Lisboa"
+   ],
+   "notes": "Feeder/shortsea; Atlantic islands services"
+  },
+  {
+   "unlocode": "PTPDL",
+   "name": "Ponta Delgada (Azores)",
+   "country": "PT",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 37.7333,
+   "lon": -25.6667,
+   "aliases": [
+    "Ponta Delgada",
+    "Azores",
+    "Açores"
+   ],
+   "notes": "Azores; shortsea from Lisbon/Leixões"
+  },
+  {
+   "unlocode": "SEGVX",
+   "name": "Gävle",
+   "country": "SE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 60.6833,
+   "lon": 17.1667,
+   "aliases": [
+    "Gavle"
+   ],
+   "notes": "Central Sweden; feeder"
+  },
+  {
+   "unlocode": "SEHEL",
+   "name": "Helsingborg",
+   "country": "SE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 56.0353,
+   "lon": 12.6878,
+   "aliases": [
+    "Hälsingborg"
+   ],
+   "notes": "Southern Sweden; feeder"
+  },
+  {
+   "unlocode": "SENYN",
+   "name": "Stockholm Norvik",
+   "country": "SE",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 58.893,
+   "lon": 17.962,
+   "aliases": [
+    "Stockholm",
+    "Norvik",
+    "Nynäshamn"
+   ],
+   "notes": "Stockholm's container terminal; feeder"
+  },
+  {
+   "unlocode": "SJLYR",
+   "name": "Longyearbyen",
+   "country": "SJ",
+   "region": "NEU",
+   "tier": 3,
+   "lat": 78.2272,
+   "lon": 15.6333,
+   "aliases": [
+    "Svalbard"
+   ],
+   "notes": "Svalbard; supply services from Tromsø"
+  },
+  {
+   "unlocode": "TGLFW",
+   "name": "Lomé",
+   "country": "TG",
+   "region": "WAF",
+   "tier": 1,
+   "lat": 6.1333,
+   "lon": 1.2833,
+   "aliases": [
+    "Lome",
+    "LCT"
+   ],
+   "notes": "West Africa transshipment hub (Lomé Container Terminal)"
+  },
+  {
+   "unlocode": "AOLAD",
+   "name": "Luanda",
+   "country": "AO",
+   "region": "WAF",
+   "tier": 2,
+   "lat": -8.8,
+   "lon": 13.25,
+   "aliases": [],
+   "notes": "Angola's main gateway"
+  },
+  {
+   "unlocode": "BJCOO",
+   "name": "Cotonou",
+   "country": "BJ",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 6.35,
+   "lon": 2.4333,
+   "aliases": [],
+   "notes": "Benin; serves Niger"
+  },
+  {
+   "unlocode": "CGPNR",
+   "name": "Pointe-Noire",
+   "country": "CG",
+   "region": "WAF",
+   "tier": 2,
+   "lat": -4.7833,
+   "lon": 11.8333,
+   "aliases": [
+    "Pointe Noire"
+   ],
+   "notes": "Congo; transshipment hub; serves DR Congo"
+  },
+  {
+   "unlocode": "CIABJ",
+   "name": "Abidjan",
+   "country": "CI",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 5.25,
+   "lon": -4.0167,
+   "aliases": [
+    "Vridi",
+    "TC2"
+   ],
+   "notes": "Côte d'Ivoire; serves Burkina Faso and Mali"
+  },
+  {
+   "unlocode": "CMDLA",
+   "name": "Douala",
+   "country": "CM",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 4.05,
+   "lon": 9.6833,
+   "aliases": [
+    "Duala"
+   ],
+   "notes": "Cameroon; serves Chad and Central African Republic"
+  },
+  {
+   "unlocode": "CMKBI",
+   "name": "Kribi",
+   "country": "CM",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 2.7185,
+   "lon": 9.8605,
+   "aliases": [
+    "Kribi Deep Sea Port"
+   ],
+   "notes": "Cameroon deep-water port"
+  },
+  {
+   "unlocode": "ESLPA",
+   "name": "Las Palmas",
+   "country": "ES",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 28.15,
+   "lon": -15.4167,
+   "aliases": [
+    "Gran Canaria",
+    "Canary Islands",
+    "La Luz"
+   ],
+   "notes": "Canary Islands (Spain); West Africa transshipment hub"
+  },
+  {
+   "unlocode": "GHTEM",
+   "name": "Tema",
+   "country": "GH",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 5.6319,
+   "lon": 0.0156,
+   "aliases": [
+    "Accra",
+    "MPS"
+   ],
+   "notes": "Ghana; Meridian Port Services; serves Burkina Faso"
+  },
+  {
+   "unlocode": "NGLKK",
+   "name": "Lekki",
+   "country": "NG",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 6.4232,
+   "lon": 4.0082,
+   "aliases": [
+    "Lekki Deep Sea Port"
+   ],
+   "notes": "Deep-water port east of Lagos"
+  },
+  {
+   "unlocode": "NGLOS",
+   "name": "Lagos (Apapa)",
+   "country": "NG",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 6.4,
+   "lon": 3.4,
+   "aliases": [
+    "Lagos",
+    "Apapa",
+    "APMT Apapa"
+   ],
+   "notes": "Lagos port complex; carriers file Apapa as NGAPP, which is in neither the dataset nor the WPI"
+  },
+  {
+   "unlocode": "NGONN",
+   "name": "Onne",
+   "country": "NG",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 4.6833,
+   "lon": 7.15,
+   "aliases": [],
+   "notes": "Eastern Nigeria; oil and gas hub"
+  },
+  {
+   "unlocode": "NGTIN",
+   "name": "Lagos (Tin Can Island)",
+   "country": "NG",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 6.4344,
+   "lon": 3.3487,
+   "aliases": [
+    "Tin Can",
+    "Tin Can Island"
+   ],
+   "notes": "Lagos port complex"
+  },
+  {
+   "unlocode": "SNDKR",
+   "name": "Dakar",
+   "country": "SN",
+   "region": "WAF",
+   "tier": 2,
+   "lat": 14.6833,
+   "lon": -17.4333,
+   "aliases": [],
+   "notes": "Senegal; serves Mali"
+  },
+  {
+   "unlocode": "AOLOB",
+   "name": "Lobito",
+   "country": "AO",
+   "region": "WAF",
+   "tier": 3,
+   "lat": -12.3333,
+   "lon": 13.5667,
+   "aliases": [],
+   "notes": "Angola; Lobito Corridor to DR Congo/Zambia"
+  },
+  {
+   "unlocode": "CDMAT",
+   "name": "Matadi",
+   "country": "CD",
+   "region": "WAF",
+   "tier": 3,
+   "lat": -5.8167,
+   "lon": 13.45,
+   "aliases": [],
+   "notes": "DR Congo; Congo River port"
+  },
+  {
+   "unlocode": "CISPY",
+   "name": "San-Pédro",
+   "country": "CI",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 4.7378,
+   "lon": -6.6111,
+   "aliases": [
+    "San Pedro"
+   ],
+   "notes": "Western Côte d'Ivoire; cocoa"
+  },
+  {
+   "unlocode": "CVRAI",
+   "name": "Praia",
+   "country": "CV",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 14.9167,
+   "lon": -23.5167,
+   "aliases": [
+    "Cabo Verde",
+    "Cape Verde"
+   ],
+   "notes": "Cape Verde; feeder"
+  },
+  {
+   "unlocode": "GAOWE",
+   "name": "Libreville (Owendo)",
+   "country": "GA",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 0.2833,
+   "lon": 9.5,
+   "aliases": [
+    "Owendo",
+    "Libreville"
+   ],
+   "notes": "Gabon; feeder"
+  },
+  {
+   "unlocode": "GHTKD",
+   "name": "Takoradi",
+   "country": "GH",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 4.8833,
+   "lon": -1.7333,
+   "aliases": [
+    "Sekondi-Takoradi"
+   ],
+   "notes": "Western Ghana"
+  },
+  {
+   "unlocode": "GMBJL",
+   "name": "Banjul",
+   "country": "GM",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 13.45,
+   "lon": -16.5667,
+   "aliases": [],
+   "notes": "The Gambia; feeder"
+  },
+  {
+   "unlocode": "GNCKY",
+   "name": "Conakry",
+   "country": "GN",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 9.5194,
+   "lon": -13.7167,
+   "aliases": [],
+   "notes": "Guinea; feeder and some direct services"
+  },
+  {
+   "unlocode": "GQSSG",
+   "name": "Malabo",
+   "country": "GQ",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 3.75,
+   "lon": 8.7833,
+   "aliases": [],
+   "notes": "Equatorial Guinea; feeder"
+  },
+  {
+   "unlocode": "GWOXB",
+   "name": "Bissau",
+   "country": "GW",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 11.8667,
+   "lon": -15.6333,
+   "aliases": [],
+   "notes": "Guinea-Bissau; feeder"
+  },
+  {
+   "unlocode": "LRMLW",
+   "name": "Monrovia",
+   "country": "LR",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 6.3167,
+   "lon": -10.8167,
+   "aliases": [],
+   "notes": "Liberia; feeder"
+  },
+  {
+   "unlocode": "MAAGA",
+   "name": "Agadir",
+   "country": "MA",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 30.4333,
+   "lon": -9.6333,
+   "aliases": [],
+   "notes": "Southern Morocco; reefer/feeder"
+  },
+  {
+   "unlocode": "MACAS",
+   "name": "Casablanca",
+   "country": "MA",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 33.6,
+   "lon": -7.6167,
+   "aliases": [
+    "Dar el Beida"
+   ],
+   "notes": "Morocco Atlantic; feeder via Tanger Med/Algeciras"
+  },
+  {
+   "unlocode": "MRNKC",
+   "name": "Nouakchott",
+   "country": "MR",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 18.0333,
+   "lon": -16.0333,
+   "aliases": [],
+   "notes": "Mauritania; feeder via Las Palmas/Tanger Med/Dakar"
+  },
+  {
+   "unlocode": "SLFNA",
+   "name": "Freetown",
+   "country": "SL",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 8.5,
+   "lon": -13.2333,
+   "aliases": [],
+   "notes": "Sierra Leone; feeder"
+  },
+  {
+   "unlocode": "STTMS",
+   "name": "São Tomé",
+   "country": "ST",
+   "region": "WAF",
+   "tier": 3,
+   "lat": 0.35,
+   "lon": 6.7333,
+   "aliases": [
+    "Sao Tome"
+   ],
+   "notes": "São Tomé and Príncipe; feeder"
+  },
+  {
+   "unlocode": "ZADUR",
+   "name": "Durban",
+   "country": "ZA",
+   "region": "SAF",
+   "tier": 1,
+   "lat": -29.87,
+   "lon": 31.03,
+   "aliases": [],
+   "notes": "Sub-Saharan Africa's busiest container port; serves Gauteng"
+  },
+  {
+   "unlocode": "NAWVB",
+   "name": "Walvis Bay",
+   "country": "NA",
+   "region": "SAF",
+   "tier": 2,
+   "lat": -22.95,
+   "lon": 14.5,
+   "aliases": [],
+   "notes": "Namibia; corridors to Zambia/Botswana"
+  },
+  {
+   "unlocode": "ZACPT",
+   "name": "Cape Town",
+   "country": "ZA",
+   "region": "SAF",
+   "tier": 2,
+   "lat": -33.9167,
+   "lon": 18.4167,
+   "aliases": [
+    "Kaapstad"
+   ],
+   "notes": "Western Cape; reefer"
+  },
+  {
+   "unlocode": "ZAZBA",
+   "name": "Ngqura (Coega)",
+   "country": "ZA",
+   "region": "SAF",
+   "tier": 2,
+   "lat": -33.7667,
+   "lon": 25.6667,
+   "aliases": [
+    "Ngqura",
+    "Coega"
+   ],
+   "notes": "Deep-water transshipment terminal"
+  },
+  {
+   "unlocode": "MZMPM",
+   "name": "Maputo",
+   "country": "MZ",
+   "region": "SAF",
+   "tier": 3,
+   "lat": -25.9628,
+   "lon": 32.5447,
+   "aliases": [
+    "Lourenço Marques"
+   ],
+   "notes": "Mozambique; serves Gauteng and Eswatini"
+  },
+  {
+   "unlocode": "SHSHN",
+   "name": "Jamestown (St Helena)",
+   "country": "SH",
+   "region": "SAF",
+   "tier": 3,
+   "lat": -15.9167,
+   "lon": -5.7167,
+   "aliases": [
+    "Jamestown",
+    "St Helena",
+    "Saint Helena"
+   ],
+   "notes": "Monthly cargo ship from Cape Town"
+  },
+  {
+   "unlocode": "ZAPLZ",
+   "name": "Gqeberha (Port Elizabeth)",
+   "country": "ZA",
+   "region": "SAF",
+   "tier": 3,
+   "lat": -33.9519,
+   "lon": 25.6425,
+   "aliases": [
+    "Port Elizabeth",
+    "Gqeberha"
+   ],
+   "notes": "Eastern Cape"
+  },
+  {
+   "unlocode": "KEMBA",
+   "name": "Mombasa",
+   "country": "KE",
+   "region": "EAF",
+   "tier": 2,
+   "lat": -4.04,
+   "lon": 39.64,
+   "aliases": [
+    "Kilindini"
+   ],
+   "notes": "Kenya; serves Uganda/Rwanda/South Sudan"
+  },
+  {
+   "unlocode": "MUPLU",
+   "name": "Port Louis",
+   "country": "MU",
+   "region": "EAF",
+   "tier": 2,
+   "lat": -20.15,
+   "lon": 57.5,
+   "aliases": [
+    "Mauritius"
+   ],
+   "notes": "Mauritius; Indian Ocean transshipment hub"
+  },
+  {
+   "unlocode": "TZDAR",
+   "name": "Dar es Salaam",
+   "country": "TZ",
+   "region": "EAF",
+   "tier": 2,
+   "lat": -6.8167,
+   "lon": 39.3,
+   "aliases": [
+    "DSM"
+   ],
+   "notes": "Tanzania; serves Zambia/Malawi/DR Congo"
+  },
+  {
+   "unlocode": "KMMUT",
+   "name": "Mutsamudu",
+   "country": "KM",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -12.15,
+   "lon": 44.4,
+   "aliases": [
+    "Anjouan",
+    "Comoros"
+   ],
+   "notes": "Comoros; feeder"
+  },
+  {
+   "unlocode": "MGTOA",
+   "name": "Toamasina",
+   "country": "MG",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -18.1667,
+   "lon": 49.4167,
+   "aliases": [
+    "Tamatave"
+   ],
+   "notes": "Madagascar's main port; feeder via Port Louis/Réunion"
+  },
+  {
+   "unlocode": "MZBEW",
+   "name": "Beira",
+   "country": "MZ",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -19.8333,
+   "lon": 34.8333,
+   "aliases": [],
+   "notes": "Central Mozambique; Beira Corridor to Zimbabwe/Malawi"
+  },
+  {
+   "unlocode": "MZMNC",
+   "name": "Nacala",
+   "country": "MZ",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -14.5333,
+   "lon": 40.6667,
+   "aliases": [],
+   "notes": "Northern Mozambique; Nacala Corridor to Malawi"
+  },
+  {
+   "unlocode": "RELPT",
+   "name": "Port Réunion (Le Port)",
+   "country": "RE",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -20.9333,
+   "lon": 55.3167,
+   "aliases": [
+    "Le Port",
+    "Port Réunion",
+    "Pointe des Galets",
+    "Réunion"
+   ],
+   "notes": "Réunion (France); CMA CGM regional hub"
+  },
+  {
+   "unlocode": "SCPOV",
+   "name": "Port Victoria",
+   "country": "SC",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -4.6233,
+   "lon": 55.4642,
+   "aliases": [
+    "Victoria",
+    "Mahé",
+    "Seychelles"
+   ],
+   "notes": "Seychelles; feeder"
+  },
+  {
+   "unlocode": "SOBBO",
+   "name": "Berbera",
+   "country": "SO",
+   "region": "EAF",
+   "tier": 3,
+   "lat": 10.45,
+   "lon": 45.0167,
+   "aliases": [
+    "Somaliland"
+   ],
+   "notes": "Somaliland; DP World Berbera; Ethiopia corridor"
+  },
+  {
+   "unlocode": "SOMGQ",
+   "name": "Mogadishu",
+   "country": "SO",
+   "region": "EAF",
+   "tier": 3,
+   "lat": 2.0333,
+   "lon": 45.35,
+   "aliases": [
+    "Muqdisho"
+   ],
+   "notes": "Somalia; feeder via Salalah/Jebel Ali"
+  },
+  {
+   "unlocode": "TZZNZ",
+   "name": "Zanzibar",
+   "country": "TZ",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -6.1667,
+   "lon": 39.1833,
+   "aliases": [],
+   "notes": "Zanzibar; feeder"
+  },
+  {
+   "unlocode": "YTLON",
+   "name": "Longoni (Mayotte)",
+   "country": "YT",
+   "region": "EAF",
+   "tier": 3,
+   "lat": -12.7167,
+   "lon": 45.1667,
+   "aliases": [
+    "Longoni",
+    "Mayotte"
+   ],
+   "notes": "Mayotte (France); feeder"
+  },
+  {
+   "unlocode": "USLAX",
+   "name": "Los Angeles",
+   "country": "US",
+   "region": "NAW",
+   "tier": 1,
+   "lat": 33.73,
+   "lon": -118.27,
+   "aliases": [
+    "San Pedro",
+    "LA"
+   ],
+   "notes": "US's busiest container port (San Pedro Bay)"
+  },
+  {
+   "unlocode": "USLGB",
+   "name": "Long Beach",
+   "country": "US",
+   "region": "NAW",
+   "tier": 1,
+   "lat": 33.75,
+   "lon": -118.21,
+   "aliases": [],
+   "notes": "San Pedro Bay complex"
+  },
+  {
+   "unlocode": "CAPRR",
+   "name": "Prince Rupert",
+   "country": "CA",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 54.3167,
+   "lon": -130.3333,
+   "aliases": [
+    "Fairview"
+   ],
+   "notes": "Rail gateway to Chicago/Midwest"
+  },
+  {
+   "unlocode": "CAVAN",
+   "name": "Vancouver",
+   "country": "CA",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 49.29,
+   "lon": -123.1,
+   "aliases": [
+    "Deltaport",
+    "Centerm"
+   ],
+   "notes": "Canada's largest port"
+  },
+  {
+   "unlocode": "MXLZC",
+   "name": "Lázaro Cárdenas",
+   "country": "MX",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 17.9333,
+   "lon": -102.1667,
+   "aliases": [
+    "Lazaro Cardenas"
+   ],
+   "notes": "Rail gateway to central Mexico"
+  },
+  {
+   "unlocode": "MXZLO",
+   "name": "Manzanillo",
+   "country": "MX",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 19.06,
+   "lon": -104.3,
+   "aliases": [],
+   "notes": "Mexico's largest container port"
+  },
+  {
+   "unlocode": "USOAK",
+   "name": "Oakland",
+   "country": "US",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 37.8,
+   "lon": -122.32,
+   "aliases": [
+    "San Francisco Bay"
+   ],
+   "notes": "Northern California gateway"
+  },
+  {
+   "unlocode": "USSEA",
+   "name": "Seattle",
+   "country": "US",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 47.58,
+   "lon": -122.36,
+   "aliases": [
+    "Northwest Seaport Alliance"
+   ],
+   "notes": "Northwest Seaport Alliance"
+  },
+  {
+   "unlocode": "USTIW",
+   "name": "Tacoma",
+   "country": "US",
+   "region": "NAW",
+   "tier": 2,
+   "lat": 47.2833,
+   "lon": -122.4167,
+   "aliases": [
+    "Northwest Seaport Alliance"
+   ],
+   "notes": "Northwest Seaport Alliance"
+  },
+  {
+   "unlocode": "MXESE",
+   "name": "Ensenada",
+   "country": "MX",
+   "region": "NAW",
+   "tier": 3,
+   "lat": 31.8667,
+   "lon": -116.6333,
+   "aliases": [],
+   "notes": "Baja California"
+  },
+  {
+   "unlocode": "USANC",
+   "name": "Anchorage",
+   "country": "US",
+   "region": "NAW",
+   "tier": 3,
+   "lat": 61.2167,
+   "lon": -149.9,
+   "aliases": [
+    "Alaska"
+   ],
+   "notes": "Alaska; Jones Act services from Tacoma"
+  },
+  {
+   "unlocode": "USHNL",
+   "name": "Honolulu",
+   "country": "US",
+   "region": "NAW",
+   "tier": 3,
+   "lat": 21.3,
+   "lon": -157.8667,
+   "aliases": [
+    "Hawaii"
+   ],
+   "notes": "Hawaii; Jones Act services from the US West Coast"
+  },
+  {
+   "unlocode": "USNYC",
+   "name": "New York / New Jersey",
+   "country": "US",
+   "region": "NAE",
+   "tier": 1,
+   "lat": 40.68,
+   "lon": -74.15,
+   "aliases": [
+    "New York",
+    "Newark",
+    "Port Elizabeth",
+    "NY/NJ",
+    "Port Newark"
+   ],
+   "notes": "US East Coast's largest port"
+  },
+  {
+   "unlocode": "USSAV",
+   "name": "Savannah",
+   "country": "US",
+   "region": "NAE",
+   "tier": 1,
+   "lat": 32.12,
+   "lon": -81.14,
+   "aliases": [
+    "Garden City"
+   ],
+   "notes": "US East Coast hub"
+  },
+  {
+   "unlocode": "CAHAL",
+   "name": "Halifax",
+   "country": "CA",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 44.63,
+   "lon": -63.56,
+   "aliases": [],
+   "notes": "Deep-water Atlantic gateway"
+  },
+  {
+   "unlocode": "CAMTR",
+   "name": "Montréal",
+   "country": "CA",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 45.56,
+   "lon": -73.53,
+   "aliases": [
+    "Montreal"
+   ],
+   "notes": "St Lawrence; transatlantic services; rail to Toronto/Chicago"
+  },
+  {
+   "unlocode": "USBAL",
+   "name": "Baltimore",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 39.25,
+   "lon": -76.55,
+   "aliases": [
+    "Seagirt"
+   ],
+   "notes": "Mid-Atlantic"
+  },
+  {
+   "unlocode": "USCHS",
+   "name": "Charleston",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 32.83,
+   "lon": -79.9,
+   "aliases": [
+    "Wando Welch",
+    "Leatherman"
+   ],
+   "notes": "South Carolina"
+  },
+  {
+   "unlocode": "USJAX",
+   "name": "Jacksonville",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 30.3167,
+   "lon": -81.65,
+   "aliases": [
+    "JAXPORT",
+    "Blount Island",
+    "Dames Point"
+   ],
+   "notes": "North Florida; Asia services and Puerto Rico trade"
+  },
+  {
+   "unlocode": "USMIA",
+   "name": "Miami",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 25.77,
+   "lon": -80.17,
+   "aliases": [
+    "PortMiami"
+   ],
+   "notes": "South Florida; Latin America/Caribbean"
+  },
+  {
+   "unlocode": "USORF",
+   "name": "Norfolk (Virginia)",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 36.9,
+   "lon": -76.33,
+   "aliases": [
+    "Norfolk",
+    "Virginia",
+    "Portsmouth",
+    "Hampton Roads"
+   ],
+   "notes": "Port of Virginia"
+  },
+  {
+   "unlocode": "USPEF",
+   "name": "Port Everglades",
+   "country": "US",
+   "region": "NAE",
+   "tier": 2,
+   "lat": 26.1,
+   "lon": -80.1167,
+   "aliases": [
+    "Fort Lauderdale"
+   ],
+   "notes": "South Florida; Caribbean/Central America"
+  },
+  {
+   "unlocode": "CASJF",
+   "name": "St. John's (Newfoundland)",
+   "country": "CA",
+   "region": "NAE",
+   "tier": 3,
+   "lat": 47.5667,
+   "lon": -52.7,
+   "aliases": [
+    "St. John's",
+    "St Johns",
+    "Newfoundland"
+   ],
+   "notes": "Newfoundland; feeder/coastal"
+  },
+  {
+   "unlocode": "PMFSP",
+   "name": "Saint-Pierre",
+   "country": "PM",
+   "region": "NAE",
+   "tier": 3,
+   "lat": 46.7833,
+   "lon": -56.1667,
+   "aliases": [
+    "Saint-Pierre-et-Miquelon"
+   ],
+   "notes": "Saint-Pierre and Miquelon (France); feeder from Halifax"
+  },
+  {
+   "unlocode": "USBOS",
+   "name": "Boston",
+   "country": "US",
+   "region": "NAE",
+   "tier": 3,
+   "lat": 42.35,
+   "lon": -71.05,
+   "aliases": [
+    "Conley Terminal"
+   ],
+   "notes": "New England"
+  },
+  {
+   "unlocode": "USPHL",
+   "name": "Philadelphia",
+   "country": "US",
+   "region": "NAE",
+   "tier": 3,
+   "lat": 39.95,
+   "lon": -75.1333,
+   "aliases": [
+    "Packer Avenue"
+   ],
+   "notes": "Delaware River; reefer and selected services"
+  },
+  {
+   "unlocode": "USHOU",
+   "name": "Houston",
+   "country": "US",
+   "region": "USG",
+   "tier": 1,
+   "lat": 29.68,
+   "lon": -95.01,
+   "aliases": [
+    "Barbours Cut",
+    "Bayport"
+   ],
+   "notes": "US Gulf's largest container port"
+  },
+  {
+   "unlocode": "MXATM",
+   "name": "Altamira",
+   "country": "MX",
+   "region": "USG",
+   "tier": 2,
+   "lat": 22.4833,
+   "lon": -97.85,
+   "aliases": [],
+   "notes": "Mexico Gulf; serves Monterrey"
+  },
+  {
+   "unlocode": "MXVER",
+   "name": "Veracruz",
+   "country": "MX",
+   "region": "USG",
+   "tier": 2,
+   "lat": 19.2,
+   "lon": -96.13,
+   "aliases": [],
+   "notes": "Mexico Gulf gateway"
+  },
+  {
+   "unlocode": "USMOB",
+   "name": "Mobile",
+   "country": "US",
+   "region": "USG",
+   "tier": 2,
+   "lat": 30.6833,
+   "lon": -88.1167,
+   "aliases": [],
+   "notes": "APM Terminals Mobile"
+  },
+  {
+   "unlocode": "USMSY",
+   "name": "New Orleans",
+   "country": "US",
+   "region": "USG",
+   "tier": 2,
+   "lat": 29.95,
+   "lon": -90.05,
+   "aliases": [
+    "Napoleon Avenue",
+    "NOLA"
+   ],
+   "notes": "Mississippi River gateway"
+  },
+  {
+   "unlocode": "MXPGO",
+   "name": "Progreso",
+   "country": "MX",
+   "region": "USG",
+   "tier": 3,
+   "lat": 21.2833,
+   "lon": -89.6667,
+   "aliases": [
+    "Puerto Progreso"
+   ],
+   "notes": "Yucatán"
+  },
+  {
+   "unlocode": "USFPO",
+   "name": "Freeport (Texas)",
+   "country": "US",
+   "region": "USG",
+   "tier": 3,
+   "lat": 28.95,
+   "lon": -95.3333,
+   "aliases": [
+    "Port Freeport",
+    "Freeport TX"
+   ],
+   "notes": "Texas; Central America services"
+  },
+  {
+   "unlocode": "USGPT",
+   "name": "Gulfport",
+   "country": "US",
+   "region": "USG",
+   "tier": 3,
+   "lat": 30.35,
+   "lon": -89.0833,
+   "aliases": [],
+   "notes": "Central America reefer services"
+  },
+  {
+   "unlocode": "USTPA",
+   "name": "Tampa",
+   "country": "US",
+   "region": "USG",
+   "tier": 3,
+   "lat": 27.9167,
+   "lon": -82.45,
+   "aliases": [
+    "Port Tampa Bay"
+   ],
+   "notes": "West Florida"
+  },
+  {
+   "unlocode": "COCTG",
+   "name": "Cartagena",
+   "country": "CO",
+   "region": "CAR",
+   "tier": 1,
+   "lat": 10.38,
+   "lon": -75.53,
+   "aliases": [
+    "Contecar",
+    "SPRC"
+   ],
+   "notes": "Caribbean transshipment hub"
+  },
+  {
+   "unlocode": "JMKIN",
+   "name": "Kingston",
+   "country": "JM",
+   "region": "CAR",
+   "tier": 1,
+   "lat": 17.9667,
+   "lon": -76.7833,
+   "aliases": [
+    "KFTL",
+    "Kingston Freeport"
+   ],
+   "notes": "Caribbean transshipment hub (CMA CGM)"
+  },
+  {
+   "unlocode": "PABLB",
+   "name": "Balboa",
+   "country": "PA",
+   "region": "CAR",
+   "tier": 1,
+   "lat": 8.95,
+   "lon": -79.5667,
+   "aliases": [
+    "Panama City",
+    "Rodman",
+    "PSA Panama"
+   ],
+   "notes": "Pacific-side Panama transshipment hub"
+  },
+  {
+   "unlocode": "PAONX",
+   "name": "Colón (MIT / CCT)",
+   "country": "PA",
+   "region": "CAR",
+   "tier": 1,
+   "lat": 9.3667,
+   "lon": -79.8833,
+   "aliases": [
+    "Colon",
+    "Colón",
+    "Manzanillo International Terminal",
+    "MIT",
+    "Colon Container Terminal",
+    "CCT"
+   ],
+   "notes": "Atlantic-side Panama transshipment hub; carriers file MIT as PAMIT, which is in neither the dataset nor the WPI"
+  },
+  {
+   "unlocode": "BSFPO",
+   "name": "Freeport (Grand Bahama)",
+   "country": "BS",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 26.5167,
+   "lon": -78.7833,
+   "aliases": [
+    "Freeport",
+    "Grand Bahama",
+    "Freeport Container Port"
+   ],
+   "notes": "MSC transshipment hub"
+  },
+  {
+   "unlocode": "CRMOB",
+   "name": "Moín",
+   "country": "CR",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 10.0,
+   "lon": -83.0833,
+   "aliases": [
+    "Moin",
+    "Limón",
+    "Puerto Limón",
+    "APM Terminals Moín"
+   ],
+   "notes": "Costa Rica Caribbean; APM Terminals Moín"
+  },
+  {
+   "unlocode": "DOCAU",
+   "name": "Caucedo",
+   "country": "DO",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 18.4167,
+   "lon": -69.6333,
+   "aliases": [
+    "Punta Caucedo",
+    "DP World Caucedo"
+   ],
+   "notes": "Dominican Republic; Caribbean transshipment hub"
+  },
+  {
+   "unlocode": "GTPRQ",
+   "name": "Puerto Quetzal",
+   "country": "GT",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 13.9167,
+   "lon": -90.8,
+   "aliases": [
+    "Quetzal"
+   ],
+   "notes": "Guatemala Pacific coast"
+  },
+  {
+   "unlocode": "HNPCR",
+   "name": "Puerto Cortés",
+   "country": "HN",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 15.8333,
+   "lon": -87.95,
+   "aliases": [
+    "Puerto Cortes"
+   ],
+   "notes": "Honduras; Central America gateway"
+  },
+  {
+   "unlocode": "PACTB",
+   "name": "Cristóbal",
+   "country": "PA",
+   "region": "CAR",
+   "tier": 2,
+   "lat": 9.35,
+   "lon": -79.9167,
+   "aliases": [
+    "Cristobal",
+    "Panama Ports Cristobal"
+   ],
+   "notes": "Atlantic side, Panama Canal"
+  },
+  {
+   "unlocode": "AGSJO",
+   "name": "St. John's (Antigua)",
+   "country": "AG",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 17.1167,
+   "lon": -61.85,
+   "aliases": [
+    "St. John's",
+    "St Johns",
+    "Antigua"
+   ],
+   "notes": "Antigua and Barbuda; feeder"
+  },
+  {
+   "unlocode": "AWBAR",
+   "name": "Barcadera (Aruba)",
+   "country": "AW",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 12.4833,
+   "lon": -69.9833,
+   "aliases": [
+    "Barcadera",
+    "Oranjestad",
+    "Aruba"
+   ],
+   "notes": "Aruba's container port; feeder"
+  },
+  {
+   "unlocode": "BBBGI",
+   "name": "Bridgetown",
+   "country": "BB",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 13.1,
+   "lon": -59.6333,
+   "aliases": [
+    "Barbados"
+   ],
+   "notes": "Barbados; feeder"
+  },
+  {
+   "unlocode": "BMBDA",
+   "name": "Hamilton (Bermuda)",
+   "country": "BM",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 32.3,
+   "lon": -64.7833,
+   "aliases": [
+    "Hamilton",
+    "Bermuda"
+   ],
+   "notes": "Bermuda; weekly service from New York/New Jersey"
+  },
+  {
+   "unlocode": "BQKRA",
+   "name": "Kralendijk",
+   "country": "BQ",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 12.15,
+   "lon": -68.2833,
+   "aliases": [
+    "Bonaire"
+   ],
+   "notes": "Bonaire (Caribbean Netherlands); feeder"
+  },
+  {
+   "unlocode": "BSNAS",
+   "name": "Nassau",
+   "country": "BS",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 25.0833,
+   "lon": -77.35,
+   "aliases": [
+    "Arawak Cay"
+   ],
+   "notes": "Bahamas; feeder from Florida"
+  },
+  {
+   "unlocode": "BZBZE",
+   "name": "Belize City",
+   "country": "BZ",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 17.5,
+   "lon": -88.1833,
+   "aliases": [
+    "Belize"
+   ],
+   "notes": "Belize; feeder"
+  },
+  {
+   "unlocode": "COBAQ",
+   "name": "Barranquilla",
+   "country": "CO",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 10.9667,
+   "lon": -74.7667,
+   "aliases": [],
+   "notes": "Colombia Caribbean; feeder"
+  },
+  {
+   "unlocode": "CRCAL",
+   "name": "Caldera",
+   "country": "CR",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 9.9167,
+   "lon": -84.7167,
+   "aliases": [
+    "Puerto Caldera"
+   ],
+   "notes": "Costa Rica Pacific"
+  },
+  {
+   "unlocode": "CUMAR",
+   "name": "Mariel",
+   "country": "CU",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 22.9833,
+   "lon": -82.75,
+   "aliases": [
+    "Havana",
+    "La Habana"
+   ],
+   "notes": "Cuba; feeder via Kingston/Caucedo; US embargo"
+  },
+  {
+   "unlocode": "CWWIL",
+   "name": "Willemstad",
+   "country": "CW",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 12.1167,
+   "lon": -68.9333,
+   "aliases": [
+    "Curaçao",
+    "Curacao"
+   ],
+   "notes": "Curaçao; feeder"
+  },
+  {
+   "unlocode": "DMRSU",
+   "name": "Roseau",
+   "country": "DM",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 15.3,
+   "lon": -61.4,
+   "aliases": [
+    "Woodbridge Bay",
+    "Dominica"
+   ],
+   "notes": "Dominica; feeder"
+  },
+  {
+   "unlocode": "DOINA",
+   "name": "Rio Haina",
+   "country": "DO",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.4167,
+   "lon": -70.0167,
+   "aliases": [
+    "Haina",
+    "Bajos de Haina"
+   ],
+   "notes": "Dominican Republic; feeder"
+  },
+  {
+   "unlocode": "GDSTG",
+   "name": "St. George's",
+   "country": "GD",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 12.05,
+   "lon": -61.75,
+   "aliases": [
+    "St Georges",
+    "Grenada"
+   ],
+   "notes": "Grenada; feeder"
+  },
+  {
+   "unlocode": "GFDDC",
+   "name": "Dégrad des Cannes",
+   "country": "GF",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 4.85,
+   "lon": -52.2667,
+   "aliases": [
+    "Degrad des Cannes",
+    "Cayenne",
+    "French Guiana"
+   ],
+   "notes": "French Guiana; feeder"
+  },
+  {
+   "unlocode": "GPPTP",
+   "name": "Pointe-à-Pitre (Jarry)",
+   "country": "GP",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 16.2333,
+   "lon": -61.5333,
+   "aliases": [
+    "Pointe-à-Pitre",
+    "Pointe a Pitre",
+    "Jarry",
+    "Guadeloupe"
+   ],
+   "notes": "Guadeloupe (France)"
+  },
+  {
+   "unlocode": "GTSTC",
+   "name": "Santo Tomás de Castilla",
+   "country": "GT",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 15.7,
+   "lon": -88.6167,
+   "aliases": [
+    "Santo Tomas de Castilla",
+    "Santo Tomás"
+   ],
+   "notes": "Guatemala Caribbean coast"
+  },
+  {
+   "unlocode": "GYGEO",
+   "name": "Georgetown",
+   "country": "GY",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 6.8333,
+   "lon": -58.1667,
+   "aliases": [
+    "Guyana",
+    "Demerara"
+   ],
+   "notes": "Guyana; feeder via Port of Spain/Kingston"
+  },
+  {
+   "unlocode": "HTPAP",
+   "name": "Port-au-Prince",
+   "country": "HT",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.55,
+   "lon": -72.35,
+   "aliases": [
+    "Port au Prince",
+    "Haiti"
+   ],
+   "notes": "Haiti; feeder; security disruption"
+  },
+  {
+   "unlocode": "KNBAS",
+   "name": "Basseterre",
+   "country": "KN",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 17.3,
+   "lon": -62.7167,
+   "aliases": [
+    "Saint Kitts",
+    "Nevis"
+   ],
+   "notes": "St Kitts and Nevis; feeder"
+  },
+  {
+   "unlocode": "KYGEC",
+   "name": "George Town (Grand Cayman)",
+   "country": "KY",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 19.3,
+   "lon": -81.3833,
+   "aliases": [
+    "George Town",
+    "Grand Cayman",
+    "Cayman Islands"
+   ],
+   "notes": "Cayman Islands; feeder from Florida"
+  },
+  {
+   "unlocode": "LCCAS",
+   "name": "Castries",
+   "country": "LC",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 14.0167,
+   "lon": -61.0,
+   "aliases": [
+    "Saint Lucia"
+   ],
+   "notes": "Saint Lucia; feeder"
+  },
+  {
+   "unlocode": "MQFDF",
+   "name": "Fort-de-France",
+   "country": "MQ",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 14.6,
+   "lon": -61.0667,
+   "aliases": [
+    "Martinique"
+   ],
+   "notes": "Martinique (France); direct services from Le Havre"
+  },
+  {
+   "unlocode": "NICIO",
+   "name": "Corinto",
+   "country": "NI",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 12.4833,
+   "lon": -87.1667,
+   "aliases": [],
+   "notes": "Nicaragua Pacific"
+  },
+  {
+   "unlocode": "PRSJU",
+   "name": "San Juan",
+   "country": "PR",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.4667,
+   "lon": -66.1167,
+   "aliases": [
+    "Puerto Rico"
+   ],
+   "notes": "Puerto Rico; Jones Act services from Jacksonville; feeder"
+  },
+  {
+   "unlocode": "SRPBM",
+   "name": "Paramaribo",
+   "country": "SR",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 5.8333,
+   "lon": -55.1667,
+   "aliases": [
+    "Suriname"
+   ],
+   "notes": "Suriname; feeder"
+  },
+  {
+   "unlocode": "SVAQJ",
+   "name": "Acajutla",
+   "country": "SV",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 13.5833,
+   "lon": -89.8333,
+   "aliases": [],
+   "notes": "El Salvador Pacific"
+  },
+  {
+   "unlocode": "SXPHI",
+   "name": "Philipsburg",
+   "country": "SX",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.0167,
+   "lon": -63.05,
+   "aliases": [
+    "Sint Maarten",
+    "St Maarten"
+   ],
+   "notes": "Sint Maarten; north-eastern Caribbean feeder hub"
+  },
+  {
+   "unlocode": "TCPLS",
+   "name": "Providenciales",
+   "country": "TC",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 21.7333,
+   "lon": -72.2833,
+   "aliases": [
+    "Turks and Caicos"
+   ],
+   "notes": "Turks and Caicos; feeder from Florida"
+  },
+  {
+   "unlocode": "TTPOS",
+   "name": "Port of Spain",
+   "country": "TT",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 10.65,
+   "lon": -61.5167,
+   "aliases": [
+    "Trinidad"
+   ],
+   "notes": "Trinidad and Tobago; southern Caribbean feeder hub"
+  },
+  {
+   "unlocode": "VCKTN",
+   "name": "Kingstown",
+   "country": "VC",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 13.15,
+   "lon": -61.2333,
+   "aliases": [
+    "Saint Vincent"
+   ],
+   "notes": "St Vincent and the Grenadines; feeder"
+  },
+  {
+   "unlocode": "VEPBL",
+   "name": "Puerto Cabello",
+   "country": "VE",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 10.4833,
+   "lon": -68.0,
+   "aliases": [],
+   "notes": "Venezuela's main container port; feeder"
+  },
+  {
+   "unlocode": "VGRAD",
+   "name": "Road Town",
+   "country": "VG",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.4167,
+   "lon": -64.6167,
+   "aliases": [
+    "Tortola",
+    "British Virgin Islands"
+   ],
+   "notes": "BVI; feeder"
+  },
+  {
+   "unlocode": "VISTT",
+   "name": "St. Thomas",
+   "country": "VI",
+   "region": "CAR",
+   "tier": 3,
+   "lat": 18.35,
+   "lon": -64.9333,
+   "aliases": [
+    "Saint Thomas",
+    "Charlotte Amalie",
+    "US Virgin Islands"
+   ],
+   "notes": "US Virgin Islands; feeder"
+  },
+  {
+   "unlocode": "BRSSZ",
+   "name": "Santos",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 1,
+   "lat": -23.97,
+   "lon": -46.3,
+   "aliases": [
+    "São Paulo",
+    "Sao Paulo",
+    "BTP",
+    "Santos Brasil"
+   ],
+   "notes": "South America's largest container port"
+  },
+  {
+   "unlocode": "ARBUE",
+   "name": "Buenos Aires",
+   "country": "AR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -34.6,
+   "lon": -58.3667,
+   "aliases": [
+    "Exolgan",
+    "Dock Sud",
+    "Terminal 4",
+    "TRP"
+   ],
+   "notes": "Argentina's main gateway"
+  },
+  {
+   "unlocode": "BRIOA",
+   "name": "Itapoá",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -26.0,
+   "lon": -48.6,
+   "aliases": [
+    "Itapoa"
+   ],
+   "notes": "Santa Catarina"
+  },
+  {
+   "unlocode": "BRITJ",
+   "name": "Itajaí",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -26.9167,
+   "lon": -48.6333,
+   "aliases": [
+    "Itajai"
+   ],
+   "notes": "Santa Catarina"
+  },
+  {
+   "unlocode": "BRNVT",
+   "name": "Navegantes",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -26.8833,
+   "lon": -48.6333,
+   "aliases": [
+    "Portonave"
+   ],
+   "notes": "Itajaí River, Santa Catarina"
+  },
+  {
+   "unlocode": "BRPEC",
+   "name": "Pecém",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -3.5167,
+   "lon": -38.8667,
+   "aliases": [
+    "Pecem"
+   ],
+   "notes": "North-east Brazil"
+  },
+  {
+   "unlocode": "BRPNG",
+   "name": "Paranaguá",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -25.5,
+   "lon": -48.52,
+   "aliases": [
+    "Paranagua",
+    "TCP"
+   ],
+   "notes": "Paraná; also serves Paraguay"
+  },
+  {
+   "unlocode": "BRRIG",
+   "name": "Rio Grande",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -32.05,
+   "lon": -52.0833,
+   "aliases": [
+    "Tecon Rio Grande"
+   ],
+   "notes": "Southern Brazil"
+  },
+  {
+   "unlocode": "BRRIO",
+   "name": "Rio de Janeiro",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -22.9,
+   "lon": -43.1667,
+   "aliases": [
+    "Rio",
+    "MultiRio",
+    "ICTSI Rio"
+   ],
+   "notes": "Rio de Janeiro terminals"
+  },
+  {
+   "unlocode": "BRSPB",
+   "name": "Itaguaí (Sepetiba)",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -22.8667,
+   "lon": -43.7667,
+   "aliases": [
+    "Itaguai",
+    "Itaguaí",
+    "Sepetiba",
+    "Sepetiba Tecon"
+   ],
+   "notes": "Rio de Janeiro state deep-water terminal"
+  },
+  {
+   "unlocode": "BRSSA",
+   "name": "Salvador",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -12.9667,
+   "lon": -38.5167,
+   "aliases": [
+    "Tecon Salvador"
+   ],
+   "notes": "Bahia"
+  },
+  {
+   "unlocode": "BRSUA",
+   "name": "Suape",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -8.4,
+   "lon": -34.9667,
+   "aliases": [],
+   "notes": "North-east Brazil"
+  },
+  {
+   "unlocode": "UYMVD",
+   "name": "Montevideo",
+   "country": "UY",
+   "region": "SAE",
+   "tier": 2,
+   "lat": -34.9,
+   "lon": -56.2167,
+   "aliases": [
+    "TCP Montevideo"
+   ],
+   "notes": "Uruguay; River Plate transshipment, serves Paraguay"
+  },
+  {
+   "unlocode": "ARZAE",
+   "name": "Zárate",
+   "country": "AR",
+   "region": "SAE",
+   "tier": 3,
+   "lat": -34.0833,
+   "lon": -59.0333,
+   "aliases": [
+    "Zarate"
+   ],
+   "notes": "Paraná River"
+  },
+  {
+   "unlocode": "BRMAO",
+   "name": "Manaus",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 3,
+   "lat": -3.1333,
+   "lon": -60.0167,
+   "aliases": [
+    "Chibatão"
+   ],
+   "notes": "Amazon River port; cabotage and some direct services"
+  },
+  {
+   "unlocode": "BRVIX",
+   "name": "Vitória",
+   "country": "BR",
+   "region": "SAE",
+   "tier": 3,
+   "lat": -20.3167,
+   "lon": -40.3333,
+   "aliases": [
+    "Vitoria",
+    "TVV"
+   ],
+   "notes": "Espírito Santo"
+  },
+  {
+   "unlocode": "FKPSY",
+   "name": "Stanley",
+   "country": "FK",
+   "region": "SAE",
+   "tier": 3,
+   "lat": -51.7,
+   "lon": -57.8333,
+   "aliases": [
+    "Port Stanley",
+    "Falkland Islands"
+   ],
+   "notes": "Falkland Islands; monthly service from the UK"
+  },
+  {
+   "unlocode": "CLSAI",
+   "name": "San Antonio",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -33.59,
+   "lon": -71.62,
+   "aliases": [
+    "Santiago"
+   ],
+   "notes": "Chile's largest container port"
+  },
+  {
+   "unlocode": "CLVAP",
+   "name": "Valparaíso",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -33.0333,
+   "lon": -71.6167,
+   "aliases": [
+    "Valparaiso"
+   ],
+   "notes": "Central Chile"
+  },
+  {
+   "unlocode": "COBUN",
+   "name": "Buenaventura",
+   "country": "CO",
+   "region": "SAW",
+   "tier": 2,
+   "lat": 3.89,
+   "lon": -77.07,
+   "aliases": [],
+   "notes": "Colombia's Pacific gateway"
+  },
+  {
+   "unlocode": "ECGYE",
+   "name": "Guayaquil",
+   "country": "EC",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -2.2,
+   "lon": -79.8833,
+   "aliases": [
+    "Contecon",
+    "Naportec"
+   ],
+   "notes": "Ecuador; river terminals"
+  },
+  {
+   "unlocode": "ECPSJ",
+   "name": "Posorja",
+   "country": "EC",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -2.7,
+   "lon": -80.25,
+   "aliases": [
+    "DP World Posorja"
+   ],
+   "notes": "Ecuador deep-water port"
+  },
+  {
+   "unlocode": "PECHY",
+   "name": "Chancay",
+   "country": "PE",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -11.5833,
+   "lon": -77.25,
+   "aliases": [],
+   "notes": "COSCO deep-water hub north of Lima (opened 2024)"
+  },
+  {
+   "unlocode": "PECLL",
+   "name": "Callao",
+   "country": "PE",
+   "region": "SAW",
+   "tier": 2,
+   "lat": -12.05,
+   "lon": -77.15,
+   "aliases": [
+    "Lima",
+    "DP World Callao",
+    "APM Callao"
+   ],
+   "notes": "Peru's main gateway"
+  },
+  {
+   "unlocode": "CLANF",
+   "name": "Antofagasta",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -23.65,
+   "lon": -70.4167,
+   "aliases": [],
+   "notes": "Northern Chile; mining"
+  },
+  {
+   "unlocode": "CLARI",
+   "name": "Arica",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -18.4667,
+   "lon": -70.3333,
+   "aliases": [],
+   "notes": "Northern Chile; Bolivian transit cargo"
+  },
+  {
+   "unlocode": "CLCNL",
+   "name": "Coronel",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -37.0333,
+   "lon": -73.1667,
+   "aliases": [],
+   "notes": "Biobío region"
+  },
+  {
+   "unlocode": "CLIQQ",
+   "name": "Iquique",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -20.2,
+   "lon": -70.1667,
+   "aliases": [],
+   "notes": "Northern Chile; free zone"
+  },
+  {
+   "unlocode": "CLPMC",
+   "name": "Puerto Montt",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -41.4833,
+   "lon": -72.9667,
+   "aliases": [],
+   "notes": "Southern Chile; salmon"
+  },
+  {
+   "unlocode": "CLSVE",
+   "name": "San Vicente",
+   "country": "CL",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -36.7333,
+   "lon": -73.1667,
+   "aliases": [
+    "Talcahuano"
+   ],
+   "notes": "Biobío region"
+  },
+  {
+   "unlocode": "ECMEC",
+   "name": "Manta",
+   "country": "EC",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -0.95,
+   "lon": -80.7167,
+   "aliases": [],
+   "notes": "Ecuador"
+  },
+  {
+   "unlocode": "ECPBO",
+   "name": "Puerto Bolívar",
+   "country": "EC",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -3.2667,
+   "lon": -80.0,
+   "aliases": [
+    "Puerto Bolivar",
+    "Machala"
+   ],
+   "notes": "Ecuador; banana reefer port"
+  },
+  {
+   "unlocode": "PEMRI",
+   "name": "Matarani",
+   "country": "PE",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -17.0,
+   "lon": -72.1167,
+   "aliases": [],
+   "notes": "Southern Peru"
+  },
+  {
+   "unlocode": "PEPAI",
+   "name": "Paita",
+   "country": "PE",
+   "region": "SAW",
+   "tier": 3,
+   "lat": -5.0833,
+   "lon": -81.1167,
+   "aliases": [],
+   "notes": "Northern Peru"
+  },
+  {
+   "unlocode": "AUBNE",
+   "name": "Brisbane",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -27.4,
+   "lon": 153.1515,
+   "aliases": [
+    "Fisherman Islands"
+   ],
+   "notes": "Queensland"
+  },
+  {
+   "unlocode": "AUFRE",
+   "name": "Fremantle",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -32.05,
+   "lon": 115.75,
+   "aliases": [
+    "Perth"
+   ],
+   "notes": "Western Australia"
+  },
+  {
+   "unlocode": "AUMEL",
+   "name": "Melbourne",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -37.82,
+   "lon": 144.91,
+   "aliases": [
+    "Swanson Dock",
+    "Webb Dock"
+   ],
+   "notes": "Australia's largest container port"
+  },
+  {
+   "unlocode": "AUSYD",
+   "name": "Sydney (Port Botany)",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -33.97,
+   "lon": 151.22,
+   "aliases": [
+    "Sydney",
+    "Port Botany",
+    "Botany"
+   ],
+   "notes": "New South Wales"
+  },
+  {
+   "unlocode": "NZAKL",
+   "name": "Auckland",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -36.8385,
+   "lon": 174.7716,
+   "aliases": [],
+   "notes": "New Zealand North Island"
+  },
+  {
+   "unlocode": "NZTRG",
+   "name": "Tauranga",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 2,
+   "lat": -37.6333,
+   "lon": 176.1667,
+   "aliases": [
+    "Mount Maunganui"
+   ],
+   "notes": "New Zealand's largest container port"
+  },
+  {
+   "unlocode": "ASPPG",
+   "name": "Pago Pago",
+   "country": "AS",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -14.2833,
+   "lon": -170.6667,
+   "aliases": [
+    "American Samoa"
+   ],
+   "notes": "American Samoa (US)"
+  },
+  {
+   "unlocode": "AUADL",
+   "name": "Adelaide",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -34.9167,
+   "lon": 138.5833,
+   "aliases": [
+    "Outer Harbor",
+    "Flinders"
+   ],
+   "notes": "South Australia"
+  },
+  {
+   "unlocode": "AUBWT",
+   "name": "Burnie",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -41.05,
+   "lon": 145.95,
+   "aliases": [
+    "Tasmania"
+   ],
+   "notes": "Tasmania; Bass Strait services to Melbourne"
+  },
+  {
+   "unlocode": "AUDRW",
+   "name": "Darwin",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -12.4714,
+   "lon": 130.8478,
+   "aliases": [],
+   "notes": "Northern Australia; feeder from Singapore"
+  },
+  {
+   "unlocode": "AUTSV",
+   "name": "Townsville",
+   "country": "AU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -19.2478,
+   "lon": 146.8334,
+   "aliases": [],
+   "notes": "North Queensland"
+  },
+  {
+   "unlocode": "CKRAR",
+   "name": "Rarotonga (Avatiu)",
+   "country": "CK",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -21.2027,
+   "lon": -159.806,
+   "aliases": [
+    "Rarotonga",
+    "Avatiu",
+    "Cook Islands"
+   ],
+   "notes": "Cook Islands; feeder from Auckland"
+  },
+  {
+   "unlocode": "FJLTK",
+   "name": "Lautoka",
+   "country": "FJ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -17.6,
+   "lon": 177.45,
+   "aliases": [],
+   "notes": "Western Viti Levu"
+  },
+  {
+   "unlocode": "FJSUV",
+   "name": "Suva",
+   "country": "FJ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -18.1333,
+   "lon": 178.4167,
+   "aliases": [],
+   "notes": "Fiji; regional Pacific hub"
+  },
+  {
+   "unlocode": "FMPNI",
+   "name": "Pohnpei",
+   "country": "FM",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 6.9833,
+   "lon": 158.2,
+   "aliases": [
+    "Kolonia",
+    "Micronesia"
+   ],
+   "notes": "Federated States of Micronesia; feeder"
+  },
+  {
+   "unlocode": "GUAPR",
+   "name": "Guam (Apra Harbor)",
+   "country": "GU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 13.45,
+   "lon": 144.6167,
+   "aliases": [
+    "Guam",
+    "Apra Harbor",
+    "Apra"
+   ],
+   "notes": "Guam (US); Micronesia hub"
+  },
+  {
+   "unlocode": "KITRW",
+   "name": "Tarawa (Betio)",
+   "country": "KI",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 1.3333,
+   "lon": 172.9333,
+   "aliases": [
+    "Tarawa",
+    "Betio",
+    "Kiribati"
+   ],
+   "notes": "Kiribati; feeder"
+  },
+  {
+   "unlocode": "MHMAJ",
+   "name": "Majuro",
+   "country": "MH",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 7.0833,
+   "lon": 171.3833,
+   "aliases": [
+    "Marshall Islands"
+   ],
+   "notes": "Marshall Islands; feeder"
+  },
+  {
+   "unlocode": "MPSPN",
+   "name": "Saipan",
+   "country": "MP",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 15.2,
+   "lon": 145.6833,
+   "aliases": [
+    "Northern Mariana Islands"
+   ],
+   "notes": "Northern Mariana Islands (US); feeder via Guam"
+  },
+  {
+   "unlocode": "NCNOU",
+   "name": "Nouméa",
+   "country": "NC",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -22.2833,
+   "lon": 166.4333,
+   "aliases": [
+    "Noumea",
+    "New Caledonia"
+   ],
+   "notes": "New Caledonia (France)"
+  },
+  {
+   "unlocode": "NRINU",
+   "name": "Nauru (Aiwo)",
+   "country": "NR",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -0.5333,
+   "lon": 166.9167,
+   "aliases": [
+    "Nauru",
+    "Aiwo"
+   ],
+   "notes": "Nauru; feeder"
+  },
+  {
+   "unlocode": "NUALO",
+   "name": "Alofi",
+   "country": "NU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -19.0333,
+   "lon": -169.9333,
+   "aliases": [
+    "Niue"
+   ],
+   "notes": "Niue; feeder from Auckland"
+  },
+  {
+   "unlocode": "NZLYT",
+   "name": "Lyttelton",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -43.6067,
+   "lon": 172.718,
+   "aliases": [
+    "Christchurch"
+   ],
+   "notes": "South Island"
+  },
+  {
+   "unlocode": "NZNPE",
+   "name": "Napier",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -39.4833,
+   "lon": 176.9167,
+   "aliases": [
+    "Hawke's Bay"
+   ],
+   "notes": "East coast North Island"
+  },
+  {
+   "unlocode": "NZPOE",
+   "name": "Port Chalmers (Otago)",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -45.8167,
+   "lon": 170.6,
+   "aliases": [
+    "Port Chalmers",
+    "Dunedin",
+    "Otago"
+   ],
+   "notes": "South Island"
+  },
+  {
+   "unlocode": "NZWLG",
+   "name": "Wellington",
+   "country": "NZ",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -41.2833,
+   "lon": 174.7833,
+   "aliases": [
+    "CentrePort"
+   ],
+   "notes": "Lower North Island"
+  },
+  {
+   "unlocode": "PFPPT",
+   "name": "Papeete",
+   "country": "PF",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -17.5333,
+   "lon": -149.5833,
+   "aliases": [
+    "Tahiti",
+    "French Polynesia"
+   ],
+   "notes": "French Polynesia (France)"
+  },
+  {
+   "unlocode": "PGLAE",
+   "name": "Lae",
+   "country": "PG",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -6.7333,
+   "lon": 147.0,
+   "aliases": [],
+   "notes": "PNG's main container port"
+  },
+  {
+   "unlocode": "PGPOM",
+   "name": "Port Moresby",
+   "country": "PG",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -9.4667,
+   "lon": 147.1333,
+   "aliases": [
+    "Motukea"
+   ],
+   "notes": "PNG capital; Motukea terminal"
+  },
+  {
+   "unlocode": "PWROR",
+   "name": "Koror (Malakal)",
+   "country": "PW",
+   "region": "OCE",
+   "tier": 3,
+   "lat": 7.367,
+   "lon": 134.5441,
+   "aliases": [
+    "Koror",
+    "Malakal",
+    "Palau"
+   ],
+   "notes": "Palau; feeder via Guam/Asia"
+  },
+  {
+   "unlocode": "SBHIR",
+   "name": "Honiara",
+   "country": "SB",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -9.4167,
+   "lon": 159.95,
+   "aliases": [
+    "Solomon Islands"
+   ],
+   "notes": "Solomon Islands; feeder"
+  },
+  {
+   "unlocode": "TOTBU",
+   "name": "Nuku'alofa",
+   "country": "TO",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -21.1333,
+   "lon": -175.2,
+   "aliases": [
+    "Nukualofa",
+    "Tonga"
+   ],
+   "notes": "Tonga; feeder"
+  },
+  {
+   "unlocode": "TVFUN",
+   "name": "Funafuti",
+   "country": "TV",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -8.5167,
+   "lon": 179.1333,
+   "aliases": [
+    "Tuvalu"
+   ],
+   "notes": "Tuvalu; feeder"
+  },
+  {
+   "unlocode": "VUVLI",
+   "name": "Port Vila",
+   "country": "VU",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -17.7333,
+   "lon": 168.3167,
+   "aliases": [
+    "Vanuatu"
+   ],
+   "notes": "Vanuatu; feeder"
+  },
+  {
+   "unlocode": "WFMAU",
+   "name": "Mata-Utu",
+   "country": "WF",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -13.2833,
+   "lon": -176.1333,
+   "aliases": [
+    "Wallis",
+    "Wallis and Futuna"
+   ],
+   "notes": "Wallis and Futuna (France); feeder"
+  },
+  {
+   "unlocode": "WSAPW",
+   "name": "Apia",
+   "country": "WS",
+   "region": "OCE",
+   "tier": 3,
+   "lat": -13.8167,
+   "lon": -171.7667,
+   "aliases": [
+    "Samoa"
+   ],
+   "notes": "Samoa; feeder"
+  }
+ ],
+ "excluded": [
+  {
+   "country": "RU",
+   "name": "Russia",
+   "reason": "EU sanctions (Council Regulation (EU) No 833/2014); domain spec RULE K-2 default-deny",
+   "ports_not_listed": [
+    "St Petersburg",
+    "Ust-Luga",
+    "Kaliningrad",
+    "Novorossiysk",
+    "Vladivostok",
+    "Vostochny"
+   ]
+  },
+  {
+   "country": "BY",
+   "name": "Belarus",
+   "reason": "EU sanctions (Council Regulation (EC) No 765/2006); domain spec RULE K-2 default-deny. Landlocked.",
+   "ports_not_listed": []
+  },
+  {
+   "country": "KP",
+   "name": "North Korea",
+   "reason": "UN/EU sanctions (Council Regulation (EU) 2017/1509); domain spec RULE K-2 default-deny",
+   "ports_not_listed": [
+    "Nampo",
+    "Chongjin",
+    "Rajin"
+   ]
+  },
+  {
+   "country": "IR",
+   "name": "Iran",
+   "reason": "EU sanctions (Council Regulation (EU) No 267/2012); domain spec RULE K-2 default-deny",
+   "ports_not_listed": [
+    "Bandar Abbas (Shahid Rajaee)",
+    "Bushehr",
+    "Chabahar"
+   ]
+  },
+  {
+   "country": "SY",
+   "name": "Syria",
+   "reason": "EU sanctions (Council Regulation (EU) No 36/2012; most economic measures lifted May 2025); domain spec RULE K-2 default-deny still applies",
+   "ports_not_listed": [
+    "Latakia",
+    "Tartus"
+   ]
+  }
+ ]
+}

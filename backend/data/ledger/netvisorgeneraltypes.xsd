@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="netvisor_integer">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="-2147483647"/>
+      <xs:maxInclusive value="2147483647"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_positiveinteger">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:maxInclusive value="2147483647"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_positiveinteger_nullable">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:nonNegativeInteger">
+          <xs:maxInclusive value="2147483647"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:length value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_integer_min1_max12">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_integer_toggle">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_year">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="1900"/>
+      <xs:maxInclusive value="2999"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_nullable_year">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:nonNegativeInteger">
+          <xs:minInclusive value="1900"/>
+          <xs:maxInclusive value="2999"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value=""/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_long">
+    <xs:restriction base="xs:long">
+      <xs:minInclusive value="-9223372036854775808"/>
+      <xs:maxInclusive value="9223372036854775807"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_positivelong">
+    <xs:restriction base="xs:long">
+      <xs:minExclusive value="0"/>
+      <xs:maxInclusive value="9223372036854775807"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_decimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="-999999999999999999"/>
+      <xs:maxInclusive value="999999999999999999"/>
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_nonnegativedecimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="999999999999999999"/>
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_nullable_nonnegativedecimal">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:minInclusive value="0" />
+          <xs:maxInclusive value="999999999999999999"/>
+          <xs:fractionDigits value="2" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:length value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_nonnegativedecimal_digits4">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="999999999999999999"/>
+      <xs:fractionDigits value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_positivedecimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0" />
+      <xs:maxInclusive value="999999999999999999"/>
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_decimal_string">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="-?\d+((\.|,)\d{1,2})?" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_vat_percent_string">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+((\.|,)\d*)?" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max2">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_fixed2">
+    <xs:restriction base="xs:string">
+      <xs:length value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max3">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="3"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_fixed3">
+    <xs:restriction base="xs:string">
+      <xs:length value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_fixed5">
+    <xs:restriction base="xs:string">
+      <xs:length value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max12">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max16">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+    <xs:simpleType name="netvisor_string_max30">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="30"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max35">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="35"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max40">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="40"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max50">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max50">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min2_max20">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2"/>
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max70">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="70"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max80">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="80"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max100">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max100">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max140">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="140"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max150">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="150"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max200">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="200"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max200">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="200"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max250">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="250"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max250">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="250"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max255">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max255">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max500">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="500"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max500">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="500"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max512">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="512"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max600">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="600"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max1000">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max2000">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_min1_max5000">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="5000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_sha256">
+    <xs:restriction base="xs:string">
+      <xs:length value="64" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_string_max2500">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2500"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_loginrequest_identifier">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="6"/>
+      <xs:maxLength value="36"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_email">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="100"/>
+      <xs:pattern value="^([\w\-_\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_guid">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="netvisor_boolean">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[Tt][Rr][Uu][Ee]" />
+      <xs:pattern value="[Ff][Aa][Ll][Ss][Ee]" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="netvisor_date">
+    <xs:simpleContent>
+      <xs:extension base="xs:date">
+        <xs:attribute default="ansi" name="format" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="nullable_date_type">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:date"/>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value=""/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+
+  <xs:complexType name="netvisor_nullable_date">
+    <xs:simpleContent>
+      <xs:extension base="nullable_date_type">
+        <xs:attribute default="ansi" name="format" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_datetime">
+    <xs:simpleContent>
+      <xs:extension base="xs:dateTime">
+        <xs:attribute default="ansi" name="format" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_country">
+    <xs:simpleContent>
+      <xs:extension base="netvisor_string_fixed2">
+        <xs:attribute fixed="ISO-3166" name="type" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_currency">
+    <xs:simpleContent>
+      <xs:extension base="netvisor_string_fixed3">
+        <xs:attribute fixed="ISO-4217" name="type" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_dimension">
+    <xs:sequence>
+      <xs:element name="dimensionname" type="netvisor_string_min1_max50" />
+      <xs:element name="dimensionitem" type="netvisor_string_max600" minOccurs="0" />
+      <xs:element name="dimensionitemcode" type="netvisor_string_max50" minOccurs="0" />
+      <xs:element name="dimensionitemname" type="netvisor_string_max600" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_paymentterm">
+    <xs:all>
+      <xs:element name="netdays" type="netvisor_positiveinteger" />
+      <xs:element name="discountdays" type="netvisor_positiveinteger" />
+      <xs:element name="discountpercent" type="netvisor_nonnegativedecimal" />
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="netvisor_identifier">
+    <xs:simpleContent>
+      <xs:extension base="netvisor_positiveinteger_or_guid">
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="netvisorkey"/>
+              <xs:enumeration value="guid"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="netvisor_positiveinteger_or_guid">
+    <xs:union memberTypes="netvisor_positiveinteger netvisor_guid"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="netvisor_organisationidentifier">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{7}-[0-9]" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

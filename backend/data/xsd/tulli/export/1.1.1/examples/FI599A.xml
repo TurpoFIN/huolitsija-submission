@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI599A 
+  xmlns="http://tulli.fi/schema/external/export/ext/v1">
+  <Identification>VsWQErbFfzcGNV</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <FunctionalReference function="MRN">24FIV43000004522B8</FunctionalReference>
+  <Type function="DeclarationType">EX</Type>
+  <Type function="AdditionalDeclarationType">A</Type>
+  <Invoice CurrencyUnit="EUR">10000</Invoice>
+  <Security>2</Security>
+  <Language>fi</Language>
+  <Notification>
+    <Type>POI</Type>
+    <Notification>2024-03-18T11:43:28.6011997+02:00</Notification>
+    <Decision>
+      <Decision>2024-03-18T11:43:28.6011997+02:00</Decision>
+      <Note>
+        <Note>D5001</Note>
+        <NoteDescription>TEST: Auto-POI: Varastonluovutussanoman tiedot perustuvat tavaroista annettuun jälleenvienti-ilmoitukseen (FI515). Tavarat saa luovuttaa.</NoteDescription>
+      </Note>
+    </Decision>
+  </Notification>
+  <Agent>
+    <Function>2</Function>
+    <Identification>FI7000288-8</Identification>
+    <Name>Tefkije Testifirma Short OY</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Essintie 83</Line>
+      <CityName>Lappeenranta</CityName>
+      <Postcode>53300</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Agent>
+  <Declarant>
+    <Identification>FI6619510-3</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+    <Name>UTU CW Company 1</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Vainionpolku 7</Line>
+      <CityName>Lappeenranta</CityName>
+      <Postcode>53100</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Declarant>
+  <Exporter>
+    <Identification>FI6619510-3</Identification>
+    <AdditionalIdentifier>
+      <Identification>000</Identification>
+    </AdditionalIdentifier>
+    <Name>UTU CW Company 1</Name>
+    <Role>Y</Role>
+    <Address>
+      <Line>Vainionpolku 7</Line>
+      <CityName>Lappeenranta</CityName>
+      <Postcode>53100</Postcode>
+      <Country>FI</Country>
+    </Address>
+  </Exporter>
+  <Submitter>
+    <Name>Ilmoittaja</Name>
+    <Communication>
+      <Identification>joku@postiosoite.foi</Identification>
+      <Type>EM</Type>
+    </Communication>
+  </Submitter>
+  <ExitControlResult>
+    <Code>A2</Code>
+    <Exit>2024-03-18</Exit>
+    <SealState>1</SealState>
+  </ExitControlResult>
+  <GoodsShipment>
+    <TransactionNature>11</TransactionNature>
+    <Destination>
+      <Country>CA</Country>
+    </Destination>
+    <ExportCountry>
+      <Country>FI</Country>
+    </ExportCountry>
+    <Consignment>
+      <BorderTransportMode>1</BorderTransportMode>
+      <Container>1</Container>
+      <InlandTransportMode>3</InlandTransportMode>
+      <Consignee>
+        <Name>Company</Name>
+        <Address>
+          <Line>123 Address St.</Line>
+          <CityName>Kingston</CityName>
+          <Postcode>123ZIP</Postcode>
+          <Country>CA</Country>
+        </Address>
+      </Consignee>
+      <BorderTransportMeans>
+        <Identification>LAIVA</Identification>
+        <IdentificationType>11</IdentificationType>
+        <Nationality>FI</Nationality>
+      </BorderTransportMeans>
+      <DepartureTransportMeans>
+        <Sequence>1</Sequence>
+        <Identification>ABC-123</Identification>
+        <IdentificationType>30</IdentificationType>
+        <Nationality>FI</Nationality>
+      </DepartureTransportMeans>
+      <Freight>
+        <PaymentMethod>C</PaymentMethod>
+      </Freight>
+      <GoodsLocation>
+        <Type>C</Type>
+        <Address>
+          <Line>Osoite 1</Line>
+          <CityName>Paikka</CityName>
+          <Postcode>00000</Postcode>
+          <Country>FI</Country>
+        </Address>
+        <Contact>
+          <Name>Ilmoittaja</Name>
+          <Communication>
+            <Identification>joku@postiosoite.foi</Identification>
+            <Type>EM</Type>
+          </Communication>
+          <Communication>
+            <Identification>0501234567</Identification>
+            <Type>TE</Type>
+          </Communication>
+        </Contact>
+      </GoodsLocation>
+      <Itinerary>
+        <Sequence>1</Sequence>
+        <RoutingCountry>FI</RoutingCountry>
+      </Itinerary>
+      <Itinerary>
+        <Sequence>2</Sequence>
+        <RoutingCountry>GL</RoutingCountry>
+      </Itinerary>
+      <Itinerary>
+        <Sequence>3</Sequence>
+        <RoutingCountry>CA</RoutingCountry>
+      </Itinerary>
+      <TransportEquipment>
+        <Sequence>1</Sequence>
+        <Identification>KONTTI</Identification>
+        <SealsAffixed>1</SealsAffixed>
+        <Seal>
+          <Sequence>1</Sequence>
+          <Identification>FI00021312</Identification>
+        </Seal>
+        <GoodsReference>
+          <Sequence>1</Sequence>
+          <GoodsItemNumber>1</GoodsItemNumber>
+        </GoodsReference>
+      </TransportEquipment>
+    </Consignment>
+    <TradeTerms>
+      <Condition>DAP</Condition>
+      <LocationName>Kingston</LocationName>
+      <Country>CA</Country>
+    </TradeTerms>
+    <GovernmentAgencyGoodsItem>
+      <Sequence>1</Sequence>
+      <StatisticalValue>10000</StatisticalValue>
+      <Commodity>
+        <Description>pelastusliivit</Description>
+        <Classification>
+          <Identification>630720</Identification>
+          <IdentificationType>HS</IdentificationType>
+        </Classification>
+        <Classification>
+          <Identification>00</Identification>
+          <IdentificationType>CN</IdentificationType>
+        </Classification>
+      </Commodity>
+      <GoodsMeasure>
+        <GrossMass>1000</GrossMass>
+        <NetNetMass>900</NetNetMass>
+      </GoodsMeasure>
+      <GovernmentProcedure>
+        <Current>10</Current>
+        <Previous>00</Previous>
+      </GovernmentProcedure>
+      <Packaging>
+        <Sequence>1</Sequence>
+        <MarksNumbers>ei merkkejä</MarksNumbers>
+        <Quantity>10</Quantity>
+        <Type>BX</Type>
+      </Packaging>
+      <AdditionalDocument function="SupportingDocument">
+        <Sequence>1</Sequence>
+        <Type>N380</Type>
+        <Identification>asdf</Identification>
+        <Line>1</Line>
+      </AdditionalDocument>
+    </GovernmentAgencyGoodsItem>
+  </GoodsShipment>
+  <ExitOffice>
+    <Identification>DK003100</Identification>
+  </ExitOffice>
+  <ExportOffice>
+    <Identification>FI002002</Identification>
+  </ExportOffice>
+</FI599A>

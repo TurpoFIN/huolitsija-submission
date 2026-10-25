@@ -1,0 +1,125 @@
+2019/03/06
+Align XSDs with CFSS 1.11 based on XSDs from 2019/02/28
+Repackaging
+
+2019/05/21
+No changes
+
+2020/01/10
+Align to XSDs of 2019/11/29 (CFSS 1.14)
+Align to XSDs of 2020/01/08 (CFSS 1.15)
+
+2020/10/01 (R2)
+RTC-44203 Align to XSDs of CFSS v1.22 for Release 2
+RTC-44205 Align to BR v1.2.2 and CDM v0.22 for Release 22
+
+2022/01/17
+ICS2-3265 RfC200057 -  Control notification to Person filing ENS implement IE3N08/IE4N09 for R2
+ICS2-3231 RfC200044 -  AN - Notify HC in incorrect state to Person filing the ENS implement IE3N07/IE4N08 for R2
+ICS2-3230 RfC200045 -  Send assessment complete for maritime, rail and road implement IE3N03/IE4N04 for R2
+ICS2-3155 RfC200048 -  Condition for DNL in IE4S01 and IE4S02 implement IE4S01/IE4S02 for R2
+ICS2-3157 RfC200049 -  Removal of packaging from DNL class implement IE3Q01/IE4Q03/IE4R05/IE4S01/IE4S02 for R2
+ICS2-3148 RfC200040 -  ENS filling type F40 for postal consignments on road implement IE4Q01/IE4Q02/IE4N05/IE4R05 for R2
+
+2022/03/08
+ICS2-3265 RfC200057 -  Control notification to Person filing ENS implement IE3N08/IE4N09 for R2
+ICS2-3231 RfC200044 -  AN - Notify HC in incorrect state to Person filing the ENS implement IE3N07/IE4N08 for R2
+ICS2-3230 RfC200045 -  Send assessment complete for maritime, rail and road implement IE3N03/IE4N04 for R2
+ICS2-3155 RfC200048 -  Condition for DNL in IE4S01 and IE4S02 implement IE4S01/IE4S02 for R2
+ICS2-3157 RfC200049 -  Removal of packaging from DNL class implement IE3Q01/IE4Q03/IE4R05/IE4S01/IE4S02 for R2
+ICS2-3148 RfC200040 -  ENS filling type F40 for postal consignments on road implement IE4Q01/IE4Q02/IE4N05/IE4R05 for R2
+
+2022/07/14
+ICS2-3280 KEL 157 R2 CL731 DEP removed [RTC-57163]
+ICS2-3401 KEL 160 R2&3 CL723 new code for DNL downgrade [RTC-57578]
+ICS2-3363 KEL 169 R2 R3 CL703 S1 new value [RTC-57887]
+ICS2-3340 KEL 171 R2 R3 CL739 values concern only CRC and not national [RTC-58001]
+ICS2-3349 KEL 172 R2 R3 G-03-17 removed [RTC-58002]
+ICS2-3301 KEL 180 R2 R3 New CL759 Business case [RTC-58011]
+ICS2-4173 KEL 186 non amendable element error
+ICS2-4318 KEL 190 case of N703/740 in presentation
+ICS2-4384 KEL 200 MRN format in IE4N14
+ICS2-4452 KEL 201 State of FullRA not completed to be sent during Presentation 
+ICS2-4453 KEL 202 Consultation ENS exception handling update
+ICS2-4454 KEL 203 R3023 removal from R&C
+ICS2-4455 KEL 204 R3023 removal from IE
+ICS2-4456 KEL 205 LRN format update in IE3R04
+ICS2-4457 KEL 206 Not found HC to be communicatied via IE4N14 in Arrival/Presentation
+ICS2-4458 KEL 207 HC identification during presentation
+ICS2-4459 KEL 208 Revoke presentation correction
+ICS2-4461 KEL 210 Exception handling in Arrival
+ICS2-4462 KEL 211 Control results communication during Presentation
+ICS2-4502 KEL 212 error in identifiers in Revoke Presentation IE4Q08
+ICS2-4503 KEL 213 removal of PLACI entities in consultation response
+ICS2-4730 KEL 215 Goods Items multiplicity update in IExx30/32
+ICS2-4731 KEL 216 Goods Items multiplicity update in IExx34
+ICS2-4732 KEL 217 Declarant optionality update for IE4N02
+ICS2-4733 KEL 218 ENS Entity cardinality increase in IE4N14
+ICS2-4734 KEL 219 R3001 deletion from all ENS filings
+ICS2-4735 KEL 220 R3001 to be deleted from R&C
+ICS2-4746 KEL 221 Arrival notification check for split/re-entry
+ICS2-4747 KEL 222 RfI/RfS responses must match requests based on Referral request
+ICS2-4748 KEL 223 Non Amendable data annex update with data for missing filings
+ICS2-4749 KEL 224 SSA requests rules detailed on the use of functional reference
+ICS2-4750 KEL 225 Invalidation/amendment request rejected in case ENS in Control notification
+ICS2-4751 KEL 226 Addition of Specific circumstance indicator in R01 messages
+ICS2-4752 KEL 227 Addition of Specific circumstance indicator in R01 messages (BR)
+ICS2-4798 KEL 228 GR-09 Deterministic Message Flow
+ICS2-4859 KEL 229 Declarant should not be checked in Association
+ICS2-4944 KEL 230 Mapping of IE4N14 with Arrival or Presentation
+ICS2-5037 KEL 232 value 30 "Expired" added to CL743
+ICS2-5244 KEL 234 MBill to be made optional in IE3N07/IE4N08
+ICS2-4463 RfC 220001 SSA enrichment consolidation
+
+2024/12/16
+ICS2-7237 [RFC230001] New ENS filing type F52 for partial master information	
+ICS2-7238 [RFC230002] New ENS filing type F53 for house level information	
+ICS2-7239 [RFC230003] New ENS filing type F54 for partial house level information	
+ICS2-7240 [RFC230004] New ENS filing type F55 for goods shipment information	
+ICS2-8594 KEL 281 - IE3N08/IE4N09 Control notification	
+ICS2-8958 [STI-STP][RFC230002] New ENS filing type F53 for house level information	
+ICS2-8959 [STI-STP][RFC230003] New ENS filing type F54 for partial house level information	
+ICS2-8961 [STI-STP][RFC230004] New ENS filing type F55 for goods shipment information	
+ICS2-5665 KEL 240 Carrier/Communication DG missing from IE3A50/51	
+ICS2-5916 KEL 243 C3013 to be replaced by C3014 in IExx10	
+ICS2-5918 KEL 245 C3025 to be replaced by C3054 in IExx50, IExx51	
+ICS2-5919 KEL 246 R3031 to be removed	
+ICS2-5920 KEL 247 R3031 to be removed from all IExx10 data elements	
+ICS2-7187 KEL 263 - IExx34 The "Estimated date and time of arrival" must be mandatory.	
+ICS2-7188 KEL 262 - IExx50, IExx51 The "Container indicator" data element on master level to be removed	
+ICS2-7235 [RFC220006] R2 - ENS Consultation for the postal receptacles	
+ICS2-8182 KEL 273 - R3024 is missing from the amendments for the listed ENS filing types.	
+ICS2-8636 KEL 283- Transport Document in Consignment	
+ICS2-8638 KEL 284 - Goods Shipment in Consignment	
+ICS2-8766 [RFC230005] ICS2 R3 - Make active border transport means amendable for rail and road	
+ICS2-9726 [ICS2-STI] Support multiple message (filings, amendment) versions	
+ICS2-9727 [ICS2-STP] Support multiple message versions mechanism (filings, amendment, Seach Messages) on STP	
+ICS2-9728  [ICS2-STP] - Introduce new Trader preference configurations - multiple agreement refs ,message versions
+ICS2-10035 KEL 298 - CL766 "Risk assessment completeness status" updated to CL768	
+ICS2-10036 KEL 299 - IE3N12/IE4N16 Pre-loading risk assessment status notification - CL766 -> CL768	
+ICS2-10396 [ICS2-CR] Support multiple message (filings, amendment) versions	
+ICS2-10402 [STI-STP] - KEL 263 - IExx34 The "Estimated date and time of arrival" must be mandatory.	
+ICS2-10413 [STI-STP] - KEL 262 - IExx50, IExx51 The "Container indicator" data element on master level to be removed	
+ICS2-10427 [STI-STP] - KEL 246, KEL 247 R3031 to be removed	
+ICS2-10428 [STI-STP] - KEL 245 C3025 to be replaced by C3054 in IExx50, IExx51	
+ICS2-10429 [STI-STP] - KEL 243 C3013 to be replaced by C3014 in IExx10	
+ICS2-10430 [STI-STP] - KEL 240 Carrier/Communication DG missing from IE3A50/51	
+ICS2-10431 [STI-STP] - [RFC230005] ICS2 R3 - Make active border transport means amendable for rail and road	
+
+2025/10/30
+Alinged TSCs with 3.2.0.0 scope.
+
+Implemented Jiras:
+- ICS2-13484 Alignment of CTSS with next release 3.2:
+	- Removed IExx52-53-54-55 V3 XSDs
+	- Removed IE3N08 V3 XSDs
+
+Removed implementation of jiras:
+ICS2-7237 [RFC230001] New ENS filing type F52 for partial master information	
+ICS2-7238 [RFC230002] New ENS filing type F53 for house level information	
+ICS2-7239 [RFC230003] New ENS filing type F54 for partial house level information	
+ICS2-7240 [RFC230004] New ENS filing type F55 for goods shipment information	
+ICS2-8594 KEL 281 - IE3N08/IE4N09 Control notification	
+ICS2-8958 [STI-STP][RFC230002] New ENS filing type F53 for house level information	
+ICS2-8959 [STI-STP][RFC230003] New ENS filing type F54 for partial house level information	
+ICS2-8961 [STI-STP][RFC230004] New ENS filing type F55 for goods shipment information

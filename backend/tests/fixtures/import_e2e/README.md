@@ -1,0 +1,43 @@
+# Official TARIC captures
+
+Captured by `scripts/capture_import_e2e_taric.py`. Files contain unmodified HTTP response text.
+
+- https://ec.europa.eu/taxation_customs/dds2/taric/meas_type_combo/meas_typ_combo_en_20261024.js
+  - UTC: 2026-10-24T22:09:22.827900+00:00
+  - File: `2a37b887d5f13cceb660ba6e.html`; SHA256: `2a37b887d5f13cceb660ba6eb1a00a043a9f0dbfbbd01196d616c77d5e3cc8e6`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6302600000&Expand=true&Area=CN
+  - UTC: 2026-10-24T22:09:22.828191+00:00
+  - File: `75d7c462a216e3c54d47f27b.html`; SHA256: `75d7c462a216e3c54d47f27bd44402c49c3e2dec15e133f46927ec01faeeb3ca`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwzNDEzN7Y00DExMjUzNzDWMTaxsDAzMtABADxsBM0%3d&FrameId=taric_6302600090_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.828258+00:00
+  - File: `5c7250eb746e7fda1b73ab4a.html`; SHA256: `5c7250eb746e7fda1b73ab4a24388a6d8d401985439ae92af5a422b8f7d760b1`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600000&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwzNDEzN7Y00DExMjUzNzDWMTaxsDAzMtABADxsBM0%3d&FrameId=taric_6302600010_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.828315+00:00
+  - File: `fb400f2940825e5e56d500b8.html`; SHA256: `fb400f2940825e5e56d500b89700b0c4de75f61c5d658917a23b42439680218c`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488620&Lang=en&SimDate=20261024
+  - UTC: 2026-10-24T22:09:22.828387+00:00
+  - File: `f20f91e10311f684bd5a32f1.html`; SHA256: `f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6302600090&Expand=true&Area=CN
+  - UTC: 2026-10-24T22:09:22.828549+00:00
+  - File: `9b5920ffc9a253273b802a5f.html`; SHA256: `9b5920ffc9a253273b802a5ff279fe1f504dfede1b166de115de7ff1de43a426`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600090&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwzNDEzN7Y00DExMjUzNzDWMTaxsDAzMtABADxsBM0%3d&FrameId=taric_6302600090_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.828601+00:00
+  - File: `e59167f6af2bc731f47aa9f0.html`; SHA256: `e59167f6af2bc731f47aa9f0b64c567d169b3a07b3823deb8b19c4f75ba6c2cc`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6302600000&Expand=true&Area=NO
+  - UTC: 2026-10-24T22:09:22.828770+00:00
+  - File: `e09bec92866c0d0144a8ba96.html`; SHA256: `e09bec92866c0d0144a8ba9648de604a78b61a75c8dff54777127dfa276cc102`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600000&Area=NO&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwFwbEBADAIArCHGBAs6v%2bPNanO%2bIjWy9Bw70aExcoGH2n3BmM%3d&FrameId=taric_6302600010_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.828833+00:00
+  - File: `e88becb661c62ab610b1aa37.html`; SHA256: `e88becb661c62ab610b1aa37755201ccbe1c2231d5437ccdf77522068c133d57`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600000&Area=NO&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwFwbEBADAIArCHGBAs6v%2bPNanO%2bIjWy9Bw70aExcoGH2n3BmM%3d&FrameId=taric_6302600090_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.828890+00:00
+  - File: `8d5de2545ff1a0a9bf2e66df.html`; SHA256: `8d5de2545ff1a0a9bf2e66df422f36db50c6f675ae63608f784d4a410ffe380b`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3201686&Lang=en&SimDate=20261024
+  - UTC: 2026-10-24T22:09:22.828952+00:00
+  - File: `95e2e33de08262591619f0ca.html`; SHA256: `95e2e33de08262591619f0ca06d1cbc41d16c401283a8976c7cb8e8ae477b847`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6302600090&Expand=true&Area=NO
+  - UTC: 2026-10-24T22:09:22.829120+00:00
+  - File: `cd1fccfb49a2feef30c31f8c.html`; SHA256: `cd1fccfb49a2feef30c31f8c45b5c4db1b8bf762258cb3b9d26ed63f52ed1276`
+- https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6302600090&Area=NO&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwFwbEBADAIArCHGBAs6v%2bPNanO%2bIjWy9Bw70aExcoGH2n3BmM%3d&FrameId=taric_6302600090_0&Lang=en
+  - UTC: 2026-10-24T22:09:22.829175+00:00
+  - File: `94a58a1e9828cc3a89347050.html`; SHA256: `94a58a1e9828cc3a89347050a8fac5338f485e0dbfff92a2b21f13b9ec60bbe3`

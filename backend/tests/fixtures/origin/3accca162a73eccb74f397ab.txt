@@ -1,0 +1,362 @@
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+<html>
+
+<script type="text/javascript" src='https://ec.europa.eu/taxation_customs/dds2/taric/iframes/iframes.js' ></script>
+<script type="text/javascript">
+  function onloadIFrame()
+  {
+    processOnIFrameLoad();
+    top.highlightOnLoad();
+  }
+</script>
+
+<body onload="onloadIFrame();">
+  
+  
+  
+  
+
+  
+  
+<table class="conditions">
+  <tr>
+    
+    <td>
+      
+        <table>
+          <tr>
+            <td>
+              <table class="condition_table" border="1" style="border-collapse: collapse;">
+                
+                
+                
+                  
+                
+                  <tr>
+                    
+                    
+                    
+                    
+        <!-- CUSTD00027346  was modified for client comment-->
+                    <td  style="border:1px solid black;" class="td_title">
+                    B1
+                    </td>
+                    
+                     
+                    <!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                    
+                      
+                    Presentation of a certificate/licence/document
+                      
+                    
+                    
+                    
+                    
+                      
+                      
+                      
+                      
+                      <span class="condition_bold">C&nbsp;679</span>
+                      
+                      
+                    
+                    
+                    </td>
+<!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                     
+                      
+                      
+                       
+                      
+                      
+                        
+                      Import/export allowed after control
+                             
+                           
+                           
+                    </td>
+                    
+                  </tr>
+                  <!-- actions and certificates -->
+                
+                  
+                
+                  <tr>
+                    
+                    
+                    
+                    
+        <!-- CUSTD00027346  was modified for client comment-->
+                    <td  style="border:1px solid black;" class="td_title">
+                    B2
+                    </td>
+                    
+                     
+                    <!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                    
+                      
+                    Presentation of a certificate/licence/document
+                      
+                    
+                    
+                    
+                    
+                      
+                      
+                      
+                      
+                      <span class="condition_bold">C&nbsp;680</span>
+                      
+                      
+                    
+                    
+                    </td>
+<!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                     
+                      
+                      
+                       
+                      
+                      
+                        
+                      Import/export allowed after control
+                             
+                           
+                           
+                    </td>
+                    
+                  </tr>
+                  <!-- actions and certificates -->
+                
+                  
+                
+                  <tr>
+                    
+                    
+                    
+                    
+        <!-- CUSTD00027346  was modified for client comment-->
+                    <td  style="border:1px solid black;" class="td_title">
+                    B3
+                    </td>
+                    
+                     
+                    <!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                    
+                      
+                    Presentation of a certificate/licence/document
+                      
+                    
+                    
+                    
+                    
+                      
+                      
+                      
+                      
+                      <span class="condition_bold">C&nbsp;683</span>
+                      
+                      
+                    
+                    
+                    </td>
+<!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                     
+                      
+                      
+                       
+                      
+                      
+                        
+                      Import/export allowed after control
+                             
+                           
+                           
+                    </td>
+                    
+                  </tr>
+                  <!-- actions and certificates -->
+                
+                  
+                
+                  <tr>
+                    
+                    
+                    
+                    
+        <!-- CUSTD00027346  was modified for client comment-->
+                    <td  style="border:1px solid black;" class="td_title">
+                    B4
+                    </td>
+                    
+                     
+                    <!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                    
+                      
+                    Presentation of a certificate/licence/document
+                      
+                    
+                    
+                    
+                    
+                      
+                      
+                      
+                      
+                      <span class="condition_bold">Y&nbsp;032</span>
+                      
+                      
+                    
+                    
+                    </td>
+<!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                     
+                      
+                      
+                       
+                      
+                      
+                        
+                      Import/export allowed after control
+                             
+                           
+                           
+                    </td>
+                    
+                  </tr>
+                  <!-- actions and certificates -->
+                
+                  
+                
+                  <tr>
+                    
+                    
+                    
+                    
+        <!-- CUSTD00027346  was modified for client comment-->
+                    <td  style="border:1px solid black;" class="td_title">
+                    B5
+                    </td>
+                    
+                     
+                    <!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                    
+                      
+                    Presentation of a certificate/licence/document
+                      
+                    
+                    
+                    
+                    
+                    
+                    </td>
+<!-- CUSTD00027346  was modified for client comment-->
+                    <td style="border:1px solid black;" class="td_title">
+                     
+                      
+                      
+                       
+                      
+                      
+                        
+                      Import/export not allowed after control
+                             
+                           
+                           
+                    </td>
+                    
+                  </tr>
+                  <!-- actions and certificates -->
+                
+              </table>
+            
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%">
+                		
+                  
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="td_title" colspan="3">Additional information/Documents produced/Certificates and authorisations</td>
+                  </tr>
+                
+                  <tr>
+                  <td class="td_title">C679</td>
+                  <td class="td_title">Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015</td>
+                  <td></td>
+                  </tr>
+                
+                  <tr>
+                  <td class="td_title">C680</td>
+                  <td class="td_title">Written notification of import and document giving evidence where the products were acquired (seal product)</td>
+                  <td></td>
+                  </tr>
+                
+                  <tr>
+                  <td class="td_title">C683</td>
+                  <td class="td_title">European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products</td>
+                  <td></td>
+                  </tr>
+                
+                  <tr>
+                  <td class="td_title">Y032</td>
+                  <td class="td_title">Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)</td>
+                  <td></td>
+                  </tr>
+                
+                
+                  <tr>
+                    <td colspan="3" style="text-align: right;"><a class="condition_help" href="https://ec.europa.eu/taxation_customs/dds2/taric/help/dds_condition_help.pdf" target="_blank">[Specific Help]</a></td>
+                  </tr>
+                
+              </table>						
+            </td>
+          </tr>
+        </table>
+       <!-- end exists conditions -->
+    </td>
+   
+  </tr>
+</table>
+
+</body>
+</html>
+
+<!--form:dump_document/>-->
+
+

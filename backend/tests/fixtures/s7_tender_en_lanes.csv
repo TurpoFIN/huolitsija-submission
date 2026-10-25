@@ -1,0 +1,5 @@
+Lane ID;Origin;Origin country;Destination;Destination country;Mode;Equipment;Weight (kg);Volume (cbm);Shipments per year;Incoterm
+L-01;Hamburg;DE;Helsinki;FI;Road;;5400;18;48;FCA Hamburg
+L-02;Shanghai;CN;Helsinki;FI;Sea;40HC;;;20;FOB Shanghai
+L-03;Helsinki;FI;New York;US;Air;;300;1,5;12;
+L-04;Tallinn;EE;Helsinki;FI;Road;;2000;6;weekly;DAP Helsinki

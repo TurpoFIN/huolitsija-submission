@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name: NotificationService.wsdl
+v1.21 released 2019-01-11 by Finnish Customs
+-->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns="http://tulli.fi/ws/notificationservice/v1" xmlns:nst="http://tulli.fi/ws/notificationservicetypes/v1" xmlns:cst="http://tulli.fi/ws/corporateservicetypes/v1" targetNamespace="http://tulli.fi/ws/notificationservice/v1">
+	<wsdl:types>
+		<xs:schema targetNamespace="http://tulli.fi/ws/notificationservice/v1" elementFormDefault="qualified" attributeFormDefault="unqualified">
+			<xs:import namespace="http://tulli.fi/ws/notificationservicetypes/v1" schemaLocation="NotificationTypes.xsd"/>
+			<xs:import namespace="http://tulli.fi/ws/corporateservicetypes/v1" schemaLocation="WsdlTypes.xsd"/>
+			<xs:element name="ServiceFaultDetail" type="cst:ServiceFaultDetail"/>
+			<xs:element name="NotifyRequest" type="nst:NotifyRequest"/>
+			<xs:element name="NotifyResponse" type="nst:NotifyResponse"/>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="serviceFaultDetail">
+		<wsdl:part name="serviceFault" element="ns:ServiceFaultDetail"/>
+	</wsdl:message>
+	<wsdl:message name="notifyRequest">
+		<wsdl:part name="notifyRequest" element="ns:NotifyRequest"/>
+	</wsdl:message>
+	<wsdl:message name="notifyResponse">
+		<wsdl:part name="notifyResponse" element="ns:NotifyResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="NotificationServicePortType">
+		<wsdl:operation name="Notify">
+			<wsdl:input name="notifyRequest" message="ns:notifyRequest"/>
+			<wsdl:output name="notifyResponse" message="ns:notifyResponse"/>
+			<wsdl:fault name="serviceFaultDetail" message="ns:serviceFaultDetail"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="NotificationServiceHttpBinding" type="ns:NotificationServicePortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="Notify">
+			<soap:operation soapActionRequired="false"/>
+			<wsdl:input name="notifyRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="notifyResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="serviceFaultDetail">
+				<soap:fault name="serviceFaultDetail" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="NotificationService">
+		<wsdl:port name="NotificationServiceHttpPort" binding="ns:NotificationServiceHttpBinding">
+			<soap:address location="https://localhost/services/NotificationService"/>
+			<!--  <soap:address location="https://hostname.real.my/services/DirectMessageExchange" /> -->
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

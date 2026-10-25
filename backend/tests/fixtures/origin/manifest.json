@@ -1,0 +1,508 @@
+{
+  "pages": {
+    "https://ec.europa.eu/taxation_customs/dds2/taric/meas_type_combo/meas_typ_combo_en_20261024.js": {
+      "file": "af91579fb5da315fa5cfc897.txt",
+      "sha256": "2a37b887d5f13cceb660ba6eb1a00a043a9f0dbfbbd01196d616c77d5e3cc8e6",
+      "fetched_at": "2026-10-24T21:33:04.437155+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=JP": {
+      "file": "7d84272689fb52155b1e9794.txt",
+      "sha256": "357587a551d8a1585d27e31435aafc6ea27463e35104cac151a7f22718a47dc4",
+      "fetched_at": "2026-10-24T21:27:58.431138+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=JP&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8ENADEIwxbi0ZAQYP%2fFWt29LFuyYLAdOvKMI5eFRijLww52OoHXZbt%2bbgWpTeX3bT0%2fM5rnEA8UFxRrEac%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "400f5e428a314ee613320721.txt",
+      "sha256": "6a5642a2f5453535bfe6cc7b4b54679e5a4157704db25f8fa965a5885186847e",
+      "fetched_at": "2026-10-24T21:27:58.996869+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3349242&Lang=en&SimDate=20261024": {
+      "file": "bb25bcb82cfddf94b000c8bc.txt",
+      "sha256": "b774a3b16c43d687692fd08f22bb0cdb4c30cbbe4cbf9897dd9460a59d55d425",
+      "fetched_at": "2026-10-24T21:29:13.847194+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4046886&Lang=en&SimDate=20261024": {
+      "file": "70cd712b3d9b9d79c6e09578.txt",
+      "sha256": "48fd9ada83b87bda842db4215d77ca8d954700d64aa6c2b1618f19c202d5208a",
+      "fetched_at": "2026-10-24T21:29:16.086351+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4046955&Lang=en&SimDate=20261024": {
+      "file": "d9fdc00771065ba847adf83e.txt",
+      "sha256": "094a1c0bcab031762f40366b7f40b5410fae9f30436ffbcde68bf1a0f2428e41",
+      "fetched_at": "2026-10-24T21:29:16.202946+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4161376&Lang=en&SimDate=20261024": {
+      "file": "0b7d7498561ea5c50d334e70.txt",
+      "sha256": "084a53951bd60b6db54684571d7e8740e1648d44de92bd9d24d75e75335f444c",
+      "fetched_at": "2026-10-24T21:29:16.097558+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3088482&Lang=en&SimDate=20261024": {
+      "file": "65fe201c18dbc5cd28c8ded5.txt",
+      "sha256": "cfb4ac46355c457e3acbcdfcaff771fefc28d50a239f9a0d3dd5cecf140c67f6",
+      "fetched_at": "2026-10-24T21:29:16.373171+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4143014&Lang=en&SimDate=20261024": {
+      "file": "539d987a95a1e601a6d3f630.txt",
+      "sha256": "b8882b4061784ddb0ce3fe76b7129ef99cbb981b9e658b760f0379f9ba7a4f49",
+      "fetched_at": "2026-10-24T21:29:18.917937+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403999890&Expand=true&Area=VN": {
+      "file": "6e2b1948fb3bb695457560d7.txt",
+      "sha256": "378baf3108788ff0a5a527df85764d6c4f1ac4d575f152c8647a75d431138071",
+      "fetched_at": "2026-10-24T21:28:07.161456+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6403999890&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNyrERADAIw8CFXAA2GPZfLCn1J0UxrkF15xi5myah6nHo%2b%2b74fkdyG%2fq%2fKdRtuQ4PoK0M1A%3d%3d&FrameId=taric_6403999890_0&Lang=en": {
+      "file": "791032305bc3fff200b97429.txt",
+      "sha256": "b91767064b826b106a2a1b2ddca60293bd9d07fd37492e30fd91af01b1853c96",
+      "fetched_at": "2026-10-24T21:28:07.672399+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3455167&Lang=en&SimDate=20261024": {
+      "file": "3accca162a73eccb74f397ab.txt",
+      "sha256": "8384528301991f6c8263d48d125343232e37bbdf4fa1c7212bd205a23d089ecb",
+      "fetched_at": "2026-10-24T21:33:12.471591+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023095&Lang=en&SimDate=20261024": {
+      "file": "932e78dbb38d5e2f0528f910.txt",
+      "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc",
+      "fetched_at": "2026-10-24T21:28:10.521838+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488679&Lang=en&SimDate=20261024": {
+      "file": "16d092ba6bb7951e2cde7b86.txt",
+      "sha256": "f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91",
+      "fetched_at": "2026-10-24T21:28:10.543711+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023734&Lang=en&SimDate=20261024": {
+      "file": "361d73d2f40e1cb23d701890.txt",
+      "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc",
+      "fetched_at": "2026-10-24T21:28:10.557229+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=KR": {
+      "file": "075b82d6dce3f210070f2cf8.txt",
+      "sha256": "2cd4f7834fcea199c9e8e2a7d614afb15c855eb06def127f91aa622a8d1baa6e",
+      "fetched_at": "2026-10-24T21:28:12.632309+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=KR&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwti8ENwEAIwxbiASQE2H%2bxQ1Vfli2ZoUDL6NSMLBcVHcYsDdqQDqGuU9LPLQO4yfy%2brXOf4ZwH4UF7FEsRpw%3d%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "b24c1230c5b95dbb2b05d896.txt",
+      "sha256": "36171331845b1b9be5cc7153585175d9d6737e48c971b690507d200e72987e01",
+      "fetched_at": "2026-10-24T21:28:13.174988+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=CA": {
+      "file": "de6eb90707eeb939e96394ab.txt",
+      "sha256": "2fd38444a96138363f0b934009ad9470621edc3d5912279484c8c9f6fab0facf",
+      "fetched_at": "2026-10-24T21:28:21.018939+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=CA&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8ENBEEIwxriASSE0H9jO7p7WbZklgqrYFK2og9TW8EeGRuYvWy%2fTknz500AvGb%2fvpvnadPPi8hifBbTEbM%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "5077569cb377719d79882431.txt",
+      "sha256": "01c5066bfee0ec91d14a6baedbb4d5ba7846bdd808b65cb9adee4a905cf9caac",
+      "fetched_at": "2026-10-24T21:28:21.565304+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=GB": {
+      "file": "a6da65590243d9806372e81b.txt",
+      "sha256": "743978a8a2e5f8c184d76af35bf2147b0159e3d38933ddb45044393ae458dec2",
+      "fetched_at": "2026-10-24T21:28:29.348303+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=GB&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8ENwEAIwxbiAUnIwf6L9dq%2bLFuyysXjUMozDiy7ToXQHp7gAMi3y3b%2f3A5SC%2bH7tq%2fnjOZ6iVmKBxSVEag%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "f9ac736ff2075c777d31a68b.txt",
+      "sha256": "ece9c327a7523f065a541dde733feb73f307cacb2542f7a27728a92029ebb04a",
+      "fetched_at": "2026-10-24T21:28:29.906071+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=CH": {
+      "file": "afe32fe9634871569b9dee7d.txt",
+      "sha256": "6c01ee602a30520617826705f8d2b11e8b66177ca75eb36e4ffbe3d00c79ee6d",
+      "fetched_at": "2026-10-24T21:28:37.328755+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=CH&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8ENwEAIwxbiQSAE2H%2bxQ%2b3LcSQTQraMTs3IYrPQMEZpsg2%2be%2bN%2bSqqfW5bJDcbXbZ37DOccTAftARcsEbU%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "b19c8f0916aa085157836d0d.txt",
+      "sha256": "d7af5650e5a398b7822a710f61c2cdc94eda979cc56af0ed00fe4ec253e7223b",
+      "fetched_at": "2026-10-24T21:28:37.888672+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=NO": {
+      "file": "e16f801bfd603f64931b2741.txt",
+      "sha256": "b2609b77126340ba7d6286f9744a57aa5a394d045a51d98d38af96cee33e2b21",
+      "fetched_at": "2026-10-24T21:28:45.417685+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=NO&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8ENBEEIwxriQUgI0H9jO7p7WbZkweA4lPKuo46NQajaywlWYvpel%2b3%2b8zpIXal%2b3%2fXz3NU%2bh5hQfBVDEaw%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "f0c5d110d691f92933855aa0.txt",
+      "sha256": "c90d7d4175463a3c3e9b1c7111651fba974f4b070395e1f2a0eab8ab52a349a7",
+      "fetched_at": "2026-10-24T21:28:45.980957+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3201759&Lang=en&SimDate=20261024": {
+      "file": "02ee6983574f316d7c3a463d.txt",
+      "sha256": "95e2e33de08262591619f0ca06d1cbc41d16c401283a8976c7cb8e8ae477b847",
+      "fetched_at": "2026-10-24T21:28:46.467773+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=TR": {
+      "file": "8c2fbd8b94cf02cf5e7fc43b.txt",
+      "sha256": "72e75caf613f20931ed3073daba5820b84b700e2a67f8199ff05df249f5f242a",
+      "fetched_at": "2026-10-24T21:28:53.766395+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=TR&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwli8kNAEEIwxriwRFC6L%2bxQbsvy5aMYNTQ4KBEy62OCUM2VWMp9qZfB8n%2buW1V2ER%2b3%2fa5S9B5oDxgDxZ6EbE%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "cd6399aa59d90fa8d27ccb31.txt",
+      "sha256": "1c4fa45f11850f4984b3d9977c78b38d0359079a1d7de791bb3b25e8edbb9445",
+      "fetched_at": "2026-10-24T21:28:54.355960+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403919800&Expand=true&Area=IN": {
+      "file": "6542dc2e61e31bd9ca6f88c3.txt",
+      "sha256": "22175bcd995bd6636d05eb05370c80db080070fc4bdc803b405b583a15555c40",
+      "fetched_at": "2026-10-24T21:29:01.896364+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6403919800&Area=IN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwdy7kRwEAMw8CGFOhI6mH%2fjVnjeAElmFbwJW0HVfV64q1ZcAjVk%2bfa7T7nyN7QfUP%2b3wIBL%2bb6D4wWEBg%3d&FrameId=taric_6403919800_0&Lang=en": {
+      "file": "b93f2f72b8f53abc0ec6623d.txt",
+      "sha256": "d6af9566d01aadf6410730e48310fd68e3605087c6989b447d742ecaf5b8993e",
+      "fetched_at": "2026-10-24T21:29:02.424139+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3103999&Lang=en&SimDate=20261024": {
+      "file": "a15b8f23a85fb2589a9ca5db.txt",
+      "sha256": "ecc3541bf55c760184b1ec1223812e649268e05ec6adc7a9f9bba858f8f9a51c",
+      "fetched_at": "2026-10-24T21:33:12.476097+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3103822&Lang=en&SimDate=20261024": {
+      "file": "3f948cc55c75981217076dae.txt",
+      "sha256": "ecc3541bf55c760184b1ec1223812e649268e05ec6adc7a9f9bba858f8f9a51c",
+      "fetched_at": "2026-10-24T21:33:12.650232+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488669&Lang=en&SimDate=20261024": {
+      "file": "0ecdc6b45bcbd87ad7990fdb.txt",
+      "sha256": "f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91",
+      "fetched_at": "2026-10-24T21:33:14.756780+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023094&Lang=en&SimDate=20261024": {
+      "file": "b1faf623b87ed7f32ce0a8d9.txt",
+      "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc",
+      "fetched_at": "2026-10-24T21:33:14.807209+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4023733&Lang=en&SimDate=20261024": {
+      "file": "769c85722b8e61f44362037d.txt",
+      "sha256": "37376e7ceaf3ffc60529f6855f1c68517f9032a70fb12dfefbd1022d5f4901cc",
+      "fetched_at": "2026-10-24T21:33:14.940932+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6203423100&Expand=true&Area=BD": {
+      "file": "794273cd18c57380e2585321.txt",
+      "sha256": "bab87884e9ee64d3871cfbb89158ec7b620f3357e33a2bdfede29bce80c29960",
+      "fetched_at": "2026-10-24T21:29:07.530620+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6203423100&Area=BD&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNysERADAIArCFeFgoovsv1n5z0SltC7r2McGEVcGlO8XvM95AscOF%2fk8H3GEP8QCf9AzY&FrameId=taric_6203423100_0&Lang=en": {
+      "file": "69604a0fa7f23dd00df4b3ae.txt",
+      "sha256": "6b3d1cdc5b9572de6e1632c351cccc4f50e00b663f89c806419edfe6b01db7f3",
+      "fetched_at": "2026-10-24T21:29:08.068028+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3455152&Lang=en&SimDate=20261024": {
+      "file": "9d742e89e87cef391f4a8032.txt",
+      "sha256": "8384528301991f6c8263d48d125343232e37bbdf4fa1c7212bd205a23d089ecb",
+      "fetched_at": "2026-10-24T21:29:08.569706+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3103767&Lang=en&SimDate=20261024": {
+      "file": "82ff9b229a5a9967c55afe8e.txt",
+      "sha256": "ecc3541bf55c760184b1ec1223812e649268e05ec6adc7a9f9bba858f8f9a51c",
+      "fetched_at": "2026-10-24T21:29:08.570626+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3103963&Lang=en&SimDate=20261024": {
+      "file": "5196dbd386701894d31bd78d.txt",
+      "sha256": "ecc3541bf55c760184b1ec1223812e649268e05ec6adc7a9f9bba858f8f9a51c",
+      "fetched_at": "2026-10-24T21:29:08.574260+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3488597&Lang=en&SimDate=20261024": {
+      "file": "efbd66e82b2107ac791aebc9.txt",
+      "sha256": "f20f91e10311f684bd5a32f1b2c52b0100ab8fc1b87189f9eeb853ec7dca3f91",
+      "fetched_at": "2026-10-24T21:29:10.816501+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8708999790&Expand=true&Area=CN": {
+      "file": "8e57f12e1de32b9463706b82.txt",
+      "sha256": "97b17394e78553d71e98142e4f540f2cccf010a92756a7841722bcbaca048530",
+      "fetched_at": "2026-10-24T21:29:12.786840+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=8708999790&Area=CN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwlyrENAEEIA8GGCDAYA%2f03dug%2fWo20hJAto1MzstgsNIxRmuwzJdXfLcvkBuP7t84%2bwzmD6aA9jkAQFQ%3d%3d&FrameId=taric_8708999790_0&Lang=en": {
+      "file": "6cbcbea323993117ee5dfa16.txt",
+      "sha256": "0605a83d827fa1f2d6ebd4b836ccc938d00f83b8073c7dec83f23cfe39a36648",
+      "fetched_at": "2026-10-24T21:29:13.352005+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=1604142800&Expand=true&Area=VN": {
+      "file": "0c0cc4b896b9ed7887422cc2.txt",
+      "sha256": "17b4ba1329bbff0c279fae608fea0bbedac174d25f30bb01472110229343e3fb",
+      "fetched_at": "2026-10-24T21:29:21.168623+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1604142800&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwNx8ERADAIArCFfFBBxf0Xq69caHclggJfIZS16RPTq71DBM%2f04MUH6p0Jhg%3d%3d&FrameId=taric_1604142800_0&Lang=en": {
+      "file": "03b348c0063f5c5e603242a9.txt",
+      "sha256": "28d83e556064a5e6879746455b3da973d3dad54a450e736895e8969207c15580",
+      "fetched_at": "2026-10-24T21:29:21.698300+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4228701&Lang=en&SimDate=20261024": {
+      "file": "31ebc7652f324eda2baa6673.txt",
+      "sha256": "1ec934a52208caa006d2b179d241954225648de2d8f55bfb3b83eb7d79ab31e7",
+      "fetched_at": "2026-10-24T21:29:24.429529+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886520&Lang=en&SimDate=20261024": {
+      "file": "2e6c31384c9cb001c0606ade.txt",
+      "sha256": "2ba1f5cdcd3073299df534aa9c6cb0a93eab57fca738cef05f51478caba96bf4",
+      "fetched_at": "2026-10-24T21:29:24.490600+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4076949&Lang=en&SimDate=20261024": {
+      "file": "32c54dd1f146de4c6098ba6c.txt",
+      "sha256": "3ea160450506d3008cc92ba3bea0fa176ded952cf3aa6fa70fa2dc0425f0e95f",
+      "fetched_at": "2026-10-24T21:29:24.528364+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=1108140000&Expand=true&Area=VN": {
+      "file": "d58a66872bde3ec9c34c72c4.txt",
+      "sha256": "772afb908dc9641c4b3d0a2ceb7a4bf22f9f5d1bef1e7968eaa508a49dc1a1c2",
+      "fetched_at": "2026-10-24T21:33:04.805464+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=1108140000&Area=VN&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJw9x7ERADAIAsCFLBAh6v6LJVWqv6%2bZo3IQhqUQvWyHsrMW7%2bn%2b8gkVMi4%2fswsh&FrameId=taric_1108140000_0&Lang=en": {
+      "file": "d2a7e7c5d0b213cb70b6a86a.txt",
+      "sha256": "c0cff2edef38268cab37eaad83080e7384d7e644b356c52ee72fb55208560e9b",
+      "fetched_at": "2026-10-24T21:33:05.333058+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=4171390&Lang=en&SimDate=20261024": {
+      "file": "c808dd96c620b419ed82bfb0.txt",
+      "sha256": "bc3acfc2adbca3ac0f1d6c2e4d661f31c3f5f7717249c22ff67f943aad5a7d2b",
+      "fetched_at": "2026-10-24T21:33:08.152340+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_conditions.jsp?MeasureSid=3886435&Lang=en&SimDate=20261024": {
+      "file": "a773c7ebc0214f8b507a4b70.txt",
+      "sha256": "2ba1f5cdcd3073299df534aa9c6cb0a93eab57fca738cef05f51478caba96bf4",
+      "fetched_at": "2026-10-24T21:33:08.233475+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6403919800&Expand=true&Area=PK": {
+      "file": "38bbad0ce061e03df8675c4d.txt",
+      "sha256": "d35dab8fd0f15f0ff42fe1dc6e34f9aa4ea7fa4f552c158e0c056d335efd6182",
+      "fetched_at": "2026-10-24T21:33:11.449285+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/measures_details.jsp?AdditionalCode=&MeasText=&DomainName=TARIC&Lang=en&PageName=TARIC+Measures+Information&Offset=0&Taric=6403919800&Area=PK&GoodsText=&LangDescr=&callbackuri=CBU-0&SimDate=20261024&Expand=true&ShowMatchingGoods=&Domain=TARIC&ExpandAll=&DomainNameLink=taric_consultation.jsp&Sid=eJwdy7kBAEEIw8CGCMDmc%2f%2bNLXexRumgK43hlGTMquixWLEgS1SPX8%2fd7uv8ZFveN%2bT%2fLWDQYs4%2fiXUQAA%3d%3d&FrameId=taric_6403919800_0&Lang=en": {
+      "file": "56694d98274359aace2626ba.txt",
+      "sha256": "becb6e69191454f415d8f98a868160a359c8739892b85442ed724695360209ce",
+      "fetched_at": "2026-10-24T21:33:11.974381+00:00"
+    }
+  },
+  "http": {
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/JP/destination/FI?direction=IMPORT&variant=1": {
+      "file": "5611900be8018d0ee97756fe.txt",
+      "sha256": "7658ea37fcbe8499ed9b3c2e096b28590155a4341ac75e7e364e1c63c0eb5029",
+      "fetched_at": "2026-10-24T21:28:05.732583+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/JP/direction/import": {
+      "file": "bf1eb0e916a72aee45cf9e42.txt",
+      "sha256": "20e86321542689c1ec1cab186425b7a33995ea985b9a1787c3c08e8e22be6125",
+      "fetched_at": "2026-10-24T21:28:06.335010+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/640399/origin/VN/destination/FI?direction=IMPORT&variant=1": {
+      "file": "80e2951f455f69307d7cb756.txt",
+      "sha256": "3132acf88d5375ad94cd7093c6216b647b2404ef22f92b3be51a61802635aedd",
+      "fetched_at": "2026-10-24T21:28:11.225384+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/VN/direction/import": {
+      "file": "1d1e1f994a68846fccd48a40.txt",
+      "sha256": "f020c9792cc6b5166f8f99e2b1f2a9db67d979812009b6ab161e242e6165dd70",
+      "fetched_at": "2026-10-24T21:33:09.538600+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/KR/destination/FI?direction=IMPORT&variant=1": {
+      "file": "ba9386727fa8e81506eccebe.txt",
+      "sha256": "c023aa018948de9fa97c412a5e84ae1becd1ca1afd65655b403802c7c28d567c",
+      "fetched_at": "2026-10-24T21:28:19.167706+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/KR/direction/import": {
+      "file": "1e82f66743934215b2e9b5ca.txt",
+      "sha256": "e89e5a0ec4d38ea31aeb993578c85c9cf39a976219c59d58005a3dd7f943a6e9",
+      "fetched_at": "2026-10-24T21:28:20.178067+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/CA/destination/FI?direction=IMPORT&variant=1": {
+      "file": "376581489f5412f28901fbbf.txt",
+      "sha256": "d7b20b89227966f6cbd21edf3d64b8f023337eb5cf3361e0c72f95d8afc7976d",
+      "fetched_at": "2026-10-24T21:28:27.964556+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/CA/direction/import": {
+      "file": "7196a017a7dacc78911f877f.txt",
+      "sha256": "27de89ac977a15dba0b8d3fbdbdf795bdb7e45af5cc688ad450d3fee75bf93b0",
+      "fetched_at": "2026-10-24T21:28:28.509115+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/GB/destination/FI?direction=IMPORT&variant=1": {
+      "file": "6ff4383739f1f164c8e951fe.txt",
+      "sha256": "33c7344590c3e933e4ea5caf0e04528fb430696987769c58a8b9fb10a78e9d27",
+      "fetched_at": "2026-10-24T21:28:36.098689+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/GB/direction/import": {
+      "file": "f06bd97708d73e73f53aa5bf.txt",
+      "sha256": "0a6f3b8715070d6d9a6957575e9585c8f1991704acadc19e0e8ed06f2bc7e2de",
+      "fetched_at": "2026-10-24T21:28:36.634962+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/CH/destination/FI?direction=IMPORT&variant=1": {
+      "file": "cf927b2d443eb3ab18f01be3.txt",
+      "sha256": "9ebac6c9b2ce20b1127761e8fa70ddd3b3bfd3c6cadad626794a1f0fd7bf6d7e",
+      "fetched_at": "2026-10-24T21:28:44.060820+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/CH/direction/import": {
+      "file": "34da765a2c383cabe3fdb5ed.txt",
+      "sha256": "c3ee027c0dd8d5869828cbea6172170313a73067e50715d3a7a1d7c55939ef85",
+      "fetched_at": "2026-10-24T21:28:44.595912+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/NO/destination/FI?direction=IMPORT&variant=1": {
+      "file": "dc1a96afb9b8f05117702241.txt",
+      "sha256": "0baea48f46fb4bbd37c7c43196a91d4132772918e9542e1efc37fcca0113d0d1",
+      "fetched_at": "2026-10-24T21:28:52.428778+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/NO/direction/import": {
+      "file": "d2d6c40177c74994bdb096fa.txt",
+      "sha256": "40270d095e987821566c0cd2e71a9dd4dcc2aeccfebb034801079a63ace6f4a0",
+      "fetched_at": "2026-10-24T21:28:52.960660+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/TR/destination/FI?direction=IMPORT&variant=1": {
+      "file": "e1451b1255a290103e85b5f9.txt",
+      "sha256": "f1682d404c7194c407305928c817c90aa57c22deb050a24488b415513dd1bca9",
+      "fetched_at": "2026-10-24T21:29:00.526097+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/TR/direction/import": {
+      "file": "1e57deefcf5a590d4e807028.txt",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fetched_at": "2026-10-24T21:29:01.061541+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/640391/origin/IN/destination/FI?direction=IMPORT&variant=1": {
+      "file": "0b333f27049e225b363fc1ec.txt",
+      "sha256": "1913ebea3a7116ce928d63c3df2980b8d7ad71e436032273b5d7e23d1180984d",
+      "fetched_at": "2026-10-24T21:29:06.186153+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/IN/direction/import": {
+      "file": "76c45dd10cd542b49baa8437.txt",
+      "sha256": "ddadf89ac390db86d72d19c61065e6ecb0da7476a8c829d4aa0da990b909a219",
+      "fetched_at": "2026-10-24T21:29:06.712283+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/620342/origin/BD/destination/FI?direction=IMPORT&variant=1": {
+      "file": "d0df280e65271dbf82c608f8.txt",
+      "sha256": "b66bf1794861006658f7b7156c47b77fdecad43800539ef82ee01d0abac14056",
+      "fetched_at": "2026-10-24T21:29:11.402507+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/BD/direction/import": {
+      "file": "7622787be8ce66cb92bb716f.txt",
+      "sha256": "5e41e8b0e91e58f81a852c4947b3e24bdcd551d57d26c54789ba9018e66a61f1",
+      "fetched_at": "2026-10-24T21:29:11.944517+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/870899/origin/CN/destination/FI?direction=IMPORT&variant=1": {
+      "file": "61d3090e6440c7af313e0cf5.txt",
+      "sha256": "f1682d404c7194c407305928c817c90aa57c22deb050a24488b415513dd1bca9",
+      "fetched_at": "2026-10-24T21:29:19.474626+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/CN/direction/import": {
+      "file": "55ce39f23e3136117c2b30a9.txt",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fetched_at": "2026-10-24T21:29:20.350433+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/160414/origin/VN/destination/FI?direction=IMPORT&variant=1": {
+      "file": "b66c7ce2c2b0badcbd81b7fe.txt",
+      "sha256": "7c476baab95b7630a6865c65babba5c73e75d1dbb04e4af594e01c19d26a1e30",
+      "fetched_at": "2026-10-24T21:29:25.105765+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/quota_list.jsp?Lang=en&Origin=&Code=098204&Year=2026&Status=&Critical=&Expand=true&Offset=0": {
+      "file": "7c39c314c9d54cae3fb076bf.txt",
+      "sha256": "6f4893cb86051b3e7110f695bbf225c97cbde190e33382a201cd1a68852aa25f",
+      "fetched_at": "2026-10-24T21:29:25.642942+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/quota_tariff_details.jsp?Lang=en&StartDate=2026-01-01&Code=098204": {
+      "file": "fc1281151d56bbcd33eff2f6.txt",
+      "sha256": "42122e614d2818e5e248878b255de37f55d465a29a3abb0e353aae7cd5f7d4f2",
+      "fetched_at": "2026-10-24T21:29:26.167864+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/eos/rex_list.jsp?Lang=en&Number=CHREX000018&Type=REX": {
+      "file": "748e3dd67017dabe9d84ff37.txt",
+      "sha256": "089085c7a8a27bba921901a6e6991c2f43adadc811e8e10ab11060f557281681",
+      "fetched_at": "2026-10-24T21:33:16.918029+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/eos/rex_list.jsp?Lang=en&Number=CHREX000007&Type=REX": {
+      "file": "1f2676129f41de21900ffaf6.txt",
+      "sha256": "78e0f504e2bef688a3b882d3841ac406038fd8ea8124fb84af704147d26bf306",
+      "fetched_at": "2026-10-24T21:33:17.725100+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/110814/origin/VN/destination/FI?direction=IMPORT&variant=1": {
+      "file": "27a84e2a54e48d4a3aee70cf.txt",
+      "sha256": "f6f781a8d6588868cd8291879499c8d4b5187c366505502c0d78dd950f9038d8",
+      "fetched_at": "2026-10-24T21:33:08.931197+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/quota_list.jsp?Lang=en&Origin=&Code=098203&Year=2026&Status=&Critical=&Expand=true&Offset=0": {
+      "file": "c709101c69a4481d0a3d15a5.txt",
+      "sha256": "0a48e101be1a9f418e4541fc331d332b9dc22a36ba5797d29f19efc1678c01b0",
+      "fetched_at": "2026-10-24T21:33:10.080386+00:00"
+    },
+    "https://ec.europa.eu/taxation_customs/dds2/taric/quota_tariff_details.jsp?Lang=en&StartDate=2026-01-01&Code=098203": {
+      "file": "2a68b5953da02c1de7d0de1d.txt",
+      "sha256": "d4e0021da947c69999f35dd7e4ea7144dd2948372af3b935991a84ad1cdfa470",
+      "fetched_at": "2026-10-24T21:33:10.626152+00:00"
+    },
+    "https://trade.ec.europa.eu/access-to-markets/rosa/productSpecificRules/lang/EN/product/640391/origin/PK/destination/FI?direction=IMPORT&variant=1": {
+      "file": "958bb06c1676d5847054f503.txt",
+      "sha256": "5ad672dcb50f7d99003cfb511b864b74ebbe26895e62f59cca92448fc07222b0",
+      "fetched_at": "2026-10-24T21:33:15.564860+00:00"
+    },
+    "https://webgate.ec.europa.eu/roo/public/v1/rules/getVariantsFromDataset/country/EU/partner/PK/direction/import": {
+      "file": "9418c49450c88fe6fad4fa37.txt",
+      "sha256": "ddadf89ac390db86d72d19c61065e6ecb0da7476a8c829d4aa0da990b909a219",
+      "fetched_at": "2026-10-24T21:33:16.101888+00:00"
+    }
+  },
+  "cases": [
+    {
+      "code": "8708999790",
+      "country": "JP",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "6403999890",
+      "country": "VN",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "KR",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "CA",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "GB",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "CH",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "NO",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "TR",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "6403919800",
+      "country": "IN",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "6203423100",
+      "country": "BD",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "8708999790",
+      "country": "CN",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "1604142800",
+      "country": "VN",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "1108140000",
+      "country": "VN",
+      "date": "2026-10-24"
+    },
+    {
+      "code": "6403919800",
+      "country": "PK",
+      "date": "2026-10-24"
+    }
+  ]
+}

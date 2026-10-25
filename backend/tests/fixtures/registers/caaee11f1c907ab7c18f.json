@@ -1,0 +1,22 @@
+{
+  "isValid" : true,
+  "requestDate" : "2026-10-24T23:43:27.684Z",
+  "userError" : "VALID",
+  "name" : "Helios One Oy",
+  "address" : "c/oVictor Ocampo Servin Maijan tie 10 B 19\n02150 ESPOO",
+  "requestIdentifier" : "",
+  "originalVatNumber" : "35966235",
+  "vatNumber" : "35966235",
+  "viesApproximate" : {
+    "name" : "---",
+    "street" : "---",
+    "postalCode" : "---",
+    "city" : "---",
+    "companyType" : "---",
+    "matchName" : 3,
+    "matchStreet" : 3,
+    "matchPostalCode" : 3,
+    "matchCity" : 3,
+    "matchCompanyType" : 3
+  }
+}

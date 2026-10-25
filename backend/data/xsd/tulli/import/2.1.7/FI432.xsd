@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/import/ext/v3" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/import/ext/v3" version="3.0.37" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Presentation of goods</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI432">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_1_22">
+        <xs:annotation>
+          <xs:documentation>LRN</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="FunctionalReference" type="FunctionalReference_287">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Agent" type="Representative_905">
+        <xs:annotation>
+          <xs:documentation>Representative</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Declarant" type="Declarant_966">
+        <xs:annotation>
+          <xs:documentation>Declarant</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="GoodsShipment" type="GoodsShipment_929">
+        <xs:annotation>
+          <xs:documentation>Goods shipment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="PresentationOffice" type="CustomsOfficeOfPresentation_242">
+        <xs:annotation>
+          <xs:documentation>Customs Office Of Presentation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI432B" type="FI432">
+    <xs:annotation>
+      <xs:documentation>Presentation of goods</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+// Contract template: applicability and company-specific annex must be agreed before processing.
+const section = (id, title, ...paragraphs) => ({ id, title, blocks: paragraphs.map(p => ({ p })) });
+export default {
+ en: [
+  section('scope', 'Parties and scope',
+   'These data processing terms apply only where the customer instructs Huolitsija to process personal data on its behalf. They become binding when incorporated into an agreement identifying both legal parties and the processing annex. Publication alone does not conclude that agreement. Obtain the completed agreement from [Company contact](/company#contact).',
+   'Huolitsija acts as a separate controller for its own statutory customs, accounting, fraud prevention and customer administration purposes as described in the [Privacy policy](/privacy). A carrier or authority acting for its own legal purposes is not automatically a subprocessor.'),
+  section('annex', 'Processing annex',
+   'The signed order must identify the customer and provider, contacts, instructions, start and end dates, permitted processing locations, approved subprocessors and transfers, security measures, retention and deletion schedule. Missing incorporation or annex details must be resolved before this processing starts.',
+   'The proposed service is handling shipment contact records and customer documents: receipt, storage, extraction, preparation, transmission and retrieval for the contracted logistics service. Data may include names, business contact details, delivery addresses, shipment references and correspondence relating to customer staff, senders, recipients and carrier contacts. Special-category data and criminal records are excluded unless separately assessed and expressly agreed.'),
+  section('instructions', 'Instructions and confidentiality',
+   'Huolitsija shall process these data only under recorded customer instructions, including instructions for international transfers, unless law requires otherwise. It shall notify the customer of such a legal requirement where permitted and promptly flag an instruction it considers unlawful. Access shall be restricted to authorised persons bound by confidentiality.'),
+  section('security', 'Security and incidents',
+   'The parties shall agree risk-appropriate safeguards covering access, encryption, recovery, testing and incident response. Huolitsija shall notify the customer without undue delay after learning of a personal data breach and provide available facts, consequences, mitigation and a contact, with updates as investigation proceeds. This is a contractual obligation, not a claim of certification.'),
+  section('subprocessors', 'Subprocessors and transfers',
+   'Only subprocessors authorised in writing may be used. With general authorisation, proposed additions or replacements must be notified before engagement, allowing a reasonable opportunity to object. Equivalent protection must bind each subprocessor; Huolitsija remains responsible for its performance. The completed annex must name actual entities, activities, locations and applicable transfer safeguards. The privacy recipient list is not a substitute for that annex.'),
+  section('assistance', 'Assistance, audit and end of service',
+   'Huolitsija shall assist with rights requests, security obligations, breach notifications, impact assessments and supervisory consultations, taking account of the processing and available information. It shall provide compliance evidence and permit reasonable audits and inspections. At the customer’s choice, data shall be returned or deleted when processing ends, including copies, except legally required retention; retained data remain protected and restricted.'),
+  section('contact', 'Agreement and contact',
+   'Record the agreed annex and this version with the signed service agreement. These terms govern processor obligations where they conflict with general service wording, subject to mandatory law. Questions and completed annex requests: [Privacy contact](/company#contact). Legal reference: [GDPR Article 28](https://eur-lex.europa.eu/eli/reg/2016/679/oj).')
+ ],
+ fi: [
+  section('scope', 'Osapuolet ja soveltamisala',
+   'Näitä henkilötietojen käsittelyehtoja sovelletaan vain, kun asiakas antaa Huolitsijalle tehtäväksi käsitellä henkilötietoja puolestaan. Ehdot sitovat, kun ne liitetään sopimukseen, jossa yksilöidään molemmat oikeushenkilöt ja käsittelyliite. Pelkkä julkaiseminen ei tee sopimusta. Pyydä täydennetty sopimus [yrityksen yhteyshenkilöltä](/company#contact).',
+   'Huolitsija toimii erillisenä rekisterinpitäjänä omissa lakisääteisissä tulli- ja kirjanpitotehtävissään sekä petosten torjunnassa ja asiakashallinnassa [tietosuojaselosteen](/privacy) mukaisesti. Omia lakisääteisiä tarkoituksiaan toteuttava kuljettaja tai viranomainen ei automaattisesti ole alikäsittelijä.'),
+  section('annex', 'Käsittelyliite',
+   'Allekirjoitetussa tilauksessa yksilöidään asiakas ja palveluntarjoaja, yhteyshenkilöt, ohjeet, alkamis- ja päättymispäivät, sallitut käsittelypaikat, hyväksytyt alikäsittelijät ja siirrot, turvatoimet sekä säilytys- ja poistoaikataulu. Puuttuvat rekisteröinti- tai liitetiedot on täydennettävä ennen tämän käsittelyn aloittamista.',
+   'Ehdotettu palvelu on lähetyksen yhteystietojen ja asiakkaan asiakirjojen vastaanotto, säilytys, tietojen poiminta, valmistelu, välitys ja haku sovittua logistiikkapalvelua varten. Tietoihin voi kuulua asiakkaan työntekijöiden, lähettäjien, vastaanottajien ja kuljettajien yhteyshenkilöiden nimiä, työyhteystietoja, toimitusosoitteita, lähetysviitteitä ja kirjeenvaihtoa. Erityiset henkilötietoryhmät ja rikostiedot eivät kuulu palveluun ilman erillistä arviointia ja nimenomaista sopimusta.'),
+  section('instructions', 'Ohjeet ja salassapito',
+   'Huolitsija käsittelee tietoja vain asiakkaan dokumentoitujen ohjeiden mukaisesti, myös kansainvälisissä siirroissa, ellei laki edellytä muuta. Se ilmoittaa tällaisesta lakisääteisestä vaatimuksesta, kun se on sallittua, ja ilmoittaa viipymättä lainvastaisena pitämästään ohjeesta. Pääsy rajataan salassapitoon sitoutuneille valtuutetuille henkilöille.'),
+  section('security', 'Tietoturva ja tietoturvaloukkaukset',
+   'Osapuolet sopivat riskiin suhteutetuista käyttöoikeus-, salaus-, palautus-, testaus- ja poikkeamamenettelyistä. Huolitsija ilmoittaa henkilötietojen tietoturvaloukkauksesta asiakkaalle ilman aiheetonta viivytystä saatuaan siitä tiedon ja toimittaa saatavilla olevat tiedot, seuraukset, korjaavat toimet ja yhteyshenkilön sekä täydentää tietoja selvityksen edetessä. Kyseessä on sopimusvelvoite, ei väite sertifioinnista.'),
+  section('subprocessors', 'Alikäsittelijät ja siirrot',
+   'Vain kirjallisesti hyväksyttyjä alikäsittelijöitä saa käyttää. Yleisvaltuutuksessa lisäyksistä tai vaihdoista ilmoitetaan etukäteen ja asiakkaalle annetaan kohtuullinen mahdollisuus vastustaa muutosta. Vastaavat tietosuojavelvoitteet sitovat alikäsittelijää; Huolitsija vastaa sen suorituksesta. Täydennetyssä liitteessä nimetään oikeat oikeushenkilöt, tehtävät, sijainnit ja sovellettavat siirtosuojat. Tietosuojaselosteen vastaanottajaluettelo ei korvaa liitettä.'),
+  section('assistance', 'Avustaminen, tarkastukset ja palvelun päättyminen',
+   'Huolitsija avustaa rekisteröityjen pyynnöissä, tietoturvavelvoitteissa, loukkausilmoituksissa, vaikutustenarvioinneissa ja viranomaiskuulemisissa käsittelyn luonne ja käytettävissä olevat tiedot huomioiden. Se antaa näyttöä vaatimusten noudattamisesta ja sallii kohtuulliset auditoinnit ja tarkastukset. Käsittelyn päättyessä tiedot ja kopiot palautetaan tai poistetaan asiakkaan valinnan mukaan, paitsi lain edellyttämä aineisto, joka säilytetään suojattuna ja rajoitetussa käytössä.'),
+  section('contact', 'Sopimus ja yhteystiedot',
+   'Tallenna sovittu liite ja tämä versio allekirjoitetun palvelusopimuksen yhteyteen. Nämä ehdot ovat käsittelijän velvoitteissa ensisijaisia suhteessa yleisiin palveluehtoihin pakottava laki huomioiden. Kysymykset ja liitepyynnöt: [tietosuojan yhteyshenkilö](/company#contact). Oikeuslähde: [GDPR 28 artikla](https://eur-lex.europa.eu/eli/reg/2016/679/oj).')
+ ]
+};

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FI416B xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tulli.fi/schema/external/import/ext/v3" xsi:schemaLocation="http://tulli.fi/schema/external/import/ext/v3 eFI416B.xsd">
+  <Identification>20091410301500</Identification>
+  <FunctionalReference function="LRN">OMA VIITE</FunctionalReference>
+  <Language>fi</Language>
+  <Notification>
+    <Type>HYL</Type>
+    <Notification>2020-09-14T10:33:14.3920616+03:00</Notification>
+    <Text>Edeltävän asiakirjan tilan automaattisessa tarkistuksessa tapahtui virhe. Yritä ilmoituksen lähettämistä uudelleen tai ota yhteyttä Tullin neuvontapalveluihin.</Text>
+    <Error>
+      <Code>RuleViolation</Code>
+      <Reason>NR1305</Reason>
+      <Pointer>
+        <Location>/FI475A/GoodsShipment/GovernmentAgencyGoodsItem[1]/PreviousDocument[1]</Location>
+      </Pointer>
+      <OriginalValue>Declaration ID: 20FIUKJML000000AT2; Item Nr.: 1</OriginalValue>
+    </Error>
+  </Notification>
+</FI416B>

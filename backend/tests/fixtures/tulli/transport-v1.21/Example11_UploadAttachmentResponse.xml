@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:v0="http://tulli.fi/ws/corporateservice/v1" xmlns:v1="http://tulli.fi/ws/corporateservicetypes/v1">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<v0:UploadAttachmentResponse>
+			<v1:ResponseHeader>
+				<v1:IntermediaryBusinessId>FI9991026-5</v1:IntermediaryBusinessId>
+				<v1:Timestamp>2018-05-24T11:02:49+03:00</v1:Timestamp>
+				<v1:ResponseCode>000</v1:ResponseCode>
+				<v1:ResponseText>OK</v1:ResponseText>
+				<v1:TransactionId>1-20180524-110249-48593197</v1:TransactionId>
+			</v1:ResponseHeader>
+			<v1:AttachmentRequestMessageInformation>
+				<v1:MessageStorageId>ELEX2018052407505819E8B12</v1:MessageStorageId>
+				<v1:ControlReference>39db440e2f2f46</v1:ControlReference>
+				<v1:RelatedMessageStorageId>ELEX2018052407505819E8B11</v1:RelatedMessageStorageId>
+				<v1:Application>ELEX</v1:Application>
+				<v1:DeclarantBusinessId>FI9991026-5</v1:DeclarantBusinessId>
+			</v1:AttachmentRequestMessageInformation>
+		</v0:UploadAttachmentResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

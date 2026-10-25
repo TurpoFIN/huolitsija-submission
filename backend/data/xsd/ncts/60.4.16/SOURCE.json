@@ -1,0 +1,9 @@
+{
+ "set": "NCTS phase 6 XML schemas (DDNTA 6.4.1-v1.00 SfA, Appendix X)",
+ "xsd_version": "60.4.16",
+ "archive_url": "https://www.tullverket.se/download/18.6967fe101964058a61b7a007/1752650865809/DDNTA_APP_X_6.4.1-v1.00(SfA).7z",
+ "archive_page": "https://www.tullverket.se/foretag/ansokochdeklarera/deklareradigitalt/ediforsystemutvecklare/editekniskaspecifikationer/sctsnctsfas6.4.72334712192df55a6c0789b3.html",
+ "archive_sha256": "46a350e57fcb90b7ea4ad3dab1ac245cb5fda76058f0fdc3fbca9837179d5e19",
+ "archive_bytes": 90938,
+ "fetched_at": "2026-10-24T19:31:08+00:00"
+}

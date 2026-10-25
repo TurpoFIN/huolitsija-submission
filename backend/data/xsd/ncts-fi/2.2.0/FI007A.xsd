@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/transit/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/transit/ext/v1" version="1.0.138" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Arrival notification</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI007A">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_1_14">
+        <xs:annotation>
+          <xs:documentation>Case identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="FunctionalReference" type="FunctionalReference_895">
+        <xs:annotation>
+          <xs:documentation>FunctionalReference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_720">
+        <xs:annotation>
+          <xs:documentation>Language Code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Issue" type="datetime_unlimited">
+        <xs:annotation>
+          <xs:documentation>Arrival notification date and time</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="FollowingProcedure" type="FollowingProcedure_044">
+        <xs:annotation>
+          <xs:documentation>FollowingProcedure</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="SealCondition" type="byte_between_0_2">
+        <xs:annotation>
+          <xs:documentation>Seal condition</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DestinationTrader" type="DestinationTrader_482">
+        <xs:annotation>
+          <xs:documentation>Trader of destination</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ServiceProvider" type="ServiceProvider_056">
+        <xs:annotation>
+          <xs:documentation>Service provider</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Submitter" type="Submitter_545">
+        <xs:annotation>
+          <xs:documentation>Submitter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="9" name="Authorisation" type="Authorisation_555">
+        <xs:annotation>
+          <xs:documentation>Authorisation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Consignment" type="Consignment_430">
+        <xs:annotation>
+          <xs:documentation>Consignment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI007A" type="FI007A">
+    <xs:annotation>
+      <xs:documentation>Arrival notification</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

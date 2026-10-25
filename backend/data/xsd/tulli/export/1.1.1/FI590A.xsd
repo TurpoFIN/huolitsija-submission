@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tulli.fi/schema/external/export/ext/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tulli.fi/schema/external/export/ext/v1" version="1.0.90" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="types_.xsd" />
+  <xs:annotation>
+    <xs:documentation>Exit Notification</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="FI590A">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identification" type="chars_1_14">
+        <xs:annotation>
+          <xs:documentation>Case identification</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="2" name="FunctionalReference" type="FunctionalReference_407">
+        <xs:annotation>
+          <xs:documentation>Functional reference</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Exit" type="datetime_unlimited">
+        <xs:annotation>
+          <xs:documentation>Exit date and time</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Language" type="chars_2_2_regex_864">
+        <xs:annotation>
+          <xs:documentation>Language code</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Agent" type="Representative_061">
+        <xs:annotation>
+          <xs:documentation>Representative</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="ServiceProvider" type="ServiceProvider_056">
+        <xs:annotation>
+          <xs:documentation>Service provider</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Submitter" type="Submitter_072">
+        <xs:annotation>
+          <xs:documentation>Submitter</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Consignment" type="Consignment_786">
+        <xs:annotation>
+          <xs:documentation>Consignment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="ExitOffice" type="ExitOffice_289">
+        <xs:annotation>
+          <xs:documentation>Customs office of exit</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FI590A" type="FI590A">
+    <xs:annotation>
+      <xs:documentation>Exit Notification</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>
